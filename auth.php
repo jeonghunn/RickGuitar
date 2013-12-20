@@ -1,0 +1,73 @@
+<? if(!defined("642979")) exit();
+
+//Information : auth_value is value
+
+//Connect to DB
+ 	mysql_select_db('favorite',$db_conn);
+
+
+//Make a Auth code string
+ 	     function GenerateString($length)  
+    {  
+        $characters  = "0123456789";  
+        $characters .= "abcdefghijklmnopqrstuvwxyz";  
+        $characters .= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";  
+          
+        $string_generated = "";  
+          
+        $nmr_loops = $length;  
+        while ($nmr_loops--)  
+        {  
+            $string_generated .= $characters[mt_rand(0, strlen($characters))];  
+        }  
+          
+        return $string_generated;  
+    }  
+
+ function MakeAuthCode($auth_value, $category)  {
+    global $date, $REMOTE_ADDR;
+
+    //IF auth code already... Delete!
+      $deletesql ="DELETE FROM `auth` WHERE `value` = '$auth_value'";
+            $deleteresult = mysql_query($deletesql);
+
+
+    //Auth Code Reulst
+    $auth_code_result = GenerateString(15);  
+
+
+    //Add to Auth Information to Server
+            $sql ="INSERT INTO `auth` (`key`, `value`, `category`, `date`, `ipaddr`) VALUES ('$auth_code_result', '$auth_value', '$category', '$date', '$REMOTE_ADDR');";
+            $result = mysql_query($sql);
+
+            return $auth_code_result;
+
+        }
+
+        function AuthCheck($auth_key, $delete) {
+        	//Auth_key is value of authcode
+        $sql ="SELECT * FROM  `auth` WHERE  `key` LIKE '$auth_key'";
+        $result = mysql_query($sql);
+        $row=mysql_fetch_array($result);
+
+        $value = $row[value];
+//IF delete true, delete auth key
+       if($delete == true){
+        	  $deletesql ="DELETE FROM `auth` WHERE `key` = '$auth_key'";
+            $deleteresult = mysql_query($deletesql);
+      }
+
+        return $value;
+
+        }
+
+        function FindAuthCode($value, $category)  {
+        $sql ="SELECT * FROM  `auth` WHERE  `value` LIKE '$value' AND  `category` LIKE '$category'";
+        $result = mysql_query($sql);
+        $row=mysql_fetch_array($result);
+//Return key
+        return $row[key];
+        }
+
+  
+?>
