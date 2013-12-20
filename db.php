@@ -5,7 +5,10 @@
     //ip
 $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 //url
-$nowurl = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; 
+//$nowurl = "http://" . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]; 
+$nowurl = $_SERVER["REQUEST_URI"]; 
+//user agent
+$useragent = $_SERVER['HTTP_USER_AGENT'];
 //today/time
 $date = strtotime(date('Y-m-d H:i:s'));
 
