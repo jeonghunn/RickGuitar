@@ -2,13 +2,16 @@
 
 $authcode = $_POST['authcode'];
 $user_srl = addslashes($_POST['user_srl']);
+$user_srl_auth = addslashes($_POST['user_srl_auth']);
 $lang = addslashes($_POST['lang']);
 
 define('642979',   TRUE);
 require '../db.php';
 //mysql_select_db('favorite',$db_conn);
 
-
+//Auth code to user_srl
+require '../auth.php';
+$user_srl = AuthCheck($user_srl_auth, false);
 
 // Save user info
    $add_info_to_system ="UPDATE `user` SET  `lang` = '$lang' ,`ip_addr` = '$REMOTE_ADDR' WHERE `user_srl` = $user_srl";

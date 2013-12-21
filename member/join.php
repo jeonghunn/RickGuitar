@@ -69,7 +69,8 @@ $result_number = $number_row[user] + 1;
             $sql ="INSERT INTO `user` (`user_srl`, `tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `permission`, `join_day`, `reg_id`) VALUES ('$result_number', '$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '3', '$date', '$reg_id');";
             $result = mysql_query($sql);
             
-            echo $result_number;
+            $auth_code = MakeAuthCode($result_number, "user_srl");
+            echo "$result_number//$auth_code";
     }
 
     function UpdateUser($user_srl) {
@@ -77,12 +78,16 @@ $result_number = $number_row[user] + 1;
   //add user to db
             $sql ="UPDATE `user` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `reg_id` = '$reg_id' WHERE `user_srl` = '$user_srl'";
             $result = mysql_query($sql);
-            echo $user_srl;
+
+            $auth_code = FindAuthCode($user_srl, "user_srl");
+            echo "$user_srl//$auth_code";
     }
 
      function DeleteUser($user_srl) {
  $deletesql ="DELETE FROM `user` WHERE `user_srl` = '$user_srl'";
             $deleteresult = mysql_query($deletesql);
+
+
 
      }
     
