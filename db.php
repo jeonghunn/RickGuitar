@@ -34,8 +34,13 @@ mysql_query("set session character_set_connection=utf8;");
 //if(!rtnSpecialCharCheck($value_1)) exit();
 
 
-//logger
+//Connect to db
 mysql_select_db('favorite',$db_conn);
+//Check Error
+if (mysqli_connect_error()){
+    echo "mysql_connect_error";
+    exit();
+}
   //add log       
             mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `url`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$nowurl', '$log');");
 
