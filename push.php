@@ -14,7 +14,7 @@ $insert_number_result = mysql_query($last_number);
 $number_row =mysql_fetch_array($insert_number_result);
 
 //repeat notice send action to all users.
-for ($i=1;$i<=$number_row[user];$i++){
+for ($i=0;$i<=$number_row[user];$i++){
  
     //import user regid
     $reg_id_number = "SELECT reg_id FROM  `user` WHERE  `user_srl` ='$i'";
