@@ -35,10 +35,14 @@ mysql_query("set session character_set_connection=utf8;");
 
 
 //Connect to db
-mysql_select_db('favorite',$db_conn);
+mysql_select_db('favorite',$db_conn) or ErrorMessage("mysql_error");
 //Check Error
-if (mysqli_connect_error()){
-    echo "mysql_connect_error";
+// if (mysqli_connect_error()){
+//     echo "mysql_connect_error";
+//     exit();
+// }
+function ErrorMessage($msg) {
+    echo $msg;
     exit();
 }
   //add log       
@@ -49,10 +53,7 @@ if (mysqli_connect_error()){
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
-        if($row[permission] > $permission_allow && $permission_allow != 0) {
-        	echo "permission_error";
-        	exit();
-        }
-
+//Permission Check
+        if($row[permission] > $permission_allow && $permission_allow != 0) ErrorMessage("permission_error");
   
 ?>
