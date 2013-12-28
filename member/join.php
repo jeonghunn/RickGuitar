@@ -41,9 +41,12 @@ mysql_select_db('favorite',$db_conn);
 
 
 //Find lastest number.
-$insert_number = "SELECT user FROM  `count` WHERE  `user` >=0";
-$insert_number_result = mysql_query($insert_number);
-$number_row =mysql_fetch_array($insert_number_result);
+// $insert_number = "SELECT user FROM  `count` WHERE  `user` >=0";
+// $insert_number_result = mysql_query($insert_number);
+// $number_row =mysql_fetch_array($insert_number_result);
+$result = mysql_query("SHOW TABLE STATUS LIKE 'user'");
+$row = mysql_fetch_array($result);
+$result_number = $row['Auto_increment'];  
 
 //add 1
 $result_number = $number_row[user] + 1;
@@ -66,7 +69,7 @@ $result_number = $number_row[user] + 1;
             $system_result = mysql_query($add_user_to_system);
             
             //add user to db
-            $sql ="INSERT INTO `user` (`user_srl`, `tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `permission`, `join_day`, `reg_id`) VALUES ('$result_number', '$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '3', '$date', '$reg_id');";
+            $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `permission`, `join_day`, `reg_id`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '3', '$date', '$reg_id');";
             $result = mysql_query($sql);
             
             $auth_code = MakeAuthCode($result_number, "user_srl");
