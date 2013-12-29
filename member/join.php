@@ -49,7 +49,7 @@ $row = mysql_fetch_array($result);
 $result_number = $row['Auto_increment'];  
 
 //add 1
-$result_number = $number_row[user] + 1;
+// $result_number = $number_row[user] + 1;
     
     //Find the Same Reg ID
     $sql ="SELECT * FROM  `user` WHERE  `reg_id` LIKE '$reg_id'";
@@ -65,8 +65,8 @@ $result_number = $number_row[user] + 1;
     function AddUser() {
         global $result_number, $tarks_account, $name_1, $name_2, $gender, $birthday, $date, $reg_id;
  //Add user to System
-            $add_user_to_system ="UPDATE `count` SET  `user` = '$result_number'";
-            $system_result = mysql_query($add_user_to_system);
+            // $add_user_to_system ="UPDATE `count` SET  `user` = '$result_number'";
+            // $system_result = mysql_query($add_user_to_system);
             
             //add user to db
             $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `permission`, `join_day`, `reg_id`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '3', '$date', '$reg_id');";

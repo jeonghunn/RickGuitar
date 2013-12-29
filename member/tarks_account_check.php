@@ -14,7 +14,7 @@ if($authcode != $auth) exit();
 if(!rtnSpecialCharCheck("$id$password")) exit();
 
 
-$sql ="SELECT user_id FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'";
+$sql ="SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'";
 $result = mysql_query($sql);
 $row=mysql_fetch_array($result);
  if($id == $row[user_id]){
