@@ -24,7 +24,7 @@
         return $string_generated;  
     }  
 
- function MakeAuthCode($auth_value, $category)  {
+ function MakeAuthCode($length, $auth_value, $category)  {
     global $date, $REMOTE_ADDR;
 
     //IF auth code already... Delete!
@@ -33,7 +33,7 @@
 
 
     //Auth Code Reulst
-    $auth_code_result = GenerateString(15);  
+    $auth_code_result = GenerateString($length);  
 
 
     //Add to Auth Information to Server

@@ -72,7 +72,7 @@ $result_number = $row['Auto_increment'];
             $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `permission`, `join_day`, `reg_id`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '3', '$date', '$reg_id');";
             $result = mysql_query($sql);
             
-            $auth_code = MakeAuthCode($result_number, "user_srl");
+            $auth_code = MakeAuthCode("15" ,$result_number, "user_srl");
             echo "$result_number//$auth_code";
     }
 

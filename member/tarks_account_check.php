@@ -23,7 +23,7 @@ $row=mysql_fetch_array($result);
  	$auth_value = $row[user_id];
 require '../auth.php';
 //MakeAuth Code
-  $auth_code_result = MakeAuthCode($auth_value, "tarks_account");
+  $auth_code_result = MakeAuthCode("15", $auth_value, "tarks_account");
  	//Echo Auth code to client
 //auth_code_result is value of result of auth
 echo "$auth_code_result";
