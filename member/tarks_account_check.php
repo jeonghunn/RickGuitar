@@ -12,7 +12,7 @@ mysql_select_db('xe',$db_conn);
 if($authcode != $auth) exit(); 
 //Protect from sql injection
 if(!rtnSpecialCharCheck("$id$password")) exit();
-if($password == null) exit();
+if($id == null || $password == null) exit();
 
 $sql ="SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'";
 $result = mysql_query($sql);
