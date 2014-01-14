@@ -73,6 +73,8 @@ $result_number = $row['Auto_increment'];
             $result = mysql_query($sql);
             
             $auth_code = MakeAuthCode("15" ,$result_number, "user_srl");
+            //Profile update
+            ProfileUpdate($auth_code);
             echo "$result_number//$auth_code";
     }
 
@@ -83,6 +85,8 @@ $result_number = $row['Auto_increment'];
             $result = mysql_query($sql);
 
             $auth_code = FindAuthCode($user_srl, "user_srl");
+            //Profile update
+             ProfileUpdate($auth_code);
             echo "$user_srl//$auth_code";
     }
 
@@ -93,6 +97,17 @@ $result_number = $row['Auto_increment'];
 
 
      }
+
+      function ProfileUpdate($auth_code) {
+$target_path = "../files/profile/";
+$tmp_img = explode("." ,$_FILES['uploadedfile']['name']); 
+$img_name = $auth_code.".".$tmp_img[1];
+$target_path = $target_path . basename($img_name);
+
+move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
+
+
+      }
     
     if($reg_id == "null"){
         //If no REGID
