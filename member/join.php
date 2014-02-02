@@ -1,4 +1,4 @@
-<?
+<?php
 //Variable
 $authcode = $_POST['authcode'];
 $tarks_account_auth = addslashes($_POST['tarks_account']);
@@ -74,7 +74,7 @@ $result_number = $row['Auto_increment'];
             
             $auth_code = MakeAuthCode("15" ,$result_number, "user_srl");
             //Profile update
-            ProfileUpdate($auth_code);
+            ProfileUpdate($result_number);
             echo "$result_number//$auth_code";
     }
 
@@ -86,7 +86,7 @@ $result_number = $row['Auto_increment'];
 
             $auth_code = FindAuthCode($user_srl, "user_srl");
             //Profile update
-             ProfileUpdate($auth_code);
+             ProfileUpdate($user_srl);
             echo "$user_srl//$auth_code";
     }
 
@@ -98,10 +98,10 @@ $result_number = $row['Auto_increment'];
 
      }
 
-      function ProfileUpdate($auth_code) {
+      function ProfileUpdate($file_name) {
 $target_path = "../files/profile/";
 $tmp_img = explode("." ,$_FILES['uploadedfile']['name']); 
-$img_name = $auth_code.".".$tmp_img[1];
+$img_name = $file_name.".".$tmp_img[1];
 $target_path = $target_path . basename($img_name);
 
 move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);

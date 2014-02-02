@@ -65,8 +65,13 @@
         $sql ="SELECT * FROM  `auth` WHERE  `value` LIKE '$value' AND  `category` LIKE '$category'";
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
+
+$auth_code = $row[key];
+        if($row[key] == ""){
+        	$auth_code = "null";
+        }
 //Return key
-        return $row[key];
+        return $auth_code;
         }
 
   
