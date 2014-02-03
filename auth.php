@@ -27,18 +27,38 @@
  function MakeAuthCode($length, $auth_value, $category)  {
     global $date, $REMOTE_ADDR;
 
+ 
+
     //IF auth code already... Delete!
       $deletesql ="DELETE FROM `auth` WHERE `value` = '$auth_value'";
             $deleteresult = mysql_query($deletesql);
 
 
+
+       $i = false;
+       $repeat = 0;
+
+   while($i == false) {
+      echo  $i;
+      $i = true;
+      $repeat = $repeat + 1;
+
+
     //Auth Code Reulst
-    $auth_code_result = GenerateString($length);  
+        $auth_code_result = GenerateString($length);  
 
-
-    //Add to Auth Information to Server
+         //Add to Auth Information to Server
             $sql ="INSERT INTO `auth` (`key`, `value`, `category`, `date`, `ipaddr`) VALUES ('$auth_code_result', '$auth_value', '$category', '$date', '$REMOTE_ADDR');";
-            $result = mysql_query($sql);
+            $result = mysql_query($sql) or $i = false;
+
+            if($repeat > 30){
+            	exit();
+            }
+   }
+ 
+
+
+ 
 
             return $auth_code_result;
 

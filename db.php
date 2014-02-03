@@ -35,7 +35,7 @@ mysql_query("set session character_set_connection=utf8;");
 
 
 //Connect to db
-mysql_select_db('favorite',$db_conn) or ErrorMessage("mysql_error");
+mysql_select_db('favorite',$db_conn) or ErrorMessage("db_error");
 //Check Error
 // if (mysqli_connect_error()){
 //     echo "mysql_connect_error";
