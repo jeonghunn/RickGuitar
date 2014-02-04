@@ -5,7 +5,7 @@ $user_srl = addslashes($_POST['user_srl']);
 $user_srl_auth = addslashes($_POST['user_srl_auth']);
 $lang = addslashes($_POST['lang']);
 $member_info = addslashes($_POST['member_info']);
-$log = "$user_srl_auth&&$lang&&$member_info";
+$log = "$lang&&$member_info";
 
 define('642979',   TRUE);
 require 'db.php';

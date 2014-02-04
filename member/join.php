@@ -68,11 +68,13 @@ $result_number = $row['Auto_increment'];
             // $add_user_to_system ="UPDATE `count` SET  `user` = '$result_number'";
             // $system_result = mysql_query($add_user_to_system);
             
-            //add user to db
+            //Get Auth Code
+            $auth_code = MakeAuthCode("36" ,$result_number, "user_srl");
+
+           //add user to db
             $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `permission`, `join_day`, `reg_id`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '3', '$date', '$reg_id');";
             $result = mysql_query($sql);
-            
-            $auth_code = MakeAuthCode("36" ,$result_number, "user_srl");
+
             //Profile update
             ProfileUpdate($result_number);
             echo "$result_number//$auth_code";
@@ -154,9 +156,6 @@ move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
     }
     }
        
-    
-    
-    
 
 
     

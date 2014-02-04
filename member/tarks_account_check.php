@@ -2,7 +2,7 @@
 $authcode = $_POST['authcode'];
 $id = addslashes($_POST['id']);
 $password = addslashes($_POST['password']);
-$log = addslashes($id);
+$log = "$id";
 
 define('642979',   TRUE);
 require '../db.php';
