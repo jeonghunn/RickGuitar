@@ -46,6 +46,7 @@
 
     //Auth Code Reulst
         $auth_code_result = GenerateString($length);  
+     //   GenerateString($length);  
 
          //Add to Auth Information to Server
             $sql ="INSERT INTO `auth` (`key`, `value`, `category`, `date`, `ipaddr`) VALUES ('$auth_code_result', '$auth_value', '$category', '$date', '$REMOTE_ADDR');";
