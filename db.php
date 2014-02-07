@@ -23,6 +23,9 @@ function rtnSpecialCharCheck($str)
  return true;
 }
 
+//Default Settings
+$default_permission = "3";
+
 
 //UTF-8
 mysql_query("set session character_set_connection=utf8;");
