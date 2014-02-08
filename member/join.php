@@ -8,6 +8,7 @@ $gender = addslashes($_POST['gender']);
 $country_code = addslashes($_POST['country_code']);
 $phone_number = addslashes($_POST['phone_number']);
 $reg_id = addslashes($_POST['reg_id']);
+$country = addslashes($_POST['country']);
 $log = "$name_1&&$name_2&&$reg_id&&$tarks_account_auth";
 
 
@@ -65,7 +66,7 @@ $result_number = $row['Auto_increment'];
 
 
     function AddUser() {
-        global $result_number, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $date, $reg_id;
+        global $result_number, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $date, $reg_id, $country;
  //Add user to System
             // $add_user_to_system ="UPDATE `count` SET  `user` = '$result_number'";
             // $system_result = mysql_query($add_user_to_system);
@@ -74,7 +75,7 @@ $result_number = $row['Auto_increment'];
             $auth_code = MakeAuthCode("36" ,$result_number, "user_srl");
 
            //add user to db
-            $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `reg_id`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$reg_id');";
+            $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `reg_id`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$reg_id', '$country');";
             $result = mysql_query($sql);
 
             //Profile update
@@ -83,9 +84,9 @@ $result_number = $row['Auto_increment'];
     }
 
     function UpdateUser($user_srl) {
-           global $result_number, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $date, $reg_id;
+           global $result_number, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $date, $reg_id, $country;
   //add user to db
-            $sql ="UPDATE `user` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `country_code` = '$country_code', `phone_number` = '$phone_number', `reg_id` = '$reg_id' WHERE `user_srl` = '$user_srl'";
+            $sql ="UPDATE `user` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `country_code` = '$country_code', `phone_number` = '$phone_number', `reg_id` = '$reg_id', `country` = '$country' WHERE `user_srl` = '$user_srl'";
             $result = mysql_query($sql);
 
             $auth_code = FindAuthCode($user_srl, "user_srl");
