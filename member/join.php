@@ -113,52 +113,34 @@ move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
 
 
       }
-    
-    if($reg_id == "null"){
-        //If no REGID
-        //Check Tarks Account Exist
-         //Find the Same Tarks Account
 
-
-        if($tarks_account == $tarksrow[tarks_account]){
-          UpdateUser($tarksrow[user_srl]);
-        }else{
-            AddUser();
-        }
-
-    }else{
-    if($reg_id == $row[reg_id])
-    {
-
-//Matches with db and value but not to null
-        if($tarks_account == $row[tarks_account] && $tarks_account != "null"){
-            //add user to db
-             UpdateUser($row[user_srl]);
-        }else{
-        //      //Check Account
-        // $sql ="SELECT * FROM  `user` WHERE  `user_srl` LIKE '$row[user_srl]'";
-        // $result = mysql_query($sql);
-        // $row=mysql_fetch_array($result);
-        //if this is have tarks account
+//Check Tarks Account
+          if($tarks_account != "null"){
+          	  if($tarks_account == $tarksrow[tarks_account]){
+                  UpdateUser($tarksrow[user_srl]);
+          	  }else{
+          	  	 //if this is have tarks account
         if($row[tarks_account] == "null"){
             //Delete Old one Add new one
             //Delete Old Account
            DeleteUser($row[user_srl]);
         }
           AddUser();
-        }
-    }else{
+          	  }
        
-        if($tarks_account == $tarksrow[tarks_account] && $tarks_account != "null"){
-            //add user to db
-             UpdateUser($tarksrow[user_srl]);
         }else{
-           AddUser();
+        	//If no Tarks Account
+        	//Check REGID 
+        	 if($reg_id != "null"){
+        	 	  if($reg_id == $row[reg_id] && $reg_id != "null"){
+        	 	  	//IF more than two same reg id
+        	 	  	  DeleteUser($row[user_srl]);
+        	 	  }
 
+        	 }
+         AddUser();
         }
-    }
-    }
-       
+  
 
 
     
