@@ -1,7 +1,7 @@
 <?
 $authcode = $_POST['authcode'];
-$id = addslashes($_POST['id']);
-$password = addslashes($_POST['password']);
+$id = mysql_real_escape_string($_POST['id']);
+$password = mysql_real_escape_string($_POST['password']);
 $log = "$id";
 
 define('642979',   TRUE);

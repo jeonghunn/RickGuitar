@@ -1,10 +1,10 @@
 <?
 
 $authcode = $_POST['authcode'];
-$user_srl = addslashes($_POST['user_srl']);
-$user_srl_auth = addslashes($_POST['user_srl_auth']);
-$lang = addslashes($_POST['lang']);
-$member_info = addslashes($_POST['member_info']);
+$user_srl = mysql_real_escape_string($_POST['user_srl']);
+$user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
+$lang = mysql_real_escape_string($_POST['lang']);
+$member_info = mysql_real_escape_string($_POST['member_info']);
 $log = "$lang&&$member_info";
 
 define('642979',   TRUE);

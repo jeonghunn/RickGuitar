@@ -1,14 +1,14 @@
 <?php
 //Variable
 $authcode = $_POST['authcode'];
-$tarks_account_auth = addslashes($_POST['tarks_account']);
-$name_1 = addslashes($_POST['name_1']);
-$name_2 = addslashes($_POST['name_2']);
-$gender = addslashes($_POST['gender']);
-$country_code = addslashes($_POST['country_code']);
-$phone_number = addslashes($_POST['phone_number']);
-$reg_id = addslashes($_POST['reg_id']);
-$country = addslashes($_POST['country']);
+$tarks_account_auth = mysql_real_escape_string($_POST['tarks_account']);
+$name_1 = mysql_real_escape_string($_POST['name_1']);
+$name_2 = mysql_real_escape_string($_POST['name_2']);
+$gender = mysql_real_escape_string($_POST['gender']);
+$country_code = mysql_real_escape_string($_POST['country_code']);
+$phone_number = mysql_real_escape_string($_POST['phone_number']);
+$reg_id = mysql_real_escape_string($_POST['reg_id']);
+$country = mysql_real_escape_string($_POST['country']);
 $log = "$name_1&&$name_2&&$reg_id&&$tarks_account_auth";
 
 
@@ -106,7 +106,8 @@ $result_number = $row['Auto_increment'];
       function ProfileUpdate($file_name) {
 $target_path = "../files/profile/";
 $tmp_img = explode("." ,$_FILES['uploadedfile']['name']); 
-$img_name = $file_name.".".$tmp_img[1];
+//$img_name = $file_name.".".$tmp_img[1];
+$img_name = $file_name."."."jpg";
 $target_path = $target_path . basename($img_name);
 
 move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);

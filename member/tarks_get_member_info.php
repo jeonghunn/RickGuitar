@@ -2,8 +2,8 @@
 define('642979',   TRUE);
 require '../db.php';
 mysql_select_db('favorite',$db_conn);
-$authcode = $_POST['authcode'];
-$tarks_account = $_POST['tarks_account'];
+$authcode = mysql_real_escape_string($_POST['authcode']);
+$tarks_account = mysql_real_escape_string($_POST['tarks_account']);
 
 
 //Check Permission
