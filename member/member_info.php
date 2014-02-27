@@ -1,4 +1,4 @@
-<? if(!defined("642979")) exit();
+<?if(!defined("642979")) exit();
 
 //Connect to DB
  	mysql_select_db('favorite',$db_conn);
@@ -13,10 +13,12 @@ function MemberInfoUpdate($user_srl, $lang){
             $system_result = mysql_query($add_info_to_system);
 }
 
+function ExplodeMemberInfoValue($member_info){
+	return explode("//",$member_info);
+}
 
-function GetMemberInfo($user_srl, $member_info){
-//Cut the value
-            $member_info_array = explode("//",$member_info);
+
+function GetMemberInfo($user_srl){
 
 
          //Send Imformation
@@ -24,22 +26,22 @@ function GetMemberInfo($user_srl, $member_info){
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
-// while (count($member_info_array)) {
+return $row;
 
-// }
 
-   for ($i=0 ; $i < count($member_info_array);$i++){
-   	if(count($member_info_array) == $i + 1){
-echo $row[$member_info_array[$i]];
+}
+
+function Print_member_info($row, $member_info){
+
+    for ($i=0 ; $i < count($row);$i++){
+   	if(count($row) == $i + 1){
+echo $row[$member_info[$i]];
 }else{
-	echo $row[$member_info_array[$i]]."/LINE/.";
+	echo $row[$member_info[$i]]."/LINE/.";
    }
 
-    //    echo "$row[tarks_account]/LINE/.$row[name_1]/LINE/.$row[name_2]/LINE/.$row[permission]/LINE/.$row[reg_id]/LINE/.$row[key]/LINE/.$row[like_me]/LINE/.$row[favorite]";
 }
-
-}
-    
+    }
     
 
    
