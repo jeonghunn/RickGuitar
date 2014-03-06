@@ -9,7 +9,7 @@
 
 function MemberInfoUpdate($user_srl, $lang){
 	global $REMOTE_ADDR;
-   $add_info_to_system ="UPDATE `user` SET  `lang` = '$lang' ,`ip_addr` = '$REMOTE_ADDR' WHERE `user_srl` = $user_srl";
+   $add_info_to_system = "UPDATE `user` SET  `lang` = '$lang' ,`ip_addr` = '$REMOTE_ADDR' WHERE `user_srl` = $user_srl";
             $system_result = mysql_query($add_info_to_system);
 }
 
@@ -31,10 +31,11 @@ return $row;
 
 }
 
+//this is for native application
 function Print_member_info($row, $member_info){
 
-    for ($i=0 ; $i < count($row);$i++){
-   	if(count($row) == $i + 1){
+    for ($i=0 ; $i < count($member_info);$i++){
+   	if(count($member_info) == $i + 1){
 echo $row[$member_info[$i]];
 }else{
 	echo $row[$member_info[$i]]."/LINE/.";

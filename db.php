@@ -56,7 +56,10 @@ function ErrorMessage($msg) {
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
+require 'core/ip_manage.php';
+
 //Permission Check
-        if($row[permission] > $permission_allow && $permission_allow != 0) ErrorMessage("permission_error");
+        if($permission_allow == null) $permission_allow = 3;
+        if($row[permission] > $permission_allow) ErrorMessage("permission_error");
   
 ?>
