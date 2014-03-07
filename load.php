@@ -23,7 +23,7 @@ $user_srl = AuthCheck($user_srl_auth, false);
 //Update new member information
     MemberInfoUpdate($user_srl, $lang);
     //Echo member information
-   $row = GetMemberInfo($user_srl, $member_info);
+   $row = GetMemberInfo($user_srl);
 
     
   Print_member_info($row, ExplodeMemberInfoValue($member_info));

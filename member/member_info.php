@@ -31,6 +31,23 @@ return $row;
 
 }
 
+//IF use this function you must import auth.php
+function ProfileInfo($user_srl_auth, $profile_user_srl, $){
+$user_srl = AuthCheck($user_srl_auth, false);
+//Get Member Info
+$row = GetMemberInfo($profile_user_srl);
+
+if($user_srl != $profile_user_srl){
+	
+if(strpos($member_info, "test") !== false) {  
+   ErrorMessage("permission_error");
+} 
+
+}
+
+return $row;
+}
+
 //this is for native application
 function Print_member_info($row, $member_info){
 
