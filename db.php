@@ -51,15 +51,15 @@ function ErrorMessage($msg) {
   //add log       
             mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `url`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$nowurl', '$log');");
 
-          //  Permission Check
-        $sql ="SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'";
-        $result = mysql_query($sql);
-        $row=mysql_fetch_array($result);
+     
 
 require 'core/ip_manage.php';
+require 'core/permission.php';
 
+     //  Permission Check
+ $permission = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));
 //Permission Check
         if($permission_allow == null) $permission_allow = 3;
-        if($row[permission] > $permission_allow) ErrorMessage("permission_error");
+        if($permission[permission] > $permission_allow) ErrorMessage("permission_error");
   
 ?>
