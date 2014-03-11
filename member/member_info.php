@@ -31,20 +31,20 @@ return $row;
 
 }
 
-//IF use this function you must import auth.php
-function ProfileInfo($user_srl_auth, $profile_user_srl, $){
+//IF use this function you must import auth.php and private.php
+function ProfileInfo($user_srl_auth, $profile_user_srl, $member_info){
+
 $user_srl = AuthCheck($user_srl_auth, false);
 //Get Member Info
 $row = GetMemberInfo($profile_user_srl);
-
+// IF not ownself
 if($user_srl != $profile_user_srl){
 	
-if(strpos($member_info, "test") !== false) {  
+if(Guest_access_profile($member_info) == false) {  
    ErrorMessage("permission_error");
 } 
 
 }
-
 return $row;
 }
 
