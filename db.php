@@ -52,7 +52,7 @@ function ErrorMessage($msg) {
             mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `url`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$nowurl', '$log');");
 
      
-
+require 'core/security.php';
 require 'core/ip_manage.php';
 require 'core/permission.php';
 

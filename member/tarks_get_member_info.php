@@ -29,7 +29,7 @@ $row=mysql_fetch_array($result);
         //Find auth key
           $auth_key = FindAuthCode($row[user_srl], "user_srl");
           //Send information
-        echo "$row[user_srl]/LINE/.$auth_key/LINE/.$row[name_1]/LINE/.$row[name_2]/LINE/.$row[gender]";
+        echo "$row[user_srl]/LINE/.$auth_key/LINE/.$row[name_1]/LINE/.$row[name_2]/LINE/.$row[gender]/LINE/.$row[profile_pic]";
     }
    else{
        echo "null";
