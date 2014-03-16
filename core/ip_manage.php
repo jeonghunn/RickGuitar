@@ -10,9 +10,9 @@
 	$ip_active = $ip_manage[active];
 	$ip_point = $ip_manage[point];
 	//Check DDOS
-	if($ip_point > 99) $ip_active = "N";
-	if($ip_manage[last_access] > $date - 2) $ip_point = $ip_point + 1;
-	if($ip_manage[last_access] < $date - 10000 && $ip_point != 0) $ip_point = $ip_point - 1;
+	if($ip_point > 999) $ip_active = "N";
+	if($ip_manage[last_access] > $date - 2) $ip_point = $ip_point + 10;
+	if($ip_manage[last_access] < $date - 1000 && $ip_point > 0) $ip_point = $ip_point - 5;
 	//Information Update
 	mysql_query("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_access` = '$date' WHERE `ip_addr` = '$REMOTE_ADDR'");
 }
