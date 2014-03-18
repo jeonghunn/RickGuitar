@@ -12,9 +12,9 @@ require '../db.php';
 //Check Auth
 if($authcode != $auth) exit(); 
 
-require '../auth.php';
+require '../core/auth.php';
 require '../core/private.php';
-require 'member_info.php';
+require 'member_info_class.php';
 
 
 //Get Profile information

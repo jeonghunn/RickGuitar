@@ -15,8 +15,8 @@ require 'db.php';
 if($authcode != $auth) exit();
 
 //Auth code to user_srl
-require 'auth.php';
-require 'member/member_info.php';
+require 'core/auth.php';
+require 'member/member_info_class.php';
 $user_srl = AuthCheck($user_srl_auth, false);
 
 

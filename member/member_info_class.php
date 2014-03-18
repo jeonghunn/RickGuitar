@@ -4,7 +4,6 @@
  	mysql_select_db('favorite',$db_conn);
 
 //Auth code to user_srl
-//require '../auth.php';
 //$user_srl = AuthCheck($user_srl_auth, false);
 
 function MemberInfoUpdate($user_srl, $lang){

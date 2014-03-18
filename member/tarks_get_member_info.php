@@ -9,7 +9,7 @@ $tarks_account = mysql_real_escape_string($_POST['tarks_account']);
 //Check Permission
 if($authcode != $auth) exit(); 
 
-require '../auth.php';
+require '../core/auth.php';
     //Get Tarks Account Exist in db
     
 $sql ="SELECT tarks_account FROM  `user` WHERE  `tarks_account` LIKE '$tarks_account'";

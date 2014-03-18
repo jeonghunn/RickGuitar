@@ -20,7 +20,7 @@ require '../db.php';
 if($authcode != $auth) exit();
 
 //Change Auth code to tarks account
-require '../auth.php';
+require '../core/auth.php';
 require 'documents.php';
 
 

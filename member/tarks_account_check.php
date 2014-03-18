@@ -21,7 +21,7 @@ $row=mysql_fetch_array($result);
  	//Reg Auth to server
  	//auth_value is use by auth.php
  	$auth_value = $row[user_id];
-require '../auth.php';
+require '../core/auth.php';
 //MakeAuth Code
   $auth_code_result = MakeAuthCode("15", $auth_value, "tarks_account");
  	//Echo Auth code to client
