@@ -48,18 +48,13 @@ function ErrorMessage($msg) {
     echo $msg;
     exit();
 }
-  //add log       
-            mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `url`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$nowurl', '$log');");
+ 
 
-     
+require 'core/logger.php';
 require 'core/security.php';
 require 'core/ip_manage.php';
 require 'core/permission.php';
 
-     //  Permission Check
- $user_permission = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));
-//Permission Check
-        if($permission_allow == null) $permission_allow = 3;
-        if($user_permission[permission] > $permission_allow) ErrorMessage("permission_error");
+    
   
 ?>

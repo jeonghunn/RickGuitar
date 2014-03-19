@@ -19,6 +19,8 @@ require 'core/auth.php';
 require 'member/member_info_class.php';
 $user_srl = AuthCheck($user_srl_auth, false);
 
+//Log Client
+ClientAgentLog();
 
 //Update new member information
     MemberInfoUpdate($user_srl, $lang);
