@@ -34,7 +34,7 @@ return $xerow[$value];
 
 
     function AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $reg_id, $country) {
-        global  $date;
+        global  $date, $REMOTE_ADDR;
  //Add user to System
 
 // Get MemberLastNumber
@@ -49,6 +49,9 @@ return $xerow[$value];
            //add user to db
             $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `reg_id`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$reg_id', '$country');";
             $result = mysql_query($sql);
+
+             //Create Own Page
+            $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
        
 
 
