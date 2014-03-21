@@ -1,7 +1,5 @@
 <?if(!defined("642979")) exit();
 
-//Connect to DB
- 	mysql_select_db('favorite',$db_conn);
 
 //Auth code to user_srl
 //$user_srl = AuthCheck($user_srl_auth, false);
@@ -46,8 +44,6 @@ if(Guest_access_profile($member_info) == false) {
 }
 return $row;
 }
-
-    
 
    
       

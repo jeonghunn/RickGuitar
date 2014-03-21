@@ -1,9 +1,9 @@
 <?
 $authcode = $_POST['authcode'];
+$page_srl = mysql_real_escape_string($_POST['page_srl']);
 $user_srl = mysql_real_escape_string($_POST['user_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
-$profile_user_srl = mysql_real_escape_string($_POST['profile_user_srl']);
-$member_info = mysql_real_escape_string($_POST['member_info']);
+$page_info = mysql_real_escape_string($_POST['page_info']);
 $log = $profile_user_srl;
 
 define('642979',   TRUE);

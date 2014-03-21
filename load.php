@@ -8,14 +8,14 @@ $member_info = mysql_real_escape_string($_POST['member_info']);
 $log = "$lang&&$member_info";
 
 define('642979',   TRUE);
-require 'db.php';
+require 'config.php';
 //mysql_select_db('favorite',$db_conn);
 
 //Check Permission
-if($authcode != $auth) exit();
+if($authcode != $auth) ErrorMessage("auth_error");
 
 //Auth code to user_srl
-require 'core/auth.php';
+
 require 'member/member_info_class.php';
 $user_srl = AuthCheck($user_srl_auth, false);
 
@@ -28,5 +28,5 @@ ClientAgentLog();
    $row = GetMemberInfo($user_srl);
 
     
-  Print_member_info($row, ExplodeMemberInfoValue($member_info));
+  print_info($row, ExplodeMemberInfoValue($member_info));
 ?>

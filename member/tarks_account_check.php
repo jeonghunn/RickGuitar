@@ -5,11 +5,12 @@ $password = mysql_real_escape_string($_POST['password']);
 $log = "$id";
 
 define('642979',   TRUE);
-require '../db.php';
+require '../config.php';
 mysql_select_db('xe',$db_conn);
 
 //Check Auth
-if($authcode != $auth) exit(); 
+if($authcode != $auth) ErrorMessage("auth_error");
+
 //Protect from sql injection
 if(!rtnSpecialCharCheck("$id$password")) exit();
 if($id == null || $password == null) exit();
@@ -21,7 +22,6 @@ $row=mysql_fetch_array($result);
  	//Reg Auth to server
  	//auth_value is use by auth.php
  	$auth_value = $row[user_id];
-require '../core/auth.php';
 //MakeAuth Code
   $auth_code_result = MakeAuthCode("15", $auth_value, "tarks_account");
  	//Echo Auth code to client

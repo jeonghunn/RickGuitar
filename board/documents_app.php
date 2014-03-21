@@ -12,15 +12,14 @@ $log = "$title$$$permission$$$status$$$privacy";
 
 
 define('642979',   TRUE);
-require '../db.php';
+require '../config.php';
 //mysql_select_db('favorite',$db_conn);
 
 
 //Check auth code
-if($authcode != $auth) exit();
+if($authcode != $auth) ErrorMessage("auth_error");
 
 //Change Auth code to tarks account
-require '../core/auth.php';
 require 'documents.php';
 
 

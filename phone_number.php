@@ -13,7 +13,7 @@ $value_1 = preg_replace ("/[ #\&\+\-%@=\/\\\:;,\.'\"\^`~\_|\!\?\*$#<>()\[\]\{\}]
 
 //DB
 define('642979',   TRUE);
-require 'db.php';
+require 'config.php';
 mysql_select_db('favorite',$db_conn);
 
 
@@ -25,7 +25,8 @@ mysql_query("set session character_set_client=utf8;");
 
 
 //Check Permission
-if($authcode != $auth) exit();
+if($authcode != $auth) ErrorMessage("auth_error");
+
 
     //Count +1
     //Find lastest number.

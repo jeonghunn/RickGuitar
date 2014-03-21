@@ -1,6 +1,6 @@
 <?
 define('642979',   TRUE);
-require 'db.php';
+require 'config.php';
 mysql_select_db('favorite',$db_conn);
 $authcode = $_POST['authcode'];
 

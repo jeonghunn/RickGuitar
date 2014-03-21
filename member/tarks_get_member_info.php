@@ -1,15 +1,15 @@
 <?
 define('642979',   TRUE);
-require '../db.php';
+require '../config.php';
 mysql_select_db('favorite',$db_conn);
 $authcode = mysql_real_escape_string($_POST['authcode']);
 $tarks_account = mysql_real_escape_string($_POST['tarks_account']);
 
 
 //Check Permission
-if($authcode != $auth) exit(); 
+if($authcode != $auth) ErrorMessage("auth_error");
 
-require '../core/auth.php';
+
     //Get Tarks Account Exist in db
     
 $sql ="SELECT tarks_account FROM  `user` WHERE  `tarks_account` LIKE '$tarks_account'";

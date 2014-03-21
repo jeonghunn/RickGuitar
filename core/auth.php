@@ -1,11 +1,7 @@
 <? if(!defined("642979")) exit();
 
 //Information : auth_value is value
-
-//Connect to DB
- 	mysql_select_db('favorite',$db_conn);
-
-
+$auth = "642979";
 //Make a Auth code string
  	     function GenerateString($length)  
     {  
