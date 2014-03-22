@@ -6,7 +6,15 @@ mysql_query("set session character_set_connection=utf8;");
     mysql_query("set session character_set_results=utf8;");
     mysql_query("set session character_set_client=utf8;");
 
-    
+    //Connrct to main db
+    ConnectMainDB();
 //Connect to db
-mysql_select_db('favorite',$db_conn) or ErrorMessage("db_error");
+function ConnectMainDB(){
+	ConnectDB("favorite");
+}
+
+function ConnectDB($db_name){
+	global $db_conn;
+	mysql_select_db($db_name,$db_conn) or ErrorMessage("db_error");
+}
 ?>

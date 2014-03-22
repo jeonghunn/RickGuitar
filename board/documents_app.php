@@ -13,7 +13,6 @@ $log = "$title$$$permission$$$status$$$privacy";
 
 define('642979',   TRUE);
 require '../config.php';
-//mysql_select_db('favorite',$db_conn);
 
 
 //Check auth code

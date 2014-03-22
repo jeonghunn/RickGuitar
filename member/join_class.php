@@ -2,11 +2,11 @@
 //You must import auth.php when use this class
 
  function TarksAccount($tarks_account, $value) {
-    global $db_conn;
- 	mysql_select_db('xe',$db_conn);
+ConnectDB("xe");
  	$xesql ="SELECT $value FROM  `xe_member` WHERE  `user_id` LIKE '$tarks_account'";
 $xeresult = mysql_query($xesql);
 $xerow=mysql_fetch_array($xeresult);
+ConnectMainDB();
 return $xerow[$value];
  }
 

@@ -14,8 +14,6 @@ $log = "$name_1&&$name_2&&$reg_id&&$tarks_account_auth";
 
 define('642979',   TRUE);
 require '../config.php';
-//mysql_select_db('favorite',$db_conn);
-
 
 //Check auth code
 if($authcode != $auth) ErrorMessage("auth_error");
@@ -27,7 +25,6 @@ require 'join_class.php';
 if($tarks_account_auth != "null"){
 $tarks_account = AuthCheck($tarks_account_auth, true);
 $birthday = TarksAccount($tarks_account, "birthday");
-mysql_select_db('favorite',$db_conn);
 }else{
     $tarks_account = "null";
 }

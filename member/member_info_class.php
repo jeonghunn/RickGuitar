@@ -1,8 +1,5 @@
 <?if(!defined("642979")) exit();
 
-//Connect to DB
- 	mysql_select_db('favorite',$db_conn);
-
 //Auth code to user_srl
 //$user_srl = AuthCheck($user_srl_auth, false);
 
@@ -47,6 +44,22 @@ if(Guest_access_profile($member_info) == false) {
 return $row;
 }
 
+
+function TarksAccountCheck($id, $password){
+    ConnectDB("xe");
+  //Protect from sql injection
+if(!rtnSpecialCharCheck($id.$password)) ErrorMessage("security_error");
+if($id == null || $password == null) ErrorMessage("security_error");
+$row = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
+if($id == $row[user_id]){
+//Connect main db to auth
+ConnectMainDB();
+  $auth_code_result = MakeAuthCode("15", $row[user_id], "tarks_account");
+  //Echo Auth code to client
+//auth_code_result is value of result of auth
+}
+return $auth_code_result;
+}
     
 
    

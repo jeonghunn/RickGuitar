@@ -9,7 +9,6 @@ $log = "$lang&&$member_info";
 
 define('642979',   TRUE);
 require 'config.php';
-//mysql_select_db('favorite',$db_conn);
 
 //Check Permission
 if($authcode != $auth) ErrorMessage("auth_error");

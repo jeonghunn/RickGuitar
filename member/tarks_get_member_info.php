@@ -1,7 +1,6 @@
 <?
 define('642979',   TRUE);
 require '../config.php';
-mysql_select_db('favorite',$db_conn);
 $authcode = mysql_real_escape_string($_POST['authcode']);
 $tarks_account = mysql_real_escape_string($_POST['tarks_account']);
 
