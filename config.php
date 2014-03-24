@@ -24,6 +24,28 @@ echo $row[$info[$i]];
 
 }
     }
+
+
+//Print for native app
+function print_array($row){
+
+   echo implode("/LINE/.", $row);
+    }
+
+
+    function ExplodeInfoValue($info){
+	return explode("//",$info);
+}
+
+//Language name
+function SetUserName($lang, $name_1, $name_2){
+if($lang == "ko"){
+$name = $name_1.$name_2;
+}else{
+$name = $name_2." ".$name_1;
+}
+return $name;
+}
  
 require 'core/db.php';
 require 'core/logger.php';

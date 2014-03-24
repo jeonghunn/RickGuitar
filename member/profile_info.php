@@ -20,6 +20,6 @@ require 'member_info_class.php';
 //Get Profile information
  $ProfileInfoRow = ProfileInfo($user_srl_auth, $profile_user_srl, $member_info);
  //Print Profile information
- Print_member_info($ProfileInfoRow, ExplodeMemberInfoValue($member_info));
+ print_info($ProfileInfoRow, ExplodeInfoValue($member_info));
 
 ?>

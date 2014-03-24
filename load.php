@@ -23,9 +23,8 @@ ClientAgentLog();
 
 //Update new member information
     MemberInfoUpdate($user_srl, $lang);
-    //Echo member information
-   $row = GetMemberInfo($user_srl);
+
 
     
-  print_info($row, ExplodeMemberInfoValue($member_info));
+  print_info(GetMemberInfo($user_srl), ExplodeInfoValue($member_info));
 ?>

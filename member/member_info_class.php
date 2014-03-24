@@ -9,22 +9,10 @@ function MemberInfoUpdate($user_srl, $lang){
             $system_result = mysql_query($add_info_to_system);
 }
 
-function ExplodeMemberInfoValue($member_info){
-	return explode("//",$member_info);
-}
-
 
 function GetMemberInfo($user_srl){
 
-
-         //Send Imformation
-        $sql ="SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'";
-        $result = mysql_query($sql);
-        $row=mysql_fetch_array($result);
-
-return $row;
-
-
+return mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));
 }
 
 //IF use this function you must import auth.php and private.php
