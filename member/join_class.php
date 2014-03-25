@@ -33,7 +33,7 @@ return $xerow[$value];
    
 
 
-    function AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $reg_id, $country) {
+    function AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country) {
         global  $date, $REMOTE_ADDR;
  //Add user to System
 
@@ -44,31 +44,33 @@ return $xerow[$value];
             $auth_code = MakeAuthCode("36" , $MemberNumber, "user_srl");
 
               //Profile picture
-             $profile_pic = ProfileUpdate($MemberNumber) ? "Y" : "N";
+           ProfileUpdate($MemberNumber);
  
            //add user to db
             $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `reg_id`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$reg_id', '$country');";
             $result = mysql_query($sql);
 
              //Create Own Page
-            $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
+       //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
        
 
 
             return array($MemberNumber, $auth_code);
     }
 
-    function UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $reg_id, $country) {
+    function UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country) {
            global $date;
 
-             //Profile picture
-             $profile_pic = ProfileUpdate($user_srl) ? "Y" : "N";
+             
 
-  //add user to db
+               //add user to db
             $sql ="UPDATE `user` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `country_code` = '$country_code', `phone_number` = '$phone_number', `profile_pic` = '$profile_pic', `profile_update` = '$date', `reg_id` = '$reg_id', `country` = '$country' WHERE `user_srl` = '$user_srl'";
             $result = mysql_query($sql);
 
             $auth_code = FindAuthCode($user_srl, "user_srl");
+
+            //Profile picture
+             ProfileUpdate($user_srl);
 
              return array($user_srl, $auth_code);
     }
@@ -95,15 +97,15 @@ return $upload_result;
       }
 
       function AddUserActivityByApp(){
-           global $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $reg_id, $country;
-          $AddUserAct = AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $reg_id, $country);
+           global $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country;
+          $AddUserAct = AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
           echo $AddUserAct[0]."//".$AddUserAct[1];
       }
 
 
 function UpdateUserActivityByApp($user_srl){
-           global $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $reg_id, $country;
-           $UpdateUserAct = UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $reg_id, $country);
+           global $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country;
+           $UpdateUserAct = UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
            echo $UpdateUserAct[0]."//".$UpdateUserAct[1];
       }
 

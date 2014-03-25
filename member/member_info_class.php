@@ -24,9 +24,9 @@ $row = GetMemberInfo($profile_user_srl);
 // IF not ownself
 if($user_srl != $profile_user_srl){
 	
-if(Guest_access_profile($member_info) == false) {  
-   ErrorMessage("permission_error");
-} 
+// if(Guest_access_profile($member_info) == false) {  
+//    ErrorMessage("permission_error");
+// } 
 
 }
 return $row;
