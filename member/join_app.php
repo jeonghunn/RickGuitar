@@ -5,6 +5,7 @@ $tarks_account_auth = mysql_real_escape_string($_POST['tarks_account']);
 $name_1 = mysql_real_escape_string($_POST['name_1']);
 $name_2 = mysql_real_escape_string($_POST['name_2']);
 $gender = mysql_real_escape_string($_POST['gender']);
+$lang = mysql_real_escape_string($_POST['lang']);
 $country_code = mysql_real_escape_string($_POST['country_code']);
 $phone_number = mysql_real_escape_string($_POST['phone_number']);
 $profile_pic = mysql_real_escape_string($_POST['profile_pic']);

@@ -3,7 +3,6 @@
 $authcode = $_POST['authcode'];
 $user_srl = mysql_real_escape_string($_POST['user_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
-$lang = mysql_real_escape_string($_POST['lang']);
 $member_info = mysql_real_escape_string($_POST['member_info']);
 $log = "$lang&&$member_info";
 
@@ -22,7 +21,7 @@ $user_srl = AuthCheck($user_srl_auth, false);
 ClientAgentLog();
 
 //Update new member information
-    MemberInfoUpdate($user_srl, $lang);
+    MemberInfoUpdate($user_srl);
 
 
     

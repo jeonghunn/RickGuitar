@@ -13,7 +13,7 @@ require '../config.php';
 if($authcode != $auth) ErrorMessage("auth_error");
 
 
-require '../core/private.php';
+require '../core/status.php';
 require 'member_info_class.php';
 
 

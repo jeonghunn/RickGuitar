@@ -46,6 +46,23 @@ $name = $name_2." ".$name_1;
 }
 return $name;
 }
+
+function setRelationStatus($me_srl, $you_srl){
+//Select you srl
+  $you_srl_info = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$you_srl'"));
+
+  //Global
+  $status = 0;
+
+  //Check like me and you are like too.
+
+  //Check like me
+
+  //Check I'm owner
+  if($me_srl == $you_srl) $status = 4;
+ if($me_srl == $you_srl_info[admin]) $status = 4;
+  return $status;
+}
  
 require 'core/db.php';
 require 'core/logger.php';

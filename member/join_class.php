@@ -33,7 +33,7 @@ return $xerow[$value];
    
 
 
-    function AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country) {
+    function AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country) {
         global  $date, $REMOTE_ADDR;
  //Add user to System
 
@@ -47,11 +47,12 @@ return $xerow[$value];
            ProfileUpdate($MemberNumber);
  
            //add user to db
-            $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `reg_id`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$reg_id', '$country');";
+            $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$reg_id', '$lang', '$country');";
             $result = mysql_query($sql);
 
              //Create Own Page
        //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
+            mysql_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$MemberNumber', '3');");
        
 
 
@@ -97,8 +98,8 @@ return $upload_result;
       }
 
       function AddUserActivityByApp(){
-           global $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country;
-          $AddUserAct = AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
+           global $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country;
+          $AddUserAct = AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
           echo $AddUserAct[0]."//".$AddUserAct[1];
       }
 
