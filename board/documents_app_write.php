@@ -19,14 +19,15 @@ require '../config.php';
 if($authcode != $auth) ErrorMessage("auth_error");
 
 //Change Auth code to tarks account
-require 'documents.php';
+require '../member/member_info_class.php';
+require 'documents_class.php';
 
 
 //Check Value security
 Security_value_check($title);
 Security_value_check($content);
 
-//Read
+//Update
 if($kind == 0){
 
 }
@@ -46,10 +47,6 @@ echo "document_write_error";
 }
 }
 
-//Delete
-if($kind == 2){
-
-}
 
 
 
