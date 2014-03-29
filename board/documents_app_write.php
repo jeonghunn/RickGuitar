@@ -1,6 +1,7 @@
 <?php
 $authcode = $_POST['authcode'];
 $kind = mysql_real_escape_string($_POST['kind']);
+$page_srl = mysql_real_escape_string($_POST['page_srl']);
 $user_srl = mysql_real_escape_string($_POST['user_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 $title = mysql_real_escape_string($_POST['title']);
@@ -38,7 +39,7 @@ if($kind == 1) {
 	//REPLACE FIRST
 		// str_replace("<enter>", "<br>", $content); 
 		// str_replace("<enter>", "<br>", $content); 
-	$document_write = document_write($user_srl, $user_srl_auth , $title, $content, $permission, $status, $privacy);
+	$document_write = document_write($page_srl, $user_srl_auth , $title, $content, $permission, $status, $privacy);
 if($document_write == true){
 	echo "document_write_succeed";
 	

@@ -70,8 +70,9 @@ return $xerow[$value];
 
             $auth_code = FindAuthCode($user_srl, "user_srl");
 
-            //Profile picture
-             ProfileUpdate($user_srl);
+         ProfileUpdate($user_srl);
+      //     unlink﻿("../files/profile/".$user_srl.".jpg");
+           
 
              return array($user_srl, $auth_code);
     }
@@ -93,7 +94,6 @@ $img_name = $file_name."."."jpg";
 $target_path = $target_path . basename($img_name);
 
  $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-
 return $upload_result;
       }
 
