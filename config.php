@@ -61,6 +61,7 @@ function setRelationStatus($me_srl, $you_srl){
   //Check I'm owner
   if($me_srl == $you_srl) $status = 4;
  if($me_srl == $you_srl_info[admin]) $status = 4;
+ 
   return $status;
 }
  

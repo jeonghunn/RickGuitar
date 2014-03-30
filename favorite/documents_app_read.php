@@ -35,10 +35,9 @@ $DocList = document_getList($user_srl_auth, $doc_user_srl, $start_doc, $doc_numb
 document_PrintList($DocList, ExplodeInfoValue($doc_info));
 }
 
-//Read
+//Readsummary
 if($kind == 1) {
-$Doc_read = document_read($user_srl_auth, $doc_user_srl);
-print_info($Doc_read, ExplodeInfoValue($doc_info));
+
 }
 
 //Delete
