@@ -2,9 +2,13 @@
 
 function document_read($user_srl_auth, $doc_srl){
 	$user_srl = AuthCheck($user_srl_auth, false);
- $status = setRelationStatus($user_srl, $doc_user_srl);
+	$row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
 
-return mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` AND  `status` <=$status LIKE '$doc_srl'"));
+ $status = setRelationStatus($user_srl, $row[page_srl]);
+
+if($status < $row[status]) ErrorMessage("permission_error");
+
+return $row;
 }
 
 //Find lastest number.

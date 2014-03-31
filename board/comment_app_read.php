@@ -5,12 +5,11 @@ $user_srl = mysql_real_escape_string($_POST['user_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 //Getlist
 $doc_srl = mysql_real_escape_string($_POST['doc_srl']);
-$doc_user_srl = mysql_real_escape_string($_POST['doc_user_srl']);
-$start_doc = mysql_real_escape_string($_POST['start_doc']);
-$doc_number = mysql_real_escape_string($_POST['doc_number']);
-$doc_info = mysql_real_escape_string($_POST['doc_info']);
+$start_comment = mysql_real_escape_string($_POST['start_comment']);
+$comment_number = mysql_real_escape_string($_POST['comment_number']);
+$comment_info = mysql_real_escape_string($_POST['comment_info']);
 
-$log = "$doc_srl$$$doc_user_srl";
+$log = "$doc_srl";
 
 
 
@@ -30,16 +29,16 @@ Security_value_check($title);
 Security_value_check($content);
 
 //getList
-if($kind == 0){
-$DocList = document_getList($user_srl_auth, $doc_user_srl, $start_doc, $doc_number);
-document_PrintList($DocList, ExplodeInfoValue($doc_info));
-}
+//if($kind == 0){
+$CommentList = comment_getList($user_srl_auth, $doc_srl, $start_comment, $comment_number);
+comment_PrintList($CommentList, ExplodeInfoValue($comment_info));
+//}
 
 //Read
-if($kind == 1) {
-$Doc_read = document_read($user_srl_auth, $doc_srl);
-print_info($Doc_read, ExplodeInfoValue($doc_info));
-}
+// if($kind == 1) {
+// $Doc_read = document_read($user_srl_auth, $doc_srl);
+// print_info($Doc_read, ExplodeInfoValue($doc_info));
+// }
 
 //Delete
 if($kind == 2){

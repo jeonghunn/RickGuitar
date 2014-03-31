@@ -44,7 +44,7 @@ function favorite_delete($user_srl, $lang){
 
 
 function favorite_send_push($page_srl, $user_srl, $name, $number){
-if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, "당신을 좋아하는 사람으로 등록했습니다.", 2, $number);
+if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, "당신을 좋아하는 사람으로 등록했습니다.", 3, $number);
 }
 
 function favorite_getList($user_srl_auth, $doc_user_srl, $start, $number){
