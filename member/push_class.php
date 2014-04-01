@@ -11,7 +11,7 @@
  }
   
 
-function sendPushMessage($user_srl, $send_user_srl, $title,  $content, $kind, $number) {
+function sendPushMessage($user_srl, $send_user_srl, $title,  $content ,$value, $kind, $number) {
 
 
 
@@ -27,7 +27,7 @@ function sendPushMessage($user_srl, $send_user_srl, $title,  $content, $kind, $n
     $request = array(
                      'collapse_key' => $kind."//".$number,
                      'registration_ids' => $reg,
-                     'data' => array( 'data' => $send_user_srl."/LINE/.".$title."/LINE/.".$content),
+                     'data' => array( 'data' => $send_user_srl."/LINE/.".$title."/LINE/.".$content."/LINE/.".$value),
                      );
     
     $headers = array(

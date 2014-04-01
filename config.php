@@ -64,6 +64,13 @@ function setRelationStatus($me_srl, $you_srl){
  
   return $status;
 }
+
+function arr_del($list_arr, $del_value) // 배열, 삭제할 값
+{
+$b = array_search($del_value,$list_arr); 
+if($b!==FALSE) unset($list_arr[$b]); 
+ return $list_arr;
+}
  
 require 'core/db.php';
 require 'core/logger.php';

@@ -1,6 +1,5 @@
 <?php
 $authcode = $_POST['authcode'];
-$kind = mysql_real_escape_string($_POST['kind']);
 $user_srl = mysql_real_escape_string($_POST['user_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 //Getlist
@@ -21,11 +20,10 @@ require '../config.php';
 if($authcode != $auth) ErrorMessage("auth_error");
 
 //Change Auth code to tarks account
-require 'documents_class.php';
+require 'comment_class.php';
 
 
 //Check Value security
-Security_value_check($title);
 Security_value_check($content);
 
 //getList

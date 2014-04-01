@@ -10,7 +10,7 @@ $start_doc = mysql_real_escape_string($_POST['start_doc']);
 $doc_number = mysql_real_escape_string($_POST['doc_number']);
 $doc_info = mysql_real_escape_string($_POST['doc_info']);
 
-$log = "$doc_srl$$$doc_user_srl";
+$log = "$doc_srl";
 
 
 
