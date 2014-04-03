@@ -58,7 +58,7 @@ function document_delete($user_srl, $lang){
 
 
 function document_send_push($page_srl, $user_srl, $name, $content, $number){
-if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, $content, "새 글을 남겼습니다.", 1, $number);
+if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, $content, "new_document", 1, $number);
 }
 
 function document_getList($user_srl_auth, $doc_user_srl, $start, $number){

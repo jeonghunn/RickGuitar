@@ -5,6 +5,9 @@ $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 $nowurl = $_SERVER["REQUEST_URI"]; 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $date = strtotime(date('Y-m-d H:i:s'));
+$language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+
+
 
 
 function ErrorMessage($msg) {
@@ -54,6 +57,9 @@ function setRelationStatus($me_srl, $you_srl){
   //Global
   $status = 0;
 
+  //Member
+  if($me_srl != null) $status = 1;
+
   //Check like me and you are like too.
 
   //Check like me
@@ -71,6 +77,8 @@ $b = array_search($del_value,$list_arr);
 if($b!==FALSE) unset($list_arr[$b]); 
  return $list_arr;
 }
+
+
  
 require 'core/db.php';
 require 'core/logger.php';
@@ -79,5 +87,25 @@ require 'core/ip_manage.php';
 require 'core/permission.php';
 require 'core/auth.php';
     
-  
+  //Set language
+if($user_srl != null){
+    $user_lang = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));
+    $language = $user_lang[lang];
+}
+
+
+    // setup locale and translation
+    setlocale(LC_ALL, 'en_US.UTF-8');
+ require "lang/".$language.".php";
+
+    function T($str)
+    {
+        global $L;
+        if (isset($L[$str]))
+            return $L[$str];
+        else
+            return $str;
+    }
+
+
 ?>

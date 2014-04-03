@@ -29,9 +29,11 @@ function comment_write($doc_srl, $user_srl_auth , $content, $permission, $privac
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	$document = document_read($user_srl_auth, $doc_srl);
 	$last_number = CommentLastNumber();
+if($content != "") {
 	$comment_count = mysql_query("UPDATE `documents` SET `comments` = $document[comments] + 1 WHERE `srl` = '$doc_srl'");
-$result = mysql_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '$date', '$document[status]', '$privacy', '$REMOTE_ADDR');");
-comment_send_push($document[user_srl], $doc_srl, $user_srl, $name, $content, $doc_srl);
+	$result = mysql_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '$date', '$document[status]', '$privacy', '$REMOTE_ADDR');");
+    comment_send_push($document[user_srl], $doc_srl, $user_srl, $name, $content, $doc_srl);
+}
 //echo mysql_error();
 	
 return $result;
@@ -61,11 +63,14 @@ $sent[] = $doc_user_srl;
 $sent =  array_unique($sent);
 if($doc_user_srl == $user_srl) $sent = arr_del($sent, $doc_user_srl);
 $sent = arr_del($sent, $user_srl);
+//re sort
+foreach($sent as $a=>$b) if ( $b=='' ) unset($sent[$a]);
+$sent = array_values($sent);
 
-	for($i=0 ; $i <= count($sent); $i++){
+	for($i=0 ; $i < count($sent); $i++){
              
              	
-             sendPushMessage($sent[$i], $user_srl, $name, $content, "댓글을 남겼습니다.", 2, $number);
+             sendPushMessage($sent[$i], $user_srl, $name, $content,  "new_comment", 2, $number);
          
 }
 }

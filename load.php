@@ -1,10 +1,10 @@
-<?
+<?php
 
 $authcode = $_POST['authcode'];
 $user_srl = mysql_real_escape_string($_POST['user_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 $member_info = mysql_real_escape_string($_POST['member_info']);
-$log = "$lang&&$member_info";
+$log = "$lang";
 
 define('642979',   TRUE);
 require 'config.php';
