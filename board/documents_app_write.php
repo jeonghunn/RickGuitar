@@ -10,7 +10,7 @@ $permission = mysql_real_escape_string($_POST['permission']);
 $status = mysql_real_escape_string($_POST['status']);
 $privacy = mysql_real_escape_string($_POST['privacy']);
 $log = "$title$$$permission$$$status$$$privacy";
-
+$log_category = "doc_write";
 
 define('642979',   TRUE);
 require '../config.php';

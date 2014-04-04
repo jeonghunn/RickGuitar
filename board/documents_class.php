@@ -41,8 +41,10 @@ function document_write($page_srl, $user_srl_auth , $title, $content, $permissio
 	$user_info = GetMemberInfo($user_srl);
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	$last_number = DocLastNumber();
+	if($content != "") {
 $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`, `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '$date', '$permission', '$status', '$privacy', '$REMOTE_ADDR');");
 document_send_push($page_srl, $user_srl, $name,  $content, $last_number);
+}
 //echo mysql_error();
 	
 return $result;

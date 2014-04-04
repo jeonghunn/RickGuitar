@@ -12,7 +12,7 @@ $profile_pic = mysql_real_escape_string($_POST['profile_pic']);
 $reg_id = mysql_real_escape_string($_POST['reg_id']);
 $country = mysql_real_escape_string($_POST['country']);
 $log = "$name_1&&$name_2&&$reg_id&&$tarks_account_auth";
-
+$log_category = "join";
 
 define('642979',   TRUE);
 require '../config.php';

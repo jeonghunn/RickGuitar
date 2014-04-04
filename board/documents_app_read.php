@@ -11,7 +11,7 @@ $doc_number = mysql_real_escape_string($_POST['doc_number']);
 $doc_info = mysql_real_escape_string($_POST['doc_info']);
 
 $log = "$doc_srl";
-
+$log_category = "doc_read";
 
 
 define('642979',   TRUE);

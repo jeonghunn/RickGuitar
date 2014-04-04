@@ -7,8 +7,8 @@ $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 $content = mysql_real_escape_string($_POST['content']);
 $permission = mysql_real_escape_string($_POST['permission']);
 $privacy = mysql_real_escape_string($_POST['privacy']);
-$log = "$content$$$permission$$$status$$$privacy";
-
+$log = "$doc_srl";
+$log_category = "comment_write";
 
 define('642979',   TRUE);
 require '../config.php';

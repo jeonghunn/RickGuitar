@@ -11,12 +11,12 @@ function favorite_read($user_srl_auth, $doc_srl){
  //  return $table_status['Auto_increment'];  
  // }
 
-function favorite_add($fav_user_srl, $user_srl_auth, $category,  $status, $privacy){
+function favorite_page_add($fav_user_srl, $user_srl_auth, $category,  $status, $privacy){
 $result = favorite_add($fav_user_srl, $user_srl_auth, $category, $country_code, $phone_number, $birthday, $tags, $status, $privacy);
 return $result;
 }
 
-function favorite_add($fav_user_srl, $user_srl_auth, $category, $country_code, $phone_number, $birthday, $tags, $status, $privacy){
+function favorite_page_add($fav_user_srl, $user_srl_auth, $category, $country_code, $phone_number, $birthday, $tags, $status, $privacy){
 	global $date, $REMOTE_ADDR;
 	$user_srl = AuthCheck($user_srl_auth, false);
 	//$status = setRelationStatus($user_srl, $page_srl);

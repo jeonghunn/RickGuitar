@@ -9,7 +9,7 @@ $comment_number = mysql_real_escape_string($_POST['comment_number']);
 $comment_info = mysql_real_escape_string($_POST['comment_info']);
 
 $log = "$doc_srl";
-
+$log_category = "comment_read";
 
 
 define('642979',   TRUE);
