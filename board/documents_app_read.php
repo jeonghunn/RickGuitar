@@ -10,6 +10,9 @@ $start_doc = mysql_real_escape_string($_POST['start_doc']);
 $doc_number = mysql_real_escape_string($_POST['doc_number']);
 $doc_info = mysql_real_escape_string($_POST['doc_info']);
 
+//Userupdatecontents
+$users_srl = mysql_real_escape_string($_POST['users_srl']);
+
 $log = "$doc_srl";
 $log_category = "doc_read";
 
@@ -46,7 +49,16 @@ if($kind == 2){
 
 }
 
+//update
+if($kind == 3){
 
+}
+
+//getuserupdatecontent
+if($kind == 4){
+$userupdatecontent = document_getUserUpdateList($user_srl_auth, ExplodeInfoValue($users_srl));
+document_printUserUpdateList($userupdatecontent);
+}
 
       
 ?>

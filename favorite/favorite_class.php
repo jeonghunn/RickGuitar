@@ -1,8 +1,10 @@
 <?php if(!defined("642979")) exit();
 
-function favorite_read($user_srl_auth, $doc_srl){
+function favorite_read_page($category, $user_srl_auth, $value){
 	$user_srl = AuthCheck($user_srl_auth, false);
- $status = setRelationStatus($user_srl, $doc_user_srl);
+ //$status = setRelationStatus($user_srl, $doc_user_srl);
+return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category'");
+
 }
 
 //Find lastest number.
@@ -11,40 +13,62 @@ function favorite_read($user_srl_auth, $doc_srl){
  //  return $table_status['Auto_increment'];  
  // }
 
-function favorite_page_add($fav_user_srl, $user_srl_auth, $category,  $status, $privacy){
-$result = favorite_add($fav_user_srl, $user_srl_auth, $category, $country_code, $phone_number, $birthday, $tags, $status, $privacy);
-return $result;
-}
 
-function favorite_page_add($fav_user_srl, $user_srl_auth, $category, $country_code, $phone_number, $birthday, $tags, $status, $privacy){
+function favorite_add($value, $user_srl_auth, $category){
 	global $date, $REMOTE_ADDR;
 	$user_srl = AuthCheck($user_srl_auth, false);
-	//$status = setRelationStatus($user_srl, $page_srl);
-	if($fav_user_srl != "null"){
-		$fav_user_info = GetMemberInfo($fav_user_srl);
-
-	}
-	
-	//$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
+	$me_status = setRelationStatus($value, $user_srl);
+	$user_info = GetMemberInfo($user_srl);	
+	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	//$last_number = DocLastNumber();
-$result = mysql_query("INSERT INTO `favorite` (`user_srl`, `fav_user_srl`, `category`, `country_code`, `phone_number`, `birthday`, `tags`, `date`, `ip_addr`, `permission`, `status`, `private`) VALUES ('$user_srl', '$fav_user_srl', '$category', '$country_code', '$phone_number', '$birthday', '$tags', '$date', '$REMOTE_ADDR', '3' , '$status', '$privacy');");
-favorite_send_push($fav_user_srl, $user_srl, $name, $last_number);
+	if($me_status < 3){
+$result = mysql_query("INSERT INTO `favorite` (`user_srl`, `category`, `value`, `date`, `ip_addr`) VALUES ('$user_srl', '$category', '$value', '$date', '$REMOTE_ADDR');");
+setFavoriteCount($user_srl, $value, 3);
+favorite_send_push($value, $user_srl, $name, "0");
+}
 //echo mysql_error();
 	
 return $result;
 }
 
-function favorite_edit($user_srl, $lang){
-
-}
 
 function favorite_delete($user_srl, $lang){
 
 }
 
+//Set favorite count on user
+function setFavoriteCount($user_srl, $value, $category){
+	//Count my favorite
+	$me_favorite_count = getFavoriteCount($user_srl, $category); 
+	$me_like_me_count = getLikeMeCount($user_srl, $category);
+      mysql_query("UPDATE `user` SET `favorite` = '$me_favorite_count'   WHERE `user_srl` = '$user_srl'");
+    mysql_query("UPDATE `user` SET `like_me` = '$me_like_me_count'   WHERE `user_srl` = '$user_srl'");
 
-function favorite_send_push($page_srl, $user_srl, $name, $number){
-if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, "당신을 좋아하는 사람으로 등록했습니다.", 3, $number);
+//Count others favorite
+   	$you_favorite_count = getFavoriteCount($value, $category); 
+	$you_like_me_count = getLikeMeCount($value, $category);
+   mysql_query("UPDATE `user` SET `favorite` = '$you_favorite_count'   WHERE `user_srl` = '$value'");
+    mysql_query("UPDATE `user` SET `like_me` = '$you_like_me_count'   WHERE `user_srl` = '$value'");
+
+}
+
+function getLikeMeCount($user_srl, $category){
+	$like_me_count = mysql_query("SELECT * FROM  `favorite` WHERE  `value` = '$user_srl' AND `category` = '$category'");
+	$total= mysql_num_rows ( $like_me_count );
+
+	return $total;
+}
+
+function getFavoriteCount($user_srl, $category){
+	$favorite_count = mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category'");
+	$total= mysql_num_rows ( $favorite_count );
+
+	return $total;
+}
+
+
+function favorite_send_push($value, $user_srl, $name, $number){
+sendPushMessage($value, $user_srl, $name, "added_to_favorite", "added_to_favorite", 3, $user_srl);
 }
 
 function favorite_getList($user_srl_auth, $doc_user_srl, $start, $number){
@@ -54,14 +78,41 @@ function favorite_getList($user_srl_auth, $doc_user_srl, $start, $number){
 }
 
 
-function favorite_PrintList($row, $doc_info){
+function favorite_PrintList($row){
 	 $total= mysql_num_rows ( $row );
 	for($i=0 ; $i < $total; $i++){
                mysql_data_seek($row, $i);           //포인터 이동
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
-             echo print_info($result, $doc_info)."/DOC/.";
+             echo $result[value]."/LINE/.";
 }         
 }
    
+// You must import member_info_class.php
+function favorite_PrintListbyUpdate($row){
+	 $total= mysql_num_rows ( $row );
+	for($i=0 ; $i < $total; $i++){
+               mysql_data_seek($row, $i);           //포인터 이동
+             $result=mysql_fetch_array($row);        //레코드를 배열로 저장
+             $user_info = GetMemberInfo($result[value]);
+             	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
+            $profile[] = array( "last_update"=> $user_info[last_update] , "user_srl"=> $result[value], "name"=> $name);
+}         
+
+foreach ($profile as $key => $row) { 
+  $last_update[$key] = $row['last_update']; 
+  $user_srl[$key] = $row['user_srl']; 
+} 
+
+// volume 내림차순, edition 오름차순으로 데이터를 정렬 
+// 공통 키를 정렬하기 위하여 $data를 마지막 인수로 추가 
+array_multisort($last_update, SORT_DESC, $user_srl, SORT_ASC, $profile);
+
+foreach($profile as $key => $value){
+echo $value['user_srl']."/LINE/.".$value['name']."/PFILE/.";
+}
+
+}
       
+
+
 ?>

@@ -36,6 +36,10 @@ return $result;
 
 function document_write($page_srl, $user_srl_auth , $title, $content, $permission, $status, $privacy){
 	global $date, $REMOTE_ADDR;
+//Check Value security
+security_value_check($title);
+security_value_check($content);
+//Start
 	$user_srl = AuthCheck($user_srl_auth, false);
 	$relation_status = setRelationStatus($user_srl, $page_srl);
 	$user_info = GetMemberInfo($user_srl);
@@ -43,6 +47,9 @@ function document_write($page_srl, $user_srl_auth , $title, $content, $permissio
 	$last_number = DocLastNumber();
 	if($content != "") {
 $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`, `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '$date', '$permission', '$status', '$privacy', '$REMOTE_ADDR');");
+//Set last update
+mysql_query("UPDATE `user` SET `last_update` = '$date'   WHERE `user_srl` = '$page_srl'");
+//Push
 document_send_push($page_srl, $user_srl, $name,  $content, $last_number);
 }
 //echo mysql_error();
@@ -69,6 +76,25 @@ function document_getList($user_srl_auth, $doc_user_srl, $start, $number){
  return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  `status` <=$status ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
 }
 
+function document_getUserUpdateList($user_srl_auth, $user_array){
+	$user_srl = AuthCheck($user_srl_auth, false);
+for($i=0 ; $i < count($user_array); $i++){
+	  $status = setRelationStatus($user_srl, $user_array[$i]);
+ $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND  `status` <=$status ORDER BY  `documents`.`srl` DESC");
+  mysql_data_seek($row, 0);
+  $result=mysql_fetch_array($row); 
+ $contents[] = $result[title] == "null" ? $result[content] : $result[title];
+}
+
+return $contents;
+}
+
+
+function document_printUserUpdateList($array){
+	for($i=0 ; $i < count($array); $i++){
+echo $array[$i]."/LINE/.";
+	}
+}
 
 function document_PrintList($row, $doc_info){
 	 $total= mysql_num_rows ( $row );

@@ -5,7 +5,10 @@ $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 $nowurl = $_SERVER["REQUEST_URI"]; 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $date = strtotime(date('Y-m-d H:i:s'));
+
+//Language
 $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+if($language == null) $language = "en";
 
 
 
@@ -52,6 +55,8 @@ return $name;
 
 function setRelationStatus($me_srl, $you_srl){
 //Select you srl
+  $me_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$me_srl' AND `category` LIKE '3' AND `value` LIKE '$you_srl'"));
+   $you_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl'"));
   $you_srl_info = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$you_srl'"));
 
   //Global
@@ -61,8 +66,9 @@ function setRelationStatus($me_srl, $you_srl){
   if($me_srl != null) $status = 1;
 
   //Check like me and you are like too.
-
-  //Check like me
+if($me_favorite[value] == $you_srlm) $status = 2;
+  //Check like you
+if($you_favorite[value] == $me_srl) $status = 3;
 
   //Check I'm owner
   if($me_srl == $you_srl) $status = 4;

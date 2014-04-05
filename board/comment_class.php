@@ -30,8 +30,8 @@ function comment_write($doc_srl, $user_srl_auth , $content, $permission, $privac
 	$document = document_read($user_srl_auth, $doc_srl);
 	$last_number = CommentLastNumber();
 if($content != "") {
-	$comment_count = mysql_query("UPDATE `documents` SET `comments` = $document[comments] + 1 WHERE `srl` = '$doc_srl'");
 	$result = mysql_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '$date', '$document[status]', '$privacy', '$REMOTE_ADDR');");
+	setDocCommentCount($doc_srl);
     comment_send_push($document[user_srl], $doc_srl, $user_srl, $name, $content, $doc_srl);
 }
 //echo mysql_error();
@@ -45,6 +45,18 @@ function comment_edit($user_srl, $lang){
 
 function comment_delete($user_srl, $lang){
 
+}
+
+function setDocCommentCount($doc_srl){
+	$count = getCommentCount($doc_srl); 
+$comment_count = mysql_query("UPDATE `documents` SET `comments` = '$count' WHERE `srl` = '$doc_srl'");
+}
+
+function getCommentCount($doc_srl){
+	$comment_count = mysql_query("SELECT * FROM  `comments` WHERE  `doc_srl` = '$doc_srl'");
+	$total= mysql_num_rows ( $comment_count );
+
+	return $total;
 }
 
 

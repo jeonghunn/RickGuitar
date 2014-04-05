@@ -1,8 +1,8 @@
 <?php if(!defined("642979")) exit();
-    if(strpos($log, "/LINE/.")) ErrorMessage("security_error"); 
+    if(strpos($log, "/LINE/.")!== false)) ErrorMessage("security_error"); 
 
-    function Security_value_check($value) {
- if(strpos($$value, "/LINE/.")) ErrorMessage("security_error"); 
+    function security_value_check($value) {
+ if(strpos($value, "/LINE/.") !== false) ErrorMessage("security_error"); 
     }
 
     //Char check

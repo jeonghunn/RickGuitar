@@ -9,7 +9,7 @@ $content = mysql_real_escape_string($_POST['content']);
 $permission = mysql_real_escape_string($_POST['permission']);
 $status = mysql_real_escape_string($_POST['status']);
 $privacy = mysql_real_escape_string($_POST['privacy']);
-$log = "$title$$$permission$$$status$$$privacy";
+$log = "$page_srl";
 $log_category = "doc_write";
 
 define('642979',   TRUE);
@@ -25,9 +25,6 @@ require '../member/push_class.php';
 require 'documents_class.php';
 
 
-//Check Value security
-Security_value_check($title);
-Security_value_check($content);
 
 //Update
 if($kind == 0){

@@ -1,11 +1,12 @@
 <?php
 $authcode = $_POST['authcode'];
-$fav_user_srl = mysql_real_escape_string($_POST['value']);
+$kind = mysql_real_escape_string($_POST['kind']);
+$category = mysql_real_escape_string($_POST['category']);
 $user_srl = mysql_real_escape_string($_POST['user_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
-$category = mysql_real_escape_string($_POST['category']);
+$value = mysql_real_escape_string($_POST['value']);
 $log = "$value";
-$log_category = "favorite_add";
+$log_category = "favorite_read";
 
 
 define('642979',   TRUE);
@@ -17,17 +18,17 @@ if($authcode != $auth) ErrorMessage("auth_error");
 
 //Change Auth code to tarks account
 require '../member/member_info_class.php';
-require '../member/push_class.php';
 require 'favorite_class.php';
 
+//for doc, comment etc
+if($kind == 1){
 
+}
 
-	$favorite_add = favorite_add($fav_user_srl, $user_srl_auth , $category);
-if($favorite_add == true){
-	echo "favorite_add_succeed";
-	
-}else{
-echo "favorite_add_error";
+//User
+if($kind == 2){
+	$FavoriteList = favorite_read_page($category, $user_srl_auth, $value);
+favorite_PrintListbyUpdate($FavoriteList);
 }
 
 
