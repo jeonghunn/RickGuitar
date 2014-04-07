@@ -28,17 +28,37 @@ $row = AccessMemberInfo(setRelationStatus($user_srl, $profile_user_srl), $row, $
 return $row;
 }
 
+function TarksAccountLogin($id, $password){
+$password = md5($password);
+	$loginResult = TarksAccount($id, $password);
+
+if($loginResult){
+	$user_info = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `tarks_account` LIKE '$id'"));
+}
+
+
+
+return  FindAuthCode($user_info[user_srl], "user_srl");
+}
+
+function TarksAccount($id, $password){
+if(!rtnSpecialCharCheck($id.$password)) ErrorMessage("security_error");
+if($id == null || $password == null) ErrorMessage("security_error");
+ ConnectDB("xe");
+ $row = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
+ ConnectMainDB();
+ if($id == $row[user_id]) return true;
+ return false;
+}
+
 
 function TarksAccountCheck($id, $password){
     ConnectDB("xe");
-  //Protect from sql injection
-if(!rtnSpecialCharCheck($id.$password)) ErrorMessage("security_error");
-if($id == null || $password == null) ErrorMessage("security_error");
+$loginResult = TarksAccount($id, $password);
 $row = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
-if($id == $row[user_id]){
+if($loginResult){
 //Connect main db to auth
-ConnectMainDB();
-  $auth_code_result = MakeAuthCode("15", $row[user_id], "tarks_account");
+  $auth_code_result = MakeAuthCode("15", $id, "tarks_account");
   //Echo Auth code to client
 //auth_code_result is value of result of auth
 }

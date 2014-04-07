@@ -1,12 +1,13 @@
 <?php
 
-//Site
+//Menu
 $L['home'] = '홈';
 
-
-//Notice
-$L['comment_noti'] = '댓글을 달았습니다.';
-$L['post_noti'] = '새 글을 남겼습니다.';
+// Login
+$L['sign_in'] = '로그인';
+$L['id'] = '아이디';
+$L['password'] = '비밀번호';
+$L['remember_me'] = '로그인 유지';
 
 
 ?>

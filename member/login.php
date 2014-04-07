@@ -1,14 +1,16 @@
 
+    <link href="css/signin.css" rel="stylesheet">
+
     <div class="container">
 
-      <form class="form-signin" role="form">
-        <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="email" class="form-control" placeholder="Email address" required autofocus>
-        <input type="password" class="form-control" placeholder="Password" required>
+      <form class="form-signin" role="form" method='post' action='member/loginact.php'>
+        <h2 class="form-signin-heading"><? S('sign_in'); ?></h2>
+        <input type="text" name='id' class="form-control" placeholder="<? S('id');?>" required autofocus>
+        <input type="password" name='password'  class="form-control" placeholder="<? S('password');?>" required>
         <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Remember me
+          <input type="checkbox" value="remember-me"> <? S('remember_me');?>
         </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        <button class="btn btn-lg btn-primary btn-block" type="submit"><? S('sign_in');?></button>
       </form>
 
     </div> <!-- /container -->

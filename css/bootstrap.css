@@ -5,6 +5,12 @@
  */
 
 /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
 
 article,
 aside,
@@ -5233,6 +5239,7 @@ a.list-group-item.active > .badge,
 .jumbotron h1,
 .jumbotron .h1 {
   line-height: 1;
+  font-family: 'Nanum Gothic','Nanum Brush Script','Nanum Gothic Coding','Nanum Myeongjo','Nanum Pen Script';
   color: inherit;
 }
 

@@ -26,7 +26,7 @@ require 'join_class.php';
 
 if($tarks_account_auth != "null"){
 $tarks_account = AuthCheck($tarks_account_auth, true);
-$birthday = TarksAccount($tarks_account, "birthday");
+$birthday = GetTarksAccountInfo($tarks_account, "birthday");
 }else{
     $tarks_account = "null";
 }

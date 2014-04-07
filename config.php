@@ -18,6 +18,14 @@ function ErrorMessage($msg) {
     exit();
 }
 
+function S($str){
+  echo T($str);
+}
+
+function P($str){
+  echo $str;
+}
+
 //Print for native app
 function print_info($row, $info){
 
@@ -92,6 +100,9 @@ require 'core/security.php';
 require 'core/ip_manage.php';
 require 'core/permission.php';
 require 'core/auth.php';
+
+//Log Client
+ClientAgentLog();
     
   //Set language
 if($user_srl != null){

@@ -1,7 +1,7 @@
 <?php
 //You must import auth.php when use this class
 
- function TarksAccount($tarks_account, $value) {
+ function GetTarksAccountInfo($tarks_account, $value) {
 ConnectDB("xe");
  	$xesql ="SELECT $value FROM  `xe_member` WHERE  `user_id` LIKE '$tarks_account'";
 $xeresult = mysql_query($xesql);

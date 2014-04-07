@@ -1,11 +1,14 @@
 <?php
 
-//Site
+//Site Menu
 $L['home'] = 'Home';
 
-// notice
-$L['comment_noti'] = 'Commented on post.';
-$L['post_noti'] = 'Wrote a new post.';
+// Login
+$L['sign_in'] = 'Sign in';
+$L['id'] = 'ID';
+$L['password'] = 'Password';
+$L['remember_me'] = 'Remember me';
+
 
 ?>
 
