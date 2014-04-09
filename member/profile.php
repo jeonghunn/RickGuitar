@@ -1,8 +1,8 @@
 
 
-        <div class="jumbotron" style="background-image: url(files/profile/1.jpg); background-size: 100%; background-position:center center;">
-        <h1 style="text-shadow: 2px 2px 4px #000; color: rgb(237, 237, 237);">이정훈</h1>
-           <p style="text-shadow: 2px 2px 4px #000; color: rgb(237, 237, 237);" class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+        <div class="jumbotron" style="background-image: url(files/profile/<? P($page_srl) ?>.jpg); background-size: 100%; background-position:center center;">
+        <h1 style="text-shadow: 2px 2px 4px #000; color: rgb(237, 237, 237);"><? P($page_name) ?></h1>
+        <!--    <p style="text-shadow: 2px 2px 4px #000; color: rgb(237, 237, 237);" class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p> -->
       <!--   <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p> -->
       </div>
 
@@ -13,6 +13,9 @@
   <div class="col-xs-12 col-sm-6 col-md-8">
 
 <textarea class="form-control" rows="3"></textarea>
+<br>
+<div style="float:right;"><button type="button" class="btn btn-default btn-lg"> <? S('write') ?></button></div>
+<br>
 <br>
 
 <hr>

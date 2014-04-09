@@ -9,5 +9,7 @@ $L['id'] = '아이디';
 $L['password'] = '비밀번호';
 $L['remember_me'] = '로그인 유지';
 
+//Profile
+$L['write'] = '쓰기';
 
 ?>

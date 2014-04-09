@@ -39,7 +39,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Favorite</a>
+          <a class="navbar-brand" href="index.php">Favorite</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -60,9 +60,15 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top</a></li>
+           <? echo '<li class="active" >';
+           if($user_srl != null){
+             echo '<a href="?p='.$user_srl.'">'.$user_name.'</a>';
+           }else{
+             echo '<a href="index.php">'.T('sign_in').'</a>';
+           }
+             echo '</li>';
+           ?>
+    
           </ul>
         </div><!--/.nav-collapse -->
       </div>
