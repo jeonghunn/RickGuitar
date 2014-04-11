@@ -20,7 +20,7 @@ require '../config.php';
 if($authcode != $auth) ErrorMessage("auth_error");
 
 //Change Auth code to tarks account
-require '../member/member_info_class.php';
+require '../member/member_class.php';
 require '../member/push_class.php';
 require 'documents_class.php';
 
@@ -40,12 +40,10 @@ if($kind == 1) {
 	$document_write = document_write($page_srl, $user_srl_auth , $title, $content, $permission, $status, $privacy);
 if($document_write == true){
 	echo "document_write_succeed";
-	
 }else{
 echo "document_write_error";
 }
 }
-
 
 
 

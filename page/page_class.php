@@ -14,7 +14,7 @@ function GetPageInfo($page_srl){
 return $row;
 }
 
-//IF use this function you must import auth.php and private.php, member_info_class.php
+//IF use this function you must import auth.php and private.php, member_class.php
 function PageInfo($page_srl, $user_srl_auth){
 
 $user_srl = AuthCheck($user_srl_auth, false);

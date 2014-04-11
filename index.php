@@ -7,7 +7,7 @@ require 'config.php';
 
 //Auth code to user_srl
 
-require 'member/member_info_class.php';
+require 'member/member_class.php';
 
 $user_srl_auth = $_SESSION['user_srl_auth'];
 $user_info = getMemberInfo(AuthCheck($user_srl_auth, false));

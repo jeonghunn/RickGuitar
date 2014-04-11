@@ -43,13 +43,15 @@ return $xerow[$value];
             //Get Auth Code
             $auth_code = MakeAuthCode("36" , $MemberNumber, "user_srl");
 
-              //Profile picture
-           ProfileUpdate($MemberNumber);
- 
+//Profile picture
+          if($profile_pic == "Y") ProfileUpdate($MemberNumber);
+              
            //add user to db
-            $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$reg_id', '$lang', '$country');";
+           $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$reg_id', '$lang', '$country');";
             $result = mysql_query($sql);
 
+
+ 
              //Create Own Page
        //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
             mysql_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$MemberNumber', '3');");
@@ -62,15 +64,15 @@ return $xerow[$value];
     function UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country) {
            global $date;
 
-             
 
+                               if($profile_pic == "Y")  ProfileUpdate($user_srl);
                //add user to db
             $sql ="UPDATE `user` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `country_code` = '$country_code', `phone_number` = '$phone_number', `profile_pic` = '$profile_pic', `profile_update` = '$date', `reg_id` = '$reg_id', `country` = '$country' WHERE `user_srl` = '$user_srl'";
             $result = mysql_query($sql);
 
             $auth_code = FindAuthCode($user_srl, "user_srl");
 
-         ProfileUpdate($user_srl);
+     
       //     unlink﻿("../files/profile/".$user_srl.".jpg");
            
 
@@ -86,16 +88,6 @@ return $xerow[$value];
 
      }
 
-      function ProfileUpdate($file_name) {
-$target_path = "../files/profile/";
-$tmp_img = explode("." ,$_FILES['uploadedfile']['name']); 
-//$img_name = $file_name.".".$tmp_img[1];
-$img_name = $file_name."."."jpg";
-$target_path = $target_path . basename($img_name);
-
- $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-return $upload_result;
-      }
 
       function AddUserActivityByApp(){
            global $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country;

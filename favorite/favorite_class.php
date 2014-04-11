@@ -87,7 +87,7 @@ function favorite_PrintList($row){
 }         
 }
    
-// You must import member_info_class.php
+// You must import member_class.php
 function favorite_PrintListbyUpdate($row){
 	 $total= mysql_num_rows ( $row );
 	for($i=0 ; $i < $total; $i++){

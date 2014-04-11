@@ -10,7 +10,8 @@ $date = strtotime(date('Y-m-d H:i:s'));
 $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
 if($language == null) $language = "en";
 
-
+// error_reporting(E_ALL);
+// ini_set("display_errors", 1);
 
 
 function ErrorMessage($msg) {
@@ -93,6 +94,8 @@ if($b!==FALSE) unset($list_arr[$b]);
 }
 
 
+
+
  
 require 'core/db.php';
 require 'core/logger.php';
@@ -100,10 +103,13 @@ require 'core/security.php';
 require 'core/ip_manage.php';
 require 'core/permission.php';
 require 'core/auth.php';
+require_once 'core/Thumbnail.class.php';
 
 //Log Client
 ClientAgentLog();
     
+
+
   //Set language
 if($user_srl != null){
     $user_lang = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));

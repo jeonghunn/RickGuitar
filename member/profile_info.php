@@ -14,7 +14,7 @@ if($authcode != $auth) ErrorMessage("auth_error");
 
 
 require '../core/status.php';
-require 'member_info_class.php';
+require 'member_class.php';
 
 
 //Get Profile information

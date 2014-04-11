@@ -12,7 +12,7 @@ require '../config.php';
 //Check Auth
 if($authcode != $auth) ErrorMessage("auth_error");
 
-require 'member_info_class.php';
+require 'member_class.php';
 
 echo TarksAccountCheck($id, $password);
 
