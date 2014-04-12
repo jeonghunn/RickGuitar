@@ -44,6 +44,7 @@ ProfileUpdate($profile_user_srl);
 if($kind == 2){
 ProfileInfoUpdate($profile_user_srl, "name_1", $name_1);
 ProfileInfoUpdate($profile_user_srl, "name_2", $name_2);
+ProfileInfoUpdate($profile_user_srl, "lang", $lang);
 }
 
 
