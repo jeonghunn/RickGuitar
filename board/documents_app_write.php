@@ -26,7 +26,7 @@ require 'documents_class.php';
 
 
 
-//Update
+//Update Status
 if($kind == 0){
 
 }

@@ -17,9 +17,12 @@ function ProfileInfoUpdate($user_srl, $title, $value){
 
 
 function GetMemberInfo($user_srl){
-
-return mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));
+$row = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));
+if($row[status] > 4) ErrorMessage('unknown_user_error');
+return $row;
 }
+
+
 
 
 //IF use this function you must import auth.php and private.php

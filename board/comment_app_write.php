@@ -27,7 +27,7 @@ require 'documents_class.php';
 //Check Value security
 Security_value_check($content);
 
-//Update
+//Status Change
 if($kind == 0){
 
 }
@@ -48,7 +48,9 @@ echo "comment_write_error";
 }
 
 
+if($kind == 2){
 
+}
 
       
 ?>

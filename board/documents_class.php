@@ -4,7 +4,7 @@ function document_read($user_srl_auth, $doc_srl){
 	$user_srl = AuthCheck($user_srl_auth, false);
 	$row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
 mysql_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
- $status = setRelationStatus($user_srl, $row[page_srl]);
+ $status = getDocStatus($user_srl, $doc_srl);
 
 if($status < $row[status]) ErrorMessage("permission_error");
 
@@ -13,9 +13,49 @@ return $row;
 
 //Find lastest number.
  function DocLastNumber(){
-  $table_status =mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'documents'"));
+  $table_status = mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'documents'"));
   return $table_status['Auto_increment'];  
  }
+
+ function document_status_update($doc_srl, $user_srl_auth, $status){
+	global $date, $REMOTE_ADDR;
+	$user_srl = AuthCheck($user_srl_auth, false);
+    $status_relation = getDocStatus($user_srl, $doc_srl);
+    if($status_relation == 4){
+	 $result = mysql_query("UPDATE `documents` SET `status` = '$date'   WHERE `user_srl` = '$page_srl'");
+}
+return $result;
+ }
+
+
+function getDocStatus($user_srl, $doc_srl){
+//doc owner
+$doc_owner = getDocOwner($doc_srl);
+$doc_page_owner = getDocPageOwner($doc_srl);
+
+	//Check Status
+	if($user_srl != $doc_page_owner){
+	$status = setRelationStatus($user_srl, $doc_owner);
+}else{
+	$status = 4;
+}
+
+return $status;
+
+}
+
+function getDocOwner($doc_srl){
+	return getDocInfo($doc_srl, "user_srl");
+}
+
+function getDocPageOwner($doc_srl){
+	return getDocInfo($doc_srl, "page_srl");
+}
+
+function getDocInfo($doc_srl, $info){
+	$result =mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` =$doc_srl"));
+return $result[$info];
+}
 
 
 function document_update($doc_srl, $user_srl_auth , $namearray, $valuearray){
@@ -68,19 +108,20 @@ function document_delete($user_srl, $lang){
 
 function document_send_push($page_srl, $user_srl, $name, $content, $number){
 if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, $content, "new_document", 1, $number);
+ //if ($user_srl != $page_srl) exec("php /usr/bin/php /var/www/favorite/member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." > /dev/null &");
+ //if ($user_srl != $page_srl) proc_close(proc_open ("../member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." &", array(), $foo));
 }
-
 function document_getList($user_srl_auth, $doc_user_srl, $start, $number){
 	$user_srl = AuthCheck($user_srl_auth, false);
   $status = setRelationStatus($user_srl, $doc_user_srl);
- return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  `status` <=$status ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+ return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR `user_srl` =$user_srl) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
 }
 
 function document_getUserUpdateList($user_srl_auth, $user_array){
 	$user_srl = AuthCheck($user_srl_auth, false);
 for($i=0 ; $i < count($user_array); $i++){
 	  $status = setRelationStatus($user_srl, $user_array[$i]);
- $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND  `status` <=$status ORDER BY  `documents`.`srl` DESC");
+ $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND (`status` <=$status OR `user_srl` =$user_srl) ORDER BY  `documents`.`srl` DESC");
   mysql_data_seek($row, 0);
   $result=mysql_fetch_array($row); 
  $contents[] = $result[title] == "null" ? $result[content] : $result[title];

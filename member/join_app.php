@@ -22,7 +22,7 @@ if($authcode != $auth) ErrorMessage("auth_error");
 
 
 
-
+require_once '../core/Thumbnail.class.php';
 require 'member_class.php';
 require 'join_class.php';
 

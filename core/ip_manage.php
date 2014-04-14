@@ -10,7 +10,7 @@
 	$ip_active = $ip_manage[active];
 	$ip_point = $ip_manage[point];
 	//Check DDOS
-	if($ip_point > 999) $ip_active = "N";
+	if($ip_point > 9999) $ip_active = "N";
 	if($ip_point < 1000 && $ip_manage[log] == NULL) $ip_active = "Y";
 	if($ip_manage[last_access] > $date - 2) $ip_point = $ip_point + 1;
 	if($ip_manage[last_access] > $date - 2 && $nowurl == $ip_manage[last_address]) $ip_point = $ip_point + 5;

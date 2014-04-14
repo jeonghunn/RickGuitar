@@ -68,6 +68,7 @@ function setRelationStatus($me_srl, $you_srl){
    $you_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl'"));
   $you_srl_info = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$you_srl'"));
 
+
   //Global
   $status = 0;
 
@@ -75,7 +76,7 @@ function setRelationStatus($me_srl, $you_srl){
   if($me_srl != null) $status = 1;
 
   //Check like me and you are like too.
-if($me_favorite[value] == $you_srlm) $status = 2;
+if($me_favorite[value] == $you_srl) $status = 2;
   //Check like you
 if($you_favorite[value] == $me_srl) $status = 3;
 
@@ -83,6 +84,8 @@ if($you_favorite[value] == $me_srl) $status = 3;
   if($me_srl == $you_srl) $status = 4;
  if($me_srl == $you_srl_info[admin]) $status = 4;
  
+ //Check unknown
+ if($you_srl_info[status] > 4) $status = -1;
   return $status;
 }
 
@@ -103,7 +106,7 @@ require 'core/security.php';
 require 'core/ip_manage.php';
 require 'core/permission.php';
 require 'core/auth.php';
-require_once 'core/Thumbnail.class.php';
+
 
 //Log Client
 ClientAgentLog();
