@@ -3,6 +3,7 @@ $authcode = $_POST['authcode'];
 $kind = mysql_real_escape_string($_POST['kind']);
 $page_srl = mysql_real_escape_string($_POST['page_srl']);
 $user_srl = mysql_real_escape_string($_POST['user_srl']);
+$doc_srl = mysql_real_escape_string($_POST['doc_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 $title = mysql_real_escape_string($_POST['title']);
 $content = mysql_real_escape_string($_POST['content']);
@@ -28,7 +29,12 @@ require 'documents_class.php';
 
 //Update Status
 if($kind == 0){
-
+$document_status_update = document_status_update($doc_srl, $user_srl_auth, $status);
+if($document_status_update == true){
+	echo "document_update_succeed";
+}else{
+echo "document_update_error";
+}
 }
 
 //Write

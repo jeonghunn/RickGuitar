@@ -5,6 +5,7 @@ $user_srl = mysql_real_escape_string($_POST['user_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 $member_info = mysql_real_escape_string($_POST['member_info']);
 $log = "$lang";
+$log_category = "load_app";
 
 define('642979',   TRUE);
 require 'config.php';

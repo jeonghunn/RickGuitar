@@ -1,11 +1,13 @@
 <?php
 $authcode = $_POST['authcode'];
 $kind = mysql_real_escape_string($_POST['kind']);
+$comment_srl = mysql_real_escape_string($_POST['comment_srl']);
 $doc_srl = mysql_real_escape_string($_POST['doc_srl']);
 $user_srl = mysql_real_escape_string($_POST['user_srl']);
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 $content = mysql_real_escape_string($_POST['content']);
 $permission = mysql_real_escape_string($_POST['permission']);
+$status = mysql_real_escape_string($_POST['status']);
 $privacy = mysql_real_escape_string($_POST['privacy']);
 $log = "$doc_srl";
 $log_category = "comment_write";
@@ -29,7 +31,12 @@ Security_value_check($content);
 
 //Status Change
 if($kind == 0){
-
+$comment_status_update = comment_status_update($comment_srl, $user_srl_auth, $status);
+if($comment_status_update == true){
+	echo "comment_update_succeed";
+}else{
+echo "comment_update_error";
+}
 }
 
 //Write

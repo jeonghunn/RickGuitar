@@ -42,8 +42,8 @@ document_PrintList($DocList, ExplodeInfoValue($doc_info));
 if($kind == 1) {
 $Doc_read = document_read($user_srl_auth, $doc_srl);
 print_info($Doc_read, ExplodeInfoValue($doc_info));
+ echo "/LINE/.".getDocStatus($user_srl, $doc_srl);
 }
-
 //Delete
 if($kind == 2){
 

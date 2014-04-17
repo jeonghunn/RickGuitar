@@ -21,6 +21,7 @@ if($authcode != $auth) ErrorMessage("auth_error");
 
 //Change Auth code to tarks account
 require 'comment_class.php';
+require 'documents_class.php';
 
 
 //Check Value security
@@ -29,7 +30,7 @@ Security_value_check($content);
 //getList
 //if($kind == 0){
 $CommentList = comment_getList($user_srl_auth, $doc_srl, $start_comment, $comment_number);
-comment_PrintList($CommentList, ExplodeInfoValue($comment_info));
+comment_PrintList($user_srl_auth, $CommentList, ExplodeInfoValue($comment_info));
 //}
 
 //Read

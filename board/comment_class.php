@@ -21,6 +21,52 @@ return $row;
  }
 
 
+//Require documents_class.php
+ function comment_status_update($comment_srl, $user_srl_auth, $status){
+	global $date, $REMOTE_ADDR;
+	$cmt_info = getComment($comment_srl);
+	$user_srl = AuthCheck($user_srl_auth, false);
+    $status_relation = getCommentStatus($user_srl, $comment_srl);
+    if($status_relation == 4){
+	 $result = mysql_query("UPDATE `comments` SET `status` = '$status'  WHERE `srl` = '$comment_srl'");
+	 setDocCommentCount($cmt_info[doc_srl]);
+}
+return $result;
+ }
+
+
+//Require documents_class.php
+function getCommentStatus($user_srl, $comment_srl){
+
+$cmt_info = getComment($comment_srl);
+//doc owner
+$doc_owner = getDocOwner($cmt_info[doc_srl]);
+$doc_page_owner = getDocPageOwner($cmt_info[doc_srl]);
+
+	//Check Status
+	if($user_srl != $cmt_info[user_srl] && $user_srl != $doc_owner && $user_srl != $doc_page_owner ){
+	$status = setRelationStatus($user_srl, $comment_owner);
+}else{
+	$status = 4;
+}
+
+return $status;
+
+}
+
+
+
+
+function getCommentInfo($srl, $info){
+	$result =getComment($srl);
+return $result[$info];
+}
+
+function getComment($srl){
+	$result =mysql_fetch_array(mysql_query("SELECT * FROM  `comments` WHERE  `srl` =$srl"));
+return $result;
+}
+
 
 function comment_write($doc_srl, $user_srl_auth , $content, $permission, $privacy){
 	global $date, $REMOTE_ADDR;
@@ -53,7 +99,7 @@ $comment_count = mysql_query("UPDATE `documents` SET `comments` = '$count' WHERE
 }
 
 function getCommentCount($doc_srl){
-	$comment_count = mysql_query("SELECT * FROM  `comments` WHERE  `doc_srl` = '$doc_srl'");
+	$comment_count = mysql_query("SELECT * FROM  `comments` WHERE  `doc_srl` = '$doc_srl' AND `status` != '5'");
 	$total= mysql_num_rows ( $comment_count );
 
 	return $total;
@@ -88,7 +134,6 @@ $sent = array_values($sent);
 }
 }         
 
- 
 
 
 function comment_getList($user_srl_auth, $doc_srl, $start, $number){
@@ -98,12 +143,13 @@ function comment_getList($user_srl_auth, $doc_srl, $start, $number){
 }
 
 
-function comment_PrintList($row, $comment_info){
+function comment_PrintList($user_srl_auth, $row, $comment_info){
+		$user_srl = AuthCheck($user_srl_auth, false);
 	 $total= mysql_num_rows ( $row );
 	for($i=0 ; $i < $total; $i++){
                mysql_data_seek($row, $i);           //포인터 이동
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
-             echo print_info($result, $comment_info)."/CMT/.";
+             echo print_info($result, $comment_info)."/LINE/.".getCommentStatus($user_srl, $result[srl])."/CMT/.";
 }         
 }
    

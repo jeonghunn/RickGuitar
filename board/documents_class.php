@@ -22,7 +22,7 @@ return $row;
 	$user_srl = AuthCheck($user_srl_auth, false);
     $status_relation = getDocStatus($user_srl, $doc_srl);
     if($status_relation == 4){
-	 $result = mysql_query("UPDATE `documents` SET `status` = '$date'   WHERE `user_srl` = '$page_srl'");
+	 $result = mysql_query("UPDATE `documents` SET `status` = '$status'   WHERE `srl` = '$doc_srl'");
 }
 return $result;
  }
@@ -114,14 +114,14 @@ if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, $conten
 function document_getList($user_srl_auth, $doc_user_srl, $start, $number){
 	$user_srl = AuthCheck($user_srl_auth, false);
   $status = setRelationStatus($user_srl, $doc_user_srl);
- return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR `user_srl` =$user_srl) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+ return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
 }
 
 function document_getUserUpdateList($user_srl_auth, $user_array){
 	$user_srl = AuthCheck($user_srl_auth, false);
 for($i=0 ; $i < count($user_array); $i++){
 	  $status = setRelationStatus($user_srl, $user_array[$i]);
- $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND (`status` <=$status OR `user_srl` =$user_srl) ORDER BY  `documents`.`srl` DESC");
+ $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC");
   mysql_data_seek($row, 0);
   $result=mysql_fetch_array($row); 
  $contents[] = $result[title] == "null" ? $result[content] : $result[title];
