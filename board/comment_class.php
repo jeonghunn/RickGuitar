@@ -138,8 +138,8 @@ $sent = array_values($sent);
 
 function comment_getList($user_srl_auth, $doc_srl, $start, $number){
 	$user_srl = AuthCheck($user_srl_auth, false);
-  $status = setRelationStatus($user_srl, $doc_user_srl);
- return mysql_query("SELECT * FROM  `comments` WHERE  `doc_srl` =$doc_srl AND  `status` <=$status ORDER BY  `comments`.`srl` ASC LIMIT $start , $number");
+  $status = getDocStatus($user_srl, $doc_srl);
+ return mysql_query("SELECT * FROM  `comments` WHERE  `doc_srl` =$doc_srl AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `comments`.`srl` ASC LIMIT $start , $number");
 }
 
 

@@ -6,7 +6,7 @@ function document_read($user_srl_auth, $doc_srl){
 mysql_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
  $status = getDocStatus($user_srl, $doc_srl);
 
-if($status < $row[status]) ErrorMessage("permission_error");
+if($status < $row[status]) $row = false;
 
 return $row;
 }
@@ -23,6 +23,8 @@ return $row;
     $status_relation = getDocStatus($user_srl, $doc_srl);
     if($status_relation == 4){
 	 $result = mysql_query("UPDATE `documents` SET `status` = '$status'   WHERE `srl` = '$doc_srl'");
+}else{
+	$result = false;
 }
 return $result;
  }
