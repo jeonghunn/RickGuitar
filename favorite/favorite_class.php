@@ -7,6 +7,7 @@ return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AN
 
 }
 
+
 //Find lastest number.
  // function DocLastNumber(){
  //  $table_status =mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'documents'"));

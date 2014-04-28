@@ -36,8 +36,8 @@ $doc_owner = getDocOwner($doc_srl);
 $doc_page_owner = getDocPageOwner($doc_srl);
 
 	//Check Status
-	if($user_srl != $doc_page_owner){
-	$status = setRelationStatus($user_srl, $doc_owner);
+	if($user_srl != $doc_owner){
+	$status = setRelationStatus($user_srl, $doc_page_owner);
 }else{
 	$status = 4;
 }
@@ -75,7 +75,7 @@ return $result;
 }
 
 
-
+//require attach_class.php
 function document_write($page_srl, $user_srl_auth , $title, $content, $permission, $status, $privacy){
 	global $date, $REMOTE_ADDR;
 //Check Value security
@@ -87,8 +87,10 @@ security_value_check($content);
 	$user_info = GetMemberInfo($user_srl);
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	$last_number = DocLastNumber();
-	if($content != "") {
-$result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`, `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '$date', '$permission', '$status', '$privacy', '$REMOTE_ADDR');");
+	if($content != "" && $relation_status != -1) {
+$attach_result = attach_file($page_srl, $last_number, $user_srl, $status);
+$result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '$date', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '$REMOTE_ADDR');");
+
 //Set last update
 mysql_query("UPDATE `user` SET `last_update` = '$date'   WHERE `user_srl` = '$page_srl'");
 //Push
@@ -119,18 +121,25 @@ function document_getList($user_srl_auth, $doc_user_srl, $start, $number){
  return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
 }
 
+function document_getAllList($user_srl_auth, $start, $number){
+	$user_srl = AuthCheck($user_srl_auth, false);
+  $status = setRelationStatus($user_srl, $doc_user_srl);
+ return mysql_query("SELECT * FROM  `documents` WHERE  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+}
+
 function document_getUserUpdateList($user_srl_auth, $user_array){
 	$user_srl = AuthCheck($user_srl_auth, false);
 for($i=0 ; $i < count($user_array); $i++){
 	  $status = setRelationStatus($user_srl, $user_array[$i]);
  $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC");
   mysql_data_seek($row, 0);
-  $result=mysql_fetch_array($row); 
+    $result=mysql_fetch_array($row); 
  $contents[] = $result[title] == "null" ? $result[content] : $result[title];
 }
 
 return $contents;
 }
+
 
 
 function document_printUserUpdateList($array){
@@ -144,9 +153,12 @@ function document_PrintList($row, $doc_info){
 	for($i=0 ; $i < $total; $i++){
                mysql_data_seek($row, $i);           //포인터 이동
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
-             echo print_info($result, $doc_info)."/DOC/.";
+         echo print_info($result, $doc_info)."/DOC/.";
 }         
 }
-   
+
+
+
+
       
 ?>

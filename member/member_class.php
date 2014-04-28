@@ -18,7 +18,7 @@ function ProfileInfoUpdate($user_srl, $title, $value){
 
 function GetMemberInfo($user_srl){
 $row = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));
-if($row[status] > 4) ErrorMessage('unknown_user_error');
+if($row[status] > 4) $row = null;
 return $row;
 }
 
@@ -38,7 +38,7 @@ return $row;
 }
 
    function ProfileUpdate($file_name) {
-   	global $date;
+   	global  $date;
 $target_path = "../files/profile/";
 $thumbnail_path = "../files/profile/thumbnail/";
 $tmp_img = explode("." ,$_FILES['uploadedfile']['name']); 
@@ -94,6 +94,38 @@ if($loginResult){
 return $auth_code_result;
 }
     
+    function GetAllMemberInfoByUpdate($user_srl_auth, $start, $number){
+      $user_srl = AuthCheck($user_srl_auth, false);
+$row = mysql_query("SELECT * FROM  `user` WHERE  `status` < 1 ORDER BY  `user`.`last_update` DESC LIMIT $start , $number");
+return $row;
+}
+
+// You must import member_class.php
+function member_PrintListbyUpdate($row){
+   $total= mysql_num_rows ( $row );
+  for($i=0 ; $i < $total; $i++){
+               mysql_data_seek($row, $i);           //포인터 이동
+             $result=mysql_fetch_array($row);        //레코드를 배열로 저장
+        //    $user_info = GetMemberInfo($result[value]);
+              $name = SetUserName($result[lang], $result[name_1], $result[name_2]);
+            $profile[] = array( "last_update"=> $result[last_update] , "user_srl"=> $result[user_srl], "name"=> $name);
+}         
+
+foreach ($profile as $key => $row) { 
+  $last_update[$key] = $row['last_update']; 
+  $user_srl[$key] = $row['user_srl']; 
+} 
+
+// volume 내림차순, edition 오름차순으로 데이터를 정렬 
+// 공통 키를 정렬하기 위하여 $data를 마지막 인수로 추가 
+//array_multisort($last_update, SORT_DESC, $user_srl, SORT_ASC, $profile);
+
+foreach($profile as $key => $value){
+echo $value['user_srl']."/LINE/.".$value['name']."/PFILE/.";
+}
+
+}
+      
 
    
       

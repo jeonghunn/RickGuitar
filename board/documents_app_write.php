@@ -23,6 +23,7 @@ if($authcode != $auth) ErrorMessage("auth_error");
 //Change Auth code to tarks account
 require '../member/member_class.php';
 require '../member/push_class.php';
+require 'attach_class.php';
 require 'documents_class.php';
 
 

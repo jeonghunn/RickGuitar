@@ -13,6 +13,9 @@ $country_code = mysql_real_escape_string($_POST['country_code']);
 $phone_number = mysql_real_escape_string($_POST['phone_number']);
 $profile_pic = mysql_real_escape_string($_POST['profile_pic']);
 $country = mysql_real_escape_string($_POST['country']);
+
+
+
 $log = $user_srl;
 $log_category = "profile_update";
 
@@ -40,7 +43,7 @@ ProfileUpdate($profile_user_srl);
 }
 }
 
-//Profile picture
+//Profile name
 if($kind == 2){
 ProfileInfoUpdate($profile_user_srl, "name_1", $name_1);
 ProfileInfoUpdate($profile_user_srl, "name_2", $name_2);

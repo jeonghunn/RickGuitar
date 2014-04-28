@@ -5,6 +5,7 @@ require '../config.php';
 
 //Auth code to user_srl
 
+
 require 'member_class.php';
 
  $id = mysql_real_escape_string($_POST['id']);

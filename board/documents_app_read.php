@@ -26,7 +26,7 @@ if($authcode != $auth) ErrorMessage("auth_error");
 
 //Change Auth code to tarks account
 require 'documents_class.php';
-
+require 'attach_class.php';
 
 //Check Value security
 Security_value_check($title);
@@ -58,6 +58,10 @@ if($kind == 3){
 if($kind == 4){
 $userupdatecontent = document_getUserUpdateList($user_srl_auth, ExplodeInfoValue($users_srl));
 document_printUserUpdateList($userupdatecontent);
+}
+//file_attach_read
+if($kind == 5){
+attach_read_print($user_srl_auth, $doc_srl);
 }
 
       

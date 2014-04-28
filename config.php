@@ -1,6 +1,7 @@
 <?php if(!defined("642979")) exit();
    
     //ip, url, useragent, date
+$siteaddress = "http://tarks.net/favorite/";
 $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 $nowurl = $_SERVER["REQUEST_URI"]; 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
@@ -85,7 +86,7 @@ if($you_favorite[value] == $me_srl) $status = 3;
  if($me_srl == $you_srl_info[admin]) $status = 4;
  
  //Check unknown
- if($you_srl_info[status] > 4) $status = -1;
+ if($you_srl_info[status] > $status) $status = -1;
   return $status;
 }
 

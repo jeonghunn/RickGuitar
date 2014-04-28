@@ -5,6 +5,7 @@ $authcode = mysql_real_escape_string($_POST['authcode']);
 $tarks_account = mysql_real_escape_string($_POST['tarks_account']);
 
 
+
 //Check Permission
 if($authcode != $auth) ErrorMessage("auth_error");
 

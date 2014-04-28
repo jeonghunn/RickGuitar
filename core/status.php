@@ -7,7 +7,7 @@
 
         $you_srl_info = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$you_srl'"));
     
-         if($status < $you_srl_info[status]) ErrorMessage('permission_error');
+     //    if($status < $you_srl_info[status]) $row = null;
         for ($i=0 ; $i < count($info);$i++){
 if($you_srl_status[$info[$i]] > $status){
 	$row[$info[$i]] = "null";
