@@ -29,7 +29,7 @@ $img_name = $filename.".".$extension;
 $target_path = $image_path . basename($img_name);
 }else{
 	$kind = "file";
-$target_path = $binaries_path . basename($filename);
+$target_path = $binaries_path . $filevalue;
 }
 
 

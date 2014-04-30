@@ -17,7 +17,7 @@ require '../config.php';
 require 'attach_class.php';
 
 $attach_info = getAttachInfoByfileValue($srl);
-$path = "../files/binaries/".$attach_info[filename];
+$path = "../files/binaries/".$attach_info[filevalue];
 
 addAttachDownloadCount($attach_info[srl]);
 
