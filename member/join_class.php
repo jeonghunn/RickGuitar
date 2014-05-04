@@ -30,6 +30,35 @@ return $xerow[$value];
  $CheckSameTarksAccount = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `tarks_account` LIKE '$tarks_account'"));
  return $CheckSameTarksAccount;
     }
+
+//requrie favorite_class.php
+   function CreatePage($user_srl_auth, $name, $lang, $country, $profile_pic){
+           global  $_FILES ,$date, $REMOTE_ADDR;
+         $user_srl = AuthCheck($user_srl_auth, false);
+                     //If not page return
+        if($user_srl == 0) return false;
+           // Get MemberLastNumber
+        $MemberNumber = MemberLastNumber();
+            //Get Auth Code
+            $auth_code = MakeAuthCode("36" , $MemberNumber, "user_srl");
+
+          if($profile_pic == "Y") ProfileUpdate($MemberNumber);
+              
+           //add user to db
+           $sql ="INSERT INTO `user` (`tarks_account`, `admin`, `name_2`, `lang`, `country`, `permission`, `birthday`, `join_day`, `profile_pic`, `profile_update`, `last_update`, `reg_id`) VALUES ('null', '$user_srl', '$name', '$lang', '$country', '3', '0' ,'$date', '$profile_pic', '$date' , '$date' , 'null');";
+            $result = mysql_query($sql);
+
+
+ 
+             //Create Own Page
+       //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
+            mysql_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$MemberNumber', '3');");
+       
+           favorite_add($MemberNumber, $user_srl_auth, '3');
+
+            return array($MemberNumber, $auth_code);
+
+    }
    
 
 
@@ -47,7 +76,7 @@ return $xerow[$value];
           if($profile_pic == "Y") ProfileUpdate($MemberNumber);
               
            //add user to db
-           $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$reg_id', '$lang', '$country');";
+           $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country');";
             $result = mysql_query($sql);
 
 

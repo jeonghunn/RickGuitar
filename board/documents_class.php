@@ -85,9 +85,10 @@ security_value_check($content);
 	$user_srl = AuthCheck($user_srl_auth, false);
 	$relation_status = setRelationStatus($user_srl, $page_srl);
 	$user_info = GetMemberInfo($user_srl);
+	$page_info = GetMemberInfo($page_srl);
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	$last_number = DocLastNumber();
-	if($content != "" && $relation_status != -1) {
+	if($content != "" && $relation_status != -1 && $relation_status >= $page_info[write_status] && $page_srl != 0) {
 $attach_result = attach_file($page_srl, $last_number, $user_srl, $status);
 $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '$date', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '$REMOTE_ADDR');");
 

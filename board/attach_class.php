@@ -34,7 +34,7 @@ $target_path = $binaries_path . $filevalue;
 
 
  //파일 사이즈 체크 5M 제한 5M :5242880
- if ($size > 10485760)
+ if ($size > 31457280)
  {
 ErrorMessage("attach_size_error");
  

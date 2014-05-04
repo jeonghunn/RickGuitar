@@ -61,7 +61,7 @@ $birthday = GetTarksAccountInfo($tarks_account, "birthday");
         	//Check REGID 
         	 if($reg_id != "null"){
         	 	//Delete User if same reg id, not null and no tarks account
-        	 	  if($reg_id == $row[reg_id] && $reg_id != "null" && $row[tarks_account] == "null"){
+        	 	  if($reg_id == $row[reg_id] && $reg_id != "null" && $row[tarks_account] == "null" && $row[admin] == 0){
         	 	  	//IF more than two same reg id
         	 	  	  DeleteUser($row[user_srl]);
         	 	  }

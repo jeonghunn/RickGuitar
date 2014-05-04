@@ -38,7 +38,7 @@ return $row;
 }
 
    function ProfileUpdate($file_name) {
-   	global  $date;
+   	global    $_FILES , $date;
 $target_path = "../files/profile/";
 $thumbnail_path = "../files/profile/thumbnail/";
 $tmp_img = explode("." ,$_FILES['uploadedfile']['name']); 
