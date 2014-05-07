@@ -22,7 +22,7 @@ require 'favorite_class.php';
 
 
 
-	$favorite_add = favorite_add($fav_user_srl, $user_srl_auth , $category);
+	$favorite_add = favorite_add($fav_user_srl, $user_srl , $category);
 if($favorite_add == true){
 	echo "favorite_add_succeed";
 	

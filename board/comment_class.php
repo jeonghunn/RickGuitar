@@ -3,8 +3,8 @@
 
 
 
-function comment_read($user_srl_auth, $doc_srl){
-	$user_srl = AuthCheck($user_srl_auth, false);
+function comment_read($user_srl, $doc_srl){
+	//$user_srl = AuthCheck($user_srl, false);
 	$row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
 
  $status = setRelationStatus($user_srl, $row[page_srl]);
@@ -22,10 +22,10 @@ return $row;
 
 
 //Require documents_class.php
- function comment_status_update($comment_srl, $user_srl_auth, $status){
+ function comment_status_update($comment_srl, $user_srl, $status){
 	global $date, $REMOTE_ADDR;
 	$cmt_info = getComment($comment_srl);
-	$user_srl = AuthCheck($user_srl_auth, false);
+	//$user_srl = AuthCheck($user_srl, false);
     $status_relation = getCommentStatus($user_srl, $comment_srl);
     if($status_relation == 4){
 	 $result = mysql_query("UPDATE `comments` SET `status` = '$status'  WHERE `srl` = '$comment_srl'");
@@ -68,12 +68,12 @@ return $result;
 }
 
 
-function comment_write($doc_srl, $user_srl_auth , $content, $permission, $privacy){
+function comment_write($doc_srl, $user_srl , $content, $permission, $privacy){
 	global $date, $REMOTE_ADDR;
-	$user_srl = AuthCheck($user_srl_auth, false);
+	//$user_srl = AuthCheck($user_srl, false);
 	$user_info = GetMemberInfo($user_srl);
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
-	$document = document_read($user_srl_auth, $doc_srl);
+	$document = document_read($user_srl, $doc_srl);
 	$last_number = CommentLastNumber();
 if($content != "") {
 	$result = mysql_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '$date', '$document[status]', '$privacy', '$REMOTE_ADDR');");
@@ -136,15 +136,15 @@ $sent = array_values($sent);
 
 
 
-function comment_getList($user_srl_auth, $doc_srl, $start, $number){
-	$user_srl = AuthCheck($user_srl_auth, false);
+function comment_getList($user_srl, $doc_srl, $start, $number){
+//	$user_srl = AuthCheck($user_srl, false);
   $status = getDocStatus($user_srl, $doc_srl);
  return mysql_query("SELECT * FROM  `comments` WHERE  `doc_srl` =$doc_srl AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `comments`.`srl` ASC LIMIT $start , $number");
 }
 
 
-function comment_PrintList($user_srl_auth, $row, $comment_info){
-		$user_srl = AuthCheck($user_srl_auth, false);
+function comment_PrintList($user_srl, $row, $comment_info){
+	//	$user_srl = AuthCheck($user_srl, false);
 	 $total= mysql_num_rows ( $row );
 	for($i=0 ; $i < $total; $i++){
                mysql_data_seek($row, $i);           //포인터 이동

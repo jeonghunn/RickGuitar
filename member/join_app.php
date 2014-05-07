@@ -1,6 +1,7 @@
 <?php
 //Variable
 $authcode = $_POST['authcode'];
+$admin = mysql_real_escape_string($_POST['admin']);
 $tarks_account_auth = mysql_real_escape_string($_POST['tarks_account']);
 $name_1 = mysql_real_escape_string($_POST['name_1']);
 $name_2 = mysql_real_escape_string($_POST['name_2']);

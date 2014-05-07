@@ -27,7 +27,7 @@ if($kind == 1){
 
 //User
 if($kind == 2){
-	$FavoriteList = favorite_read_page($category, $user_srl_auth, $value);
+	$FavoriteList = favorite_read_page($category, $user_srl, $value);
 favorite_PrintListbyUpdate($FavoriteList);
 }
 

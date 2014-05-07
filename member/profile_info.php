@@ -20,7 +20,7 @@ require 'member_class.php';
 
 
 //Get Profile information
- $ProfileInfoRow = ProfileInfo($user_srl_auth, $profile_user_srl, $member_info);
+ $ProfileInfoRow = ProfileInfo($user_srl, $profile_user_srl, $member_info);
  //Print Profile information
  print_info($ProfileInfoRow, ExplodeInfoValue($member_info));
  echo "/LINE/.".setRelationStatus($user_srl, $profile_user_srl)."/LINE/.".setRelationStatus($profile_user_srl, $user_srl);

@@ -27,7 +27,7 @@ require_once '../core/Thumbnail.class.php';
 require 'member_class.php';
 
 //Check user info and auth
-$user_srl = AuthCheck($user_srl_auth, false);
+//$user_srl = AuthCheck($user_srl_auth, false);
 $status = setRelationStatus($user_srl, $profile_user_srl);
 if($status < 4) ErrorMessage("permission_error");
 

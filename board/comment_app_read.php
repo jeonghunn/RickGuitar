@@ -29,8 +29,8 @@ Security_value_check($content);
 
 //getList
 //if($kind == 0){
-$CommentList = comment_getList($user_srl_auth, $doc_srl, $start_comment, $comment_number);
-comment_PrintList($user_srl_auth, $CommentList, ExplodeInfoValue($comment_info));
+$CommentList = comment_getList($user_srl, $doc_srl, $start_comment, $comment_number);
+comment_PrintList($user_srl, $CommentList, ExplodeInfoValue($comment_info));
 //}
 
 //Read

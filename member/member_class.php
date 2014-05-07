@@ -1,7 +1,7 @@
 <?if(!defined("642979")) exit();
 
 //Auth code to user_srl
-//$user_srl = AuthCheck($user_srl_auth, false);
+//$user_srl = AuthCheck($user_srl, false);
 
 function MemberInfoUpdate($user_srl, $lang){
 	global $REMOTE_ADDR;
@@ -26,9 +26,9 @@ return $row;
 
 
 //IF use this function you must import auth.php and private.php
-function ProfileInfo($user_srl_auth, $profile_user_srl, $member_info){
+function ProfileInfo($user_srl, $profile_user_srl, $member_info){
 
-$user_srl = AuthCheck($user_srl_auth, false);
+//$user_srl = AuthCheck($user_srl, false);
 //Get Member Info
 $row = GetMemberInfo($profile_user_srl);
 $row = AccessMemberInfo(setRelationStatus($user_srl, $profile_user_srl), $row, $profile_user_srl, ExplodeInfoValue($member_info));
@@ -94,8 +94,8 @@ if($loginResult){
 return $auth_code_result;
 }
     
-    function GetAllMemberInfoByUpdate($user_srl_auth, $start, $number){
-      $user_srl = AuthCheck($user_srl_auth, false);
+    function GetAllMemberInfoByUpdate($user_srl, $start, $number){
+  //    $user_srl = AuthCheck($user_srl, false);
 $row = mysql_query("SELECT * FROM  `user` WHERE  `status` < 1 ORDER BY  `user`.`last_update` DESC LIMIT $start , $number");
 return $row;
 }

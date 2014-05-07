@@ -31,10 +31,15 @@ return $xerow[$value];
  return $CheckSameTarksAccount;
     }
 
+    function CreateStatus($member_srl){
+       $ExistStatus = mysql_fetch_array(mysql_query("SELECT * FROM  `status` WHERE  `user_srl` LIKE '$member_srl'"));
+               if($ExistStatus != null)   mysql_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$member_srl', '3');");
+    }
+
 //requrie favorite_class.php
-   function CreatePage($user_srl_auth, $name, $lang, $country, $profile_pic){
+   function CreatePage($user_srl, $name, $lang, $country, $profile_pic){
            global  $_FILES ,$date, $REMOTE_ADDR;
-         $user_srl = AuthCheck($user_srl_auth, false);
+       //  $user_srl = AuthCheck($user_srl, false);
                      //If not page return
         if($user_srl == 0) return false;
            // Get MemberLastNumber
@@ -52,9 +57,9 @@ return $xerow[$value];
  
              //Create Own Page
        //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
-            mysql_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$MemberNumber', '3');");
+CreateStatus($MemberNumber);
        
-           favorite_add($MemberNumber, $user_srl_auth, '3');
+           favorite_add($MemberNumber, $user_srl, '3');
 
             return array($MemberNumber, $auth_code);
 
@@ -62,7 +67,7 @@ return $xerow[$value];
    
 
 
-    function AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country) {
+    function AddUser($tarks_account, $admin, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country) {
         global  $date, $REMOTE_ADDR;
  //Add user to System
 
@@ -76,14 +81,14 @@ return $xerow[$value];
           if($profile_pic == "Y") ProfileUpdate($MemberNumber);
               
            //add user to db
-           $sql ="INSERT INTO `user` (`tarks_account`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country');";
+           $sql ="INSERT INTO `user` (`tarks_account`, `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '$admin', '$tarks_account' '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country');";
             $result = mysql_query($sql);
 
 
  
              //Create Own Page
        //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
-            mysql_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$MemberNumber', '3');");
+      CreateStatus($MemberNumber);
        
 
 
@@ -119,8 +124,8 @@ return $xerow[$value];
 
 
       function AddUserActivityByApp(){
-           global $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country;
-          $AddUserAct = AddUser($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+           global $admin, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country;
+          $AddUserAct = AddUser($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
           echo $AddUserAct[0]."//".$AddUserAct[1];
       }
 

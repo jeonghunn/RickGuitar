@@ -1,7 +1,7 @@
 <?php if(!defined("642979")) exit();
 
-function favorite_read_page($category, $user_srl_auth, $value){
-	$user_srl = AuthCheck($user_srl_auth, false);
+function favorite_read_page($category, $user_srl, $value){
+	//$user_srl = AuthCheck($user_srl, false);
  //$status = setRelationStatus($user_srl, $doc_user_srl);
 return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category'");
 
@@ -15,9 +15,9 @@ return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AN
  // }
 
 
-function favorite_add($value, $user_srl_auth, $category){
+function favorite_add($value, $user_srl, $category){
 	global $date, $REMOTE_ADDR;
-	$user_srl = AuthCheck($user_srl_auth, false);
+	//$user_srl = AuthCheck($user_srl, false);
 	$me_status = setRelationStatus($value, $user_srl);
 	$user_info = GetMemberInfo($user_srl);	
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
@@ -72,8 +72,8 @@ function favorite_send_push($value, $user_srl, $name, $number){
 sendPushMessage($value, $user_srl, $name, "added_to_favorite", "added_to_favorite", 3, $user_srl);
 }
 
-function favorite_getList($user_srl_auth, $doc_user_srl, $start, $number){
-	$user_srl = AuthCheck($user_srl_auth, false);
+function favorite_getList($user_srl, $doc_user_srl, $start, $number){
+//	$user_srl = AuthCheck($user_srl, false);
  //$status = setRelationStatus($user_srl, $doc_user_srl);
  return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
 }

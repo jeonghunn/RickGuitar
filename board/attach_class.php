@@ -74,9 +74,9 @@ $comment_count = mysql_query("UPDATE `attach` SET  `count` = '$result_num' WHERE
 }
 
 
-function attach_read_print($user_srl_auth, $doc_srl){
+function attach_read_print($user_srl, $doc_srl){
 	global $siteaddress;
-	$user_srl = AuthCheck($user_srl_auth, false);
+	//$user_srl = AuthCheck($user_srl, false);
 	$row = attach_read($user_srl, $doc_srl);
 
 	 $total= mysql_num_rows ( $row );

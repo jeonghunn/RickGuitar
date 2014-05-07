@@ -22,9 +22,10 @@ require_once '../core/Thumbnail.class.php';
 require '../favorite/favorite_class.php';
 require 'member_class.php';
 require 'join_class.php';
+require 'push_class.php';
 
 
-$create_page = CreatePage($user_srl_auth, $name, $lang, $country, $profile_pic);
+$create_page = CreatePage($user_srl, $name, $lang, $country, $profile_pic);
 
 echo $create_page[0];
 ?>

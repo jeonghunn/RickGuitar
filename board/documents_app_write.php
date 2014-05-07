@@ -30,7 +30,7 @@ require 'documents_class.php';
 
 //Update Status
 if($kind == 0){
-$document_status_update = document_status_update($doc_srl, $user_srl_auth, $status);
+$document_status_update = document_status_update($doc_srl, $user_srl, $status);
 if($document_status_update == true){
 	echo "document_update_succeed";
 }else{
@@ -44,7 +44,7 @@ if($kind == 1) {
 	//REPLACE FIRST
 		// str_replace("<enter>", "<br>", $content); 
 		// str_replace("<enter>", "<br>", $content); 
-	$document_write = document_write($page_srl, $user_srl_auth , $title, $content, $permission, $status, $privacy);
+	$document_write = document_write($page_srl, $user_srl , $title, $content, $permission, $status, $privacy);
 if($document_write == true){
 	echo "document_write_succeed";
 }else{

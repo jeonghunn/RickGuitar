@@ -20,7 +20,7 @@ require 'member_class.php';
 
 //User
 
-	$page_list = GetAllMemberInfoByUpdate($user_srl_auth, 0, 30);
+	$page_list = GetAllMemberInfoByUpdate($user_srl, 0, 30);
 member_PrintListbyUpdate($page_list);
 
 

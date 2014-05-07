@@ -34,13 +34,13 @@ Security_value_check($content);
 
 //getList
 if($kind == 0){
-$DocList = document_getList($user_srl_auth, $doc_user_srl, $start_doc, $doc_number);
+$DocList = document_getList($user_srl, $doc_user_srl, $start_doc, $doc_number);
 document_PrintList($DocList, ExplodeInfoValue($doc_info));
 }
 
 //Read
 if($kind == 1) {
-$Doc_read = document_read($user_srl_auth, $doc_srl);
+$Doc_read = document_read($user_srl, $doc_srl);
 print_info($Doc_read, ExplodeInfoValue($doc_info));
  echo "/LINE/.".getDocStatus($user_srl, $doc_srl);
 }
@@ -56,12 +56,12 @@ if($kind == 3){
 
 //getuserupdatecontent
 if($kind == 4){
-$userupdatecontent = document_getUserUpdateList($user_srl_auth, ExplodeInfoValue($users_srl));
+$userupdatecontent = document_getUserUpdateList($user_srl, ExplodeInfoValue($users_srl));
 document_printUserUpdateList($userupdatecontent);
 }
 //file_attach_read
 if($kind == 5){
-attach_read_print($user_srl_auth, $doc_srl);
+attach_read_print($user_srl, $doc_srl);
 }
 
       

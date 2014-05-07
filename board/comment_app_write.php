@@ -31,7 +31,7 @@ Security_value_check($content);
 
 //Status Change
 if($kind == 0){
-$comment_status_update = comment_status_update($comment_srl, $user_srl_auth, $status);
+$comment_status_update = comment_status_update($comment_srl, $user_srl, $status);
 if($comment_status_update == true){
 	echo "comment_update_succeed";
 }else{
@@ -45,7 +45,7 @@ if($kind == 1) {
 	//REPLACE FIRST
 		// str_replace("<enter>", "<br>", $content); 
 		// str_replace("<enter>", "<br>", $content); 
-	$comment_write = comment_write($doc_srl, $user_srl_auth, $content, $permission, $privacy);
+	$comment_write = comment_write($doc_srl, $user_srl, $content, $permission, $privacy);
 if($comment_write == true){
 	echo "comment_write_succeed";
 	

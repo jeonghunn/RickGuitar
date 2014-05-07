@@ -1,7 +1,7 @@
 <?php if(!defined("642979")) exit();
 
-function document_read($user_srl_auth, $doc_srl){
-	$user_srl = AuthCheck($user_srl_auth, false);
+function document_read($user_srl, $doc_srl){
+	//$user_srl = AuthCheck($user_srl, false);
 	$row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
 mysql_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
  $status = getDocStatus($user_srl, $doc_srl);
@@ -17,9 +17,9 @@ return $row;
   return $table_status['Auto_increment'];  
  }
 
- function document_status_update($doc_srl, $user_srl_auth, $status){
+ function document_status_update($doc_srl, $user_srl, $status){
 	global $date, $REMOTE_ADDR;
-	$user_srl = AuthCheck($user_srl_auth, false);
+	//$user_srl = AuthCheck($user_srl, false);
     $status_relation = getDocStatus($user_srl, $doc_srl);
     if($status_relation == 4){
 	 $result = mysql_query("UPDATE `documents` SET `status` = '$status'   WHERE `srl` = '$doc_srl'");
@@ -60,9 +60,9 @@ return $result[$info];
 }
 
 
-function document_update($doc_srl, $user_srl_auth , $namearray, $valuearray){
+function document_update($doc_srl, $user_srl , $namearray, $valuearray){
 	global $date, $REMOTE_ADDR;
-	$user_srl = AuthCheck($user_srl_auth, false);
+	//$user_srl = AuthCheck($user_srl, false);
 	$relation_status = setRelationStatus($user_srl, $page_srl);
 	$user_info = GetMemberInfo($user_srl);
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
@@ -76,19 +76,19 @@ return $result;
 
 
 //require attach_class.php
-function document_write($page_srl, $user_srl_auth , $title, $content, $permission, $status, $privacy){
+function document_write($page_srl, $user_srl , $title, $content, $permission, $status, $privacy){
 	global $date, $REMOTE_ADDR;
 //Check Value security
 security_value_check($title);
 security_value_check($content);
 //Start
-	$user_srl = AuthCheck($user_srl_auth, false);
+//	$user_srl = AuthCheck($user_srl, false);
 	$relation_status = setRelationStatus($user_srl, $page_srl);
 	$user_info = GetMemberInfo($user_srl);
 	$page_info = GetMemberInfo($page_srl);
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	$last_number = DocLastNumber();
-	if($content != "" && $relation_status != -1 && $relation_status >= $page_info[write_status] && $page_srl != 0) {
+	if($content != "" && $relation_status != -1 && $relation_status >= $page_info[write_status] && $page_info != null) {
 $attach_result = attach_file($page_srl, $last_number, $user_srl, $status);
 $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '$date', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '$REMOTE_ADDR');");
 
@@ -116,20 +116,20 @@ if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, $conten
  //if ($user_srl != $page_srl) exec("php /usr/bin/php /var/www/favorite/member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." > /dev/null &");
  //if ($user_srl != $page_srl) proc_close(proc_open ("../member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." &", array(), $foo));
 }
-function document_getList($user_srl_auth, $doc_user_srl, $start, $number){
-	$user_srl = AuthCheck($user_srl_auth, false);
+function document_getList($user_srl, $doc_user_srl, $start, $number){
+//	$user_srl = AuthCheck($user_srl, false);
   $status = setRelationStatus($user_srl, $doc_user_srl);
  return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
 }
 
-function document_getAllList($user_srl_auth, $start, $number){
-	$user_srl = AuthCheck($user_srl_auth, false);
+function document_getAllList($user_srl, $start, $number){
+//	$user_srl = AuthCheck($user_srl, false);
   $status = setRelationStatus($user_srl, $doc_user_srl);
  return mysql_query("SELECT * FROM  `documents` WHERE  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
 }
 
-function document_getUserUpdateList($user_srl_auth, $user_array){
-	$user_srl = AuthCheck($user_srl_auth, false);
+function document_getUserUpdateList($user_srl, $user_array){
+//	$user_srl = AuthCheck($user_srl, false);
 for($i=0 ; $i < count($user_array); $i++){
 	  $status = setRelationStatus($user_srl, $user_array[$i]);
  $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC");
