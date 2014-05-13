@@ -33,7 +33,7 @@ return $xerow[$value];
 
     function CreateStatus($member_srl){
        $ExistStatus = mysql_fetch_array(mysql_query("SELECT * FROM  `status` WHERE  `user_srl` LIKE '$member_srl'"));
-               if($ExistStatus != null)   mysql_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$member_srl', '3');");
+               if($ExistStatus == null)   mysql_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$member_srl', '3');");
     }
 
 //requrie favorite_class.php
@@ -81,7 +81,7 @@ CreateStatus($MemberNumber);
           if($profile_pic == "Y") ProfileUpdate($MemberNumber);
               
            //add user to db
-           $sql ="INSERT INTO `user` (`tarks_account`, `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '$admin', '$tarks_account' '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country');";
+           $sql ="INSERT INTO `user` (`tarks_account`, `status`,  `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '0', '$admin', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country');";
             $result = mysql_query($sql);
 
 

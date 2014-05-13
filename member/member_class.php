@@ -73,8 +73,8 @@ return  FindAuthCode($user_info[user_srl], "user_srl");
 }
 
 function TarksAccount($id, $password){
-if(!rtnSpecialCharCheck($id.$password)) ErrorMessage("security_error");
-if($id == null || $password == null) ErrorMessage("security_error");
+if(!rtnSpecialCharCheck($id.$password)) return false;
+if($id == null || $password == null) return false;
  ConnectDB("xe");
  $row = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
  ConnectMainDB();
@@ -96,7 +96,18 @@ return $auth_code_result;
     
     function GetAllMemberInfoByUpdate($user_srl, $start, $number){
   //    $user_srl = AuthCheck($user_srl, false);
-$row = mysql_query("SELECT * FROM  `user` WHERE  `status` < 1 ORDER BY  `user`.`last_update` DESC LIMIT $start , $number");
+$row = mysql_query("SELECT * FROM  `user` WHERE  `status` < 4 ORDER BY  `user`.`last_update` DESC LIMIT $start , $number");
+return $row;
+}
+
+  function PhoneNumberToPageNumber($phonenumbers){
+    $count = count($phonenumbers);
+  if($count == 0) return false;
+    for($i=0 ; $i < count($phonenumbers); $i++){
+     $orvalue = $i != 0 ? "OR" : "";
+$value = $value.$orvalue." `phone_number` LIKE '%".$phonenumbers[$i]."%' ";
+    }
+$row = mysql_query("SELECT * FROM  `user` WHERE ".$value." ORDER BY  `user`.`last_update` DESC LIMIT 0 ,".$count);
 return $row;
 }
 

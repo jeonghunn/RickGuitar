@@ -109,10 +109,12 @@ require 'core/permission.php';
 require 'core/auth.php';
 
 
-//set user_Srl
-$user_srl = AuthCheck($user_srl_auth, false);
 //Log Client
 ClientAgentLog();
+
+//set user_Srl
+$user_srl = AuthCheck($user_srl_auth, false);
+
     
 
 
