@@ -77,7 +77,10 @@ function comment_write($doc_srl, $user_srl , $content, $permission, $privacy){
 	$last_number = CommentLastNumber();
 if($content != "") {
 	$result = mysql_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '$date', '$document[status]', '$privacy', '$REMOTE_ADDR');");
+	//SetCount
 	setDocCommentCount($doc_srl);
+	if($REMOTE_ADDR != $document[ip_addr]) updatePopularity($user_srl, $document[page_srl], 1);
+	//Send Alert
     comment_send_push($document[user_srl], $doc_srl, $user_srl, $name, $content, $doc_srl);
 }
 //echo mysql_error();

@@ -48,9 +48,9 @@ return $xerow[$value];
             $auth_code = MakeAuthCode("36" , $MemberNumber, "user_srl");
 
           if($profile_pic == "Y") ProfileUpdate($MemberNumber);
-              
+              $popularity = intval($date/10000);
            //add user to db
-           $sql ="INSERT INTO `user` (`tarks_account`, `admin`, `name_2`, `lang`, `country`, `permission`, `birthday`, `join_day`, `profile_pic`, `profile_update`, `last_update`, `reg_id`) VALUES ('null', '$user_srl', '$name', '$lang', '$country', '3', '0' ,'$date', '$profile_pic', '$date' , '$date' , 'null');";
+           $sql ="INSERT INTO `user` (`tarks_account`, `admin`, `name_2`, `lang`, `country`, `permission`, `birthday`, `join_day`, `profile_pic`, `profile_update`, `last_update`, `reg_id`, `ip_addr`, `popularity`) VALUES ('null', '$user_srl', '$name', '$lang', '$country', '3', '0' ,'$date', '$profile_pic', '$date' , '$date' , 'null', '$REMOTE_ADDR', '$popularity');";
             $result = mysql_query($sql);
 
 
@@ -79,9 +79,9 @@ CreateStatus($MemberNumber);
 
 //Profile picture
           if($profile_pic == "Y") ProfileUpdate($MemberNumber);
-              
+               $popularity = intval($date/10000);
            //add user to db
-           $sql ="INSERT INTO `user` (`tarks_account`, `status`,  `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country`) VALUES ('$tarks_account', '0', '$admin', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country');";
+           $sql ="INSERT INTO `user` (`tarks_account`, `status`,  `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country` , `popularity`) VALUES ('$tarks_account', '0', '$admin', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country', '$popularity');";
             $result = mysql_query($sql);
 
 

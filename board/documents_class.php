@@ -1,9 +1,13 @@
 <?php if(!defined("642979")) exit();
 
 function document_read($user_srl, $doc_srl){
+	global $REMOTE_ADDR;
 	//$user_srl = AuthCheck($user_srl, false);
 	$row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
+	//View
 mysql_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
+if($REMOTE_ADDR != $row[ip_addr]) updatePopularity($user_srl, $row[page_srl], 1);
+//Status
  $status = getDocStatus($user_srl, $doc_srl);
 
 if($status < $row[status]) $row = false;
@@ -92,6 +96,7 @@ security_value_check($content);
 $attach_result = attach_file($page_srl, $last_number, $user_srl, $status);
 $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '$date', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '$REMOTE_ADDR');");
 
+if($REMOTE_ADDR != $page_info[ip_addr]) updatePopularity($user_srl, $page_srl, 1);
 //Set last update
 mysql_query("UPDATE `user` SET `last_update` = '$date'   WHERE `user_srl` = '$page_srl'");
 //Push

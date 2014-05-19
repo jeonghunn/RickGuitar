@@ -31,7 +31,7 @@ function ProfileInfo($user_srl, $profile_user_srl, $member_info){
 //$user_srl = AuthCheck($user_srl, false);
 //Get Member Info
 $row = GetMemberInfo($profile_user_srl);
-$row = AccessMemberInfo(setRelationStatus($user_srl, $profile_user_srl), $row, $profile_user_srl, ExplodeInfoValue($member_info));
+$row = AccessMemberInfo(setRelationStatus($user_srl, $profile_user_srl), $row, $profile_user_srl, $member_info);
   
 
 return $row;
@@ -95,9 +95,19 @@ return $auth_code_result;
 }
     
     function GetAllMemberInfoByUpdate($user_srl, $start, $number){
-  //    $user_srl = AuthCheck($user_srl, false);
 $row = mysql_query("SELECT * FROM  `user` WHERE  `status` < 4 ORDER BY  `user`.`last_update` DESC LIMIT $start , $number");
 return $row;
+}
+
+  function GetAllMemberInfoByPopularity($user_srl, $start, $number){
+$row = mysql_query("SELECT * FROM  `user` WHERE  `status` < 4 ORDER BY  `user`.`popularity` DESC LIMIT $start , $number");
+return $row;
+}
+
+    function getPageAuth($user_srl, $page_srl){
+      $page_info = GetMemberInfo($page_srl);
+     if($page_info[admin] == $user_srl) $auth_code = FindAuthCode($page_srl, "user_srl");
+return $auth_code;
 }
 
   function PhoneNumberToPageNumber($phonenumbers){
@@ -107,8 +117,16 @@ return $row;
      $orvalue = $i != 0 ? "OR" : "";
 $value = $value.$orvalue." `phone_number` LIKE '%".$phonenumbers[$i]."%' ";
     }
-$row = mysql_query("SELECT * FROM  `user` WHERE ".$value." ORDER BY  `user`.`last_update` DESC LIMIT 0 ,".$count);
+$row = mysql_query("SELECT * FROM  `user` WHERE (".$value.") AND  `admin` = 0 ORDER BY  `user`.`last_update` DESC LIMIT 0 ,".$count);
 return $row;
+}
+
+function updatePopularity($user_srl, $page_srl, $point){
+
+  if($user_srl != $page_srl){
+  $mf = getMemberInfo($page_srl);
+ProfileInfoUpdate($page_srl, "popularity", $mf[popularity] + $point);
+}
 }
 
 // You must import member_class.php

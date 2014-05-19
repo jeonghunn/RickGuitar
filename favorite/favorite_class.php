@@ -24,7 +24,9 @@ function favorite_add($value, $user_srl, $category){
 	//$last_number = DocLastNumber();
 	if($me_status < 3){
 $result = mysql_query("INSERT INTO `favorite` (`user_srl`, `category`, `value`, `date`, `ip_addr`) VALUES ('$user_srl', '$category', '$value', '$date', '$REMOTE_ADDR');");
+//setCount
 setFavoriteCount($user_srl, $value, 3);
+updatePopularity($user_srl, $value, 100);
 favorite_send_push($value, $user_srl, $name, "0");
 }
 //echo mysql_error();

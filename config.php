@@ -102,18 +102,21 @@ if($b!==FALSE) unset($list_arr[$b]);
 
  
 require 'core/db.php';
+require 'core/auth.php';
+
+$user_srl = AuthCheck($user_srl_auth, false);
+
 require 'core/logger.php';
 require 'core/security.php';
 require 'core/ip_manage.php';
 require 'core/permission.php';
-require 'core/auth.php';
 
 
 //Log Client
 ClientAgentLog();
 
 //set user_Srl
-$user_srl = AuthCheck($user_srl_auth, false);
+
 
     
 
