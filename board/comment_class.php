@@ -75,7 +75,7 @@ function comment_write($doc_srl, $user_srl , $content, $permission, $privacy){
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	$document = document_read($user_srl, $doc_srl);
 	$last_number = CommentLastNumber();
-if($content != "") {
+if($content != "" && $document != null) {
 	$result = mysql_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '$date', '$document[status]', '$privacy', '$REMOTE_ADDR');");
 	//SetCount
 	setDocCommentCount($doc_srl);

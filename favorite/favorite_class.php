@@ -26,7 +26,7 @@ function favorite_add($value, $user_srl, $category){
 $result = mysql_query("INSERT INTO `favorite` (`user_srl`, `category`, `value`, `date`, `ip_addr`) VALUES ('$user_srl', '$category', '$value', '$date', '$REMOTE_ADDR');");
 //setCount
 setFavoriteCount($user_srl, $value, 3);
-updatePopularity($user_srl, $value, 100);
+updatePopularity($user_srl, $value, 20);
 favorite_send_push($value, $user_srl, $name, "0");
 }
 //echo mysql_error();

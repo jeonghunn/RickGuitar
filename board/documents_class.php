@@ -55,7 +55,14 @@ function getDocOwner($doc_srl){
 }
 
 function getDocPageOwner($doc_srl){
-	return getDocInfo($doc_srl, "page_srl");
+	$OwnerInfo = GetMemberInfo(getDocInfo($doc_srl, "page_srl"));
+
+//Check Admin
+if($OwnerInfo[admin] == 0){
+	return $OwnerInfo[user_srl];
+}else{
+return $OwnerInfo[admin];
+}
 }
 
 function getDocInfo($doc_srl, $info){

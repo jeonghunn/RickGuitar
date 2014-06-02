@@ -20,6 +20,7 @@ require '../config.php';
 if($authcode != $auth) ErrorMessage("auth_error");
 
 //Change Auth code to tarks account
+require '../member/member_class.php';
 require 'comment_class.php';
 require 'documents_class.php';
 

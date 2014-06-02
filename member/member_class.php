@@ -104,6 +104,7 @@ $row = mysql_query("SELECT * FROM  `user` WHERE  `status` < 4 ORDER BY  `user`.`
 return $row;
 }
 
+
     function getPageAuth($user_srl, $page_srl){
       $page_info = GetMemberInfo($page_srl);
      if($page_info[admin] == $user_srl) $auth_code = FindAuthCode($page_srl, "user_srl");
@@ -112,7 +113,7 @@ return $auth_code;
 
   function PhoneNumberToPageNumber($phonenumbers){
     $count = count($phonenumbers);
-  if($count == 0) return false;
+  if($count <= 1) return false;
     for($i=0 ; $i < count($phonenumbers); $i++){
      $orvalue = $i != 0 ? "OR" : "";
 $value = $value.$orvalue." `phone_number` LIKE '%".$phonenumbers[$i]."%' ";

@@ -38,12 +38,18 @@ member_PrintListbyUpdate($page_list);
 if($kind == "phone_numbers"){
 	$page_list = PhoneNumberToPageNumber(explode("//",$value));
 	member_PrintListbyUpdate($page_list);
+
+	if($page_list == false){
+		echo "null";
+	}
+	
 }
 
 if($kind == "popularity"){
 	$page_list = GetAllMemberInfoByPopularity($user_srl, $start_num, $pages_number);
 	member_PrintListbyUpdate($page_list);
 }
+
 
 
 

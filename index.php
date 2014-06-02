@@ -2,14 +2,17 @@
 $page_srl = $_GET['p'];
 
 session_start();
+$user_srl_auth = $_SESSION['user_srl_auth'];
+
+
 define('642979',   TRUE);
 require 'config.php';
 
 //Auth code to user_srl
 
 require 'member/member_class.php';
+require 'board/documents_class.php';
 
-$user_srl_auth = $_SESSION['user_srl_auth'];
 $user_info = getMemberInfo(AuthCheck($user_srl_auth, false));
 $user_srl = $user_info[user_srl];
 $user_name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
