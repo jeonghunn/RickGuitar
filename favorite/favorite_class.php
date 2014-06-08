@@ -3,7 +3,7 @@
 function favorite_read_page($category, $user_srl, $value){
 	//$user_srl = AuthCheck($user_srl, false);
  //$status = setRelationStatus($user_srl, $doc_user_srl);
-return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category'");
+return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category' AND  `status` = '0'");
 
 }
 
@@ -35,8 +35,18 @@ return $result;
 }
 
 
-function favorite_delete($user_srl, $lang){
+function favorite_delete($value, $user_srl, $category){
+	$me_status = setRelationStatus($value, $user_srl);
 
+	if($me_status == 3){
+$result = mysql_query("UPDATE `favorite` SET `status` = '1'   WHERE `user_srl` = '$user_srl' AND `value` = '$value' AND `category` = '$category' AND `status` = '0'");
+
+//setCount
+setFavoriteCount($user_srl, $value, 3);
+updatePopularity($user_srl, $value, -20);
+	}
+
+	return $result;
 }
 
 //Set favorite count on user
@@ -44,26 +54,26 @@ function setFavoriteCount($user_srl, $value, $category){
 	//Count my favorite
 	$me_favorite_count = getFavoriteCount($user_srl, $category); 
 	$me_like_me_count = getLikeMeCount($user_srl, $category);
-      mysql_query("UPDATE `user` SET `favorite` = '$me_favorite_count'   WHERE `user_srl` = '$user_srl'");
-    mysql_query("UPDATE `user` SET `like_me` = '$me_like_me_count'   WHERE `user_srl` = '$user_srl'");
+      mysql_query("UPDATE `user` SET `favorite` = '$me_favorite_count'   WHERE `user_srl` = '$user_srl' AND `status` = '0'");
+    mysql_query("UPDATE `user` SET `like_me` = '$me_like_me_count'   WHERE `user_srl` = '$user_srl' AND `status` = '0'");
 
 //Count others favorite
    	$you_favorite_count = getFavoriteCount($value, $category); 
 	$you_like_me_count = getLikeMeCount($value, $category);
-   mysql_query("UPDATE `user` SET `favorite` = '$you_favorite_count'   WHERE `user_srl` = '$value'");
-    mysql_query("UPDATE `user` SET `like_me` = '$you_like_me_count'   WHERE `user_srl` = '$value'");
+   mysql_query("UPDATE `user` SET `favorite` = '$you_favorite_count'   WHERE `user_srl` = '$value' AND `status` = '0'");
+    mysql_query("UPDATE `user` SET `like_me` = '$you_like_me_count'   WHERE `user_srl` = '$value' AND `status` = '0'");
 
 }
 
 function getLikeMeCount($user_srl, $category){
-	$like_me_count = mysql_query("SELECT * FROM  `favorite` WHERE  `value` = '$user_srl' AND `category` = '$category'");
+	$like_me_count = mysql_query("SELECT * FROM  `favorite` WHERE  `value` = '$user_srl' AND `category` = '$category' AND `status` = '0'");
 	$total= mysql_num_rows ( $like_me_count );
 
 	return $total;
 }
 
 function getFavoriteCount($user_srl, $category){
-	$favorite_count = mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category'");
+	$favorite_count = mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category' AND `status` = '0'");
 	$total= mysql_num_rows ( $favorite_count );
 
 	return $total;
@@ -77,7 +87,7 @@ sendPushMessage($value, $user_srl, $name, "added_to_favorite", "added_to_favorit
 function favorite_getList($user_srl, $doc_user_srl, $start, $number){
 //	$user_srl = AuthCheck($user_srl, false);
  //$status = setRelationStatus($user_srl, $doc_user_srl);
- return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+ return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` = '$doc_user_srl' AND `status` = '0' ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
 }
 
 

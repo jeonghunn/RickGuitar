@@ -20,15 +20,21 @@ $user_name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2
 require 'core/header.php';
 
 
+//Check login
 if(!isset($_SESSION['user_srl_auth'])) {
 	require 'member/login.php';
 
 }else{
-$page_info = getMemberInfo($page_srl);
+
+	if($page_srl != null){
+		$page_info = getMemberInfo($page_srl);
 $page_name = SetUserName($page_info[lang], $page_info[name_1], $page_info[name_2]);
-
-
 require 'member/profile.php'; 
+}else{
+
+}
+
+
 }
 
 require 'core/footer.php';

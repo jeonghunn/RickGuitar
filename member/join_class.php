@@ -41,7 +41,8 @@ return $xerow[$value];
            global  $_FILES ,$date, $REMOTE_ADDR;
        //  $user_srl = AuthCheck($user_srl, false);
                      //If not page return
-        if($user_srl == 0) return false;
+           $user_info = getMemberInfo($user_srl);
+        if($user_info == null) return false;
            // Get MemberLastNumber
         $MemberNumber = MemberLastNumber();
             //Get Auth Code

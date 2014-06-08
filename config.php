@@ -63,23 +63,24 @@ $name = $name_2." ".$name_1;
 return $name;
 }
 
+
 function setRelationStatus($me_srl, $you_srl){
 //Select you srl
-  $me_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$me_srl' AND `category` LIKE '3' AND `value` LIKE '$you_srl'"));
-   $you_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl'"));
+  $me_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$me_srl' AND `category` LIKE '3' AND `value` LIKE '$you_srl' AND `status` LIKE '0'"));
+   $you_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl' AND `status` LIKE '0'"));
   $you_srl_info = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$you_srl'"));
-
 
   //Global
   $status = 0;
 
   //Member
   if($me_srl != null) $status = 1;
+  if($me_srl == 0) return 0;
 
   //Check like me and you are like too.
 if($me_favorite[value] == $you_srl) $status = 2;
   //Check like you
-if($you_favorite[value] == $me_srl) $status = 3;
+if($you_favorite[value] == $me_srl && $me_srl != 0) $status = 3;
 
   //Check I'm owner
   if($me_srl == $you_srl) $status = 4;
@@ -105,6 +106,7 @@ require 'core/db.php';
 require 'core/auth.php';
 
 $user_srl = AuthCheck($user_srl_auth, false);
+
 
 require 'core/logger.php';
 require 'core/security.php';
