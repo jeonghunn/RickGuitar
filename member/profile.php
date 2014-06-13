@@ -2,10 +2,9 @@
 
 
 <script>
-   alert("Hdddi");
 $(window).scroll(function(){ 
         if  ($(window).scrollTop() == $(document).height() - $(window).height()){ 
-           lastPostFunc(); 
+         alert("scroll");
         } 
 });
 
@@ -55,7 +54,7 @@ $DocList = document_getList($user_srl, $page_srl, 0, 30);
      echo '<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="files/profile/thumbnail/'.$result['user_srl'].'.jpg" style="width: 64px; height: 64px;"></a>';
      echo '<div class="media-body">';
       echo '<h4 class="media-heading">'.$result['name'].'</h4>';
-      echo '<p>'.$result['content'].'</p></div><hr>';
+      echo '<p>'.htmlspecialchars($result['content']).'</pre</p></div><hr>';
 }         
 
 ?>

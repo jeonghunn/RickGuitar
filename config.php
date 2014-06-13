@@ -98,9 +98,6 @@ if($b!==FALSE) unset($list_arr[$b]);
  return $list_arr;
 }
 
-
-
-
  
 require 'core/db.php';
 require 'core/auth.php';

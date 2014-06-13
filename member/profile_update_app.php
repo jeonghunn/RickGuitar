@@ -14,7 +14,7 @@ $value = mysql_real_escape_string($_POST['value']);
 
 
 
-$log = $user_srl;
+$log = $profile_user_srl;
 $log_category = "profile_update";
 
 define('642979',   TRUE);

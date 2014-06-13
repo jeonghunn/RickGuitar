@@ -15,9 +15,9 @@
 
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
-    <!-- JS -->
+
+        <!-- JS -->
       <script type="text/javascript" src="js/jquery.js"></script>
-    
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
