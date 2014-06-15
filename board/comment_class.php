@@ -9,7 +9,7 @@ function comment_read($user_srl, $doc_srl){
 
  $status = setRelationStatus($user_srl, $row[page_srl]);
 
-if($status < $row[status]) ErrorMessage("permission_error");
+if($status < $row[status]) return false;
 
 return $row;
 }
@@ -42,9 +42,11 @@ $cmt_info = getComment($comment_srl);
 //doc owner
 $doc_owner = getDocOwner($cmt_info[doc_srl]);
 $doc_page_owner = getDocPageOwner($cmt_info[doc_srl]);
+$doc_page_owner_info = GetMemberInfo($doc_page_owner);
+$doc_page_owner_admin = $doc_page_owner_info['admin'];
 
 	//Check Status
-	if($user_srl != $cmt_info[user_srl] && $user_srl != $doc_owner && $user_srl != $doc_page_owner ){
+	if($user_srl != $cmt_info[user_srl] && $user_srl != $doc_owner && $user_srl != $doc_page_owner && $user_srl != $doc_page_owner_admin ){
 	$status = setRelationStatus($user_srl, $comment_owner);
 }else{
 	$status = 4;
