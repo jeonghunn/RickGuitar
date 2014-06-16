@@ -38,6 +38,36 @@ function lastPostFunc()
 
 <hr>
 
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+     <form class="form-signin" role="form" method='post'>
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel"><? S('write') ?></h4>
+      </div>
+      <div class="modal-body">
+<textarea id="content_textarea" class="form-control" rows="10" required autofocus></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" ><? S('write') ?></button>
+      </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script language="javascript">
+document.form.content_textarea.focus();
+document.form.content_textarea.value = document.form.content_textarea.value;
+</script>
 
 
   </div>
@@ -59,7 +89,7 @@ $DocList = document_getList($user_srl, $page_srl, 0, 30);
      echo '<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="files/profile/thumbnail/'.$result['user_srl'].'.jpg" style="width: 64px; height: 64px;"></a>';
      echo '<div class="media-body">';
       echo '<h4 class="media-heading">'.$result['name'].'</h4>';
-      echo '<p>'.str_replace("&lt;etr&gt;", "<br>", htmlspecialchars($result['content'])).'</pre</p></div><hr>';
+      echo '<p>'.contentconvert($result['content']).'</pre</p></div><hr>';
 }         
 
 ?>

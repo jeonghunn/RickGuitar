@@ -85,5 +85,10 @@ if($b!==FALSE) unset($list_arr[$b]);
  return $list_arr;
 }
 
+function contentconvert($content)
+{
+  return str_replace("&lt;etr&gt;", "<br>", htmlspecialchars($content));
+}
+
       
 ?>

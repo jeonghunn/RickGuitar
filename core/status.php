@@ -9,7 +9,7 @@
     
      //    if($status < $you_srl_info[status]) $row = null;
         for ($i=0 ; $i < count($info);$i++){
-if($you_srl_status[$info[$i]] > $status){
+if($you_srl_status[$info[$i]] > $status || $you_srl_info['status'] > $status){
 	$row[$info[$i]] = "null";
 }
 
