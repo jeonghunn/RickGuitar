@@ -154,7 +154,12 @@ return $contents;
 
 function document_printUserUpdateList($array){
 	for($i=0 ; $i < count($array); $i++){
-echo $array[$i]."/LINE/.";
+		if($i == count($array) -1){
+           echo $array[$i];
+		}else{
+			echo $array[$i]."/LINE/.";
+		}
+
 	}
 }
 
