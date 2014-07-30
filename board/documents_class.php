@@ -4,12 +4,14 @@ function document_read($user_srl, $doc_srl){
 	global $REMOTE_ADDR;
 	//$user_srl = AuthCheck($user_srl, false);
 	$row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
+	$page_info = GetMemberInfo($row[page_srl]);
 	//View
 mysql_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
 if($REMOTE_ADDR != $row[ip_addr]) updatePopularity($user_srl, $row[page_srl], 1);
 //Status
  $status = getDocStatus($user_srl, $doc_srl);
 
+if($status < $page_info[status]) $row = false;
 if($status < $row[status]) $row = false;
 
 return $row;
@@ -127,8 +129,11 @@ if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, $conten
 }
 function document_getList($user_srl, $doc_user_srl, $start, $number){
 //	$user_srl = AuthCheck($user_srl, false);
+	$doc_user_srl_info = GetMemberInfo($doc_user_srl);
   $status = setRelationStatus($user_srl, $doc_user_srl);
- return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+  $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+  if($doc_user_srl_info[status] > $status) $row = false;
+ return $row;
 }
 
 function document_getAllList($user_srl, $start, $number){

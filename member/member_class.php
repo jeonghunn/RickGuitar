@@ -18,7 +18,6 @@ function ProfileInfoUpdate($user_srl, $title, $value){
 
 function GetMemberInfo($user_srl){
 $row = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));
-if($row[status] > 4) $row = null;
 return $row;
 }
 
