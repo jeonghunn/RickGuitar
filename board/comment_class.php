@@ -112,7 +112,7 @@ function getCommentCount($doc_srl){
 
 
 function comment_send_push($doc_user_srl, $doc_srl, $user_srl, $name, $content, $number){
-	$row =mysql_query("SELECT user_srl FROM  `comments` WHERE  `doc_srl` =$doc_srl  ORDER BY  `comments`.`srl`");
+	$row =mysql_query("SELECT user_srl FROM  `comments` WHERE  `doc_srl` =$doc_srl AND `status` < 5  ORDER BY  `comments`.`srl`");
 $total= mysql_num_rows ( $row );
 if($total < 150){
 //Delete same id
