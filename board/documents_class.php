@@ -145,11 +145,18 @@ function document_getAllList($user_srl, $start, $number){
 function document_getUserUpdateList($user_srl, $user_array){
 //	$user_srl = AuthCheck($user_srl, false);
 for($i=0 ; $i < count($user_array); $i++){
-	  $status = setRelationStatus($user_srl, $user_array[$i]);
+	$doc_user_info = GetMemberInfo($user_array[$i]);
+	$status = setRelationStatus($user_srl, $user_array[$i]);
+	if($doc_user_info['status'] > $status){
+$contents[] = "";
+
+	}else{
+	if($doc_user_info['status'] <= $status)
  $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC");
   mysql_data_seek($row, 0);
     $result=mysql_fetch_array($row); 
  $contents[] = $result[title] == "null" ? $result[content] : $result[title];
+}
 }
 
 return $contents;

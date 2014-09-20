@@ -3,7 +3,7 @@
 function favorite_read_page($category, $user_srl, $value){
 	//$user_srl = AuthCheck($user_srl, false);
  //$status = setRelationStatus($user_srl, $doc_user_srl);
-return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category' AND  `status` = '0'");
+return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category' AND  `status` = 0");
 
 }
 
