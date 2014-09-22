@@ -36,15 +36,20 @@ function lastPostFunc()
       </div>
 
 
-<hr>
+
 
 <!-- Button trigger modal -->
-<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
-
+<!-- <div class="btn-group btn-group-justified"> -->
+<center><div class="btn-group btn-group-lg" style="padding-bottom: 8px;">
+  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#writemodal"><? S('write') ?></button>
+  <button type="button" class="btn btn-default">Middle</button>
+  <button type="button" class="btn btn-default">Right</button>
+</div>
+<hr>
+</center>
+<!-- </div> -->
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="writemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
      <form class="form-signin" role="form" method='post'>
@@ -53,7 +58,7 @@ function lastPostFunc()
         <h4 class="modal-title" id="myModalLabel"><? S('write') ?></h4>
       </div>
       <div class="modal-body">
-<textarea id="content_textarea" class="form-control" rows="10" required autofocus></textarea>
+<textarea id="content_textarea" class="form-control" rows="10" style="resize: none;" required autofocus></textarea>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

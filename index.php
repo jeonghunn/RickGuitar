@@ -1,5 +1,6 @@
 <?php
 $page_srl = $_GET['p'];
+$act_parameter = $_GET['a'];
 
 session_start();
 $user_srl_auth = $_SESSION['user_srl_auth'];
@@ -22,7 +23,29 @@ require 'core/header.php';
 
 //Check login
 if(!isset($_SESSION['user_srl_auth'])) {
+//Check loginact
+
+	if($act_parameter == "loginact"){
+
+ $id = mysql_real_escape_string($_POST['id']);
+$password = mysql_real_escape_string($_POST['password']);
+session_start();
+$user_srl_auth = TarksAccountLogin($id , $password);
+if($user_srl_auth != "null"){
+$_SESSION['user_srl_auth'] = $user_srl_auth;
+echo "<meta http-equiv='refresh' content='0;url=index.php'>";
+}else{
+		echo '<br><div class="alert alert-danger" role="alert">
+      <strong>로그인 실패</strong> 없는 계정이거나 비밀번호가 올바르지 않습니다.
+    </div>';
 	require 'member/login.php';
+
+}
+	}else{
+		require 'member/login.php';
+	}
+
+	
 
 }else{
 
