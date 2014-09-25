@@ -15,5 +15,9 @@ function rtnSpecialCharCheck($str)
  }
  return true;
 }
+
+function security_passwordWrong() {
+	ip_point_add(450);
+}
       
 ?>

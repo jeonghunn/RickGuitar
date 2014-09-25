@@ -11,15 +11,20 @@
 	$ip_point = $ip_manage[point];
 	//Check DDOS
 	if($ip_point > 4999) $ip_active = "N";
-	if($ip_point < 5000 && $ip_manage[log] == NULL) $ip_active = "Y";
 	if($ip_manage[last_access] > $date - 2) $ip_point = $ip_point + 1;
 	if($ip_manage[last_access] > $date - 2 && $nowurl == $ip_manage[last_address]) $ip_point = $ip_point + 10;
 	if($ip_manage[last_access] < $date - 300 && $ip_point > 0) $ip_point = $ip_point - 500;
+		if($ip_point < 5000 && $ip_manage[log] == NULL) $ip_active = "Y";
 	//Information Update
 	mysql_query("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '$REMOTE_ADDR'");
 }
         if($ip_manage[active] == "N") ErrorMessage("ip_error");
 
    
+   function ip_point_add($point){
+   	global $REMOTE_ADDR, $ip_point;
+     $ip_point = $ip_point + $point;
+     mysql_query("UPDATE `ip_manage` SET  `point` = '$ip_point' WHERE `ip_addr` = '$REMOTE_ADDR'");
+   }
       
 ?>

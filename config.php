@@ -24,7 +24,6 @@ $user_srl = AuthCheck($user_srl_auth, false);
 
 require 'core/logger.php';
 require 'core/security.php';
-require 'core/ip_manage.php';
 require 'core/permission.php';
 
 
@@ -57,5 +56,6 @@ if($user_srl != null){
             return $str;
     }
 
+require 'core/ip_manage.php';
 
 ?>

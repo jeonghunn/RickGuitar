@@ -35,10 +35,9 @@ if($user_srl_auth != "null"){
 $_SESSION['user_srl_auth'] = $user_srl_auth;
 echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 }else{
-		echo '<br><div class="alert alert-danger" role="alert">
-      <strong>로그인 실패</strong> 없는 계정이거나 비밀번호가 올바르지 않습니다.
-    </div>';
+	alert_error_print(T('login_failed'), T('login_failed_des'));
 	require 'member/login.php';
+	security_passwordWrong();
 
 }
 	}else{

@@ -3,7 +3,10 @@
 
 
 function ErrorMessage($msg) {
-    echo $msg;
+  require 'core/header.php';
+echo '<div class="jumbotron"><h1>'.T('error_'.$msg).'</h1><p>'.T('error_'.$msg.'_des').'</p></div>';
+
+
     exit();
 }
 
@@ -88,6 +91,16 @@ if($b!==FALSE) unset($list_arr[$b]);
 function contentconvert($content)
 {
   return str_replace("&lt;etr&gt;", "<br>", htmlspecialchars($content));
+}
+
+//Print Error
+function alert_error_print($title, $content){
+    alert_print("danger", $title, $content);
+}
+
+function alert_print($category, $title, $content){
+echo '<br><div class="alert alert-'.$category.'" role="alert">
+      <strong>'.$title.'</strong>  '.$content.'</div>';
 }
 
       
