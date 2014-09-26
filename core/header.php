@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,7 +17,10 @@
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
         <!-- JS -->
+             <script src="js/angular.min.js"></script>
       <script type="text/javascript" src="js/jquery.js"></script>
+
+    <script src="js/class.js"></script>
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -29,7 +32,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body ng-app="favorite_application">
 
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -76,10 +79,12 @@
       </div>
     </div>
 
+
  <div class="container">
-           
-                       
 
 
 
+      <div ng-bind-html="cfdump">
+       <h2>{{cfdump}}</h2>
+    </div>
 
