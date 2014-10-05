@@ -29,7 +29,7 @@ function lastPostFunc()
   <div class="col-xs-12 .col-sm-6 col-md-4">
 
 
-        <div class="jumbotron" style="background-image: url(files/profile/<? P($page_srl) ?>.jpg); background-size: 100%; background-position:center center; ">
+        <div class="jumbotron" style="background-image: url(files/profile/<? P($page_srl) ?>.jpg); background-size: 100%; min-height:250px;  background-position:center center; ">
         <h2 style="text-shadow: 2px 2px 4px #000; color: rgb(237, 237, 237);"><? P($page_name) ?></h2>
         <!--    <p style="text-shadow: 2px 2px 4px #000; color: rgb(237, 237, 237);" class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p> -->
       <!--   <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p> -->

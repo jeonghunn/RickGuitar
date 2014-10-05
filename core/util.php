@@ -54,7 +54,23 @@ return $name;
 }
 
 
-function setRelationStatus($me_srl, $you_srl){
+function contentconvert($content)
+{
+  return str_replace("&lt;etr&gt;", "<br>", htmlspecialchars($content));
+}
+
+//Print Error
+function alert_error_print($title, $content){
+    alert_print("danger", $title, $content);
+}
+
+function alert_print($category, $title, $content){
+echo '<br><div class="alert alert-'.$category.'" role="alert">
+      <strong>'.$title.'</strong>  '.$content.'</div>';
+}
+
+     function setRelationStatus($me_srl, $you_srl){
+      global $user_permission_status;
 //Select you srl
   $me_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$me_srl' AND `category` LIKE '3' AND `value` LIKE '$you_srl' AND `status` LIKE '0'"));
    $you_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl' AND `status` LIKE '0'"));
@@ -78,6 +94,7 @@ if($you_favorite[value] == $me_srl && $me_srl != 0) $status = 3;
  
  //Check unknown
  if($you_srl_info[status] > 4) $status = -1;
+ if($user_permission_status == 1) $status = 4;
   return $status;
 }
 
@@ -87,21 +104,5 @@ $b = array_search($del_value,$list_arr);
 if($b!==FALSE) unset($list_arr[$b]); 
  return $list_arr;
 }
-
-function contentconvert($content)
-{
-  return str_replace("&lt;etr&gt;", "<br>", htmlspecialchars($content));
-}
-
-//Print Error
-function alert_error_print($title, $content){
-    alert_print("danger", $title, $content);
-}
-
-function alert_print($category, $title, $content){
-echo '<br><div class="alert alert-'.$category.'" role="alert">
-      <strong>'.$title.'</strong>  '.$content.'</div>';
-}
-
       
 ?>
