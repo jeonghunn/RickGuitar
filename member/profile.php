@@ -94,7 +94,17 @@ $DocList = document_getList($user_srl, $page_srl, 0, 30);
      echo '<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="files/profile/thumbnail/'.$result['user_srl'].'.jpg" style="width: 64px; height: 64px;"></a>';
      echo '<div class="media-body">';
       echo '<h4 class="media-heading">'.$result['name'].'</h4>';
-      echo '<p>'.contentconvert($result['content']).'</pre</p></div><hr>';
+      echo '<p>'.contentconvert($result['content']).'</pre></p>';
+
+      if($result['attach'] != 0){
+        $doc_attach = mysql_fetch_array(attach_read($user_srl, $result['srl']));
+        if($doc_attach['kind'] == "image"){
+
+        echo '<img class="thumbnail" data-src="holder.js/200%x200" alt="attachment" src="files/images/'.$doc_attach['filename'].'.'.$doc_attach['extension'].'" style="width: 256px; max-height:500px"></a>';
+      }
+      }
+        echo '</div><hr>';
+      
 }         
 
 ?>

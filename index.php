@@ -11,8 +11,12 @@ require 'config.php';
 
 //Auth code to user_srl
 
+//member
 require 'member/member_class.php';
+
+//board
 require 'board/documents_class.php';
+require 'board/attach_class.php';
 
 $user_info = getMemberInfo(AuthCheck($user_srl_auth, false));
 $user_srl = $user_info[user_srl];
