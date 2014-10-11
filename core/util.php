@@ -10,6 +10,11 @@ echo '<div class="jumbotron"><h1>'.T('error_'.$msg).'</h1><p>'.T('error_'.$msg.'
     exit();
 }
 
+function FatalError(){
+  echo "Sorry, something went wrong. We will fix this problem soon.";
+    exit();
+}
+
 function S($str){
   echo T($str);
 }
@@ -84,16 +89,16 @@ echo '<br><div class="alert alert-'.$category.'" role="alert">
   if($me_srl == 0) return 0;
 
   //Check like me and you are like too.
-if($me_favorite[value] == $you_srl) $status = 2;
+if($me_favorite['value'] == $you_srl) $status = 2;
   //Check like you
-if($you_favorite[value] == $me_srl && $me_srl != 0) $status = 3;
+if($you_favorite['value'] == $me_srl && $me_srl != 0) $status = 3;
 
   //Check I'm owner
   if($me_srl == $you_srl) $status = 4;
- if($me_srl == $you_srl_info[admin]) $status = 4;
+ if($me_srl == $you_srl_info['admin']) $status = 4;
  
  //Check unknown
- if($you_srl_info[status] > 4) $status = -1;
+ if($you_srl_info['status'] > 4) $status = -1;
  if($user_permission_status == 1) $status = 4;
   return $status;
 }

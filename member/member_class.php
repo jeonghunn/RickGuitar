@@ -77,7 +77,11 @@ if($id == null || $password == null) return false;
  ConnectDB("xe");
  $row = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
  ConnectMainDB();
- if($id == $row[user_id]) return true;
+ if($id == $row[user_id]) {
+return true;
+ }else{
+    security_passwordWrong();
+ }
  return false;
 }
 

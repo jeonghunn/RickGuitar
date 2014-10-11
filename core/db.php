@@ -15,6 +15,8 @@ function ConnectMainDB(){
 
 function ConnectDB($db_name){
 	global $db_conn;
-	mysql_select_db($db_name,$db_conn) or ErrorMessage("db_error");
+	mysql_select_db($db_name,$db_conn) or FatalError();
 }
+
+
 ?>

@@ -15,8 +15,13 @@ $L['login_failed_des'] = 'You entered invalid account or wrong password.';
 $L['write'] = 'Write';
 
 //ERROR
-$L['error_ip_error'] = '이용 정지';
-$L['error_ip_error_des'] = '죄송합니다. 정상적이지 않은 이용 내역이 있어 서비스의 이용이 정지되었습니다.';
+//IP Error
+$L['error_ip_error'] = 'You \'re Suspended';
+$L['error_ip_error_des'] = 'Sorry. you are suspended caused by abnormal activity.';
+
+//DB Error
+$L['error_db_error'] = 'Error';
+$L['error_db_error_des'] = 'Sorry, something went wrong. We will fix this problem soon.';
 
 
 ?>
