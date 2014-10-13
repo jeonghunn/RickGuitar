@@ -23,6 +23,10 @@ $L['error_ip_error_des'] = 'Sorry. you are suspended caused by abnormal activity
 $L['error_db_error'] = 'Error';
 $L['error_db_error_des'] = 'Sorry, something went wrong. We will fix this problem soon.';
 
+//Permission Error
+$L['error_permission_error'] = 'Account Suspended';
+$L['error_permission_error_des'] = 'Sorry. your account suspended caused by abnormal activity.';
+
 
 ?>
 

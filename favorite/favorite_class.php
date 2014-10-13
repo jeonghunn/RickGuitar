@@ -54,14 +54,14 @@ function setFavoriteCount($user_srl, $value, $category){
 	//Count my favorite
 	$me_favorite_count = getFavoriteCount($user_srl, $category);
 	$me_like_me_count = getLikeMeCount($user_srl, $category);
-      mysql_query("UPDATE `user` SET `favorite` = '$me_favorite_count'   WHERE `user_srl` = '$user_srl'");
-    mysql_query("UPDATE `user` SET `like_me` = '$me_like_me_count'   WHERE `user_srl` = '$user_srl'");
+      mysql_query("UPDATE `pages` SET `favorite` = '$me_favorite_count'   WHERE `user_srl` = '$user_srl'");
+    mysql_query("UPDATE `pages` SET `like_me` = '$me_like_me_count'   WHERE `user_srl` = '$user_srl'");
 
 //Count others favorite
    	$you_favorite_count = getFavoriteCount($value, $category); 
 	$you_like_me_count = getLikeMeCount($value, $category);
-   mysql_query("UPDATE `user` SET `favorite` = '$you_favorite_count'   WHERE `user_srl` = '$value'");
-    mysql_query("UPDATE `user` SET `like_me` = '$you_like_me_count'   WHERE `user_srl` = '$value'");
+   mysql_query("UPDATE `pages` SET `favorite` = '$you_favorite_count'   WHERE `user_srl` = '$value'");
+    mysql_query("UPDATE `pages` SET `like_me` = '$you_like_me_count'   WHERE `user_srl` = '$value'");
 
 }
 

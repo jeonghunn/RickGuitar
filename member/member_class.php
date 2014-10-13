@@ -5,19 +5,19 @@
 
 function MemberInfoUpdate($user_srl, $lang){
 	global $REMOTE_ADDR;
-   $add_info_to_system = "UPDATE `user` SET `ip_addr` = '$REMOTE_ADDR' WHERE `user_srl` = $user_srl";
+   $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '$REMOTE_ADDR' WHERE `user_srl` = $user_srl";
             $system_result = mysql_query($add_info_to_system);
 }
 
 function ProfileInfoUpdate($user_srl, $title, $value){
 	global $REMOTE_ADDR;
-   $add_info_to_system = "UPDATE `user` SET `$title` = '$value' WHERE `user_srl` = $user_srl";
+   $add_info_to_system = "UPDATE `pages` SET `$title` = '$value' WHERE `user_srl` = $user_srl";
             $system_result = mysql_query($add_info_to_system);
 }
 
 
 function GetMemberInfo($user_srl){
-$row = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `user_srl` LIKE '$user_srl'"));
+$row = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$user_srl'"));
 return $row;
 }
 
@@ -63,7 +63,7 @@ $password = md5($password);
 	$loginResult = TarksAccount($id, $password);
 
 if($loginResult){
-	$user_info = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `tarks_account` LIKE '$id'"));
+	$user_info = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `tarks_account` LIKE '$id'"));
 }
 
 
@@ -98,12 +98,12 @@ return $auth_code_result;
 }
     
     function GetAllMemberInfoByUpdate($user_srl, $start, $number){
-$row = mysql_query("SELECT * FROM  `user` WHERE  `status` < 4 ORDER BY  `user`.`last_update` DESC LIMIT $start , $number");
+$row = mysql_query("SELECT * FROM  `pages` WHERE  `status` < 4 ORDER BY  `pages`.`last_update` DESC LIMIT $start , $number");
 return $row;
 }
 
   function GetAllMemberInfoByPopularity($user_srl, $start, $number){
-$row = mysql_query("SELECT * FROM  `user` WHERE  `status` < 4 ORDER BY  `user`.`popularity` DESC LIMIT $start , $number");
+$row = mysql_query("SELECT * FROM  `pages` WHERE  `status` < 4 ORDER BY  `pages`.`popularity` DESC LIMIT $start , $number");
 return $row;
 }
 
@@ -121,7 +121,7 @@ return $auth_code;
      $orvalue = $i != 0 ? "OR" : "";
 $value = $value.$orvalue." `phone_number` LIKE '%".$phonenumbers[$i]."%' ";
     }
-$row = mysql_query("SELECT * FROM  `user` WHERE (".$value.") AND  `admin` = 0 ORDER BY  `user`.`last_update` DESC LIMIT 0 ,".$count);
+$row = mysql_query("SELECT * FROM  `pages` WHERE (".$value.") AND  `admin` = 0 ORDER BY  `pages`.`last_update` DESC LIMIT 0 ,".$count);
 return $row;
 }
 

@@ -104,7 +104,7 @@ $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, 
 
 if($REMOTE_ADDR != $page_info[ip_addr]) updatePopularity($user_srl, $page_srl, 1);
 //Set last update
-mysql_query("UPDATE `user` SET `last_update` = '$date'   WHERE `user_srl` = '$page_srl'");
+mysql_query("UPDATE `pages` SET `last_update` = '$date'   WHERE `user_srl` = '$page_srl'");
 //Push
 document_send_push($page_srl, $user_srl, $name,  $content, $last_number);
 }

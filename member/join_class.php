@@ -20,14 +20,14 @@ return $xerow[$value];
     
       //Find the Same Reg ID
     function CheckSameRegID($reg_id){
- $CheckSameRegID = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `reg_id` LIKE '$reg_id'"));
+ $CheckSameRegID = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `reg_id` LIKE '$reg_id'"));
  return $CheckSameRegID;
     }
 
 
     //Tarks Account
     function CheckSameTarksAccount($tarks_account){
- $CheckSameTarksAccount = mysql_fetch_array(mysql_query("SELECT * FROM  `user` WHERE  `tarks_account` LIKE '$tarks_account'"));
+ $CheckSameTarksAccount = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `tarks_account` LIKE '$tarks_account'"));
  return $CheckSameTarksAccount;
     }
 
@@ -51,7 +51,7 @@ return $xerow[$value];
           if($profile_pic == "Y") ProfileUpdate($MemberNumber);
               $popularity = intval($date/10000);
            //add user to db
-           $sql ="INSERT INTO `user` (`tarks_account`, `admin`, `name_2`, `lang`, `country`, `permission`, `birthday`, `join_day`, `profile_pic`, `profile_update`, `last_update`, `reg_id`, `ip_addr`, `popularity`) VALUES ('null', '$user_srl', '$name', '$lang', '$country', '3', '0' ,'$date', '$profile_pic', '$date' , '$date' , 'null', '$REMOTE_ADDR', '$popularity');";
+           $sql ="INSERT INTO `pages` (`tarks_account`, `admin`, `name_2`, `lang`, `country`, `permission`, `birthday`, `join_day`, `profile_pic`, `profile_update`, `last_update`, `reg_id`, `ip_addr`, `popularity`) VALUES ('null', '$user_srl', '$name', '$lang', '$country', '3', '0' ,'$date', '$profile_pic', '$date' , '$date' , 'null', '$REMOTE_ADDR', '$popularity');";
             $result = mysql_query($sql);
 
 
@@ -82,7 +82,7 @@ CreateStatus($MemberNumber);
           if($profile_pic == "Y") ProfileUpdate($MemberNumber);
                $popularity = intval($date/10000);
            //add user to db
-           $sql ="INSERT INTO `user` (`tarks_account`, `status`,  `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country` , `popularity`) VALUES ('$tarks_account', '0', '$admin', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country', '$popularity');";
+           $sql ="INSERT INTO `pages` (`tarks_account`, `status`,  `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country` , `popularity`) VALUES ('$tarks_account', '0', '$admin', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country', '$popularity');";
             $result = mysql_query($sql);
 
 
@@ -102,7 +102,7 @@ CreateStatus($MemberNumber);
 
                                if($profile_pic == "Y")  ProfileUpdate($user_srl);
                //add user to db
-            $sql ="UPDATE `user` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `country_code` = '$country_code', `phone_number` = '$phone_number', `profile_pic` = '$profile_pic', `profile_update` = '$date', `reg_id` = '$reg_id', `country` = '$country' WHERE `user_srl` = '$user_srl'";
+            $sql ="UPDATE `pages` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `country_code` = '$country_code', `phone_number` = '$phone_number', `profile_pic` = '$profile_pic', `profile_update` = '$date', `reg_id` = '$reg_id', `country` = '$country' WHERE `user_srl` = '$user_srl'";
             $result = mysql_query($sql);
 
             $auth_code = FindAuthCode($user_srl, "user_srl");
@@ -116,7 +116,7 @@ CreateStatus($MemberNumber);
     
 
      function DeleteUser($user_srl) {
- $deletesql ="DELETE FROM `user` WHERE `user_srl` = '$user_srl'";
+ $deletesql ="DELETE FROM `pages` WHERE `user_srl` = '$user_srl'";
             $deleteresult = mysql_query($deletesql);
 
 

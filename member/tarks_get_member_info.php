@@ -12,7 +12,7 @@ if($authcode != $auth) ErrorMessage("auth_error");
 
     //Get Tarks Account Exist in db
     
-$sql ="SELECT tarks_account FROM  `user` WHERE  `tarks_account` LIKE '$tarks_account'";
+$sql ="SELECT tarks_account FROM  `pages` WHERE  `tarks_account` LIKE '$tarks_account'";
 $result = mysql_query($sql);
 $row=mysql_fetch_array($result);
     

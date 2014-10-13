@@ -1,5 +1,5 @@
 <?php if(!defined("642979")) exit();
-    $db_conn = mysql_connect('localhost','root','password');
+    $db_conn = mysql_connect('localhost','root','tarksservermysql!@#$%^&*()poiuytrewq');
 
     //UTF-8
 mysql_query("set session character_set_connection=utf8;");
@@ -10,7 +10,7 @@ mysql_query("set session character_set_connection=utf8;");
     ConnectMainDB();
 //Connect to db
 function ConnectMainDB(){
-	ConnectDB("favorite");
+	ConnectDB("favorite_test");
 }
 
 function ConnectDB($db_name){
