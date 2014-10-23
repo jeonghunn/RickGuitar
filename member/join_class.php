@@ -12,7 +12,7 @@ return $xerow[$value];
 
 //Find lastest number.
  function MemberLastNumber(){
-  $user_table_status =mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'user'"));
+  $user_table_status =mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'pages'"));
   return $user_table_status['Auto_increment'];  
  }
 

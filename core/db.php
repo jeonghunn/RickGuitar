@@ -1,5 +1,5 @@
 <?php if(!defined("642979")) exit();
-    $db_conn = mysql_connect('localhost','root','tarksservermysql!@#$%^&*()poiuytrewq');
+    $db_conn = mysql_connect('localhost','root','password');
 
     //UTF-8
 mysql_query("set session character_set_connection=utf8;");

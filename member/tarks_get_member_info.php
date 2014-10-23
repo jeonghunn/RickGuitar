@@ -22,7 +22,7 @@ $row=mysql_fetch_array($result);
 
 
          //Send Imformation
-        $sql ="SELECT * FROM  `user` WHERE  `tarks_account` LIKE '$tarks_account'";
+        $sql ="SELECT * FROM  `pages` WHERE  `tarks_account` LIKE '$tarks_account'";
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
