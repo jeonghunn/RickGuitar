@@ -25,15 +25,34 @@ function P($str){
 
 //Print for native app
 function print_info($row, $info){
+ global $API_VERSION;
 
-    for ($i=0 ; $i < count($info);$i++){
-   	if(count($info) == $i + 1){
+if($API_VERSION == 1){
+//API 1
+
+
+   for ($i=0 ; $i < count($info);$i++){
+$result_arr[] = array($info[$i] => $row[$info[$i]]);
+
+
+}
+echo json_encode($result_arr);
+
+
+ }else{
+//API BETA
+   for ($i=0 ; $i < count($info);$i++){
+    if(count($info) == $i + 1){
 echo $row[$info[$i]];
 }else{
-	echo $row[$info[$i]]."/LINE/.";
+  echo $row[$info[$i]]."/LINE/.";
    }
 
 }
+
+
+}
+   
     }
 
 
