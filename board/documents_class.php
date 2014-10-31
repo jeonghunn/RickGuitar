@@ -4,7 +4,7 @@ function document_read($user_srl, $doc_srl){
 	global $REMOTE_ADDR;
 	//$user_srl = AuthCheck($user_srl, false);
 	$row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
-	$page_info = GetMemberInfo($row[page_srl]);
+	$page_info = GetPageInfo($row[page_srl]);
 	//View
 mysql_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
 if($REMOTE_ADDR != $row[ip_addr]) updatePopularity($user_srl, $row[page_srl], 1);
@@ -57,7 +57,7 @@ function getDocOwner($doc_srl){
 }
 
 function getDocPageOwner($doc_srl){
-	$OwnerInfo = GetMemberInfo(getDocInfo($doc_srl, "page_srl"));
+	$OwnerInfo = GetPageInfo(getDocInfo($doc_srl, "page_srl"));
 
 
 	return $OwnerInfo[user_srl];
@@ -74,7 +74,7 @@ function document_update($doc_srl, $user_srl , $namearray, $valuearray){
 	global $date, $REMOTE_ADDR;
 	//$user_srl = AuthCheck($user_srl, false);
 	$relation_status = setRelationStatus($user_srl, $page_srl);
-	$user_info = GetMemberInfo($user_srl);
+	$user_info = GetPageInfo($user_srl);
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	$last_number = DocLastNumber();
 $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`, `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '$date', '$permission', '$status', '$privacy', '$REMOTE_ADDR');");
@@ -94,8 +94,8 @@ security_value_check($content);
 //Start
 //	$user_srl = AuthCheck($user_srl, false);
 	$relation_status = setRelationStatus($user_srl, $page_srl);
-	$user_info = GetMemberInfo($user_srl);
-	$page_info = GetMemberInfo($page_srl);
+	$user_info = GetPageInfo($user_srl);
+	$page_info = GetPageInfo($page_srl);
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	$last_number = DocLastNumber();
 	if($content != "" && $relation_status != -1 && $relation_status >= $page_info[write_status] && $page_info != null) {
@@ -129,7 +129,7 @@ if ($user_srl != $page_srl) sendPushMessage($page_srl, $user_srl, $name, $conten
 }
 function document_getList($user_srl, $doc_user_srl, $start, $number){
 //	$user_srl = AuthCheck($user_srl, false);
-	$doc_user_srl_info = GetMemberInfo($doc_user_srl);
+	$doc_user_srl_info = GetPageInfo($doc_user_srl);
   $status = setRelationStatus($user_srl, $doc_user_srl);
   $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
   if($doc_user_srl_info[status] > $status) $row = false;
@@ -145,7 +145,7 @@ function document_getAllList($user_srl, $start, $number){
 function document_getUserUpdateList($user_srl, $user_array){
 //	$user_srl = AuthCheck($user_srl, false);
 for($i=0 ; $i < count($user_array); $i++){
-	$doc_user_info = GetMemberInfo($user_array[$i]);
+	$doc_user_info = GetPageInfo($user_array[$i]);
 	$status = setRelationStatus($user_srl, $user_array[$i]);
 	if($doc_user_info['status'] > $status){
 $contents[] = "";

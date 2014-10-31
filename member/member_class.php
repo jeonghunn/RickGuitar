@@ -3,7 +3,7 @@
 //Auth code to user_srl
 //$user_srl = AuthCheck($user_srl, false);
 
-function MemberInfoUpdate($user_srl, $lang){
+function PageInfoUpdate($user_srl, $lang){
 	global $REMOTE_ADDR;
    $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '$REMOTE_ADDR' WHERE `user_srl` = $user_srl";
             $system_result = mysql_query($add_info_to_system);
@@ -16,7 +16,7 @@ function ProfileInfoUpdate($user_srl, $title, $value){
 }
 
 
-function GetMemberInfo($user_srl){
+function GetPageInfo($user_srl){
 $row = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$user_srl'"));
 return $row;
 }
@@ -25,13 +25,14 @@ return $row;
 
 
 //IF use this function you must import auth.php and private.php
-function ProfileInfo($user_srl, $profile_user_srl, $member_info){
+function PageInfo($user_srl, $page_srl, $member_info){
 
 //$user_srl = AuthCheck($user_srl, false);
 //Get Member Info
-$row = GetMemberInfo($profile_user_srl);
-$row = AccessMemberInfo(setRelationStatus($user_srl, $profile_user_srl), $row, $profile_user_srl, $member_info);
-  
+$row = GetPageInfo($page_srl);
+$row = AccessPageInfo(setRelationStatus($user_srl, $page_srl), $row, $page_srl, $member_info);
+$row['rel_you_status'] = setRelationStatus($user_srl, $page_srl);
+$row['rel_me_status'] = setRelationStatus($page_srl, $user_srl);
 
 return $row;
 }
@@ -109,7 +110,7 @@ return $row;
 
 
     function getPageAuth($user_srl, $page_srl){
-      $page_info = GetMemberInfo($page_srl);
+      $page_info = GetPageInfo($page_srl);
      if($page_info[admin] == $user_srl) $auth_code = FindAuthCode($page_srl, "user_srl");
 return $auth_code;
 }
@@ -128,7 +129,7 @@ return $row;
 function updatePopularity($user_srl, $page_srl, $point){
 
   if($user_srl != $page_srl){
-  $mf = getMemberInfo($page_srl);
+  $mf = getPageInfo($page_srl);
 ProfileInfoUpdate($page_srl, "popularity", $mf[popularity] + $point);
 }
 }
@@ -139,7 +140,7 @@ function member_PrintListbyUpdate($row){
   for($i=0 ; $i < $total; $i++){
                mysql_data_seek($row, $i);           //포인터 이동
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
-        //    $user_info = GetMemberInfo($result[value]);
+        //    $user_info = GetPageInfo($result[value]);
               $name = SetUserName($result[lang], $result[name_1], $result[name_2]);
             $profile[] = array( "last_update"=> $result[last_update] , "user_srl"=> $result[user_srl], "name"=> $name);
 }         

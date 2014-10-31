@@ -1,5 +1,5 @@
 <?php if(!defined("642979")) exit();
-    function AccessMemberInfo($status, $row, $you_srl, $info){
+    function AccessPageInfo($status, $row, $you_srl, $info){
     	if (strpos($info, "ip_addr")) ErrorMessage("security_error");
     	if (strpos($info, "likeable")) ErrorMessage("security_error");
     	//Select status table
@@ -15,7 +15,6 @@ if($you_srl_status[$info[$i]] > $status || $you_srl_info['status'] > $status || 
 
 
     	 }
-    	
 
     	return $row;
     	}

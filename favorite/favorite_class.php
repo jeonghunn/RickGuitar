@@ -19,7 +19,7 @@ function favorite_add($value, $user_srl, $category){
 	global $date, $REMOTE_ADDR;
 	//$user_srl = AuthCheck($user_srl, false);
 	$me_status = setRelationStatus($value, $user_srl);
-	$user_info = GetMemberInfo($user_srl);	
+	$user_info = GetPageInfo($user_srl);	
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	//$last_number = DocLastNumber();
 	if($me_status < 3){
@@ -106,7 +106,7 @@ function favorite_PrintListbyUpdate($row){
 	for($i=0 ; $i < $total; $i++){
                mysql_data_seek($row, $i);           //포인터 이동
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
-             $user_info = GetMemberInfo($result[value]);
+             $user_info = GetPageInfo($result[value]);
              	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
             $profile[] = array( "last_update"=> $user_info[last_update] , "user_srl"=> $result[value], "name"=> $name);
 }         

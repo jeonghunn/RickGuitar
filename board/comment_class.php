@@ -42,7 +42,7 @@ $cmt_info = getComment($comment_srl);
 //doc owner
 $doc_owner = getDocOwner($cmt_info[doc_srl]);
 $doc_page_owner = getDocPageOwner($cmt_info[doc_srl]);
-$doc_page_owner_info = GetMemberInfo($doc_page_owner);
+$doc_page_owner_info = GetPageInfo($doc_page_owner);
 $doc_page_owner_admin = $doc_page_owner_info['admin'];
 
 	//Check Status
@@ -73,7 +73,7 @@ return $result;
 function comment_write($doc_srl, $user_srl , $content, $permission, $privacy){
 	global $date, $REMOTE_ADDR;
 	//$user_srl = AuthCheck($user_srl, false);
-	$user_info = GetMemberInfo($user_srl);
+	$user_info = GetPageInfo($user_srl);
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	$document = document_read($user_srl, $doc_srl);
 	$last_number = CommentLastNumber();

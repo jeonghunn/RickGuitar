@@ -18,7 +18,7 @@ $user_srl = AuthCheck($user_srl_auth, false);
 
 
 //Update new member information
-    MemberInfoUpdate($user_srl);
+    PageInfoUpdate($user_srl);
 
 
     

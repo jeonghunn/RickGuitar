@@ -18,7 +18,7 @@ require 'member/member_class.php';
 require 'board/documents_class.php';
 require 'board/attach_class.php';
 
-$user_info = getMemberInfo(AuthCheck($user_srl_auth, false));
+$user_info = getPageInfo(AuthCheck($user_srl_auth, false));
 $user_srl = $user_info[user_srl];
 $user_name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 
@@ -53,7 +53,7 @@ echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 }else{
 
 	if($page_srl != null){
-		$page_info = getMemberInfo($page_srl);
+		$page_info = getPageInfo($page_srl);
 $page_name = SetUserName($page_info[lang], $page_info[name_1], $page_info[name_2]);
 require 'member/profile.php'; 
 }else{
