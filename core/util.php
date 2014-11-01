@@ -31,7 +31,7 @@ function A($str){
 function print_info($row, $info){
  global $API_VERSION;
 
-if($API_VERSION == 1){
+if($API_VERSION >= 1){
 //API 1
 
 
