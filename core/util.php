@@ -20,7 +20,11 @@ function S($str){
 }
 
 function P($str){
-  echo $str;
+  echo htmlspecialchars($str);
+}
+
+function A($str){
+  return htmlspecialchars($str);
 }
 
 //Print for native app
@@ -36,16 +40,16 @@ $result_arr[] = array($info[$i] => $row[$info[$i]]);
 
 
 }
-echo json_encode($result_arr);
+ P(json_encode($result_arr));
 
 
  }else{
 //API BETA
    for ($i=0 ; $i < count($info);$i++){
     if(count($info) == $i + 1){
-echo $row[$info[$i]];
+P($row[$info[$i]]);
 }else{
-  echo $row[$info[$i]]."/LINE/.";
+ P($row[$info[$i]]."/LINE/.");
    }
 
 }

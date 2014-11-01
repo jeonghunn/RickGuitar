@@ -67,7 +67,7 @@
           <ul class="nav navbar-nav navbar-right">
            <? echo '<li class="active" >';
            if($user_srl != null){
-             echo '<a href="?p='.$user_srl.'">'.$user_name.'</a>';
+             echo '<a href="?p='.A($user_srl).'">'.A($user_name).'</a>';
            }else{
              echo '<a href="index.php">'.T('sign_in').'</a>';
            }
