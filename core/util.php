@@ -40,16 +40,16 @@ $result_arr[] = array($info[$i] => $row[$info[$i]]);
 
 
 }
- P(json_encode($result_arr));
+ echo json_encode($result_arr);
 
 
  }else{
 //API BETA
    for ($i=0 ; $i < count($info);$i++){
     if(count($info) == $i + 1){
-P($row[$info[$i]]);
+echo $row[$info[$i]];
 }else{
- P($row[$info[$i]]."/LINE/.");
+ echo $row[$info[$i]]."/LINE/.";
    }
 
 }
