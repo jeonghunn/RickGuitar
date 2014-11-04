@@ -3,22 +3,7 @@
 //Information : auth_value is value
 $auth = "642979";
 //Make a Auth code string
- 	     function GenerateString($length)  
-    {  
-        $characters  = "0123456789";  
-        $characters .= "abcdefghijklmnopqrstuvwxyz";  
-        $characters .= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";  
-          
-        $string_generated = "";  
-          
-        $nmr_loops = $length;  
-        while ($nmr_loops--)  
-        {  
-            $string_generated .= $characters[mt_rand(0, strlen($characters))];  
-        }  
-          
-        return $string_generated;  
-    }  
+
 
  function MakeAuthCode($length, $auth_value, $category)  {
     global $date, $REMOTE_ADDR;

@@ -58,7 +58,23 @@ echo $row[$info[$i]];
 }
    
     }
-
+    
+     function GenerateString($length)  
+    {  
+        $characters  = "0123456789";  
+        $characters .= "abcdefghijklmnopqrstuvwxyz";  
+        $characters .= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";  
+          
+        $string_generated = "";  
+          
+        $nmr_loops = $length;  
+        while ($nmr_loops--)  
+        {  
+            $string_generated .= $characters[mt_rand(0, strlen($characters))];  
+        }  
+          
+        return $string_generated;  
+    }  
 
 //Print for native app
 function print_array($row){
