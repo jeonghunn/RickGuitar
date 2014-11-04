@@ -67,6 +67,28 @@ CreateStatus($MemberNumber);
     }
    
 
+function SignUpTarksAccount($email, $id, $password){
+  global $date;
+if(!rtnSpecialCharCheck($id.$password)) return false;
+if($email == null || $id == null || $password == null) return false;
+$email_array = ExplodeInfoValue("@",$email);
+$extra_vars = 'O:8:"stdClass":1:{s:15:"xe_validator_id";s:42:"modules/member/skins/default/signup_form/1";}';
+$nick_name = $date.GenerateString(3);
+ ConnectDB("xe");
+ $seq = getTarksSeqLastNumber();
+ $seq_insert = mysql_query("INSERT INTO `xe_sequence` (`seq`) VALUES (NULL);");
+ if($seq_insert) $tarks_signup = mysql_query("INSERT INTO `xe_member` (`member_srl`, `user_id`, `password`, `email_id`, `email_host`, `nick_name`, `extra_vars`, `list_order`) VALUES ('$seq', '$id', '$password' , '$email', '$email_array[0]', '$email_array[1]', '$nick_name', '$extra_vars', '-'.'$seq');");
+
+
+return $tarks_signup;
+}
+
+
+//Find lastest number.
+ function getTarksSeqLastNumber(){
+  $table_status =mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'xe_sequence'"));
+  return $table_status['Auto_increment'];  
+ }
 
     function AddUser($tarks_account, $admin, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country) {
         global  $date, $REMOTE_ADDR;

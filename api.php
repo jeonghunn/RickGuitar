@@ -15,11 +15,13 @@ $API = new APIClass;
 
 
 if($ACTION == "hello_world") $API -> hello_world(); 
-if($ACTION == "load_app") $API -> load_app($user_srl); 
+if($ACTION == "load_app") $API -> API_load_app($user_srl); 
 
 //Page
-if($ACTION == "page_info") $API -> getPageInfo($user_srl);
+if($ACTION == "page_info") $API -> API_getPageInfo($user_srl);
 
+//Member
+if($ACTION == "tarks_sign_up") $API -> API_SignUpTarksAccount();
 
 
 
