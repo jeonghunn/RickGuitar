@@ -69,16 +69,24 @@ CreateStatus($MemberNumber);
 
 function SignUpTarksAccount($email, $id, $password){
   global $date;
-if(!rtnSpecialCharCheck($id.$password)) return false;
+  $nowdate = date('YmdHis');
+if(!rtnSpecialCharCheck($id.$password)) return "special_char_error";
 if($email == null || $id == null || $password == null) return false;
-$email_array = ExplodeInfoValue("@",$email);
+if(strlen($id) < 3 || strlen($id) > 20 ) return "id_length_error";
+if(strlen($password) < 6 || strlen($password) > 20 ) return "password_length_error";
+$password = md5($password);
+$email_array = explode("@",$email);
 $extra_vars = 'O:8:"stdClass":1:{s:15:"xe_validator_id";s:42:"modules/member/skins/default/signup_form/1";}';
 $nick_name = $date.GenerateString(3);
  ConnectDB("xe");
+  $email_check = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `email_address` LIKE '$email'"));
+   $id_check = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id'"));
+  if($email_check['email_address'] == $email) return "email_exist_error";
+  if($id_check['user_id'] == $id) return "id_exist_error";
  $seq = getTarksSeqLastNumber();
  $seq_insert = mysql_query("INSERT INTO `xe_sequence` (`seq`) VALUES (NULL);");
- if($seq_insert) $tarks_signup = mysql_query("INSERT INTO `xe_member` (`member_srl`, `user_id`, `password`, `email_id`, `email_host`, `nick_name`, `extra_vars`, `list_order`) VALUES ('$seq', '$id', '$password' , '$email', '$email_array[0]', '$email_array[1]', '$nick_name', '$extra_vars', '-'.'$seq');");
-
+ if($seq_insert) $tarks_signup = mysql_query("INSERT INTO `xe_member` (`member_srl`, `user_id`, `email_address`, `password`, `email_id`, `email_host`, `nick_name`, `regdate`, `last_login`, `change_password_date`, `extra_vars`, `list_order`) VALUES ('$seq', '$id', '$email', '$password' ,  '$email_array[0]', '$email_array[1]', '$nick_name', '$nowdate', '$nowdate', '$nowdate', '$extra_vars', '-$seq');");
+ConnectMainDB();
 
 return $tarks_signup;
 }

@@ -64,6 +64,7 @@ echo $row[$info[$i]];
         $characters  = "0123456789";  
         $characters .= "abcdefghijklmnopqrstuvwxyz";  
         $characters .= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";  
+        $characters .= "_";  
           
         $string_generated = "";  
           

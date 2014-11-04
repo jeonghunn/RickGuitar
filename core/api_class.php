@@ -38,10 +38,17 @@ function API_SignUpTarksAccount(){
 
 $tarks_signup = SignUpTarksAccount($email, $id, $password);
 
-if($tarks_signup){
+if($tarks_signup == "true"){
 echo "succeed";
 }else{
-echo "error";
+
+if($tarks_signup != false){
+	echo $tarks_signup;
+}else{
+	echo "error";
+}
+
+
 }
 }
 
