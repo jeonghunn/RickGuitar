@@ -1,12 +1,12 @@
 <?php if(!defined("642979")) exit();
    
     //ip, url, useragent, date
-$siteaddress = "http://tarks.net/favorite/";
+$siteaddress = "http://tarks.net/develop/favorite/";
 $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 $nowurl = $_SERVER["REQUEST_URI"]; 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $date = strtotime(date('Y-m-d H:i:s'));
-$server_version = "2.11.1.90";
+$SERVER_VERSION = "2.12.0.91";
 
 //Language
 $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);

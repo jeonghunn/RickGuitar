@@ -27,6 +27,11 @@ function A($str){
   return htmlspecialchars($str);
 }
 
+function CoreInfo(){
+  global $SERVER_VERSION;
+  echo "<h2>FavoriteCore</h2><br><h1>".$SERVER_VERSION."</h1>";
+}
+
 //Print for native app
 function print_info($row, $info){
  global $API_VERSION;

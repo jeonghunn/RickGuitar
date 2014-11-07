@@ -24,6 +24,7 @@ $user_name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2
 
 require 'core/header.php';
 
+if($act_parameter == "info") echo "Hello World";
 
 //Check login
 if(!isset($_SESSION['user_srl_auth'])) {
@@ -52,16 +53,23 @@ echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 
 }else{
 
+	
+
 	if($page_srl != null){
 		$page_info = getPageInfo($page_srl);
 $page_name = SetUserName($page_info[lang], $page_info[name_1], $page_info[name_2]);
 require 'member/profile.php'; 
 }else{
 
+//ACTION
+
+
 }
 
 
 }
+
+
 
 require 'core/footer.php';
 
