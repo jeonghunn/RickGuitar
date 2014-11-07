@@ -129,9 +129,11 @@ echo '<br><div class="alert alert-'.$category.'" role="alert">
   //Global
   $status = 0;
 
+
+  if($me_srl == 0 || $me_srl == null) return $status;
   //Member
   if($me_srl != null) $status = 1;
-  if($me_srl == 0) return 0;
+
 
   //Check like me and you are like too.
 if($me_favorite['value'] == $you_srl) $status = 2;

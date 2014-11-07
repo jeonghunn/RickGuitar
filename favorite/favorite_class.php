@@ -22,7 +22,7 @@ function favorite_add($value, $user_srl, $category){
 	$user_info = GetPageInfo($user_srl);	
 	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
 	//$last_number = DocLastNumber();
-	if($me_status < 3){
+	if($me_status < 3 && $me_status > 0){
 $result = mysql_query("INSERT INTO `favorite` (`user_srl`, `category`, `value`, `date`, `ip_addr`) VALUES ('$user_srl', '$category', '$value', '$date', '$REMOTE_ADDR');");
 //setCount
 setFavoriteCount($user_srl, $value, 3);
