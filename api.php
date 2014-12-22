@@ -7,7 +7,7 @@ $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 define('642979',   TRUE);
 require 'config.php';
 require 'member/member_class.php';
-require 'core/api_class.php';
+require 'core/api.class.php';
 
 $user_srl = AuthCheck($user_srl_auth, false);
 
