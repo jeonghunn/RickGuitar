@@ -7,6 +7,10 @@ echo "Hello World!";
 }
 
 
+function API_AUTH($auth_key){
+
+}
+
 function API_load_app($user_srl){
 $member_info = mysql_real_escape_string($_REQUEST['member_info']);
 //Update new member information

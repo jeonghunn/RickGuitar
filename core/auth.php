@@ -52,7 +52,11 @@ $auth = "642979";
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
-        $value = $row[value];
+        $value = $row['value'];
+
+        if($row['active'] == 0){
+          return false;
+        }
 //IF delete true, delete auth key
        if($delete == true){
         	  $deletesql ="DELETE FROM `auth` WHERE `key` = '$auth_key'";
