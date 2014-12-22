@@ -25,12 +25,12 @@ function API_getPageInfo($user_srl){
   require 'core/status.php';
 
 $page_srl = mysql_real_escape_string($_REQUEST['page_srl']);
-$member_info = mysql_real_escape_string($_REQUEST['member_info']);
+$page_info = mysql_real_escape_string($_REQUEST['page_info']);
 
 //Get Profile information
- $PageInfoRow = PageInfo($user_srl, $page_srl, ExplodeInfoValue($member_info));
+ $PageInfoRow = PageInfo($user_srl, $page_srl, ExplodeInfoValue($page_info));
  //Print Profile information
- print_info($PageInfoRow, ExplodeInfoValue($member_info));
+ print_info($PageInfoRow, ExplodeInfoValue($page_info));
 }
 
 function API_SignUpTarksAccount(){
