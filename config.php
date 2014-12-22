@@ -6,7 +6,7 @@ $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 $nowurl = $_SERVER["REQUEST_URI"]; 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $date = strtotime(date('Y-m-d H:i:s'));
-$SERVER_VERSION = "2.14.0.96";
+$SERVER_VERSION = "2.15.0.97";
 
 //Language
 $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
@@ -18,23 +18,10 @@ if($language == null) $language = "en";
  require 'core/util.php';
 require 'core/db.php';
 require 'core/auth.php';
+include_once("core/thread.class.php");
 
 
 $user_srl = AuthCheck($user_srl_auth, false);
-
-
-require 'core/logger.php';
-require 'core/security.php';
-
-
-//Log Client
-ClientAgentLog();
-
-//set user_Srl
-
-
-    
-
 
   //Set language
 if($user_srl != null){
@@ -56,7 +43,10 @@ if($user_srl != null){
             return $str;
     }
 
+
+require 'core/logger.php';
+require 'core/security.php';
 require 'core/permission.php';
-require 'core/ip_manage.php';
+//require 'core/ip_manage.php';
 
 ?>
