@@ -11,7 +11,7 @@
             }
 }
 
-            function ActLog(){
+            function ActLog($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
      mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `category`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$log_category', '$log');");
             }
 
@@ -35,7 +35,7 @@
 	//Information Update
 	mysql_query("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '$REMOTE_ADDR'");
 }
-        if($ip_manage[active] == "N") ErrorMessage("ip_error");
+        if($ip_manage['active'] == "N") ErrorMessage("ip_error");
 
             }
 
@@ -43,6 +43,29 @@
    	global $REMOTE_ADDR, $ip_point;
      $ip_point = $ip_point + $point;
      mysql_query("UPDATE `ip_manage` SET  `point` = '$ip_point' WHERE `ip_addr` = '$REMOTE_ADDR'");
+   }
+
+   function startLogger(){
+    global $user_srl, $REMOTE_ADDR, $date, $log_category, $log;
+     include_once("core/thread.class.php");
+
+
+        $thread = new Thread("localhost");
+    $thread->setFunc('ActLog', array($user_srl, $REMOTE_ADDR, $date, "adsfdsfadsf", "adsfsfsdf"));
+    $thread->start();
+
+
+
+    //         $thread2 = new Thread("localhost");
+    // $thread2->setFunc('ClientAgentLog', array());
+    // $thread2->start();
+
+
+    //    $thread3 = new Thread("localhost");
+    // $thread3->setFunc('IPManageAct', array());
+    // $thread3->start();
+
+
    }
 
         

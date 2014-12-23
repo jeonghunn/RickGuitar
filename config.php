@@ -18,8 +18,9 @@ if($language == null) $language = "en";
  require 'core/util.php';
 require 'core/db.php';
 require 'core/auth.php';
-include_once("core/thread.class.php");
+//require 'core/thread.class.php';
 
+//echo "ITS OK";
 
 $user_srl = AuthCheck($user_srl_auth, false);
 
@@ -45,8 +46,10 @@ if($user_srl != null){
 
 
 require 'core/logger.php';
+startLogger();
 require 'core/security.php';
 require 'core/permission.php';
+
 //require 'core/ip_manage.php';
 
 ?>
