@@ -18,6 +18,7 @@ if($language == null) $language = "en";
  require 'core/util.php';
 require 'core/db.php';
 require 'core/auth.php';
+if($API_VERSION != 0) include_once("core/thread.class.php");
 //require 'core/thread.class.php';
 
 //echo "ITS OK";

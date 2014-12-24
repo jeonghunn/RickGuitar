@@ -47,12 +47,12 @@
 
    function startLogger(){
     global $user_srl, $REMOTE_ADDR, $date, $log_category, $log;
-     include_once("core/thread.class.php");
 
 
-        $thread = new Thread("localhost");
-    $thread->setFunc('ActLog', array($user_srl, $REMOTE_ADDR, $date, "adsfdsfadsf", "adsfsfsdf"));
-    $thread->start();
+
+    //     $thread = new Thread("localhost");
+    // $thread->setFunc('ActLog', array($user_srl, $REMOTE_ADDR, $date, "adsfdsfadsf", "adsfsfsdf"));
+    // $thread->start();
 
 
 
