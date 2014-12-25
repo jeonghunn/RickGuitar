@@ -12,6 +12,7 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 	$ip_active = $ip_manage[active];
 	$ip_point = $ip_manage[point];
 	//Check DDOS
+  if($ip_point > 1000) APICheckAct();
 	if($ip_point > 4999) $ip_active = "N";
 	if($ip_manage[last_access] > $date - 2) $ip_point = $ip_point + 1;
 	if($ip_manage[last_access] > $date - 2 && $nowurl == $ip_manage[last_address]) $ip_point = $ip_point + 10;
@@ -40,5 +41,8 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
         if($user_permission[permission] > $permission_allow) ErrorMessage("permission_error");
    }
 
+function APICheckAct(){
+  
+}
       
 ?>
