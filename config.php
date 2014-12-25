@@ -18,14 +18,10 @@ if($language == null) $language = "en";
  require 'core/util.php';
 require 'core/db.php';
 require 'core/auth.php';
-if($API_VERSION != 0) include_once("core/thread.class.php");
-//require 'core/thread.class.php';
 
-//echo "ITS OK";
 
 $user_srl = AuthCheck($user_srl_auth, false);
 
-<<<<<<< HEAD
 
 require 'core/logger.php';
 require 'core/security.php';
@@ -41,8 +37,6 @@ ClientAgentLog();
     
 
 
-=======
->>>>>>> a765c313250ddcfa2c535c50f643a1231a8c3a69
   //Set language
 if($user_srl != null){
     $user_lang = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$user_srl'"));
@@ -64,17 +58,8 @@ if($user_srl != null){
     }
 
 
-<<<<<<< HEAD
 //Check IP
 PermissionCheckAct();
 IPManageAct();
-=======
-require 'core/logger.php';
-startLogger();
-require 'core/security.php';
-require 'core/permission.php';
-
-//require 'core/ip_manage.php';
->>>>>>> a765c313250ddcfa2c535c50f643a1231a8c3a69
 
 ?>
