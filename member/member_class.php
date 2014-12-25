@@ -25,12 +25,12 @@ return $row;
 
 
 //IF use this function you must import auth.php and private.php
-function PageInfo($user_srl, $page_srl, $member_info){
+function PageInfo($user_srl, $page_srl, $page_info){
 
 //$user_srl = AuthCheck($user_srl, false);
 //Get Member Info
 $row = GetPageInfo($page_srl);
-$row = AccessPageInfo(setRelationStatus($user_srl, $page_srl), $row, $page_srl, $member_info);
+$row = AccessPageInfo(setRelationStatus($user_srl, $page_srl), $row, $page_srl, $page_info);
 $row['rel_you_status'] = setRelationStatus($user_srl, $page_srl);
 $row['rel_me_status'] = setRelationStatus($page_srl, $user_srl);
 

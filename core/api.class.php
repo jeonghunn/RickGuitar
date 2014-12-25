@@ -12,11 +12,11 @@ function API_AUTH($auth_key){
 }
 
 function API_load_app($user_srl){
-$member_info = mysql_real_escape_string($_REQUEST['member_info']);
+$page_info = mysql_real_escape_string($_REQUEST['page_info']);
 //Update new member information
     PageInfoUpdate($user_srl);
 
-  print_info(GetPageInfo($user_srl), ExplodeInfoValue($member_info));
+  print_info(GetPageInfo($user_srl), ExplodeInfoValue($page_info));
 }
 
 

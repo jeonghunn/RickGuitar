@@ -1,7 +1,10 @@
 <?php if(!defined("642979")) exit();
  //add log       
-            mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `category`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$log_category', '$log');");
+       
 
+function ActLog($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
+	     mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `category`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$log_category', '$log');");
+}
 
             function ClientAgentLog(){
             	global $user_srl, $REMOTE_ADDR, $useragent, $date;
@@ -11,4 +14,9 @@
             }
 
         }
+
+
+
+   
+
 ?>

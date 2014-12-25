@@ -4,6 +4,10 @@ $API_VERSION = (int) $_REQUEST['apiv'];
 $ACTION = $_REQUEST['a'];
 $user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
 
+//Log
+$log = mysql_real_escape_string($_REQUEST['page_srl']);
+$log_category = $ACTION;
+
 define('642979',   TRUE);
 require 'config.php';
 require 'member/member_class.php';

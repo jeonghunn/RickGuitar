@@ -25,9 +25,10 @@ $user_srl = AuthCheck($user_srl_auth, false);
 
 require 'core/logger.php';
 require 'core/security.php';
-
+require 'core/permission.php';
 
 //Log Client
+ActLog($user_srl, $REMOTE_ADDR, $date, $log_category, $log);
 ClientAgentLog();
 
 //set user_Srl
@@ -56,7 +57,9 @@ if($user_srl != null){
             return $str;
     }
 
-require 'core/permission.php';
-require 'core/ip_manage.php';
+
+//Check IP
+PermissionCheckAct();
+IPManageAct();
 
 ?>
