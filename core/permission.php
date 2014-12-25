@@ -1,6 +1,6 @@
 <?php if(!defined("642979")) exit();
 
-function IPManageAct(){
+function IPManageAct($REMOTE_ADDR, $nowurl, $date){
                  //  Permission Check
         $ip_manage = mysql_fetch_array(mysql_query("SELECT * FROM  `ip_manage` WHERE  `ip_addr` LIKE '$REMOTE_ADDR'"));
 //IP Check 
@@ -30,7 +30,7 @@ function IPManageAct(){
      mysql_query("UPDATE `ip_manage` SET  `point` = '$ip_point' WHERE `ip_addr` = '$REMOTE_ADDR'");
    }
 
-   function PermissionCheckAct(){
+   function PermissionCheckAct($user_srl){
    	 //  Permission Check
  $user_permission = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$user_srl'"));
  (int) $user_permission_status = $user_permission[permission];
