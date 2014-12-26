@@ -45,31 +45,27 @@ echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 	security_passwordWrong();
 
 }
-	}else{
-		require 'pages/login.php';
 	}
-
 	
+	if($act_parameter == "login") require 'pages/login.php';
+
+
 
 }else{
-
+//Just Logged in users
 	
 
 	if($page_srl != null){
 		$page_info = getPageInfo($page_srl);
 $page_name = SetUserName($page_info[lang], $page_info[name_1], $page_info[name_2]);
 require 'pages/profile.php'; 
-}else{
-
-//ACTION
-if($act_parameter == "api") require 'pages/api_main.php';
+}
 
 }
 
+//Guest, User all can
 
-}
-
-
+	if($act_parameter == "api") require 'pages/api_main.php';
 
 require 'core/footer.php';
 

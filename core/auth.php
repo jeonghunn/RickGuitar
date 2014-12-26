@@ -30,7 +30,7 @@ $auth = "642979";
      //   GenerateString($length);  
 
          //Add to Auth Information to Server
-            $sql ="INSERT INTO `auth` (`key`, `value`, `category`, `date`, `ipaddr`) VALUES ('$auth_code_result', '$auth_value', '$category', '$date', '$REMOTE_ADDR');";
+            if($auth_value != null) $sql ="INSERT INTO `auth` (`key`, `value`, `category`, `date`, `ipaddr`) VALUES ('$auth_code_result', '$auth_value', '$category', '$date', '$REMOTE_ADDR');";
             $result = mysql_query($sql) or $i = false;
 
             if($repeat > 30){

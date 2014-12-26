@@ -14,6 +14,12 @@ $L['login_failed_des'] = 'You entered invalid account or wrong password.';
 //Profile
 $L['write'] = 'Write';
 
+//API
+$L['api_main_title'] = 'Easiest way to make Community App';
+$L['api_main_des'] = 'You can make community app more easier with Favorite API.';
+$L['add_api_key'] = 'Add API Key';
+$L['manage_api'] = 'Manage API';
+
 //ERROR
 //IP Error
 $L['error_ip_error'] = 'You \'re Suspended';

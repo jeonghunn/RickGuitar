@@ -14,6 +14,13 @@ $L['login_failed_des'] = '없는 계정이거나 비밀번호가 올바르지 �
 //Profile
 $L['write'] = '쓰기';
 
+//API
+$L['api_main_title'] = '커뮤니티 앱을 만드는 가장 쉬운 방법';
+$L['api_main_des'] = 'Favorite API를 사용하면 커뮤니티 앱을 만들기가 쉬워집니다.';
+$L['add_api_key'] = 'API 키 생성';
+$L['manage_api'] = 'API 관리';
+
+
 //ERROR
 //IP Error
 $L['error_ip_error'] = '이용 정지';

@@ -69,7 +69,7 @@
            if($user_srl != null){
              echo '<a href="'.A($user_srl).'">'.A($user_name).'</a>';
            }else{
-             echo '<a href="">'.T('sign_in').'</a>';
+             echo '<a href="login">'.T('sign_in').'</a>';
            }
              echo '</li>';
            ?>
