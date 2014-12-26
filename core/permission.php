@@ -12,7 +12,7 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 	$ip_active = $ip_manage[active];
 	$ip_point = $ip_manage[point];
 	//Check DDOS
-  if($ip_point > 1000) APICheckAct();
+  if($ip_point > 800) APICheckAct();
 	if($ip_point > 4999) $ip_active = "N";
 	if($ip_manage[last_access] > $date - 2) $ip_point = $ip_point + 1;
 	if($ip_manage[last_access] > $date - 2 && $nowurl == $ip_manage[last_address]) $ip_point = $ip_point + 10;
@@ -42,7 +42,15 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
    }
 
 function APICheckAct(){
-  
+  if(lottoNum(30)){
+$API_KEY = mysql_real_escape_string($_REQUEST['api_key']);
+ $user_permission = mysql_fetch_array(mysql_query("SELECT * FROM  `api` WHERE  `user_srl` LIKE '$user_srl'"));
+
+
+$API_SRL = AuthCheck($API_KEY, false);
+
+if(!$API_SRL) ErrorMessage("api_error");
+  }
 }
       
 ?>

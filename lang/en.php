@@ -27,6 +27,10 @@ $L['error_db_error_des'] = 'Sorry, something went wrong. We will fix this proble
 $L['error_permission_error'] = 'Account Suspended';
 $L['error_permission_error_des'] = 'Sorry. your account suspended caused by abnormal activity.';
 
+//API Error
+$L['error_api_error'] = 'API Error';
+$L['error_api_error_des'] = 'Sorry. Your API has been stopped or expired.<br> Ask to your application manager or if you are manager check your api settings.<br><br>main@tarks.net';
+
 
 ?>
 

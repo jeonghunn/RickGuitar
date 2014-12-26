@@ -27,4 +27,9 @@ $L['error_db_error_des'] = '죄송합니다. 점검중이거나 서비스에 문
 $L['error_permission_error'] = '계정 정지';
 $L['error_permission_error_des'] = '죄송합니다. 정상적이지 않은 이용 내역이 있어 계정이 정지되었습니다.';
 
+//API Error
+$L['error_api_error'] = 'API 오류';
+$L['error_api_error_des'] = '죄송합니다. API가 정지되었거나 기간을 초과했습니다.<br> 애플리케이션 관리자에게 문의하세요. 또는 관리자라면 API 설정을 확인하세요.<br><br>main@tarks.net';
+
+
 ?>
