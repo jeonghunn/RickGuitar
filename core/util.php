@@ -156,5 +156,9 @@ $b = array_search($del_value,$list_arr);
 if($b!==FALSE) unset($list_arr[$b]); 
  return $list_arr;
 }
+
+function lottoNum($min,$max=100){ 
+    return(rand(1,$max)<=$min); 
+} 
       
 ?>
