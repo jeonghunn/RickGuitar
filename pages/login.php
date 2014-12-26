@@ -10,7 +10,7 @@
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> <? S('remember_me');?>
         </label>
-        <button class="btn btn-lg btn btn-block" type="submit"><? S('sign_in');?></button>
+        <button class="btn btn-lg btn btn-block btn-success" type="submit"><? S('sign_in');?></button>
       </form>
 
       <br><br>

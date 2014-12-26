@@ -11,133 +11,11 @@
     <title>Favorite</title>
 
     <!-- Bootstrap core CSS -->
-       <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Material Design for Bootstrap -->
-    <link href="css/material-wfont.min.css" rel="stylesheet">
-    <link href="css/ripples.min.css" rel="stylesheet">
-
-        <!-- Dropdown.js -->
-    <link href="//cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
-
- <!-- Page style -->
-    <style>
-      * {
-        box-sizing: border-box;
-      }
-      .header-panel {
-        background-color: #fd9800;
-        height: 144px;
-        position: relative;
-        z-index: 3;
-      }
-      .header-panel div {
-        position: relative;
-        height: 100%;
-      }
-      .header-panel h1 {
-        color: #FFF;
-        font-size: 20px;
-        font-weight: 400;
-        position: absolute;
-        bottom: 10px;
-        padding-left: 35px;
-      }
-
-      .menu {
-        overflow: auto;
-        padding: 0;
-      }
-      .menu, .menu * {
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-      .menu ul {
-        padding: 0;
-        margin: 7px 0;
-      }
-      .menu ul li {
-        list-style: none;
-        padding: 20px 0 20px 50px;
-        font-size: 15px;
-        font-weight: normal;
-        cursor: pointer;
-      }
-      .menu ul li.active {
-        background-color: #FF8224;
-        position: relative;
-      }
-      .menu ul li a {
-        color: rgb(51, 51, 51);
-        text-decoration: none;
-      }
-
-      .pages {
-        position: absolute;
-        top: 0;
-        right: 0;
-        z-index: 4;
-        padding: 0;
-        overflow: auto;
-      }
-      .pages > div {
-        padding: 0 5px;
-        padding-top: 64px;
-      }
-
-      .pages .header {
-        color: rgb(82, 101, 162);
-        font-size: 24px;
-        font-weight: normal;
-        margin-top: 5px;
-        margin-bottom: 60px;
-        letter-spacing: 1.20000004768372px;
-      }
-
-      .page {
-        transform: translateY(1080px);
-        transition: transform 0 linear;
-        display: none;
-        opacity: 0;
-        font-size: 16px;
-      }
-
-      .page.active {
-        transform: translateY(0px);
-        transition: all 0.3s ease-out;
-        display: block;
-        opacity: 1;
-      }
-
-      #opensource {
-        color: rgba(0, 0, 0, 0.62);
-        position: fixed;
-        margin-top: 50px;
-        margin-left: 50px;
-        z-index: 100;
-      }
-
-      #source-modal h4 {
-        color: black;
-      }
-
-      /* FIXME: why do I need these overrides? */
-      .navbar input::-webkit-input-placeholder {
-        color: rgba(255,255,255,.84) !important
-      }
-      .navbar input::-moz-placeholder {
-        color: rgba(255,255,255,.84) !important
-      }
-      .navbar input:-ms-input-placeholder {
-        color: rgba(255,255,255,.84) !important
-      }
-
-    </style>
         <!-- JS -->
              <script src="js/angular.min.js"></script>
       <script type="text/javascript" src="js/jquery.js"></script>
@@ -157,7 +35,7 @@
   <body ng-app="favorite_application">
 
     <!-- Fixed navbar -->
-    <div class="navbar navbar-material-orange navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -189,9 +67,9 @@
           <ul class="nav navbar-nav navbar-right">
            <? echo '<li class="active" >';
            if($user_srl != null){
-             echo '<a href="?p='.A($user_srl).'">'.A($user_name).'</a>';
+             echo '<a href="'.A($user_srl).'">'.A($user_name).'</a>';
            }else{
-             echo '<a href="index.php">'.T('sign_in').'</a>';
+             echo '<a href="">'.T('sign_in').'</a>';
            }
              echo '</li>';
            ?>

@@ -62,7 +62,7 @@ require 'pages/profile.php';
 }else{
 
 //ACTION
-
+if($act_parameter == "api") require 'pages/api_main.php';
 
 }
 
