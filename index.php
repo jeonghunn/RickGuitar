@@ -41,12 +41,12 @@ $_SESSION['user_srl_auth'] = $user_srl_auth;
 echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 }else{
 	alert_error_print(T('login_failed'), T('login_failed_des'));
-	require 'member/login.php';
+	require 'pages/login.php';
 	security_passwordWrong();
 
 }
 	}else{
-		require 'member/login.php';
+		require 'pages/login.php';
 	}
 
 	
@@ -58,7 +58,7 @@ echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 	if($page_srl != null){
 		$page_info = getPageInfo($page_srl);
 $page_name = SetUserName($page_info[lang], $page_info[name_1], $page_info[name_2]);
-require 'member/profile.php'; 
+require 'pages/profile.php'; 
 }else{
 
 //ACTION
