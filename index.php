@@ -24,7 +24,7 @@ $user_name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2
 
 require 'core/header.php';
 
-if($act_parameter == "info") echo "Hello World";
+
 
 //Check login
 if(!isset($_SESSION['user_srl_auth'])) {
@@ -64,7 +64,7 @@ require 'pages/profile.php';
 }
 
 //Guest, User all can
-
+if($act_parameter == "info") require 'pages/info.php';
 	if($act_parameter == "api") require 'pages/api_main.php';
 
 require 'core/footer.php';
