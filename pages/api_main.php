@@ -7,7 +7,7 @@
 <br><br>
       <center><h3 stlye="font-size: 21px;"><? S('API_api_main_des')?></h3>
 <div style="margin-top: 15%; margin-left: 30%; margin-right:30%;">
- <button type="button" class="btn btn-success btn-lg btn-block"><? S('API_start')?></button><br>
+ <button type="button" class="btn btn-success btn-lg btn-block" onclick="location.href='api_add'"><? S('API_start')?></button><br>
   <button type="button" class="btn btn-primary btn-lg btn-block" ><? S('API_manage_api')?></button>
   </div>
 </center>
