@@ -15,10 +15,11 @@ $L['login_failed_des'] = 'You entered invalid account or wrong password.';
 $L['write'] = 'Write';
 
 //API
-$L['api_main_title'] = 'Easiest way to make Community App';
-$L['api_main_des'] = 'You can make community app more easier with Favorite API.';
-$L['add_api_key'] = 'Add API Key';
-$L['manage_api'] = 'Manage API';
+$L['API_api_main_title'] = 'Easiest way to make Community App';
+$L['API_api_main_des'] = 'You can make community app more easier with Favorite API.';
+$L['API_add_api_key'] = 'Add API Key';
+$L['API_start'] = 'Start';
+$L['API_manage_api'] = 'Manage API';
 
 //ERROR
 //IP Error
