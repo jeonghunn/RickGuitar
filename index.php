@@ -65,7 +65,10 @@ require 'pages/profile.php';
 
 //Guest, User all can
 if($act_parameter == "info") require 'pages/info.php';
+
+//API
 	if($act_parameter == "api") require 'pages/api_main.php';
+		if($act_parameter == "api_add") require 'pages/api_add.php';
 
 require 'core/footer.php';
 
