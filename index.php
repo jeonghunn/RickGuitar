@@ -19,15 +19,14 @@ require 'board/documents_class.php';
 require 'board/attach_class.php';
 
 $user_info = getPageInfo(AuthCheck($user_srl_auth, false));
-$user_srl = $user_info[user_srl];
-$user_name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
+$user_srl = $user_info['user_srl'];
+$user_name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
 
 require 'core/header.php';
 
 
-
 //Check login
-if(!isset($_SESSION['user_srl_auth'])) {
+if(!CheckLogin()) {
 //Check loginact
 
 	if($act_parameter == "loginact"){
@@ -55,20 +54,48 @@ echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 //Just Logged in users
 	
 
-	if($page_srl != null){
+
+
+}
+ 
+//Profile
+		if($act_parameter == null && $page_srl != null){
 		$page_info = getPageInfo($page_srl);
 $page_name = SetUserName($page_info[lang], $page_info[name_1], $page_info[name_2]);
 require 'pages/profile.php'; 
 }
 
-}
-
 //Guest, User all can
-if($act_parameter == "info") require 'pages/info.php';
+LoadPages("error", "error", false);
+LoadPages("info", "info", false);
 
 //API
-	if($act_parameter == "api") require 'pages/api_main.php';
-		if($act_parameter == "api_add") require 'pages/api_add.php';
+	    LoadPages("api", "api_main", false);
+		LoadPages("api_add", "api_add", true);
+
+
+
+
+
+
+
+function LoadPages($ACTION, $page_name, $login_need){
+	global $act_parameter;
+$accept = true;
+if($login_need) $accept = CheckLogin();
+ if($act_parameter == $ACTION){	
+if($accept){
+require 'pages/'.$page_name.'.php';
+}else{
+	SettoLogin();
+}
+}
+}
+
+function SettoLogin(){
+	echo "<meta http-equiv='refresh' content='0;url=login'>";
+}
+
 
 require 'core/footer.php';
 
