@@ -104,6 +104,13 @@ return $name;
 }
 
 
+function CheckLogin(){
+  if(isset($_SESSION['user_srl_auth'])) {
+return true;
+  }
+  return false;
+}
+
 function contentconvert($content)
 {
   return str_replace("&lt;etr&gt;", "<br>", htmlspecialchars($content));
