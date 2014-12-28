@@ -38,6 +38,9 @@ $L['error_permission_error_des'] = 'Sorry. your account suspended caused by abno
 $L['error_api_error'] = 'API Error';
 $L['error_api_error_des'] = 'Sorry. Your API has been stopped or expired.<br> Ask to your application manager or if you are manager check your api settings.<br><br>main@tarks.net';
 
+//404 Error
+$L['error_404_error'] = '404 Not Found';
+$L['error_404_error_des'] = 'Sorry. That page you looking for doesn\'t exist.';
 
 ?>
 

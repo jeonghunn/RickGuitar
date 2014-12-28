@@ -39,5 +39,9 @@ $L['error_permission_error_des'] = '죄송합니다. 정상적이지 않은 이�
 $L['error_api_error'] = 'API 오류';
 $L['error_api_error_des'] = '죄송합니다. API가 정지되었거나 기간을 초과했습니다.<br> 애플리케이션 관리자에게 문의하세요. 또는 관리자라면 API 설정을 확인하세요.<br><br>main@tarks.net';
 
+//404 Error
+$L['error_404_error'] = '존재하지 않는 페이지';
+$L['error_404_error_des'] = '지금 찾는 페이지는 없거나 삭제된 페이지입니다.';
+
 
 ?>

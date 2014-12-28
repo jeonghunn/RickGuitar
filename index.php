@@ -1,6 +1,8 @@
 <?php
+//Variable
 $page_srl = $_GET['p'];
 $act_parameter = $_GET['a'];
+$loaded = false;
 
 session_start();
 $user_srl_auth = $_SESSION['user_srl_auth'];
@@ -44,16 +46,13 @@ echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 	security_passwordWrong();
 
 }
+setLoaded(true);
 	}
 	
-	if($act_parameter == "login") require 'pages/login.php';
-
-
-
-}else{
-//Just Logged in users
-	
-
+	if($act_parameter == "login") {
+		require 'pages/login.php';
+		setLoaded(true);
+}
 
 
 }
@@ -63,6 +62,7 @@ echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 		$page_info = getPageInfo($page_srl);
 $page_name = SetUserName($page_info[lang], $page_info[name_1], $page_info[name_2]);
 require 'pages/profile.php'; 
+setLoaded(true);
 }
 
 //Guest, User all can
@@ -76,16 +76,21 @@ LoadPages("info", "info", false);
 
 
 
-
+function checkLoaded(){
+	global $loaded;
+	$error_code = 404;
+	if(!$loaded) require 'pages/error.php'; 
+}
 
 
 function LoadPages($ACTION, $page_name, $login_need){
-	global $act_parameter;
+	global $act_parameter, $loaded;
 $accept = true;
 if($login_need) $accept = CheckLogin();
  if($act_parameter == $ACTION){	
 if($accept){
 require 'pages/'.$page_name.'.php';
+setLoaded(true);
 }else{
 	SettoLogin();
 }
@@ -94,9 +99,17 @@ require 'pages/'.$page_name.'.php';
 
 function SettoLogin(){
 	echo "<meta http-equiv='refresh' content='0;url=login'>";
+	setLoaded(true);
 }
 
 
+function setLoaded($b){
+	global $loaded;
+	$loaded = $b;
+}
+
+//Foot
+checkLoaded();
 require 'core/footer.php';
 
 ?>

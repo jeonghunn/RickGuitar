@@ -6,7 +6,7 @@ $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 $nowurl = $_SERVER["REQUEST_URI"]; 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $date = strtotime(date('Y-m-d H:i:s'));
-$SERVER_VERSION = "2.26.0.110";
+$SERVER_VERSION = "2.27.0.111";
 
 //Language
 $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
