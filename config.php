@@ -6,7 +6,7 @@ $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 $nowurl = $_SERVER["REQUEST_URI"]; 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $date = strtotime(date('Y-m-d H:i:s'));
-$SERVER_VERSION = "2.28.0.112";
+$SERVER_VERSION = "2.29.0.113";
 
 //Language
 $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
@@ -15,7 +15,6 @@ if($language == null) $language = "en";
 // error_reporting(E_ALL);
 // ini_set("display_errors", 1);
 
- require 'core/util.php';
 require 'core/db.php';
 require 'core/auth.php';
 
@@ -40,7 +39,7 @@ ClientAgentLog();
   //Set language
 if($user_srl != null){
     $user_lang = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$user_srl'"));
-    $language = $user_lang[lang];
+    $language = $user_lang['lang'];
 }
 
 

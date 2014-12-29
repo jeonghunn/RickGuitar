@@ -1,11 +1,13 @@
 <?php
 
-$API_VERSION = (int) $_REQUEST['apiv'];
-$ACTION = $_REQUEST['a'];
-$user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
+ require 'core/base.php';
+
+$API_VERSION = (int) REQUEST('apiv');
+$ACTION = REQUEST('a');
+$user_srl_auth =POST('user_srl_auth');
 
 //Log
-$log = mysql_real_escape_string($_REQUEST['page_srl']);
+$log = REQUEST('page_srl');
 $log_category = $ACTION;
 
 define('642979',   TRUE);

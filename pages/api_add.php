@@ -16,15 +16,20 @@
 <!-- html -->
     <div class="container">
 
-    <h1 style="color: #fd9800;">API 추가</h1>
+    <h1 style="color: #fd9800;"><? S('API_add_api')?></h1>
 <br>
-     <h3 stlye="font-size: 21px;">API 기본 정보를 입력하세요.</h3>
-<div class="formbox" >
-<input type="text" class="form-control" placeholder="API 이름"><br>
-<textarea class="form-control" rows="5" style="resize: none;" placeholder="설명"></textarea>
-  </div>
+     <h3 stlye="font-size: 21px;"><? S('API_add_api_des')?></h3>
+<form class="formbox" method="post" id="APIform" name="APIform" action="">
+<input type="text" class="form-control" placeholder="<? S('API_api_name')?>"><br>
+<textarea class="form-control" rows="5" style="resize: none;" placeholder="<? S('API_description')?>"></textarea>
+  </form>
 
   <div style="margin-top: 4%; ">
- <button type="button" class="btn btn-success btn-lg">등록</button><br>
+ <button type="submit" class="btn btn-success btn-lg"><? S('API_submit')?></button><br>
 </div>
     </div> <!-- /container -->
+
+
+
+    <!-- JavaScript -->
+

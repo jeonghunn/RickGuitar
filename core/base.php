@@ -1,4 +1,4 @@
-<?php if(!defined("642979")) exit();
+<?php
     
 
 
@@ -30,6 +30,19 @@ function A($str){
 function CoreInfo(){
   global $SERVER_VERSION;
   echo "<h2>FavoriteCore</h2><br><h1>".$SERVER_VERSION."</h1>";
+}
+
+function REQUEST($value){
+  return mysql_real_escape_string($_REQUEST[$value]);
+}
+
+
+function GET($value){
+  return mysql_real_escape_string($_GET[$value]);
+}
+
+function POST($value){
+  return mysql_real_escape_string($_POST[$value]);
 }
 
 //Print for native app

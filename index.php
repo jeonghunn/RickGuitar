@@ -1,4 +1,6 @@
 <?php
+ require 'core/base.php';
+ 
 //Variable
 $page_srl = $_GET['p'];
 $act_parameter = $_GET['a'];
