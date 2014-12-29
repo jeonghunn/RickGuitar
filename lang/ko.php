@@ -20,6 +20,11 @@ $L['API_api_main_des'] = 'Favorite API를 사용하면 커뮤니티 앱을 만�
 $L['API_start'] = '시작하기';
 $L['API_add_api_key'] = 'API 키 생성';
 $L['API_manage_api'] = 'API 관리';
+$L['API_add_api'] = 'API 추가';
+$L['API_add_api_des'] = 'API 기본 정보를 입력하세요.';
+$L['API_api_name'] = 'API 이름';
+$L['API_description'] = '설명';
+$L['API_submit'] = '등록';
 
 
 //ERROR

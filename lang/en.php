@@ -20,6 +20,11 @@ $L['API_api_main_des'] = 'You can make community app more easier with Favorite A
 $L['API_add_api_key'] = 'Add API Key';
 $L['API_start'] = 'Start';
 $L['API_manage_api'] = 'Manage API';
+$L['API_add_api'] = 'Add API';
+$L['API_add_api_des'] = 'Insert your API Information.';
+$L['API_api_name'] = 'API Name';
+$L['API_description'] = 'Description';
+$L['API_submit'] = 'Submit';
 
 //ERROR
 //IP Error
