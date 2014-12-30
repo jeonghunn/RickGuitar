@@ -7,12 +7,12 @@ function document_read($user_srl, $doc_srl){
 	$page_info = GetPageInfo($row[page_srl]);
 	//View
 mysql_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
-if($REMOTE_ADDR != $row[ip_addr]) updatePopularity($user_srl, $row[page_srl], 1);
+if($REMOTE_ADDR != $row['ip_addr']) updatePopularity($user_srl, $row['page_srl'], 1);
 //Status
  $status = getDocStatus($user_srl, $doc_srl);
 
-if($status < $page_info[status]) $row = false;
-if($status < $row[status]) $row = false;
+if($status < $page_info['status']) $row = false;
+if($status < $row['status']) $row = false;
 
 return $row;
 }
@@ -132,7 +132,7 @@ function document_getList($user_srl, $doc_user_srl, $start, $number){
 	$doc_user_srl_info = GetPageInfo($doc_user_srl);
   $status = setRelationStatus($user_srl, $doc_user_srl);
   $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
-  if($doc_user_srl_info[status] > $status) $row = false;
+  if($doc_user_srl_info['status'] > $status || $doc_user_srl_info == null) $row = false;
  return $row;
 }
 
@@ -155,7 +155,7 @@ $contents[] = "";
  $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC");
   mysql_data_seek($row, 0);
     $result=mysql_fetch_array($row); 
- $contents[] = $result[title] == "null" ? $result[content] : $result[title];
+ $contents[] = $result['title'] == "null" ? $result['content'] : $result['title'];
 }
 }
 

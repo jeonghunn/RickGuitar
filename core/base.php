@@ -192,7 +192,7 @@ if($you_favorite['value'] == $me_srl && $me_srl != 0) $status = 3;
  if($me_srl == $you_srl_info['admin']) $status = 4;
  
  //Check unknown
- if($you_srl_info['status'] > 4) $status = -1;
+ if($you_srl_info['status'] > 4 || $you_srl_info == null) $status = -1;
  if($user_permission_status == 1) $status = 4;
   return $status;
 }
