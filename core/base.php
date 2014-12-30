@@ -45,6 +45,33 @@ function POST($value){
   return mysql_real_escape_string($_POST[$value]);
 }
 
+function PostAct($url, $arrayvars){
+
+
+
+for ($i=0 ; $i < count($arrayvars);$i++){
+
+$vars =+ $arrayvars[$i][0]."=".$arrayvars[$i][1];
+  if($i != count($arrayvars) - 1){
+ $vars =+ "&";
+  }
+ 
+}
+
+$myvars = 'myvar1=' . $myvar1 . '&myvar2=' . $myvar2;
+
+$ch = curl_init( $url );
+curl_setopt( $ch, CURLOPT_POST, 1);
+curl_setopt( $ch, CURLOPT_POSTFIELDS, $vars);
+curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1);
+curl_setopt( $ch, CURLOPT_HEADER, 0);
+curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1);
+
+$response = curl_exec( $ch );
+
+return $response;
+}
+
 //Print for native app
 function print_info($row, $info){
  global $API_VERSION;
