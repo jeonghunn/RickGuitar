@@ -1,6 +1,25 @@
- app = angular.module('favorite_application', []);
+// Declare app level module which depends on filters, and services
+var FavoriteApp = angular.module('FavoriteApp', []);
 
 
+FavoriteApp.controller('FavoriteCtr', function ($scope) {
+
+    $scope.countTo = 1000;
+    $scope.countFrom = 0;
+    $scope.titler = "이정훈느님만세";
+       $scope.setContent = function ($count) {
+
+  
+
+
+    };
+
+    // $scope.reCount = function () {
+    //     $scope.countFrom = Math.ceil(Math.random() * 300);
+    //     $scope.countTo = Math.ceil(Math.random() * 7000) - Math.ceil(Math.random() * 600);
+    // };
+
+});
 
 function mainCtrl($scope) {
   $scope.name = 'Default Name';
