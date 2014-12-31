@@ -7,7 +7,12 @@ echo "Hello World!";
 }
 
 
+//API AUTH
 function API_AUTH($auth_key){
+
+}
+
+function API_addAPI($user_srl, $name, $des){
 
 }
 

@@ -1,5 +1,5 @@
 <?php
- require 'core/base.php';
+ require_once 'core/base.php';
  
 //Variable
 $page_srl = $_GET['p'];
@@ -11,7 +11,7 @@ $user_srl_auth = $_SESSION['user_srl_auth'];
 
 
 define('642979',   TRUE);
-require 'config.php';
+require_once 'config.php';
 
 //Auth code to user_srl
 
@@ -22,11 +22,14 @@ require 'member/member_class.php';
 require 'board/documents_class.php';
 require 'board/attach_class.php';
 
+//API
+require 'core/api.class.php';
+
 $user_info = getPageInfo(AuthCheck($user_srl_auth, false));
 $user_srl = $user_info['user_srl'];
 $user_name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
 
-require 'core/header.php';
+require_once 'core/header.php';
 
 
 //Check login
