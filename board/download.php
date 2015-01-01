@@ -1,5 +1,5 @@
 <?php
-$srl = $_GET['v'];
+$srl = mysql_real_escape_string($_GET['v']);
 
 //Userupdatecontents
 $users_srl = mysql_real_escape_string($_POST['users_srl']);
@@ -9,7 +9,7 @@ $log_category = "attach_download";
 
 
 define('642979',   TRUE);
-require '../config.php';
+require_once '../config.php';
 
 
 
