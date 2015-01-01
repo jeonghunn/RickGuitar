@@ -23,7 +23,6 @@ return $row;
 
 //Require documents_class.php
  function comment_status_update($comment_srl, $user_srl, $status){
-	global $date, $REMOTE_ADDR;
 	$cmt_info = getComment($comment_srl);
 	//$user_srl = AuthCheck($user_srl, false);
     $status_relation = getCommentStatus($user_srl, $comment_srl);
@@ -71,17 +70,16 @@ return $result;
 
 
 function comment_write($doc_srl, $user_srl , $content, $permission, $privacy){
-	global $date, $REMOTE_ADDR;
 	//$user_srl = AuthCheck($user_srl, false);
 	$user_info = GetPageInfo($user_srl);
-	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
+	$name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
 	$document = document_read($user_srl, $doc_srl);
 	$last_number = CommentLastNumber();
 if($content != "" && $document != null) {
-	$result = mysql_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '$date', '$document[status]', '$privacy', '$REMOTE_ADDR');");
+	$result = mysql_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '".getTimeStamp()."', '$document[status]', '$privacy', '".getIPAddr()."');");
 	//SetCount
 	setDocCommentCount($doc_srl);
-	if($REMOTE_ADDR != $document[ip_addr]) updatePopularity($user_srl, $document[page_srl], 1);
+	if(getIPAddr() != $document['ip_addr']) updatePopularity($user_srl, $document['page_srl'], 1);
 	//Send Alert
     comment_send_push($document[user_srl], $doc_srl, $user_srl, $name, $content, $doc_srl);
 }

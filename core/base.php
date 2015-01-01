@@ -1,5 +1,39 @@
 <?php
     
+//Basic Info
+function getSiteAddress(){
+    return "http://tarks.net/develop/favorite/";
+}
+
+function getIPAddr(){
+    return $_SERVER["REMOTE_ADDR"];
+}
+
+function getNowUrl(){
+    return $_SERVER["REQUEST_URI"];
+}
+
+function getUserAgent(){
+    return $_SERVER['HTTP_USER_AGENT'];
+}
+
+function getDate(){
+    return date('Y-m-d H:i:s');
+}
+
+function getTimeStamp(){
+    return strtotime(getDate());
+}
+
+function getCoreVersion(){
+    return "2.35.0.126";
+}
+
+function getHttpLanguage(){
+    $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
+    if($language == null) $language = "en";
+    return $language;
+}
 
 
 function ErrorMessage($msg) {

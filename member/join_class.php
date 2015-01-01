@@ -38,7 +38,7 @@ return $xerow[$value];
 
 //requrie favorite_class.php
    function CreatePage($user_srl, $name, $lang, $country, $profile_pic){
-           global  $_FILES ,$date, $REMOTE_ADDR;
+           global  $_FILES;
        //  $user_srl = AuthCheck($user_srl, false);
                      //If not page return
            $user_info = getPageInfo($user_srl);
@@ -49,9 +49,9 @@ return $xerow[$value];
             $auth_code = MakeAuthCode("36" , $MemberNumber, "user_srl");
 
           if($profile_pic == "Y") ProfileUpdate($MemberNumber);
-              $popularity = intval($date/10000);
+              $popularity = intval(getTimeStamp()/10000);
            //add user to db
-           $sql ="INSERT INTO `pages` (`tarks_account`, `admin`, `name_2`, `lang`, `country`, `permission`, `birthday`, `join_day`, `profile_pic`, `profile_update`, `last_update`, `reg_id`, `ip_addr`, `popularity`) VALUES ('null', '$user_srl', '$name', '$lang', '$country', '3', '0' ,'$date', '$profile_pic', '$date' , '$date' , 'null', '$REMOTE_ADDR', '$popularity');";
+           $sql ="INSERT INTO `pages` (`tarks_account`, `admin`, `name_2`, `lang`, `country`, `permission`, `birthday`, `join_day`, `profile_pic`, `profile_update`, `last_update`, `reg_id`, `ip_addr`, `popularity`) VALUES ('null', '$user_srl', '$name', '$lang', '$country', '3', '0' ,'".getTimeStamp()."', '$profile_pic', '".getTimeStamp()."' , '".getTimeStamp()."' , 'null', '".getIPAddr()."', '$popularity');";
             $result = mysql_query($sql);
 
 
@@ -68,7 +68,6 @@ CreateStatus($MemberNumber);
    
 
 function SignUpTarksAccount($email, $id, $password){
-  global $date;
   $nowdate = date('YmdHis');
 if(!rtnSpecialCharCheck($id)) return "special_char_error";
 if($email == null || $id == null || $password == null) return false;
@@ -77,7 +76,7 @@ if(strlen($password) < 6 || strlen($password) > 20 ) return "password_length_err
 $password = md5($password);
 $email_array = explode("@",$email);
 $extra_vars = 'O:8:"stdClass":1:{s:15:"xe_validator_id";s:42:"modules/member/skins/default/signup_form/1";}';
-$nick_name = $date.GenerateString(3);
+$nick_name = getTimeStamp().GenerateString(3);
  ConnectDB("xe");
   $email_check = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `email_address` LIKE '$email'"));
    $id_check = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id'"));
@@ -99,7 +98,6 @@ return $tarks_signup;
  }
 
     function AddUser($tarks_account, $admin, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country) {
-        global  $date, $REMOTE_ADDR;
  //Add user to System
 
 // Get MemberLastNumber
@@ -110,9 +108,9 @@ return $tarks_signup;
 
 //Profile picture
           if($profile_pic == "Y") ProfileUpdate($MemberNumber);
-               $popularity = intval($date/10000);
+               $popularity = intval(getTimeStamp()/10000);
            //add user to db
-           $sql ="INSERT INTO `pages` (`tarks_account`, `status`,  `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country` , `popularity`) VALUES ('$tarks_account', '0', '$admin', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '$date', '$profile_pic', '$date', '$date', '$reg_id', '$lang', '$country', '$popularity');";
+           $sql ="INSERT INTO `pages` (`tarks_account`, `status`,  `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country` , `popularity`) VALUES ('$tarks_account', '0', '$admin', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '".getTimeStamp()."', '$profile_pic', '".getTimeStamp()."', '".getTimeStamp()."', '$reg_id', '$lang', '$country', '$popularity');";
             $result = mysql_query($sql);
 
 
@@ -127,12 +125,12 @@ return $tarks_signup;
     }
 
     function UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country) {
-           global $date;
+
 
 
                                if($profile_pic == "Y")  ProfileUpdate($user_srl);
                //add user to db
-            $sql ="UPDATE `pages` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `country_code` = '$country_code', `phone_number` = '$phone_number', `profile_pic` = '$profile_pic', `profile_update` = '$date', `reg_id` = '$reg_id', `country` = '$country' WHERE `user_srl` = '$user_srl'";
+            $sql ="UPDATE `pages` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `country_code` = '$country_code', `phone_number` = '$phone_number', `profile_pic` = '$profile_pic', `profile_update` = '".getTimeStamp()."', `reg_id` = '$reg_id', `country` = '$country' WHERE `user_srl` = '$user_srl'";
             $result = mysql_query($sql);
 
             $auth_code = FindAuthCode($user_srl, "user_srl");

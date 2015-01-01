@@ -16,14 +16,13 @@ return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AN
 
 
 function favorite_add($value, $user_srl, $category){
-	global $date, $REMOTE_ADDR;
 	//$user_srl = AuthCheck($user_srl, false);
 	$me_status = setRelationStatus($value, $user_srl);
 	$user_info = GetPageInfo($user_srl);	
-	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
+	$name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
 	//$last_number = DocLastNumber();
 	if($me_status < 3 && $me_status > 0){
-$result = mysql_query("INSERT INTO `favorite` (`user_srl`, `category`, `value`, `date`, `ip_addr`) VALUES ('$user_srl', '$category', '$value', '$date', '$REMOTE_ADDR');");
+$result = mysql_query("INSERT INTO `favorite` (`user_srl`, `category`, `value`, `date`, `ip_addr`) VALUES ('$user_srl', '$category', '$value', '".getTimeStamp()."', '".getIPAddr()."');");
 //setCount
 setFavoriteCount($user_srl, $value, 3);
 updatePopularity($user_srl, $value, 20);

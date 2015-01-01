@@ -4,13 +4,11 @@
 //$user_srl = AuthCheck($user_srl, false);
 
 function PageInfoUpdate($user_srl, $lang){
-	global $REMOTE_ADDR;
-   $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '$REMOTE_ADDR' WHERE `user_srl` = $user_srl";
+   $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '".getIPAddr()."' WHERE `user_srl` = $user_srl";
             $system_result = mysql_query($add_info_to_system);
 }
 
 function ProfileInfoUpdate($user_srl, $title, $value){
-	global $REMOTE_ADDR;
    $add_info_to_system = "UPDATE `pages` SET `$title` = '$value' WHERE `user_srl` = $user_srl";
             $system_result = mysql_query($add_info_to_system);
 }
@@ -38,7 +36,7 @@ return $row;
 }
 
    function ProfileUpdate($file_name) {
-   	global    $_FILES , $date;
+   	global    $_FILES;
 $target_path = "../files/profile/";
 $thumbnail_path = "../files/profile/thumbnail/";
 $tmp_img = explode("." ,$_FILES['uploadedfile']['name']); 
@@ -53,7 +51,7 @@ $target_path = $target_path . basename($img_name);
             Array(
               'savepath' => $thumbnail_path.$img_name
             ));
-ProfileInfoUpdate($file_name, "profile_update", $date);
+ProfileInfoUpdate($file_name, "profile_update", getTimeStamp());
 ProfileInfoUpdate($file_name, "profile_pic", "Y");
 return $upload_result;
       }

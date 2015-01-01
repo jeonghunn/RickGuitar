@@ -88,7 +88,7 @@ function checkLoaded(){
 
 
 function LoadPages($ACTION, $page_name, $login_need){
-	global $act_parameter, $loaded, $CORE_VERSION;
+	global $act_parameter, $loaded;
 $accept = true;
 if($login_need) $accept = CheckLogin();
  if($act_parameter == $ACTION){	

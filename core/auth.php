@@ -1,12 +1,11 @@
 <? if(!defined("642979")) exit();
 
 //Information : auth_value is value
-$auth = "642979";
+//$auth = "642979";
 //Make a Auth code string
 
 
  function MakeAuthCode($length, $auth_value, $category)  {
-    global $date, $REMOTE_ADDR;
 
  
 
@@ -30,7 +29,7 @@ $auth = "642979";
      //   GenerateString($length);  
 
          //Add to Auth Information to Server
-            if($auth_value != null) $sql ="INSERT INTO `auth` (`key`, `value`, `category`, `date`, `ipaddr`) VALUES ('$auth_code_result', '$auth_value', '$category', '$date', '$REMOTE_ADDR');";
+            if($auth_value != null) $sql ="INSERT INTO `auth` (`key`, `value`, `category`, `date`, `ipaddr`) VALUES ('$auth_code_result', '$auth_value', '$category', '".getTimeStamp()."', '".getIPAddr()."');";
             $result = mysql_query($sql) or $i = false;
 
             if($repeat > 30){

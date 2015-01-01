@@ -11,7 +11,6 @@ return $row;
 }
 
 function attach_file($page_srl, $doc_srl, $user_srl, $status){
-	 	global $date, $REMOTE_ADDR;
 $image_path = "../files/images/";
 $binaries_path = "../files/binaries/";
 if($_FILES['uploadedfile']['name'] == null) return false;
@@ -19,7 +18,7 @@ if($_FILES['uploadedfile']['name'] == null) return false;
 $file = $_FILES['uploadedfile']['name'];
 $filename = basename($file, strrchr($file, '.'));
 $extension = substr(strrchr($file, '.'), 1); 
-$filevalue = $date.'-'.GenerateString(10);
+$filevalue = getTimeStamp().'-'.GenerateString(10);
 $size = $_FILES['uploadedfile']["size"];
 //Check jpg image
 if($extension == "jpg" || $extension == "jpeg"){
@@ -41,7 +40,7 @@ ErrorMessage("attach_size_error");
   }
 
 
-$result = mysql_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '$date', '$size', '$status','$REMOTE_ADDR');");
+$result = mysql_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '".getTimeStamp()."', '$size', '$status','".getIPAddr()."');");
  $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
 
 return $upload_result;
@@ -75,7 +74,6 @@ $comment_count = mysql_query("UPDATE `attach` SET  `count` = '$result_num' WHERE
 
 
 function attach_read_print($user_srl, $doc_srl){
-	global $siteaddress;
 	//$user_srl = AuthCheck($user_srl, false);
 	$row = attach_read($user_srl, $doc_srl);
 
@@ -85,11 +83,11 @@ function attach_read_print($user_srl, $doc_srl){
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
 
              if($result[kind] == "image"){
-             	   echo $siteaddress."files/images/".$result[filevalue].".".$result[extension]."/LINE/.";
+             	   echo getSiteAddress()."files/images/".$result[filevalue].".".$result[extension]."/LINE/.";
              }
 
               if($result[kind] == "file"){
-             	   echo $siteaddress."board/download.php?v=".$result[filevalue]."&n=".$result[filename]."&e=".$result[extension]."/LINE/.";
+             	   echo getSiteAddress()."board/download.php?v=".$result[filevalue]."&n=".$result[filename]."&e=".$result[extension]."/LINE/.";
              }
       
 }         
