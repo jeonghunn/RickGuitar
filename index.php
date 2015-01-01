@@ -31,7 +31,6 @@ $user_name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['n
 
 require_once 'core/header.php';
 
-
 //Check login
 if(!CheckLogin()) {
 //Check loginact
