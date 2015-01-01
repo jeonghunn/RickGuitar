@@ -88,12 +88,12 @@ function checkLoaded(){
 
 
 function LoadPages($ACTION, $page_name, $login_need){
-	global $act_parameter, $loaded;
+	global $act_parameter, $loaded, $CORE_VERSION;
 $accept = true;
 if($login_need) $accept = CheckLogin();
  if($act_parameter == $ACTION){	
 if($accept){
-require 'pages/'.$page_name.'.php';
+require_once 'pages/'.$page_name.'.php';
 setLoaded(true);
 }else{
 	SettoLogin();
@@ -114,6 +114,6 @@ function setLoaded($b){
 
 //Foot
 checkLoaded();
-require 'core/footer.php';
+require_once 'core/footer.php';
 
 ?>
