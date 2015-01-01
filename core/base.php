@@ -17,16 +17,16 @@ function getUserAgent(){
     return $_SERVER['HTTP_USER_AGENT'];
 }
 
-function getDate(){
-    return date('Y-m-d H:i:s');
-}
+//function getDate(){
+//    return date('Y-m-d H:i:s');
+//}
 
 function getTimeStamp(){
-    return strtotime(getDate());
+    return strtotime(date('Y-m-d H:i:s'));
 }
 
 function getCoreVersion(){
-    return "2.35.0.126";
+    return "2.35.1.127";
 }
 
 function getHttpLanguage(){
