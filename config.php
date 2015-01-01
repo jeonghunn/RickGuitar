@@ -6,7 +6,7 @@ $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 $nowurl = $_SERVER["REQUEST_URI"]; 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $date = strtotime(date('Y-m-d H:i:s'));
-$SERVER_VERSION = "2.34.1.121";
+$SERVER_VERSION = "2.34.2.122";
 
 //Language
 $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
@@ -24,8 +24,7 @@ $user_srl = AuthCheck($user_srl_auth, false);
 
 require_once 'core/logger.php';
 require_once 'core/security.php';
-require 'core/permission.php';
-require_once
+require_once 'core/permission.php';
 //Log Client
 ActLog($user_srl, $REMOTE_ADDR, $date, $log_category, $log);
 ClientAgentLog();
