@@ -5,8 +5,8 @@
 $api_name = POST('api_name');
 $api_description = POST('api_description');
 
-if($api_name == null || $api_description == null){
-    alert_error_print(T('error'), T('API_blank_error'));
+if($api_name != null && $api_description != null){
+   // alert_error_print(T('error'), T('API_blank_error'));
 }
 
 ?>
