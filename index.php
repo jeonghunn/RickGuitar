@@ -16,14 +16,14 @@ require_once 'config.php';
 //Auth code to user_srl
 
 //member
-require 'member/member_class.php';
+require_once 'member/member_class.php';
 
 //board
-require 'board/documents_class.php';
-require 'board/attach_class.php';
+require_once 'board/documents_class.php';
+require_once 'board/attach_class.php';
 
 //API
-require 'core/api.class.php';
+require_once 'core/api.class.php';
 
 $user_info = getPageInfo(AuthCheck($user_srl_auth, false));
 $user_srl = $user_info['user_srl'];

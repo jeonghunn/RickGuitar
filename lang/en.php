@@ -2,11 +2,13 @@
 
 //Site Menu
 $L['home'] = 'Home';
-
-// Login
 $L['sign_in'] = 'Sign in';
 $L['id'] = 'ID';
 $L['password'] = 'Password';
+$L['error'] = 'Error';
+
+//Login
+
 $L['remember_me'] = 'Remember me';
 $L['login_failed'] = 'Login Failed';
 $L['login_failed_des'] = 'You entered invalid account or wrong password.';
@@ -25,6 +27,7 @@ $L['API_add_api_des'] = 'Insert your API Information.';
 $L['API_api_name'] = 'API Name';
 $L['API_description'] = 'Description';
 $L['API_submit'] = 'Submit';
+$L['API_blank_error'] = 'There is a blank. Please enter a value.';
 
 //ERROR
 //IP Error

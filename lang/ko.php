@@ -1,12 +1,13 @@
 <?php
 
-//Menu
+//Public
 $L['home'] = '홈';
-
-// Login
 $L['sign_in'] = '로그인';
 $L['id'] = '아이디';
 $L['password'] = '비밀번호';
+$L['error'] = '오류';
+
+//Login
 $L['remember_me'] = '로그인 유지';
 $L['login_failed'] = '로그인 실패';
 $L['login_failed_des'] = '없는 계정이거나 비밀번호가 올바르지 않습니다.';
@@ -25,6 +26,8 @@ $L['API_add_api_des'] = 'API 기본 정보를 입력하세요.';
 $L['API_api_name'] = 'API 이름';
 $L['API_description'] = '설명';
 $L['API_submit'] = '등록';
+$L['API_blank_error'] = '입력하지 않은 부분이 있습니다.';
+
 
 
 //ERROR

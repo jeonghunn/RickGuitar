@@ -6,7 +6,7 @@ $REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
 $nowurl = $_SERVER["REQUEST_URI"]; 
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $date = strtotime(date('Y-m-d H:i:s'));
-$SERVER_VERSION = "2.32.0.118";
+$SERVER_VERSION = "2.33.0.119";
 
 //Language
 $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
@@ -15,17 +15,17 @@ if($language == null) $language = "en";
 // error_reporting(E_ALL);
 // ini_set("display_errors", 1);
 
-require 'core/db.php';
-require 'core/auth.php';
+require_once 'core/db.php';
+require_once 'core/auth.php';
 
 
 $user_srl = AuthCheck($user_srl_auth, false);
 
 
-require 'core/logger.php';
-require 'core/security.php';
+require_once 'core/logger.php';
+require_once 'core/security.php';
 require 'core/permission.php';
-
+require_once
 //Log Client
 ActLog($user_srl, $REMOTE_ADDR, $date, $log_category, $log);
 ClientAgentLog();
@@ -45,7 +45,7 @@ if($user_srl != null){
 
     // setup locale and translation
     setlocale(LC_ALL, 'en_US.UTF-8');
- require "lang/".$language.".php";
+ require_once "lang/".$language.".php";
 
     function T($str)
     {
