@@ -1,7 +1,6 @@
 
 
 <!-- html -->
-    <div class="container">
 
   <center>  <h1 style="font-size: 36px; center;color: #fd9800;">FavoriteCore</h1>
 <br><br>
@@ -12,4 +11,3 @@
   <button type="button" class="btn btn-primary btn-lg btn-block" ><? S('manage_api')?></button> -->
   </div>
 </center>
-    </div> <!-- /container -->
