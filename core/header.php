@@ -84,7 +84,8 @@
 
 
 
-      <div ng-bind-html="cfdump">
-       <h2>{{cfdump}}</h2>
+      <div ng-bind-html="setContent">
+
+
     </div>
 
