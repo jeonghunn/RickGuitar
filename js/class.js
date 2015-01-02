@@ -7,8 +7,16 @@ FavoriteApp.controller('FavoriteCtr', function ($scope) {
        $scope.content = "You know that you are a genius!"
 
 
-    $scope.setAPIDescriptionError = function () {
-        $scope.API_add_api_description = 'has-error';
+    $scope.API_apiadd_submit = function () {
+
+      if($scope.API_add_api_name_form == null){
+          $scope.API_add_api_name = 'has-error';
+      }
+        if($scope.API_add_api_description_form == null){
+            $scope.API_add_api_description = 'has-error';
+        }
+
+
          };
 
     // $scope.reCount = function () {
@@ -18,13 +26,7 @@ FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
 });
 
-function mainCtrl($scope) {
-  $scope.name = 'Default Name';
-};
 
-function setAPIDescriptionError($scope) {
-    $scope.API_add_api_description = 'has-error';
-};
 
 
 function document_write($scope, $http, transformRequestAsFormPost) {
