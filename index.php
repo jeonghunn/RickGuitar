@@ -2,8 +2,8 @@
  require_once 'core/base.php';
  
 //Variable
-$page_srl = $_GET['p'];
-$act_parameter = $_GET['a'];
+$page_srl = GET('p');
+$act_parameter = GET('a');
 $loaded = false;
 
 session_start();

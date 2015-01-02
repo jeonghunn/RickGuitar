@@ -26,7 +26,7 @@ function getTimeStamp(){
 }
 
 function getCoreVersion(){
-    return "2.35.2.128";
+    return "2.35.3.129";
 }
 
 function getHttpLanguage(){
@@ -92,7 +92,7 @@ $vars =+ $arrayvars[$i][0]."=".$arrayvars[$i][1];
  
 }
 
-$myvars = 'myvar1=' . $myvar1 . '&myvar2=' . $myvar2;
+//$myvars = 'myvar1=' . $myvar1 . '&myvar2=' . $myvar2;
 
 $ch = curl_init( $url );
 curl_setopt( $ch, CURLOPT_POST, 1);
