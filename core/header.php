@@ -84,8 +84,8 @@
 
 
 
-      <div ng-bind-html="setContent">
+      <p ng-bind-html="setContent">
 
 
-    </div>
+    </p>
 
