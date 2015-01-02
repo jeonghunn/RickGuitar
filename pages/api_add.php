@@ -33,14 +33,14 @@ if($api_name != null && $api_description != null){
     <h1 style="color: #fd9800;"><? S('API_add_api')?></h1>
 <br>
      <h3 stlye="font-size: 21px;"><? S('API_add_api_des')?></h3>
-<form class="formbox" method="post" id="APIform" name="APIform" action="setAPIDescriptionError();">
+<form class="formbox" method="post" id="APIform" name="APIform" action="">
     <div class="form-group has-error">
 <input type="text" class="form-control" name="api_name" placeholder="<? S('API_api_name')?>" required><br></div>
     <div class="form-group {{API_add_api_description}}">
 <textarea class="form-control" rows="5" name="api_description" style="resize: none;" placeholder="<? S('API_description')?>" required></textarea>
 </div>
   <div style="margin-top: 4%; ">
- <button type="submit" class="btn btn-success btn-lg"><? S('API_submit')?></button><br>
+ <button type="submit" class="btn btn-success btn-lg" ng-click="setAPIDescriptionError()"><? S('API_submit')?></button><br>
 </div>
 
 
