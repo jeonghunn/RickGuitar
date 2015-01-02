@@ -7,6 +7,7 @@ FavoriteApp.controller('FavoriteCtr', function ($scope) {
     $scope.countTo = 1000;
     $scope.countFrom = 0;
     $scope.titler = "이정훈느님만세";
+    $scope.API_add_api_description = "has-error";
        $scope.setContent = function ($count) {
 
   
