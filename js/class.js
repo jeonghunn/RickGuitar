@@ -15,6 +15,10 @@ FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
     };
 
+    $scope.setAPIDescriptionError = function () {
+        $scope.API_add_api_description = 'has-error';
+         };
+
     // $scope.reCount = function () {
     //     $scope.countFrom = Math.ceil(Math.random() * 300);
     //     $scope.countTo = Math.ceil(Math.random() * 7000) - Math.ceil(Math.random() * 600);
