@@ -4,7 +4,7 @@ var FavoriteApp = angular.module('FavoriteApp', []);
 
 FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
-       $scope.setContent = "You know that you are a genius!"
+       $scope.content = "You know that you are a genius!"
 
 
     $scope.setAPIDescriptionError = function () {
