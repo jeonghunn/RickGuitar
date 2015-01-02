@@ -83,9 +83,3 @@
  <div class="container">
 
 
-
-      <p ng-bind-html="content">
-
-
-    </p>
-
