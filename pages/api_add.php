@@ -34,8 +34,8 @@ if($api_name != null && $api_description != null){
 <br>
      <h3 stlye="font-size: 21px;"><? S('API_add_api_des')?></h3>
 <form class="formbox" method="post" id="APIform" name="APIform" action="api_add">
-<input type="text" class="form-control" name="api_name" placeholder="<? S('API_api_name')?>"><br>
-<textarea class="form-control" rows="5" name="api_description" style="resize: none;" placeholder="<? S('API_description')?>"></textarea>
+<input type="text" class="form-control" name="api_name" placeholder="<? S('API_api_name')?> required"><br>
+<textarea class="form-control" rows="5" name="api_description" style="resize: none;" placeholder="<? S('API_description')?> required"></textarea>
 
   <div style="margin-top: 4%; ">
  <button type="submit" class="btn btn-success btn-lg"><? S('API_submit')?></button><br>
