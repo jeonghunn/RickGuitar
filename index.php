@@ -64,7 +64,7 @@ setLoaded(true);
 //Profile
 		if($act_parameter == null && $page_srl != null){
 		$page_info = getPageInfo($page_srl);
-$page_name = SetUserName($page_info[lang], $page_info[name_1], $page_info[name_2]);
+$page_name = SetUserName($page_info['lang'], $page_info['name_1'], $page_info['name_2']);
 require 'pages/profile.php'; 
 setLoaded(true);
 }
