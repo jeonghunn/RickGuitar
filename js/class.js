@@ -11,9 +11,13 @@ FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
       if($scope.API_add_api_name_form == null){
           $scope.API_add_api_name = 'has-error';
+      }else{
+          $scope.API_add_api_name = null;
       }
         if($scope.API_add_api_description_form == null){
             $scope.API_add_api_description = 'has-error';
+        }else{
+            $scope.API_add_api_description = null;
         }
 
 
