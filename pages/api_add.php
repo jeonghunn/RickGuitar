@@ -34,7 +34,7 @@ if($api_name != null && $api_description != null){
 <br>
      <h3 stlye="font-size: 21px;"><? S('API_add_api_des')?></h3>
 <form class="formbox" method="post" id="APIform" name="APIform" action="">
-    <div class="form-group has-error">
+    <div class="form-group {{API_add_api_name}}">
 <input type="text" class="form-control" name="api_name" ng-model="API_add_api_name_form" placeholder="<? S('API_api_name')?>" required><br></div>
     <div class="form-group {{API_add_api_description}}">
 <textarea class="form-control" rows="5" name="api_description" ng-model="API_add_api_description_form" style="resize: none;" placeholder="<? S('API_description')?>" required></textarea>
