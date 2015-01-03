@@ -18,7 +18,7 @@
 
         <!-- JS -->
              <script src="pages/js/angular.min.js"></script>
-      <script type="text/javascript" src="js/jquery.js"></script>
+      <script type="text/javascript" src="pages/js/jquery.js"></script>
 
     <script src="js/class.js"></script>
 
