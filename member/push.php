@@ -20,7 +20,7 @@ sendPushMessage($user_srl, $send_user_srl, $title,  $content ,$value, $kind, $nu
     $reg_id_result = mysql_query($reg_id_number);
     $reg_id =mysql_fetch_array($reg_id_result);
     
-    return $reg_id[reg_id];
+    return $reg_id['reg_id'];
  }
 
 

@@ -11,25 +11,25 @@ $user_srl_auth = $_SESSION['user_srl_auth'];
 
 
 define('642979',   TRUE);
-require_once 'config.php';
+//require_once 'config.php';
 
 //Auth code to user_srl
 
 //member
-require_once 'member/member_class.php';
+//require_once 'member/member_class.php';
 
 //board
-require_once 'board/documents_class.php';
-require_once 'board/attach_class.php';
+//require_once 'board/documents_class.php';
+//require_once 'board/attach_class.php';
 
 //API
-require_once 'core/api.class.php';
+//require_once 'core/api.class.php';
 
 $user_info = getPageInfo(AuthCheck($user_srl_auth, false));
 $user_srl = $user_info['user_srl'];
 $user_name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
 
-require_once 'core/header.php';
+require_once 'pages/header.php';
 
 //Check login
 if(!CheckLogin()) {
@@ -46,7 +46,7 @@ $_SESSION['user_srl_auth'] = $user_srl_auth;
 echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 }else{
 	alert_error_print(T('login_failed'), T('login_failed_des'));
-	require 'pages/login.php';
+	require_once 'pages/login.php';
 	security_passwordWrong();
 
 }
@@ -54,7 +54,7 @@ setLoaded(true);
 	}
 	
 	if($act_parameter == "login") {
-		require 'pages/login.php';
+		require_once 'pages/login.php';
 		setLoaded(true);
 }
 
@@ -114,6 +114,6 @@ function setLoaded($b){
 
 //Foot
 checkLoaded();
-require_once 'core/footer.php';
+require_once 'pages/footer.php';
 
 ?>
