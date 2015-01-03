@@ -81,18 +81,19 @@ function POST($value){
 
 function PostAct($url, $arrayvars){
 
-
+  //  $vars = null;
 
 for ($i=0 ; $i < count($arrayvars);$i++){
 
-$vars =+ $arrayvars[$i][0]."=".$arrayvars[$i][1];
+
+    $vars == $vars.$arrayvars[$i][0]."=".$arrayvars[$i][1];
   if($i != count($arrayvars) - 1){
- $vars =+ "&";
+ $vars == $vars."&";
   }
 
 }
 
-    echo $arrayvars[0][0];
+
 
 //$myvars = 'myvar1=' . $myvar1 . '&myvar2=' . $myvar2;
 
