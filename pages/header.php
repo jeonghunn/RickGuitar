@@ -11,13 +11,13 @@
     <title>Favorite</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="pages/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/navbar-fixed-top.css" rel="stylesheet">
 
         <!-- JS -->
-             <script src="js/angular.min.js"></script>
+             <script src="pages/js/angular.min.js"></script>
       <script type="text/javascript" src="js/jquery.js"></script>
 
     <script src="js/class.js"></script>
