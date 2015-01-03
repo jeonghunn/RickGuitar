@@ -25,9 +25,9 @@ $user_srl_auth = $_SESSION['user_srl_auth'];
 //API
 //require_once 'core/api.class.php';
 
-$user_info = getPageInfo(AuthCheck($user_srl_auth, false));
-$user_srl = $user_info['user_srl'];
-$user_name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
+//$user_info = getPageInfo(AuthCheck($user_srl_auth, false));
+//$user_srl = $user_info['user_srl'];
+//$user_name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
 
 require_once 'pages/header.php';
 
