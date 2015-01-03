@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <link rel="shortcut icon" href="icon.png">
 
     <title>Favorite</title>
 
@@ -14,13 +14,13 @@
     <link href="pages/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="pages/css/navbar-fixed-top.css" rel="stylesheet">
 
         <!-- JS -->
              <script src="pages/js/angular.min.js"></script>
       <script type="text/javascript" src="pages/js/jquery.js"></script>
 
-    <script src="js/class.js"></script>
+    <script src="pages/js/class.js"></script>
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
