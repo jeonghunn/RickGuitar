@@ -81,7 +81,7 @@ function POST($value){
 
 function PostAct($url, $arrayvars){
 
-  //  $vars = null;
+    $vars = null;
 
 for ($i=0 ; $i < count($arrayvars);$i++){
 
