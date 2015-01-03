@@ -86,9 +86,9 @@ function PostAct($url, $arrayvars){
 for ($i=0 ; $i < count($arrayvars);$i++){
 
 
-    $vars == $vars.$arrayvars[$i][0]."=".$arrayvars[$i][1];
+    $vars = $vars.$arrayvars[$i][0]."=".$arrayvars[$i][1];
   if($i != count($arrayvars) - 1){
- $vars == $vars."&";
+ $vars = $vars."&";
   }
 
 }
