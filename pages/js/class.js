@@ -4,7 +4,7 @@ var FavoriteApp = angular.module('FavoriteApp', []);
 
 FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
-     //  $scope.content = "You know that you are a genius!"
+      $scope.CoreVersion = "0.5.4.2.3";
 
 
     $scope.API_apiadd_submit = function () {
