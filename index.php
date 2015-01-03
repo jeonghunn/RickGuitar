@@ -1,5 +1,5 @@
 <?php
- //require_once 'core/base.php';
+ require_once 'pages/base.php';
  
 //Variable
 $page_srl = GET('p');
