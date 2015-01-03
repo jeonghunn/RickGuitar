@@ -29,8 +29,8 @@ $page_info = mysql_real_escape_string($_REQUEST['page_info']);
 function API_getPageInfo($user_srl){
   require 'core/status.php';
 
-$page_srl = mysql_real_escape_string($_REQUEST['page_srl']);
-$page_info = mysql_real_escape_string($_REQUEST['page_info']);
+$page_srl = REQUEST('page_srl');
+$page_info = REQUEST('page_info');
 
 //Get Profile information
  $PageInfoRow = PageInfo($user_srl, $page_srl, ExplodeInfoValue($page_info));
