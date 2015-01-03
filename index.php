@@ -1,5 +1,5 @@
 <?php
- require_once 'core/base.php';
+ //require_once 'core/base.php';
  
 //Variable
 $page_srl = GET('p');
@@ -10,7 +10,7 @@ session_start();
 $user_srl_auth = $_SESSION['user_srl_auth'];
 
 
-define('642979',   TRUE);
+//define('642979',   TRUE);
 //require_once 'config.php';
 
 //Auth code to user_srl
