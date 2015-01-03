@@ -26,7 +26,7 @@ function getTimeStamp(){
 }
 
 function getClientVersion(){
-    return "0.1.0.2.3";
+    return "0.1.0.3.4";
 }
 
 function getHttpLanguage(){
