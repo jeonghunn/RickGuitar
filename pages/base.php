@@ -92,7 +92,7 @@ $vars =+ $arrayvars[$i][0]."=".$arrayvars[$i][1];
 
 }
 
-    echo $arrayvars[$i][0];
+    echo $arrayvars[0][0];
 
 //$myvars = 'myvar1=' . $myvar1 . '&myvar2=' . $myvar2;
 
