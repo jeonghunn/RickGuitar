@@ -74,8 +74,8 @@ LoadPages("error", "error", false);
 LoadPages("info", "info", false);
 
 //API
-	    LoadPages("api", "api_main", false);
-		LoadPages("api_add", "api_add", true);
+	    LoadPages("api", "api/api_main", false);
+		LoadPages("api_add", "api/api_add", true);
 
 
 
