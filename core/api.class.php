@@ -16,6 +16,11 @@ function API_addAPI($user_srl, $name, $des){
 
 }
 
+	//System
+	function API_getCoreVersion(){
+echo getCoreVersion();
+	}
+
 function API_load_app($user_srl){
 $page_info = mysql_real_escape_string($_REQUEST['page_info']);
 //Update new member information

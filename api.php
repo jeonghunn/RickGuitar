@@ -20,7 +20,8 @@ $user_srl = AuthCheck($user_srl_auth, false);
 $API = new APIClass;
 
 
-if($ACTION == "hello_world") $API -> hello_world(); 
+if($ACTION == "hello_world") $API -> hello_world();
+if($ACTION == "CoreVersion") $API -> API_getCoreVersion();
 if($ACTION == "load_app") $API -> API_load_app($user_srl); 
 
 //Page
