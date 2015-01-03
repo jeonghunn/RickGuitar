@@ -5,6 +5,14 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 
+function getCoreUrl(){
+    return "http://tarks.net/develop/favorite/";
+}
+
+function getAPIUrl(){
+    return getCoreUrl()."api.php";
+}
+
 function getIPAddr(){
     return $_SERVER["REMOTE_ADDR"];
 }
@@ -26,7 +34,7 @@ function getTimeStamp(){
 }
 
 function getClientVersion(){
-    return "0.1.1.4.10";
+    return "0.1.2.0.11";
 }
 
 function getHttpLanguage(){
