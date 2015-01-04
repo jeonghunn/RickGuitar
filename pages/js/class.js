@@ -4,8 +4,8 @@ var FavoriteApp = angular.module('FavoriteApp', []);
 
 FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
-      $scope.CoreVersion = "0.5.4.2.3";
 
+PostAct($scope, $http, transformRequestAsFormPost);
 
     $scope.API_apiadd_submit = function () {
 
@@ -33,7 +33,7 @@ FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
 
 
-function document_write($scope, $http, transformRequestAsFormPost) {
+function PostAct($scope, $http, transformRequestAsFormPost) {
 
                 // I hold the data-dump of the FORM scope from the server-side.
                 $scope.cfdump = "";
@@ -45,11 +45,10 @@ function document_write($scope, $http, transformRequestAsFormPost) {
                 // with the content-type, "application/x-www-form-urlencoded".
                 var request = $http({
                     method: "post",
-                    url: "board/document_app_write.php",
+                    url: "http://tarks.net/develop/favorite/api.php",
                     transformRequest: transformRequestAsFormPost,
                     data: {
-                    	authcode: 642979,
-                        kind: 1,
+                        a: "info",
                          page_srl: 1,
                          content: "I LOVE YOU"
                     }
