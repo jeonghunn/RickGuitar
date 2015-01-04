@@ -34,7 +34,7 @@ function getTimeStamp(){
 }
 
 function getClientVersion(){
-    return "0.1.2.1.12";
+    return "0.1.2.2.13";
 }
 
 function getHttpLanguage(){
@@ -109,7 +109,8 @@ $ch = curl_init( $url );
 curl_setopt( $ch, CURLOPT_POST, 1);
 curl_setopt( $ch, CURLOPT_POSTFIELDS, $vars);
 curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1);
-curl_setopt( $ch, CURLOPT_HEADER, true);
+curl_setopt( $ch, CURLOPT_HEADER, false);
+    curl_setopt($ch, CURLOPT_USERAGENT, getUserAgent());
 curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1);
 
 $response = curl_exec( $ch );
