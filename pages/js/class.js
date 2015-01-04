@@ -9,7 +9,7 @@ FavoriteApp.controller('FavoriteCtr', function ($scope, $http) {
    $http({
         method: 'POST',
         url: "http://tarks.net/develop/favorite/api.php",
-        data: $.param({a: "info"}),
+        data: $.param({a: "CoreVersion"}),
         headers: {'Content-Type': 'application/x-www-form-urlencoded'}
     }).success(
         function( html ) {
