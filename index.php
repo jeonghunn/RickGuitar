@@ -50,9 +50,8 @@ if($user_srl_auth != "null"){
 $_SESSION['user_srl_auth'] = $user_srl_auth;
 echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 }else{
-//	alert_error_print(T('login_failed'), T('login_failed_des'));
+	alert_error_print(T('login_failed'), T('login_failed_des'));
 	require_once 'pages/login.php';
-	//security_passwordWrong();
 
 }
 setLoaded(true);
