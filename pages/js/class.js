@@ -14,7 +14,7 @@ FavoriteApp.controller('FavoriteCtr', function ($scope, $http) {
     }).success(
         function( html ) {
 
-            $scope.cfdump = "HELLO";
+            $scope.cfdump = html;
 
         }
     );
