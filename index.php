@@ -12,7 +12,7 @@ $user_srl_auth = $_SESSION['user_srl_auth'];
 
 //Lang
 
-require_once "lang/".getLang().".php";
+require_once "pages/lang/".getLang().".php";
 
 
 //define('642979',   TRUE);
