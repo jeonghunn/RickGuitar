@@ -6,8 +6,12 @@ $page_srl = GET('p');
 $act_parameter = GET('a');
 $loaded = false;
 
+//Session
 session_start();
 $user_srl_auth = $_SESSION['user_srl_auth'];
+
+//Lang
+initLanguage();
 
 
 //define('642979',   TRUE);
