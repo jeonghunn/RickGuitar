@@ -6,7 +6,20 @@ FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
     $scope.cfdump = "adsfasdfsfdsafdsf";
 
-//PostAct($scope, $http, transformRequestAsFormPost);
+    var request =  $http({
+        method: 'POST',
+        url: "http://tarks.net/develop/favorite/api/php",
+        data: $.param({a: "info"}),
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+    });
+
+    request.success(
+        function( html ) {
+
+            $scope.cfdump = html;
+
+        }
+    );
 
     $scope.API_apiadd_submit = function () {
 
