@@ -4,6 +4,7 @@ var FavoriteApp = angular.module('FavoriteApp', []);
 
 FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
+    $scope.cfdump = "adsfasdfsfdsafdsf";
 
 PostAct($scope, $http, transformRequestAsFormPost);
 
