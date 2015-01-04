@@ -33,7 +33,7 @@ function getTimeStamp(){
     return strtotime(date('Y-m-d H:i:s'));
 }
 
-function initLanguage(){
+function getLang(){
   //Set language
 $language = getHttpLanguage();
 //if($user_srl != null){
@@ -44,8 +44,8 @@ $language = getHttpLanguage();
 
     // setup locale and translation
     setlocale(LC_ALL, 'en_US.UTF-8');
- require_once "lang/".$language.".php";
 
+return $language;
 
 }
 
@@ -59,7 +59,7 @@ function T($str)
 }
 
 function getClientVersion(){
-    return "0.1.4.0.15";
+    return "0.1.4.1.16";
 }
 
 function getHttpLanguage(){

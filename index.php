@@ -11,7 +11,8 @@ session_start();
 $user_srl_auth = $_SESSION['user_srl_auth'];
 
 //Lang
-initLanguage();
+
+require_once "lang/".getLang().".php";
 
 
 //define('642979',   TRUE);
