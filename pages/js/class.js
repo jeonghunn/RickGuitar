@@ -6,7 +6,7 @@ FavoriteApp.controller('FavoriteCtr', function ($scope) {
 
     $scope.cfdump = "adsfasdfsfdsafdsf";
 
-PostAct($scope, $http, transformRequestAsFormPost);
+//PostAct($scope, $http, transformRequestAsFormPost);
 
     $scope.API_apiadd_submit = function () {
 
