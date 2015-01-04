@@ -109,7 +109,7 @@ $ch = curl_init( $url );
 curl_setopt( $ch, CURLOPT_POST, 1);
 curl_setopt( $ch, CURLOPT_POSTFIELDS, $vars);
 curl_setopt( $ch, CURLOPT_FOLLOWLOCATION, 1);
-curl_setopt( $ch, CURLOPT_HEADER, 0);
+curl_setopt( $ch, CURLOPT_HEADER, true);
 curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1);
 
 $response = curl_exec( $ch );
@@ -211,36 +211,9 @@ echo '<br><div class="alert alert-'.$category.'" role="alert">
       <strong>'.$title.'</strong>  '.$content.'</div>';
 }
 
-//     function setRelationStatus($me_srl, $you_srl){
-//      global $user_permission_status;
-////Select you srl
-//  $me_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$me_srl' AND `category` LIKE '3' AND `value` LIKE '$you_srl' AND `status` LIKE '0'"));
-//   $you_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl' AND `status` LIKE '0'"));
-//  $you_srl_info = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$you_srl'"));
-//
-//  //Global
-//  $status = 0;
-//
-//
-//  if($me_srl == 0 || $me_srl == null) return $status;
-//  //Member
-//  if($me_srl != null) $status = 1;
-//
-//
-//  //Check like me and you are like too.
-//if($me_favorite['value'] == $you_srl) $status = 2;
-//  //Check like you
-//if($you_favorite['value'] == $me_srl && $me_srl != 0) $status = 3;
-//
-//  //Check I'm owner
-//  if($me_srl == $you_srl) $status = 4;
-// if($me_srl == $you_srl_info['admin']) $status = 4;
-//
-// //Check unknown
-// if($you_srl_info['status'] > 4 || $you_srl_info == null) $status = -1;
-// if($user_permission_status == 1) $status = 4;
-//  return $status;
-//}
+function getLanguageStrings(){
+
+}
 
 function arr_del($list_arr, $del_value) // 배열, 삭제할 값
 {
