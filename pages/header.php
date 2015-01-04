@@ -49,7 +49,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">{{titler}}</a></li>
+            <li><a href="#about">Me</a></li>
             <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -69,7 +69,7 @@
            if($user_srl != null){
          //    echo '<a href="'.A($user_srl).'">'.A($user_name).'</a>';
            }else{
-        //     echo '<a href="login">'.T('sign_in').'</a>';
+             echo '<a href="login">'.T('sign_in').'</a>';
            }
              echo '</li>';
            ?>
