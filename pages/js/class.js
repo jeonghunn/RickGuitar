@@ -32,25 +32,35 @@ PostAct($scope, $http);
 
 });
 
+function getAPIUrl(){
+    return 'http://tarks.net/develop/favorite/api.php';
+}
+
+function PostAct($http, $data){
+    return RequestAct( $http, 'POST', getAPIUrl(), $data );
+}
 
 
-
-function PostAct($scope, $http) {
+function RequestAct( $http, $method, $url, $data) {
 
     $http({
-        method: 'POST',
-        url: "http://tarks.net/develop/favorite/api.php",
-        data: $.param({a: "CoreVersion"}),
+        method: $method,
+        url: $url,
+      //  ddata: $.param({a: "CoreVersion"}),
+        data : $data,
         headers: {'Content-Type': 'application/x-www-form-urlencoded'}
     }).success(
         function( html ) {
 
-            $scope.cfdump = html;
+         return html;
 
         }
     );
-
+return false;
 };
+
+
+
 
 
 // I provide a request-transformation method that is used to prepare the outgoing
