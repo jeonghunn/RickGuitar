@@ -42,10 +42,9 @@ if(!CheckLogin()) {
 
 	if($act_parameter == "loginact"){
 
-// $id = mysql_real_escape_string($_POST['id']);
-//$password = mysql_real_escape_string($_POST['password']);
-//session_start();
-//$user_srl_auth = TarksAccountLogin($id , $password);
+
+session_start();
+$user_srl_auth = PostAct(getAPIUrl(),  array(array('a', 'login'), array('id', POST('id')), array('password', POST('password'))));
 if($user_srl_auth != "null"){
 $_SESSION['user_srl_auth'] = $user_srl_auth;
 echo "<meta http-equiv='refresh' content='0;url=index.php'>";

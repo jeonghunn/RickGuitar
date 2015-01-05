@@ -43,17 +43,26 @@ $page_info = REQUEST('page_info');
  print_info($PageInfoRow, ExplodeInfoValue($page_info));
 }
 
-function API_SignUpTarksAccount(){
-	  require 'member/join_class.php';
+	//Tarks
+	function API_LoginTarksAccount(){
+		$id = REQUEST('id');
+		$password = POST('password');
 
-	$email = mysql_real_escape_string($_REQUEST['email']);
-	$id = mysql_real_escape_string($_REQUEST['id']);
-	$password = mysql_real_escape_string($_POST['password']);
+		echo TarksAccountLogin($id, $password);
+	}
+
+
+function API_SignUpTarksAccount(){
+	  require 'modules/page/page_add.class.php';
+
+	$email = REQUEST('email');
+	$id = REQUEST('id');
+	$password = POST('password');
 
 $tarks_signup = SignUpTarksAccount($email, $id, $password);
 
 if($tarks_signup == "true"){
-echo "succeed";
+echo "success";
 }else{
 
 if($tarks_signup != false){
