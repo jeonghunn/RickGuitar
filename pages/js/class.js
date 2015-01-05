@@ -6,20 +6,8 @@ FavoriteApp.controller('FavoriteCtr', function ($scope, $http) {
 
     $scope.cfdump = "adsfasdfsfdsafdsf";
 
-   $http({
-        method: 'POST',
-        url: "http://tarks.net/develop/favorite/api.php",
-        data: $.param({a: "CoreVersion"}),
-        headers: {'Content-Type': 'application/x-www-form-urlencoded'}
-    }).success(
-        function( html ) {
 
-            $scope.cfdump = html;
-
-        }
-    );
-
-
+PostAct($scope, $http);
 
     $scope.API_apiadd_submit = function () {
 
@@ -47,35 +35,21 @@ FavoriteApp.controller('FavoriteCtr', function ($scope, $http) {
 
 
 
-function PostAct($scope, $http, transformRequestAsFormPost) {
+function PostAct($scope, $http) {
 
-                // I hold the data-dump of the FORM scope from the server-side.
-                $scope.cfdump = "adsfasdfsfdsafdsf";
- 
-                // By default, the $http service will transform the outgoing request by
-                // serializing the data as JSON and then posting it with the content-
-                // type, "application/json". When we want to post the value as a FORM
-                // post, we need to change the serialization algorithm and post the data
-                // with the content-type, "application/x-www-form-urlencoded".
-                var request = $http({
-                    method: "post",
-                    url: "http://tarks.net/develop/favorite/api.php",
-                    transformRequest: transformRequestAsFormPost,
-                    data: {
-                        a: "info",
-                         page_srl: 1,
-                         content: "I LOVE YOU"
-                    }
-                });
- 
-                // Store the data-dump of the FORM scope.
-                request.success(
-                    function( html ) {
- 
-                        $scope.cfdump = html;
- 
-                    }
-                );
+    $http({
+        method: 'POST',
+        url: "http://tarks.net/develop/favorite/api.php",
+        data: $.param({a: "CoreVersion"}),
+        headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+    }).success(
+        function( html ) {
+
+            $scope.cfdump = html;
+
+        }
+    );
+
 };
 
 

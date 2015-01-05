@@ -59,7 +59,7 @@ function T($str)
 }
 
 function getClientVersion(){
-    return "0.1.4.4.19";
+    return "0.1.5.0.20";
 }
 
 function getHttpLanguage(){
