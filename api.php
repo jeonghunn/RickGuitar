@@ -13,7 +13,7 @@ $log_category = $ACTION;
 define('642979',   TRUE);
 require_once 'config.php';
 require_once 'core/api.class.php';
-require_once 'modules/page.class.php';
+require_once 'modules/page/page.class.php';
 
 $user_srl = AuthCheck($user_srl_auth, false);
 
