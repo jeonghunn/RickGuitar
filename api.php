@@ -1,6 +1,6 @@
 <?php
 
- require 'core/base.php';
+ require_once 'core/base.php';
 
 $API_VERSION = (int) REQUEST('apiv');
 $ACTION = REQUEST('a');
@@ -11,9 +11,9 @@ $log = REQUEST('page_srl');
 $log_category = $ACTION;
 
 define('642979',   TRUE);
-require 'config.php';
-require 'modules/page.class.php';
-require 'core/api.class.php';
+require_once 'config.php';
+require_once 'core/api.class.php';
+require_once 'modules/page.class.php';
 
 $user_srl = AuthCheck($user_srl_auth, false);
 
