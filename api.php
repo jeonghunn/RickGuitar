@@ -12,7 +12,7 @@ $log_category = $ACTION;
 
 define('642979',   TRUE);
 require 'config.php';
-require 'member/member_class.php';
+require 'modules/page.class.php';
 require 'core/api.class.php';
 
 $user_srl = AuthCheck($user_srl_auth, false);
