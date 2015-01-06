@@ -28,7 +28,7 @@ if($ACTION == "load_app") $API -> API_load_app($user_srl);
 if($ACTION == "page_info") $API -> API_getPageInfo($user_srl);
 
 //Member
-if($ACTION == "login") $API -> API_LoginTarksAccount();
+if($ACTION == "tarks_auth") $API -> API_AuthTarksAccount();
 if($ACTION == "tarks_sign_up") $API -> API_SignUpTarksAccount();
 
 

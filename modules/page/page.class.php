@@ -67,7 +67,7 @@ if($loginResult){
 
 
 
-return  FindAuthCode($user_info[user_srl], "user_srl");
+return  FindAuthCode($user_info['user_srl'], "user_srl");
 }
 
 function TarksAccount($id, $password){

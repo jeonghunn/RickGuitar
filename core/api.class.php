@@ -44,7 +44,7 @@ $page_info = REQUEST('page_info');
 }
 
 	//Tarks
-	function API_LoginTarksAccount(){
+	function API_AuthTarksAccount(){
 		$id = REQUEST('id');
 		$password = POST('password');
 
