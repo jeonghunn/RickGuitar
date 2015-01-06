@@ -48,7 +48,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
             <li><a href="#about">Me</a></li>
             <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
