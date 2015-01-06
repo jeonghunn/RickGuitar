@@ -25,11 +25,11 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 
     }
 
-//       function ip_point_add($point){
-//   	global $REMOTE_ADDR, $ip_point;
-//     $ip_point = $ip_point + $point;
-//     mysql_query("UPDATE `ip_manage` SET  `point` = '$ip_point' WHERE `ip_addr` = '$REMOTE_ADDR'");
-//   }
+       function ip_point_add($point){
+   	global $REMOTE_ADDR, $ip_point;
+     $ip_point = $ip_point + $point;
+     mysql_query("UPDATE `ip_manage` SET  `point` = '$ip_point' WHERE `ip_addr` = '$REMOTE_ADDR'");
+   }
 
    function PermissionCheckAct($user_srl){
    	 //  Permission Check
