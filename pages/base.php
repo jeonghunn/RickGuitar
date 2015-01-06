@@ -4,6 +4,9 @@
 //function getSiteAddress(){
 //    return "http://tarks.net/develop/favorite/";
 //}
+function getClientVersion(){
+    return "0.1.8.0.27";
+}
 
 function getCorePUrl(){
     return "tarks.net/develop/favorite/";
@@ -73,9 +76,7 @@ function T($str)
         return $str;
 }
 
-function getClientVersion(){
-    return "0.1.8.0.27";
-}
+
 
 function getHttpLanguage(){
     $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
