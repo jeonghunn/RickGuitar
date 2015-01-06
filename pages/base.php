@@ -21,6 +21,13 @@ function getAPISUrl(){
     return getCoreUrl(true)."api.php";
 }
 
+function getClientPUrl(){
+    return getCorePUrl();
+}
+function getClientUrl($s){
+    return $s ? 'https' : 'http'."://".getClientPUrl();
+}
+
 function getIPAddr(){
     return $_SERVER["REMOTE_ADDR"];
 }
@@ -67,7 +74,7 @@ function T($str)
 }
 
 function getClientVersion(){
-    return "0.1.7.0.26";
+    return "0.1.8.0.27";
 }
 
 function getHttpLanguage(){
