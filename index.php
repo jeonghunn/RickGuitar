@@ -44,7 +44,7 @@ if(!CheckLogin()) {
 
 
 session_start();
-$user_srl_auth = PostAct(getAPIUrl(),  array(array('a', 'tarks_auth'), array('id', POST('id')), array('password', POST('password'))));
+$user_srl_auth = PostAct(getAPISUrl(),  array(array('a', 'tarks_auth'), array('id', POST('id')), array('password', POST('password'))));
 if($user_srl_auth != "null"){
 $_SESSION['user_srl_auth'] = $user_srl_auth;
 echo "<meta http-equiv='refresh' content='0;url=index.php'>";

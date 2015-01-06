@@ -5,12 +5,20 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 
-function getCoreUrl(){
-    return "http://tarks.net/develop/favorite/";
+function getCorePUrl(){
+    return "tarks.net/develop/favorite/";
+}
+
+function getCoreUrl($s){
+    return $s ? 'https' : 'http'."://".getCorePUrl();
 }
 
 function getAPIUrl(){
-    return getCoreUrl()."api.php";
+    return getCoreUrl(false)."api.php";
+}
+
+function getAPISUrl(){
+    return getCoreUrl(true)."api.php";
 }
 
 function getIPAddr(){
@@ -59,7 +67,7 @@ function T($str)
 }
 
 function getClientVersion(){
-    return "0.1.6.4.25";
+    return "0.1.7.0.26";
 }
 
 function getHttpLanguage(){
