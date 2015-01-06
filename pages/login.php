@@ -3,7 +3,7 @@
 
     <div class="container">
 
-      <form class="form-signin" role="form" method='post' action= '<? getClientUrl(true)."?a=loginact"; ?>'>
+      <form class="form-signin" role="form" method='post' action= '<? echo getClientUrl(true); ?>?a=loginact'>
         <h2 class="form-signin-heading"><? S('sign_in'); ?></h2>
         <input type="text" name='id' class="form-control" placeholder="<? S('id');?>" required autofocus>
         <input type="password" name='password'  class="form-control" placeholder="<? S('password');?>" required>
