@@ -48,7 +48,15 @@ $page_info = REQUEST('page_info');
 		$id = REQUEST('id');
 		$password = POST('password');
 
-		echo TarksAccountLogin($id, $password);
+		$auth = TarksAccountLogin($id, $password);
+
+		if(!$auth){
+			echo $auth;
+		}else{
+			echo 'false';
+		}
+
+
 	}
 
 
