@@ -5,7 +5,7 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 function getClientVersion(){
-    return "0.1.8.4.31";
+    return "0.1.8.5.32";
 }
 
 function getCorePUrl(){
