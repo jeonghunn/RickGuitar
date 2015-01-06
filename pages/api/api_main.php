@@ -1,7 +1,7 @@
 
 
 <!-- html -->
-    <div class="container">
+
 
     <h1 style="font-size: 63px;text-align: center;color: #fd9800;"><? S('API_api_main_title')?></h1>
 <br><br>
@@ -11,4 +11,3 @@
   <button type="button" class="btn btn-primary btn-lg btn-block" ><? S('API_manage_api')?></button>
   </div>
 </center>
-    </div> <!-- /container -->
