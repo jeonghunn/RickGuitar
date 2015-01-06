@@ -62,9 +62,9 @@
             $deleteresult = mysql_query($deletesql);
       }
 
-            if($value != "") return $value;
+         return $value;
 
-        return false;
+
 
         }
 
