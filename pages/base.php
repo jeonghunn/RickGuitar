@@ -5,7 +5,7 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 function getClientVersion(){
-    return "0.1.8.0.27";
+    return "0.1.8.1.28";
 }
 
 function getCorePUrl(){
@@ -28,7 +28,7 @@ function getClientPUrl(){
     return getCorePUrl();
 }
 function getClientUrl($s){
-    return $s ? 'https' : 'http'."://".getClientPUrl();
+    return $s ? 'https://'.getClientPUrl() : 'http://'.getClientPUrl().;
 }
 
 function getIPAddr(){
