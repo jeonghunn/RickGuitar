@@ -5,7 +5,7 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 function getClientVersion(){
-    return "0.1.8.2.29";
+    return "0.1.8.3.30";
 }
 
 function getCorePUrl(){
@@ -13,7 +13,7 @@ function getCorePUrl(){
 }
 
 function getCoreUrl($s){
-    return $s ? 'https' : 'http'."://".getCorePUrl();
+    return $s ? 'https://'.getCorePUrl() : 'http://'.getCorePUrl();
 }
 
 function getAPIUrl(){
