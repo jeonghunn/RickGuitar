@@ -50,7 +50,7 @@ $page_info = REQUEST('page_info');
 
 		$auth = TarksAccountLogin($id, $password);
 
-		if(!$auth){
+		if($auth){
 			echo $auth;
 		}else{
 			echo 'false';
