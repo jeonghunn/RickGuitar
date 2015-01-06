@@ -7,7 +7,7 @@ $act_parameter = GET('a');
 $loaded = false;
 
 //Session
-session_start();
+//session_start();
 $user_srl_auth = $_SESSION['user_srl_auth'];
 
 //Lang
