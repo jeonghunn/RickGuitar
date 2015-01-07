@@ -1,4 +1,6 @@
 <?php
+require_once 'pages/base.php';
+
 $authcode = $_POST['authcode'];
 $fav_user_srl = mysql_real_escape_string($_POST['value']);
 $user_srl = mysql_real_escape_string($_POST['user_srl']);

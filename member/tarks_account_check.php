@@ -1,4 +1,6 @@
 <?php
+require_once 'pages/base.php';
+
 $authcode = $_POST['authcode'];
 $id = mysql_real_escape_string($_POST['id']);
 $password = mysql_real_escape_string($_POST['password']);

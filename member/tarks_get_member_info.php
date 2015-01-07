@@ -1,4 +1,6 @@
 <?
+require_once 'pages/base.php';
+
 define('642979',   TRUE);
 require '../config.php';
 $authcode = mysql_real_escape_string($_POST['authcode']);

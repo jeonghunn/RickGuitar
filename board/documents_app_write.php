@@ -1,4 +1,6 @@
 <?php
+require_once 'pages/base.php';
+
 $authcode = $_POST['authcode'];
 $kind = mysql_real_escape_string($_POST['kind']);
 $page_srl = mysql_real_escape_string($_POST['page_srl']);

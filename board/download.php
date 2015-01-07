@@ -1,4 +1,6 @@
 <?php
+require_once 'pages/base.php';
+
 $srl = mysql_real_escape_string($_GET['v']);
 
 //Userupdatecontents

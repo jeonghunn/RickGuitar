@@ -1,4 +1,6 @@
 <?
+require_once 'pages/base.php';
+
 //deprecated at 2014-10-28
 $API_VERSION = (int) $_POST['apiv'];
 $user_srl = mysql_real_escape_string($_POST['user_srl']);

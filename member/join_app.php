@@ -1,4 +1,6 @@
 <?php
+require_once 'pages/base.php';
+
 //Variable
 $authcode = $_POST['authcode'];
 $admin = mysql_real_escape_string($_POST['admin']);

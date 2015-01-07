@@ -1,4 +1,5 @@
 <?php
+require_once 'pages/base.php';
 
 $user_srl = $_GET['user_srl'];
 $send_user_srl = $_GET['send_user_srl'];
