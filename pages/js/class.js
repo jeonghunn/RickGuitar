@@ -4,10 +4,10 @@ var FavoriteApp = angular.module('FavoriteApp', []);
 
 FavoriteApp.controller('FavoriteCtr', function ($scope, $http) {
 
-    $scope.cfdump = "adsfasdfsfdsafdsf";
+//    $scope.cfdump = "adsfasdfsfdsafdsf";
 
 
-PostAct($scope, $http);
+//PostAct($scope, $http);
 
     $scope.API_apiadd_submit = function () {
 
