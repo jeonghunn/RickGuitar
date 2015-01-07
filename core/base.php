@@ -26,7 +26,7 @@ function getTimeStamp(){
 }
 
 function getCoreVersion(){
-    return "2.39.4.2.152";
+    return "2.39.4.3.153";
 }
 
 function getHttpLanguage(){
@@ -37,9 +37,7 @@ function getHttpLanguage(){
 
 
 function ErrorMessage($msg) {
-    include_once 'pages/header.php';
-echo '<div class="jumbotron"><h1>'.T('error_'.$msg).'</h1><p>'.T('error_'.$msg.'_des').'</p></div>';
-    include_once 'pages/footer.php';
+echo $msg;
 
     exit();
 
@@ -50,9 +48,7 @@ function FatalError(){
     exit();
 }
 
-function S($str){
-  echo T($str);
-}
+
 
 function P($str){
   echo htmlspecialchars($str);
