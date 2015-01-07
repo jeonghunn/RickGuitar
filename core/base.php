@@ -26,7 +26,7 @@ function getTimeStamp(){
 }
 
 function getCoreVersion(){
-    return "2.39.4.1.151";
+    return "2.39.4.2.152";
 }
 
 function getHttpLanguage(){
@@ -37,11 +37,12 @@ function getHttpLanguage(){
 
 
 function ErrorMessage($msg) {
-  require_once 'core/header.php';
+    include_once 'pages/header.php';
 echo '<div class="jumbotron"><h1>'.T('error_'.$msg).'</h1><p>'.T('error_'.$msg.'_des').'</p></div>';
-    require_once 'core/footer.php';
+    include_once 'pages/footer.php';
 
     exit();
+
 }
 
 function FatalError(){
