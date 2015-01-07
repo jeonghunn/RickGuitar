@@ -1,5 +1,5 @@
 <?
-require_once 'pages/base.php';
+require_once '../core/base.php';
 
 //deprecated at 2014-10-28
 $API_VERSION = (int) $_POST['apiv'];

@@ -1,5 +1,5 @@
 <?php
-require_once 'pages/base.php';
+require_once '../core/base.php';
 
 $srl = mysql_real_escape_string($_GET['v']);
 

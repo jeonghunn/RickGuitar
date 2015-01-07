@@ -1,5 +1,5 @@
 <?
-require_once 'pages/base.php';
+require_once '../core/base.php';
 
 define('642979',   TRUE);
 require '../config.php';

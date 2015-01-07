@@ -1,5 +1,5 @@
 <?php
-require_once 'pages/base.php';
+require_once '../core/base.php';
 
 $authcode = $_POST['authcode'];
 $id = mysql_real_escape_string($_POST['id']);

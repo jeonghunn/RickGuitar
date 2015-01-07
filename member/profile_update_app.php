@@ -1,5 +1,5 @@
 <?php
-require_once 'pages/base.php';
+require_once '../core/base.php';
 
 //Variable
 $authcode = $_POST['authcode'];

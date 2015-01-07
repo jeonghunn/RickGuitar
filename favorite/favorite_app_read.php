@@ -1,5 +1,5 @@
 <?php //DEPRECATED AT 6/6/2014 :: 8/6/2014
-require_once 'pages/base.php';
+require_once '../core/base.php';
 
 $authcode = $_POST['authcode'];
 $kind = mysql_real_escape_string($_POST['kind']);
