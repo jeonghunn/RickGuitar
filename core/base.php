@@ -26,7 +26,7 @@ function getTimeStamp(){
 }
 
 function getCoreVersion(){
-    return "2.39.6.3.160";
+    return "2.39.6.4.161";
 }
 
 function getHttpLanguage(){
