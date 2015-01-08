@@ -4,7 +4,7 @@
 
 $API_VERSION = (int) REQUEST('apiv');
 $ACTION = REQUEST('a');
-$user_srl_auth =POST('user_srl_auth');
+$user_auth =POST('user_auth');
 $api_key =REQUEST('api_key');
 
 //Log
@@ -17,7 +17,7 @@ require_once 'core/api.class.php';
 require_once 'modules/page/page.class.php';
 require_once 'modules/member/tarks_account.class.php';
 
-$user_srl = AuthCheck($user_srl_auth, false);
+$user_srl = AuthCheck($user_auth, false);
 
 $API = new APIClass();
 if($api_key == null) ErrorMessage('api_error');

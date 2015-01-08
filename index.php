@@ -8,7 +8,7 @@ $loaded = false;
 
 //Session
 session_start();
-$user_srl_auth = $_SESSION['user_srl_auth'];
+$user_auth = $_SESSION['user_auth'];
 
 //Lang
 
@@ -30,7 +30,7 @@ require_once "pages/lang/".getLang().".php";
 //API
 //require_once 'core/api.class.php';
 
-$user_info = PostAct(getAPIUrl(),  array(array('a', 'my_page_info'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('page_info', 'tarks_account//admin//name_1//name_2//gender//birthday//country_code//phone_number//join_day//profile_pic//profile_update//lang//country//like_me//favorite//rel_you_status//rel_me_status')));
+$user_info = PostAct(getAPIUrl(),  array(array('a', 'my_page_info'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('user_auth', $user_auth), array('page_info', 'tarks_account//admin//name_1//name_2//gender//birthday//country_code//phone_number//join_day//profile_pic//profile_update//lang//country//like_me//favorite//rel_you_status//rel_me_status')));
 echo $user_info;
 
 //$user_srl = $user_info['user_srl'];
@@ -46,9 +46,9 @@ if(!CheckLogin()) {
 
 
 session_start();
-$user_srl_auth = PostAct(getAPISUrl(),  array(array('a', 'tarks_auth'), array('id', POST('id')), array('password', POST('password'))));
-if($user_srl_auth != "null"){
-$_SESSION['user_srl_auth'] = $user_srl_auth;
+$user_auth = PostAct(getAPISUrl(),  array(array('a', 'tarks_auth'), array('id', POST('id')), array('password', POST('password'))));
+if($user_auth != "null"){
+$_SESSION['user_auth'] = $user_auth;
 echo "<meta http-equiv='refresh' content='0;url=index.php'>";
 }else{
 	alert_error_print(T('login_failed'), T('login_failed_des'));
