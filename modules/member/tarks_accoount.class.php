@@ -10,7 +10,7 @@ class TarksAccountClass{
 
 function TarksAccountLogin($id, $password){
     $password = md5($password);
-    $loginResult = TarksAccount($id, $password);
+    $loginResult = $this -> TarksAccount($id, $password);
 
     if($loginResult){
         $user_info = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `tarks_account` LIKE '$id'"));
@@ -36,7 +36,7 @@ function TarksAccountLogin($id, $password){
     }
 
     function MakeTarksAccountAuthCode($id, $password){
-        $loginResult = TarksAccount($id, $password);
+        $loginResult = $this -> TarksAccount($id, $password);
         if($loginResult){
 //Connect main db to auth
             $auth_code_result = MakeAuthCode("15", $id, "tarks_account");
