@@ -31,7 +31,8 @@ $page_info = REQUEST('page_info');
 
 
 
-function API_getPageInfo($PAGE, $user_srl){
+function API_getPageInfo( $user_srl){
+	$PAGE = new PageClass();
   require 'core/status.php';
 
 $page_srl = REQUEST('page_srl');

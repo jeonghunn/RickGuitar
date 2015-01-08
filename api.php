@@ -18,7 +18,7 @@ require_once 'modules/page/page.class.php';
 $user_srl = AuthCheck($user_srl_auth, false);
 
 $API = new APIClass();
-$PAGE = new PageClass();
+
 
 
 if($ACTION == "hello_world") $API -> hello_world();
@@ -26,7 +26,7 @@ if($ACTION == "CoreVersion") $API -> API_getCoreVersion();
 if($ACTION == "load_app") $API -> API_load_app($PAGE , $user_srl);
 
 //Page
-if($ACTION == "page_info") $API -> API_getPageInfo($PAGE, $user_srl);
+if($ACTION == "page_info") $API -> API_getPageInfo($user_srl);
 
 //Member
 if($ACTION == "tarks_auth") $API -> API_AuthTarksAccount();
