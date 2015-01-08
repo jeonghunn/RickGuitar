@@ -47,3 +47,6 @@ function TarksAccountLogin($id, $password){
     }
 
 }
+
+
+?>
