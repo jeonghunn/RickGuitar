@@ -3,7 +3,7 @@
 class PageClass
 {
 
-    function PageInfoUpdate($user_srl, $lang)
+    function PageInfoUpdate($user_srl)
     {
         $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '" . getIPAddr() . "' WHERE `user_srl` = $user_srl";
         $system_result = mysql_query($add_info_to_system);
@@ -54,8 +54,8 @@ class PageClass
             Array(
                 'savepath' => $thumbnail_path . $img_name
             ));
-        ProfileInfoUpdate($file_name, "profile_update", getTimeStamp());
-        ProfileInfoUpdate($file_name, "profile_pic", "Y");
+        $this -> ProfileInfoUpdate($file_name, "profile_update", getTimeStamp());
+       $this ->  ProfileInfoUpdate($file_name, "profile_pic", "Y");
         return $upload_result;
     }
 
@@ -75,8 +75,8 @@ class PageClass
 
     function getPageAuth($user_srl, $page_srl)
     {
-        $page_info = GetPageInfo($page_srl);
-        if ($page_info[admin] == $user_srl) $auth_code = FindAuthCode($page_srl, "user_srl");
+        $page_info = $this -> GetPageInfo($page_srl);
+        if ($page_info['admin'] == $user_srl) $auth_code = FindAuthCode($page_srl, "user_srl");
         return $auth_code;
     }
 
@@ -96,8 +96,8 @@ class PageClass
     {
 
         if ($user_srl != $page_srl) {
-            $mf = getPageInfo($page_srl);
-            ProfileInfoUpdate($page_srl, "popularity", $mf[popularity] + $point);
+            $mf = $this ->getPageInfo($page_srl);
+           $this ->  ProfileInfoUpdate($page_srl, "popularity", $mf[popularity] + $point);
         }
     }
 
@@ -109,8 +109,8 @@ class PageClass
             mysql_data_seek($row, $i);           //포인터 이동
             $result = mysql_fetch_array($row);        //레코드를 배열로 저장
             //    $user_info = GetPageInfo($result[value]);
-            $name = SetUserName($result[lang], $result[name_1], $result[name_2]);
-            $profile[] = array("last_update" => $result[last_update], "user_srl" => $result[user_srl], "name" => $name);
+            $name = SetUserName($result['lang'], $result['name_1'], $result['name_2']);
+            $profile[] = array("last_update" => $result['last_update'], "user_srl" => $result['user_srl'], "name" => $name);
         }
 
         foreach ($profile as $key => $row) {

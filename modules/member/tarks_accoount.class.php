@@ -6,7 +6,7 @@
  */
 
 
-class TarksAccount{
+class TarksAccounClass{
 
 function TarksAccountLogin($id, $password){
     $password = md5($password);
@@ -27,7 +27,7 @@ function TarksAccountLogin($id, $password){
         ConnectDB("xe");
         $row = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
         ConnectMainDB();
-        if($id == $row[user_id]) {
+        if($id == $row['user_id']) {
             return true;
         }else{
             security_passwordWrong();
@@ -35,7 +35,7 @@ function TarksAccountLogin($id, $password){
         return false;
     }
 
-    function TarksAccountCheck($id, $password){
+    function MakeTarksAccountAuthCode($id, $password){
         $loginResult = TarksAccount($id, $password);
         if($loginResult){
 //Connect main db to auth

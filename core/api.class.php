@@ -21,7 +21,9 @@ function API_addAPI($user_srl, $name, $des){
 echo getCoreVersion();
 	}
 
-function API_load_app($PAGE, $user_srl){
+function API_load_app($user_srl){
+	$PAGE = new PageClass();
+
 $page_info = REQUEST('page_info');
 //Update new member information
   $PAGE -> PageInfoUpdate($user_srl);
@@ -31,9 +33,9 @@ $page_info = REQUEST('page_info');
 
 
 
-function API_getPageInfo( $user_srl){
+function API_getPageInfo($user_srl){
 	$PAGE = new PageClass();
-  require 'core/status.php';
+  require_once 'core/status.php';
 
 $page_srl = REQUEST('page_srl');
 $page_info = REQUEST('page_info');
@@ -60,10 +62,11 @@ $page_info = REQUEST('page_info');
 
 
 	function API_MakeTarksAccountAuth(){
+		$TARKS_ACCOUNT = new TarksAccountClass();
 		$id = REQUEST('id');
 		$password = POST('password');
 
-		$auth = TarksAccountLogin($id, $password);
+		$auth = $TARKS_ACCOUNT->MakeTarksAccountAuthCode($id, $password);
 
 
 		echo $auth;
@@ -74,7 +77,7 @@ $page_info = REQUEST('page_info');
 
 
 function API_SignUpTarksAccount(){
-	  require 'modules/page/page_add.class.php';
+	  require_once 'modules/page/page_add.class.php';
 
 	$email = REQUEST('email');
 	$id = REQUEST('id');
