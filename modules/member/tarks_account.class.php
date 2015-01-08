@@ -28,9 +28,10 @@ function TarksAccountLogin($id, $password){
         $row = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
         ConnectMainDB();
         if($id == $row['user_id']) {
-            echo "LOGGEDIN";
+
             return true;
         }else{
+            echo "LOGGEDIN";
             security_passwordWrong();
         }
         return false;
