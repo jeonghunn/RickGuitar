@@ -6,7 +6,7 @@
  */
 
 
-class TarksAccounClass{
+class TarksAccountClass{
 
 function TarksAccountLogin($id, $password){
     $password = md5($password);
