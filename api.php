@@ -17,7 +17,8 @@ require_once 'modules/page/page.class.php';
 
 $user_srl = AuthCheck($user_srl_auth, false);
 
-$API = new APIClass;
+$API = new APIClass();
+$PAGE = new PageClass();
 
 
 if($ACTION == "hello_world") $API -> hello_world();

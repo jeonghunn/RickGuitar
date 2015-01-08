@@ -1,4 +1,5 @@
 <?php
+//API 0 DEPRECATED
 require_once '../core/base.php';
 
 $authcode = $_POST['authcode'];
@@ -17,7 +18,7 @@ require '../config.php';
 //Check Auth
 if($authcode != $auth) ErrorMessage("auth_error");
 
-require 'member_class.php';
+require_once 'member_class.php';
 
 echo TarksAccountCheck($id, $password);
 

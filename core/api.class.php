@@ -21,24 +21,24 @@ function API_addAPI($user_srl, $name, $des){
 echo getCoreVersion();
 	}
 
-function API_load_app($user_srl){
-$page_info = mysql_real_escape_string($_REQUEST['page_info']);
+function API_load_app($PAGE, $user_srl){
+$page_info = REQUEST('page_info');
 //Update new member information
-    PageInfoUpdate($user_srl);
+  $PAGE -> PageInfoUpdate($user_srl);
 
-  print_info(GetPageInfo($user_srl), ExplodeInfoValue($page_info));
+  print_info( $PAGE -> GetPageInfo($user_srl), ExplodeInfoValue($page_info));
 }
 
 
 
-function API_getPageInfo($user_srl){
+function API_getPageInfo($PAGE, $user_srl){
   require 'core/status.php';
 
 $page_srl = REQUEST('page_srl');
 $page_info = REQUEST('page_info');
 
 //Get Profile information
- $PageInfoRow = PageInfo($user_srl, $page_srl, ExplodeInfoValue($page_info));
+ $PageInfoRow = $PAGE -> PageInfo($user_srl, $page_srl, ExplodeInfoValue($page_info));
  //Print Profile information
  print_info($PageInfoRow, ExplodeInfoValue($page_info));
 }
@@ -52,6 +52,20 @@ $page_info = REQUEST('page_info');
 
 
 			echo $auth;
+
+
+
+	}
+
+
+	function API_MakeTarksAccountAuth(){
+		$id = REQUEST('id');
+		$password = POST('password');
+
+		$auth = TarksAccountLogin($id, $password);
+
+
+		echo $auth;
 
 
 

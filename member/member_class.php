@@ -85,7 +85,7 @@ return true;
 }
 
 
-function TarksAccountCheck($id, $password){
+function TarksAccountAuth($id, $password){
 $loginResult = TarksAccount($id, $password);
 if($loginResult){
 //Connect main db to auth
