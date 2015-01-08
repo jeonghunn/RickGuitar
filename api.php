@@ -5,6 +5,7 @@
 $API_VERSION = (int) REQUEST('apiv');
 $ACTION = REQUEST('a');
 $user_srl_auth =POST('user_srl_auth');
+$api_key =REQUEST('api_key');
 
 //Log
 $log = REQUEST('page_srl');
@@ -19,12 +20,12 @@ require_once 'modules/member/tarks_account.class.php';
 $user_srl = AuthCheck($user_srl_auth, false);
 
 $API = new APIClass();
-
+if($api_key == null) ErrorMessage('api_error');
 
 
 if($ACTION == "hello_world") $API -> hello_world();
 if($ACTION == "CoreVersion") $API -> API_getCoreVersion();
-if($ACTION == "load_app") $API -> API_load_app( $user_srl);
+if($ACTION == "my_page_info") $API -> API_getMyPageInfo( $user_srl);
 
 //Page
 if($ACTION == "page_info") $API -> API_getPageInfo($user_srl);

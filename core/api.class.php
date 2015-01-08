@@ -21,7 +21,7 @@ function API_addAPI($user_srl, $name, $des){
 echo getCoreVersion();
 	}
 
-function API_load_app($user_srl){
+function API_getMyPageInfo($user_srl){
 	$PAGE = new PageClass();
 
 $page_info = REQUEST('page_info');
