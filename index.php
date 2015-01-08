@@ -9,7 +9,6 @@ $loaded = false;
 //Session
 session_start();
 $user_auth = $_SESSION['user_auth'];
-echo $user_auth;
 //Lang
 
 require_once "pages/lang/".getLang().".php";
@@ -46,7 +45,7 @@ if(!CheckLogin()) {
 
 
 session_start();
-$user_auth = PostAct(getAPISUrl(),  array(array('a', 'tarks_auth'), array('id', POST('id')), array('password', POST('password'))));
+$user_auth = PostAct(getAPISUrl(), array('apiv', getAPIVersion()), array('api_key', getAPIKey()),  array(array('a', 'tarks_auth'), array('id', POST('id')), array('password', POST('password'))));
 if($user_auth != "null"){
 $_SESSION['user_auth'] = $user_auth;
 echo "<meta http-equiv='refresh' content='0;url=index.php'>";
