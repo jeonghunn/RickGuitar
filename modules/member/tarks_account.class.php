@@ -31,13 +31,13 @@ function TarksAccountLogin($id, $password){
 
             return true;
         }else{
-            echo "LOGGEDIN";
             security_passwordWrong();
         }
         return false;
     }
 
     function MakeTarksAccountAuthCode($id, $password){
+        $password = md5($password);
         $loginResult = $this -> TarksAccount($id, $password);
         if($loginResult){
 //Connect main db to auth
