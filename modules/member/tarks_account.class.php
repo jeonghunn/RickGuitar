@@ -39,6 +39,7 @@ function TarksAccountLogin($id, $password){
         $loginResult = $this -> TarksAccount($id, $password);
         if($loginResult){
 //Connect main db to auth
+            echo "LOGGEDIN";
             $auth_code_result = MakeAuthCode("15", $id, "tarks_account");
             //Echo Auth code to client
 //auth_code_result is value of result of auth
