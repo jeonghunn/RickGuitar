@@ -28,6 +28,7 @@ function TarksAccountLogin($id, $password){
         $row = mysql_fetch_array(mysql_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
         ConnectMainDB();
         if($id == $row['user_id']) {
+            echo "LOGGEDIN";
             return true;
         }else{
             security_passwordWrong();
@@ -39,7 +40,7 @@ function TarksAccountLogin($id, $password){
         $loginResult = $this -> TarksAccount($id, $password);
         if($loginResult){
 //Connect main db to auth
-            echo "LOGGEDIN";
+
             $auth_code_result = MakeAuthCode("15", $id, "tarks_account");
             //Echo Auth code to client
 //auth_code_result is value of result of auth
