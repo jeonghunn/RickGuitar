@@ -48,10 +48,12 @@ $page_info = REQUEST('page_info');
 
 	//Tarks
 	function API_AuthTarksAccount(){
+		$TARKS_ACCOUNT = new TarksAccountClass();
+
 		$id = REQUEST('id');
 		$password = POST('password');
 
-		$auth = TarksAccountLogin($id, $password);
+		$auth = $TARKS_ACCOUNT-> TarksAccountLogin($id, $password);
 
 
 			echo $auth;
