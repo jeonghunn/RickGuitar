@@ -68,7 +68,7 @@ $page_info = REQUEST('page_info');
 		$id = REQUEST('id');
 		$password = POST('password');
 
-		$auth = $TARKS_ACCOUNT->MakeTarksAccountAuthCode($id, $password);
+		$auth = $TARKS_ACCOUNT-> MakeTarksAccountAuthCode($id, $password);
 
 
 		echo $auth;
