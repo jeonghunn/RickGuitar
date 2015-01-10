@@ -5,7 +5,7 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 function getClientVersion(){
-    return "0.1.15.0.49";
+    return "0.1.15.1.50";
 }
 
 function getAPIVersion(){
@@ -240,7 +240,7 @@ return $name;
 
 
 function CheckLogin(){
-  if(isset($_SESSION['user_srl_auth'])) {
+  if($_SESSION['user_auth'] != null) {
 return true;
   }
   return false;
