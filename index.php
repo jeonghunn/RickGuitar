@@ -31,7 +31,7 @@ require_once "pages/lang/".getLang().".php";
 //require_once 'core/api.class.php';
 
 $user_info = json_decode(PostAct(getAPIUrl(),  array(array('a', 'my_page_info'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('user_auth', $user_auth), array('page_info', 'tarks_account//admin//name_1//name_2//gender//birthday//country_code//phone_number//join_day//profile_pic//profile_update//lang//country//like_me//favorite//rel_you_status//rel_me_status'))), true);
-echo $user_info[]['name_2'];
+echo $user_info['name_2'];
 
 $user_srl = $user_info[0]['user_srl'];
 $user_name = SetUserName($user_info[0]['lang'], $user_info[0]['name_1'], $user_info[0]['name_2']);
