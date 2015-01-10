@@ -230,7 +230,7 @@ function print_array($row){
 
 //Language name
 function SetUserName($lang, $name_1, $name_2){
-    if($name_1 == null) {
+    if($name_1 != null) {
         if ($lang == "ko") {
             $name = $name_1 . $name_2;
         } else {
