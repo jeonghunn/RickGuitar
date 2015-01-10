@@ -65,7 +65,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
            <? echo '<li class="active" >';
-           if($user_srl != null){
+           if(CheckLogin()){
              echo '<a href="'.A($user_srl).'">'.A($user_name).'</a>';
            }else{
              echo '<a href="login">'.T('sign_in').'</a>';
