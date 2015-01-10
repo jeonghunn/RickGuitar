@@ -9,7 +9,7 @@ $loaded = false;
 //Session
 session_start();
 $user_auth = $_SESSION['user_auth'];
-echo $user_auth;
+//echo $user_auth;
 //Lang
 
 require_once "pages/lang/".getLang().".php";
