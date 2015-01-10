@@ -35,6 +35,7 @@ $user_info = json_decode(PostAct(getAPIUrl(),  array(array('a', 'my_page_info'),
 
 $user_srl = $user_info[0]['user_srl'];
 $user_name = SetUserName($user_info[0]['lang'], $user_info[0]['name_1'], $user_info[0]['name_2']);
+echo $user_name;
 
 require_once 'pages/header.php';
 
