@@ -47,7 +47,7 @@
 
         function AuthCheck($auth_key, $delete) {
         	//Auth_key is value of authcode
-        $sql ="SELECT * FROM  `auth` WHERE  `key` LIKE '$auth_key'";
+        $sql ="SELECT * FROM  `auth` WHERE  `key` LIKE '$auth_key' AND `expire` = 0 OR `expire` < ".getTimeStamp();
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
@@ -69,7 +69,7 @@
         }
 
         function FindAuthCode($value, $category)  {
-        $sql ="SELECT * FROM  `auth` WHERE  `value` LIKE '$value' AND  `category` LIKE '$category'";
+        $sql ="SELECT * FROM  `auth` WHERE  `value` LIKE '$value' AND  `category` LIKE '$category' AND  `expire` = 0 OR `expire` < ".getTimeStamp();
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
