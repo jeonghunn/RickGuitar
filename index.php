@@ -2,7 +2,6 @@
 define('642979',   TRUE);
 
  require_once 'pages/base.php';
-require_once 'core/db.php';
 //Variable
 $page_srl = GET('p');
 $act_parameter = GET('a');
