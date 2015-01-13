@@ -1,5 +1,5 @@
 <?php
-
+define('642979',   TRUE);
  require_once 'core/base.php';
  require_once 'core/db.php';
 
@@ -12,7 +12,7 @@ $api_key =REQUEST('api_key');
 $log = REQUEST('page_srl');
 $log_category = $ACTION;
 
-define('642979',   TRUE);
+
 require_once 'config.php';
 require_once 'core/api.class.php';
 require_once 'modules/page/page.class.php';
