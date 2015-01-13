@@ -1,6 +1,7 @@
 <?php
 
  require_once 'core/base.php';
+ require_once 'core/db.php';
 
 $API_VERSION = (int) REQUEST('apiv');
 $ACTION = REQUEST('a');
