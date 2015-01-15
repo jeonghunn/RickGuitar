@@ -5,7 +5,7 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 function getClientVersion(){
-    return "0.1.15.7.56";
+    return "0.1.15.8.57";
 }
 
 function getAPIVersion(){
@@ -124,16 +124,16 @@ function CoreInfo(){
 }
 
 function REQUEST($value){
-  return mysql_real_escape_string($_REQUEST[$value]);
+  return $_REQUEST[$value];
 }
 
 
 function GET($value){
-  return mysql_real_escape_string($_GET[$value]);
+  return $_GET[$value];
 }
 
 function POST($value){
-  return mysql_real_escape_string($_POST[$value]);
+  return $_POST[$value];
 }
 
 function PostAct($url, $arrayvars){
