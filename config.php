@@ -19,7 +19,7 @@
 require_once 'core/auth.php';
 
 
-$user_srl = AuthCheck($user_srl_auth, false);
+$user_srl = AuthCheck($page_auth, false);
 
 
 require_once 'core/logger.php';
