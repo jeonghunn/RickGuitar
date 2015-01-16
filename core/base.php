@@ -1,5 +1,9 @@
 <?php
-    
+
+function getCoreVersion(){
+    return "2.39.10.1.172";
+}
+
 //Basic Info
 function getSiteAddress(){
     return "http://tarks.net/develop/favorite/";
@@ -25,9 +29,7 @@ function getTimeStamp(){
     return strtotime(date('Y-m-d H:i:s'));
 }
 
-function getCoreVersion(){
-    return "2.39.10.0.171";
-}
+
 
 function getHttpLanguage(){
     $language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
