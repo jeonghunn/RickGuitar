@@ -16,7 +16,7 @@ function TarksAccountLogin($id, $password){
         $user_info = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `tarks_account` LIKE '$id'"));
     }
 
-echo $user_info['user_srl'];
+echo $user_info['user_srl'].' adfdfsf';
 
     return  FindAuthCode($user_info['user_srl'], "user_srl");
 }
