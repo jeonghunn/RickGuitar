@@ -5,20 +5,20 @@ class PageClass
 
     function PageInfoUpdate($user_srl)
     {
-        $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '" . getIPAddr() . "' WHERE `user_srl` = $user_srl";
+        $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '" . getIPAddr() . "' WHERE `srl` = $user_srl";
         $system_result = mysql_query($add_info_to_system);
     }
 
     function ProfileInfoUpdate($user_srl, $title, $value)
     {
-        $add_info_to_system = "UPDATE `pages` SET `$title` = '$value' WHERE `user_srl` = $user_srl";
+        $add_info_to_system = "UPDATE `pages` SET `$title` = '$value' WHERE `srl` = $user_srl";
         $system_result = mysql_query($add_info_to_system);
     }
 
 
     function GetPageInfo($user_srl)
     {
-        $row = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$user_srl'"));
+        $row = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `srl` LIKE '$user_srl'"));
         return $row;
     }
 

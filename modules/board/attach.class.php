@@ -68,7 +68,7 @@ function getAttachCount($doc_srl){
 
 function addAttachDownloadCount($attach_srl){
  $attach_info  = getAttachInfoBySrl($attach_srl);
- $result_num = $attach_info[count] + 1;
+ $result_num = $attach_info['count'] + 1;
 $comment_count = mysql_query("UPDATE `attach` SET  `count` = '$result_num' WHERE `srl` = '$attach_srl'");
 }
 
@@ -83,11 +83,11 @@ function attach_read_print($user_srl, $doc_srl){
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
 
              if($result[kind] == "image"){
-             	   echo getSiteAddress()."files/images/".$result[filevalue].".".$result[extension]."/LINE/.";
+             	   echo getSiteAddress()."files/images/".$result['filevalue'].".".$result['extension']."/LINE/.";
              }
 
               if($result[kind] == "file"){
-             	   echo getSiteAddress()."board/download.php?v=".$result[filevalue]."&n=".$result[filename]."&e=".$result[extension]."/LINE/.";
+             	   echo getSiteAddress()."board/download.php?v=".$result['filevalue']."&n=".$result['filename']."&e=".$result['extension']."/LINE/.";
              }
       
 }         
