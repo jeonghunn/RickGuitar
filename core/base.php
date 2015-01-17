@@ -1,7 +1,7 @@
 <?php
 
 function getCoreVersion(){
-    return "2.39.11.2.175";
+    return "2.39.12.0.176";
 }
 
 //Basic Info
@@ -19,6 +19,11 @@ function getNowUrl(){
 
 function getUserAgent(){
     return $_SERVER['HTTP_USER_AGENT'];
+}
+
+
+function getAPIDefaultPoint(){
+    return 500;
 }
 
 //function getDate(){

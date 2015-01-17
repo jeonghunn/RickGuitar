@@ -47,7 +47,7 @@
 
         function AuthCheck($auth_key, $delete) {
         	//Auth_key is value of authcode
-        $sql ="SELECT * FROM  `auth` WHERE  `key` LIKE '$auth_key' AND ( `expire` = 0 OR `expire` < ".getTimeStamp()." )";
+        $sql ="SELECT * FROM  `auth` WHERE  `key` LIKE '$auth_key' AND `status` <= 1 AND ( `expire` = 0 OR `expire` < ".getTimeStamp()." )";
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
@@ -69,7 +69,7 @@
         }
 
         function FindAuthCode($value, $category)  {
-        $sql ="SELECT * FROM  `auth` WHERE  `value` LIKE '$value' AND  `category` LIKE '$category' AND ( `expire` = 0 OR `expire` < ".getTimeStamp().")";
+        $sql ="SELECT * FROM  `auth` WHERE  `value` LIKE '$value' AND  `category` LIKE '$category' AND  `status` <= 1 AND ( `expire` = 0 OR `expire` < ".getTimeStamp().")";
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
@@ -80,6 +80,16 @@ $auth_code = $row['key'];
 //Return key
         return $auth_code;
         }
+
+
+function UpdateAuthCode($key,  $category, $value, $status){
+
+   // if(!AuthCheck($key, false)){
+        $sql = "UPDATE `auth` SET `category` = '$category', `value` = '$value', `status` = '$status' WHERE `key` = $key";
+        $result = mysql_query($sql);
+   // }
+return $result;
+}
 
   
 ?>

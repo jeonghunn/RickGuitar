@@ -55,11 +55,19 @@ function APICheckActRand(){
 
 function APICheckAct(){
     $API_KEY = mysql_real_escape_string($_REQUEST['api_key']);
-    $user_permission = mysql_fetch_array(mysql_query("SELECT * FROM  `api` WHERE  `user_srl` LIKE '$user_srl'"));
-
-
     $API_SRL = AuthCheck($API_KEY, false);
 
+    //CHECK API STATUS
+    // 0 : NONE
+    // 1 : ACTIVE, 2: Checking 3: REJECTED, 4: Deleted
+    if(lottoNum(20)) {
+        $API_INFO = mysql_fetch_array(mysql_query("SELECT * FROM  `api` WHERE  `srl` LIKE '$API_KEY'"));
+
+        //IF App info exist
+        //Check API Status
+       // if($API_INFO['status'] > 2)
+
+    }
     if(!$API_SRL) ErrorMessage("api_error");
 }
 
