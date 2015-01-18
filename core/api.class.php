@@ -64,6 +64,7 @@ $page_info = REQUEST('page_info');
 
 
 	function API_MakeTarksAccountAuth(){
+		APICheckAct();
 		$TARKS_ACCOUNT = new TarksAccountClass();
 		$id = REQUEST('id');
 		$password = POST('password');
