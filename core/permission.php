@@ -65,7 +65,10 @@ function APICheckAct(){
 
         //IF App info exist
         //Check API Status
-        if($API_INFO['status'] > 2 || ( $API_INFO['expire'] < getTimeStamp() && $API_INFO['expire'] != 0 )) UpdateAuthCodeStatus($API_KEY, 2);
+        if($API_INFO['status'] > 2 || ( $API_INFO['expire'] < getTimeStamp() && $API_INFO['expire'] != 0 )) {
+            UpdateAuthCodeStatus($API_KEY, 2);
+            $API_SRL = false;
+        }
 
     }
     if(!$API_SRL) ErrorMessage("api_error");
