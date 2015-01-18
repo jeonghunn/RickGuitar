@@ -64,7 +64,7 @@ $page_info = REQUEST('page_info');
 
 
 	function API_MakeTarksAccountAuth(){
-		APICheckAct();
+
 		$TARKS_ACCOUNT = new TarksAccountClass();
 		$id = REQUEST('id');
 		$password = POST('password');
@@ -80,13 +80,14 @@ $page_info = REQUEST('page_info');
 
 
 function API_SignUpTarksAccount(){
-	  require_once 'modules/page/page_add.class.php';
+	APICheckAct();
+	$TARKS_ACCOUNT = new TarksAccountClass();
 
 	$email = REQUEST('email');
 	$id = REQUEST('id');
 	$password = POST('password');
 
-$tarks_signup = SignUpTarksAccount($email, $id, $password);
+$tarks_signup = $TARKS_ACCOUNT -> SignUpTarksAccount($email, $id, $password);
 
 if($tarks_signup == "true"){
 echo "success";
