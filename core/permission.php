@@ -53,6 +53,13 @@ function APICheckActRand(){
 
 }
 
+function APIPointUpdate($point){
+
+    return mysql_query("UPDATE `ip_manage` SET  `point` = '$ip_point' WHERE `ip_addr` = '".getIPAddr()."'");
+
+
+}
+
 function APICheckAct(){
     $API_KEY = mysql_real_escape_string($_REQUEST['api_key']);
     $API_SRL = AuthCheck($API_KEY, false);
@@ -68,6 +75,8 @@ function APICheckAct(){
         if($API_INFO['status'] > 2 || ( $API_INFO['expire'] < getTimeStamp() && $API_INFO['expire'] != 0 )) {
             UpdateAuthCodeStatus($API_KEY, 2);
             $API_SRL = false;
+        }else{
+APIPointUpdate(1);
         }
 
     }
