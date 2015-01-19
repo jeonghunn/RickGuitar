@@ -1,7 +1,7 @@
 <?php
 
 function getCoreVersion(){
-    return "2.39.14.0.181";
+    return "2.39.15.0.182";
 }
 
 //Basic Info
@@ -182,11 +182,8 @@ return $name;
 }
 
 
-function CheckLogin(){
-  if(isset($_SESSION['user_srl_auth'])) {
-return true;
-  }
-  return false;
+function email_valid($temp_email) {
+    return preg_match("^[0-9a-zA-Z_-]+(\.[0-9a-zA-Z_-]+)*@[0-9a-zA-Z_-]+(\.[0-9a-zA-Z_-]+)+$", $temp_email);
 }
 
 function contentconvert($content)

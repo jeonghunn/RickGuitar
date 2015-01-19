@@ -53,6 +53,7 @@ function TarksAccountLogin($id, $password){
         $nowdate = date('YmdHis');
         if(!rtnSpecialCharCheck($id)) return "special_char_error";
         if($email == null || $id == null || $password == null) return false;
+        if(!email_valid($email)) return "email_invaild_error";
         if(strlen($id) < 3 || strlen($id) > 20 ) return "id_length_error";
         if(strlen($password) < 6 || strlen($password) > 20 ) return "password_length_error";
         $password = md5($password);
