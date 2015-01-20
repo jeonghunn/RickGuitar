@@ -3,8 +3,7 @@
        
 
 function ActLog($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
-	ConnectMainDB();
-	     mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `category`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$log_category', '$log');");
+	   echo  mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `category`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$log_category', '$log');");
 }
 
             function ClientAgentLog(){
@@ -20,7 +19,11 @@ function ActLogSyncTask($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
 	$thread = new Thread("localhost");
 	$thread->setFunc('ActLog', array($user_srl, $REMOTE_ADDR, $date, $log_category, $log));
 	$thread->start();
+	while ( !$thread->finished){
 
+		$thread->query();
+	}
+	printf("Thread1: %s <br>", $thread->result);
 }
 
 
@@ -29,7 +32,7 @@ function ClientAgentLogSyncTask(){
 	$thread->setFunc('ClientAgentLog', array());
 	$thread->start();
 }
-    
+
   
         
 
