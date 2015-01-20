@@ -16,7 +16,7 @@
 // ini_set("display_errors", 1);
 
 //db.php
-require_once 'core/thread.class.php';
+include_once 'core/thread.class.php';
 require_once 'core/auth.php';
 
 
@@ -27,8 +27,8 @@ require_once 'core/logger.php';
 require_once 'core/security.php';
 require_once 'core/permission.php';
 //Log Client
-ActLogSyncTask($user_srl, getIPAddr(),getTimeStamp(), $log_category, $log);
-ClientAgentLogSyncTask();
+ActLog($user_srl, getIPAddr(),getTimeStamp(), $log_category, $log);
+ClientAgentLog();
 
 //set user_Srl
 
