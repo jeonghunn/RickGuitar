@@ -15,6 +15,18 @@ function ActLog($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
 }
 
 
+function ActLogSyncTask($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
+	$thread = new Thread("localhost");
+	$thread->setFunc('ActLog', array($user_srl, $REMOTE_ADDR, $date, $log_category, $log));
+	$thread->start();
+}
+
+
+function ClientAgentLogSyncTask(){
+	$thread = new Thread("localhost");
+	$thread->setFunc('ClientAgentLog', array());
+	$thread->start();
+}
     
   
         

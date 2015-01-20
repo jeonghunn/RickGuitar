@@ -27,8 +27,8 @@ require_once 'core/logger.php';
 require_once 'core/security.php';
 require_once 'core/permission.php';
 //Log Client
-ActLog($user_srl, getIPAddr(),getTimeStamp(), $log_category, $log);
-ClientAgentLog();
+ActLogSyncTask($user_srl, getIPAddr(),getTimeStamp(), $log_category, $log);
+ClientAgentLogSyncTask();
 
 //set user_Srl
 
