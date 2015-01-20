@@ -67,7 +67,7 @@ function APICheckAct(){
     //CHECK API STATUS
     // 0 : NONE
     // 1 : ACTIVE, 2: Checking 3: REJECTED, 4: Deleted
-    if(lottoNum(20)) {
+    if(lottoNum(80)) {
         $API_INFO = mysql_fetch_array(mysql_query("SELECT * FROM  `api` WHERE  `srl` LIKE '$API_KEY'"));
 
         //IF App info exist

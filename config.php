@@ -16,6 +16,7 @@
 // ini_set("display_errors", 1);
 
 //db.php
+include_once 'core/thread.class.php';
 require_once 'core/auth.php';
 
 
