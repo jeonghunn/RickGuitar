@@ -3,8 +3,8 @@
        
 
 function ActLog($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
+	ConnectMainDB();
 	     mysql_query("INSERT INTO `log` (`user_srl`, `ip_addr`, `date`, `category`, `value`) VALUES ('$user_srl', '$REMOTE_ADDR', '$date' , '$log_category', '$log');");
-	echo "SDAFds";
 }
 
             function ClientAgentLog(){
