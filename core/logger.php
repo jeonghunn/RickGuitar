@@ -19,8 +19,7 @@ function ActLogSyncTask($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
 	$thread = new Thread("localhost");
 	$thread->setFunc('ActLog', array($user_srl, $REMOTE_ADDR, $date, $log_category, $log));
 	$thread->start();
-	$th = new ThreadManager();
-	$th ->finished_threads();
+	$thread->query();
 
 }
 
@@ -30,8 +29,7 @@ function ClientAgentLogSyncTask($user_srl){
 	$thread = new Thread("localhost");
 	$thread->setFunc('ClientAgentLog', array($user_srl, getIPAddr(), getUserAgent(), getTimeStamp()));
 	$thread->start();
-	$th = new ThreadManager();
-	$th -> finished_threads();
+	$thread->query();
 }
 
   
