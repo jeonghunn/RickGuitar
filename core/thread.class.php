@@ -279,22 +279,22 @@ class ThreadManager {
  * This is the code that starts the thread function and encodes it's output 
  * when the Thread class starts a new instance of this script.
  */
-//if (isset($_POST['threadrun'])){
-//	$arg_str = "";
-//	if (isset($_POST['a'])){
-//		foreach ($_POST['a'] as $argument){
-//			if ($arg_str) $arg_str .= ", ";
-//			$arg_str .= var_export($argument, true);
-//		}
-//	}
-//	$code = "\$return = ".$_POST['f']."(".$arg_str.");";
-//	eval($code);
-//
-//	/*
-//	The result value is wrapped in these pseudo-tags so that it will be possible to find
-//	and decode it even if the thread produces some other output (e.g. error messages).
-//	*/
-//	die("[RESPONSE]".serialize($return)."[/RESPONSE]");
-//}
+if (isset($_POST['threadrun'])){
+	$arg_str = "";
+	if (isset($_POST['a'])){
+		foreach ($_POST['a'] as $argument){
+			if ($arg_str) $arg_str .= ", ";
+			$arg_str .= var_export($argument, true);
+		}
+	}
+	$code = "\$return = ".$_POST['f']."(".$arg_str.");";
+	eval($code);
+
+	/*
+	The result value is wrapped in these pseudo-tags so that it will be possible to find
+	and decode it even if the thread produces some other output (e.g. error messages).
+	*/
+	//die("[RESPONSE]".serialize($return)."[/RESPONSE]");
+}
 
 ?> 
