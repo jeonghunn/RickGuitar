@@ -297,4 +297,4 @@ if (isset($_POST['threadrun'])){
 	die("[RESPONSE]".serialize($return)."[/RESPONSE]");
 }
 
-?> 
+?>
