@@ -54,9 +54,10 @@ function APICheckActRand(){
 }
 
 function APIPointUpdate($point){
-
     return mysql_query("UPDATE `ip_manage` SET  `point` = '$ip_point' WHERE `ip_addr` = '".getIPAddr()."'");
+}
 
+function APIPointUpdateSyncTask($point){
 
 }
 

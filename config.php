@@ -32,32 +32,6 @@ ClientAgentLogSyncTask($user_srl);
 
 //set user_Srl
 
-
-    
-
-
-//  //Set language
-//$language = getHttpLanguage();
-//if($user_srl != null){
-//    $user_lang = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$user_srl'"));
-//    $language = $user_lang['lang'];
-//}
-//
-//
-//    // setup locale and translation
-//    setlocale(LC_ALL, 'en_US.UTF-8');
-// require_once "lang/".$language.".php";
-//
-//    function T($str)
-//    {
-//        global $L;
-//        if (isset($L[$str]))
-//            return $L[$str];
-//        else
-//            return $str;
-//    }
-
-
 //Check IP
 PermissionCheckAct($user_srl);
 IPManageAct(getIPAddr(), getNowUrl(), getTimeStamp());

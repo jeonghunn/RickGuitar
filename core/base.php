@@ -1,7 +1,7 @@
 <?php
 
 function getCoreVersion(){
-    return "2.39.18.5.190";
+    return "2.39.19.0.191";
 }
 
 //Basic Info
@@ -241,6 +241,15 @@ if($b!==FALSE) unset($list_arr[$b]);
 
 function lottoNum($min,$max=100){ 
     return(rand(1,$max)<=$min); 
-} 
+}
+
+
+function ThreadAct($name, $array){
+    require_once 'core/thread.class.php';
+    $thread = new Thread("localhost");
+    $thread->setFunc( $name,  $array);
+    $thread->start();
+}
+
       
 ?>
