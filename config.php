@@ -26,7 +26,6 @@ $user_srl = AuthCheck($page_auth, false);
 require_once 'core/logger.php';
 require_once 'core/security.php';
 require_once 'core/permission.php';
-require_once 'core/status.php';
 //Log Client
 ActLogSyncTask($user_srl, getIPAddr(),getTimeStamp(), $log_category, $log);
 ClientAgentLogSyncTask($user_srl);
