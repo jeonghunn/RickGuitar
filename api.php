@@ -30,7 +30,7 @@ if($ACTION == "CoreVersion") $API -> API_getCoreVersion();
 
 //Page
 if($ACTION == "page_info") $API -> API_getPageInfo($user_srl);
-if($ACTION == "my_page_info") $API -> API_getMyPageInfo( $user_srl);
+if($ACTION == "my_page_info") $API -> API_getMyPageInfo($user_srl);
 
 //Member
 if($ACTION == "tarks_auth") $API -> API_AuthTarksAccount();
