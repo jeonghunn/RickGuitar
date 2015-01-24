@@ -27,6 +27,7 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 
 
 
+
 function getIPManageInfo(){
     return mysql_fetch_array(mysql_query("SELECT * FROM  `ip_manage` WHERE  `ip_addr` LIKE '".getIPAddr()."'"));
 }
