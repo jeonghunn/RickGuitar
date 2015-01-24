@@ -26,10 +26,11 @@ if($api_key == null) ErrorMessage('api_error');
 
 if($ACTION == "hello_world") $API -> hello_world();
 if($ACTION == "CoreVersion") $API -> API_getCoreVersion();
-if($ACTION == "my_page_info") $API -> API_getMyPageInfo( $user_srl);
+
 
 //Page
 if($ACTION == "page_info") $API -> API_getPageInfo($user_srl);
+if($ACTION == "my_page_info") $API -> API_getMyPageInfo( $user_srl);
 
 //Member
 if($ACTION == "tarks_auth") $API -> API_AuthTarksAccount();
