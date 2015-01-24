@@ -15,12 +15,7 @@ function ActLog($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
 
 
 function ActLogSyncTask($user_srl, $REMOTE_ADDR, $date, $log_category, $log){
-	//ThreadAct('ActLog', array($user_srl, $REMOTE_ADDR, $date, $log_category, $log));
-	require_once 'core/thread.class.php';
-	$thread = new Thread("localhost");
-	$thread->setFunc('ActLog', array($user_srl, $REMOTE_ADDR, $date, $log_category, $log));
-	$thread->start();
-
+	ThreadAct('ActLog', array($user_srl, $REMOTE_ADDR, $date, $log_category, $log));
 }
 
 
