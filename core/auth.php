@@ -53,9 +53,9 @@
 
         $value = $row['value'];
 
-        if($row['active'] == 0){
-          return false;
-        }
+//        if($row['active'] == 0){
+//          return false;
+//        }
 //IF delete true, delete auth key
        if($delete == true){
         	  $deletesql ="DELETE FROM `auth` WHERE `key` = '$auth_key'";
