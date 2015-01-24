@@ -25,7 +25,6 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 
     }
 
-function IP
 
 
 function getIPManageInfo(){
@@ -55,8 +54,8 @@ function APICheckActRand(){
 
 }
 
-function APIPointUpdate($point){
-    return mysql_query("UPDATE `ip_manage` SET  `point` = '$ip_point' WHERE `ip_addr` = '".getIPAddr()."'");
+function APIPointUpdate($api_srl,$point){
+    return mysql_query("UPDATE `api` SET  `point` = `point` + '$point' WHERE `srl` = '$api_srl'");
 }
 
 
@@ -77,7 +76,8 @@ function APICheckAct(){
             UpdateAuthCodeStatus($API_KEY, 2);
             $API_SRL = false;
         }else{
-        ThreadAct('APIPointUpdate' , array(1));
+
+        ThreadAct('APIPointUpdate' , array($API_SRL, 1));
         }
 
     }

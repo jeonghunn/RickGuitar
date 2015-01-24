@@ -23,7 +23,6 @@ echo getCoreVersion();
 
 function API_getMyPageInfo($user_srl){
 	$PAGE = new PageClass();
-	require_once 'core/status.php';
 $page_info = REQUEST('page_info');
 //Update new member information
   $PAGE -> PageInfoUpdate($user_srl);
