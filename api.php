@@ -18,7 +18,7 @@ require_once 'core/api.class.php';
 require_once 'modules/page/page.class.php';
 require_once 'modules/member/tarks_account.class.php';
 
-//$user_srl = AuthCheck($page_auth, false);
+$user_srl = AuthCheck($page_auth, false);
 
 $API = new APIClass();
 if($api_key == null) ErrorMessage('api_error');
