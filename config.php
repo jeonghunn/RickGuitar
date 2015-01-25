@@ -21,7 +21,7 @@ require_once 'core/auth.php';
 
 
 $user_srl = AuthCheck($page_auth, false);
-echo $user_srl;
+if($user_srl == null) $user_srl = 0;
 
 require_once 'core/logger.php';
 require_once 'core/security.php';
