@@ -80,7 +80,7 @@ $page_info = REQUEST('page_info');
 		$lang = REQUEST('lang');
 		$country_code = REQUEST('country_code');
 		$phone_number = REQUEST('phone_number');
-		$profile_pic = mREQUEST('profile_pic');
+		$profile_pic = REQUEST('profile_pic');
 		$reg_id = REQUEST('reg_id');
 		$country =REQUEST('counrtry');
 
