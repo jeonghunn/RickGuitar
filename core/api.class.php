@@ -66,9 +66,70 @@ $page_info = REQUEST('page_info');
 	}
 
 	//Page - Join
-	function API_Join(){
+	function API_PageJoin()
+	{
+		$PAGE = new PageClass();
+		$TARKS_ACCOUNT = new TarksAccountClass();
 
+
+		$admin = REQUEST('admin');
+		$tarks_account_auth = POST('tarks_account_auth');
+		$name_1 = REQUEST('name_1');
+		$name_2 = REQUEST('name_2');
+		$gender = REQUEST('gender');
+		$lang = REQUEST('lang');
+		$country_code = REQUEST('country_code');
+		$phone_number = REQUEST('phone_number');
+		$profile_pic = mREQUEST('profile_pic');
+		$reg_id = REQUEST('reg_id');
+		$country =REQUEST('counrtry');
+
+
+		if($tarks_account_auth != "null"){
+			$tarks_account = AuthCheck($tarks_account_auth, true);
+			$birthday = $TARKS_ACCOUNT -> GetTarksAccountInfo($tarks_account, "birthday");
+		}else{
+			$tarks_account = "null";
+		}
+
+//Check Reg Id and Tarks Account
+		$row = $PAGE -> CheckSameRegID($reg_id);
+		$tarksrow = $TARKS_ACCOUNT -> CheckSameTarksAccount($tarks_account);
+
+
+
+
+//Check Tarks Account
+		if($tarks_account != "null"){
+			if($tarks_account == $tarksrow[tarks_account]){
+				UpdateUserActivityByApp($tarksrow['user_srl']);
+			}else{
+				//if this is have tarks account
+				if($row['tarks_account'] == "null"){
+					//Delete Old one Add new one
+					//Delete Old Account
+					DeleteUser($row['srl']);
+				}
+				$PAGE -> AddUserActivityByApp($admin, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+			}
+
+		}else{
+			//If no Tarks Account
+			//Check REGID
+			if($reg_id != "null"){
+				//Delete User if same reg id, not null and no tarks account
+				if($reg_id == $row['reg_id'] && $reg_id != "null" && $row['tarks_account'] == "null" && $row['admin'] == 0){
+					//IF more than two same reg id
+					DeleteUser($row['srl']);
+				}
+
+			}
+			$PAGE -> AddUserActivityByApp($admin, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+		}
 	}
+
+
+
 
 
 

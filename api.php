@@ -16,7 +16,6 @@ $log_category = $ACTION;
 require_once 'config.php';
 require_once 'core/api.class.php';
 require_once 'modules/page/page.class.php';
-require_once 'modules/page/page_add.class.php';
 require_once 'core/Thumbnail.class.php';
 require_once 'modules/member/tarks_account.class.php';
 
@@ -33,6 +32,8 @@ if($ACTION == "CoreVersion") $API -> API_getCoreVersion();
 //Page
 if($ACTION == "page_info") $API -> API_getPageInfo($user_srl);
 if($ACTION == "my_page_info") $API -> API_getMyPageInfo($user_srl);
+//Page - ADD
+if($ACTION == "page_join") $API -> API_PageJoin();
 
 //Member
 if($ACTION == "tarks_auth") $API -> API_AuthTarksAccount();
