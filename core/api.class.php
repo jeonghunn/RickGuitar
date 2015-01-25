@@ -102,7 +102,7 @@ $page_info = REQUEST('page_info');
 //Check Tarks Account
 		if($tarks_account != "null"){
 			if($tarks_account == $tarksrow['tarks_account']){
-				UpdateUserActivityByApp($tarksrow['srl'], $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
+				$PAGE -> UpdateUserActivityByApp($tarksrow['srl'], $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
 			}else{
 				//if this is have tarks account
 				if($row['tarks_account'] == "null"){
