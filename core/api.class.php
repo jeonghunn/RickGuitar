@@ -94,7 +94,7 @@ $page_info = REQUEST('page_info');
 
 //Check Reg Id and Tarks Account
 		$row = $PAGE -> CheckSameRegID($reg_id);
-		$tarksrow = $TARKS_ACCOUNT -> CheckSameTarksAccount($tarks_account);
+		$tarksrow = $PAGE -> CheckSameTarksAccount($tarks_account);
 
 
 
