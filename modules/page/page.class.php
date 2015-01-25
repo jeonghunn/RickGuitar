@@ -231,7 +231,7 @@ class PageClass
 
         //Create Own Page
         //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
-        CreateStatus($PageNumber);
+        $this -> CreateStatus($PageNumber);
 
 
 
