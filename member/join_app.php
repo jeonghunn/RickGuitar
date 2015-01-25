@@ -54,7 +54,7 @@ $birthday = GetTarksAccountInfo($tarks_account, "birthday");
         if($row[tarks_account] == "null"){
             //Delete Old one Add new one
             //Delete Old Account
-           DeleteUser($row[user_srl]);
+           DeleteUser($row['user_srl']);
         }
          AddUserActivityByApp();
           	  }

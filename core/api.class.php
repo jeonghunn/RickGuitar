@@ -85,7 +85,7 @@ $page_info = REQUEST('page_info');
 		$country =REQUEST('counrtry');
 
 
-		if($tarks_account_auth != "null"){
+		if($tarks_account_auth != null){
 			$tarks_account = AuthCheck($tarks_account_auth, true);
 			$birthday = $TARKS_ACCOUNT -> GetTarksAccountInfo($tarks_account, "birthday");
 		}else{
