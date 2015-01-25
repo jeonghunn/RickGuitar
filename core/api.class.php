@@ -108,7 +108,7 @@ $page_info = REQUEST('page_info');
 				if($row['tarks_account'] == "null"){
 					//Delete Old one Add new one
 					//Delete Old Account
-					DeleteUser($row['srl']);
+					$PAGE -> DeleteUser($row['srl']);
 				}
 				$PAGE -> AddUserActivityByApp($admin, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
 			}
@@ -120,7 +120,7 @@ $page_info = REQUEST('page_info');
 				//Delete User if same reg id, not null and no tarks account
 				if($reg_id == $row['reg_id'] && $reg_id != "null" && $row['tarks_account'] == "null" && $row['admin'] == 0){
 					//IF more than two same reg id
-					DeleteUser($row['srl']);
+					$PAGE -> DeleteUser($row['srl']);
 				}
 
 			}
