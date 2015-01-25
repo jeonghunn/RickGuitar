@@ -30,7 +30,7 @@ class PageClass
 
         //    if($status < $you_srl_info[status]) $row = null;
         for ($i=0 ; $i < count($info);$i++){
-            if($you_srl_status[$info[$i]] > $status || $you_srl_info['status'] > $status || $you_srl_status[$info[$i]] == null ||$you_srl_info['status'] == 5){
+            if(($you_srl_status[$info[$i]] > $status || $you_srl_info['status'] > $status || $you_srl_status[$info[$i]] == null ||$you_srl_info['status'] == 5) && ($info[$i] != "srl")){
                 $row[$info[$i]] = "null";
             }
 
