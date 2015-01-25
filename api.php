@@ -16,6 +16,8 @@ $log_category = $ACTION;
 require_once 'config.php';
 require_once 'core/api.class.php';
 require_once 'modules/page/page.class.php';
+require_once 'modules/page/page_add.class.php';
+require_once 'core/Thumbnail.class.php';
 require_once 'modules/member/tarks_account.class.php';
 
 //$user_srl = AuthCheck($page_auth, false);

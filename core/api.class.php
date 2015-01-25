@@ -21,6 +21,8 @@ function API_addAPI($user_srl, $name, $des){
 echo getCoreVersion();
 	}
 
+
+	//Page
 function API_getMyPageInfo($user_srl){
 	$PAGE = new PageClass();
 	//require_once 'core/status.php';
@@ -63,6 +65,12 @@ $page_info = REQUEST('page_info');
 
 	}
 
+	//Page - Join
+	function API_Join(){
+
+	}
+
+
 
 	function API_MakeTarksAccountAuth(){
 
@@ -103,6 +111,7 @@ if($tarks_signup != false){
 
 }
 }
+
 
 
 
