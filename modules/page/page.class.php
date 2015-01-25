@@ -197,7 +197,7 @@ class PageClass
 
         //Create Own Page
         //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
-        CreateStatus($PageNumber);
+        $this -> CreateStatus($PageNumber);
 
         favorite_add($PageNumber, $user_srl, '3');
 
@@ -267,13 +267,13 @@ class PageClass
 
 
     function AddUserActivityByApp($admin, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country){
-        $AddUserAct = AddUser($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+        $AddUserAct = $this -> AddUser($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
         echo $AddUserAct[0]."//".$AddUserAct[1];
     }
 
 
     function UpdateUserActivityByApp($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country){
-        $UpdateUserAct = UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
+        $UpdateUserAct = $this -> UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
         echo $UpdateUserAct[0]."//".$UpdateUserAct[1];
     }
 
