@@ -266,7 +266,7 @@ class PageClass
     }
 
 
-    function AddUserActivityByApp($admin, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country){
+    function AddUserActivityByApp($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country){
         $AddUserAct = $this -> AddUser($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
         echo $AddUserAct[0]."//".$AddUserAct[1];
     }

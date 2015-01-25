@@ -110,7 +110,7 @@ $page_info = REQUEST('page_info');
 					//Delete Old Account
 					$PAGE -> DeleteUser($row['srl']);
 				}
-				$PAGE -> AddUserActivityByApp($admin, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+				$PAGE -> AddUserActivityByApp($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
 			}
 
 		}else{
@@ -124,7 +124,7 @@ $page_info = REQUEST('page_info');
 				}
 
 			}
-			$PAGE -> AddUserActivityByApp($admin, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+			$PAGE -> AddUserActivityByApp($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
 		}
 	}
 

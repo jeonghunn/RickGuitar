@@ -1,7 +1,7 @@
 <?php
 
 function getCoreVersion(){
-    return "2.39.24.7.210";
+    return "2.39.24.8.211";
 }
 
 //Basic Info
