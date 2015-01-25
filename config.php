@@ -21,7 +21,6 @@ require_once 'core/auth.php';
 
 
 $user_srl = AuthCheck($page_auth, false);
-echo $user_srl."#43434";
 
 require_once 'core/logger.php';
 require_once 'core/security.php';
