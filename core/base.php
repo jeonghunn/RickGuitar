@@ -1,7 +1,7 @@
 <?php
 
 function getCoreVersion(){
-    return "2.39.24.9.212";
+    return "2.39.24.10.213";
 }
 
 //Basic Info
@@ -71,16 +71,16 @@ function CoreInfo(){
 }
 
 function REQUEST($value){
-  return mysql_real_escape_string($_REQUEST['$value']);
+  return mysql_real_escape_string($_REQUEST[$value]);
 }
 
 
 function GET($value){
-  return mysql_real_escape_string($_GET['$value']);
+  return mysql_real_escape_string($_GET[$value]);
 }
 
 function POST($value){
-  return mysql_real_escape_string($_POST['$value']);
+  return mysql_real_escape_string($_POST[$value]);
 }
 
 function PostAct($url, $arrayvars){
