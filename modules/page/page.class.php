@@ -47,7 +47,6 @@ class PageClass
 
 //$user_srl = AuthCheck($user_srl, false);
 //Get Member Info
-        echo setRelationStatus($user_srl, $page_srl);
         $row = $this -> GetPageInfo($page_srl);
         $row = $this -> AccessPageInfo(setRelationStatus($user_srl, $page_srl), $row, $page_srl, $page_info);
         $row['rel_you_status'] = setRelationStatus($user_srl, $page_srl);
