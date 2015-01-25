@@ -272,7 +272,7 @@ class PageClass
     }
 
 
-    function UpdateUserActivityByApp($tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country){
+    function UpdateUserActivityByApp($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country){
         $UpdateUserAct = UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
         echo $UpdateUserAct[0]."//".$UpdateUserAct[1];
     }
