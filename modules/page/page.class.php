@@ -22,6 +22,24 @@ class PageClass
         return $row;
     }
 
+    function AccessPageInfo($status, $row, $you_srl, $info){
+        //Select status table
+        $you_srl_status = mysql_fetch_array(mysql_query("SELECT * FROM  `status` WHERE  `user_srl` LIKE '$you_srl'"));
+
+        $you_srl_info = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$you_srl'"));
+
+        //    if($status < $you_srl_info[status]) $row = null;
+        for ($i=0 ; $i < count($info);$i++){
+            if($you_srl_status[$info[$i]] > $status || $you_srl_info['status'] > $status || $you_srl_status[$info[$i]] == null ||$you_srl_info['status'] == 5){
+                $row[$info[$i]] = "null";
+            }
+
+
+        }
+
+        return $row;
+    }
+
 
 //IF use this function you must import auth.php and private.php
     function PageInfo($user_srl, $page_srl, $page_info)
@@ -30,7 +48,7 @@ class PageClass
 //$user_srl = AuthCheck($user_srl, false);
 //Get Member Info
         $row = $this -> GetPageInfo($page_srl);
-        $row = AccessPageInfo(setRelationStatus($user_srl, $page_srl), $row, $page_srl, $page_info);
+        $row = $this -> AccessPageInfo(setRelationStatus($user_srl, $page_srl), $row, $page_srl, $page_info);
         $row['rel_you_status'] = setRelationStatus($user_srl, $page_srl);
         $row['rel_me_status'] = setRelationStatus($page_srl, $user_srl);
 
