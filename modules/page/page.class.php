@@ -58,6 +58,9 @@ class PageClass
     function ProfileUpdate($file_name)
     {
      //   global $_FILES;
+        if($_FILES != null){
+            echo "hey ho.";
+        }
         $target_path =  "files/profile/";
         $thumbnail_path =  "files/profile/thumbnail/";
       //  $tmp_img = explode(".", $_FILES['uploadedfile']['name']);
