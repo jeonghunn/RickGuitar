@@ -58,7 +58,7 @@ class PageClass
     function ProfileUpdate($file_name)
     {
      //   global $_FILES;
-        if($_FILES != null){
+        if($_FILES == null){
             echo "hey ho.";
         }
         $target_path =  "files/profile/";
