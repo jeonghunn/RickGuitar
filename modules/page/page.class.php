@@ -49,6 +49,7 @@ class PageClass
 //Get Member Info
         $row = $this -> GetPageInfo($page_srl);
         $row = $this -> AccessPageInfo(setRelationStatus($user_srl, $page_srl), $row, $page_srl, $page_info);
+       $row['page_srl'] = $page_srl;
         $row['rel_you_status'] = setRelationStatus($user_srl, $page_srl);
         $row['rel_me_status'] = setRelationStatus($page_srl, $user_srl);
 
