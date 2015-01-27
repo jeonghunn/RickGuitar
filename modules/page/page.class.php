@@ -57,10 +57,10 @@ class PageClass
 
     function ProfileUpdate($file_name)
     {
-        global $_FILES;
+     //   global $_FILES;
         $target_path =  "files/profile/";
         $thumbnail_path =  "files/profile/thumbnail/";
-        $tmp_img = explode(".", $_FILES['uploadedfile']['name']);
+      //  $tmp_img = explode(".", $_FILES['uploadedfile']['name']);
 //$img_name = $file_name.".".$tmp_img[1];
         $img_name = $file_name . "." . "jpg";
         $target_path = $target_path . basename($img_name);
