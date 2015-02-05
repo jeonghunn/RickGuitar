@@ -34,7 +34,7 @@
 
   <body ng-controller="FavoriteCtr">
 
-<?php if(REQUEST('nav') != false) require_once 'pages/navbar.php'; ?>
+<?php if(REQUEST('nav') != 'false') require_once 'pages/navbar.php'; ?>
 
  <div class="container">
 
