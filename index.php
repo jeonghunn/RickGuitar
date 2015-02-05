@@ -16,27 +16,12 @@ $user_auth = $_SESSION['user_auth'];
 require_once "pages/lang/".getLang().".php";
 
 
-//define('642979',   TRUE);
-//require_once 'config.php';
-
-//Auth code to user_srl
-
-//member
-//require_once 'member/member_class.php';
-
-//board
-//require_once 'board/documents_class.php';
-//require_once 'board/attach_class.php';
-
-//API
-//require_once 'core/api.class.php';
-
 $user_info = json_decode(PostAct(getAPIUrl(),  array(array('a', 'my_page_info'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('user_auth', $user_auth), array('page_info', 'user_srl//tarks_account//admin//name_1//name_2//gender//birthday//country_code//phone_number//join_day//profile_pic//profile_update//lang//country//like_me//favorite//rel_you_status//rel_me_status'))), true);
 
 $user_srl = $user_info[0]['user_srl'];
 $user_name = SetUserName($user_info[11]['lang'], $user_info[2]['name_1'], $user_info[3]['name_2']);
 
-require_once 'pages/header.php';
+if(REQUEST('header') != 'false') require_once 'pages/header.php';
 
 //Check login
 if(!CheckLogin()) {
@@ -119,6 +104,6 @@ function setLoaded($b){
 
 //Foot
 checkLoaded();
-require_once 'pages/footer.php';
+if(REQUEST('footer') != 'false') require_once 'pages/footer.php';
 
 ?>
