@@ -1,5 +1,7 @@
 
 
+
+<?php  if($error_code == 404)   header('HTTP/1.0 404 Not Found'); ?>
 <!-- html -->
     <div class="container">
 
