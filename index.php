@@ -73,6 +73,7 @@ LoadPages("info", "info", false);
 function checkLoaded(){
 	global $loaded;
 	$error_code = 404;
+    header('HTTP/1.0 404 Not Found');
 	if(!$loaded) require 'pages/error.php'; 
 }
 
