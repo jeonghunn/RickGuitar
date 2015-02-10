@@ -8,16 +8,16 @@
 
 class TarksAccountClass{
 
-function TarksAccountLogin($id, $password){
+function TarksAccountLogin($member_class, $id, $password){
     $password = md5($password);
     $loginResult = $this -> TarksAccount($id, $password);
 
     if($loginResult){
-        $user_info = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `tarks_account` LIKE '$id'"));
+        return  $member_class-> getPageAuth("tarks_account", $id);
     }
 
 
-    return  FindAuthCode($user_info['srl'], "user_srl");
+   return false;
 }
 
     function TarksAccount($id, $password){
@@ -49,7 +49,7 @@ function TarksAccountLogin($id, $password){
     }
 
 
-    function SignUpTarksAccount($email, $id, $password){
+    function SignUpTarksAccount($member_class, $email, $id, $password){
         $nowdate = date('YmdHis');
         if(!rtnSpecialCharCheck($id)) return "special_char_error";
         if($email == null || $id == null || $password == null) return false;
@@ -69,7 +69,6 @@ function TarksAccountLogin($id, $password){
         $seq_insert = mysql_query("INSERT INTO `xe_sequence` (`seq`) VALUES (NULL);");
         if($seq_insert) $tarks_signup = mysql_query("INSERT INTO `xe_member` (`member_srl`, `user_id`, `email_address`, `password`, `email_id`, `email_host`, `nick_name`, `regdate`, `last_login`, `change_password_date`, `extra_vars`, `list_order`) VALUES ('$seq', '$id', '$email', '$password' ,  '$email_array[0]', '$email_array[1]', '$nick_name', '$nowdate', '$nowdate', '$nowdate', '$extra_vars', '-$seq');");
         ConnectMainDB();
-
         return $tarks_signup;
     }
 
