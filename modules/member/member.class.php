@@ -20,7 +20,7 @@ function getPageSrl($category, $value){
     function getPageAuth($category, $value){
 
 
-        return  FindAuthCode(getPageSrl($category, $value), "user_srl");
+        return  FindAuthCode($this -> getPageSrl($category, $value), "user_srl");
     }
 
 
