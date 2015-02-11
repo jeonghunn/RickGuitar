@@ -69,7 +69,7 @@
         }
 
         function FindAuthCode($value, $category)  {
-        $sql ="SELECT * FROM  `auth` WHERE  `value` LIKE '$value' AND  `category` LIKE '$category' AND  `status` <= 1 AND ( `expire` = 0 OR `expire` < ".getTimeStamp().")";
+        $sql ="SELECT * FROM  `auth` WHERE  `value` LIKE '$value' AND  `category` LIKE '$category' AND  `status` <= 0 AND ( `expire` = 0 OR `expire` < ".getTimeStamp().")";
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
