@@ -1,7 +1,7 @@
 <?php
 
 function getCoreVersion(){
-    return "2.39.29.2.220";
+    return "2.39.29.3.221";
 }
 
 //Basic Info
@@ -249,6 +249,7 @@ function ThreadAct($name, $array){
     $thread = new Thread("localhost");
     $thread->setFunc( $name,  $array);
     $thread->start();
+    $thread->query();
 }
 
       
