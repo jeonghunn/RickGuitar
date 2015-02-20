@@ -20,7 +20,7 @@
 require_once 'core/auth.php';
 
 
-$user_srl = AuthCheck($page_auth, false);
+$user_srl = AuthCheck($page_auth, false)['value'];
 if($user_srl == null) $user_srl = 0;
 
 require_once 'core/logger.php';

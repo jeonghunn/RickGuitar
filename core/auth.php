@@ -51,7 +51,7 @@
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
-        $value = $row['value'];
+        //$value = $row['value'];
 
 //        if($row['active'] == 0){
 //          return false;
@@ -62,7 +62,7 @@
             $deleteresult = mysql_query($deletesql);
       }
 
-         return $value;
+         return $row;
 
 
 
