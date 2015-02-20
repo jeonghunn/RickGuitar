@@ -66,14 +66,13 @@ function APICheckAct(){
     $API_SRL = AuthCheck($API_KEY, false);
 
     //CHECK API STATUS
-    // 0 : NONE
-    // 1 : ACTIVE, 2: Checking 3: REJECTED, 4: Deleted
+    // 0 : ACTIVE, 1: Checking 2: REJECTED, 3: Deleted
     if(lottoNum(80)) {
         $API_INFO = mysql_fetch_array(mysql_query("SELECT * FROM  `api` WHERE  `srl` LIKE '$API_KEY'"));
 
         //IF App info exist
         //Check API Status
-        if($API_INFO['status'] > 2 || ( $API_INFO['expire'] < getTimeStamp() && $API_INFO['expire'] != 0 )) {
+        if($API_INFO['status'] > 1 || ( $API_INFO['expire'] < getTimeStamp() && $API_INFO['expire'] != 0 )) {
             UpdateAuthCodeStatus($API_KEY, 2);
             $API_SRL = false;
         }else{
