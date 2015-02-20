@@ -62,7 +62,7 @@ function APIPointUpdate($api_srl,$point){
 
 
 function APICheckAct(){
-    $API_KEY = mysql_real_escape_string($_REQUEST['api_key']);
+    $API_KEY = REQUEST('api_key');
     $API_SRL = AuthCheck($API_KEY, false);
 
     //CHECK API STATUS
