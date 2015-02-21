@@ -25,7 +25,7 @@ function getPageSrl($category, $value){
 
 
     function CreateMemberInfo($page_srl, $category, $value, $expired){
-        mysql_query("INSERT INTO `member` (`category`, `page_srl`, `value`, `date`, `expired`, `status`) VALUES ('$category', '$page_srl', '$value' , '".getTimeStamp()."', '$expired', '1');");
+        mysql_query("INSERT INTO `member` (`category`, `page_srl`, `value`, `date`, `expired`, `status`) VALUES ('$category', '$page_srl', '$value' , '".getTimeStamp()."', '$expired', '0');");
     }
 
 
