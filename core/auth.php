@@ -91,7 +91,7 @@ function UpdateAuthCodeStatus($key, $status){
 function UpdateAuthCode($key,  $category, $value, $status){
 
    // if(!AuthCheck($key, false)){
-        $sql = "UPDATE `auth` SET `category` = '$category', `value` = '$value', `status` = '$status' WHERE `key` = $key";
+        $sql = "UPDATE `auth` SET `category` = '$category', `value` = '$value', `status` = '$status' WHERE `key` = '$key'";
         $result = mysql_query($sql);
    // }
 return $result;
