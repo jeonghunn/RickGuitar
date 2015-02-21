@@ -1,7 +1,7 @@
 <?php
 
 function getCoreVersion(){
-    return "2.39.31.0.226";
+    return "2.39.32.0.227";
 }
 
 //Basic Info
@@ -48,6 +48,11 @@ echo $msg;
 
     exit();
 
+}
+
+function debugMode(){
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
 }
 
 function FatalError(){
