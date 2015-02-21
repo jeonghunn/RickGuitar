@@ -42,9 +42,10 @@ if($ACTION == "tarks_auth") $API -> API_AuthTarksAccount();
 if($ACTION == "make_tarks_authcode") $API -> API_MakeTarksAccountAuth();
 if($ACTION == "tarks_sign_up") $API -> API_SignUpTarksAccount();
 
-if(email_valid("jeonghunn1@gmail.com")){
+if(!email_valid("jeonghunn1@gmail.com")){
     echo 'asdf';
 }
+
 
 
 ?>
