@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.32.5.232";
+    return "2.39.33.0.233";
 }
 
 //Basic Info
@@ -187,10 +187,10 @@ $name = $name_2." ".$name_1;
 return $name;
 }
 
-
-function email_valid($temp_email) {
-    return preg_match("^[0-9a-zA-Z_-]+(\.[0-9a-zA-Z_-]+)*@[0-9a-zA-Z_-]+(\.[0-9a-zA-Z_-]+)+$", $temp_email);
-}
+//
+//function email_valid($temp_email) {
+//    return preg_match("^[0-9a-zA-Z_-]+(\.[0-9a-zA-Z_-]+)*@[0-9a-zA-Z_-]+(\.[0-9a-zA-Z_-]+)+$", $temp_email);
+//}
 
 function contentconvert($content)
 {
