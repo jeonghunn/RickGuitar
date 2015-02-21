@@ -45,13 +45,13 @@
 
         }
 
-        function AuthCheck($auth_key, $delete) {
+        function AuthCheck($auth_key, $category, $delete) {
         	//Auth_key is value of authcode
-        $sql ="SELECT * FROM  `auth` WHERE  `key` LIKE '$auth_key' AND `status` <= 1 AND ( `expire` = 0 OR `expire` < ".getTimeStamp()." )";
+        $sql ="SELECT * FROM  `auth` WHERE  `key` LIKE '$auth_key' AND `category` = '$category' AND `status` <= 1 AND ( `expire` = 0 OR `expire` < ".getTimeStamp()." )";
         $result = mysql_query($sql);
         $row=mysql_fetch_array($result);
 
-        //$value = $row['value'];
+        $value = $row['value'];
 
 //        if($row['active'] == 0){
 //          return false;
@@ -62,7 +62,7 @@
             $deleteresult = mysql_query($deletesql);
       }
 
-         return $row;
+         return $value;
 
 
 

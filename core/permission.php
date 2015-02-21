@@ -63,7 +63,7 @@ function APIPointUpdate($api_srl,$point){
 
 function APICheckAct(){
     $API_KEY = REQUEST('api_key');
-    $API_SRL = AuthCheck($API_KEY, false);
+    $API_SRL = AuthCheck($API_KEY, 'api', false);
 
     //CHECK API STATUS
     // 0 : ACTIVE, 1: Checking 2: REJECTED, 3: Deleted
