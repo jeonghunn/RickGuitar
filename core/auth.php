@@ -57,10 +57,7 @@
 //          return false;
 //        }
 //IF delete true, delete auth key
-       if($delete == true){
-        	  $deletesql ="DELETE FROM `auth` WHERE `key` = '$auth_key'";
-            $deleteresult = mysql_query($deletesql);
-      }
+            if($delete == true) UpdateAuthCodeStatus($auth_key, 3);
 
          return $value;
 
@@ -81,13 +78,13 @@ $auth_code = $row['key'];
         return $auth_code;
         }
 
-
 function UpdateAuthCodeStatus($key, $status){
-  //  if(!AuthCheck($key, false)){
-        $sql = "UPDATE `auth` SET `status` = '$status' WHERE `key` = $key";
-        $result = mysql_query($sql);
-        // }
-        return $result;
+    //  if(!AuthCheck($key, false)){
+    $sql = "UPDATE `auth` SET `status` = '$status' WHERE `key` = '$key'";
+    $result = mysql_query($sql);
+
+    // }
+    return $result;
 }
 
 
