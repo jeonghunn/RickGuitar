@@ -11,7 +11,7 @@ class MemberClass{
 
 function getPageSrl($category, $value){
 
-    $member_info = mysql_fetch_array(mysql_query("SELECT * FROM  `member` WHERE  `category` LIKE '$category' AND `value` LIKE '$value'  AND `status` <= 1  AND ( `expired` = 0 OR `expired` < ".getTimeStamp().")"));
+    $member_info = mysql_fetch_array(mysql_query("SELECT * FROM  `member` WHERE  `category` LIKE '$category' AND `value` LIKE '$value'  AND `status` <= 0  AND ( `expired` = 0 OR `expired` < ".getTimeStamp().")"));
 
     return $member_info['page_srl'];
 
