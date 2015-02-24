@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.34.0.236";
+    return "2.39.35.0.237";
 }
 
 //Basic Info
@@ -125,7 +125,9 @@ if($API_VERSION >= 1){
 
 
    for ($i=0 ; $i < count($info);$i++){
-$result_arr[] = array($info[$i] => $row[$info[$i]]);
+$result_arr[$info[$i]] = $row[$info[$i]];
+
+
 
 
 }
