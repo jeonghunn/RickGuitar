@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.33.2.235";
+    return "2.39.34.0.236";
 }
 
 //Basic Info
@@ -169,7 +169,7 @@ echo $row[$info[$i]];
 //Print for native app
 function print_array($row){
 
-   echo implode("/LINE/.", $row);
+   echo  json_encode($row);
     }
 
 
