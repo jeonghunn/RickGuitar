@@ -139,13 +139,14 @@ class DocumentClass
         //if ($user_srl != $page_srl) proc_close(proc_open ("../member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." &", array(), $foo));
     }
 
-    function document_getList($PAGE_CLASS, $user_srl, $doc_user_srl, $start, $number)
+    function document_getList($PAGE_CLASS, $user_srl, $page_srl, $start, $number)
     {
 //	$user_srl = AuthCheck($user_srl, false);
-        $doc_user_srl_info = $PAGE_CLASS -> GetPageInfo($doc_user_srl);
-        $status = setRelationStatus($user_srl, $doc_user_srl);
-        $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$doc_user_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
-        if ($doc_user_srl_info['status'] > $status || $doc_user_srl_info == null) $row = false;
+        $doc_page_srl_info = $PAGE_CLASS -> GetPageInfo($page_srl);
+        $status = setRelationStatus($user_srl, $page_srl);
+        $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$page_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+        if ($doc_page_srl_info['status'] > $status || $doc_page_srl_info == null) $row = false;
+        if($doc_page_srl_info == null) echo "누우우울";
         return $row;
     }
 
