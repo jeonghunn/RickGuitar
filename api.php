@@ -19,6 +19,7 @@ require_once 'core/Thumbnail.class.php';
 require_once 'modules/page/page.class.php';
 require_once 'modules/member/member.class.php';
 require_once 'modules/member/tarks_account.class.php';
+require_once 'modules/board/documents.class.php';
 
 
 //$user_srl = AuthCheck($page_auth, false);
@@ -42,7 +43,8 @@ if($ACTION == "tarks_auth") $API -> API_AuthTarksAccount();
 if($ACTION == "make_tarks_authcode") $API -> API_MakeTarksAccountAuth();
 if($ACTION == "tarks_sign_up") $API -> API_SignUpTarksAccount();
 
-
+//Board
+if($ACTION == "doc_list") $API -> API_getDocList();
 
 
 ?>

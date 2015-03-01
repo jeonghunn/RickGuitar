@@ -177,6 +177,36 @@ if($tarks_signup != false){
 
 
 
+    //Board
+
+    function API_getDocList($user_srl){
+
+        $DOCUMENT_CLASS = new DocumentClass();
+        $PAGE_CLASS = new DocumentClass();
+
+        $page_srl = REQUEST('page_srl');
+        $start_doc = REQUEST('start_doc');
+        $doc_number = REQUEST('doc_number');
+        $doc_info = REQUEST('doc_info');
+
+        $DocList = $DOCUMENT_CLASS -> document_getList($PAGE_CLASS, $user_srl, $page_srl, $start_doc, $doc_number);
+        document_PrintList($DocList, ExplodeInfoValue($doc_info));
+
+
+    }
+
+
+    function API_DocWirte(){
+
+
+        $document_write = document_write($page_srl, $user_srl , $title, $content, $permission, $status, $privacy);
+        if($document_write == true){
+            echo "document_write_succeed";
+        }else{
+            echo "document_write_error";
+        }
+    }
+
 
 
 }

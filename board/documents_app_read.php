@@ -1,4 +1,4 @@
-<?php
+                                                                                                                 <?php
 require_once '../core/base.php';
 
 $authcode = $_POST['authcode'];
