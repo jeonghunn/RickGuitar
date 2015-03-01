@@ -1,5 +1,5 @@
 <?php if(!defined("642979")) exit();
-
+debugMode();
     //ip, url, useragent, date
 //$siteaddress = "http://tarks.net/develop/favorite/";
 //$REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];

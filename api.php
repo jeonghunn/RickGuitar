@@ -45,6 +45,7 @@ if($ACTION == "tarks_sign_up") $API -> API_SignUpTarksAccount();
 
 //Board
 if($ACTION == "doc_list") $API -> API_getDocList($user_srl);
+if($ACTION == "doc_write") $API -> API_DocWirte();
 
 
 ?>
