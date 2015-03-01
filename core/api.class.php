@@ -190,7 +190,7 @@ if($tarks_signup != false){
         $doc_info = REQUEST('doc_info');
 
         $DocList = $DOCUMENT_CLASS -> document_getList($PAGE_CLASS, $user_srl, $page_srl, $start_doc, $doc_number);
-        document_PrintList($DocList, ExplodeInfoValue($doc_info));
+        $DOCUMENT_CLASS -> document_PrintList($DocList, ExplodeInfoValue($doc_info));
 
 
     }
