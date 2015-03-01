@@ -182,7 +182,7 @@ if($tarks_signup != false){
     function API_getDocList($user_srl){
 
         $DOCUMENT_CLASS = new DocumentClass();
-        $PAGE_CLASS = new DocumentClass();
+        $PAGE_CLASS = new PageClass();
 
         $page_srl = REQUEST('page_srl');
         $start_doc = REQUEST('start_doc');
