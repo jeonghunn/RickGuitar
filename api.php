@@ -44,7 +44,7 @@ if($ACTION == "make_tarks_authcode") $API -> API_MakeTarksAccountAuth();
 if($ACTION == "tarks_sign_up") $API -> API_SignUpTarksAccount();
 
 //Board
-if($ACTION == "doc_list") $API -> API_getDocList();
+if($ACTION == "doc_list") $API -> API_getDocList($user_srl);
 
 
 ?>
