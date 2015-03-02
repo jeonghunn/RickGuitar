@@ -51,16 +51,16 @@ updatePopularity($user_srl, $value, -20);
 //Set favorite count on user
 function setFavoriteCount($user_srl, $value, $category){
 	//Count my favorite
-	$me_favorite_count = getFavoriteCount($user_srl, $category);
-	$me_like_me_count = getLikeMeCount($user_srl, $category);
-      mysql_query("UPDATE `pages` SET `favorite` = '$me_favorite_count'   WHERE `user_srl` = '$user_srl'");
-    mysql_query("UPDATE `pages` SET `like_me` = '$me_like_me_count'   WHERE `user_srl` = '$user_srl'");
+	$me_favorite_count = $this -> getFavoriteCount($user_srl, $category);
+	$me_like_me_count = $this -> getLikeMeCount($user_srl, $category);
+      mysql_query("UPDATE `pages` SET `favorite` = '$me_favorite_count'   WHERE `srl` = '$user_srl'");
+    mysql_query("UPDATE `pages` SET `like_me` = '$me_like_me_count'   WHERE `srl` = '$user_srl'");
 
 //Count others favorite
-   	$you_favorite_count = getFavoriteCount($value, $category); 
-	$you_like_me_count = getLikeMeCount($value, $category);
-   mysql_query("UPDATE `pages` SET `favorite` = '$you_favorite_count'   WHERE `user_srl` = '$value'");
-    mysql_query("UPDATE `pages` SET `like_me` = '$you_like_me_count'   WHERE `user_srl` = '$value'");
+   	$you_favorite_count = $this -> getFavoriteCount($value, $category);
+	$you_like_me_count = $this -> getLikeMeCount($value, $category);
+   mysql_query("UPDATE `pages` SET `favorite` = '$you_favorite_count'   WHERE `srl` = '$value'");
+    mysql_query("UPDATE `pages` SET `like_me` = '$you_like_me_count'   WHERE `srl` = '$value'");
 
 }
 
@@ -95,19 +95,19 @@ function favorite_PrintList($row){
 	for($i=0 ; $i < $total; $i++){
                mysql_data_seek($row, $i);           //포인터 이동
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
-             echo $result[value]."/LINE/.";
+             echo $result['value']."/LINE/.";
 }         
 }
    
 // You must import member_class.php
-function favorite_PrintListbyUpdate($row){
+function favorite_PrintListbyUpdate($PAGE_CLASS, $row){
 	 $total= mysql_num_rows ( $row );
 	for($i=0 ; $i < $total; $i++){
                mysql_data_seek($row, $i);           //포인터 이동
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
-             $user_info = GetPageInfo($result[value]);
-             	$name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
-            $profile[] = array( "last_update"=> $user_info[last_update] , "user_srl"=> $result[value], "name"=> $name);
+             $user_info = $PAGE_CLASS -> GetPageInfo($result['value']);
+             	$name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
+            $profile[] = array( "last_update"=> $user_info['last_update'] , "user_srl"=> $result['value'], "name"=> $name);
 }         
 
 foreach ($profile as $key => $row) { 
