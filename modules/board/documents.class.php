@@ -146,7 +146,6 @@ class DocumentClass
         $status = setRelationStatus($user_srl, $page_srl);
         $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$page_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
         if ($doc_page_srl_info['status'] > $status || $doc_page_srl_info == null) $row = false;
-        if($doc_page_srl_info == null) echo "누우우울";
         return $row;
     }
 
@@ -193,6 +192,7 @@ class DocumentClass
 
     function document_PrintList($row, $doc_info)
     {
+
         $total = mysql_num_rows($row);
         for ($i = 0; $i < $total; $i++) {
             mysql_data_seek($row, $i);           //포인터 이동
