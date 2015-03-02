@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.37.0.243";
+    return "2.39.38.0.243";
 }
 
 //Basic Info
@@ -116,6 +116,15 @@ $response = curl_exec( $ch );
 return $response;
 }
 
+function array_info_match($row, $info){
+    for ($i=0 ; $i < count($info);$i++){
+        $result_arr[$info[$i]] = $row[$info[$i]];
+
+    }
+
+    return $result_arr;
+}
+
 //Print for native app
 function print_info($row, $info){
  global $API_VERSION;
@@ -124,14 +133,8 @@ if($API_VERSION >= 1){
 //API 1
 
 
-   for ($i=0 ; $i < count($info);$i++){
-$result_arr[$info[$i]] = $row[$info[$i]];
 
-
-
-
-}
- echo json_encode($result_arr);
+ echo json_encode(array_info_match($row, $info));
 
 
  }else{

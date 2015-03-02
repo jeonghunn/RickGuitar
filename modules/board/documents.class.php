@@ -193,12 +193,18 @@ class DocumentClass
     function document_PrintList($row, $doc_info)
     {
 
+
+
+
         $total = mysql_num_rows($row);
         for ($i = 0; $i < $total; $i++) {
             mysql_data_seek($row, $i);           //포인터 이동
             $result = mysql_fetch_array($row);        //레코드를 배열로 저장
-            echo print_info($result, $doc_info) . "/DOC/.";
+          //  echo print_info($result, $doc_info);
+            $array[] = array_info_match($result, $doc_info);
         }
+
+        echo json_encode($array);
     }
 
 
