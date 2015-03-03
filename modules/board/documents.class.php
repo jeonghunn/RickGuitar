@@ -14,8 +14,14 @@ class DocumentClass
 //Status
         $status = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
 
+        $row['you_doc_status'] = $status;
+       // $row['me_doc_status'] = $this -> getDocStatus($PAGE_CLASS, $doc_srl, $user_srl);
+
+
         if ($status < $page_info['status']) $row = false;
         if ($status < $row['status']) $row = false;
+
+
 
         return $row;
     }
@@ -203,6 +209,8 @@ class DocumentClass
           //  echo print_info($result, $doc_info);
             $array[] = array_info_match($result, $doc_info);
         }
+
+
 
         echo json_encode($array);
     }
