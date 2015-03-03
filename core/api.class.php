@@ -196,17 +196,20 @@ if($tarks_signup != false){
     }
 
 
-    function API_DocRead(){
+    function API_DocRead($user_srl){
 
         $DOCUMENT_CLASS = new DocumentClass();
         $PAGE_CLASS = new PageClass();
 
+        $doc_srl = REQUEST('doc_srl');
+        $doc_info = REQUEST('doc_info');
+
         $Doc_read = $DOCUMENT_CLASS -> document_read($PAGE_CLASS, $user_srl, $doc_srl);
-        print_info($Doc_read, ExplodeInfoValue($doc_info));
+        print_info($Doc_read, $doc_info);
 
     }
 
-    function API_DocWirte(){
+    function API_DocWrite(){
 
 
         $DOCUMENT_CLASS = new DocumentClass();
