@@ -73,7 +73,7 @@ class DocumentClass
         $OwnerInfo = $PAGE_CLASS -> GetPageInfo($this -> getDocInfo($doc_srl, "page_srl"));
 
 
-        return $OwnerInfo['user_srl'];
+        return $OwnerInfo['srl'];
 
     }
 
