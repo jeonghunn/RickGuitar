@@ -205,8 +205,7 @@ if($tarks_signup != false){
         $doc_info = REQUEST('doc_info');
 
         $Doc_read = $DOCUMENT_CLASS -> document_read($PAGE_CLASS, $user_srl, $doc_srl);
-        echo $doc_info;
-        print_info($Doc_read, $doc_info);
+        print_info($Doc_read, ExplodeInfoValue($doc_info));
 
     }
 
