@@ -196,14 +196,27 @@ if($tarks_signup != false){
     }
 
 
+    function API_DocRead(){
+
+        $DOCUMENT_CLASS = new DocumentClass();
+        $PAGE_CLASS = new PageClass();
+
+        $Doc_read = $DOCUMENT_CLASS -> document_read($PAGE_CLASS, $user_srl, $doc_srl);
+        print_info($Doc_read, ExplodeInfoValue($doc_info));
+
+    }
+
     function API_DocWirte(){
 
 
-        $document_write = document_write($page_srl, $user_srl , $title, $content, $permission, $status, $privacy);
+        $DOCUMENT_CLASS = new DocumentClass();
+        $PAGE_CLASS = new PageClass();
+
+        $document_write = $DOCUMENT_CLASS ->  document_write($PAGE_CLASS, $ATTACH_CLASS,   $page_srl, $user_srl , $title, $content, $permission, $status, $privacy);
         if($document_write == true){
-            echo "document_write_succeed";
+            echo "success";
         }else{
-            echo "document_write_error";
+            echo "error";
         }
     }
 
