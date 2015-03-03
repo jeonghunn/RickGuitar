@@ -7,9 +7,9 @@ class DocumentClass
     {
         //$user_srl = AuthCheck($user_srl, false);
         $row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
-        $page_info = $PAGE_CLASS -> GetPageInfo($row['srl']);
+        $page_info = $PAGE_CLASS -> GetPageInfo($row['page_srl']);
         //View
-        mysql_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
+        mysql_query("UPDATE `documents` SET `views` = $row['views'] + 1 WHERE `srl` = '$doc_srl'");
         if (getIPAddr() != $row['ip_addr'])  $PAGE_CLASS -> updatePopularity($user_srl, $row['page_srl'], 1);
 //Status
         $status = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
