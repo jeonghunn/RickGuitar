@@ -45,7 +45,7 @@ class CommentClass
         $cmt_info = $this->getComment($comment_srl);
 //doc owner
         $doc_owner = $DOCUMENT_CLASS->getDocOwner($cmt_info['doc_srl']);
-        $doc_page_owner = $DOCUMENT_CLASS->getDocPageOwner($cmt_info['doc_srl']);
+        $doc_page_owner = $DOCUMENT_CLASS->getDocPageOwner($PAGE_CLASS, $cmt_info['doc_srl']);
         $doc_page_owner_info = $PAGE_CLASS->GetPageInfo($doc_page_owner);
         $doc_page_owner_admin = $doc_page_owner_info['admin'];
 

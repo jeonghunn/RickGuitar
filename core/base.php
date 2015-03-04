@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.47.0.260";
+    return "2.39.47.1.261";
 }
 
 //Basic Info
