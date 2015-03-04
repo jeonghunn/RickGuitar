@@ -224,6 +224,28 @@ if($tarks_signup != false){
     }
 
 
+    //Comment
+
+    function API_getCommentList($user_srl){
+
+
+
+     //   $DOCUMENT_CLASS = new DocumentClass();
+        $COMMENT_CLASS = new CommentClass();
+      //  $PAGE_CLASS = new PageClass();
+
+
+        $doc_srl = REQUEST('doc_srl');
+        $comment_info = REQUEST('comment_info');
+        $start_comment = REQUEST('start_comment');
+        $comment_number = REQUEST('comment_number');
+
+
+
+
+        $CommentList = $COMMENT_CLASS -> comment_getList($user_srl, $doc_srl, $start_comment, $comment_number);
+        comment_PrintList($user_srl, $CommentList, ExplodeInfoValue($comment_info));
+    }
 
 }
 

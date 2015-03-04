@@ -118,7 +118,7 @@ $sent = array();
 for($i=0 ; $i < $total; $i++){
                mysql_data_seek($row, $i);           //포인터 이동
              $result=mysql_fetch_array($row);        //레코드를 배열로 저장
-             $sent[] = $result[user_srl];
+             $sent[] = $result['user_srl'];
 }     
 $sent[] = $doc_user_srl;
 $sent =  array_unique($sent);
