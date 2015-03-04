@@ -149,10 +149,10 @@ class CommentClass
     }
 
 
-    function comment_getList($user_srl, $doc_srl, $start, $number)
+    function comment_getList($DOCUMENT_CLASS, $user_srl, $doc_srl, $start, $number)
     {
 //	$user_srl = AuthCheck($user_srl, false);
-        $status = $this->getDocStatus($user_srl, $doc_srl);
+        $status = $DOCUMENT_CLASS -> getDocStatus($user_srl, $doc_srl);
         return mysql_query("SELECT * FROM  `comments` WHERE  `doc_srl` =$doc_srl AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `comments`.`srl` ASC LIMIT $start , $number");
     }
 
