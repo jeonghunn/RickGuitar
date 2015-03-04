@@ -157,7 +157,7 @@ class CommentClass
     }
 
 
-    function comment_PrintList($row, $comment_info)
+    function comment_PrintList($PAGE_CLASS, $DOCUMENT_CLASS, $user_srl, $row, $comment_info)
     {
 
         $total = mysql_num_rows($row);
@@ -165,6 +165,7 @@ class CommentClass
             mysql_data_seek($row, $i);           //포인터 이동
             $result = mysql_fetch_array($row);        //레코드를 배열로 저장
             //  echo print_info($result, $doc_info);
+          $result['you_comment_status'] = $this ->  getCommentStatus($PAGE_CLASS, $DOCUMENT_CLASS, $user_srl, $result['srl']);
             $array[] = array_info_match($result, $comment_info);
         }
 
