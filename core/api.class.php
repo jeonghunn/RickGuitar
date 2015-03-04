@@ -232,7 +232,7 @@ if($tarks_signup != false){
 
        $DOCUMENT_CLASS = new DocumentClass();
         $COMMENT_CLASS = new CommentClass();
-      //  $PAGE_CLASS = new PageClass();
+        $PAGE_CLASS = new PageClass();
 
 
         $doc_srl = REQUEST('doc_srl');
@@ -243,7 +243,7 @@ if($tarks_signup != false){
 
 
 
-        $CommentList = $COMMENT_CLASS -> comment_getList($DOCUMENT_CLASS, $user_srl, $doc_srl, $start_comment, $comment_number);
+        $CommentList = $COMMENT_CLASS -> comment_getList($PAGE_CLASS, $DOCUMENT_CLASS, $user_srl, $doc_srl, $start_comment, $comment_number);
         comment_PrintList($user_srl, $CommentList, ExplodeInfoValue($comment_info));
     }
 
