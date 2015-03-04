@@ -244,7 +244,7 @@ if($tarks_signup != false){
 
 
         $CommentList = $COMMENT_CLASS -> comment_getList($PAGE_CLASS, $DOCUMENT_CLASS, $user_srl, $doc_srl, $start_comment, $comment_number);
-        comment_PrintList($user_srl, $CommentList, ExplodeInfoValue($comment_info));
+        $COMMENT_CLASS -> comment_PrintList($user_srl, $CommentList, ExplodeInfoValue($comment_info));
     }
 
 }
