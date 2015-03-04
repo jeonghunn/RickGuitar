@@ -157,15 +157,23 @@ class CommentClass
     }
 
 
-    function comment_PrintList($user_srl, $row, $comment_info)
+    function comment_PrintList($row, $comment_info)
     {
-        //	$user_srl = AuthCheck($user_srl, false);
+
         $total = mysql_num_rows($row);
         for ($i = 0; $i < $total; $i++) {
             mysql_data_seek($row, $i);           //포인터 이동
             $result = mysql_fetch_array($row);        //레코드를 배열로 저장
-            echo print_info($result, $comment_info) . "/LINE/."  . "/CMT/.";
+            //  echo print_info($result, $doc_info);
+            $array[] = array_info_match($result, $comment_info);
         }
+
+
+
+        echo json_encode($array);
+
+
+
     }
 
 
