@@ -255,6 +255,28 @@ if($tarks_signup != false){
         $COMMENT_CLASS -> comment_PrintList($PAGE_CLASS, $DOCUMENT_CLASS, $user_srl, $CommentList, ExplodeInfoValue($comment_info));
     }
 
+
+    function API_CommentWrite($user_srl){
+        $DOCUMENT_CLASS = new DocumentClass();
+        $COMMENT_CLASS = new CommentClass();
+        $PAGE_CLASS = new PageClass();
+
+        $doc_srl = REQUEST('doc_srl');
+        $content = REQUEST('content');
+        $permission = REQUEST('permission');
+        $privacy = REQUEST('privacy');
+
+        $comment_write =  $COMMENT_CLASS -> comment_write($PAGE_CLASS, $DOCUMENT_CLASS, $doc_srl, $user_srl, $content, $permission, $privacy);
+
+        if($comment_write == true){
+            echo "success";
+
+        }else{
+            echo "error";
+        }
+
+    }
+
 }
 
 

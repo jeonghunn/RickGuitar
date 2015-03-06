@@ -50,6 +50,7 @@ if($ACTION == "doc_list") $API -> API_getDocList($user_srl);
 if($ACTION == "doc_write") $API -> API_DocWrite($user_srl);
 if($ACTION == "doc_read") $API -> API_DocRead($user_srl);
 if($ACTION == "comment_list") $API -> API_getCommentList($user_srl);
+if($ACTION == "comment_write") $API -> API_CommentWrite($user_srl);
 
 
 ?>
