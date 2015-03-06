@@ -231,6 +231,22 @@ if($tarks_signup != false){
         }
     }
 
+    function API_DocStatusUpdate($user_srl){
+        $DOCUMENT_CLASS = new DocumentClass();
+        $PAGE_CLASS = new PageClass();
+
+        $doc_srl = REQUEST('doc_srl');
+        $status = REQUEST('status');
+
+
+        $document_status_update = $DOCUMENT_CLASS -> document_status_update($PAGE_CLASS, $doc_srl, $user_srl, $status);
+        if($document_status_update == true){
+            echo "success";
+        }else{
+            echo "error";
+        }
+    }
+
 
     //Comment
 
