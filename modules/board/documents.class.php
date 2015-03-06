@@ -38,7 +38,7 @@ class DocumentClass
         //$user_srl = AuthCheck($user_srl, false);
         $status_relation = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
         if ($status_relation == 4) {
-            $result = mysql_query("UPDATE `documents` SET `status` = '$status'   WHERE `srl` = '$doc_srl' AND `status` < 5");
+            $result = mysql_query("UPDATE `documents` SET `status` = '$status'   WHERE `srl` = '$doc_srl'");
         } else {
             $result = false;
         }
