@@ -79,7 +79,7 @@ class CommentClass
         //$user_srl = AuthCheck($user_srl, false);
         $user_info = $PAGE_CLASS->GetPageInfo($user_srl);
         $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
-        $document = $DOCUMENT_CLASS->document_read($user_srl, $doc_srl);
+        $document = $DOCUMENT_CLASS->document_read($PAGE_CLASS, $user_srl, $doc_srl);
         $last_number = $this->CommentLastNumber();
         if ($content != "" && $document != null) {
             $result = mysql_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '" . getTimeStamp() . "', '$document[status]', '$privacy', '" . getIPAddr() . "');");

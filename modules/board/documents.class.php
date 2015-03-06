@@ -84,13 +84,13 @@ class DocumentClass
     }
 
 
-    function document_update($doc_srl, $user_srl, $namearray, $valuearray)
+    function document_update($PAGE_CLASS, $doc_srl, $user_srl, $namearray, $valuearray)
     {
         //$user_srl = AuthCheck($user_srl, false);
         $relation_status = setRelationStatus($user_srl, $page_srl);
-        $user_info = GetPageInfo($user_srl);
-        $name = SetUserName($user_info[lang], $user_info[name_1], $user_info[name_2]);
-        $last_number = DocLastNumber();
+        $user_info = $PAGE_CLASS -> GetPageInfo($user_srl);
+        $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
+        $last_number = $this -> DocLastNumber();
         $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`, `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '" . getIPAddr() . "');");
        // $this -> document_send_push($page_srl, $user_srl, $name, $last_number);
 //echo mysql_error();
