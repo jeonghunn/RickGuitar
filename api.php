@@ -21,6 +21,7 @@ require_once 'modules/member/member.class.php';
 require_once 'modules/member/tarks_account.class.php';
 require_once 'modules/board/documents.class.php';
 require_once 'modules/board/comment.class.php';
+require_once 'modules/board/attach.class.php';
 
 
 //$user_srl = AuthCheck($page_auth, false);
@@ -46,7 +47,7 @@ if($ACTION == "tarks_sign_up") $API -> API_SignUpTarksAccount();
 
 //Board
 if($ACTION == "doc_list") $API -> API_getDocList($user_srl);
-if($ACTION == "doc_write") $API -> API_DocWirte();
+if($ACTION == "doc_write") $API -> API_DocWirte($user_srl);
 if($ACTION == "doc_read") $API -> API_DocRead($user_srl);
 if($ACTION == "comment_list") $API -> API_getCommentList($user_srl);
 

@@ -209,11 +209,19 @@ if($tarks_signup != false){
 
     }
 
-    function API_DocWrite(){
+    function API_DocWrite($user_srl){
 
 
         $DOCUMENT_CLASS = new DocumentClass();
         $PAGE_CLASS = new PageClass();
+        $ATTACH_CLASS = new AttachClass();
+
+        $page_srl = REQUEST('page_srl');
+        $title = REQUEST('title');
+        $content = REQUEST('content');
+        $permission = REQUEST('permission');
+        $status = REQUEST('status');
+        $privacy = REQUEST('privacy');
 
         $document_write = $DOCUMENT_CLASS ->  document_write($PAGE_CLASS, $ATTACH_CLASS,   $page_srl, $user_srl , $title, $content, $permission, $status, $privacy);
         if($document_write == true){
