@@ -300,7 +300,7 @@ if($tarks_signup != false){
         $COMMENT_CLASS = new CommentClass();
         $PAGE_CLASS = new PageClass();
 
-        $comment_srl = REQUEST('doc_srl');
+        $comment_srl = REQUEST('comment_srl');
         $status = REQUEST('status');
 
         $comment_status_update = $COMMENT_CLASS -> comment_status_update($PAGE_CLASS, $DOCUMENT_CLASS, $comment_srl, $user_srl, $status);
