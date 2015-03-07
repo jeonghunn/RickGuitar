@@ -293,6 +293,24 @@ if($tarks_signup != false){
 
     }
 
+
+    function API_CommentStatusUpdate($user_srl){
+
+        $DOCUMENT_CLASS = new DocumentClass();
+        $COMMENT_CLASS = new CommentClass();
+        $PAGE_CLASS = new PageClass();
+
+        $comment_srl = REQUEST('doc_srl');
+        $status = REQUEST('status');
+
+        $comment_status_update = $COMMENT_CLASS -> comment_status_update($PAGE_CLASS, $DOCUMENT_CLASS, $comment_srl, $user_srl, $status);
+        if($comment_status_update == true){
+            echo "success";
+
+        }else{
+            echo "error";
+        }
+    }
 }
 
 
