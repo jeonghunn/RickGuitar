@@ -54,4 +54,5 @@ if($ACTION == "comment_list") $API -> API_getCommentList($user_srl);
 if($ACTION == "comment_write") $API -> API_CommentWrite($user_srl);
 if($ACTION == "comment_status_update") $API -> API_CommentStatusUpdate($user_srl);
 
+
 ?>

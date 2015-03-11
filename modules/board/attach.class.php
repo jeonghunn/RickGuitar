@@ -17,8 +17,8 @@ class AttachClass{
 
     function attach_file($page_srl, $doc_srl, $user_srl, $status)
     {
-        $image_path = "../files/images/";
-        $binaries_path = "../files/binaries/";
+        $image_path = "/files/images/";
+        $binaries_path = "/files/binaries/";
         if ($_FILES['uploadedfile']['name'] == null) return false;
 //$img_name = $file_name.".".$tmp_img[1];
         $file = $_FILES['uploadedfile']['name'];
@@ -45,8 +45,9 @@ class AttachClass{
         }
 
 
-        $result = mysql_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');");
+
         $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
+if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');");
 
         return $upload_result;
     }
