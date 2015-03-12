@@ -47,7 +47,7 @@ return $upload_result;
 }
 
 //Require document_class.php
-function attach_read($user_srl, $doc_srl){
+function attach_read($DOCUMENT_CLASS, $user_srl, $doc_srl){
 $status = getDocStatus($user_srl, $doc_srl);
 $result = mysql_query("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5))");
 
