@@ -3,7 +3,7 @@
 class DocumentClass
 {
 
-    function document_read($PAGE_CLASS, $user_srl, $doc_srl)
+    function document_read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $doc_srl)
     {
         //$user_srl = AuthCheck($user_srl, false);
         $row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
@@ -15,6 +15,7 @@ class DocumentClass
         $status = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
 
         $row['you_doc_status'] = $status;
+        $row['attach_contents'] = $ATTACH_CLASS -> attach_read($user_srl, $doc_srl);
        // $row['me_doc_status'] = $this -> getDocStatus($PAGE_CLASS, $doc_srl, $user_srl);
 
 
