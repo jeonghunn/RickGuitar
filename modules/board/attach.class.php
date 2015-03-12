@@ -47,7 +47,7 @@ class AttachClass{
 
 
         $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');");
+if($upload_result)  $result = mysql_fetch_array(mysql_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');"));
 
         return $upload_result;
     }
