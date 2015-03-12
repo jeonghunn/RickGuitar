@@ -18,7 +18,7 @@ class DocumentClass
         $row['attach_contents'] = $ATTACH_CLASS -> attach_read($PAGE_CLASS, $this, $user_srl, $doc_srl);
 
 
-        echo $row;
+        echo $row['attach_contents'];
        // $row['me_doc_status'] = $this -> getDocStatus($PAGE_CLASS, $doc_srl, $user_srl);
 
 
