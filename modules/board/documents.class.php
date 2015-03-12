@@ -17,9 +17,8 @@ class DocumentClass
         $row['you_doc_status'] = $status;
         $row['attach_contents'] = $ATTACH_CLASS -> attach_read($PAGE_CLASS, $this, $user_srl, $doc_srl);
 
-        if($row['attach_contents'] != null){
-            echo json_encode($row['attach_contents']);
-        }
+
+        echo $row;
        // $row['me_doc_status'] = $this -> getDocStatus($PAGE_CLASS, $doc_srl, $user_srl);
 
 
