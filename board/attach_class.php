@@ -47,9 +47,9 @@ return $upload_result;
 }
 
 //Require document_class.php
-function attach_read($PAGE_CLASS, $DOCUMENT_CLASS, $user_srl, $doc_srl){
-$status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
-$result = mysql_query("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5))");
+function attach_read($user_srl, $doc_srl, $doc_status){
+//$status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
+$result = mysql_query("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$doc_status OR (`user_srl` =$user_srl AND `status` < 5))");
 
 return $result;
 }

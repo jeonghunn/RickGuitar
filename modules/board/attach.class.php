@@ -53,10 +53,10 @@ if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `do
     }
 
 //Require document_class.php
-    function attach_read( $PAGE_CLASS, $DOCUMENT_CLASS, $user_srl, $doc_srl)
+    function attach_read(  $user_srl, $doc_srl, $doc_status)
     {
-        $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
-        $result = mysql_fetch_array(mysql_query("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5))"));
+       // $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
+        $result = mysql_fetch_array(mysql_query("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$doc_status OR (`user_srl` =$user_srl AND `status` < 5))"));
 
         return $result;
     }

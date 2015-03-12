@@ -204,8 +204,9 @@ if($tarks_signup != false){
 
         $doc_srl = REQUEST('doc_srl');
         $doc_info = REQUEST('doc_info');
+        $attach_info = REQUEST('attach_info');
 
-        $Doc_read = $DOCUMENT_CLASS -> document_read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $doc_srl);
+        $Doc_read = $DOCUMENT_CLASS -> document_read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $doc_srl, ExplodeInfoValue($attach_info));
         print_info($Doc_read, ExplodeInfoValue($doc_info));
 
     }
