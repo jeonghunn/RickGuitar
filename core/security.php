@@ -23,6 +23,8 @@ function security_passwordWrong() {
 
 function SecurityInfoCheck($value){
     if($value == "ip_addr") return false;
+
+    return true;
 }
       
 ?>
