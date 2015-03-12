@@ -19,5 +19,10 @@ function rtnSpecialCharCheck($str)
 function security_passwordWrong() {
 	ip_point_add(450);
 }
+
+
+function SecurityInfoCheck($value){
+    if($value == "ip_addr") return false;
+}
       
 ?>

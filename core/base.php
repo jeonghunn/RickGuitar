@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.56.0.283";
+    return "2.39.57.0.284";
 }
 
 //Basic Info
@@ -118,7 +118,7 @@ return $response;
 
 function array_info_match($row, $info){
     for ($i=0 ; $i < count($info);$i++){
-        $result_arr[$info[$i]] = $row[$info[$i]];
+      if(SecurityInfoCheck($info[$i])) $result_arr[$info[$i]] = $row[$info[$i]];
 
     }
 
