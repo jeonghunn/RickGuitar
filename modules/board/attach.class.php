@@ -47,7 +47,7 @@ class AttachClass{
 
 
         $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-if($upload_result)  $result = mysql_fetch_array(mysql_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');"));
+if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');");
 
         return $upload_result;
     }
@@ -56,7 +56,7 @@ if($upload_result)  $result = mysql_fetch_array(mysql_query("INSERT INTO `attach
     function attach_read( $PAGE_CLASS, $DOCUMENT_CLASS, $user_srl, $doc_srl)
     {
         $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
-        $result = mysql_query("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5))");
+        $result = mysql_fetch_array(mysql_query("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5))"));
 
         return $result;
     }
