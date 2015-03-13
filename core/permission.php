@@ -62,6 +62,8 @@ function APIPointUpdate($api_srl,$point){
 
 
 function APICheckAct($ip_point){
+    global $ACTION;
+    if(SecurityAllowActionCheck($ACTION)) return true;
     $API_KEY = REQUEST('api_key');
     if($API_KEY == null) ErrorMessage('api_error');
     $API_SRL = AuthCheck($API_KEY, 'api', false);

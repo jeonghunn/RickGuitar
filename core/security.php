@@ -26,5 +26,11 @@ function SecurityInfoCheck($value){
 
     return true;
 }
+
+function SecurityAllowActionCheck($value){
+    if($value == "download") return true;
+
+    return false;
+}
       
 ?>
