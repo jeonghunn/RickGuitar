@@ -252,6 +252,13 @@ if($tarks_signup != false){
     //Attach
     function API_AttachDownload(){
 
+        $ATTACH_CLASS = new AttachClass();
+
+
+        $filevalue = REQUEST('filevalue');
+
+        $ATTACH_CLASS -> AttachDownload($filevalue);
+
     }
 
 

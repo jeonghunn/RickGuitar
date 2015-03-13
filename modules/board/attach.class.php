@@ -104,6 +104,36 @@ if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `do
         }
     }
 
+    function AttachDownload($filevalue){
+        $attach_info = $this -> getAttachInfoByfileValue($filevalue);
+        $path = "files/binaries/".$attach_info['filevalue'];
+
+        $this -> addAttachDownloadCount($attach_info['srl']);
+
+
+
+        $filesize = filesize($path);
+        $filename = $attach_info['filename'];
+//$filename = mb_basename($path);
+        if( $this -> CheckIE() ) $filename = $this -> utf2euc($filename);
+
+        header("Pragma: public");
+        header("Expires: 0");
+        header("Content-Type: application/octet-stream");
+        header("Content-Disposition: attachment; filename=\"$filename".".".$attach_info['extension']."\"");
+        header("Content-Transfer-Encoding: binary");
+        header("Content-Length: $filesize");
+
+        ob_clean();
+        flush();
+        readfile($path);
+    }
+
+    function mb_basename($path) { return end(explode('/',$path)); }
+    function utf2euc($str) { return iconv("UTF-8","cp949//IGNORE", $str); }
+    function CheckIE() { return isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false; }
+
+
 
 }
 ?>
