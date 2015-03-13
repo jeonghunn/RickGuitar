@@ -15,7 +15,7 @@ class DocumentClass
         $status = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
 
         $row['you_doc_status'] = $status;
-        $row['attach_contents'] = array_info_match($ATTACH_CLASS -> attach_read($user_srl, $doc_srl, $status), $attach_info);
+      if($attach_info != null)  $row['attach_contents'] = array_info_match($ATTACH_CLASS -> attach_read($user_srl, $doc_srl, $status), $attach_info);
 
 
      //   echo $row['attach_contents'];
