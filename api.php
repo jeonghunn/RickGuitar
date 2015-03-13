@@ -6,7 +6,7 @@ define('642979',   TRUE);
 $API_VERSION = (int) REQUEST('apiv');
 $ACTION = REQUEST('a');
 $page_auth =POST('auth');
-$api_key =REQUEST('api_key');
+//$api_key =REQUEST('api_key');
 
 //Log
 $log = REQUEST('page_srl');
@@ -27,7 +27,7 @@ require_once 'modules/board/attach.class.php';
 //$user_srl = AuthCheck($page_auth, false);
 
 $API = new APIClass();
-if($api_key == null) ErrorMessage('api_error');
+
 
 
 if($ACTION == "hello_world") $API -> hello_world();
