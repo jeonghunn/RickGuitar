@@ -5,6 +5,7 @@ function getCoreVersion(){
     return "2.39.62.1.293";
 }
 
+
 //Basic Info
 function getSiteAddress(){
     return "http://tarks.net/develop/favorite/";
