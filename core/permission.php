@@ -66,11 +66,13 @@ function APICheckAct($ip_point){
     if(SecurityAllowActionCheck($ACTION)) return true;
     $API_KEY = REQUEST('api_key');
     if($API_KEY == null) ErrorMessage('api_error');
-    $API_SRL = AuthCheck($API_KEY, 'api', false);
+
 
     //CHECK API STATUS
     // 0 : ACTIVE, 1: Checking 2: REJECTED, 3: Deleted
     if(lottoNum(35) && $ip_point > 800) {
+        $API_SRL = AuthCheck($API_KEY, 'api', false);
+
         $API_INFO = mysql_fetch_array(mysql_query("SELECT * FROM  `api` WHERE  `srl` LIKE '$API_KEY'"));
 
         //IF App info exist
@@ -83,8 +85,9 @@ function APICheckAct($ip_point){
         ThreadAct('APIPointUpdate' , array($API_SRL, 1));
         }
 
+        if(!$API_SRL) ErrorMessage("api_error");
     }
-    if(!$API_SRL) ErrorMessage("api_error");
+
 }
 
 ?>
