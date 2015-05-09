@@ -81,7 +81,7 @@ if($content != "" && $document != null) {
 	setDocCommentCount($doc_srl);
 	if(getIPAddr() != $document['ip_addr']) updatePopularity($user_srl, $document['page_srl'], 1);
 	//Send Alert
-    comment_send_push($document[user_srl], $doc_srl, $user_srl, $name, $content, $doc_srl);
+    comment_send_push($document['user_srl'], $doc_srl, $user_srl, $name, $content, $doc_srl);
 }
 //echo mysql_error();
 	

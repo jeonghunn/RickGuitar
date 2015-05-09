@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/board/documents_class.php" line="179" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/board/comment_class.php" afterPath="$PROJECT_DIR$/board/comment_class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/page/page.class.php" afterPath="$PROJECT_DIR$/modules/page/page.class.php" />
+    </list>
+    <ignored path="favoritecore.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="favoritecore" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+              <folding>
+                <marker date="1426517108000" expanded="true" signature="3804:3858" placeholder="..." />
+                <marker date="1426517108000" expanded="true" signature="4020:4152" placeholder="SELECT * FRO..." />
+                <marker date="1426517108000" expanded="true" signature="4207:4339" placeholder="SELECT * FRO..." />
+                <marker date="1426517108000" expanded="true" signature="4393:4444" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="57" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attach.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/board/attach.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="131" column="24" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="24" />
+              <folding>
+                <marker date="1426225433000" expanded="true" signature="130:190" placeholder="SELECT * FRO..." />
+                <marker date="1426225433000" expanded="true" signature="313:361" placeholder="SELECT * FRO..." />
+                <marker date="1426225433000" expanded="true" signature="1572:1876" placeholder="INSERT INTO ..." />
+                <marker date="1426225433000" expanded="true" signature="2152:2276" placeholder="SELECT * FRO..." />
+                <marker date="1426225433000" expanded="true" signature="2609:2682" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/page/page.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.76785713">
+              <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+              <folding>
+                <marker date="1429835938000" expanded="true" signature="562:614" placeholder="SELECT * FRO..." />
+                <marker date="1429835938000" expanded="true" signature="795:852" placeholder="SELECT * FRO..." />
+                <marker date="1429835938000" expanded="true" signature="913:969" placeholder="SELECT * FRO..." />
+                <marker date="1429835938000" expanded="true" signature="2951:3046" placeholder="SELECT * FRO..." />
+                <marker date="1429835938000" expanded="true" signature="3187:3281" placeholder="SELECT * FRO..." />
+                <marker date="1429835938000" expanded="true" signature="3928:4037" placeholder="SELECT * FRO..." />
+                <marker date="1429835938000" expanded="true" signature="5717:5770" placeholder="SELECT * FRO..." />
+                <marker date="1429835938000" expanded="true" signature="5951:6018" placeholder="SELECT * FRO..." />
+                <marker date="1429835938000" expanded="true" signature="6163:6223" placeholder="SELECT * FRO..." />
+                <marker date="1429835938000" expanded="true" signature="6276:6353" placeholder="INSERT INTO ..." />
+                <marker date="1429835938000" expanded="true" signature="7023:7414" placeholder="INSERT INTO ..." />
+                <marker date="1429835938000" expanded="true" signature="8302:8773" placeholder="INSERT INTO ..." />
+                <marker date="1429835938000" expanded="true" signature="9934:9984" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/board/download.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/api.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="259" column="52" selection-start-line="259" selection-start-column="52" selection-end-line="259" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment_app_write.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/board/comment_app_write.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comment_class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/board/comment_class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+              <folding>
+                <marker date="1426957238000" expanded="true" signature="208:263" placeholder="SELECT * FRO..." />
+                <marker date="1426957238000" expanded="true" signature="1777:1817" placeholder="SELECT * FRO..." />
+                <marker date="1426957238000" expanded="true" signature="2245:2478" placeholder="INSERT INTO ..." />
+                <marker date="1426957238000" expanded="true" signature="3117:3192" placeholder="SELECT * FRO..." />
+                <marker date="1426957238000" expanded="true" signature="3371:3475" placeholder="SELECT user_..." />
+                <marker date="1426957238000" expanded="true" signature="4397:4565" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permission.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/permission.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="90" selection-end-column="1" />
+              <folding>
+                <marker date="1426516951000" expanded="true" signature="262:388" placeholder="INSERT INTO ..." />
+                <marker date="1426516951000" expanded="true" signature="1296:1362" placeholder="SELECT * FRO..." />
+                <marker date="1426516951000" expanded="true" signature="1762:1819" placeholder="SELECT * FRO..." />
+                <marker date="1426516951000" expanded="true" signature="2754:2803" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pages/api/api_main.php" />
+        <option value="$PROJECT_DIR$/pages/js/class.js" />
+        <option value="$PROJECT_DIR$/board/comment_app_read.php" />
+        <option value="$PROJECT_DIR$/board/comment_app_write.php" />
+        <option value="$PROJECT_DIR$/board/documents_app_write.php" />
+        <option value="$PROJECT_DIR$/board/download.php" />
+        <option value="$PROJECT_DIR$/favorite/favorite_app.php" />
+        <option value="$PROJECT_DIR$/favorite/favorite_app_add.php" />
+        <option value="$PROJECT_DIR$/favorite/favorite_app_read.php" />
+        <option value="$PROJECT_DIR$/member/page_auth_app.php" />
+        <option value="$PROJECT_DIR$/member/page_create_app.php" />
+        <option value="$PROJECT_DIR$/member/page_read_app.php" />
+        <option value="$PROJECT_DIR$/member/profile_info.php" />
+        <option value="$PROJECT_DIR$/member/profile_update_app.php" />
+        <option value="$PROJECT_DIR$/member/push.php" />
+        <option value="$PROJECT_DIR$/member/tarks_get_member_info.php" />
+        <option value="$PROJECT_DIR$/member/tarks_account_check.php" />
+        <option value="$PROJECT_DIR$/member/member_class.php" />
+        <option value="$PROJECT_DIR$/modules/member/tarks_accoount.class.php" />
+        <option value="$PROJECT_DIR$/pages/info.php" />
+        <option value="$PROJECT_DIR$/modules/page/push.class.php" />
+        <option value="$PROJECT_DIR$/core/thread.class.php" />
+        <option value="$PROJECT_DIR$/core/logger.php" />
+        <option value="$PROJECT_DIR$/core/status.php" />
+        <option value="$PROJECT_DIR$/modules/page/page_add.class.php" />
+        <option value="$PROJECT_DIR$/member/join_app.php" />
+        <option value="$PROJECT_DIR$/pages/navbar.php" />
+        <option value="$PROJECT_DIR$/pages/header.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/pages/error.php" />
+        <option value="$PROJECT_DIR$/pages/base.php" />
+        <option value="$PROJECT_DIR$/load.php" />
+        <option value="$PROJECT_DIR$/core/auth.php" />
+        <option value="$PROJECT_DIR$/modules/member/tarks_account.class.php" />
+        <option value="$PROJECT_DIR$/modules/member/member.class.php" />
+        <option value="$PROJECT_DIR$/board/documents_app_read.php" />
+        <option value="$PROJECT_DIR$/favorite/favorite_class.php" />
+        <option value="$PROJECT_DIR$/modules/favorite/favorite.class.php" />
+        <option value="$PROJECT_DIR$/board/attach_class.php" />
+        <option value="$PROJECT_DIR$/modules/board/comment.class.php" />
+        <option value="$PROJECT_DIR$/modules/board/documents.class.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/core/security.php" />
+        <option value="$PROJECT_DIR$/modules/board/attach.class.php" />
+        <option value="$PROJECT_DIR$/core/api.class.php" />
+        <option value="$PROJECT_DIR$/api.php" />
+        <option value="$PROJECT_DIR$/core/permission.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/core/db.php" />
+        <option value="$PROJECT_DIR$/board/comment_class.php" />
+        <option value="$PROJECT_DIR$/modules/page/page.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1008" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="member" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favorite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="board" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="favoritecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="files" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="256" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="273" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="277" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1071" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="268" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="269" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="273" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1067" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/board" />
+      <recent name="$PROJECT_DIR$/modules/page" />
+      <recent name="$PROJECT_DIR$/modules/favorite" />
+      <recent name="$PROJECT_DIR$/pages/lang" />
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/lang" />
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="71eb6743-56c1-49a5-8eb8-31b36ce262a4" server_name="FavoriteDevelopServer">
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="" />
+      <created>1420092921453</created>
+      <option name="number" value="Default" />
+      <updated>1420092921453</updated>
+      <workItem from="1420092922408" duration="27736000" />
+      <workItem from="1420159339892" duration="14739000" />
+      <workItem from="1420208762387" duration="5172000" />
+      <workItem from="1420248885264" duration="385000" />
+      <workItem from="1420249283446" duration="19775000" />
+      <workItem from="1420332327407" duration="27534000" />
+      <workItem from="1420421641802" duration="8830000" />
+      <workItem from="1420454022107" duration="11000" />
+      <workItem from="1420458900051" duration="10131000" />
+      <workItem from="1420512395454" duration="15392000" />
+      <workItem from="1420545876214" duration="8012000" />
+      <workItem from="1420595819286" duration="3367000" />
+      <workItem from="1420614233492" duration="821000" />
+      <workItem from="1420634238146" duration="9292000" />
+      <workItem from="1420650047161" duration="1819000" />
+      <workItem from="1420681891738" duration="12606000" />
+      <workItem from="1420699867727" duration="9397000" />
+      <workItem from="1420737819971" duration="2796000" />
+      <workItem from="1420782733873" duration="4198000" />
+      <workItem from="1420810655849" duration="9145000" />
+      <workItem from="1420851868620" duration="7860000" />
+      <workItem from="1420871159127" duration="50000" />
+      <workItem from="1420890776885" duration="1134000" />
+      <workItem from="1420908405219" duration="1682000" />
+      <workItem from="1420938991872" duration="290000" />
+      <workItem from="1420939907073" duration="4350000" />
+      <workItem from="1420970532168" duration="11923000" />
+      <workItem from="1420992771567" duration="599000" />
+      <workItem from="1420995835758" duration="273000" />
+      <workItem from="1421124501236" duration="2265000" />
+      <workItem from="1421155057153" duration="4031000" />
+      <workItem from="1421235013153" duration="2001000" />
+      <workItem from="1421244530713" duration="1627000" />
+      <workItem from="1421291233208" duration="2306000" />
+      <workItem from="1421303095399" duration="324000" />
+      <workItem from="1421311614013" duration="492000" />
+      <workItem from="1421333456668" duration="6888000" />
+      <workItem from="1421377385736" duration="5794000" />
+      <workItem from="1421413923009" duration="6044000" />
+      <workItem from="1421456527634" duration="5783000" />
+      <workItem from="1421501255651" duration="310000" />
+      <workItem from="1421502142367" duration="9303000" />
+      <workItem from="1421543884305" duration="3942000" />
+      <workItem from="1421555764020" duration="129000" />
+      <workItem from="1421556892521" duration="6487000" />
+      <workItem from="1421590322062" duration="5448000" />
+      <workItem from="1421632306025" duration="7653000" />
+      <workItem from="1421653838668" duration="1369000" />
+      <workItem from="1421658723596" duration="1249000" />
+      <workItem from="1421676939595" duration="7702000" />
+      <workItem from="1421714048328" duration="19568000" />
+      <workItem from="1421760787711" duration="12142000" />
+      <workItem from="1421805907356" duration="5552000" />
+      <workItem from="1421820955620" duration="714000" />
+      <workItem from="1421845834133" duration="313000" />
+      <workItem from="1421855514743" duration="4205000" />
+      <workItem from="1421902886108" duration="947000" />
+      <workItem from="1421914079092" duration="11308000" />
+      <workItem from="1421947141599" duration="561000" />
+      <workItem from="1421982561742" duration="3681000" />
+      <workItem from="1422029988782" duration="5690000" />
+      <workItem from="1422073617330" duration="5388000" />
+      <workItem from="1422099988159" duration="1153000" />
+      <workItem from="1422104386613" duration="12894000" />
+      <workItem from="1422121427585" duration="743000" />
+      <workItem from="1422153448966" duration="10450000" />
+      <workItem from="1422182443641" duration="314000" />
+      <workItem from="1422189818701" duration="8232000" />
+      <workItem from="1422292899571" duration="1235000" />
+      <workItem from="1422317911672" duration="1645000" />
+      <workItem from="1422370715530" duration="163000" />
+      <workItem from="1422416409897" duration="3054000" />
+      <workItem from="1422464846134" duration="82000" />
+      <workItem from="1422464967339" duration="875000" />
+      <workItem from="1422536074293" duration="142000" />
+      <workItem from="1422538008748" duration="1865000" />
+      <workItem from="1422550751351" duration="787000" />
+      <workItem from="1422666832941" duration="133000" />
+      <workItem from="1422670643456" duration="77000" />
+      <workItem from="1423117553654" duration="1617000" />
+      <workItem from="1423185094360" duration="208000" />
+      <workItem from="1423228326613" duration="575000" />
+      <workItem from="1423239298817" duration="599000" />
+      <workItem from="1423358773669" duration="996000" />
+      <workItem from="1423545932546" duration="7762000" />
+      <workItem from="1423573389827" duration="9964000" />
+      <workItem from="1423645725841" duration="2534000" />
+      <workItem from="1423656073673" duration="1417000" />
+      <workItem from="1423675896277" duration="89000" />
+      <workItem from="1423676005011" duration="615000" />
+      <workItem from="1423749163279" duration="599000" />
+      <workItem from="1423750205976" duration="4679000" />
+      <workItem from="1423759617218" duration="647000" />
+      <workItem from="1424109537373" duration="399000" />
+      <workItem from="1424138986255" duration="201000" />
+      <workItem from="1424418221837" duration="7173000" />
+      <workItem from="1424520296802" duration="1125000" />
+      <workItem from="1424530728367" duration="2897000" />
+      <workItem from="1424537486953" duration="6000" />
+      <workItem from="1424538150164" duration="3287000" />
+      <workItem from="1424543398600" duration="482000" />
+      <workItem from="1424786238289" duration="2857000" />
+      <workItem from="1424828013635" duration="556000" />
+      <workItem from="1424970386851" duration="280000" />
+      <workItem from="1424972075588" duration="662000" />
+      <workItem from="1425150462932" duration="806000" />
+      <workItem from="1425190683560" duration="21694000" />
+      <workItem from="1425273162626" duration="14909000" />
+      <workItem from="1425390508417" duration="12781000" />
+      <workItem from="1425474662164" duration="11833000" />
+      <workItem from="1425662777560" duration="4353000" />
+      <workItem from="1425688975563" duration="448000" />
+      <workItem from="1425703296598" duration="556000" />
+      <workItem from="1425709979422" duration="1914000" />
+      <workItem from="1425750069557" duration="166000" />
+      <workItem from="1425836140708" duration="1039000" />
+      <workItem from="1425898548388" duration="7513000" />
+      <workItem from="1426002395278" duration="1222000" />
+      <workItem from="1426095206116" duration="1786000" />
+      <workItem from="1426122279656" duration="20622000" />
+      <workItem from="1426206468316" duration="2790000" />
+      <workItem from="1426247909680" duration="874000" />
+      <workItem from="1426516736003" duration="388000" />
+      <workItem from="1426517188761" duration="95000" />
+      <workItem from="1426957164752" duration="1087000" />
+      <workItem from="1429834815256" duration="18000" />
+      <workItem from="1429834873701" duration="698000" />
+      <workItem from="1429836855328" duration="1535000" />
+    </task>
+    <task id="LOCAL-00332" summary="debugmode off">
+      <created>1425492319797</created>
+      <option name="number" value="00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1425492319797</updated>
+    </task>
+    <task id="LOCAL-00333" summary="docwrite updated">
+      <created>1425664277289</created>
+      <option name="number" value="00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1425664277289</updated>
+    </task>
+    <task id="LOCAL-00334" summary="debugmode on">
+      <created>1425664382033</created>
+      <option name="number" value="00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1425664382033</updated>
+    </task>
+    <task id="LOCAL-00335" summary="wrong method name fixed">
+      <created>1425664468679</created>
+      <option name="number" value="00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1425664468679</updated>
+    </task>
+    <task id="LOCAL-00336" summary="debugmode off">
+      <created>1425664569228</created>
+      <option name="number" value="00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1425664569228</updated>
+    </task>
+    <task id="LOCAL-00337" summary="comment feature updated">
+      <created>1425665752969</created>
+      <option name="number" value="00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1425665752969</updated>
+    </task>
+    <task id="LOCAL-00338" summary="debugmode on">
+      <created>1425665945269</created>
+      <option name="number" value="00338" />
+      <option name="project" value="LOCAL" />
+      <updated>1425665945269</updated>
+    </task>
+    <task id="LOCAL-00339" summary="comment doc read bug fixed">
+      <created>1425666148775</created>
+      <option name="number" value="00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1425666148775</updated>
+    </task>
+    <task id="LOCAL-00340" summary="debugmode off">
+      <created>1425666184610</created>
+      <option name="number" value="00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1425666184610</updated>
+    </task>
+    <task id="LOCAL-00341" summary="Docstatusupdate api added">
+      <created>1425667160636</created>
+      <option name="number" value="00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1425667160636</updated>
+    </task>
+    <task id="LOCAL-00342" summary="update doc status bug fixed">
+      <created>1425668142256</created>
+      <option name="number" value="00342" />
+      <option name="project" value="LOCAL" />
+      <updated>1425668142256</updated>
+    </task>
+    <task id="LOCAL-00343" summary="updated">
+      <created>1425668236556</created>
+      <option name="number" value="00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1425668236556</updated>
+    </task>
+    <task id="LOCAL-00344" summary="doc status update bug fixed">
+      <created>1425668306390</created>
+      <option name="number" value="00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1425668306390</updated>
+    </task>
+    <task id="LOCAL-00345" summary="Comment status update feature added">
+      <created>1425710672367</created>
+      <option name="number" value="00345" />
+      <option name="project" value="LOCAL" />
+      <updated>1425710672367</updated>
+    </task>
+    <task id="LOCAL-00346" summary="comment_Srl fixed">
+      <created>1425711717812</created>
+      <option name="number" value="00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1425711717812</updated>
+    </task>
+    <task id="LOCAL-00347" summary="path and submit bug fixed">
+      <created>1426095597658</created>
+      <option name="number" value="00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1426095597658</updated>
+    </task>
+    <task id="LOCAL-00348" summary="path bug fixed">
+      <created>1426095722200</created>
+      <option name="number" value="00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1426095722200</updated>
+    </task>
+    <task id="LOCAL-00349" summary="attach contents added">
+      <created>1426122616955</created>
+      <option name="number" value="00349" />
+      <option name="project" value="LOCAL" />
+      <updated>1426122616956</updated>
+    </task>
+    <task id="LOCAL-00350" summary="debugmode on">
+      <created>1426122700579</created>
+      <option name="number" value="00350" />
+      <option name="project" value="LOCAL" />
+      <updated>1426122700579</updated>
+    </task>
+    <task id="LOCAL-00351" summary="api class bug fixed">
+      <created>1426122786306</created>
+      <option name="number" value="00351" />
+      <option name="project" value="LOCAL" />
+      <updated>1426122786306</updated>
+    </task>
+    <task id="LOCAL-00352" summary="attach read bug fixed">
+      <created>1426122996948</created>
+      <option name="number" value="00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1426122996948</updated>
+    </task>
+    <task id="LOCAL-00353" summary="Attach read updated(pageclass)">
+      <created>1426123120347</created>
+      <option name="number" value="00353" />
+      <option name="project" value="LOCAL" />
+      <updated>1426123120347</updated>
+    </task>
+    <task id="LOCAL-00354" summary="attach class bug fixed">
+      <created>1426123244071</created>
+      <option name="number" value="00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1426123244071</updated>
+    </task>
+    <task id="LOCAL-00355" summary="attach class bug fixed">
+      <created>1426123302616</created>
+      <option name="number" value="00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1426123302616</updated>
+    </task>
+    <task id="LOCAL-00356" summary="test">
+      <created>1426124400842</created>
+      <option name="number" value="00356" />
+      <option name="project" value="LOCAL" />
+      <updated>1426124400842</updated>
+    </task>
+    <task id="LOCAL-00357" summary="test">
+      <created>1426124442081</created>
+      <option name="number" value="00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1426124442081</updated>
+    </task>
+    <task id="LOCAL-00358" summary="test">
+      <created>1426124591435</created>
+      <option name="number" value="00358" />
+      <option name="project" value="LOCAL" />
+      <updated>1426124591435</updated>
+    </task>
+    <task id="LOCAL-00359" summary="test">
+      <created>1426124679022</created>
+      <option name="number" value="00359" />
+      <option name="project" value="LOCAL" />
+      <updated>1426124679022</updated>
+    </task>
+    <task id="LOCAL-00360" summary="test">
+      <created>1426124803647</created>
+      <option name="number" value="00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1426124803647</updated>
+    </task>
+    <task id="LOCAL-00361" summary="test">
+      <created>1426124998540</created>
+      <option name="number" value="00361" />
+      <option name="project" value="LOCAL" />
+      <updated>1426124998540</updated>
+    </task>
+    <task id="LOCAL-00362" summary="test">
+      <created>1426125192388</created>
+      <option name="number" value="00362" />
+      <option name="project" value="LOCAL" />
+      <updated>1426125192388</updated>
+    </task>
+    <task id="LOCAL-00363" summary="test">
+      <created>1426125512256</created>
+      <option name="number" value="00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1426125512256</updated>
+    </task>
+    <task id="LOCAL-00364" summary="attach read mysql fetch array bug fixed">
+      <created>1426130353108</created>
+      <option name="number" value="00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1426130353108</updated>
+    </task>
+    <task id="LOCAL-00365" summary="test">
+      <created>1426130410180</created>
+      <option name="number" value="00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1426130410180</updated>
+    </task>
+    <task id="LOCAL-00366" summary="mysql fetch array bug fixed at attach read">
+      <created>1426130495625</created>
+      <option name="number" value="00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1426130495625</updated>
+    </task>
+    <task id="LOCAL-00367" summary="document read updated, attach read updated">
+      <created>1426176858251</created>
+      <option name="number" value="00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1426176858251</updated>
+    </task>
+    <task id="LOCAL-00368" summary="debugmode off">
+      <created>1426176925275</created>
+      <option name="number" value="00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1426176925275</updated>
+    </task>
+    <task id="LOCAL-00369" summary="SecurityInfoCheck added">
+      <created>1426177497051</created>
+      <option name="number" value="00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1426177497051</updated>
+    </task>
+    <task id="LOCAL-00370" summary="SecurityInfoCheck bug fixed">
+      <created>1426177545890</created>
+      <option name="number" value="00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1426177545891</updated>
+    </task>
+    <task id="LOCAL-00371" summary="comment read bug fixed">
+      <created>1426223511655</created>
+      <option name="number" value="00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1426223511656</updated>
+    </task>
+    <task id="LOCAL-00372" summary="debugmode on">
+      <created>1426223593742</created>
+      <option name="number" value="00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1426223593742</updated>
+    </task>
+    <task id="LOCAL-00373" summary="doc read bug fixed">
+      <created>1426223673741</created>
+      <option name="number" value="00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1426223673741</updated>
+    </task>
+    <task id="LOCAL-00374" summary="debugmode off">
+      <created>1426223749840</created>
+      <option name="number" value="00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1426223749840</updated>
+    </task>
+    <task id="LOCAL-00375" summary="api_key api error updated">
+      <created>1426224282845</created>
+      <option name="number" value="00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1426224282845</updated>
+    </task>
+    <task id="LOCAL-00376" summary="api checkact updated">
+      <created>1426224574716</created>
+      <option name="number" value="00376" />
+      <option name="project" value="LOCAL" />
+      <updated>1426224574716</updated>
+    </task>
+    <task id="LOCAL-00377" summary="SecurityAllowAction added">
+      <created>1426224833103</created>
+      <option name="number" value="00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1426224833103</updated>
+    </task>
+    <task id="LOCAL-00378" summary="AttachDownload added">
+      <created>1426225459442</created>
+      <option name="number" value="00378" />
+      <option name="project" value="LOCAL" />
+      <updated>1426225459442</updated>
+    </task>
+    <task id="LOCAL-00379" summary="api_error bug fixed">
+      <created>1426516964818</created>
+      <option name="number" value="00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1426516964820</updated>
+    </task>
+    <task id="LOCAL-00380" summary="updated">
+      <created>1426517114491</created>
+      <option name="number" value="00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1426517114491</updated>
+    </task>
+    <option name="localTasksCounter" value="381" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="575732000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1008" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18636848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19062833" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19808307" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3683616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18636848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25612354" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18686296" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36865342" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Comment status update feature added" />
+    <MESSAGE value="comment_Srl fixed" />
+    <MESSAGE value="path and submit bug fixed" />
+    <MESSAGE value="path bug fixed" />
+    <MESSAGE value="attach contents added" />
+    <MESSAGE value="api class bug fixed" />
+    <MESSAGE value="attach read bug fixed" />
+    <MESSAGE value="Attach read updated(pageclass)" />
+    <MESSAGE value="attach class bug fixed" />
+    <MESSAGE value="attach read mysql fetch array bug fixed" />
+    <MESSAGE value="test" />
+    <MESSAGE value="mysql fetch array bug fixed at attach read" />
+    <MESSAGE value="document read updated, attach read updated" />
+    <MESSAGE value="SecurityInfoCheck added" />
+    <MESSAGE value="SecurityInfoCheck bug fixed" />
+    <MESSAGE value="comment read bug fixed" />
+    <MESSAGE value="debugmode on" />
+    <MESSAGE value="doc read bug fixed" />
+    <MESSAGE value="debugmode off" />
+    <MESSAGE value="api_key api error updated" />
+    <MESSAGE value="api checkact updated" />
+    <MESSAGE value="SecurityAllowAction added" />
+    <MESSAGE value="AttachDownload added" />
+    <MESSAGE value="api_error bug fixed" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/member/tarks_get_member_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="107" selection-start-line="5" selection-start-column="107" selection-end-line="5" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="103" selection-start-line="6" selection-start-column="103" selection-end-line="6" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorite/favorite_app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="23" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorite/favorite_app_add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorite/favorite_app_read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/profile_update_app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/profile_info.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Thumbnail.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/thread.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="286" column="52" selection-start-line="286" selection-start-column="52" selection-end-line="287" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/join_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="58" selection-start-line="95" selection-start-column="58" selection-end-line="95" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/join_app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/member/member_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="11" column="95" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lang/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lang/ko.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lang/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="22" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/error.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/logger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="168" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/load.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/member/tarks_account.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/member/member.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.875">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/page/push.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favorite/favorite_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/favorite/favorite.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.416666">
+          <caret line="126" column="44" selection-start-line="126" selection-start-column="44" selection-end-line="126" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board/comment_app_read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board/documents_app_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board/documents_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4587156">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board/documents_app_read.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board/attach_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/board/comment.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="50" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/board/documents.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/security.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board/download.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/board/attach.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="24" selection-start-line="131" selection-start-column="13" selection-end-line="131" selection-end-column="24" />
+          <folding>
+            <marker date="1426225433000" expanded="true" signature="130:190" placeholder="SELECT * FRO..." />
+            <marker date="1426225433000" expanded="true" signature="313:361" placeholder="SELECT * FRO..." />
+            <marker date="1426225433000" expanded="true" signature="1572:1876" placeholder="INSERT INTO ..." />
+            <marker date="1426225433000" expanded="true" signature="2152:2276" placeholder="SELECT * FRO..." />
+            <marker date="1426225433000" expanded="true" signature="2609:2682" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/permission.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="90" selection-end-column="1" />
+          <folding>
+            <marker date="1426516951000" expanded="true" signature="262:388" placeholder="INSERT INTO ..." />
+            <marker date="1426516951000" expanded="true" signature="1296:1362" placeholder="SELECT * FRO..." />
+            <marker date="1426516951000" expanded="true" signature="1762:1819" placeholder="SELECT * FRO..." />
+            <marker date="1426516951000" expanded="true" signature="2754:2803" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <marker date="1426517108000" expanded="true" signature="3804:3858" placeholder="..." />
+            <marker date="1426517108000" expanded="true" signature="4020:4152" placeholder="SELECT * FRO..." />
+            <marker date="1426517108000" expanded="true" signature="4207:4339" placeholder="SELECT * FRO..." />
+            <marker date="1426517108000" expanded="true" signature="4393:4444" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="57" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/api.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="259" column="52" selection-start-line="259" selection-start-column="52" selection-end-line="259" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board/comment_app_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/board/comment_class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+          <folding>
+            <marker date="1426957238000" expanded="true" signature="208:263" placeholder="SELECT * FRO..." />
+            <marker date="1426957238000" expanded="true" signature="1777:1817" placeholder="SELECT * FRO..." />
+            <marker date="1426957238000" expanded="true" signature="2245:2478" placeholder="INSERT INTO ..." />
+            <marker date="1426957238000" expanded="true" signature="3117:3192" placeholder="SELECT * FRO..." />
+            <marker date="1426957238000" expanded="true" signature="3371:3475" placeholder="SELECT user_..." />
+            <marker date="1426957238000" expanded="true" signature="4397:4565" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/page/page.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76785713">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding>
+            <marker date="1429835938000" expanded="true" signature="562:614" placeholder="SELECT * FRO..." />
+            <marker date="1429835938000" expanded="true" signature="795:852" placeholder="SELECT * FRO..." />
+            <marker date="1429835938000" expanded="true" signature="913:969" placeholder="SELECT * FRO..." />
+            <marker date="1429835938000" expanded="true" signature="2951:3046" placeholder="SELECT * FRO..." />
+            <marker date="1429835938000" expanded="true" signature="3187:3281" placeholder="SELECT * FRO..." />
+            <marker date="1429835938000" expanded="true" signature="3928:4037" placeholder="SELECT * FRO..." />
+            <marker date="1429835938000" expanded="true" signature="5717:5770" placeholder="SELECT * FRO..." />
+            <marker date="1429835938000" expanded="true" signature="5951:6018" placeholder="SELECT * FRO..." />
+            <marker date="1429835938000" expanded="true" signature="6163:6223" placeholder="SELECT * FRO..." />
+            <marker date="1429835938000" expanded="true" signature="6276:6353" placeholder="INSERT INTO ..." />
+            <marker date="1429835938000" expanded="true" signature="7023:7414" placeholder="INSERT INTO ..." />
+            <marker date="1429835938000" expanded="true" signature="8302:8773" placeholder="INSERT INTO ..." />
+            <marker date="1429835938000" expanded="true" signature="9934:9984" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android API 21 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>favoritecore</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

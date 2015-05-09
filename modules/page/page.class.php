@@ -60,7 +60,7 @@ class PageClass
     {
         global $_FILES;
         if($_FILES == null){
-            echo "hey ho.";
+            echo "files_null_error";
         }
         $target_path =  "files/profile/";
         $thumbnail_path =  "files/profile/thumbnail/";
