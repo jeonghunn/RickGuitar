@@ -66,6 +66,17 @@ $page_info = REQUEST('page_info');
 
 	}
 
+
+    function API_PageInfoUpdate($user_srl){
+        $PAGE_CLASS = new PageClass();
+
+        $title = REQUEST('title');
+        $value = REQUEST('value');
+
+       echo $PAGE_CLASS -> profile_update_app($user_srl, $title, $value);
+
+    }
+
 	//Page - Join
 	function API_PageJoin()
 	{

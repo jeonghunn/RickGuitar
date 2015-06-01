@@ -13,6 +13,8 @@ class PageClass
     {
         $add_info_to_system = "UPDATE `pages` SET `$title` = '$value' WHERE `srl` = $user_srl";
         $system_result = mysql_query($add_info_to_system);
+
+        return $system_result;
     }
 
 
@@ -79,6 +81,11 @@ class PageClass
         $this -> ProfileInfoUpdate($file_name, "profile_update", getTimeStamp());
        $this ->  ProfileInfoUpdate($file_name, "profile_pic", "Y");
         return $upload_result;
+    }
+
+
+    function BackgroundImageUpdate($ATTACH_CLASS){
+
     }
 
 

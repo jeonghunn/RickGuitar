@@ -37,6 +37,7 @@ if($ACTION == "CoreVersion") $API -> API_getCoreVersion();
 //Page
 if($ACTION == "page_info") $API -> API_getPageInfo($user_srl);
 if($ACTION == "my_page_info") $API -> API_getMyPageInfo($user_srl);
+if($ACTION == "page_info_update") $API -> API_PageInfoUpdate($user_srl);
 //Page - ADD
 if($ACTION == "page_join") $API -> API_PageJoin();
 
