@@ -70,10 +70,14 @@ $page_info = REQUEST('page_info');
     function API_PageInfoUpdate($user_srl){
         $PAGE_CLASS = new PageClass();
 
+        $page_srl = REQUEST('page_srl');
         $title = REQUEST('title');
         $value = REQUEST('value');
 
-       echo $PAGE_CLASS -> profile_update_app($user_srl, $title, $value);
+        $status = setRelationStatus($user_srl, $page_srl);
+        if($status < 4) ErrorMessage("permission_error");
+
+       echo $PAGE_CLASS -> ProfileInfoUpdate($page_srl, $title, $value);
 
     }
 

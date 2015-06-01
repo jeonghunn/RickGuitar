@@ -5,8 +5,7 @@ class PageClass
 
     function PageInfoUpdate($user_srl)
     {
-        $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '" . getIPAddr() . "' WHERE `srl` = $user_srl";
-        $system_result = mysql_query($add_info_to_system);
+        $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '" . gprofile_update_app;
     }
 
     function ProfileInfoUpdate($user_srl, $title, $value)
