@@ -38,8 +38,8 @@
  *					  SCALE_SHOW_ALL,// 섬네일 축소 형식
  *					  Array(
  *						  'export' => EXPORT_JPG,
- *						  'preprocess' => Array(&$watermark, 'preprocess'),
- *						  'postprocess' => Array(&$watermark, 'postprocess'),
+ *						  'preprocess' => Array($watermark, 'preprocess'),
+ *						  'postprocess' => Array($watermark, 'postprocess'),
  *						  'savepath' => '%PATH%%FILENAME%_thumb-%THUMB_WIDTH%x%THUMB_HEIGHT%.%EXT%'
  *					  ));
  */
@@ -86,7 +86,7 @@ class Thumbnail
 	 *	- 옵션 항목
 	 *		$options = Array(
 	 *			'export' => 'jpg',
-	 *			'preprocess' => Array(&$class, 'preprocess'),
+	 *			'preprocess' => Array($class, 'preprocess'),
 	 *			'postprocess' => 'postprocess',
 	 *			'savepath' => '%PATH%%FILENAME%_thumb.%EXT%'
 	 *		);
@@ -213,12 +213,12 @@ class Thumbnail
 		$thumbnail = imagecreatetruecolor($width, $height);
 
 		if ($options['preprocess'])
-			call_user_func($options['preprocess'], &$thumbnail, $width, $height, $thumb_width, $thumb_height);
+			call_user_func($options['preprocess'], $thumbnail, $width, $height, $thumb_width, $thumb_height);
 
 		@imagecopyresampled($thumbnail, $image, $thumb_x, $thumb_y, 0, 0, $thumb_width, $thumb_height, $image_width, $image_height);
 
 		if ($options['postprocess'])
-			call_user_func($options['postprocess'], &$thumbnail, $width, $height, $thumb_width, $thumb_height);
+			call_user_func($options['postprocess'], $thumbnail, $width, $height, $thumb_width, $thumb_height);
 
 
 		// 저장할 경로 생성 및 디렉토리 검사
