@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="FavoriteDevelopServer" uploadOnCheckin="71eb6743-56c1-49a5-8eb8-31b36ce262a4">
+  <component name="PublishConfigData" serverName="SquareCoreServer" uploadOnCheckin="71eb6743-56c1-49a5-8eb8-31b36ce262a4">
     <serverData>
       <paths name="FavoriteDevelopServer">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="SquareCoreServer">
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />

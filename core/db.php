@@ -10,7 +10,7 @@ mysql_query("set session character_set_connection=utf8;");
     ConnectMainDB();
 //Connect to db
 function ConnectMainDB(){
-	ConnectDB("favorite_test");
+	ConnectDB("square");
 }
 
 function ConnectDB($db_name){
