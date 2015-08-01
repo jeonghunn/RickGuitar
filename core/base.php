@@ -8,7 +8,7 @@ function getCoreVersion(){
 
 //Basic Info
 function getSiteAddress(){
-    return "http://tarks.net/develop/favorite/";
+    return "http://tarks.net/rect/";
 }
 
 function getIPAddr(){
