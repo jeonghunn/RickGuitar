@@ -13,9 +13,13 @@ $log = REQUEST('page_srl');
 $log_category = $ACTION;
 
 
+//configure, Load Core System
 require_once 'config.php';
-require_once 'core/api.class.php';
+//Load Core Library
 require_once 'core/Thumbnail.class.php';
+//Load APIs.
+require_once 'api/main.api.class.php';
+//Load Modules.
 require_once 'modules/page/page.class.php';
 require_once 'modules/member/member.class.php';
 require_once 'modules/member/tarks_account.class.php';
