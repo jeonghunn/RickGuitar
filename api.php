@@ -16,7 +16,7 @@ $log_category = $ACTION;
 //configure, Load Core System
 require_once 'config.php';
 //Load Core Library
-require_once 'core/Thumbnail.class.php';
+require_once 'core/lib/Thumbnail.class.php';
 //Load APIs.
 require_once 'api/main.api.class.php';
 //Load Modules.
