@@ -19,6 +19,9 @@ require_once 'config.php';
 require_once 'core/lib/Thumbnail.class.php';
 //Load APIs.
 require_once 'api/main.api.class.php';
+require_once 'api/page.api.class.php';
+require_once 'api/board.api.class.php';
+require_once 'api/tarks_accout.api.class.php';
 //Load Modules.
 require_once 'modules/page/page.class.php';
 require_once 'modules/member/member.class.php';
@@ -30,7 +33,11 @@ require_once 'modules/board/attach.class.php';
 
 //$user_srl = AuthCheck($page_auth, false);
 
+//Excute Apis
 $API = new APIClass();
+$PageAPI = new PageAPIClass();
+$BoardAPI = new BoardAPIClass();
+$TarksAccountAPI = new TarksAccountAPIClass();
 
 
 
@@ -39,26 +46,26 @@ if($ACTION == "CoreVersion") $API -> API_getCoreVersion();
 
 
 //Page
-if($ACTION == "page_info") $API -> API_getPageInfo($user_srl);
-if($ACTION == "my_page_info") $API -> API_getMyPageInfo($user_srl);
-if($ACTION == "page_info_update") $API -> API_PageInfoUpdate($user_srl);
+if($ACTION == "page_info") $PageAPI -> API_getPageInfo($user_srl);
+if($ACTION == "my_page_info") $PageAPI -> API_getMyPageInfo($user_srl);
+if($ACTION == "page_info_update") $PageAPI -> API_PageInfoUpdate($user_srl);
 //Page - ADD
-if($ACTION == "page_join") $API -> API_PageJoin();
+if($ACTION == "page_join") $PageAPI -> API_PageJoin();
 
 //Member
-if($ACTION == "tarks_auth") $API -> API_AuthTarksAccount();
-if($ACTION == "make_tarks_authcode") $API -> API_MakeTarksAccountAuth();
-if($ACTION == "tarks_sign_up") $API -> API_SignUpTarksAccount();
+if($ACTION == "tarks_auth") $TarksAccountAPI -> API_AuthTarksAccount();
+if($ACTION == "make_tarks_authcode") $TarksAccountAPI -> API_MakeTarksAccountAuth();
+if($ACTION == "tarks_sign_up") $TarksAccountAPI -> API_SignUpTarksAccount();
 
 //Board
-if($ACTION == "doc_list") $API -> API_getDocList($user_srl);
-if($ACTION == "doc_write") $API -> API_DocWrite($user_srl);
-if($ACTION == "doc_read") $API -> API_DocRead($user_srl);
-if($ACTION == "doc_status_update") $API -> API_DocStatusUpdate($user_srl);
-if($ACTION == "comment_list") $API -> API_getCommentList($user_srl);
-if($ACTION == "comment_write") $API -> API_CommentWrite($user_srl);
-if($ACTION == "comment_status_update") $API -> API_CommentStatusUpdate($user_srl);
-if($ACTION == "download") $API -> API_AttachDownload();
+if($ACTION == "doc_list") $BoardAPI -> API_getDocList($user_srl);
+if($ACTION == "doc_write") $BoardAPI -> API_DocWrite($user_srl);
+if($ACTION == "doc_read") $BoardAPI -> API_DocRead($user_srl);
+if($ACTION == "doc_status_update") $BoardAPI -> API_DocStatusUpdate($user_srl);
+if($ACTION == "comment_list") $BoardAPI -> API_getCommentList($user_srl);
+if($ACTION == "comment_write") $BoardAPI -> API_CommentWrite($user_srl);
+if($ACTION == "comment_status_update") $BoardAPI -> API_CommentStatusUpdate($user_srl);
+if($ACTION == "download") $BoardAPI -> API_AttachDownload();
 
 
 ?>
