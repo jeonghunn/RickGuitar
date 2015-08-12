@@ -82,11 +82,6 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
         return $xerow[$value];
     }
 
-    //Find lastest number.
-    function getAccountSeqLastNumber(){
-        $table_status =mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'xe_sequence'"));
-        return $table_status['Auto_increment'];
-    }
 
 }
 
