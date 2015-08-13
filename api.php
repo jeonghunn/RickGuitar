@@ -37,7 +37,8 @@ require_once 'modules/board/attach.class.php';
 $API = new APIClass();
 $PageAPI = new PageAPIClass();
 $BoardAPI = new BoardAPIClass();
-$TarksAccountAPI = new TarksAccountAPIClass();
+$AccountAPI = new AccoutApiClass();
+//$TarksAccountAPI = new TarksAccountAPIClass();
 
 
 
@@ -53,9 +54,17 @@ if($ACTION == "page_info_update") $PageAPI -> API_PageInfoUpdate($user_srl);
 if($ACTION == "page_join") $PageAPI -> API_PageJoin();
 
 //Member
-if($ACTION == "tarks_auth") $TarksAccountAPI -> API_AuthTarksAccount();
-if($ACTION == "make_tarks_authcode") $TarksAccountAPI -> API_MakeTarksAccountAuth();
-if($ACTION == "tarks_sign_up") $TarksAccountAPI -> API_SignUpTarksAccount();
+//ㄴTarks
+//if($ACTION == "tarks_auth") $TarksAccountAPI -> API_AuthTarksAccount();
+//if($ACTION == "make_tarks_authcode") $TarksAccountAPI -> API_MakeTarksAccountAuth();
+//if($ACTION == "tarks_sign_up") $TarksAccountAPI -> API_SignUpTarksAccount();
+//ㄴfacebook
+//if($ACTION == "account_sign_up_with_facebook") $API -> API_MemberSignupWithFacebook();
+//if($ACTION == "member_auth_facebook") $API -> API_MemberAuthByFacebook();
+//ㄴAccount
+if($ACTION == "account_auth") $AccountAPI -> API_AuthAccount();
+if($ACTION == "account_sign_up") $API -> API_SignUpAccount();
+
 
 //Board
 if($ACTION == "doc_list") $BoardAPI -> API_getDocList($user_srl);
