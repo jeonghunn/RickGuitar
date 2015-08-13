@@ -63,7 +63,7 @@ if($ACTION == "page_join") $PageAPI -> API_PageJoin();
 //if($ACTION == "member_auth_facebook") $API -> API_MemberAuthByFacebook();
 //ㄴAccount
 if($ACTION == "account_auth") $AccountAPI -> API_AuthAccount();
-if($ACTION == "account_sign_up") $API -> API_SignUpAccount();
+if($ACTION == "account_sign_up") $AccountAPI -> API_SignUpAccount();
 
 
 //Board

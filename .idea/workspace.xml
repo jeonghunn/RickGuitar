@@ -29,13 +29,13 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.07220217">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0913242">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
-                <marker date="1439444289000" expanded="true" signature="3792:3846" placeholder="..." />
-                <marker date="1439444289000" expanded="true" signature="4008:4140" placeholder="SELECT * FRO..." />
-                <marker date="1439444289000" expanded="true" signature="4195:4327" placeholder="SELECT * FRO..." />
-                <marker date="1439444289000" expanded="true" signature="4381:4432" placeholder="SELECT * FRO..." />
+                <marker date="1439444486000" expanded="true" signature="3792:3846" placeholder="..." />
+                <marker date="1439444486000" expanded="true" signature="4008:4140" placeholder="SELECT * FRO..." />
+                <marker date="1439444486000" expanded="true" signature="4195:4327" placeholder="SELECT * FRO..." />
+                <marker date="1439444486000" expanded="true" signature="4381:4432" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -44,8 +44,8 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.0">
-              <caret line="62" column="75" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
+            <state vertical-scroll-proportion="-9.882353">
+              <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -845,13 +845,7 @@
       <workItem from="1439047716212" duration="20000" />
       <workItem from="1439374528475" duration="1369000" />
       <workItem from="1439389234756" duration="1397000" />
-      <workItem from="1439443844431" duration="448000" />
-    </task>
-    <task id="LOCAL-00340" summary="debugmode off">
-      <created>1425666184610</created>
-      <option name="number" value="00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1425666184610</updated>
+      <workItem from="1439443844431" duration="644000" />
     </task>
     <task id="LOCAL-00341" summary="Docstatusupdate api added">
       <created>1425667160636</created>
@@ -1141,16 +1135,23 @@
       <option name="project" value="LOCAL" />
       <updated>1439391611075</updated>
     </task>
-    <option name="localTasksCounter" value="389" />
+    <task id="LOCAL-00389" summary="accout api command added">
+      <created>1439444324650</created>
+      <option name="number" value="00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1439444324651</updated>
+    </task>
+    <option name="localTasksCounter" value="390" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591155000" />
+    <option name="totallyTimeSpent" value="591351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1920" height="1001" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19705549" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1162,6 +1163,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1172,12 +1174,10 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19808307" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3683616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1225,8 +1225,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="attach class bug fixed" />
-    <MESSAGE value="attach read mysql fetch array bug fixed" />
     <MESSAGE value="test" />
     <MESSAGE value="mysql fetch array bug fixed at attach read" />
     <MESSAGE value="document read updated, attach read updated" />
@@ -1250,7 +1248,9 @@
     <MESSAGE value="refactored, api bug fixed" />
     <MESSAGE value="api updated (last favorite)" />
     <MESSAGE value="account, facebook added" />
-    <option name="LAST_COMMIT_MESSAGE" value="account, facebook added" />
+    <MESSAGE value="accout api added" />
+    <MESSAGE value="accout api command added" />
+    <option name="LAST_COMMIT_MESSAGE" value="accout api command added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1299,10 +1299,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1439444289000" expanded="true" signature="3792:3846" placeholder="..." />
-            <marker date="1439444289000" expanded="true" signature="4008:4140" placeholder="SELECT * FRO..." />
-            <marker date="1439444289000" expanded="true" signature="4195:4327" placeholder="SELECT * FRO..." />
-            <marker date="1439444289000" expanded="true" signature="4381:4432" placeholder="SELECT * FRO..." />
+            <marker date="1439444486000" expanded="true" signature="3792:3846" placeholder="..." />
+            <marker date="1439444486000" expanded="true" signature="4008:4140" placeholder="SELECT * FRO..." />
+            <marker date="1439444486000" expanded="true" signature="4195:4327" placeholder="SELECT * FRO..." />
+            <marker date="1439444486000" expanded="true" signature="4381:4432" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -1647,21 +1647,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.0">
-          <caret line="62" column="75" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
+        <state vertical-scroll-proportion="-9.882353">
+          <caret line="65" column="44" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07220217">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0913242">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
-            <marker date="1439444289000" expanded="true" signature="3792:3846" placeholder="..." />
-            <marker date="1439444289000" expanded="true" signature="4008:4140" placeholder="SELECT * FRO..." />
-            <marker date="1439444289000" expanded="true" signature="4195:4327" placeholder="SELECT * FRO..." />
-            <marker date="1439444289000" expanded="true" signature="4381:4432" placeholder="SELECT * FRO..." />
+            <marker date="1439444486000" expanded="true" signature="3792:3846" placeholder="..." />
+            <marker date="1439444486000" expanded="true" signature="4008:4140" placeholder="SELECT * FRO..." />
+            <marker date="1439444486000" expanded="true" signature="4195:4327" placeholder="SELECT * FRO..." />
+            <marker date="1439444486000" expanded="true" signature="4381:4432" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
