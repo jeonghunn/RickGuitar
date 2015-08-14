@@ -25,6 +25,7 @@ require_once 'api/account.api.class.php';
 //require_once 'api/tarks_account.api.class.php';
 //Load Modules.
 require_once 'modules/page/page.class.php';
+require_once 'modules/member/account.class.php';
 require_once 'modules/member/member.class.php';
 require_once 'modules/member/tarks_account.class.php';
 require_once 'modules/board/documents.class.php';
