@@ -10,7 +10,7 @@ class AccountClass{
 
 function AccountLogin($MEMBER_CLASS, $email, $password){
     $password = hash('sha256',$password);
-    $loginResult = true;
+    $loginResult = $this -> CheckAccount($email, $password);
 
     if($loginResult){
         return  $MEMBER_CLASS-> getPageAuth("account", $email);
@@ -31,7 +31,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
             security_passwordWrong();
 
         }
-        return false;
+        return true;
     }
 
 //    function MakeTarksAccountAuthCode($id, $password){
