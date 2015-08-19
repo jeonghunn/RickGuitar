@@ -19,6 +19,7 @@
 //require_once 'core/thread.class.php';
 require_once 'core/auth.php';
 
+//get lang
 
 $user_srl = AuthCheck($page_auth, 'user_srl', false);
 if($user_srl == null) $user_srl = 0;

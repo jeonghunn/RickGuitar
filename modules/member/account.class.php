@@ -13,7 +13,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
     $loginResult = $this -> CheckAccount($email, $password);
 
     if($loginResult){
-        return  $MEMBER_CLASS-> getPageAuth("account", $email);
+        return true;
     }
 
 
@@ -24,6 +24,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
    //     if(!rtnSpecialCharCheck($password)) return false;
         if($email == null || $password == null) return false;
         $row = mysql_fetch_array(mysql_query("SELECT * FROM  `accounts` WHERE  `email_address` LIKE '$email' AND  `password` LIKE '$password'"));
+       // $row['email_address'] = "jeonghunn@naver.com";
         if($email == $row['email_address']) {
             return true;
         }else{

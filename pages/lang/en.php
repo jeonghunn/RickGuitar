@@ -51,4 +51,3 @@ $L['error_404_error'] = '404 Not Found';
 $L['error_404_error_des'] = 'Sorry. That page you looking for doesn\'t exist.';
 
 ?>
-
