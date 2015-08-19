@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.67.5.304";
+    return "2.39.68.0.305";
 }
 
 
@@ -46,7 +46,15 @@ function getHttpLanguage(){
 
 
 function ErrorMessage($msg) {
-echo $msg;
+    MessagePrint("error", $msg, "Error has been encountered.");
+
+    exit();
+
+}
+
+
+function ErrorPrint($msg, $des) {
+    MessagePrint("error", $msg, $des);
 
     exit();
 
@@ -60,6 +68,11 @@ function debugMode(){
 function FatalError(){
   echo "Sorry, something went wrong. We will fix this problem soon.";
     exit();
+}
+
+function MessagePrint($category, $message, $des){
+    $array = array("category" => $category, "message" => $message, "description" => $des);
+   echo json_encode($array);
 }
 
 

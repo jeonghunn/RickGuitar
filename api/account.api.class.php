@@ -18,7 +18,7 @@ class AccoutApiClass{
         $auth = $ACCOUNT_CLASS->AccountLogin($MEMBER_CLASS, $email, $password);
 
         echo $auth;
-
+if($auth == false) ErrorPrint("login_error", "Wrong ID or Password. Please try again");
 
     }
 
