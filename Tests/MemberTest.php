@@ -34,6 +34,7 @@ class MemberTest extends PHPUnit_Framework_TestCase
     public function AccountLogin(){
       //  echo "asdf";
         $result = $this -> ACCOUNT_CLASS -> AccountLogin( $this -> MEMBER_CLASS, "jeonghunn@naver.com", "123456");
+       // $this->assertNotNull($email);
         $this->assertNotEquals(false, $result);
     }
 
