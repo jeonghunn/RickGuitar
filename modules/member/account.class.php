@@ -13,11 +13,11 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
     $loginResult = $this -> CheckAccount($email, $password);
 
     if($loginResult){
-        return true;
+        return  $MEMBER_CLASS-> getPageAuth("account", $email);
     }
 
 
-   return false;
+   return true;
 }
 
     function CheckAccount($email, $password){
