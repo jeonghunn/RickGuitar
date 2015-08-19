@@ -22,7 +22,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
 
     function CheckAccount($email, $password){
    //     if(!rtnSpecialCharCheck($password)) return false;
-        if($email == null || $password == null) return false;
+     //   if($email == null || $password == null) return false;
        $row = mysql_fetch_array(mysql_query("SELECT * FROM  `accounts` WHERE  `email_address` LIKE '$email' AND  `password` LIKE '$password'"));
        // $row['email_address'] = "jeonghunnnaver.com";
         if($email == $row['email_address']) {
@@ -31,7 +31,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
             security_passwordWrong();
 
         }
-        return true;
+        return false;
     }
 
 //    function MakeTarksAccountAuthCode($id, $password){
