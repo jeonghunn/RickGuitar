@@ -31,7 +31,7 @@ class MemberTest extends PHPUnit_Framework_TestCase
 ////echo $this -> hashTest("123456");
 //    }
 
-    public function testAccountLogin(){
+    public function AccountLogin(){
       //  echo "asdf";
         $result = $this -> ACCOUNT_CLASS -> AccountLogin( $this -> MEMBER_CLASS, "jeonghunn@naver.com", "123456");
         $this->assertNotEquals(false, $result);
@@ -43,7 +43,7 @@ class MemberTest extends PHPUnit_Framework_TestCase
         return $password;
     }
 
-    public function CheckAccount(){
+    public function testCheckAccount(){
         $result = $this -> ACCOUNT_CLASS -> CheckAccount(  "jeonghunn@naver.com", "123456");
         $this->assertEquals("authcode", $result);
     }

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="login test">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/MemberTest.php" afterPath="$PROJECT_DIR$/Tests/MemberTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/member/account.class.php" afterPath="$PROJECT_DIR$/modules/member/account.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -104,12 +105,24 @@
         <entry file="file://$PROJECT_DIR$/modules/member/account.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5263158">
-              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding>
-                <marker date="1439994358000" expanded="true" signature="580:675" placeholder="SELECT * FRO..." />
-                <marker date="1439994358000" expanded="true" signature="1988:2050" placeholder="SELECT * FRO..." />
-                <marker date="1439994358000" expanded="true" signature="2445:2741" placeholder="INSERT INTO ..." />
-                <marker date="1439994358000" expanded="true" signature="3186:3256" placeholder="SELECT ${$va..." />
+                <marker date="1439994570000" expanded="true" signature="565:660" placeholder="SELECT * FRO..." />
+                <marker date="1439994570000" expanded="true" signature="1972:2034" placeholder="SELECT * FRO..." />
+                <marker date="1439994570000" expanded="true" signature="2429:2725" placeholder="INSERT INTO ..." />
+                <marker date="1439994570000" expanded="true" signature="3170:3240" placeholder="SELECT ${$va..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MemberTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/MemberTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.75">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="e#7#54#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,18 +137,6 @@
                 <marker date="1426516951000" expanded="true" signature="262:388" placeholder="INSERT INTO ..." />
                 <marker date="1426516951000" expanded="true" signature="1296:1362" placeholder="SELECT * FRO..." />
                 <marker date="1426516951000" expanded="true" signature="1762:1819" placeholder="SELECT * FRO..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MemberTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/MemberTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-              <folding>
-                <element signature="e#7#54#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -967,13 +968,7 @@
       <workItem from="1439541929110" duration="1571000" />
       <workItem from="1439910810114" duration="1609000" />
       <workItem from="1439958255703" duration="11416000" />
-      <workItem from="1439991994418" duration="2147000" />
-    </task>
-    <task id="LOCAL-00353" summary="Attach read updated(pageclass)">
-      <created>1426123120347</created>
-      <option name="number" value="00353" />
-      <option name="project" value="LOCAL" />
-      <updated>1426123120347</updated>
+      <workItem from="1439991994418" duration="2358000" />
     </task>
     <task id="LOCAL-00354" summary="attach class bug fixed">
       <created>1426123244071</created>
@@ -1263,11 +1258,17 @@
       <option name="project" value="LOCAL" />
       <updated>1439994342198</updated>
     </task>
-    <option name="localTasksCounter" value="402" />
+    <task id="LOCAL-00402" summary="login test">
+      <created>1439994365546</created>
+      <option name="number" value="00402" />
+      <option name="project" value="LOCAL" />
+      <updated>1439994365546</updated>
+    </task>
+    <option name="localTasksCounter" value="403" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="611181000" />
+    <option name="totallyTimeSpent" value="611392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="31" width="1920" height="1001" extended-state="0" />
@@ -1293,7 +1294,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20234291" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295583" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1765,16 +1766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/MemberTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="e#7#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/member/member.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625">
@@ -1786,15 +1777,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/MemberTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.75">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#7#54#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/member/account.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5263158">
-          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
           <folding>
-            <marker date="1439994358000" expanded="true" signature="580:675" placeholder="SELECT * FRO..." />
-            <marker date="1439994358000" expanded="true" signature="1988:2050" placeholder="SELECT * FRO..." />
-            <marker date="1439994358000" expanded="true" signature="2445:2741" placeholder="INSERT INTO ..." />
-            <marker date="1439994358000" expanded="true" signature="3186:3256" placeholder="SELECT ${$va..." />
+            <marker date="1439994570000" expanded="true" signature="565:660" placeholder="SELECT * FRO..." />
+            <marker date="1439994570000" expanded="true" signature="1972:2034" placeholder="SELECT * FRO..." />
+            <marker date="1439994570000" expanded="true" signature="2429:2725" placeholder="INSERT INTO ..." />
+            <marker date="1439994570000" expanded="true" signature="3170:3240" placeholder="SELECT ${$va..." />
           </folding>
         </state>
       </provider>
