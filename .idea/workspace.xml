@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/MemberTest.php" afterPath="$PROJECT_DIR$/Tests/MemberTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/member/account.class.php" afterPath="$PROJECT_DIR$/modules/member/account.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -105,13 +103,13 @@
       <file leaf-file-name="account.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/member/account.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7894737">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.3508772">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <marker date="1439994268000" expanded="true" signature="578:673" placeholder="SELECT * FRO..." />
-                <marker date="1439994268000" expanded="true" signature="1985:2047" placeholder="SELECT * FRO..." />
-                <marker date="1439994268000" expanded="true" signature="2442:2738" placeholder="INSERT INTO ..." />
-                <marker date="1439994268000" expanded="true" signature="3183:3253" placeholder="SELECT ${$va..." />
+                <marker date="1439994309000" expanded="true" signature="542:637" placeholder="SELECT * FRO..." />
+                <marker date="1439994309000" expanded="true" signature="1950:2012" placeholder="SELECT * FRO..." />
+                <marker date="1439994309000" expanded="true" signature="2407:2703" placeholder="INSERT INTO ..." />
+                <marker date="1439994309000" expanded="true" signature="3148:3218" placeholder="SELECT ${$va..." />
               </folding>
             </state>
           </provider>
@@ -969,13 +967,7 @@
       <workItem from="1439541929110" duration="1571000" />
       <workItem from="1439910810114" duration="1609000" />
       <workItem from="1439958255703" duration="11416000" />
-      <workItem from="1439991994418" duration="2057000" />
-    </task>
-    <task id="LOCAL-00350" summary="debugmode on">
-      <created>1426122700579</created>
-      <option name="number" value="00350" />
-      <option name="project" value="LOCAL" />
-      <updated>1426122700579</updated>
+      <workItem from="1439991994418" duration="2099000" />
     </task>
     <task id="LOCAL-00351" summary="api class bug fixed">
       <created>1426122786306</created>
@@ -1265,11 +1257,17 @@
       <option name="project" value="LOCAL" />
       <updated>1439993003501</updated>
     </task>
-    <option name="localTasksCounter" value="399" />
+    <task id="LOCAL-00399" summary="test">
+      <created>1439994277520</created>
+      <option name="number" value="00399" />
+      <option name="project" value="LOCAL" />
+      <updated>1439994277520</updated>
+    </task>
+    <option name="localTasksCounter" value="400" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="611091000" />
+    <option name="totallyTimeSpent" value="611133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="31" width="1920" height="1001" extended-state="0" />
@@ -1373,9 +1371,9 @@
     <MESSAGE value="account create bug fixed" />
     <MESSAGE value="account page srl bug fixed" />
     <MESSAGE value="messageprint added, account error mesasge added" />
-    <MESSAGE value="test" />
     <MESSAGE value="login test" />
-    <option name="LAST_COMMIT_MESSAGE" value="login test" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1790,13 +1788,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/member/account.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7894737">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.3508772">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1439994268000" expanded="true" signature="578:673" placeholder="SELECT * FRO..." />
-            <marker date="1439994268000" expanded="true" signature="1985:2047" placeholder="SELECT * FRO..." />
-            <marker date="1439994268000" expanded="true" signature="2442:2738" placeholder="INSERT INTO ..." />
-            <marker date="1439994268000" expanded="true" signature="3183:3253" placeholder="SELECT ${$va..." />
+            <marker date="1439994309000" expanded="true" signature="542:637" placeholder="SELECT * FRO..." />
+            <marker date="1439994309000" expanded="true" signature="1950:2012" placeholder="SELECT * FRO..." />
+            <marker date="1439994309000" expanded="true" signature="2407:2703" placeholder="INSERT INTO ..." />
+            <marker date="1439994309000" expanded="true" signature="3148:3218" placeholder="SELECT ${$va..." />
           </folding>
         </state>
       </provider>
