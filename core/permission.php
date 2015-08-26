@@ -13,11 +13,11 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 	$ip_point = $ip_manage['point'];
 	//Check DDOS
      APICheckAct($ip_point);
-	if($ip_point > 4999) $ip_active = "N";
-	if($ip_manage['last_access'] > $date - 2) $ip_point = $ip_point + 1;
-	if($ip_manage['last_access'] > $date - 2 && $nowurl == $ip_manage['last_address']) $ip_point = $ip_point + 10;
-	if($ip_manage['last_access'] < $date - 300 && $ip_point > 0) $ip_point = $ip_point - 500;
-		if($ip_point < 5000 && $ip_manage['log'] == NULL) $ip_active = "Y";
+
+            $resulta = IPManageCalc($date, $nowurl, $ip_manage, $ip_active, $ip_point);
+            $ip_active = $resulta['ip_active'];
+            $ip_point = $resulta['ip_point'];
+
 	//Information Update
 	mysql_query("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '$REMOTE_ADDR'");
 }
@@ -26,6 +26,15 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
     }
 
 
+function IPManageCalc($date, $nowurl,  $ip_manage, $ip_active, $ip_point){
+    if($ip_point > 4999) $ip_active = "N";
+    if($ip_manage['last_access'] > $date - 2) $ip_point = $ip_point + 1;
+    if($ip_manage['last_access'] > $date - 2 && $nowurl == $ip_manage['last_address']) $ip_point = $ip_point + 10;
+    if($ip_manage['last_access'] < $date - 300 && $ip_point > 0) $ip_point =  sqrt($ip_point);
+    if($ip_point < 5000 && $ip_manage['log'] == NULL) $ip_active = "Y";
+
+    return array("ip_active" => $ip_active, "ip_point" => $ip_point);
+}
 
 
 function getIPManageInfo(){
