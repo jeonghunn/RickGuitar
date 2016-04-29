@@ -91,16 +91,16 @@ function CoreInfo(){
 }
 
 function REQUEST($value){
-  return mysql_real_escape_string($_REQUEST[$value]);
+  return mysqli_real_escape_string($_REQUEST[$value]);
 }
 
 
 function GET($value){
-  return mysql_real_escape_string($_GET[$value]);
+  return mysqli_real_escape_string($_GET[$value]);
 }
 
 function POST($value){
-  return mysql_real_escape_string($_POST[$value]);
+  return mysqli_real_escape_string($_POST[$value]);
 }
 
 function PostAct($url, $arrayvars){
@@ -229,9 +229,9 @@ echo '<br><div class="alert alert-'.$category.'" role="alert">
      function setRelationStatus($me_srl, $you_srl){
       global $user_permission_status;
 //Select you srl
-  $me_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$me_srl' AND `category` LIKE '3' AND `value` LIKE '$you_srl' AND `status` LIKE '0'"));
-   $you_favorite = mysql_fetch_array(mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl' AND `status` LIKE '0'"));
-  $you_srl_info = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `srl` LIKE '$you_srl'"));
+  $me_favorite = mysqli_fetch_array(mysqli_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$me_srl' AND `category` LIKE '3' AND `value` LIKE '$you_srl' AND `status` LIKE '0'"));
+   $you_favorite = mysqli_fetch_array(mysqli_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl' AND `status` LIKE '0'"));
+  $you_srl_info = mysqli_fetch_array(mysqli_query("SELECT * FROM  `pages` WHERE  `srl` LIKE '$you_srl'"));
 
   //Global
   $status = 0;

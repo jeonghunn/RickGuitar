@@ -11,7 +11,7 @@ class PageClass
     function ProfileInfoUpdate($user_srl, $title, $value)
     {
         $add_info_to_system = "UPDATE `pages` SET `$title` = '$value' WHERE `srl` = $user_srl";
-        $system_result = mysql_query($add_info_to_system);
+        $system_result = mysqli_query($add_info_to_system);
 
         return $system_result;
     }
@@ -19,15 +19,15 @@ class PageClass
 
     function GetPageInfo($user_srl)
     {
-        $row = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `srl` LIKE '$user_srl'"));
+        $row = mysqli_fetch_array(mysqli_query("SELECT * FROM  `pages` WHERE  `srl` LIKE '$user_srl'"));
         return $row;
     }
 
     function AccessPageInfo($status, $row, $you_srl, $info){
         //Select status table
-        $you_srl_status = mysql_fetch_array(mysql_query("SELECT * FROM  `status` WHERE  `user_srl` LIKE '$you_srl'"));
+        $you_srl_status = mysqli_fetch_array(mysqli_query("SELECT * FROM  `status` WHERE  `user_srl` LIKE '$you_srl'"));
 
-        $you_srl_info = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$you_srl'"));
+        $you_srl_info = mysqli_fetch_array(mysqli_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$you_srl'"));
 
         //    if($status < $you_srl_info[status]) $row = null;
         for ($i=0 ; $i < count($info);$i++){
@@ -90,13 +90,13 @@ class PageClass
 
     function GetAllPageInfoByUpdate($user_srl, $start, $number)
     {
-        $row = mysql_query("SELECT * FROM  `pages` WHERE  `status` < 4 ORDER BY  `pages`.`last_update` DESC LIMIT $start , $number");
+        $row = mysqli_query("SELECT * FROM  `pages` WHERE  `status` < 4 ORDER BY  `pages`.`last_update` DESC LIMIT $start , $number");
         return $row;
     }
 
     function GetAllPageInfoByPopularity($user_srl, $start, $number)
     {
-        $row = mysql_query("SELECT * FROM  `pages` WHERE  `status` < 4 ORDER BY  `pages`.`popularity` DESC LIMIT $start , $number");
+        $row = mysqli_query("SELECT * FROM  `pages` WHERE  `status` < 4 ORDER BY  `pages`.`popularity` DESC LIMIT $start , $number");
         return $row;
     }
 
@@ -116,7 +116,7 @@ class PageClass
             $orvalue = $i != 0 ? "OR" : "";
             $value = $value . $orvalue . " `phone_number` LIKE '%" . $phonenumbers[$i] . "%' ";
         }
-        $row = mysql_query("SELECT * FROM  `pages` WHERE (" . $value . ") AND  `admin` = 0 ORDER BY  `pages`.`last_update` DESC LIMIT 0 ," . $count);
+        $row = mysqli_query("SELECT * FROM  `pages` WHERE (" . $value . ") AND  `admin` = 0 ORDER BY  `pages`.`last_update` DESC LIMIT 0 ," . $count);
         return $row;
     }
 
@@ -132,10 +132,10 @@ class PageClass
 // You must import member_class.php
     function member_PrintListbyUpdate($row)
     {
-        $total = mysql_num_rows($row);
+        $total = mysqli_num_rows($row);
         for ($i = 0; $i < $total; $i++) {
-            mysql_data_seek($row, $i);           //포인터 이동
-            $result = mysql_fetch_array($row);        //레코드를 배열로 저장
+            mysqli_data_seek($row, $i);           //포인터 이동
+            $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
             //    $user_info = GetPageInfo($result[value]);
             $name = SetUserName($result['lang'], $result['name_1'], $result['name_2']);
             $profile[] = array("last_update" => $result['last_update'], "user_srl" => $result['user_srl'], "name" => $name);
@@ -161,7 +161,7 @@ class PageClass
 
 //Find lastest number.
     function PageLastNumber(){
-        $user_table_status =mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'pages'"));
+        $user_table_status =mysqli_fetch_array(mysqli_query("SHOW TABLE STATUS LIKE 'pages'"));
         return $user_table_status['Auto_increment'];
     }
 
@@ -169,20 +169,20 @@ class PageClass
 
     //Find the Same Reg ID
     function CheckSameRegID($reg_id){
-        $CheckSameRegID = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `reg_id` LIKE '$reg_id'"));
+        $CheckSameRegID = mysqli_fetch_array(mysqli_query("SELECT * FROM  `pages` WHERE  `reg_id` LIKE '$reg_id'"));
         return $CheckSameRegID;
     }
 
 
     //Tarks Account
     function CheckSameTarksAccount($tarks_account){
-        $CheckSameTarksAccount = mysql_fetch_array(mysql_query("SELECT * FROM  `pages` WHERE  `tarks_account` LIKE '$tarks_account'"));
+        $CheckSameTarksAccount = mysqli_fetch_array(mysqli_query("SELECT * FROM  `pages` WHERE  `tarks_account` LIKE '$tarks_account'"));
         return $CheckSameTarksAccount;
     }
 
     function CreateStatus($member_srl){
-        $ExistStatus = mysql_fetch_array(mysql_query("SELECT * FROM  `status` WHERE  `user_srl` LIKE '$member_srl'"));
-        if($ExistStatus == null)   mysql_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$member_srl', '3');");
+        $ExistStatus = mysqli_fetch_array(mysqli_query("SELECT * FROM  `status` WHERE  `user_srl` LIKE '$member_srl'"));
+        if($ExistStatus == null)   mysqli_query("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$member_srl', '3');");
     }
 
 //requrie favorite_class.php
@@ -201,12 +201,12 @@ class PageClass
         $popularity = intval(getTimeStamp()/10000);
         //add user to db
         $sql ="INSERT INTO `pages` (`tarks_account`, `admin`, `name_2`, `lang`, `country`, `permission`, `birthday`, `join_day`, `profile_pic`, `profile_update`, `last_update`, `reg_id`, `ip_addr`, `popularity`) VALUES ('null', '$user_srl', '$name', '$lang', '$country', '3', '0' ,'".getTimeStamp()."', '$profile_pic', '".getTimeStamp()."' , '".getTimeStamp()."' , 'null', '".getIPAddr()."', '$popularity');";
-        $result = mysql_query($sql);
+        $result = mysqli_query($sql);
 
 
 
         //Create Own Page
-        //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
+        //     $add_page = mysqli_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
         $this -> CreateStatus($PageNumber);
 
         favorite_add($PageNumber, $user_srl, '3');
@@ -235,12 +235,12 @@ class PageClass
         $popularity = intval(getTimeStamp()/10000);
         //add user to db
         $sql ="INSERT INTO `pages` (`status`,  `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country` , `popularity`) VALUES ( '0', '$admin', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '".getTimeStamp()."', '$profile_pic', '".getTimeStamp()."', '".getTimeStamp()."', '$reg_id', '$lang', '$country', '$popularity');";
-        $result = mysql_query($sql);
+        $result = mysqli_query($sql);
 
 
 
         //Create Own Page
-        //     $add_page = mysql_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
+        //     $add_page = mysqli_query("INSERT INTO `pages` (`user_srl`, `user_mode`,  `ip_addr`) VALUES ('$MemberNumber', 'Y', '$REMOTE_ADDR');");
         $this -> CreateStatus($PageNumber);
 
 
@@ -255,7 +255,7 @@ class PageClass
         if($profile_pic == "Y")  $this -> ProfileUpdate($user_srl);
         //add user to db
         $sql ="UPDATE `pages` SET `name_1` = '$name_1', `name_2` = '$name_2', `gender` = '$gender', `country_code` = '$country_code', `phone_number` = '$phone_number', `profile_pic` = '$profile_pic', `profile_update` = '".getTimeStamp()."', `reg_id` = '$reg_id', `country` = '$country' WHERE `user_srl` = '$user_srl'";
-        $result = mysql_query($sql);
+        $result = mysqli_query($sql);
 
         $auth_code = FindAuthCode($user_srl, "user_srl");
 
@@ -269,7 +269,7 @@ class PageClass
 
     function DeleteUser($user_srl) {
         $deletesql ="DELETE FROM `pages` WHERE `user_srl` = '$user_srl'";
-        $deleteresult = mysql_query($deletesql);
+        $deleteresult = mysqli_query($deletesql);
 
 
 

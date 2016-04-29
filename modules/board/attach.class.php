@@ -5,13 +5,13 @@ class AttachClass{
 
     function getAttachInfoByfileValue($filevalue)
     {
-        $row = mysql_fetch_array(mysql_query("SELECT * FROM  `attach` WHERE  `filevalue` LIKE '$filevalue'"));
+        $row = mysqli_fetch_array(mysqli_query("SELECT * FROM  `attach` WHERE  `filevalue` LIKE '$filevalue'"));
         return $row;
     }
 
     function getAttachInfoBySrl($srl)
     {
-        $row = mysql_fetch_array(mysql_query("SELECT * FROM  `attach` WHERE  `srl` LIKE '$srl'"));
+        $row = mysqli_fetch_array(mysqli_query("SELECT * FROM  `attach` WHERE  `srl` LIKE '$srl'"));
         return $row;
     }
 
@@ -47,7 +47,7 @@ class AttachClass{
 
 
         $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');");
+if($upload_result)  $result = mysqli_query("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');");
 
         return $upload_result;
     }
@@ -56,7 +56,7 @@ if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `do
     function attach_read(  $user_srl, $doc_srl, $doc_status)
     {
        // $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
-        $result = mysql_fetch_array(mysql_query("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$doc_status OR (`user_srl` =$user_srl AND `status` < 5))"));
+        $result = mysqli_fetch_array(mysqli_query("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$doc_status OR (`user_srl` =$user_srl AND `status` < 5))"));
 
         return $result;
     }
@@ -64,13 +64,13 @@ if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `do
     function getDocAttachCount($doc_srl)
     {
         $count = $this -> getAttachCount($doc_srl);
-        $comment_count = mysql_query("UPDATE `documents` SET `attach` = '$count' WHERE `srl` = '$doc_srl'");
+        $comment_count = mysqli_query("UPDATE `documents` SET `attach` = '$count' WHERE `srl` = '$doc_srl'");
     }
 
     function getAttachCount($doc_srl)
     {
-        $attach_count = mysql_query("SELECT * FROM  `attach` WHERE  `doc_srl` = '$doc_srl' AND `status` != '5'");
-        $total = mysql_num_rows($attach_count);
+        $attach_count = mysqli_query("SELECT * FROM  `attach` WHERE  `doc_srl` = '$doc_srl' AND `status` != '5'");
+        $total = mysqli_num_rows($attach_count);
 
         return $total;
     }
@@ -79,7 +79,7 @@ if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `do
     {
         $attach_info = $this -> getAttachInfoBySrl($attach_srl);
         $result_num = $attach_info['count'] + 1;
-        $comment_count = mysql_query("UPDATE `attach` SET  `count` = '$result_num' WHERE `srl` = '$attach_srl'");
+        $comment_count = mysqli_query("UPDATE `attach` SET  `count` = '$result_num' WHERE `srl` = '$attach_srl'");
     }
 
 
@@ -88,10 +88,10 @@ if($upload_result)  $result = mysql_query("INSERT INTO `attach` (`page_srl`, `do
         //$user_srl = AuthCheck($user_srl, false);
         $row = $this -> attach_read($DOCUMENT_CLASS, $user_srl, $doc_srl);
 
-        $total = mysql_num_rows($row);
+        $total = mysqli_num_rows($row);
         for ($i = 0; $i < $total; $i++) {
-            mysql_data_seek($row, $i);           //포인터 이동
-            $result = mysql_fetch_array($row);        //레코드를 배열로 저장
+            mysqli_data_seek($row, $i);           //포인터 이동
+            $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
 
             if ($result['kind'] == "image") {
                 echo getSiteAddress() . "files/images/" . $result['filevalue'] . "." . $result['extension'] . "/LINE/.";

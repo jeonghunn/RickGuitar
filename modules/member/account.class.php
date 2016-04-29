@@ -23,7 +23,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
     function CheckAccount($email, $password){
    //     if(!rtnSpecialCharCheck($password)) return false;
         if($email == null || $password == null) return false;
-       $row = mysql_fetch_array(mysql_query("SELECT * FROM  `accounts` WHERE  `email_address` LIKE '$email' AND  `password` LIKE '$password'"));
+       $row = mysqli_fetch_array(mysqli_query("SELECT * FROM  `accounts` WHERE  `email_address` LIKE '$email' AND  `password` LIKE '$password'"));
        // $row['email_address'] = "jeonghunn@naver.com";
         if($email == $row['email_address']) {
             return true;
@@ -57,14 +57,14 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
         if($name_2 == "") return name_invaild_error;
         $password = hash('sha256',$password);
         $email_array = explode("@",$email);
-        $email_check = mysql_fetch_array(mysql_query("SELECT * FROM  `accounts` WHERE  `email_address` LIKE '$email'"));
+        $email_check = mysqli_fetch_array(mysqli_query("SELECT * FROM  `accounts` WHERE  `email_address` LIKE '$email'"));
         if($email_check['email_address'] == $email) return email_exist_error;
 
         //Create User Page
          $page_info = $PAGE_CLASS -> AddUser(0, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
         //Create Account
       //  $last_number = $this ->  AccountLastNumber();CreateMemberInfo
-       $signup = mysql_query("INSERT INTO `accounts` (  `page_srl`,  `email_address`, `password`, `email_id`, `email_host`, `status`, `date`, `ip_addr`, `last_login` ) VALUES (  '$page_info[0]', '$email', '$password' ,  '$email_array[0]', '$email_array[1]', '0',  '".getTimeStamp()."', '".getIPAddr()."' ,'".getTimeStamp()."');");
+       $signup = mysqli_query("INSERT INTO `accounts` (  `page_srl`,  `email_address`, `password`, `email_id`, `email_host`, `status`, `date`, `ip_addr`, `last_login` ) VALUES (  '$page_info[0]', '$email', '$password' ,  '$email_array[0]', '$email_array[1]', '0',  '".getTimeStamp()."', '".getIPAddr()."' ,'".getTimeStamp()."');");
         //Create Member Info
         $MEMBER_CLASS -> CreateMemberInfo($page_info['0'], 'account', $email, 0);
         return $page_info;
@@ -72,14 +72,14 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
 
     //Find lastest number.
     function AccountLastNumber(){
-        $account_table_status =mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'accounts'"));
+        $account_table_status =mysqli_fetch_array(mysqli_query("SHOW TABLE STATUS LIKE 'accounts'"));
         return $account_table_status['Auto_increment'];
     }
 
     function GetAccountInfo($tarks_account, $value) {
         $xesql ="SELECT $value FROM  `xe_member` WHERE  `user_id` LIKE '$tarks_account'";
-        $xeresult = mysql_query($xesql);
-        $xerow=mysql_fetch_array($xeresult);
+        $xeresult = mysqli_query($xesql);
+        $xerow=mysqli_fetch_array($xeresult);
         return $xerow[$value];
     }
 

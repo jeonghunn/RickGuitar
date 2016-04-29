@@ -1,9 +1,9 @@
 <?php
 
 $API_VERSION = (int) $_POST['apiv'];
-$user_srl = mysql_real_escape_string($_POST['user_srl']);
-$user_srl_auth = mysql_real_escape_string($_POST['user_srl_auth']);
-$page_info = mysql_real_escape_string($_POST['page_info']);
+$user_srl = mysqli_real_escape_string($_POST['user_srl']);
+$user_srl_auth = mysqli_real_escape_string($_POST['user_srl_auth']);
+$page_info = mysqli_real_escape_string($_POST['page_info']);
 $log = "$lang";
 $log_category = "load_app";
 

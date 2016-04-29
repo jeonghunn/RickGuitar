@@ -6,10 +6,10 @@ class DocumentClass
     function document_read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $doc_srl, $attach_info)
     {
         //$user_srl = AuthCheck($user_srl, false);
-        $row = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
+        $row = mysqli_fetch_array(mysqli_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
         $page_info = $PAGE_CLASS -> GetPageInfo($row['page_srl']);
         //View
-        mysql_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
+        mysqli_query("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
         if (getIPAddr() != $row['ip_addr'])  $PAGE_CLASS -> updatePopularity($user_srl, $row['page_srl'], 1);
 //Status
         $status = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
@@ -33,7 +33,7 @@ class DocumentClass
 //Find lastest number.
     function DocLastNumber()
     {
-        $table_status = mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'documents'"));
+        $table_status = mysqli_fetch_array(mysqli_query("SHOW TABLE STATUS LIKE 'documents'"));
         return $table_status['Auto_increment'];
     }
 
@@ -42,7 +42,7 @@ class DocumentClass
         //$user_srl = AuthCheck($user_srl, false);
         $status_relation = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
         if ($status_relation == 4) {
-            $result = mysql_query("UPDATE `documents` SET `status` = '$status'   WHERE `srl` = '$doc_srl' AND `status` < 5");
+            $result = mysqli_query("UPDATE `documents` SET `status` = '$status'   WHERE `srl` = '$doc_srl' AND `status` < 5");
         } else {
             $result = false;
         }
@@ -83,7 +83,7 @@ class DocumentClass
 
     function getDocInfo($doc_srl, $info)
     {
-        $result = mysql_fetch_array(mysql_query("SELECT * FROM  `documents` WHERE  `srl` =$doc_srl"));
+        $result = mysqli_fetch_array(mysqli_query("SELECT * FROM  `documents` WHERE  `srl` =$doc_srl"));
         return $result[$info];
     }
 
@@ -95,9 +95,9 @@ class DocumentClass
         $user_info = $PAGE_CLASS -> GetPageInfo($user_srl);
         $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
         $last_number = $this -> DocLastNumber();
-        $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`, `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '" . getIPAddr() . "');");
+        $result = mysqli_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`, `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '" . getIPAddr() . "');");
        // $this -> document_send_push($page_srl, $user_srl, $name, $last_number);
-//echo mysql_error();
+//echo mysqli_error();
 
         return $result;
     }
@@ -118,15 +118,15 @@ class DocumentClass
         $last_number = $this -> DocLastNumber();
         if ($content != "" && $relation_status != -1 && $relation_status >= $page_info['write_status'] && $page_info != null) {
             $attach_result = $ATTACH_CLASS -> attach_file($page_srl, $last_number, $user_srl, $status);
-            $result = mysql_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '" . getIPAddr() . "');");
+            $result = mysqli_query("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '" . getIPAddr() . "');");
 
             if (getIPAddr() != $page_info['ip_addr']) $PAGE_CLASS -> updatePopularity($user_srl, $page_srl, 1);
 //Set last update
-            mysql_query("UPDATE `pages` SET `last_update` = '" . getTimeStamp() . "'   WHERE `user_srl` = '$page_srl'");
+            mysqli_query("UPDATE `pages` SET `last_update` = '" . getTimeStamp() . "'   WHERE `user_srl` = '$page_srl'");
 //Push
            $this ->  document_send_push($page_srl, $user_srl, $name, $content, $last_number);
         }
-//echo mysql_error();
+//echo mysqli_error();
 
         return $result;
     }
@@ -154,7 +154,7 @@ class DocumentClass
 //	$user_srl = AuthCheck($user_srl, false);
         $doc_page_srl_info = $PAGE_CLASS -> GetPageInfo($page_srl);
         $status = setRelationStatus($user_srl, $page_srl);
-        $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$page_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+        $row = mysqli_query("SELECT * FROM  `documents` WHERE  `page_srl` =$page_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
         if ($doc_page_srl_info['status'] > $status || $doc_page_srl_info == null) $row = false;
         return $row;
     }
@@ -163,7 +163,7 @@ class DocumentClass
     {
 //	$user_srl = AuthCheck($user_srl, false);
         $status = setRelationStatus($user_srl, $doc_user_srl);
-        return mysql_query("SELECT * FROM  `documents` WHERE  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+        return mysqli_query("SELECT * FROM  `documents` WHERE  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
     }
 
     function document_getUserUpdateList($PAGE_CLASS, $user_srl, $user_array)
@@ -177,9 +177,9 @@ class DocumentClass
 
             } else {
                 if ($doc_user_info['status'] <= $status)
-                    $row = mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC");
-                mysql_data_seek($row, 0);
-                $result = mysql_fetch_array($row);
+                    $row = mysqli_query("SELECT * FROM  `documents` WHERE  `page_srl` =$user_array[$i] AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC");
+                mysqli_data_seek($row, 0);
+                $result = mysqli_fetch_array($row);
                 $contents[] = $result['title'] == "null" ? $result['content'] : $result['title'];
             }
         }
@@ -206,10 +206,10 @@ class DocumentClass
 
 
 
-        $total = mysql_num_rows($row);
+        $total = mysqli_num_rows($row);
         for ($i = 0; $i < $total; $i++) {
-            mysql_data_seek($row, $i);           //포인터 이동
-            $result = mysql_fetch_array($row);        //레코드를 배열로 저장
+            mysqli_data_seek($row, $i);           //포인터 이동
+            $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
           //  echo print_info($result, $doc_info);
             $array[] = array_info_match($result, $doc_info);
         }

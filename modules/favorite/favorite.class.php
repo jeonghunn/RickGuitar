@@ -8,14 +8,14 @@ class FavoriteClass
     {
         //$user_srl = AuthCheck($user_srl, false);
         //$status = setRelationStatus($user_srl, $doc_user_srl);
-        return mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category' AND  `status` = 0");
+        return mysqli_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category' AND  `status` = 0");
 
     }
 
 
 //Find lastest number.
     // function DocLastNumber(){
-    //  $table_status =mysql_fetch_array(mysql_query("SHOW TABLE STATUS LIKE 'documents'"));
+    //  $table_status =mysqli_fetch_array(mysqli_query("SHOW TABLE STATUS LIKE 'documents'"));
     //  return $table_status['Auto_increment'];
     // }
 
@@ -28,13 +28,13 @@ class FavoriteClass
         $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
         //$last_number = DocLastNumber();
         if ($me_status < 3 && $me_status > 0) {
-            $result = mysql_query("INSERT INTO `favorite` (`user_srl`, `category`, `value`, `date`, `ip_addr`) VALUES ('$user_srl', '$category', '$value', '" . getTimeStamp() . "', '" . getIPAddr() . "');");
+            $result = mysqli_query("INSERT INTO `favorite` (`user_srl`, `category`, `value`, `date`, `ip_addr`) VALUES ('$user_srl', '$category', '$value', '" . getTimeStamp() . "', '" . getIPAddr() . "');");
 //setCount
             $this -> setFavoriteCount($user_srl, $value, 3);
             $PAGE_CLASS ->  updatePopularity($user_srl, $value, 20);
             $this -> favorite_send_push($value, $user_srl, $name, "0");
         }
-//echo mysql_error();
+//echo mysqli_error();
 
         return $result;
     }
@@ -45,7 +45,7 @@ class FavoriteClass
         $me_status = setRelationStatus($value, $user_srl);
 
         if ($me_status == 3) {
-            $result = mysql_query("UPDATE `favorite` SET `status` = '1'   WHERE `user_srl` = '$user_srl' AND `value` = '$value' AND `category` = '$category' AND `status` = '0'");
+            $result = mysqli_query("UPDATE `favorite` SET `status` = '1'   WHERE `user_srl` = '$user_srl' AND `value` = '$value' AND `category` = '$category' AND `status` = '0'");
 
 //setCount
             $this -> setFavoriteCount($user_srl, $value, 3);
@@ -61,29 +61,29 @@ class FavoriteClass
         //Count my favorite
         $me_favorite_count = $this -> getFavoriteCount($user_srl, $category);
         $me_like_me_count = $this -> getLikeMeCount($user_srl, $category);
-        mysql_query("UPDATE `pages` SET `favorite` = '$me_favorite_count'   WHERE `srl` = '$user_srl'");
-        mysql_query("UPDATE `pages` SET `like_me` = '$me_like_me_count'   WHERE `srl` = '$user_srl'");
+        mysqli_query("UPDATE `pages` SET `favorite` = '$me_favorite_count'   WHERE `srl` = '$user_srl'");
+        mysqli_query("UPDATE `pages` SET `like_me` = '$me_like_me_count'   WHERE `srl` = '$user_srl'");
 
 //Count others favorite
         $you_favorite_count = $this -> getFavoriteCount($value, $category);
         $you_like_me_count = $this -> getLikeMeCount($value, $category);
-        mysql_query("UPDATE `pages` SET `favorite` = '$you_favorite_count'   WHERE `srl` = '$value'");
-        mysql_query("UPDATE `pages` SET `like_me` = '$you_like_me_count'   WHERE `srl` = '$value'");
+        mysqli_query("UPDATE `pages` SET `favorite` = '$you_favorite_count'   WHERE `srl` = '$value'");
+        mysqli_query("UPDATE `pages` SET `like_me` = '$you_like_me_count'   WHERE `srl` = '$value'");
 
     }
 
     function getLikeMeCount($user_srl, $category)
     {
-        $like_me_count = mysql_query("SELECT * FROM  `favorite` WHERE  `value` = '$user_srl' AND `category` = '$category' AND `status` = '0'");
-        $total = mysql_num_rows($like_me_count);
+        $like_me_count = mysqli_query("SELECT * FROM  `favorite` WHERE  `value` = '$user_srl' AND `category` = '$category' AND `status` = '0'");
+        $total = mysqli_num_rows($like_me_count);
 
         return $total;
     }
 
     function getFavoriteCount($user_srl, $category)
     {
-        $favorite_count = mysql_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category' AND `status` = '0'");
-        $total = mysql_num_rows($favorite_count);
+        $favorite_count = mysqli_query("SELECT * FROM  `favorite` WHERE  `user_srl` = '$user_srl' AND `category` = '$category' AND `status` = '0'");
+        $total = mysqli_num_rows($favorite_count);
 
         return $total;
     }
@@ -98,16 +98,16 @@ class FavoriteClass
     {
 //	$user_srl = AuthCheck($user_srl, false);
         //$status = setRelationStatus($user_srl, $doc_user_srl);
-        return mysql_query("SELECT * FROM  `documents` WHERE  `page_srl` = '$doc_user_srl' AND `status` = '0' ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+        return mysqli_query("SELECT * FROM  `documents` WHERE  `page_srl` = '$doc_user_srl' AND `status` = '0' ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
     }
 
 
     function favorite_PrintList($row)
     {
-        $total = mysql_num_rows($row);
+        $total = mysqli_num_rows($row);
         for ($i = 0; $i < $total; $i++) {
-            mysql_data_seek($row, $i);           //포인터 이동
-            $result = mysql_fetch_array($row);        //레코드를 배열로 저장
+            mysqli_data_seek($row, $i);           //포인터 이동
+            $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
             echo $result['value'] . "/LINE/.";
         }
     }
@@ -115,10 +115,10 @@ class FavoriteClass
 // You must import member_class.php
     function favorite_PrintListbyUpdate($PAGE_CLASS, $row)
     {
-        $total = mysql_num_rows($row);
+        $total = mysqli_num_rows($row);
         for ($i = 0; $i < $total; $i++) {
-            mysql_data_seek($row, $i);           //포인터 이동
-            $result = mysql_fetch_array($row);        //레코드를 배열로 저장
+            mysqli_data_seek($row, $i);           //포인터 이동
+            $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
             $user_info = $PAGE_CLASS -> GetPageInfo($result['value']);
             $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
             $profile[] = array("last_update" => $user_info['last_update'], "user_srl" => $result['value'], "name" => $name);

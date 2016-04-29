@@ -86,10 +86,10 @@ document.form.content_textarea.value = document.form.content_textarea.value;
 <?php 
 $DocList = document_getList($user_srl, $page_srl, 0, 30);
 
- $total= mysql_num_rows ( $DocList );
+ $total= mysqli_num_rows ( $DocList );
   for($i=0 ; $i < $total; $i++){
-               mysql_data_seek($DocList, $i);           //포인터 이동
-             $result=mysql_fetch_array($DocList);        //레코드를 배열로 저장
+               mysqli_data_seek($DocList, $i);           //포인터 이동
+             $result=mysqli_fetch_array($DocList);        //레코드를 배열로 저장
      echo '<a class="pull-left" href="?p='.$result['user_srl'].'">';
      echo '<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="files/profile/thumbnail/'.$result['user_srl'].'.jpg" style="width: 64px; height: 64px;"></a>';
      echo '<div class="media-body">';
@@ -97,7 +97,7 @@ $DocList = document_getList($user_srl, $page_srl, 0, 30);
       echo '<p>'.contentconvert($result['content']).'</pre></p>';
 
       if($result['attach'] != 0){
-        $doc_attach = mysql_fetch_array(attach_read($user_srl, $result['srl']));
+        $doc_attach = mysqli_fetch_array(attach_read($user_srl, $result['srl']));
         if($doc_attach['kind'] == "image"){
 
         echo '<img class="thumbnail" data-src="holder.js/200%x200" alt="attachment" src="files/images/'.$doc_attach['filename'].'.'.$doc_attach['extension'].'" style="width: 256px; max-height:500px"></a>';

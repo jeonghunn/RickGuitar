@@ -11,7 +11,7 @@
 
     //IF auth code already... Delete!
       $deletesql ="DELETE FROM `auth` WHERE `value` = '$auth_value'";
-            $deleteresult = mysql_query($deletesql);
+            $deleteresult = mysqli_query($deletesql);
 
 
 
@@ -30,7 +30,7 @@
 
          //Add to Auth Information to Server
             if($auth_value != null) $sql ="INSERT INTO `auth` (`key`, `value`, `category`, `date`, `ipaddr`) VALUES ('$auth_code_result', '$auth_value', '$category', '".getTimeStamp()."', '".getIPAddr()."');";
-            $result = mysql_query($sql) or $i = false;
+            $result = mysqli_query($sql) or $i = false;
 
             if($repeat > 30){
             	exit();
@@ -48,8 +48,8 @@
         function AuthCheck($auth_key, $category, $delete) {
         	//Auth_key is value of authcode
         $sql ="SELECT * FROM  `auth` WHERE  `key` LIKE '$auth_key' AND `category` = '$category' AND `status` <= 1 AND ( `expire` = 0 OR `expire` < ".getTimeStamp()." )";
-        $result = mysql_query($sql);
-        $row=mysql_fetch_array($result);
+        $result = mysqli_query($sql);
+        $row=mysqli_fetch_array($result);
 
         $value = $row['value'];
 
@@ -67,8 +67,8 @@
 
         function FindAuthCode($value, $category)  {
         $sql ="SELECT * FROM  `auth` WHERE  `value` LIKE '$value' AND  `category` LIKE '$category' AND  `status` <= 0 AND ( `expire` = 0 OR `expire` < ".getTimeStamp().")";
-        $result = mysql_query($sql);
-        $row=mysql_fetch_array($result);
+        $result = mysqli_query($sql);
+        $row=mysqli_fetch_array($result);
 
 $auth_code = $row['key'];
         if($row['key'] == ""){
@@ -81,7 +81,7 @@ $auth_code = $row['key'];
 function UpdateAuthCodeStatus($key, $status){
     //  if(!AuthCheck($key, false)){
     $sql = "UPDATE `auth` SET `status` = '$status' WHERE `key` = '$key'";
-    $result = mysql_query($sql);
+    $result = mysqli_query($sql);
 
     // }
     return $result;
@@ -92,7 +92,7 @@ function UpdateAuthCode($key,  $category, $value, $status){
 
    // if(!AuthCheck($key, false)){
         $sql = "UPDATE `auth` SET `category` = '$category', `value` = '$value', `status` = '$status' WHERE `key` = '$key'";
-        $result = mysql_query($sql);
+        $result = mysqli_query($sql);
    // }
 return $result;
 }
