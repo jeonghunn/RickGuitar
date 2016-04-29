@@ -223,7 +223,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-8" />
+    <option name="y" value="112" />
     <option name="width" value="1920" />
     <option name="height" value="986" />
   </component>
@@ -971,13 +972,7 @@
       <workItem from="1444734727226" duration="261000" />
       <workItem from="1461768118389" duration="314000" />
       <workItem from="1461933357708" duration="2774000" />
-      <workItem from="1461937509767" duration="484000" />
-    </task>
-    <task id="LOCAL-00362" summary="test">
-      <created>1426125192388</created>
-      <option name="number" value="00362" />
-      <option name="project" value="LOCAL" />
-      <updated>1426125192388</updated>
+      <workItem from="1461937509767" duration="773000" />
     </task>
     <task id="LOCAL-00363" summary="test">
       <created>1426125512256</created>
@@ -1267,11 +1262,17 @@
       <option name="project" value="LOCAL" />
       <updated>1461937949326</updated>
     </task>
-    <option name="localTasksCounter" value="411" />
+    <task id="LOCAL-00411" summary="mysql to mysqli">
+      <created>1461938147533</created>
+      <option name="number" value="00411" />
+      <option name="project" value="LOCAL" />
+      <updated>1461938147533</updated>
+    </task>
+    <option name="localTasksCounter" value="412" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="623929000" />
+    <option name="totallyTimeSpent" value="624218000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1283,7 +1284,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="986" extended-state="6" />
+    <frame x="-8" y="112" width="1920" height="986" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1970046" sideWeight="0.4978701" order="13" side_tool="false" content_ui="tabs" />
