@@ -63,7 +63,7 @@ function getLang(){
   //Set language
 $language = getHttpLanguage();
 //if($user_srl != null){
-//    $user_lang = mysqli_fetch_array(mysqli_query("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$user_srl'"));
+//    $user_lang = mysqli_fetch_array(DBQuery("SELECT * FROM  `pages` WHERE  `user_srl` LIKE '$user_srl'"));
 //    $language = $user_lang['lang'];
 //}
 

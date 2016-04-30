@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.69.2.313";
+    return "2.39.70.0.314";
 }
 
 
@@ -236,9 +236,9 @@ echo '<br><div class="alert alert-'.$category.'" role="alert">
      function setRelationStatus($me_srl, $you_srl){
       global $user_permission_status;
 //Select you srl
-  $me_favorite = mysqli_fetch_array(mysqli_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$me_srl' AND `category` LIKE '3' AND `value` LIKE '$you_srl' AND `status` LIKE '0'"));
-   $you_favorite = mysqli_fetch_array(mysqli_query("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl' AND `status` LIKE '0'"));
-  $you_srl_info = mysqli_fetch_array(mysqli_query("SELECT * FROM  `pages` WHERE  `srl` LIKE '$you_srl'"));
+  $me_favorite = mysqli_fetch_array(DBQuery("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$me_srl' AND `category` LIKE '3' AND `value` LIKE '$you_srl' AND `status` LIKE '0'"));
+   $you_favorite = mysqli_fetch_array(DBQuery("SELECT * FROM  `favorite` WHERE  `user_srl` LIKE '$you_srl' AND `category` LIKE '3' AND `value` LIKE '$me_srl' AND `status` LIKE '0'"));
+  $you_srl_info = mysqli_fetch_array(DBQuery("SELECT * FROM  `pages` WHERE  `srl` LIKE '$you_srl'"));
 
   //Global
   $status = 0;

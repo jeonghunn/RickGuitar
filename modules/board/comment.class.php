@@ -7,7 +7,7 @@ class CommentClass
     function comment_read($user_srl, $doc_srl)
     {
         //$user_srl = AuthCheck($user_srl, false);
-        $row = mysqli_fetch_array(mysqli_query("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
+        $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
 
         $status = setRelationStatus($user_srl, $row['page_srl']);
 
@@ -19,7 +19,7 @@ class CommentClass
 //Find lastest number.
     function CommentLastNumber()
     {
-        $table_status = mysqli_fetch_array(mysqli_query("SHOW TABLE STATUS LIKE 'comments'"));
+        $table_status = mysqli_fetch_array(DBQuery("SHOW TABLE STATUS LIKE 'comments'"));
         return $table_status['Auto_increment'];
     }
 
@@ -31,7 +31,7 @@ class CommentClass
         //$user_srl = AuthCheck($user_srl, false);
         $status_relation = $this->getCommentStatus($PAGE_CLASS, $DOCUMENT_CLASS, $user_srl, $comment_srl);
         if ($status_relation == 4) {
-            $result = mysqli_query("UPDATE `comments` SET `status` = '$status'  WHERE `srl` = '$comment_srl'");
+            $result = DBQuery("UPDATE `comments` SET `status` = '$status'  WHERE `srl` = '$comment_srl'");
             $this->setDocCommentCount($cmt_info['doc_srl']);
         }
         return $result;
@@ -69,7 +69,7 @@ class CommentClass
 
     function getComment($srl)
     {
-        $result = mysqli_fetch_array(mysqli_query("SELECT * FROM  `comments` WHERE  `srl` =$srl"));
+        $result = mysqli_fetch_array(DBQuery("SELECT * FROM  `comments` WHERE  `srl` =$srl"));
         return $result;
     }
 
@@ -82,7 +82,7 @@ class CommentClass
         $document = $DOCUMENT_CLASS->document_read($PAGE_CLASS, $user_srl, $doc_srl ,null);
         $last_number = $this->CommentLastNumber();
         if ($content != "" && $document != null) {
-            $result = mysqli_query("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '" . getTimeStamp() . "', '$document[status]', '$privacy', '" . getIPAddr() . "');");
+            $result = DBQuery("INSERT INTO `comments` (`doc_srl`, `user_srl`, `name`, `content`, `date`, `status`, `privacy`, `ip_addr`) VALUES ('$doc_srl', '$user_srl', '$name', '$content', '" . getTimeStamp() . "', '$document[status]', '$privacy', '" . getIPAddr() . "');");
             //SetCount
             $this->setDocCommentCount($doc_srl);
             if (getIPAddr() != $document['ip_addr']) $PAGE_CLASS->updatePopularity($user_srl, $document['page_srl'], 1);
@@ -107,12 +107,12 @@ class CommentClass
     function setDocCommentCount($doc_srl)
     {
         $count = $this->getCommentCount($doc_srl);
-        $comment_count = mysqli_query("UPDATE `documents` SET `comments` = '$count' WHERE `srl` = '$doc_srl'");
+        $comment_count = DBQuery("UPDATE `documents` SET `comments` = '$count' WHERE `srl` = '$doc_srl'");
     }
 
     function getCommentCount($doc_srl)
     {
-        $comment_count = mysqli_query("SELECT * FROM  `comments` WHERE  `doc_srl` = '$doc_srl' AND `status` != '5'");
+        $comment_count = DBQuery("SELECT * FROM  `comments` WHERE  `doc_srl` = '$doc_srl' AND `status` != '5'");
         $total = mysqli_num_rows($comment_count);
 
         return $total;
@@ -121,7 +121,7 @@ class CommentClass
 
     function comment_send_push($doc_user_srl, $doc_srl, $user_srl, $name, $content, $number)
     {
-        $row = mysqli_query("SELECT user_srl FROM  `comments` WHERE  `doc_srl` =$doc_srl AND `status` < 5  ORDER BY  `comments`.`srl`");
+        $row = DBQuery("SELECT user_srl FROM  `comments` WHERE  `doc_srl` =$doc_srl AND `status` < 5  ORDER BY  `comments`.`srl`");
         $total = mysqli_num_rows($row);
         if ($total < 150) {
 //Delete same id
@@ -153,7 +153,7 @@ class CommentClass
     {
 //	$user_srl = AuthCheck($user_srl, false);
         $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
-        return mysqli_query("SELECT * FROM  `comments` WHERE  `doc_srl` =$doc_srl AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `comments`.`srl` ASC LIMIT $start , $number");
+        return DBQuery("SELECT * FROM  `comments` WHERE  `doc_srl` =$doc_srl AND (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `comments`.`srl` ASC LIMIT $start , $number");
     }
 
 

@@ -24,7 +24,7 @@ function TarksAccountLogin($member_class, $id, $password){
         if(!rtnSpecialCharCheck($id.$password)) return false;
         if($id == null || $password == null) return false;
         ConnectDB("xe");
-        $row = mysqli_fetch_array(mysqli_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
+        $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id' AND  `password` LIKE '$password'"));
         ConnectMainDB();
         if($id == $row['user_id']) {
 
@@ -61,13 +61,13 @@ function TarksAccountLogin($member_class, $id, $password){
         $extra_vars = 'O:8:"stdClass":1:{s:15:"xe_validator_id";s:42:"modules/member/skins/default/signup_form/1";}';
         $nick_name = getTimeStamp().GenerateString(3);
         ConnectDB("xe");
-        $email_check = mysqli_fetch_array(mysqli_query("SELECT * FROM  `xe_member` WHERE  `email_address` LIKE '$email'"));
-        $id_check = mysqli_fetch_array(mysqli_query("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id'"));
+        $email_check = mysqli_fetch_array(DBQuery("SELECT * FROM  `xe_member` WHERE  `email_address` LIKE '$email'"));
+        $id_check = mysqli_fetch_array(DBQuery("SELECT * FROM  `xe_member` WHERE  `user_id` LIKE '$id'"));
         if($email_check['email_address'] == $email) return "email_exist_error";
         if($id_check['user_id'] == $id) return "id_exist_error";
         $seq = getTarksSeqLastNumber();
-        $seq_insert = mysqli_query("INSERT INTO `xe_sequence` (`seq`) VALUES (NULL);");
-        if($seq_insert) $tarks_signup = mysqli_query("INSERT INTO `xe_member` (`member_srl`, `user_id`, `email_address`, `password`, `email_id`, `email_host`, `nick_name`, `regdate`, `last_login`, `change_password_date`, `extra_vars`, `list_order`) VALUES ('$seq', '$id', '$email', '$password' ,  '$email_array[0]', '$email_array[1]', '$nick_name', '$nowdate', '$nowdate', '$nowdate', '$extra_vars', '-$seq');");
+        $seq_insert = DBQuery("INSERT INTO `xe_sequence` (`seq`) VALUES (NULL);");
+        if($seq_insert) $tarks_signup = DBQuery("INSERT INTO `xe_member` (`member_srl`, `user_id`, `email_address`, `password`, `email_id`, `email_host`, `nick_name`, `regdate`, `last_login`, `change_password_date`, `extra_vars`, `list_order`) VALUES ('$seq', '$id', '$email', '$password' ,  '$email_array[0]', '$email_array[1]', '$nick_name', '$nowdate', '$nowdate', '$nowdate', '$extra_vars', '-$seq');");
         ConnectMainDB();
         return $tarks_signup;
     }
@@ -75,7 +75,7 @@ function TarksAccountLogin($member_class, $id, $password){
     function GetTarksAccountInfo($tarks_account, $value) {
         ConnectDB("xe");
         $xesql ="SELECT $value FROM  `xe_member` WHERE  `user_id` LIKE '$tarks_account'";
-        $xeresult = mysqli_query($xesql);
+        $xeresult = DBQuery($xesql);
         $xerow=mysqli_fetch_array($xeresult);
         ConnectMainDB();
         return $xerow[$value];
@@ -83,7 +83,7 @@ function TarksAccountLogin($member_class, $id, $password){
 
     //Find lastest number.
     function getTarksSeqLastNumber(){
-        $table_status =mysqli_fetch_array(mysqli_query("SHOW TABLE STATUS LIKE 'xe_sequence'"));
+        $table_status =mysqli_fetch_array(DBQuery("SHOW TABLE STATUS LIKE 'xe_sequence'"));
         return $table_status['Auto_increment'];
     }
 

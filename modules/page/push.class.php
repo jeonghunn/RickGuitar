@@ -4,7 +4,7 @@
  function getRegId($user_srl){
       //import user regid
     $reg_id_number = "SELECT reg_id FROM  `pages` WHERE  `srl` ='$user_srl'";
-    $reg_id_result = mysqli_query($reg_id_number);
+    $reg_id_result = DBQuery($reg_id_number);
     $reg_id =mysqli_fetch_array($reg_id_result);
     
     return $reg_id[reg_id];
