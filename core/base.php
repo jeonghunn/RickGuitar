@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.69.1.312";
+    return "2.39.69.2.313";
 }
 
 
@@ -90,17 +90,24 @@ function CoreInfo(){
   echo "<h2>FavoriteCore</h2><br><h1>".$SERVER_VERSION."</h1>";
 }
 
+function RealEscapeString($value){
+    global $db_conn;
+    return mysqli_real_escape_string($db_conn, $value);
+
+}
+
+
 function REQUEST($value){
-  return mysqli_real_escape_string($_REQUEST[$value]);
+  return RealEscapeString($_REQUEST[$value]);
 }
 
 
 function GET($value){
-  return mysqli_real_escape_string($_GET[$value]);
+  return RealEscapeString($_GET[$value]);
 }
 
 function POST($value){
-  return mysqli_real_escape_string($_POST[$value]);
+  return RealEscapeString($_POST[$value]);
 }
 
 function PostAct($url, $arrayvars){
