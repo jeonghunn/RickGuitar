@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="debugmode off">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/auth.php" afterPath="$PROJECT_DIR$/core/auth.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -72,22 +72,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.058939096">
+            <state vertical-scroll-proportion="-0.5882353">
               <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="auth.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.583334">
-              <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
-              <folding />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding>
+                <marker date="1462045392000" expanded="true" signature="242:290" placeholder="DELETE FROM ..." />
+                <marker date="1462045392000" expanded="true" signature="677:840" placeholder="INSERT INTO ..." />
+                <marker date="1462045392000" expanded="true" signature="1139:1291" placeholder="SELECT * FRO..." />
+                <marker date="1462045392000" expanded="true" signature="1684:1839" placeholder="SELECT * FRO..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -209,11 +214,11 @@
         <option value="$PROJECT_DIR$/modules/board/attach.class.php" />
         <option value="$PROJECT_DIR$/modules/board/comment.class.php" />
         <option value="$PROJECT_DIR$/modules/board/documents.class.php" />
-        <option value="$PROJECT_DIR$/core/auth.php" />
         <option value="$PROJECT_DIR$/core/logger.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/core/db.php" />
+        <option value="$PROJECT_DIR$/core/auth.php" />
       </list>
     </option>
   </component>
@@ -908,13 +913,7 @@
       <workItem from="1461933357708" duration="2774000" />
       <workItem from="1461937509767" duration="2658000" />
       <workItem from="1461996552644" duration="65000" />
-      <workItem from="1462017603763" duration="4361000" />
-    </task>
-    <task id="LOCAL-00369" summary="SecurityInfoCheck added">
-      <created>1426177497051</created>
-      <option name="number" value="00369" />
-      <option name="project" value="LOCAL" />
-      <updated>1426177497051</updated>
+      <workItem from="1462017603763" duration="4787000" />
     </task>
     <task id="LOCAL-00370" summary="SecurityInfoCheck bug fixed">
       <created>1426177545890</created>
@@ -1204,11 +1203,17 @@
       <option name="project" value="LOCAL" />
       <updated>1462020288368</updated>
     </task>
-    <option name="localTasksCounter" value="418" />
+    <task id="LOCAL-00418" summary="debugmode off">
+      <created>1462022937714</created>
+      <option name="number" value="00418" />
+      <option name="project" value="LOCAL" />
+      <updated>1462022937714</updated>
+    </task>
+    <option name="localTasksCounter" value="419" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="630529000" />
+    <option name="totallyTimeSpent" value="630955000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1220,7 +1225,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="65" width="1920" height="993" extended-state="6" />
+    <frame x="29" y="65" width="1920" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1298,7 +1303,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PageInfoUpdate api added" />
     <MESSAGE value="PageInfoUpdate permission bug fixed" />
     <MESSAGE value="api0 files deleted" />
     <MESSAGE value="site address edited" />
@@ -1323,7 +1327,8 @@
     <MESSAGE value="debug" />
     <MESSAGE value="mysqli real escape fixed" />
     <MESSAGE value="mysqli_query method added" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysqli_query method added" />
+    <MESSAGE value="debugmode off" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugmode off" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1664,14 +1669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.583334">
-          <caret line="94" column="18" selection-start-line="94" selection-start-column="18" selection-end-line="94" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/logger.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.875">
@@ -1728,9 +1725,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.058939096">
+        <state vertical-scroll-proportion="-0.5882353">
           <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1462045392000" expanded="true" signature="242:290" placeholder="DELETE FROM ..." />
+            <marker date="1462045392000" expanded="true" signature="677:840" placeholder="INSERT INTO ..." />
+            <marker date="1462045392000" expanded="true" signature="1139:1291" placeholder="SELECT * FRO..." />
+            <marker date="1462045392000" expanded="true" signature="1684:1839" placeholder="SELECT * FRO..." />
+          </folding>
         </state>
       </provider>
     </entry>

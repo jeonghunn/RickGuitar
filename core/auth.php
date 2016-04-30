@@ -1,4 +1,4 @@
-<? if(!defined("642979")) exit();
+<?php if(!defined("642979")) exit();
 
 //Information : auth_value is value
 //$auth = "642979";
