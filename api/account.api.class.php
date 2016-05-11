@@ -50,9 +50,9 @@ if($auth == false) ErrorPrint("login_error", "Wrong ID or Password. Please try a
         } else {
 
             if ($signup != false) {
-                echo $signup;
+                echo ErrorMessage($signup);
             } else {
-                echo "error";
+                ErrorMessage("unknown_error");
             }
 
 

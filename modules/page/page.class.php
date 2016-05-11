@@ -245,7 +245,7 @@ class PageClass
 
 
 
-        return array($PageNumber, $auth_code);
+        return array("page_srl" => $PageNumber,  "auth" => $auth_code);
     }
 
     function UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country) {
