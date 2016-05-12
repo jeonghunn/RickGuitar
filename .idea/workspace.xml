@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api.php" afterPath="$PROJECT_DIR$/api.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -27,8 +28,8 @@
             <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/api.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="210">
-                    <caret line="17" column="13" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="13" />
+                  <state relative-caret-position="164">
+                    <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                     <folding />
                   </state>
                 </provider>
@@ -127,13 +128,13 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="390">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
-                <marker date="1463044709000" expanded="true" signature="4516:4570" placeholder="..." />
-                <marker date="1463044709000" expanded="true" signature="4729:4861" placeholder="SELECT * FRO..." />
-                <marker date="1463044709000" expanded="true" signature="4913:5045" placeholder="SELECT * FRO..." />
-                <marker date="1463044709000" expanded="true" signature="5096:5147" placeholder="SELECT * FRO..." />
+                <marker date="1463044819000" expanded="true" signature="4516:4570" placeholder="..." />
+                <marker date="1463044819000" expanded="true" signature="4729:4861" placeholder="SELECT * FRO..." />
+                <marker date="1463044819000" expanded="true" signature="4913:5045" placeholder="SELECT * FRO..." />
+                <marker date="1463044819000" expanded="true" signature="5096:5147" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -1190,14 +1191,7 @@
       <workItem from="1462987285578" duration="69000" />
       <workItem from="1462987408969" duration="14000" />
       <workItem from="1462992447055" duration="1399000" />
-      <workItem from="1463035527748" duration="8466000" />
-    </task>
-    <task id="LOCAL-00386" summary="refactored, api bug fixed">
-      <created>1438964516653</created>
-      <option name="number" value="00386" />
-      <option name="presentableId" value="LOCAL-00386" />
-      <option name="project" value="LOCAL" />
-      <updated>1438964516653</updated>
+      <workItem from="1463035527748" duration="8575000" />
     </task>
     <task id="LOCAL-00387" summary="api updated (last favorite)">
       <created>1439030285024</created>
@@ -1535,11 +1529,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463044559354</updated>
     </task>
-    <option name="localTasksCounter" value="435" />
+    <task id="LOCAL-00435" summary="moduleloader, apiloader global variable updated">
+      <created>1463044730630</created>
+      <option name="number" value="00435" />
+      <option name="presentableId" value="LOCAL-00435" />
+      <option name="project" value="LOCAL" />
+      <updated>1463044730630</updated>
+    </task>
+    <option name="localTasksCounter" value="436" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="641264000" />
+    <option name="totallyTimeSpent" value="641373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1631,7 +1632,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="account create bug fixed" />
     <MESSAGE value="account page srl bug fixed" />
     <MESSAGE value="messageprint added, account error mesasge added" />
     <MESSAGE value="test" />
@@ -1656,7 +1656,8 @@
     <MESSAGE value="globals added" />
     <MESSAGE value="module load standard updated" />
     <MESSAGE value="apiphp bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="apiphp bug fixed" />
+    <MESSAGE value="moduleloader, apiloader global variable updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="moduleloader, apiloader global variable updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2105,14 +2106,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/main/main.loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/board/board.loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -2137,23 +2130,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/main/main.loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="164">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="390">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
-            <marker date="1463044709000" expanded="true" signature="4516:4570" placeholder="..." />
-            <marker date="1463044709000" expanded="true" signature="4729:4861" placeholder="SELECT * FRO..." />
-            <marker date="1463044709000" expanded="true" signature="4913:5045" placeholder="SELECT * FRO..." />
-            <marker date="1463044709000" expanded="true" signature="5096:5147" placeholder="SELECT * FRO..." />
+            <marker date="1463044819000" expanded="true" signature="4516:4570" placeholder="..." />
+            <marker date="1463044819000" expanded="true" signature="4729:4861" placeholder="SELECT * FRO..." />
+            <marker date="1463044819000" expanded="true" signature="4913:5045" placeholder="SELECT * FRO..." />
+            <marker date="1463044819000" expanded="true" signature="5096:5147" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
