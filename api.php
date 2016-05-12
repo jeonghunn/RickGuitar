@@ -1,9 +1,12 @@
 <?php
 define('642979',   TRUE);
-debugMode();
+
 
  require_once 'core/base.php';
  require_once 'core/db.php';
+
+
+debugMode();
 
 $API_VERSION = (int) REQUEST('apiv');
 $ACTION = REQUEST('a');

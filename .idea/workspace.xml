@@ -28,8 +28,8 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1127,14 +1127,7 @@
       <workItem from="1462987285578" duration="69000" />
       <workItem from="1462987408969" duration="14000" />
       <workItem from="1462992447055" duration="1399000" />
-      <workItem from="1463035527748" duration="4777000" />
-    </task>
-    <task id="LOCAL-00376" summary="api checkact updated">
-      <created>1426224574716</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
-      <option name="project" value="LOCAL" />
-      <updated>1426224574716</updated>
+      <workItem from="1463035527748" duration="4810000" />
     </task>
     <task id="LOCAL-00377" summary="SecurityAllowAction added">
       <created>1426224833103</created>
@@ -1472,11 +1465,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463040786919</updated>
     </task>
-    <option name="localTasksCounter" value="425" />
+    <task id="LOCAL-00425" summary="debugmode on">
+      <created>1463040945006</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
+      <option name="project" value="LOCAL" />
+      <updated>1463040945006</updated>
+    </task>
+    <option name="localTasksCounter" value="426" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="637575000" />
+    <option name="totallyTimeSpent" value="637608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1568,7 +1568,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="account, facebook added" />
     <MESSAGE value="accout api added" />
     <MESSAGE value="accout api command added" />
     <MESSAGE value="api bug fixed" />
@@ -1593,7 +1592,8 @@
     <MESSAGE value="api loader updated" />
     <MESSAGE value="module standard updated" />
     <MESSAGE value="path fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="path fixed" />
+    <MESSAGE value="debugmode on" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugmode on" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2071,8 +2071,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
