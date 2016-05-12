@@ -42,7 +42,7 @@ require_once 'api/account.api.class.php';
 //Excute Apis
 $API = new APIClass();
 $PageAPI = new PageAPIClass();
-$BoardAPI = new BoardAPIClass();
+
 $AccountAPI = new AccoutApiClass();
 //$TarksAccountAPI = new TarksAccountAPIClass();
 
@@ -72,15 +72,7 @@ if($ACTION == "account_auth") $AccountAPI -> API_AuthAccount();
 if($ACTION == "account_sign_up") $AccountAPI -> API_SignUpAccount();
 
 
-//Board
-if($ACTION == "doc_list") $BoardAPI -> API_getDocList($user_srl);
-if($ACTION == "doc_write") $BoardAPI -> API_DocWrite($user_srl);
-if($ACTION == "doc_read") $BoardAPI -> API_DocRead($user_srl);
-if($ACTION == "doc_status_update") $BoardAPI -> API_DocStatusUpdate($user_srl);
-if($ACTION == "comment_list") $BoardAPI -> API_getCommentList($user_srl);
-if($ACTION == "comment_write") $BoardAPI -> API_CommentWrite($user_srl);
-if($ACTION == "comment_status_update") $BoardAPI -> API_CommentStatusUpdate($user_srl);
-if($ACTION == "download") $BoardAPI -> API_AttachDownload();
+
 
 
 ?>
