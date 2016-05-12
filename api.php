@@ -6,7 +6,7 @@ define('642979',   TRUE);
  require_once 'core/db.php';
 
 
-//debugMode();
+debugMode();
 
 $API_VERSION = (int) REQUEST('apiv');
 $ACTION = REQUEST('a');

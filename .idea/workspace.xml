@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1127,14 +1127,7 @@
       <workItem from="1462987285578" duration="69000" />
       <workItem from="1462987408969" duration="14000" />
       <workItem from="1462992447055" duration="1399000" />
-      <workItem from="1463035527748" duration="5335000" />
-    </task>
-    <task id="LOCAL-00379" summary="api_error bug fixed">
-      <created>1426516964818</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
-      <option name="project" value="LOCAL" />
-      <updated>1426516964820</updated>
+      <workItem from="1463035527748" duration="5359000" />
     </task>
     <task id="LOCAL-00380" summary="updated">
       <created>1426517114491</created>
@@ -1472,11 +1465,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463041426699</updated>
     </task>
-    <option name="localTasksCounter" value="428" />
+    <task id="LOCAL-00428" summary="debugmode off">
+      <created>1463041517245</created>
+      <option name="number" value="00428" />
+      <option name="presentableId" value="LOCAL-00428" />
+      <option name="project" value="LOCAL" />
+      <updated>1463041517245</updated>
+    </task>
+    <option name="localTasksCounter" value="429" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="638133000" />
+    <option name="totallyTimeSpent" value="638157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1583,7 +1583,6 @@
     <MESSAGE value="debug" />
     <MESSAGE value="mysqli real escape fixed" />
     <MESSAGE value="mysqli_query method added" />
-    <MESSAGE value="debugmode off" />
     <MESSAGE value="php tag fixed" />
     <MESSAGE value="signup error message updated, adduser response updated" />
     <MESSAGE value="api load order changed" />
@@ -1593,7 +1592,8 @@
     <MESSAGE value="debugmode on" />
     <MESSAGE value="debugmode on again" />
     <MESSAGE value="variable global access" />
-    <option name="LAST_COMMIT_MESSAGE" value="variable global access" />
+    <MESSAGE value="debugmode off" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugmode off" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2072,7 +2072,7 @@
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
