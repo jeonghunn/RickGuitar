@@ -17,12 +17,7 @@ $log_category = $ACTION;
 require_once 'config.php';
 //Load Core Library
 require_once 'core/lib/Thumbnail.class.php';
-//Load APIs.
-require_once 'api/main.api.class.php';
-require_once 'api/page.api.class.php';
-require_once 'api/board.api.class.php';
-require_once 'api/account.api.class.php';
-//require_once 'api/tarks_account.api.class.php';
+
 //Load Modules.
 require_once 'modules/page/page.class.php';
 require_once 'modules/member/account.class.php';
@@ -31,6 +26,15 @@ require_once 'modules/member/tarks_account.class.php';
 require_once 'modules/board/documents.class.php';
 require_once 'modules/board/comment.class.php';
 require_once 'modules/board/attach.class.php';
+
+
+//Load APIs.
+require_once 'api/main.api.class.php';
+require_once 'api/page.api.class.php';
+require_once 'api/board.api.class.php';
+require_once 'api/account.api.class.php';
+//require_once 'api/tarks_account.api.class.php';
+
 
 
 //$user_srl = AuthCheck($page_auth, false);
