@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="globals">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api.php" afterPath="$PROJECT_DIR$/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
       <file leaf-file-name="account.api.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/account/account.api.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="59" />
+            <state relative-caret-position="390">
+              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -106,16 +106,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="60">
               <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
-                <marker date="1463041412000" expanded="true" signature="4359:4413" placeholder="..." />
-                <marker date="1463041412000" expanded="true" signature="4572:4704" placeholder="SELECT * FRO..." />
-                <marker date="1463041412000" expanded="true" signature="4756:4888" placeholder="SELECT * FRO..." />
-                <marker date="1463041412000" expanded="true" signature="4939:4990" placeholder="SELECT * FRO..." />
+                <marker date="1463042113000" expanded="true" signature="4306:4360" placeholder="..." />
+                <marker date="1463042113000" expanded="true" signature="4519:4651" placeholder="SELECT * FRO..." />
+                <marker date="1463042113000" expanded="true" signature="4703:4835" placeholder="SELECT * FRO..." />
+                <marker date="1463042113000" expanded="true" signature="4886:4937" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -209,8 +209,8 @@
         <option value="$PROJECT_DIR$/modules/account/account.php" />
         <option value="$PROJECT_DIR$/modules/page/page.php" />
         <option value="$PROJECT_DIR$/modules/board/board.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/api.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
   </component>
@@ -1127,14 +1127,7 @@
       <workItem from="1462987285578" duration="69000" />
       <workItem from="1462987408969" duration="14000" />
       <workItem from="1462992447055" duration="1399000" />
-      <workItem from="1463035527748" duration="5359000" />
-    </task>
-    <task id="LOCAL-00380" summary="updated">
-      <created>1426517114491</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1426517114491</updated>
+      <workItem from="1463035527748" duration="5895000" />
     </task>
     <task id="LOCAL-00381" summary="PageInfoUpdate api added">
       <created>1433146651452</created>
@@ -1472,11 +1465,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463041517245</updated>
     </task>
-    <option name="localTasksCounter" value="429" />
+    <task id="LOCAL-00429" summary="debugmode on">
+      <created>1463041542565</created>
+      <option name="number" value="00429" />
+      <option name="presentableId" value="LOCAL-00429" />
+      <option name="project" value="LOCAL" />
+      <updated>1463041542565</updated>
+    </task>
+    <option name="localTasksCounter" value="430" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="638157000" />
+    <option name="totallyTimeSpent" value="638693000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1589,11 +1589,11 @@
     <MESSAGE value="api loader updated" />
     <MESSAGE value="module standard updated" />
     <MESSAGE value="path fixed" />
-    <MESSAGE value="debugmode on" />
     <MESSAGE value="debugmode on again" />
     <MESSAGE value="variable global access" />
     <MESSAGE value="debugmode off" />
-    <option name="LAST_COMMIT_MESSAGE" value="debugmode off" />
+    <MESSAGE value="debugmode on" />
+    <option name="LAST_COMMIT_MESSAGE" value="debugmode on" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1978,22 +1978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/page/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/account/account.api.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/account/tarks_account.api.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -2056,24 +2040,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
+    <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <marker date="1463041412000" expanded="true" signature="4359:4413" placeholder="..." />
-            <marker date="1463041412000" expanded="true" signature="4572:4704" placeholder="SELECT * FRO..." />
-            <marker date="1463041412000" expanded="true" signature="4756:4888" placeholder="SELECT * FRO..." />
-            <marker date="1463041412000" expanded="true" signature="4939:4990" placeholder="SELECT * FRO..." />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api.php">
+    <entry file="file://$PROJECT_DIR$/modules/page/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/account/account.api.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1463042113000" expanded="true" signature="4306:4360" placeholder="..." />
+            <marker date="1463042113000" expanded="true" signature="4519:4651" placeholder="SELECT * FRO..." />
+            <marker date="1463042113000" expanded="true" signature="4703:4835" placeholder="SELECT * FRO..." />
+            <marker date="1463042113000" expanded="true" signature="4886:4937" placeholder="SELECT * FRO..." />
+          </folding>
         </state>
       </provider>
     </entry>
