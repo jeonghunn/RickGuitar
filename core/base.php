@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.39.512.16.22";
+    return "2.40.512.17";
 }
 
 
@@ -75,6 +75,9 @@ function MessagePrint($category, $message, $des){
    echo json_encode($array);
 }
 
+function loadModule($module){
+    require_once '/modules/'.$module.'/'.$module.'.php';
+}
 
 
 function P($str){
@@ -85,10 +88,13 @@ function A($str){
   return htmlspecialchars($str);
 }
 
+
 function CoreInfo(){
   global $SERVER_VERSION;
-  echo "<h2>FavoriteCore</h2><br><h1>".$SERVER_VERSION."</h1>";
+  echo "<h2>SquareCore</h2><br><h1>".$SERVER_VERSION."</h1>";
 }
+
+
 
 function RealEscapeString($value){
     global $db_conn;

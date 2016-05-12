@@ -12,8 +12,8 @@ require_once(__DIR__ . '/../../core/permission.php');
 //require_once(__DIR__ . '/../core/auth.php');
 
 require_once(__DIR__ . '/../../modules/page/page.class.php');
-require_once(__DIR__ . '/../../modules/member/account.class.php');
-require_once(__DIR__ . '/../../modules/member/member.class.php');
+require_once(__DIR__ . '/../../modules/account/account.class.php');
+require_once(__DIR__ . '/../../modules/account/member.class.php');
 require_once(__DIR__ . '/../../modules/board/documents.class.php');
 require_once(__DIR__ . '/../../modules/board/comment.class.php');
 require_once(__DIR__ . '/../../modules/board/attach.class.php');
