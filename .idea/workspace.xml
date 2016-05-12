@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/account/member.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/board/board.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/main/main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/page/page.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/account.api.class.php" afterPath="$PROJECT_DIR$/modules/account/account.api.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/board.api.class.php" afterPath="$PROJECT_DIR$/modules/board/board.api.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/facebook.api.class.php" afterPath="$PROJECT_DIR$/modules/account/facebook.api.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/main.api.class.php" afterPath="$PROJECT_DIR$/modules/main/main.api.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/page.api.class.php" afterPath="$PROJECT_DIR$/modules/page/page.api.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/api/tarks_account.api.class.php" afterPath="$PROJECT_DIR$/modules/account/tarks_account.api.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/member/account.class.php" afterPath="$PROJECT_DIR$/modules/account/account.class.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/member/member.class.php" afterPath="$PROJECT_DIR$/modules/account/account.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/modules/member/tarks_account.class.php" afterPath="$PROJECT_DIR$/modules/account/tarks_account.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/MemberTest.php" afterPath="$PROJECT_DIR$/Tests/MemberTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/core/PermissionTest.php" afterPath="$PROJECT_DIR$/Tests/core/PermissionTest.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api.php" afterPath="$PROJECT_DIR$/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -122,16 +106,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
-                <marker date="1463040618000" expanded="true" signature="4290:4344" placeholder="..." />
-                <marker date="1463040618000" expanded="true" signature="4503:4635" placeholder="SELECT * FRO..." />
-                <marker date="1463040618000" expanded="true" signature="4687:4819" placeholder="SELECT * FRO..." />
-                <marker date="1463040618000" expanded="true" signature="4870:4921" placeholder="SELECT * FRO..." />
+                <marker date="1463040778000" expanded="true" signature="4292:4346" placeholder="..." />
+                <marker date="1463040778000" expanded="true" signature="4505:4637" placeholder="SELECT * FRO..." />
+                <marker date="1463040778000" expanded="true" signature="4689:4821" placeholder="SELECT * FRO..." />
+                <marker date="1463040778000" expanded="true" signature="4872:4923" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -225,8 +209,8 @@
         <option value="$PROJECT_DIR$/modules/account/account.php" />
         <option value="$PROJECT_DIR$/modules/page/page.php" />
         <option value="$PROJECT_DIR$/modules/board/board.php" />
-        <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/api.php" />
       </list>
     </option>
   </component>
@@ -1143,21 +1127,7 @@
       <workItem from="1462987285578" duration="69000" />
       <workItem from="1462987408969" duration="14000" />
       <workItem from="1462992447055" duration="1399000" />
-      <workItem from="1463035527748" duration="4460000" />
-    </task>
-    <task id="LOCAL-00374" summary="debugmode off">
-      <created>1426223749840</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
-      <option name="project" value="LOCAL" />
-      <updated>1426223749840</updated>
-    </task>
-    <task id="LOCAL-00375" summary="api_key api error updated">
-      <created>1426224282845</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
-      <option name="project" value="LOCAL" />
-      <updated>1426224282845</updated>
+      <workItem from="1463035527748" duration="4777000" />
     </task>
     <task id="LOCAL-00376" summary="api checkact updated">
       <created>1426224574716</created>
@@ -1488,11 +1458,25 @@
       <option name="project" value="LOCAL" />
       <updated>1463037806957</updated>
     </task>
-    <option name="localTasksCounter" value="423" />
+    <task id="LOCAL-00423" summary="module standard updated">
+      <created>1463040659068</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
+      <option name="project" value="LOCAL" />
+      <updated>1463040659068</updated>
+    </task>
+    <task id="LOCAL-00424" summary="path fixed">
+      <created>1463040786919</created>
+      <option name="number" value="00424" />
+      <option name="presentableId" value="LOCAL-00424" />
+      <option name="project" value="LOCAL" />
+      <updated>1463040786919</updated>
+    </task>
+    <option name="localTasksCounter" value="425" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="637258000" />
+    <option name="totallyTimeSpent" value="637575000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1584,8 +1568,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refactored, api bug fixed" />
-    <MESSAGE value="api updated (last favorite)" />
     <MESSAGE value="account, facebook added" />
     <MESSAGE value="accout api added" />
     <MESSAGE value="accout api command added" />
@@ -1609,7 +1591,9 @@
     <MESSAGE value="signup error message updated, adduser response updated" />
     <MESSAGE value="api load order changed" />
     <MESSAGE value="api loader updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="api loader updated" />
+    <MESSAGE value="module standard updated" />
+    <MESSAGE value="path fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="path fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2026,16 +2010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/account/account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-          <folding>
-            <element signature="e#6#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/account/member.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -2072,24 +2046,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api.php">
+    <entry file="file://$PROJECT_DIR$/modules/account/account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="315">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#6#69#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding>
-            <marker date="1463040618000" expanded="true" signature="4290:4344" placeholder="..." />
-            <marker date="1463040618000" expanded="true" signature="4503:4635" placeholder="SELECT * FRO..." />
-            <marker date="1463040618000" expanded="true" signature="4687:4819" placeholder="SELECT * FRO..." />
-            <marker date="1463040618000" expanded="true" signature="4870:4921" placeholder="SELECT * FRO..." />
+            <marker date="1463040778000" expanded="true" signature="4292:4346" placeholder="..." />
+            <marker date="1463040778000" expanded="true" signature="4505:4637" placeholder="SELECT * FRO..." />
+            <marker date="1463040778000" expanded="true" signature="4689:4821" placeholder="SELECT * FRO..." />
+            <marker date="1463040778000" expanded="true" signature="4872:4923" placeholder="SELECT * FRO..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
