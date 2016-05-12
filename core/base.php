@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.40.512.17.48";
+    return "2.40.512.18";
 }
 
 
@@ -76,7 +76,10 @@ function MessagePrint($category, $message, $des){
 }
 
  function loadModule($module){
-    require_once 'modules/'.$module.'/'.$module.'.php';
+    require_once 'modules/'.$module.'/'.$module.'.loader.php';
+}
+function loadAPIs($api){
+    require_once 'modules/'.$api.'/'.$api.'.api.php';
 }
 
 

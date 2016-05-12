@@ -7,17 +7,6 @@
  */
 
 
-//load class
-require_once 'modules/board/documents.class.php';
-require_once 'modules/board/comment.class.php';
-require_once 'modules/board/attach.class.php';
-
-//load api class
-require_once 'modules/board/board.api.class.php';
-
-
-//load apis
-$BoardAPI = new BoardAPIClass();
 if($ACTION == "doc_list") $BoardAPI -> API_getDocList($user_srl);
 if($ACTION == "doc_write") $BoardAPI -> API_DocWrite($user_srl);
 if($ACTION == "doc_read") $BoardAPI -> API_DocRead($user_srl);

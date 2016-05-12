@@ -24,10 +24,10 @@ require_once 'config.php';
 require_once 'core/lib/Thumbnail.class.php';
 
 //Load Modules.
-require_once 'modules/main/main.php';
-require_once 'modules/account/account.php';
-require_once 'modules/board/board.php';
-require_once 'modules/page/page.php';
+require_once 'modules/main/main.api.php';
+require_once 'modules/account/account.api.php';
+require_once 'modules/board/board.api.php';
+require_once 'modules/page/page.loader.php';
 //loadModule('main');
 //loadModule('account');
 //loadModule('board');

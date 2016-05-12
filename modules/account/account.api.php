@@ -7,19 +7,6 @@
  */
 
 
-//load class
-require_once 'modules/account/account.class.php';
-require_once 'modules/account/member.class.php';
-require_once 'modules/account/tarks_account.class.php';
-
-
-//load api class
-require_once 'modules/account/account.api.class.php';
-//require_once 'api/tarks_account.api.class.php';
-
-
-//load apis
-$AccountAPI = new AccoutApiClass();
 //ㄴTarks
 //if($ACTION == "tarks_auth") $TarksAccountAPI -> API_AuthTarksAccount();
 //if($ACTION == "make_tarks_authcode") $TarksAccountAPI -> API_MakeTarksAccountAuth();

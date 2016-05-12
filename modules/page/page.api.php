@@ -7,16 +7,7 @@
  */
 
 
-//load class
-require_once 'modules/page/page.class.php';
 
-
-//load api class
-require_once 'modules/page/page.api.class.php';
-
-
-//load apis
-$PageAPI = new PageAPIClass();
 //Page
 if($ACTION == "page_info") $PageAPI -> API_getPageInfo($user_srl);
 if($ACTION == "my_page_info") $PageAPI -> API_getMyPageInfo($user_srl);
