@@ -75,14 +75,14 @@ function MessagePrint($category, $message, $des){
    echo json_encode($array);
 }
 
- function loadModule($module){
-     global $API_VERSION, $ACTION, $page_auth, $log, $log_category;
-    require_once 'modules/'.$module.'/'.$module.'.loader.php';
-}
-function loadAPIs($api){
-    global $API_VERSION, $ACTION, $page_auth, $log, $log_category;
-    require_once 'modules/'.$api.'/'.$api.'.api.php';
-}
+// function loadModule($module){
+//     global $API_VERSION, $ACTION, $page_auth, $log, $log_category;
+//    require_once 'modules/'.$module.'/'.$module.'.loader.php';
+//}
+//function loadAPIs($api){
+//    global $API_VERSION, $ACTION, $page_auth, $log, $log_category;
+//    require_once 'modules/'.$api.'/'.$api.'.api.php';
+//}
 
 
 function P($str){
