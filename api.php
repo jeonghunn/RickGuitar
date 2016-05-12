@@ -24,8 +24,14 @@ require_once 'config.php';
 require_once 'core/lib/Thumbnail.class.php';
 
 //Load Modules.
-loadModule(array('main', 'account', 'board', 'page'));
-
+require_once 'modules/main/main.php';
+require_once 'modules/account/account.php';
+require_once 'modules/board/board.php';
+require_once 'modules/page/page.php';
+//loadModule('main');
+//loadModule('account');
+//loadModule('board');
+//loadModule('page');
 
 
 
