@@ -8,6 +8,6 @@
 
 
 //load class
-require_once 'modules/notifcation/controller/push.class.php';
+require_once 'modules/notification/controller/push.class.php';
 
 
