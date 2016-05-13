@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/notification/controller/push.class.php" afterPath="$PROJECT_DIR$/modules/notification/controller/push.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api.php" afterPath="$PROJECT_DIR$/api.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -135,7 +134,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -150,11 +149,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="60" />
+            <state relative-caret-position="120">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -241,13 +240,13 @@
         <option value="$PROJECT_DIR$/modules/account/account.loader.php" />
         <option value="$PROJECT_DIR$/modules/board/board.loader.php" />
         <option value="$PROJECT_DIR$/modules/notification/notifcation.loader.php" />
-        <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/modules/board/controller/documents.class.php" />
         <option value="$PROJECT_DIR$/modules/board/api/board.api.class.php" />
         <option value="$PROJECT_DIR$/modules/board/controller/comment.class.php" />
         <option value="$PROJECT_DIR$/modules/notification/notification.loader.php" />
         <option value="$PROJECT_DIR$/modules/notification/controller/push.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/api.php" />
       </list>
     </option>
   </component>
@@ -1283,14 +1282,7 @@
       <workItem from="1462987408969" duration="14000" />
       <workItem from="1462992447055" duration="1399000" />
       <workItem from="1463035527748" duration="9308000" />
-      <workItem from="1463133553057" duration="3184000" />
-    </task>
-    <task id="LOCAL-00394" summary="account page srl bug fixed">
-      <created>1439543391405</created>
-      <option name="number" value="00394" />
-      <option name="presentableId" value="LOCAL-00394" />
-      <option name="project" value="LOCAL" />
-      <updated>1439543391405</updated>
+      <workItem from="1463133553057" duration="3262000" />
     </task>
     <task id="LOCAL-00395" summary="messageprint added, account error mesasge added">
       <created>1439958308439</created>
@@ -1628,11 +1620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463146459822</updated>
     </task>
-    <option name="localTasksCounter" value="443" />
+    <task id="LOCAL-00443" summary="push.class method bug fixed">
+      <created>1463146535726</created>
+      <option name="number" value="00443" />
+      <option name="presentableId" value="LOCAL-00443" />
+      <option name="project" value="LOCAL" />
+      <updated>1463146535726</updated>
+    </task>
+    <option name="localTasksCounter" value="444" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="645290000" />
+    <option name="totallyTimeSpent" value="645368000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1724,7 +1723,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mysql to mysqli" />
     <MESSAGE value="db.php" />
     <MESSAGE value="debug" />
     <MESSAGE value="mysqli real escape fixed" />
@@ -1749,7 +1747,8 @@
     <MESSAGE value="noti module added, push class added" />
     <MESSAGE value="board push fixed" />
     <MESSAGE value="wrong spell fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="wrong spell fixed" />
+    <MESSAGE value="push.class method bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="push.class method bug fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2102,14 +2101,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/board/controller/documents.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -2215,6 +2206,14 @@
             <marker date="1463146516000" expanded="true" signature="4929:5061" placeholder="SELECT * FRO..." />
             <marker date="1463146516000" expanded="true" signature="5112:5163" placeholder="SELECT * FRO..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
