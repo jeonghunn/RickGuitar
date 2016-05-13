@@ -48,6 +48,7 @@ class BoardApiClass{
         $DOCUMENT_CLASS = new DocumentClass();
         $PAGE_CLASS = new PageClass();
         $ATTACH_CLASS = new AttachClass();
+        $PUSH_CLASS = new PushClass();
 
         $page_srl = REQUEST('page_srl');
         $title = REQUEST('title');
@@ -56,7 +57,7 @@ class BoardApiClass{
         $status = REQUEST('status');
         $privacy = REQUEST('privacy');
 
-        $document_write = $DOCUMENT_CLASS ->  document_write($PAGE_CLASS, $ATTACH_CLASS,   $page_srl, $user_srl , $title, $content, $permission, $status, $privacy);
+        $document_write = $DOCUMENT_CLASS ->  document_write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS,  $page_srl, $user_srl , $title, $content, $permission, $status, $privacy);
         if($document_write == true){
             echo "success";
         }else{
@@ -122,13 +123,14 @@ class BoardApiClass{
         $DOCUMENT_CLASS = new DocumentClass();
         $COMMENT_CLASS = new CommentClass();
         $PAGE_CLASS = new PageClass();
+        $PUSH_CLASS = new PushClass();
 
         $doc_srl = REQUEST('doc_srl');
         $content = REQUEST('content');
         $permission = REQUEST('permission');
         $privacy = REQUEST('privacy');
 
-        $comment_write =  $COMMENT_CLASS -> comment_write($PAGE_CLASS, $DOCUMENT_CLASS, $doc_srl, $user_srl, $content, $permission, $privacy);
+        $comment_write =  $COMMENT_CLASS -> comment_write($PAGE_CLASS, $DOCUMENT_CLASS, $PUSH_CLASS, $doc_srl, $user_srl, $content, $permission, $privacy);
 
         if($comment_write == true){
             echo "success";

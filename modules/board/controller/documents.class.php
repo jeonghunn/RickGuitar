@@ -104,7 +104,7 @@ class DocumentClass
 
 
 //require attach_class.php
-    function document_write($PAGE_CLASS, $ATTACH_CLASS, $page_srl, $user_srl, $title, $content, $permission, $status, $privacy)
+    function document_write($PAGE_CLASS, $ATTACH_CLASS,  $PUSH_CLASS,  $page_srl, $user_srl, $title, $content, $permission, $status, $privacy)
     {
 //Check Value security
         security_value_check($title);
@@ -124,7 +124,7 @@ class DocumentClass
 //Set last update
             DBQuery("UPDATE `pages` SET `last_update` = '" . getTimeStamp() . "'   WHERE `user_srl` = '$page_srl'");
 //Push
-           $this ->  document_send_push($page_srl, $user_srl, $name, $content, $last_number);
+           $this ->  document_send_push($PUSH_CLASS, $page_srl, $user_srl, $name, $content, $last_number);
         }
 //echo mysqli_error();
 
@@ -142,9 +142,9 @@ class DocumentClass
     }
 
 
-    function document_send_push($page_srl, $user_srl, $name, $content, $number)
+    function document_send_push($PUSH_CLASS, $page_srl, $user_srl, $name, $content, $number)
     {
-        if ($user_srl != $page_srl)  sendPushMessage($page_srl, $user_srl, $name, $content, "new_document", 1, $number);
+        if ($user_srl != $page_srl)  $PUSH_CLASS -> sendPushMessage($page_srl, $user_srl, $name, $content, "new_document", 1, $number);
         //if ($user_srl != $page_srl) exec("php /usr/bin/php /var/www/favorite/member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." > /dev/null &");
         //if ($user_srl != $page_srl) proc_close(proc_open ("../member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." &", array(), $foo));
     }

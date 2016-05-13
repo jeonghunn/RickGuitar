@@ -74,7 +74,7 @@ class CommentClass
     }
 
 
-    function comment_write($PAGE_CLASS, $DOCUMENT_CLASS, $doc_srl, $user_srl, $content, $permission, $privacy)
+    function comment_write($PAGE_CLASS, $DOCUMENT_CLASS, $PUSH_CLASS, $doc_srl, $user_srl, $content, $permission, $privacy)
     {
         //$user_srl = AuthCheck($user_srl, false);
         $user_info = $PAGE_CLASS->GetPageInfo($user_srl);
@@ -87,7 +87,7 @@ class CommentClass
             $this->setDocCommentCount($doc_srl);
             if (getIPAddr() != $document['ip_addr']) $PAGE_CLASS->updatePopularity($user_srl, $document['page_srl'], 1);
             //Send Alert
-            $this->comment_send_push($document['user_srl'], $doc_srl, $user_srl, $name, $content, $doc_srl);
+            $this->comment_send_push($PUSH_CLASS, $document['user_srl'], $doc_srl, $user_srl, $name, $content, $doc_srl);
         }
 //echo mysqli_error();
 
@@ -119,7 +119,7 @@ class CommentClass
     }
 
 
-    function comment_send_push($doc_user_srl, $doc_srl, $user_srl, $name, $content, $number)
+    function comment_send_push($PUSH_CLASS, $doc_user_srl, $doc_srl, $user_srl, $name, $content, $number)
     {
         $row = DBQuery("SELECT user_srl FROM  `comments` WHERE  `doc_srl` =$doc_srl AND `status` < 5  ORDER BY  `comments`.`srl`");
         $total = mysqli_num_rows($row);
@@ -142,7 +142,7 @@ class CommentClass
             for ($i = 0; $i < count($sent); $i++) {
 
 
-                sendPushMessage($sent[$i], $user_srl, $name, $content, "new_comment", 2, $number);
+                $PUSH_CLASS ->  sendPushMessage($sent[$i], $user_srl, $name, $content, "new_comment", 2, $number);
 
             }
         }
