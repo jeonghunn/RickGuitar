@@ -26,7 +26,7 @@ function sendPushMessage($user_srl, $send_user_srl, $title,  $content ,$value, $
     );
 
 
-    $reg = array(getRegId($user_srl));
+    $reg = array($this -> getRegId($user_srl));
     $auth = "AIzaSyDwLoDb4Hkn0PEU0Kero0z3c4QBHZPZuzg";
     $request = array(
         'collapse_key' => $kind . "//" . $number,

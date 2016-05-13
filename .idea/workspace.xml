@@ -4,7 +4,7 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/notification/notification.loader.php" afterPath="$PROJECT_DIR$/modules/notification/notification.loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/notification/controller/push.class.php" afterPath="$PROJECT_DIR$/modules/notification/controller/push.class.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,21 +57,50 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="page.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/page/controller/page.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="655">
+              <caret line="247" column="54" selection-start-line="247" selection-start-column="54" selection-end-line="247" selection-end-column="54" />
+              <folding>
+                <marker date="1462993312000" expanded="true" signature="102:134" placeholder="UPDATE `page... " />
+                <marker date="1462993312000" expanded="true" signature="261:314" placeholder="UPDATE `page... " />
+                <marker date="1462993312000" expanded="true" signature="506:558" placeholder="SELECT * FRO... pages" />
+                <marker date="1462993312000" expanded="true" signature="736:793" placeholder="SELECT * FRO... status" />
+                <marker date="1462993312000" expanded="true" signature="851:907" placeholder="SELECT * FRO... pages" />
+                <marker date="1462993312000" expanded="true" signature="2945:3040" placeholder="SELECT * FRO... pages" />
+                <marker date="1462993312000" expanded="true" signature="3177:3271" placeholder="SELECT * FRO... pages" />
+                <marker date="1462993312000" expanded="true" signature="3914:4023" placeholder="SELECT * FRO... pages" />
+                <marker date="1462993312000" expanded="true" signature="5700:5753" placeholder="SELECT * FRO... pages" />
+                <marker date="1462993312000" expanded="true" signature="5931:5998" placeholder="SELECT * FRO... pages" />
+                <marker date="1462993312000" expanded="true" signature="6140:6200" placeholder="SELECT * FRO... status" />
+                <marker date="1462993312000" expanded="true" signature="6249:6326" placeholder="INSERT INTO `status`... " />
+                <marker date="1462993312000" expanded="true" signature="6996:7387" placeholder="INSERT INTO `pages`... " />
+                <marker date="1462993312000" expanded="true" signature="8267:8738" placeholder="INSERT INTO `pages`... " />
+                <marker date="1462993312000" expanded="true" signature="9339:9640" placeholder="UPDATE `page... " />
+                <marker date="1462993312000" expanded="true" signature="9912:9962" placeholder="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="push.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/notification/controller/push.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="34" />
+              <folding>
+                <marker date="1463146516000" expanded="true" signature="139:192" placeholder="SELECT reg_i... pages" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="notification.loader.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/notification/notification.loader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.loader.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/page/page.loader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -112,10 +141,10 @@
             <state relative-caret-position="60">
               <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
-                <marker date="1463146446000" expanded="true" signature="4532:4586" placeholder="..." />
-                <marker date="1463146446000" expanded="true" signature="4745:4877" placeholder="SELECT * FRO..." />
-                <marker date="1463146446000" expanded="true" signature="4929:5061" placeholder="SELECT * FRO..." />
-                <marker date="1463146446000" expanded="true" signature="5112:5163" placeholder="SELECT * FRO..." />
+                <marker date="1463146516000" expanded="true" signature="4532:4586" placeholder="..." />
+                <marker date="1463146516000" expanded="true" signature="4745:4877" placeholder="SELECT * FRO..." />
+                <marker date="1463146516000" expanded="true" signature="4929:5061" placeholder="SELECT * FRO..." />
+                <marker date="1463146516000" expanded="true" signature="5112:5163" placeholder="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -126,16 +155,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
               <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.api.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/page/api/page.api.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -221,13 +240,13 @@
         <option value="$PROJECT_DIR$/modules/main/main.loader.php" />
         <option value="$PROJECT_DIR$/modules/account/account.loader.php" />
         <option value="$PROJECT_DIR$/modules/board/board.loader.php" />
-        <option value="$PROJECT_DIR$/modules/notification/controller/push.class.php" />
         <option value="$PROJECT_DIR$/modules/notification/notifcation.loader.php" />
         <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/modules/board/controller/documents.class.php" />
         <option value="$PROJECT_DIR$/modules/board/api/board.api.class.php" />
         <option value="$PROJECT_DIR$/modules/board/controller/comment.class.php" />
         <option value="$PROJECT_DIR$/modules/notification/notification.loader.php" />
+        <option value="$PROJECT_DIR$/modules/notification/controller/push.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
@@ -1264,14 +1283,7 @@
       <workItem from="1462987408969" duration="14000" />
       <workItem from="1462992447055" duration="1399000" />
       <workItem from="1463035527748" duration="9308000" />
-      <workItem from="1463133553057" duration="3115000" />
-    </task>
-    <task id="LOCAL-00393" summary="account create bug fixed">
-      <created>1439543114013</created>
-      <option name="number" value="00393" />
-      <option name="presentableId" value="LOCAL-00393" />
-      <option name="project" value="LOCAL" />
-      <updated>1439543114013</updated>
+      <workItem from="1463133553057" duration="3184000" />
     </task>
     <task id="LOCAL-00394" summary="account page srl bug fixed">
       <created>1439543391405</created>
@@ -1609,11 +1621,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463145195875</updated>
     </task>
-    <option name="localTasksCounter" value="442" />
+    <task id="LOCAL-00442" summary="wrong spell fixed">
+      <created>1463146459822</created>
+      <option name="number" value="00442" />
+      <option name="presentableId" value="LOCAL-00442" />
+      <option name="project" value="LOCAL" />
+      <updated>1463146459822</updated>
+    </task>
+    <option name="localTasksCounter" value="443" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="645221000" />
+    <option name="totallyTimeSpent" value="645290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1705,7 +1724,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="permission ip managment updated" />
     <MESSAGE value="mysql to mysqli" />
     <MESSAGE value="db.php" />
     <MESSAGE value="debug" />
@@ -1730,7 +1748,8 @@
     <MESSAGE value="debugmode on" />
     <MESSAGE value="noti module added, push class added" />
     <MESSAGE value="board push fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="board push fixed" />
+    <MESSAGE value="wrong spell fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrong spell fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2000,31 +2019,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/page/controller/page.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3705">
-          <caret line="247" column="54" selection-start-line="247" selection-start-column="54" selection-end-line="247" selection-end-column="54" />
-          <folding>
-            <marker date="1462993312000" expanded="true" signature="102:134" placeholder="UPDATE `page... " />
-            <marker date="1462993312000" expanded="true" signature="261:314" placeholder="UPDATE `page... " />
-            <marker date="1462993312000" expanded="true" signature="506:558" placeholder="SELECT * FRO... pages" />
-            <marker date="1462993312000" expanded="true" signature="736:793" placeholder="SELECT * FRO... status" />
-            <marker date="1462993312000" expanded="true" signature="851:907" placeholder="SELECT * FRO... pages" />
-            <marker date="1462993312000" expanded="true" signature="2945:3040" placeholder="SELECT * FRO... pages" />
-            <marker date="1462993312000" expanded="true" signature="3177:3271" placeholder="SELECT * FRO... pages" />
-            <marker date="1462993312000" expanded="true" signature="3914:4023" placeholder="SELECT * FRO... pages" />
-            <marker date="1462993312000" expanded="true" signature="5700:5753" placeholder="SELECT * FRO... pages" />
-            <marker date="1462993312000" expanded="true" signature="5931:5998" placeholder="SELECT * FRO... pages" />
-            <marker date="1462993312000" expanded="true" signature="6140:6200" placeholder="SELECT * FRO... status" />
-            <marker date="1462993312000" expanded="true" signature="6249:6326" placeholder="INSERT INTO `status`... " />
-            <marker date="1462993312000" expanded="true" signature="6996:7387" placeholder="INSERT INTO `pages`... " />
-            <marker date="1462993312000" expanded="true" signature="8267:8738" placeholder="INSERT INTO `pages`... " />
-            <marker date="1462993312000" expanded="true" signature="9339:9640" placeholder="UPDATE `page... " />
-            <marker date="1462993312000" expanded="true" signature="9912:9962" placeholder="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/page/page.api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -2070,16 +2064,6 @@
         <state relative-caret-position="60">
           <caret line="9" column="53" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="53" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/notification/controller/push.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1463144212000" expanded="true" signature="139:192" placeholder="SELECT reg_i... pages" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2186,15 +2170,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/page/controller/page.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="247" column="54" selection-start-line="247" selection-start-column="54" selection-end-line="247" selection-end-column="54" />
+          <folding>
+            <marker date="1462993312000" expanded="true" signature="102:134" placeholder="UPDATE `page... " />
+            <marker date="1462993312000" expanded="true" signature="261:314" placeholder="UPDATE `page... " />
+            <marker date="1462993312000" expanded="true" signature="506:558" placeholder="SELECT * FRO... pages" />
+            <marker date="1462993312000" expanded="true" signature="736:793" placeholder="SELECT * FRO... status" />
+            <marker date="1462993312000" expanded="true" signature="851:907" placeholder="SELECT * FRO... pages" />
+            <marker date="1462993312000" expanded="true" signature="2945:3040" placeholder="SELECT * FRO... pages" />
+            <marker date="1462993312000" expanded="true" signature="3177:3271" placeholder="SELECT * FRO... pages" />
+            <marker date="1462993312000" expanded="true" signature="3914:4023" placeholder="SELECT * FRO... pages" />
+            <marker date="1462993312000" expanded="true" signature="5700:5753" placeholder="SELECT * FRO... pages" />
+            <marker date="1462993312000" expanded="true" signature="5931:5998" placeholder="SELECT * FRO... pages" />
+            <marker date="1462993312000" expanded="true" signature="6140:6200" placeholder="SELECT * FRO... status" />
+            <marker date="1462993312000" expanded="true" signature="6249:6326" placeholder="INSERT INTO `status`... " />
+            <marker date="1462993312000" expanded="true" signature="6996:7387" placeholder="INSERT INTO `pages`... " />
+            <marker date="1462993312000" expanded="true" signature="8267:8738" placeholder="INSERT INTO `pages`... " />
+            <marker date="1462993312000" expanded="true" signature="9339:9640" placeholder="UPDATE `page... " />
+            <marker date="1462993312000" expanded="true" signature="9912:9962" placeholder="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/notification/controller/push.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <marker date="1463146516000" expanded="true" signature="139:192" placeholder="SELECT reg_i... pages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding>
-            <marker date="1463146446000" expanded="true" signature="4532:4586" placeholder="..." />
-            <marker date="1463146446000" expanded="true" signature="4745:4877" placeholder="SELECT * FRO..." />
-            <marker date="1463146446000" expanded="true" signature="4929:5061" placeholder="SELECT * FRO..." />
-            <marker date="1463146446000" expanded="true" signature="5112:5163" placeholder="SELECT * FRO..." />
+            <marker date="1463146516000" expanded="true" signature="4532:4586" placeholder="..." />
+            <marker date="1463146516000" expanded="true" signature="4745:4877" placeholder="SELECT * FRO..." />
+            <marker date="1463146516000" expanded="true" signature="4929:5061" placeholder="SELECT * FRO..." />
+            <marker date="1463146516000" expanded="true" signature="5112:5163" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
