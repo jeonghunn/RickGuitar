@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.40.513.22.35";
+    return "2.40.525";
 }
 
 

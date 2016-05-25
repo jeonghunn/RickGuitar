@@ -2,9 +2,9 @@
 
 $db_conn = mysqli_connect('localhost','root','password');
     //UTF-8
-//DBQuery("set session character_set_connection=utf8;");
- //   DBQuery("set session character_set_results=utf8;");
- //   DBQuery("set session character_set_client=utf8;");
+ // DBQuery("set session character_set_connection=utf8mb4;");
+ //     DBQuery("set session character_set_results=utf8mb4;");
+    DBQuery("set names utf8mb4");
 
     //Connrct to main db
     ConnectMainDB();
