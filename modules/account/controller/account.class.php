@@ -13,7 +13,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
     $loginResult = $this -> CheckAccount($email, $password);
 
     if($loginResult){
-        return  "adsf";
+        return  $MEMBER_CLASS-> getPageAuth("account", $email);
     }
 
 
