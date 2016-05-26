@@ -64,9 +64,9 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
          $page_info = $PAGE_CLASS -> AddUser(0, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
         //Create Account
       //  $last_number = $this ->  AccountLastNumber();CreateMemberInfo
-       $signup = DBQuery("INSERT INTO `accounts` (  `page_srl`,  `email_address`, `password`, `email_id`, `email_host`, `status`, `date`, `ip_addr`, `last_login` ) VALUES (  '$page_info[0]', '$email', '$password' ,  '$email_array[0]', '$email_array[1]', '0',  '".getTimeStamp()."', '".getIPAddr()."' ,'".getTimeStamp()."');");
+       $signup = DBQuery("INSERT INTO `accounts` (  `page_srl`,  `email_address`, `password`, `email_id`, `email_host`, `status`, `date`, `ip_addr`, `last_login` ) VALUES (  '$page_info[page_srl]', '$email', '$password' ,  '$email_array[0]', '$email_array[1]', '0',  '".getTimeStamp()."', '".getIPAddr()."' ,'".getTimeStamp()."');");
         //Create Member Info
-        $MEMBER_CLASS -> CreateMemberInfo($page_info['0'], 'account', $email, 0);
+        $MEMBER_CLASS -> CreateMemberInfo($page_info['page_srl'], 'account', $email, 0);
         return $page_info;
     }
 
