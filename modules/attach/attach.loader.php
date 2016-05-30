@@ -8,7 +8,7 @@
 
 
 //load class
-require_once 'modules/board/controller/attach.class.php';
+require_once 'modules/attach/controller/attach.class.php';
 
 
 
