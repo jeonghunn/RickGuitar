@@ -47,16 +47,16 @@ class AttachClass{
 
 
         $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-if($upload_result)  $result = DBQuery("INSERT INTO `attach` (`page_srl`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');");
+if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_srl, $user_srl, $kind, $filename, $extension , $filevalue, $size, $status);
 
         return $upload_result;
     }
 
 //Require document_class.php
-    function attach_read(  $user_srl, $doc_srl, $doc_status)
+    function attach_read(  $user_srl, $category ,$doc_srl, $doc_status)
     {
        // $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
-        $result = mysqli_fetch_array(DBQuery("SELECT * FROM  `attach` WHERE  `doc_srl` =$doc_srl AND  (`status` <=$doc_status OR (`user_srl` =$user_srl AND `status` < 5))"));
+        $result = Model_Attach_attachRead($category, $doc_srl, $doc_status ,$user_srl);
 
         return $result;
     }
@@ -83,26 +83,27 @@ if($upload_result)  $result = DBQuery("INSERT INTO `attach` (`page_srl`, `doc_sr
     }
 
 
-    function attach_read_print($DOCUMENT_CLASS, $user_srl, $doc_srl)
-    {
-        //$user_srl = AuthCheck($user_srl, false);
-        $row = $this -> attach_read($DOCUMENT_CLASS, $user_srl, $doc_srl);
-
-        $total = mysqli_num_rows($row);
-        for ($i = 0; $i < $total; $i++) {
-            mysqli_data_seek($row, $i);           //포인터 이동
-            $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
-
-            if ($result['kind'] == "image") {
-                echo getSiteAddress() . "files/images/" . $result['filevalue'] . "." . $result['extension'] . "/LINE/.";
-            }
-
-            if ($result['kind'] == "file") {
-                echo getSiteAddress() . "board/download.php?v=" . $result['filevalue'] . "&n=" . $result['filename'] . "&e=" . $result['extension'] . "/LINE/.";
-            }
-
-        }
-    }
+    //Deprecated
+//    function attach_read_print($DOCUMENT_CLASS, $category, $user_srl, $doc_srl)
+//    {
+//        //$user_srl = AuthCheck($user_srl, false);
+//        $row = $this -> attach_read($DOCUMENT_CLASS, $user_srl, $doc_srl);
+//
+//        $total = mysqli_num_rows($row);
+//        for ($i = 0; $i < $total; $i++) {
+//            mysqli_data_seek($row, $i);           //포인터 이동
+//            $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
+//
+//            if ($result['kind'] == "image") {
+//                echo getSiteAddress() . "files/images/" . $result['filevalue'] . "." . $result['extension'] . "/LINE/.";
+//            }
+//
+//            if ($result['kind'] == "file") {
+//                echo getSiteAddress() . "board/download.php?v=" . $result['filevalue'] . "&n=" . $result['filename'] . "&e=" . $result['extension'] . "/LINE/.";
+//            }
+//
+//        }
+//    }
 
     function AttachDownload($filevalue){
         $attach_info = $this -> getAttachInfoByfileValue($filevalue);
