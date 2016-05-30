@@ -4,7 +4,7 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/attach/attach.loader.php" afterPath="$PROJECT_DIR$/modules/attach/attach.loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/attach/model/attach.model.php" afterPath="$PROJECT_DIR$/modules/attach/model/attach.model.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,11 +100,11 @@
       <file leaf-file-name="attach.model.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/attach/model/attach.model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
               <folding>
-                <marker date="1464597202000" expanded="true" signature="128:285" ph="SELECT * FRO... attach" />
-                <marker date="1464597202000" expanded="true" signature="448:752" ph="INSERT INTO `attach`... " />
+                <marker date="1464597588000" expanded="true" signature="128:285" ph="SELECT * FRO... attach" />
+                <marker date="1464597588000" expanded="true" signature="448:776" ph="INSERT INTO `attach`... " />
               </folding>
             </state>
           </provider>
@@ -136,10 +136,10 @@
             <state relative-caret-position="60">
               <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
-                <marker date="1464597437000" expanded="true" signature="4532:4586" ph="..." />
-                <marker date="1464597437000" expanded="true" signature="4745:4877" ph="SELECT * FRO..." />
-                <marker date="1464597437000" expanded="true" signature="4929:5061" ph="SELECT * FRO..." />
-                <marker date="1464597437000" expanded="true" signature="5112:5163" ph="SELECT * FRO..." />
+                <marker date="1464597602000" expanded="true" signature="4532:4586" ph="..." />
+                <marker date="1464597602000" expanded="true" signature="4745:4877" ph="SELECT * FRO..." />
+                <marker date="1464597602000" expanded="true" signature="4929:5061" ph="SELECT * FRO..." />
+                <marker date="1464597602000" expanded="true" signature="5112:5163" ph="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -218,9 +218,9 @@
         <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/modules/board/board.loader.php" />
         <option value="$PROJECT_DIR$/modules/board/controller/documents.class.php" />
-        <option value="$PROJECT_DIR$/modules/attach/model/attach.model.php" />
         <option value="$PROJECT_DIR$/modules/attach/controller/attach.class.php" />
         <option value="$PROJECT_DIR$/modules/attach/attach.loader.php" />
+        <option value="$PROJECT_DIR$/modules/attach/model/attach.model.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
@@ -1107,14 +1107,7 @@
       <workItem from="1464184975976" duration="268000" />
       <workItem from="1464256882796" duration="9459000" />
       <workItem from="1464342495448" duration="1305000" />
-      <workItem from="1464592903941" duration="3902000" />
-    </task>
-    <task id="LOCAL-00403" summary="login test">
-      <created>1439994576848</created>
-      <option name="number" value="00403" />
-      <option name="presentableId" value="LOCAL-00403" />
-      <option name="project" value="LOCAL" />
-      <updated>1439994576848</updated>
+      <workItem from="1464592903941" duration="4066000" />
     </task>
     <task id="LOCAL-00404" summary="login test">
       <created>1439994601791</created>
@@ -1452,11 +1445,18 @@
       <option name="project" value="LOCAL" />
       <updated>1464597305508</updated>
     </task>
-    <option name="localTasksCounter" value="452" />
+    <task id="LOCAL-00452" summary="import fixed">
+      <created>1464597448556</created>
+      <option name="number" value="00452" />
+      <option name="presentableId" value="LOCAL-00452" />
+      <option name="project" value="LOCAL" />
+      <updated>1464597448556</updated>
+    </task>
+    <option name="localTasksCounter" value="453" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="663193000" />
+    <option name="totallyTimeSpent" value="663357000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1548,7 +1548,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="api load order changed" />
     <MESSAGE value="api loader updated" />
     <MESSAGE value="module standard updated" />
     <MESSAGE value="path fixed" />
@@ -1573,7 +1572,8 @@
     <MESSAGE value="attach module moved" />
     <MESSAGE value="attach import fixed" />
     <MESSAGE value="attach_category added" />
-    <option name="LAST_COMMIT_MESSAGE" value="attach_category added" />
+    <MESSAGE value="import fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="import fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1962,17 +1962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/attach/model/attach.model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="32" />
-          <folding>
-            <marker date="1464597202000" expanded="true" signature="128:285" ph="SELECT * FRO... attach" />
-            <marker date="1464597202000" expanded="true" signature="448:752" ph="INSERT INTO `attach`... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/attach/attach.api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1993,15 +1982,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/attach/model/attach.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+          <folding>
+            <marker date="1464597588000" expanded="true" signature="128:285" ph="SELECT * FRO... attach" />
+            <marker date="1464597588000" expanded="true" signature="448:776" ph="INSERT INTO `attach`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding>
-            <marker date="1464597437000" expanded="true" signature="4532:4586" ph="..." />
-            <marker date="1464597437000" expanded="true" signature="4745:4877" ph="SELECT * FRO..." />
-            <marker date="1464597437000" expanded="true" signature="4929:5061" ph="SELECT * FRO..." />
-            <marker date="1464597437000" expanded="true" signature="5112:5163" ph="SELECT * FRO..." />
+            <marker date="1464597602000" expanded="true" signature="4532:4586" ph="..." />
+            <marker date="1464597602000" expanded="true" signature="4745:4877" ph="SELECT * FRO..." />
+            <marker date="1464597602000" expanded="true" signature="4929:5061" ph="SELECT * FRO..." />
+            <marker date="1464597602000" expanded="true" signature="5112:5163" ph="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
