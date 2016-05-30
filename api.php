@@ -44,6 +44,7 @@ require_once 'modules/account/account.loader.php';
 require_once 'modules/board/board.loader.php';
 require_once 'modules/page/page.loader.php';
 require_once 'modules/notification/notification.loader.php';
+require_once 'modules/attach/attach.loader.php';
 
 require_once 'modules/main/main.api.php';
 require_once 'modules/account/account.api.php';

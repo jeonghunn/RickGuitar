@@ -10,7 +10,7 @@
 //load class
 require_once 'modules/board/controller/documents.class.php';
 require_once 'modules/board/controller/comment.class.php';
-require_once 'modules/board/controller/attach.class.php';
+//require_once 'modules/board/controller/attach.class.php';
 
 //load api class
 require_once 'modules/board/api/board.api.class.php';
