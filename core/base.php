@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.40.530.17.39";
+    return "2.40.531";
 }
 
 
@@ -74,6 +74,24 @@ function MessagePrint($category, $message, $des){
     $array = array("category" => $category, "message" => $message, "description" => $des);
    echo json_encode($array);
 }
+
+
+function SqlPrintList($row, $info)
+{
+
+    $total = mysqli_num_rows($row);
+    for ($i = 0; $i < $total; $i++) {
+        mysqli_data_seek($row, $i);           //포인터 이동
+        $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
+        //  echo print_info($result, $doc_info);
+        $array[] = array_info_match($result, $info);
+    }
+
+
+    echo json_encode($array);
+}
+
+
 
 // function loadModule($module){
 //     global $API_VERSION, $ACTION, $page_auth, $log, $log_category;
