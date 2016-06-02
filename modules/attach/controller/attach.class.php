@@ -61,6 +61,8 @@ if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_
         }else{
             // not image
           //  return
+            
+            return getAPIAddress()."?a=attach&filevalue=".$filevalue;
         }
     }
 
@@ -69,6 +71,7 @@ if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_
     {
        // $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
         $result = Model_Attach_attachRead($category, $doc_srl, $doc_status ,$user_srl);
+        $result['url'] = $this->getDownloadUrl($result['kind'], $result['filevalue'] , $result['extension']);
 
         return $result;
     }

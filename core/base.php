@@ -2,13 +2,17 @@
 
 
 function getCoreVersion(){
-    return "2.41.602.22";
+    return "2.41.602.22.22";
 }
 
 
 //Basic Info
 function getSiteAddress(){
     return "http://tarks.net/rect/";
+}
+
+function getAPIAddress(){
+    return "http://tarks.net/rect/api.php";
 }
 
 function getIPAddr(){
