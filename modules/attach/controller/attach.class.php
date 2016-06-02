@@ -47,9 +47,21 @@ class AttachClass{
 
 
         $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_srl, $user_srl, $kind, $filename, $extension , $filevalue, $size, $status);
+if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_srl, $user_srl, $kind, $filename, $extension , $filevalue, $url, $size, $status);
 
         return $upload_result;
+    }
+
+
+    function getDownloadUrl($kind, $filevalue, $extentsion){
+
+        //Check this is image file
+        if($kind == "image"){
+            return getSiteAddress()."files/images/".$filevalue.".".$extentsion;
+        }else{
+            // not image
+          //  return
+        }
     }
 
 //Require document_class.php

@@ -7,8 +7,8 @@ function Model_Attach_attachRead($category, $doc_srl, $doc_status ,$user_srl ){
 
 }
 
-function Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension , $filevalue, $size, $status){
-   return DBQuery("INSERT INTO `attach` (`page_srl`, `category`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$category','$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');");
+function Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension , $filevalue, $url,  $size, $status){
+   return DBQuery("INSERT INTO `attach` (`page_srl`, `category`, `doc_srl`, `user_srl`, `kind`, `filename`, `extension`, `filevalue`, `url`, `date`, `size`, `status` , `ip_addr`) VALUES ('$page_srl', '$category','$doc_srl', '$user_srl', '$kind', '$filename', '$extension', '$filevalue', $url', '" . getTimeStamp() . "', '$size', '$status','" . getIPAddr() . "');");
 }
 
 

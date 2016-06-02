@@ -7,3 +7,5 @@
  */
 
 
+if($ACTION == "attach") $AttachAPI -> API_DownloadAttach($user_srl);
+if($ACTION == "attach_download") $AttachAPI -> API_DownloadAttach($user_srl);

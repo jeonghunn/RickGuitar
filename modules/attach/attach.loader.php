@@ -13,4 +13,10 @@ require_once 'modules/attach/model/attach.model.php';
 require_once 'modules/attach/controller/attach.class.php';
 
 
+//load api class
+require_once 'modules/attach/api/attach.api.class.php';
 
+
+
+//load apis
+$AttachAPI = new AttachApiClass();

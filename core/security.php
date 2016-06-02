@@ -29,6 +29,8 @@ function SecurityInfoCheck($value){
 
 function SecurityAllowActionCheck($value){
     if($value == "download") return true;
+    if($value == "attach") return true;
+    if($value == "attach_download") return true;
 
     return false;
 }
