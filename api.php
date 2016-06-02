@@ -50,6 +50,7 @@ require_once 'modules/main/main.api.php';
 require_once 'modules/account/account.api.php';
 require_once 'modules/board/board.api.php';
 require_once 'modules/page/page.api.php';
+require_once 'modules/attach/attach.api.php';
 
 
 

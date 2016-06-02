@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/attach/api/attach.api.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api.php" afterPath="$PROJECT_DIR$/api.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/security.php" afterPath="$PROJECT_DIR$/core/security.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/attach/attach.api.php" afterPath="$PROJECT_DIR$/modules/attach/attach.api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/attach/attach.loader.php" afterPath="$PROJECT_DIR$/modules/attach/attach.loader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/attach/controller/attach.class.php" afterPath="$PROJECT_DIR$/modules/attach/controller/attach.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/attach/model/attach.model.php" afterPath="$PROJECT_DIR$/modules/attach/model/attach.model.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -115,12 +110,12 @@
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
-                <marker date="1464871828000" expanded="true" signature="4904:4958" ph="..." />
-                <marker date="1464871828000" expanded="true" signature="5117:5249" ph="SELECT * FRO..." />
-                <marker date="1464871828000" expanded="true" signature="5301:5433" ph="SELECT * FRO..." />
-                <marker date="1464871828000" expanded="true" signature="5484:5535" ph="SELECT * FRO..." />
+                <marker date="1464873086000" expanded="true" signature="4907:4961" ph="..." />
+                <marker date="1464873086000" expanded="true" signature="5120:5252" ph="SELECT * FRO..." />
+                <marker date="1464873086000" expanded="true" signature="5304:5436" ph="SELECT * FRO..." />
+                <marker date="1464873086000" expanded="true" signature="5487:5538" ph="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -130,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="780">
-              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -212,7 +207,6 @@
         <option value="$PROJECT_DIR$/modules/notification/controller/push.class.php" />
         <option value="$PROJECT_DIR$/core/db.php" />
         <option value="$PROJECT_DIR$/modules/account/controller/account.class.php" />
-        <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/modules/board/board.loader.php" />
         <option value="$PROJECT_DIR$/modules/board/controller/documents.class.php" />
         <option value="$PROJECT_DIR$/modules/attach/model/attach.model.php" />
@@ -222,6 +216,7 @@
         <option value="$PROJECT_DIR$/modules/attach/attach.api.php" />
         <option value="$PROJECT_DIR$/modules/attach/controller/attach.class.php" />
         <option value="$PROJECT_DIR$/core/security.php" />
+        <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
@@ -1178,14 +1173,7 @@
       <workItem from="1464616722069" duration="1577000" />
       <workItem from="1464788994727" duration="598000" />
       <workItem from="1464862260290" duration="2638000" />
-      <workItem from="1464871223103" duration="606000" />
-    </task>
-    <task id="LOCAL-00406" summary="login test">
-      <created>1439994643879</created>
-      <option name="number" value="00406" />
-      <option name="presentableId" value="LOCAL-00406" />
-      <option name="project" value="LOCAL" />
-      <updated>1439994643879</updated>
+      <workItem from="1464871223103" duration="1755000" />
     </task>
     <task id="LOCAL-00407" summary="null bug fixed">
       <created>1439994859925</created>
@@ -1523,11 +1511,18 @@
       <option name="project" value="LOCAL" />
       <updated>1464626244811</updated>
     </task>
-    <option name="localTasksCounter" value="455" />
+    <task id="LOCAL-00455" summary="attach download feature">
+      <created>1464871848414</created>
+      <option name="number" value="00455" />
+      <option name="presentableId" value="LOCAL-00455" />
+      <option name="project" value="LOCAL" />
+      <updated>1464871848415</updated>
+    </task>
+    <option name="localTasksCounter" value="456" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="669756000" />
+    <option name="totallyTimeSpent" value="670905000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1546,8 +1541,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17103763" sideWeight="0.52768904" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18171428" sideWeight="0.51970184" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18171428" sideWeight="0.4802982" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1555,7 +1551,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16240682" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17103763" sideWeight="0.47231096" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17103763" sideWeight="0.47231096" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1570,7 +1566,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18210863" sideWeight="0.4825708" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1619,7 +1614,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="path fixed" />
     <MESSAGE value="debugmode on again" />
     <MESSAGE value="variable global access" />
     <MESSAGE value="globals added" />
@@ -1644,7 +1638,8 @@
     <MESSAGE value="import fixed" />
     <MESSAGE value="model attach add category bug fixed" />
     <MESSAGE value="sqllistprint 추가됨" />
-    <option name="LAST_COMMIT_MESSAGE" value="sqllistprint 추가됨" />
+    <MESSAGE value="attach download feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="attach download feature" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1946,14 +1941,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -2038,15 +2025,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
-            <marker date="1464871828000" expanded="true" signature="4904:4958" ph="..." />
-            <marker date="1464871828000" expanded="true" signature="5117:5249" ph="SELECT * FRO..." />
-            <marker date="1464871828000" expanded="true" signature="5301:5433" ph="SELECT * FRO..." />
-            <marker date="1464871828000" expanded="true" signature="5484:5535" ph="SELECT * FRO..." />
+            <marker date="1464873086000" expanded="true" signature="4907:4961" ph="..." />
+            <marker date="1464873086000" expanded="true" signature="5120:5252" ph="SELECT * FRO..." />
+            <marker date="1464873086000" expanded="true" signature="5304:5436" ph="SELECT * FRO..." />
+            <marker date="1464873086000" expanded="true" signature="5487:5538" ph="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
