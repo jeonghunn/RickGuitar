@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.41.602.22.22";
+    return "2.41.606";
 }
 
 
@@ -78,6 +78,11 @@ function MessagePrint($category, $message, $des){
     $array = array("category" => $category, "message" => $message, "description" => $des);
    echo json_encode($array);
 }
+
+function ReadJson($value){
+    return json_decode( stripslashes($value));
+}
+
 
 
 function SqlPrintList($row, $info)
