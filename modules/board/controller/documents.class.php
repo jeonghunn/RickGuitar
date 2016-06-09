@@ -15,7 +15,7 @@ class DocumentClass
         $status = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
 
         $row['you_doc_status'] = $status;
-      if($attach_info != null)  $row['attach_contents'] = array_info_match($ATTACH_CLASS -> attach_read($user_srl, "document", $doc_srl, $status), $attach_info);
+      if($attach_info != null)  $row['attach_contents'] = json_encode($ATTACH_CLASS -> attach_read($user_srl, "document", $doc_srl, $status, $attach_info));
 
 
      //   echo $row['attach_contents'];
@@ -31,24 +31,6 @@ class DocumentClass
     }
 
 //Find lastest number.
-    function DocLastNumber()
-    {
-        $table_status = mysqli_fetch_array(DBQuery("SHOW TABLE STATUS LIKE 'documents'"));
-        return $table_status['Auto_increment'];
-    }
-
-    function document_status_update($PAGE_CLASS, $doc_srl, $user_srl, $status)
-    {
-        //$user_srl = AuthCheck($user_srl, false);
-        $status_relation = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
-        if ($status_relation == 4) {
-            $result = DBQuery("UPDATE `documents` SET `status` = '$status'   WHERE `srl` = '$doc_srl' AND `status` < 5");
-        } else {
-            $result = false;
-        }
-        return $result;
-    }
-
 
     function getDocStatus($PAGE_CLASS, $user_srl, $doc_srl)
     {
@@ -72,6 +54,12 @@ class DocumentClass
         return $this -> getDocInfo($doc_srl, "user_srl");
     }
 
+    function getDocInfo($doc_srl, $info)
+    {
+        $result = mysqli_fetch_array(DBQuery("SELECT * FROM  `documents` WHERE  `srl` =$doc_srl"));
+        return $result[$info];
+    }
+
     function getDocPageOwner($PAGE_CLASS, $doc_srl)
     {
         $OwnerInfo = $PAGE_CLASS -> GetPageInfo($this -> getDocInfo($doc_srl, "page_srl"));
@@ -81,12 +69,17 @@ class DocumentClass
 
     }
 
-    function getDocInfo($doc_srl, $info)
+    function document_status_update($PAGE_CLASS, $doc_srl, $user_srl, $status)
     {
-        $result = mysqli_fetch_array(DBQuery("SELECT * FROM  `documents` WHERE  `srl` =$doc_srl"));
-        return $result[$info];
+        //$user_srl = AuthCheck($user_srl, false);
+        $status_relation = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
+        if ($status_relation == 4) {
+            $result = DBQuery("UPDATE `documents` SET `status` = '$status'   WHERE `srl` = '$doc_srl' AND `status` < 5");
+        } else {
+            $result = false;
+        }
+        return $result;
     }
-
 
     function document_update($PAGE_CLASS, $doc_srl, $user_srl, $namearray, $valuearray)
     {
@@ -102,8 +95,15 @@ class DocumentClass
         return $result;
     }
 
+    function DocLastNumber()
+    {
+        $table_status = mysqli_fetch_array(DBQuery("SHOW TABLE STATUS LIKE 'documents'"));
+        return $table_status['Auto_increment'];
+    }
+
 
 //require attach_class.php
+
     function document_write($PAGE_CLASS, $ATTACH_CLASS,  $PUSH_CLASS,  $page_srl, $user_srl, $title, $content, $permission, $status, $privacy)
     {
 //Check Value security
@@ -131,6 +131,13 @@ class DocumentClass
         return $result;
     }
 
+    function document_send_push($PUSH_CLASS, $page_srl, $user_srl, $name, $content, $number)
+    {
+        if ($user_srl != $page_srl)  $PUSH_CLASS -> sendPushMessage($page_srl, $user_srl, $name, $content, "new_document", 1, $number);
+        //if ($user_srl != $page_srl) exec("php /usr/bin/php /var/www/favorite/member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." > /dev/null &");
+        //if ($user_srl != $page_srl) proc_close(proc_open ("../member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." &", array(), $foo));
+    }
+
     function document_edit($user_srl, $lang)
     {
 
@@ -139,14 +146,6 @@ class DocumentClass
     function document_delete($user_srl, $lang)
     {
 
-    }
-
-
-    function document_send_push($PUSH_CLASS, $page_srl, $user_srl, $name, $content, $number)
-    {
-        if ($user_srl != $page_srl)  $PUSH_CLASS -> sendPushMessage($page_srl, $user_srl, $name, $content, "new_document", 1, $number);
-        //if ($user_srl != $page_srl) exec("php /usr/bin/php /var/www/favorite/member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." > /dev/null &");
-        //if ($user_srl != $page_srl) proc_close(proc_open ("../member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." &", array(), $foo));
     }
 
     function document_getList($PAGE_CLASS, $user_srl, $page_srl, $start, $number)

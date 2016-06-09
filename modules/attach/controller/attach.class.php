@@ -3,18 +3,6 @@
 
 class AttachClass{
 
-    function getAttachInfoByfileValue($filevalue)
-    {
-        $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `attach` WHERE  `filevalue` LIKE '$filevalue'"));
-        return $row;
-    }
-
-    function getAttachInfoBySrl($srl)
-    {
-        $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `attach` WHERE  `srl` LIKE '$srl'"));
-        return $row;
-    }
-
     function attach_file($page_srl, $doc_srl, $user_srl, $status)
     {
         $image_path = "files/images/";
@@ -47,11 +35,34 @@ class AttachClass{
 
 
         $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_srl, $user_srl, $kind, $filename, $extension , $filevalue, $url, $size, $status);
+if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_srl, $user_srl, $kind, $filename, $extension , $filevalue, $size, $status);
 
         return $upload_result;
     }
 
+    function attach_read(  $user_srl, $category ,$doc_srl, $doc_status, $info)
+    {
+       // $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
+        $row = Model_Attach_attachRead($category, $doc_srl, $doc_status ,$user_srl);
+      //  var_dump($result);
+      //  echo "count : ".mysqli_num_rows($result);
+
+        $array = null;
+
+        $total = mysqli_num_rows($row);
+        for ($i = 0; $i < $total; $i++) {
+            mysqli_data_seek($row, $i);           //포인터 이동
+            $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
+
+            //  echo print_info($result, $doc_info);
+            $result['url'] = $this->getDownloadUrl($result['kind'], $result['filevalue'] , $result['extension']);
+            $array[] = array_info_match($result, $info);
+        }
+
+
+
+        return $array;
+    }
 
     function getDownloadUrl($kind, $filevalue, $extentsion){
 
@@ -66,21 +77,13 @@ if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_
         }
     }
 
-//Require document_class.php
-    function attach_read(  $user_srl, $category ,$doc_srl, $doc_status)
-    {
-       // $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
-        $result = Model_Attach_attachRead($category, $doc_srl, $doc_status ,$user_srl);
-        $result['url'] = $this->getDownloadUrl($result['kind'], $result['filevalue'] , $result['extension']);
-
-        return $result;
-    }
-
     function getDocAttachCount($doc_srl)
     {
         $count = $this -> getAttachCount($doc_srl);
         $comment_count = DBQuery("UPDATE `documents` SET `attach` = '$count' WHERE `srl` = '$doc_srl'");
     }
+
+//Require document_class.php
 
     function getAttachCount($doc_srl)
     {
@@ -88,6 +91,37 @@ if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_
         $total = mysqli_num_rows($attach_count);
 
         return $total;
+    }
+
+    function AttachDownload($filevalue){
+        $attach_info = $this -> getAttachInfoByfileValue($filevalue);
+        $path = "files/binaries/".$attach_info['filevalue'];
+
+        $this -> addAttachDownloadCount($attach_info['srl']);
+
+
+
+        $filesize = filesize($path);
+        $filename = $attach_info['filename'];
+//$filename = mb_basename($path);
+        if( $this -> CheckIE() ) $filename = $this -> utf2euc($filename);
+
+        header("Pragma: public");
+        header("Expires: 0");
+        header("Content-Type: application/octet-stream");
+        header("Content-Disposition: attachment; filename=\"$filename".".".$attach_info['extension']."\"");
+        header("Content-Transfer-Encoding: binary");
+        header("Content-Length: $filesize");
+
+        ob_clean();
+        flush();
+        readfile($path);
+    }
+
+    function getAttachInfoByfileValue($filevalue)
+    {
+        $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `attach` WHERE  `filevalue` LIKE '$filevalue'"));
+        return $row;
     }
 
     function addAttachDownloadCount($attach_srl)
@@ -120,34 +154,17 @@ if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_
 //        }
 //    }
 
-    function AttachDownload($filevalue){
-        $attach_info = $this -> getAttachInfoByfileValue($filevalue);
-        $path = "files/binaries/".$attach_info['filevalue'];
-
-        $this -> addAttachDownloadCount($attach_info['srl']);
-
-
-
-        $filesize = filesize($path);
-        $filename = $attach_info['filename'];
-//$filename = mb_basename($path);
-        if( $this -> CheckIE() ) $filename = $this -> utf2euc($filename);
-
-        header("Pragma: public");
-        header("Expires: 0");
-        header("Content-Type: application/octet-stream");
-        header("Content-Disposition: attachment; filename=\"$filename".".".$attach_info['extension']."\"");
-        header("Content-Transfer-Encoding: binary");
-        header("Content-Length: $filesize");
-
-        ob_clean();
-        flush();
-        readfile($path);
+    function getAttachInfoBySrl($srl)
+    {
+        $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `attach` WHERE  `srl` LIKE '$srl'"));
+        return $row;
     }
 
-    function mb_basename($path) { return end(explode('/',$path)); }
-    function utf2euc($str) { return iconv("UTF-8","cp949//IGNORE", $str); }
     function CheckIE() { return isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], 'MSIE') !== false; }
+
+    function utf2euc($str) { return iconv("UTF-8","cp949//IGNORE", $str); }
+
+    function mb_basename($path) { return end(explode('/',$path)); }
 
 
 

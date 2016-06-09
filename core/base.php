@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.41.606";
+    return "2.42.609";
 }
 
 
@@ -80,8 +80,9 @@ function MessagePrint($category, $message, $des){
 }
 
 function ReadJson($value){
-    return json_decode( stripslashes($value));
+    return json_decode( stripslashes($value), true);
 }
+
 
 
 
