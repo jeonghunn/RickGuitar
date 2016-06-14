@@ -7,6 +7,11 @@
  */
 
 
+
+//load model
+require_once 'modules/page/model/page.model.php';
+
+
 //load class
 require_once 'modules/page/controller/page.class.php';
 
