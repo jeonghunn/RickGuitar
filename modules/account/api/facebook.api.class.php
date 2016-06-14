@@ -42,7 +42,7 @@ class FacebookApiClass{
         $country = REQUEST('country');
         $facebook_auth = POST('facebook_auth');
 
-        $signup = $ACCOUNT_CLASS->SignUpAccount($PAGE_CLASS, $MEMBER_CLASS, $email, $password, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+        $signup = $ACCOUNT_CLASS->SignUpAccount($PAGE_CLASS, $MEMBER_CLASS, '', $email, $password, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
 
         if (!strpos($signup, 'error')) {
 

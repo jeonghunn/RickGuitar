@@ -48,7 +48,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
 //    }
 
 
-    function SignUpAccount($PAGE_CLASS ,$MEMBER_CLASS, $email, $password, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country){
+    function SignUpAccount($PAGE_CLASS ,$MEMBER_CLASS, $category,  $email, $password, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country){
 
         //Check This is vaild
         if($email == null || $password == null) return false;
@@ -61,7 +61,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
         if($email_check['email_address'] == $email) return email_exist_error;
 
         //Create User Page
-         $page_info = $PAGE_CLASS -> AddUser(0, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+         $page_info = $PAGE_CLASS -> AddUser($category, 0, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
         //Create Account
       //  $last_number = $this ->  AccountLastNumber();CreateMemberInfo
        $signup = DBQuery("INSERT INTO `accounts` (  `page_srl`,  `email_address`, `password`, `email_id`, `email_host`, `status`, `date`, `ip_addr`, `last_login` ) VALUES (  '$page_info[page_srl]', '$email', '$password' ,  '$email_array[0]', '$email_array[1]', '0',  '".getTimeStamp()."', '".getIPAddr()."' ,'".getTimeStamp()."');");

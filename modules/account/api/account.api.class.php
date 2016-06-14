@@ -43,7 +43,7 @@ if($auth == false) ErrorPrint("login_error", "Wrong ID or Password. Please try a
         $lang = REQUEST('lang');
         $country = REQUEST('country');
 
-        $signup = $ACCOUNT_CLASS->SignUpAccount($PAGE_CLASS, $MEMBER_CLASS, $email, $password, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+        $signup = $ACCOUNT_CLASS->SignUpAccount($PAGE_CLASS, $MEMBER_CLASS, '', $email, $password, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
 
         if (!strpos($signup, 'error')) {
             print_array($signup);

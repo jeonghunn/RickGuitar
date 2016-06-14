@@ -221,7 +221,7 @@ class PageClass
 
 
 
-    function AddUser($admin, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country) {
+    function AddUser($category, $admin, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country) {
         //Add user to System
 
 // Get PageLastNumber
@@ -234,7 +234,7 @@ class PageClass
         if($profile_pic == "Y") $this -> ProfileUpdate($PageNumber);
         $popularity = intval(getTimeStamp()/10000);
         //add user to db
-        $sql ="INSERT INTO `pages` (`status`,  `admin`, `name_1`, `name_2`, `gender`, `birthday`, `country_code`, `phone_number` ,`permission`, `join_day`, `profile_pic`, `profile_update`, `last_update`,  `reg_id`, `lang`, `country` , `popularity`) VALUES ( '0', '$admin', '$name_1', '$name_2', '$gender', '$birthday', '$country_code', '$phone_number', '3', '".getTimeStamp()."', '$profile_pic', '".getTimeStamp()."', '".getTimeStamp()."', '$reg_id', '$lang', '$country', '$popularity');";
+        $sql = Model_Page_addPage($category, '0', $admin, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, 3, $profile_pic, $reg_id, $lang, $country, $popularity);
         $result = DBQuery($sql);
 
 
