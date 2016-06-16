@@ -9,10 +9,10 @@ class AttachClass{
         $binaries_path = "files/binaries/";
 $all_result = true;
 
-
+     //   echo "HI::";
        // print_r($_FILES['uploadedfile']);
-        for ($i = 0; $i < count($_FILES['name']); $i++) {
-echo "HI::";
+        for ($i = 0; $i < count($_FILES['uploadedfile']['name']); $i++) {
+
             if ($_FILES['uploadedfile']['name'][$i] == null) return false;
 //$img_name = $file_name.".".$tmp_img[1];
             $file = $_FILES['uploadedfile']['name'][$i];

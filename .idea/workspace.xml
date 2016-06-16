@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/attach/controller/attach.class.php" afterPath="$PROJECT_DIR$/modules/attach/controller/attach.class.php" />
     </list>
@@ -63,14 +63,14 @@
       <file leaf-file-name="attach.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               <folding>
-                <marker date="1466094439000" expanded="true" signature="3049:3116" ph="UPDATE `docu... " />
-                <marker date="1466094439000" expanded="true" signature="3234:3307" ph="SELECT * FRO... attach" />
-                <marker date="1466094439000" expanded="true" signature="4318:4378" ph="SELECT * FRO... attach" />
-                <marker date="1466094439000" expanded="true" signature="4614:4686" ph="UPDATE `atta... " />
-                <marker date="1466094439000" expanded="true" signature="5686:5734" ph="SELECT * FRO... attach" />
+                <marker date="1466094520000" expanded="true" signature="3075:3142" ph="UPDATE `docu... " />
+                <marker date="1466094520000" expanded="true" signature="3260:3333" ph="SELECT * FRO... attach" />
+                <marker date="1466094520000" expanded="true" signature="4344:4404" ph="SELECT * FRO... attach" />
+                <marker date="1466094520000" expanded="true" signature="4640:4712" ph="UPDATE `atta... " />
+                <marker date="1466094520000" expanded="true" signature="5712:5760" ph="SELECT * FRO... attach" />
               </folding>
             </state>
           </provider>
@@ -1145,14 +1145,7 @@
       <workItem from="1465821571292" duration="4969000" />
       <workItem from="1465837733875" duration="7281000" />
       <workItem from="1465889624531" duration="742000" />
-      <workItem from="1466093270102" duration="1168000" />
-    </task>
-    <task id="LOCAL-00417" summary="mysqli_query method added">
-      <created>1462020288368</created>
-      <option name="number" value="00417" />
-      <option name="presentableId" value="LOCAL-00417" />
-      <option name="project" value="LOCAL" />
-      <updated>1462020288368</updated>
+      <workItem from="1466093270102" duration="1249000" />
     </task>
     <task id="LOCAL-00418" summary="debugmode off">
       <created>1462022937714</created>
@@ -1490,11 +1483,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466094351590</updated>
     </task>
-    <option name="localTasksCounter" value="466" />
+    <task id="LOCAL-00466" summary="test">
+      <created>1466094446000</created>
+      <option name="number" value="00466" />
+      <option name="presentableId" value="LOCAL-00466" />
+      <option name="project" value="LOCAL" />
+      <updated>1466094446000</updated>
+    </task>
+    <option name="localTasksCounter" value="467" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="695352000" />
+    <option name="totallyTimeSpent" value="695433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1609,9 +1609,9 @@
     <MESSAGE value="page category added" />
     <MESSAGE value="model import" />
     <MESSAGE value="attach_updated" />
-    <MESSAGE value="test" />
     <MESSAGE value="test_fin" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_fin" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2028,14 +2028,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        <state relative-caret-position="90">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
-            <marker date="1466094439000" expanded="true" signature="3049:3116" ph="UPDATE `docu... " />
-            <marker date="1466094439000" expanded="true" signature="3234:3307" ph="SELECT * FRO... attach" />
-            <marker date="1466094439000" expanded="true" signature="4318:4378" ph="SELECT * FRO... attach" />
-            <marker date="1466094439000" expanded="true" signature="4614:4686" ph="UPDATE `atta... " />
-            <marker date="1466094439000" expanded="true" signature="5686:5734" ph="SELECT * FRO... attach" />
+            <marker date="1466094520000" expanded="true" signature="3075:3142" ph="UPDATE `docu... " />
+            <marker date="1466094520000" expanded="true" signature="3260:3333" ph="SELECT * FRO... attach" />
+            <marker date="1466094520000" expanded="true" signature="4344:4404" ph="SELECT * FRO... attach" />
+            <marker date="1466094520000" expanded="true" signature="4640:4712" ph="UPDATE `atta... " />
+            <marker date="1466094520000" expanded="true" signature="5712:5760" ph="SELECT * FRO... attach" />
           </folding>
         </state>
       </provider>
