@@ -3,41 +3,50 @@
 
 class AttachClass{
 
-    function attach_file($page_srl, $doc_srl, $user_srl, $status)
+    function attach_file($category, $page_srl, $doc_srl, $user_srl, $status)
     {
         $image_path = "files/images/";
         $binaries_path = "files/binaries/";
-        if ($_FILES['uploadedfile']['name'] == null) return false;
+$all_result = true;
+
+        for ($i = 0; $i < count($_FILES['name']); $i++) {
+
+            if ($_FILES['uploadedfile']['name'][$i] == null) return false;
 //$img_name = $file_name.".".$tmp_img[1];
-        $file = $_FILES['uploadedfile']['name'];
-        $filename = basename($file, strrchr($file, '.'));
-        $extension = substr(strrchr($file, '.'), 1);
-        $filevalue = getTimeStamp() . '-' . GenerateString(10);
-        $size = $_FILES['uploadedfile']["size"];
+            $file = $_FILES['uploadedfile']['name'][$i];
+            $filename = basename($file, strrchr($file, '.'));
+            $extension = substr(strrchr($file, '.'), 1);
+            $filevalue = getTimeStamp() . '-' . GenerateString(10);
+            $size = $_FILES['uploadedfile']["size"][$i];
 //Check jpg image
-        if ($extension == "jpg" || $extension == "jpeg") {
-            $filename = $filevalue;
-            $kind = "image";
-            $img_name = $filename . "." . $extension;
-            $target_path = $image_path . basename($img_name);
-        } else {
-            $kind = "file";
-            $target_path = $binaries_path . $filevalue;
+            if ($extension == "jpg" || $extension == "jpeg") {
+                $filename = $filevalue;
+                $kind = "image";
+                $img_name = $filename . "." . $extension;
+                $target_path = $image_path . basename($img_name);
+            } else {
+                $kind = "file";
+                $target_path = $binaries_path . $filevalue;
+            }
+
+
+            //파일 사이즈 체크 5M 제한 5M :5242880
+            if ($size > 31457280) {
+                ErrorMessage("attach_size_error");
+
+            }
+
+
+            $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'][$i], $target_path);
+            if ($upload_result) $result = Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension, $filevalue, $size, $status);
         }
 
 
-        //파일 사이즈 체크 5M 제한 5M :5242880
-        if ($size > 31457280) {
-            ErrorMessage("attach_size_error");
 
-        }
+            if($all_result && $result == false) $all_result = false; //not perfectly
 
 
-
-        $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-if($upload_result)  $result = Model_Attach_addAttch($page_srl, "document", $doc_srl, $user_srl, $kind, $filename, $extension , $filevalue, $size, $status);
-
-        return $upload_result;
+        return $all_result;
     }
 
     function attach_read(  $user_srl, $category ,$doc_srl, $doc_status, $info)

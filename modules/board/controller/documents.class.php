@@ -117,7 +117,7 @@ class DocumentClass
         $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
         $last_number = $this -> DocLastNumber();
         if ($content != "" && $relation_status != -1 && $relation_status >= $page_info['write_status'] && $page_info != null) {
-            $attach_result = $ATTACH_CLASS -> attach_file($page_srl, $last_number, $user_srl, $status);
+            $attach_result = $ATTACH_CLASS -> attach_file("document", $page_srl, $last_number, $user_srl, $status);
             $result = DBQuery("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '" . getIPAddr() . "');");
 
             if (getIPAddr() != $page_info['ip_addr']) $PAGE_CLASS -> updatePopularity($user_srl, $page_srl, 1);
