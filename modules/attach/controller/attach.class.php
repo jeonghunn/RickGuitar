@@ -11,7 +11,7 @@ $all_result = true;
 
      //   echo "HI::";
        // print_r($_FILES['uploadedfile']);
-        for ($i = 0; $i < count($_FILES['uploadedfile']['name']); $i++) {
+        for ($i = 0; $i < $this -> getAttachCount(); $i++) {
 
             if ($_FILES['uploadedfile']['name'][$i] == null) return false;
 //$img_name = $file_name.".".$tmp_img[1];
@@ -49,6 +49,11 @@ $all_result = true;
 
 
         return $all_result;
+    }
+
+
+    function getAttachCount(){
+        return count($_FILES['uploadedfile']['name']);;
     }
 
     function attach_read(  $user_srl, $category ,$doc_srl, $doc_status, $info)
@@ -96,13 +101,13 @@ $all_result = true;
 
 //Require document_class.php
 
-    function getAttachCount($doc_srl)
-    {
-        $attach_count = DBQuery("SELECT * FROM  `attach` WHERE  `doc_srl` = '$doc_srl' AND `status` != '5'");
-        $total = mysqli_num_rows($attach_count);
-
-        return $total;
-    }
+//    function getAttachCount($doc_srl)
+//    {
+//        $attach_count = DBQuery("SELECT * FROM  `attach` WHERE  `doc_srl` = '$doc_srl' AND `status` != '5'");
+//        $total = mysqli_num_rows($attach_count);
+//
+//        return $total;
+//    }
 
     function AttachDownload($filevalue){
         $attach_info = $this -> getAttachInfoByfileValue($filevalue);
