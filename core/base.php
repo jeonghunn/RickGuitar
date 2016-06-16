@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.43.617";
+    return "2.43.617.1";
 }
 
 
@@ -102,6 +102,12 @@ function SqlPrintList($row, $info)
 }
 
 
+
+function getSqlLastNumber($table)
+{
+    $table_status = mysqli_fetch_array(DBQuery("SHOW TABLE STATUS LIKE '".$table."'"));
+    return $table_status['Auto_increment'];
+}
 
 // function loadModule($module){
 //     global $API_VERSION, $ACTION, $page_auth, $log, $log_category;
