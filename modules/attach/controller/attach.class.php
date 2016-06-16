@@ -12,7 +12,7 @@ $all_result = true;
 
        // print_r($_FILES['uploadedfile']);
         for ($i = 0; $i < count($_FILES['name']); $i++) {
-
+echo "HI::";
             if ($_FILES['uploadedfile']['name'][$i] == null) return false;
 //$img_name = $file_name.".".$tmp_img[1];
             $file = $_FILES['uploadedfile']['name'][$i];
