@@ -10,7 +10,7 @@ class AttachClass{
 $all_result = true;
 
 
-        print_r($_FILES['uploadedfile']);
+       // print_r($_FILES['uploadedfile']);
         for ($i = 0; $i < count($_FILES['name']); $i++) {
 
             if ($_FILES['uploadedfile']['name'][$i] == null) return false;
