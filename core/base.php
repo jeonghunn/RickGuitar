@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.43.617.3";
+    return "2.43.617.17";
 }
 
 
@@ -258,10 +258,16 @@ $name = $name_2." ".$name_1;
 return $name;
 }
 
-//
-//function email_valid($temp_email) {
-//    return preg_match("^[0-9a-zA-Z_-]+(\.[0-9a-zA-Z_-]+)*@[0-9a-zA-Z_-]+(\.[0-9a-zA-Z_-]+)+$", $temp_email);
-//}
+function startsWith($haystack, $needle) {
+    // search backwards starting from haystack length characters from the end
+    return $needle === "" || strrpos($haystack, $needle, -strlen($haystack)) !== false;
+}
+
+function endsWith($haystack, $needle) {
+    // search forward starting from end minus needle length characters
+    return $needle === "" || (($temp = strlen($haystack) - strlen($needle)) >= 0 && strpos($haystack, $needle, $temp) !== false);
+}
+
 
 function contentconvert($content)
 {
