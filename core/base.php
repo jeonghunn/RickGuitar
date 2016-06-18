@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.43.617.17";
+    return "2.43.619";
 }
 
 
@@ -84,11 +84,14 @@ function ReadJson($value){
 }
 
 
-
-
 function SqlPrintList($row, $info)
 {
 
+
+    echo json_encode(getSqlList($row, info));
+}
+
+function getSqlList($row, $info){
     $total = mysqli_num_rows($row);
     for ($i = 0; $i < $total; $i++) {
         mysqli_data_seek($row, $i);           //포인터 이동
@@ -97,8 +100,7 @@ function SqlPrintList($row, $info)
         $array[] = array_info_match($result, $info);
     }
 
-
-    echo json_encode($array);
+    return $array;
 }
 
 
