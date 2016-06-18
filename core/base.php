@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.43.619";
+    return "2.43.619.3";
 }
 
 
@@ -88,7 +88,7 @@ function SqlPrintList($row, $info)
 {
 
 
-    echo json_encode(getSqlList($row, info));
+    echo json_encode(getSqlList($row, $info));
 }
 
 function getSqlList($row, $info){
