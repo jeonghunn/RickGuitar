@@ -12,8 +12,11 @@ class PageAPIClass{
         //require_once 'core/status.php';
 
         $page_info = REQUEST('page_info');
+        $reg_id = REQUEST('reg_id');
 //Update new member information
         $PageInfoRow = $PAGE -> PageInfo($user_srl, $user_srl ,  ExplodeInfoValue($page_info));
+
+        if($reg_id) $PAGE -> ProfileInfoUpdate($user_srl, "reg_id", $reg_id);
 
         print_info($PageInfoRow, ExplodeInfoValue($page_info));
     }
