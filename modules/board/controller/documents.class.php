@@ -133,7 +133,7 @@ class DocumentClass
 
     function document_send_push($PUSH_CLASS, $page_srl, $user_srl, $name, $content, $number)
     {
-        if ($user_srl != $page_srl)  $PUSH_CLASS -> sendPushMessage($page_srl, $user_srl, $name, $content, "new_document", 1, $number);
+        if ($user_srl != $page_srl)  $PUSH_CLASS -> sendPushMessage($page_srl, $user_srl, $name, $content, $number,  "new_document");
         //if ($user_srl != $page_srl) exec("php /usr/bin/php /var/www/favorite/member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." > /dev/null &");
         //if ($user_srl != $page_srl) proc_close(proc_open ("../member/push.php?user_srl=".$page_srl."&send_user_srl=".$user_srl."&title=".$name."&content=".$content."&value=new_document&kind=1&number=".$number." &", array(), $foo));
     }

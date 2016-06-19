@@ -39,23 +39,6 @@ class FavoriteClass
         return $result;
     }
 
-
-    function favorite_delete($PAGE_CLASS, $value, $user_srl, $category)
-    {
-        $me_status = setRelationStatus($value, $user_srl);
-
-        if ($me_status == 3) {
-            $result = DBQuery("UPDATE `favorite` SET `status` = '1'   WHERE `user_srl` = '$user_srl' AND `value` = '$value' AND `category` = '$category' AND `status` = '0'");
-
-//setCount
-            $this -> setFavoriteCount($user_srl, $value, 3);
-            $PAGE_CLASS -> updatePopularity($user_srl, $value, -20);
-        }
-
-        return $result;
-    }
-
-//Set favorite count on user
     function setFavoriteCount($user_srl, $value, $category)
     {
         //Count my favorite
@@ -72,13 +55,7 @@ class FavoriteClass
 
     }
 
-    function getLikeMeCount($user_srl, $category)
-    {
-        $like_me_count = DBQuery("SELECT * FROM  `favorite` WHERE  `value` = '$user_srl' AND `category` = '$category' AND `status` = '0'");
-        $total = mysqli_num_rows($like_me_count);
-
-        return $total;
-    }
+//Set favorite count on user
 
     function getFavoriteCount($user_srl, $category)
     {
@@ -88,10 +65,33 @@ class FavoriteClass
         return $total;
     }
 
+    function getLikeMeCount($user_srl, $category)
+    {
+        $like_me_count = DBQuery("SELECT * FROM  `favorite` WHERE  `value` = '$user_srl' AND `category` = '$category' AND `status` = '0'");
+        $total = mysqli_num_rows($like_me_count);
+
+        return $total;
+    }
 
     function favorite_send_push($value, $user_srl, $name, $number)
     {
-        sendPushMessage($value, $user_srl, $name, "added_to_favorite", "added_to_favorite", 3, $user_srl);
+        sendPushMessage($value, $user_srl, $name, "added_to_favorite", $number, "added_to_favorite");
+
+    }
+
+    function favorite_delete($PAGE_CLASS, $value, $user_srl, $category)
+    {
+        $me_status = setRelationStatus($value, $user_srl);
+
+        if ($me_status == 3) {
+            $result = DBQuery("UPDATE `favorite` SET `status` = '1'   WHERE `user_srl` = '$user_srl' AND `value` = '$value' AND `category` = '$category' AND `status` = '0'");
+
+//setCount
+            $this -> setFavoriteCount($user_srl, $value, 3);
+            $PAGE_CLASS -> updatePopularity($user_srl, $value, -20);
+        }
+
+        return $result;
     }
 
     function favorite_getList($user_srl, $doc_user_srl, $start, $number)

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="regid 업데이트">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/board/controller/documents.class.php" afterPath="$PROJECT_DIR$/modules/board/controller/documents.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/favorite/controller/favorite.class.php" afterPath="$PROJECT_DIR$/modules/favorite/controller/favorite.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/notification/controller/push.class.php" afterPath="$PROJECT_DIR$/modules/notification/controller/push.class.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -25,16 +28,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
-                <marker date="1466358875000" expanded="true" signature="5603:5657" ph="..." />
-                <marker date="1466358875000" expanded="true" signature="5816:5948" ph="SELECT * FRO..." />
-                <marker date="1466358875000" expanded="true" signature="6000:6132" ph="SELECT * FRO..." />
-                <marker date="1466358875000" expanded="true" signature="6183:6234" ph="SELECT * FRO..." />
+                <marker date="1466370723000" expanded="true" signature="5605:5659" ph="..." />
+                <marker date="1466370723000" expanded="true" signature="5818:5950" ph="SELECT * FRO..." />
+                <marker date="1466370723000" expanded="true" signature="6002:6134" ph="SELECT * FRO..." />
+                <marker date="1466370723000" expanded="true" signature="6185:6236" ph="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -60,25 +63,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/board/controller/comment.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="128" column="45" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="45" />
-              <folding>
-                <marker date="1463145121000" expanded="true" signature="177:232" ph="SELECT * FRO... documents" />
-                <marker date="1463145121000" expanded="true" signature="1008:1080" ph="UPDATE `comm... " />
-                <marker date="1463145121000" expanded="true" signature="2214:2254" ph="SELECT * FRO... comments" />
-                <marker date="1463145121000" expanded="true" signature="2852:3093" ph="INSERT INTO `comments`... " />
-                <marker date="1463145121000" expanded="true" signature="3754:3823" ph="UPDATE `docu... " />
-                <marker date="1463145121000" expanded="true" signature="3913:3988" ph="SELECT * FRO... comments" />
-                <marker date="1463145121000" expanded="true" signature="4210:4314" ph="SELECT user_... comments" />
-                <marker date="1463145121000" expanded="true" signature="5465:5633" ph="SELECT * FRO... comments" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="page.api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/page/page.api.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,13 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="push.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="board.api.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/board/api/board.api.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="59" column="60" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="push.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/notification/controller/push.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="33" column="127" selection-start-line="33" selection-start-column="127" selection-end-line="33" selection-end-column="127" />
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
-                <marker date="1466367841000" expanded="true" signature="139:192" ph="SELECT reg_i... pages" />
+                <marker date="1466370644000" expanded="true" signature="668:721" ph="SELECT reg_i... pages" />
               </folding>
             </state>
           </provider>
@@ -222,8 +216,8 @@
         <option value="$PROJECT_DIR$/modules/board/controller/documents.class.php" />
         <option value="$PROJECT_DIR$/modules/attach/controller/attach.class.php" />
         <option value="$PROJECT_DIR$/modules/page/api/page.api.class.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/modules/notification/controller/push.class.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
   </component>
@@ -248,9 +242,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="1913" />
     <option name="y" value="23" />
     <option name="width" value="1920" />
-    <option name="height" value="1002" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -485,6 +480,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="board" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SquareCore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="squarecore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -554,19 +571,19 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/notification/controller" />
-      <recent name="$PROJECT_DIR$/modules/page/controller" />
-      <recent name="$PROJECT_DIR$/modules/page/api" />
-      <recent name="$PROJECT_DIR$/modules/main/api" />
-      <recent name="$PROJECT_DIR$/modules/favorite/controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/modules" />
       <recent name="$PROJECT_DIR$/modules/page/model" />
       <recent name="$PROJECT_DIR$/modules/attach/api" />
       <recent name="$PROJECT_DIR$/modules/attach/model" />
       <recent name="$PROJECT_DIR$/modules/attach/controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/notification/controller" />
+      <recent name="$PROJECT_DIR$/modules/page/controller" />
+      <recent name="$PROJECT_DIR$/modules/page/api" />
+      <recent name="$PROJECT_DIR$/modules/main/api" />
+      <recent name="$PROJECT_DIR$/modules/favorite/controller" />
     </key>
   </component>
   <component name="RunManager">
@@ -1185,14 +1202,7 @@
       <workItem from="1466093270102" duration="3748000" />
       <workItem from="1466166226318" duration="174000" />
       <workItem from="1466257635165" duration="3034000" />
-      <workItem from="1466323373712" duration="4427000" />
-    </task>
-    <task id="LOCAL-00425" summary="debugmode on">
-      <created>1463040945006</created>
-      <option name="number" value="00425" />
-      <option name="presentableId" value="LOCAL-00425" />
-      <option name="project" value="LOCAL" />
-      <updated>1463040945006</updated>
+      <workItem from="1466323373712" duration="6097000" />
     </task>
     <task id="LOCAL-00426" summary="debugmode on again">
       <created>1463040978255</created>
@@ -1530,11 +1540,18 @@
       <option name="project" value="LOCAL" />
       <updated>1466359075705</updated>
     </task>
-    <option name="localTasksCounter" value="474" />
+    <task id="LOCAL-00474" summary="regid 업데이트">
+      <created>1466367847522</created>
+      <option name="number" value="00474" />
+      <option name="presentableId" value="LOCAL-00474" />
+      <option name="project" value="LOCAL" />
+      <updated>1466367847522</updated>
+    </task>
+    <option name="localTasksCounter" value="475" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="705567000" />
+    <option name="totallyTimeSpent" value="707237000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1546,16 +1563,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1002" extended-state="0" />
+    <frame x="1913" y="23" width="1920" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16515838" sideWeight="0.53780615" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2070922" sideWeight="0.53780615" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16515838" sideWeight="0.46219382" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2070922" sideWeight="0.46219382" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1863,13 +1880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/board/api/board.api.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="59" column="60" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1939,18 +1949,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1800">
           <caret line="120" column="40" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
-          <folding>
-            <marker date="1466093847000" expanded="true" signature="220:275" ph="SELECT * FRO... documents" />
-            <marker date="1466093847000" expanded="true" signature="379:452" ph="UPDATE `docu... " />
-            <marker date="1466093847000" expanded="true" signature="1772:1813" ph="SELECT * FRO... documents" />
-            <marker date="1466093847000" expanded="true" signature="2346:2433" ph="UPDATE `docu... " />
-            <marker date="1466093847000" expanded="true" signature="2966:3248" ph="INSERT INTO `documents`... " />
-            <marker date="1466093847000" expanded="true" signature="4507:4827" ph="INSERT INTO `documents`... " />
-            <marker date="1466093847000" expanded="true" signature="4984:5076" ph="UPDATE `page... " />
-            <marker date="1466093847000" expanded="true" signature="6383:6557" ph="SELECT * FRO... documents" />
-            <marker date="1466093847000" expanded="true" signature="6890:7037" ph="SELECT * FRO... documents" />
-            <marker date="1466093847000" expanded="true" signature="7582:7745" ph="SELECT * FRO... documents" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1958,16 +1957,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="128" column="45" selection-start-line="128" selection-start-column="11" selection-end-line="128" selection-end-column="45" />
-          <folding>
-            <marker date="1463145121000" expanded="true" signature="177:232" ph="SELECT * FRO... documents" />
-            <marker date="1463145121000" expanded="true" signature="1008:1080" ph="UPDATE `comm... " />
-            <marker date="1463145121000" expanded="true" signature="2214:2254" ph="SELECT * FRO... comments" />
-            <marker date="1463145121000" expanded="true" signature="2852:3093" ph="INSERT INTO `comments`... " />
-            <marker date="1463145121000" expanded="true" signature="3754:3823" ph="UPDATE `docu... " />
-            <marker date="1463145121000" expanded="true" signature="3913:3988" ph="SELECT * FRO... comments" />
-            <marker date="1463145121000" expanded="true" signature="4210:4314" ph="SELECT user_... comments" />
-            <marker date="1463145121000" expanded="true" signature="5465:5633" ph="SELECT * FRO... comments" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2035,19 +2025,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <marker date="1466358875000" expanded="true" signature="5603:5657" ph="..." />
-            <marker date="1466358875000" expanded="true" signature="5816:5948" ph="SELECT * FRO..." />
-            <marker date="1466358875000" expanded="true" signature="6000:6132" ph="SELECT * FRO..." />
-            <marker date="1466358875000" expanded="true" signature="6183:6234" ph="SELECT * FRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/page/api/page.api.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -2056,12 +2033,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/board/api/board.api.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="59" column="60" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/notification/controller/push.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="33" column="127" selection-start-line="33" selection-start-column="127" selection-end-line="33" selection-end-column="127" />
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
-            <marker date="1466367841000" expanded="true" signature="139:192" ph="SELECT reg_i... pages" />
+            <marker date="1466370644000" expanded="true" signature="668:721" ph="SELECT reg_i... pages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <marker date="1466370723000" expanded="true" signature="5605:5659" ph="..." />
+            <marker date="1466370723000" expanded="true" signature="5818:5950" ph="SELECT * FRO..." />
+            <marker date="1466370723000" expanded="true" signature="6002:6134" ph="SELECT * FRO..." />
+            <marker date="1466370723000" expanded="true" signature="6185:6236" ph="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
