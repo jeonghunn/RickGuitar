@@ -31,7 +31,7 @@ function sendPushMessage($user_srl, $send_user_srl, $title,  $content ,$value, $
     $request = array(
         'collapse_key' => $kind . "//" . $number,
         'registration_ids' => $reg,
-        'data' => array('data' => $send_user_srl . "/LINE/." . $title . "/LINE/." . $content . "/LINE/." . $value),
+        'data' => json_encode(array('data' => $send_user_srl . "/LINE/." . $title . "/LINE/." . $content . "/LINE/." . $value)),
     );
 
     $headers = array(
