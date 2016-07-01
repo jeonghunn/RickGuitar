@@ -7,6 +7,11 @@
  */
 
 
+
+//load model
+require_once 'modules/account/model/account.model.php';
+
+
 //load class
 require_once 'modules/account/controller/account.class.php';
 require_once 'modules/account/controller/member.class.php';

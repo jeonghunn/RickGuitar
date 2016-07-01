@@ -14,6 +14,7 @@ class AccoutApiClass{
 
         $email = REQUEST('email');
         $password = POST('password');
+        //$reg) = POST('password');
 
         $auth = $ACCOUNT_CLASS->AccountLogin($MEMBER_CLASS, $email, $password);
 
@@ -61,6 +62,27 @@ if($auth == false) ErrorPrint("login_error", "Wrong ID or Password. Please try a
 
     }
 
+
+
+    function API_UpdateAccountPassword($user_srl)
+    {
+
+        $ACCOUNT_CLASS = new AccountClass();
+
+        $password = POST('password');
+        $new_password = POST('new_password');
+        //$reg) = POST('password');
+
+        $UpdatePassword = $ACCOUNT_CLASS->UpdatePassword($user_srl, $password, $new_password);
+
+        if($UpdatePassword == true){
+            
+           SuccessMessage("update_account_password_success");
+        }else{
+            echo ErrorMessage("update_account_password_error");
+        }
+
+    }
 
 
 }

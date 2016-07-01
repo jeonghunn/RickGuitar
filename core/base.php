@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.43.620.6";
+    return "2.44.701";
 }
 
 
@@ -55,6 +55,13 @@ function ErrorMessage($msg) {
     exit();
 
 }
+
+function SuccessMessage($msg) {
+    MessagePrint("success", $msg, "Completed Successfully.");
+
+}
+
+
 
 
 function ErrorPrint($msg, $des) {

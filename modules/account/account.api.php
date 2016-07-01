@@ -17,5 +17,5 @@
 //ㄴAccount
 if($ACTION == "account_auth") $AccountAPI -> API_AuthAccount();
 if($ACTION == "account_sign_up") $AccountAPI -> API_SignUpAccount();
-
+if($ACTION == "account_update_password") $AccountAPI -> API_UpdateAccountPassword($user_srl);
 

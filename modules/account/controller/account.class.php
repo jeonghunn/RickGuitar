@@ -9,7 +9,7 @@
 class AccountClass{
 
 function AccountLogin($MEMBER_CLASS, $email, $password){
-    $password = hash('sha256',$password);
+    $password = $this -> HashPassword($password);
     $loginResult = $this -> CheckAccount($email, $password);
 
     if($loginResult){
@@ -19,6 +19,10 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
 
    return false;
 }
+
+    function HashPassword($password){
+        return hash('sha256',$password);
+    }
 
     function CheckAccount($email, $password){
    //     if(!rtnSpecialCharCheck($password)) return false;
@@ -34,18 +38,39 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
         return false;
     }
 
-//    function MakeTarksAccountAuthCode($id, $password){
-//        $password = md5($password);
-//        $loginResult = $this -> TarksAccount($id, $password);
-//        if($loginResult){
-////Connect main db to auth
-//
-//            $auth_code_result = MakeAuthCode("15", $id, "tarks_account");
-//            //Echo Auth code to client
-////auth_code_result is value of result of auth
-//        }
-//        return $auth_code_result;
-//    }
+    function UpdatePassword($user_srl, $password, $new_password){
+        $loginResult = $this -> CheckAccountByPage($user_srl, $password);
+
+        if($loginResult){
+            return  $this -> UpdatePasswordAct($user_srl, $new_password);
+        }
+
+
+        return false;
+    }
+
+    function CheckAccountByPage($page_srl, $password){
+
+        if($page_srl == null || $password == null) return false;
+        $row = Model_Account_CheckAccountByPage($page_srl, $this -> HashPassword($password) );
+        if($page_srl == $row['page_srl']) {
+            return true;
+        }else{
+            security_passwordWrong();
+
+        }
+        return false;
+    }
+
+    function UpdatePasswordAct($page_srl, $new_password){
+        if(!$this->CheckVaildPassword($new_password)) return false;
+        return Model_Account_UpdatePassword($page_srl, $this -> HashPassword($new_password));
+    }
+
+
+    function CheckVaildPassword($password){
+        return strlen($password) >= 6 && strlen($password) <= 20;
+    }
 
 
     function SignUpAccount($PAGE_CLASS ,$MEMBER_CLASS, $category,  $email, $password, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country){
@@ -53,7 +78,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
         //Check This is vaild
         if($email == null || $password == null) return false;
         if(!filter_var($email, FILTER_VALIDATE_EMAIL)) return email_invaild_error;
-        if(strlen($password) < 6 || strlen($password) > 20 ) return password_length_error;
+        if(!$this->CheckVaildPassword($password)) return password_length_error;
         if($name_2 == "") return name_invaild_error;
         $password = hash('sha256',$password);
         $email_array = explode("@",$email);
@@ -76,12 +101,22 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
         return $account_table_status['Auto_increment'];
     }
 
-    function GetAccountInfo($tarks_account, $value) {
-        $xesql ="SELECT $value FROM  `xe_member` WHERE  `user_id` LIKE '$tarks_account'";
-        $xeresult = DBQuery($xesql);
-        $xerow=mysqli_fetch_array($xeresult);
-        return $xerow[$value];
+    //Deprecated
+//    function getAccountInfo($tarks_account, $value) {
+//        $xesql ="SELECT $value FROM  `xe_member` WHERE  `user_id` LIKE '$tarks_account'";
+//        $xeresult = DBQuery($xesql);
+//        $xerow=mysqli_fetch_array($xeresult);
+//        return $xerow[$value];
+//    }
+
+
+
+    function getAccountByPage($page_srl) {
+        Model_Account_AccountByPage($page_srl);
+        
     }
+
+
 
 
 }
