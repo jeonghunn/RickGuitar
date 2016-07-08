@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.44.701";
+    return "2.44.709";
 }
 
 
@@ -192,8 +192,13 @@ return $response;
 }
 
 function array_info_match($row, $info){
+
+
+    $result_arr = array();
+
     for ($i=0 ; $i < count($info);$i++){
-      if(SecurityInfoCheck($info[$i])) $result_arr[$info[$i]] = $row[$info[$i]];
+        if($info[$i] == null) continue;
+        if(SecurityInfoCheck($info[$i])) $result_arr[$info[$i]] = $row[$info[$i]];
 
     }
 
