@@ -22,7 +22,7 @@ require_once 'core/auth.php';
 //get lang
 
 $user_srl = AuthCheck($page_auth, 'user_srl', false);
-(int) $user_permission_status = 3; // User Permission Default
+(int) $user_permission_status = 3; // UserPermission Default
 if($user_srl == null) $user_srl = 0;
 
 require_once 'core/logger.php';
