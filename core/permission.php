@@ -52,7 +52,7 @@ function getIPManageInfo(){
    function PermissionCheckAct($user_srl){
    	 //  Permission Check
  $user_permission = mysqli_fetch_array(DBQuery("SELECT * FROM  `pages` WHERE  `srl` LIKE '$user_srl'"));
-  (int) $user_permission_status = $user_permission['permission'];
+  (int) $user_permission_status = $user_permission['permission']; //set user permission
 
   if($user_permission['status'] == 5) ErrorMessage("unknown_error");
         $permission_allow = 3;
