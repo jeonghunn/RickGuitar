@@ -50,6 +50,7 @@ function getIPManageInfo(){
    }
 
    function PermissionCheckAct($user_srl){
+       global $user_permission_status;
    	 //  Permission Check
  $user_permission = mysqli_fetch_array(DBQuery("SELECT * FROM  `pages` WHERE  `srl` LIKE '$user_srl'"));
   (int) $user_permission_status = $user_permission['permission']; //set user permission
