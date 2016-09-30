@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.44.928.1";
+    return "2.44.930";
 }
 
 
@@ -16,7 +16,11 @@ function getAPIAddress(){
 }
 
 function getIPAddr(){
-    return $_SERVER["REMOTE_ADDR"];
+    $ipaddr = $_SERVER["REMOTE_ADDR"];
+    if(!strcmp($ipaddr, $_SERVER['SERVER_ADDR'])){
+        $ipaddr = REQUEST("ip_addr");
+    }
+    return $ipaddr;
 }
 
 function getNowUrl(){

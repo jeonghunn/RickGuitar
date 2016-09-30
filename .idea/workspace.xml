@@ -4,7 +4,6 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/permission.php" afterPath="$PROJECT_DIR$/core/permission.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,13 +27,14 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="48">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding>
-                <marker date="1474993174000" expanded="true" signature="5777:5831" ph="..." />
-                <marker date="1474993174000" expanded="true" signature="5990:6122" ph="SELECT * FRO..." />
-                <marker date="1474993174000" expanded="true" signature="6174:6306" ph="SELECT * FRO..." />
-                <marker date="1474993174000" expanded="true" signature="6357:6408" ph="SELECT * FRO..." />
+                <element signature="n#getAPIAddress#0;n#!!top" expanded="false" />
+                <marker date="1475233936000" expanded="true" signature="5893:5947" ph="..." />
+                <marker date="1475233936000" expanded="true" signature="6106:6238" ph="SELECT * FRO..." />
+                <marker date="1475233936000" expanded="true" signature="6290:6422" ph="SELECT * FRO..." />
+                <marker date="1475233936000" expanded="true" signature="6473:6524" ph="SELECT * FRO..." />
               </folding>
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="permission.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/permission.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="780">
               <caret line="52" column="37" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <marker date="1474993174000" expanded="true" signature="258:384" ph="INSERT INTO `ip_manage`... " />
@@ -247,8 +247,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="108" />
+    <option name="y" value="87" />
     <option name="width" value="1920" />
     <option name="height" value="993" />
   </component>
@@ -279,6 +278,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -510,7 +510,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1204,14 +1203,8 @@
       <workItem from="1466601450613" duration="598000" />
       <workItem from="1467345007127" duration="1390000" />
       <workItem from="1467975850143" duration="1176000" />
-      <workItem from="1474992664312" duration="510000" />
-    </task>
-    <task id="LOCAL-00432" summary="module load standard updated">
-      <created>1463042909861</created>
-      <option name="number" value="00432" />
-      <option name="presentableId" value="LOCAL-00432" />
-      <option name="project" value="LOCAL" />
-      <updated>1463042909861</updated>
+      <workItem from="1474992664312" duration="1398000" />
+      <workItem from="1475233883506" duration="57000" />
     </task>
     <task id="LOCAL-00433" summary="module load standard updated">
       <created>1463044470248</created>
@@ -1549,11 +1542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1474993079606</updated>
     </task>
-    <option name="localTasksCounter" value="481" />
+    <task id="LOCAL-00481" summary="$user_permission_status global set">
+      <created>1474993182698</created>
+      <option name="number" value="00481" />
+      <option name="presentableId" value="LOCAL-00481" />
+      <option name="project" value="LOCAL" />
+      <updated>1474993182698</updated>
+    </task>
+    <option name="localTasksCounter" value="482" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="712605000" />
+    <option name="totallyTimeSpent" value="713550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1565,7 +1565,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="108" width="1920" height="993" extended-state="0" />
+    <frame x="0" y="87" width="1920" height="993" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1574,7 +1574,6 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20571429" sideWeight="0.5425985" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20571429" sideWeight="0.45740148" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1597,6 +1596,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20571429" sideWeight="0.45740148" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17003188" sideWeight="0.46379128" order="7" side_tool="false" content_ui="tabs" />
@@ -1645,7 +1645,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="attach module moved" />
     <MESSAGE value="attach import fixed" />
     <MESSAGE value="attach_category added" />
     <MESSAGE value="import fixed" />
@@ -1670,7 +1669,8 @@
     <MESSAGE value="password update added" />
     <MESSAGE value="permission bug fixed" />
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="$user_permission_status global set" />
+    <option name="LAST_COMMIT_MESSAGE" value="$user_permission_status global set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1935,7 +1935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1950,7 +1949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="12" column="59" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2045,7 +2043,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/permission.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="780">
           <caret line="52" column="37" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="37" />
           <folding>
             <marker date="1474993174000" expanded="true" signature="258:384" ph="INSERT INTO `ip_manage`... " />
@@ -2061,13 +2059,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="48">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding>
-            <marker date="1474993174000" expanded="true" signature="5777:5831" ph="..." />
-            <marker date="1474993174000" expanded="true" signature="5990:6122" ph="SELECT * FRO..." />
-            <marker date="1474993174000" expanded="true" signature="6174:6306" ph="SELECT * FRO..." />
-            <marker date="1474993174000" expanded="true" signature="6357:6408" ph="SELECT * FRO..." />
+            <element signature="n#getAPIAddress#0;n#!!top" expanded="false" />
+            <marker date="1475233936000" expanded="true" signature="5893:5947" ph="..." />
+            <marker date="1475233936000" expanded="true" signature="6106:6238" ph="SELECT * FRO..." />
+            <marker date="1475233936000" expanded="true" signature="6290:6422" ph="SELECT * FRO..." />
+            <marker date="1475233936000" expanded="true" signature="6473:6524" ph="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
