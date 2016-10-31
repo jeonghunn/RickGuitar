@@ -148,14 +148,37 @@ class DocumentClass
 
     }
 
-    function document_getList($PAGE_CLASS, $user_srl, $page_srl, $start, $number)
+
+
+    function document_getList($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $page_srl, $start, $number,  $info, $attach_info)
     {
-//	$user_srl = AuthCheck($user_srl, false);
+
+
+///	$user_srl = AuthCheck($user_srl, false);
         $doc_page_srl_info = $PAGE_CLASS -> GetPageInfo($page_srl);
         $status = setRelationStatus($user_srl, $page_srl);
-        $row = DBQuery("SELECT * FROM  `documents` WHERE  `page_srl` =$page_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
-        if ($doc_page_srl_info['status'] > $status || $doc_page_srl_info == null) $row = false;
-        return $row;
+
+        $row = null;
+
+            $row = DBQuery("SELECT * FROM  `documents` WHERE  `page_srl` =$page_srl AND  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `documents`.`srl` DESC LIMIT $start , $number");
+
+
+        if($attach_info != null){
+            $total = mysqli_num_rows($row);
+            for ($i = 0; $i < $total; $i++) {
+                mysqli_data_seek($row, $i);           //포인터 이동
+                $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
+
+                //  echo print_info($result, $doc_info);
+                if($attach_info != null && $result['attach'] != 0) $result['attach_contents'] = json_encode($ATTACH_CLASS -> attach_read($user_srl, "document", $result['srl'], 0, $attach_info));
+
+                $array[] = array_info_match($result, $info);
+            }
+        }
+
+
+        if ($doc_page_srl_info['status'] > $status || $doc_page_srl_info == null) $array = false;
+        return $array;
     }
 
     function document_getAllList($user_srl, $start, $number)

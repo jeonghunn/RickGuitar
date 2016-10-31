@@ -12,14 +12,16 @@ class BoardApiClass{
 
         $DOCUMENT_CLASS = new DocumentClass();
         $PAGE_CLASS = new PageClass();
+        $ATTACH_CLASS = new AttachClass();
 
         $page_srl = REQUEST('page_srl');
         $start_doc = REQUEST('start_doc');
         $doc_number = REQUEST('doc_number');
         $doc_info = REQUEST('doc_info');
+        $attach_info = REQUEST('attach_info');
 
-        $DocList = $DOCUMENT_CLASS -> document_getList($PAGE_CLASS, $user_srl, $page_srl, $start_doc, $doc_number);
-        $DOCUMENT_CLASS -> document_PrintList($DocList, ExplodeInfoValue($doc_info));
+        $DocList = $DOCUMENT_CLASS -> document_getList($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $page_srl, $start_doc, $doc_number,  ExplodeInfoValue($doc_info), ExplodeInfoValue($attach_info));
+        print_array($DocList);
 
 
     }
