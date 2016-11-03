@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.45.1031";
+    return "2.46.1103";
 }
 
 
@@ -91,9 +91,22 @@ function MessagePrint($category, $message, $des){
 }
 
 function ReadJson($value){
-    return json_decode( stripslashes($value), true);
+    return json_decode( fixJSON($value), true);
 }
 
+function fixJSON($json) {
+    $regex = <<<'REGEX'
+~
+    "[^"\\]*(?:\\.|[^"\\]*)*"
+    (*SKIP)(*F)
+  | '([^'\\]*(?:\\.|[^'\\]*)*)'
+~x
+REGEX;
+
+    return preg_replace_callback($regex, function($matches) {
+        return '"' . preg_replace('~\\\\.(*SKIP)(*F)|"~', '\\"', $matches[1]) . '"';
+    }, $json);
+}
 
 function SqlPrintList($row, $info)
 {
@@ -352,6 +365,9 @@ function ThreadAct($name, $array){
     $thread->start();
     $thread->query();
 }
+
+
+
 
       
 ?>
