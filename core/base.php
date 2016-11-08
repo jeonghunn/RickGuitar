@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.46.1103";
+    return "2.46.1108";
 }
 
 
@@ -91,9 +91,11 @@ function MessagePrint($category, $message, $des){
 }
 
 function ReadJson($value){
-    return json_decode( fixJSON($value), true);
+    return json_decode( stripslashes($value), true);
 }
 
+
+//not used reason : bug
 function fixJSON($json) {
     $regex = <<<'REGEX'
 ~
