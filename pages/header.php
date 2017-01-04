@@ -105,10 +105,10 @@
               min-height: 100vh;
               background-color: #eeeeee;
           }
-      </style>
+      </style>3
 
       <style>
-          :host {
+          body {
               --app-primary-color: #4285f4;
               --app-secondary-color: black;
 
