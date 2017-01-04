@@ -4,7 +4,7 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base.php" afterPath="$PROJECT_DIR$/pages/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/error.php" afterPath="$PROJECT_DIR$/pages/error.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,7 +71,7 @@
             <state relative-caret-position="60">
               <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
               <folding>
-                <marker date="1483533304000" expanded="true" signature="4904:4958" ph="..." />
+                <marker date="1483533439000" expanded="true" signature="4904:4958" ph="..." />
               </folding>
             </state>
           </provider>
@@ -90,8 +90,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="595">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -191,8 +191,8 @@
         <option value="$PROJECT_DIR$/pages/login.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
         <option value="$PROJECT_DIR$/pages/bower.json" />
-        <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/error.php" />
+        <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/base.php" />
       </list>
     </option>
@@ -950,14 +950,7 @@
       <workItem from="1478156222061" duration="1871000" />
       <workItem from="1478592406959" duration="60000" />
       <workItem from="1478592566150" duration="164000" />
-      <workItem from="1483530886854" duration="1490000" />
-    </task>
-    <task id="LOCAL-00441" summary="board push fixed">
-      <created>1463145195875</created>
-      <option name="number" value="00441" />
-      <option name="presentableId" value="LOCAL-00441" />
-      <option name="project" value="LOCAL" />
-      <updated>1463145195875</updated>
+      <workItem from="1483530886854" duration="1625000" />
     </task>
     <task id="LOCAL-00442" summary="wrong spell fixed">
       <created>1463146459822</created>
@@ -1295,11 +1288,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483533260496</updated>
     </task>
-    <option name="localTasksCounter" value="490" />
+    <task id="LOCAL-00490" summary="error page bug fixed">
+      <created>1483533346689</created>
+      <option name="number" value="00490" />
+      <option name="presentableId" value="LOCAL-00490" />
+      <option name="project" value="LOCAL" />
+      <updated>1483533346690</updated>
+    </task>
+    <option name="localTasksCounter" value="491" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="719853000" />
+    <option name="totallyTimeSpent" value="719988000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1398,7 +1398,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="readjson added" />
     <MESSAGE value="page category added" />
     <MESSAGE value="model import" />
     <MESSAGE value="attach_updated" />
@@ -1423,7 +1422,8 @@
     <MESSAGE value="footer updated" />
     <MESSAGE value="bower added" />
     <MESSAGE value="polymer import" />
-    <option name="LAST_COMMIT_MESSAGE" value="polymer import" />
+    <MESSAGE value="error page bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="error page bug fixed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1758,14 +1758,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1782,18 +1774,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/error.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1803,7 +1803,7 @@
         <state relative-caret-position="60">
           <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
           <folding>
-            <marker date="1483533304000" expanded="true" signature="4904:4958" ph="..." />
+            <marker date="1483533439000" expanded="true" signature="4904:4958" ph="..." />
           </folding>
         </state>
       </provider>
