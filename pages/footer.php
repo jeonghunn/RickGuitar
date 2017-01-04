@@ -4,7 +4,7 @@
 
 <div id="footer">
     <div class="container">
-        <p class="text-muted">Copyrightⓒ. 2015. Tarks. All Rights Reserved.</p>
+        <p class="text-muted">Copyrightⓒ. 2017. Tarks. All Rights Reserved.</p>
     </div>
 </div>
 <!-- Bootstrap core JavaScript
