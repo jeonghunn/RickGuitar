@@ -7,6 +7,8 @@
         <p class="text-muted">Copyrightⓒ. 2017. Tarks. All Rights Reserved.</p>
     </div>
 </div>
+
+
 <!-- Bootstrap core JavaScript
    ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
