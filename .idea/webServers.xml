@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="2965e2d3-4334-4369-b153-3e9d761d9758" name="SquareCoreServer" url="http://tarks.net">
-        <fileTransfer host="tarks.net" port="22" privateKey="$PROJECT_DIR$/../tark/tarks.pem" rootFolder="/var/www/html" accessType="SFTP" username="ubuntu" keyPair="true">
+      <webServer id="2965e2d3-4334-4369-b153-3e9d761d9758" name="SquareCoreServer (project level)" url="http://tarks.net">
+        <fileTransfer host="tarks.net" port="22" privateKey="$PROJECT_DIR$/../tark/tarks.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true" username="ubuntu">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>

@@ -28,7 +28,7 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <? echo '<li class="active" >';
+                <?php echo '<li class="active" >';
                 if(CheckLogin()){
                     echo '<a href="'.A($user_srl).'">'.A($user_name).'</a>';
                 }else{
