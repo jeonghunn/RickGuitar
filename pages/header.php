@@ -98,7 +98,7 @@
     <![endif]-->
 
       <style>
-         html {
+         :host {
               --app-primary-color: #4285f4;
               --app-secondary-color: black;
 
