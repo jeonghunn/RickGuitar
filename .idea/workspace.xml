@@ -4,7 +4,6 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base.php" afterPath="$PROJECT_DIR$/pages/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower.json" afterPath="$PROJECT_DIR$/pages/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -70,9 +69,9 @@
         <entry file="file://$PROJECT_DIR$/pages/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding>
-                <marker date="1483534806000" expanded="true" signature="4901:4955" ph="..." />
+                <marker date="1483534845000" expanded="true" signature="4903:4957" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,8 +90,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="70" selection-end-column="13" />
+            <state relative-caret-position="580">
+              <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -953,14 +952,7 @@
       <workItem from="1478156222061" duration="1871000" />
       <workItem from="1478592406959" duration="60000" />
       <workItem from="1478592566150" duration="164000" />
-      <workItem from="1483530886854" duration="2984000" />
-    </task>
-    <task id="LOCAL-00449" summary="attach module moved">
-      <created>1464593561199</created>
-      <option name="number" value="00449" />
-      <option name="presentableId" value="LOCAL-00449" />
-      <option name="project" value="LOCAL" />
-      <updated>1464593561199</updated>
+      <workItem from="1483530886854" duration="3023000" />
     </task>
     <task id="LOCAL-00450" summary="attach import fixed">
       <created>1464595069638</created>
@@ -1298,11 +1290,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483534392590</updated>
     </task>
-    <option name="localTasksCounter" value="498" />
+    <task id="LOCAL-00498" summary="script added">
+      <created>1483534816545</created>
+      <option name="number" value="00498" />
+      <option name="presentableId" value="LOCAL-00498" />
+      <option name="project" value="LOCAL" />
+      <updated>1483534816545</updated>
+    </task>
+    <option name="localTasksCounter" value="499" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="721347000" />
+    <option name="totallyTimeSpent" value="721386000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1401,7 +1400,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="attach updated" />
     <MESSAGE value="startswith endswith added" />
     <MESSAGE value="sqllist added" />
     <MESSAGE value="bug fixed" />
@@ -1426,7 +1424,8 @@
     <MESSAGE value="navbar updated" />
     <MESSAGE value="오타 수정" />
     <MESSAGE value="import fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="import fixed" />
+    <MESSAGE value="script added" />
+    <option name="LAST_COMMIT_MESSAGE" value="script added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1797,8 +1796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="4" selection-end-line="70" selection-end-column="13" />
+        <state relative-caret-position="580">
+          <caret line="57" column="38" lean-forward="false" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -1806,9 +1805,9 @@
     <entry file="file://$PROJECT_DIR$/pages/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <caret line="7" column="24" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding>
-            <marker date="1483534806000" expanded="true" signature="4901:4955" ph="..." />
+            <marker date="1483534845000" expanded="true" signature="4903:4957" ph="..." />
           </folding>
         </state>
       </provider>
