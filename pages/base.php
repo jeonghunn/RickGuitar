@@ -5,7 +5,7 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 function getClientVersion(){
-    return "0.2.104.21.40";
+    return "0.2.104.21.52";
 }
 
 function getAPIVersion(){
