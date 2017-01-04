@@ -2,8 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/build/bundled/images/403_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/build/bundled/images/404_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/build/unbundled/images/403_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/build/unbundled/images/404_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/.github/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/paper-toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/bower_components/paper-toolbar/test/paper-toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/build/bundled/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/build/bundled/manifest.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/build/unbundled/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pages/build/unbundled/manifest.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,8 +108,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="96" column="54" lean-forward="true" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+            <state relative-caret-position="160">
+              <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -950,14 +969,7 @@
       <workItem from="1478156222061" duration="1871000" />
       <workItem from="1478592406959" duration="60000" />
       <workItem from="1478592566150" duration="164000" />
-      <workItem from="1483530886854" duration="4561000" />
-    </task>
-    <task id="LOCAL-00462" summary="attach_updated">
-      <created>1466093891615</created>
-      <option name="number" value="00462" />
-      <option name="presentableId" value="LOCAL-00462" />
-      <option name="project" value="LOCAL" />
-      <updated>1466093891615</updated>
+      <workItem from="1483530886854" duration="4672000" />
     </task>
     <task id="LOCAL-00463" summary="test">
       <created>1466094127507</created>
@@ -1295,11 +1307,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483536359604</updated>
     </task>
-    <option name="localTasksCounter" value="511" />
+    <task id="LOCAL-00511" summary="style-updated">
+      <created>1483536396795</created>
+      <option name="number" value="00511" />
+      <option name="presentableId" value="LOCAL-00511" />
+      <option name="project" value="LOCAL" />
+      <updated>1483536396795</updated>
+    </task>
+    <option name="localTasksCounter" value="512" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="722924000" />
+    <option name="totallyTimeSpent" value="723035000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1312,11 +1331,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1920" height="1007" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20472442" sideWeight="0.5489883" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20472442" sideWeight="0.5489883" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1398,7 +1417,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="regid 업데이트" />
     <MESSAGE value="push updated" />
     <MESSAGE value="password update added" />
     <MESSAGE value="permission bug fixed" />
@@ -1423,7 +1441,8 @@
     <MESSAGE value="updated viewport" />
     <MESSAGE value="updated" />
     <MESSAGE value="style updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="style updated" />
+    <MESSAGE value="style-updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="style-updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1802,8 +1821,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="96" column="54" lean-forward="true" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+        <state relative-caret-position="160">
+          <caret line="87" column="0" lean-forward="true" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding />
         </state>
       </provider>
