@@ -8,7 +8,21 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="icon.png">
 
-    <title>Favorite</title>
+    <title>Square</title>
+
+      <link rel="import" href="bower_components/polymer/polymer.html">
+      <link rel="import" href="bower_components/app-layout/app-drawer/app-drawer.html">
+      <link rel="import" href="bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
+      <link rel="import" href="ower_components/app-layout/app-header/app-header.html">
+      <link rel="import" href="bower_components/app-layout/app-header-layout/app-header-layout.html">
+      <link rel="import" href="bower_components/app-layout/app-scroll-effects/app-scroll-effects.html">
+      <link rel="import" href="bower_components/app-layout/app-toolbar/app-toolbar.html">
+      <link rel="import" href="bower_components/app-route/app-location.html">
+      <link rel="import" href="bower_components/app-route/app-route.html">
+      <link rel="import" href="bower_components/iron-pages/iron-pages.html">
+      <link rel="import" href="bower_components/iron-selector/iron-selector.html">
+      <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
+
 
     <!-- Bootstrap core CSS -->
 <!--    <link href="pages/css/bootstrap.css" rel="stylesheet">-->
