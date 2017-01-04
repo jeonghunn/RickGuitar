@@ -28,6 +28,8 @@
       <link rel="import" href="pages/bower_components/iron-pages/iron-pages.html">
       <link rel="import" href="pages/bower_components/iron-selector/iron-selector.html">
       <link rel="import" href="pages/bower_components/paper-icon-button/paper-icon-button.html">
+      <link rel="import" href="pages/bower_components/paper-card/paper-card.html">
+      <link rel="import" href="pages/bower_components/paper-toolbar/paper-toolbar.html">
 
 
       <script>
