@@ -11,16 +11,16 @@
     <title>Favorite</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="pages/css/bootstrap.css" rel="stylesheet">
+<!--    <link href="pages/css/bootstrap.css" rel="stylesheet">-->
 
     <!-- Custom styles for this template -->
-    <link href="pages/css/navbar-fixed-top.css" rel="stylesheet">
+<!--    <link href="pages/css/navbar-fixed-top.css" rel="stylesheet">-->
 
         <!-- JS -->
-             <script src="pages/js/angular.min.js"></script>
+<!--             <script src="pages/js/angular.min.js"></script>-->
       <script type="text/javascript" src="pages/js/jquery.js"></script>
 
-    <script src="pages/js/class.js"></script>
+<!--    <script src="pages/js/class.js"></script>-->
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -32,7 +32,7 @@
     <![endif]-->
   </head>
 
-  <body ng-controller="FavoriteCtr">
+  <body>
 
 <?php if(REQUEST('nav') != 'false') require_once 'pages/navbar.php'; ?>
 
