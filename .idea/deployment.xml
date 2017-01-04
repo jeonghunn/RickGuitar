@@ -9,7 +9,14 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="SquareCoreServer (project level)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/rect" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="SquareCoreServer" />
+    <option name="myUploadOnCheckinName" value="SquareCoreServer (project level)" />
   </component>
 </project>
