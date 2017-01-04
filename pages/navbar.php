@@ -1,5 +1,7 @@
 
-<app-toolbar>
-    <paper-icon-button icon="my-icons:menu" drawer-toggle></paper-icon-button>
-    <div main-title>My App</div>
-</app-toolbar>
+<paper-toolbar>
+    <paper-icon-button icon="menu"></paper-icon-button>
+    <span class="title">Square</span>
+    <paper-icon-button icon="refresh"></paper-icon-button>
+    <paper-icon-button icon="add">+</paper-icon-button>
+</paper-toolbar>
