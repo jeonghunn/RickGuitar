@@ -99,16 +99,6 @@
 
       <style>
           body {
-              margin: 0;
-              font-family: 'Roboto', 'Noto', sans-serif;
-              line-height: 1.5;
-              min-height: 100vh;
-              background-color: #eeeeee;
-          }
-      </style>3
-
-      <style>
-          body {
               --app-primary-color: #4285f4;
               --app-secondary-color: black;
 
@@ -140,6 +130,18 @@
               font-weight: bold;
           }
       </style>
+
+      <style>
+          body {
+              margin: 0;
+              font-family: 'Roboto', 'Noto', sans-serif;
+              line-height: 1.5;
+              min-height: 100vh;
+              background-color: #eeeeee;
+          }
+      </style>
+
+
 
   </head>
 
