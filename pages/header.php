@@ -9,7 +9,7 @@
 
     <meta name="author" content="">
       <!-- See https://goo.gl/qRE0vM -->
-      <meta name="theme-color" content="#3f51b5">
+      <meta name="theme-color" content="#009688">
 
 
     <link rel="shortcut icon" href="icon.png">
@@ -101,7 +101,7 @@
 
       <style>
          body {
-              --app-primary-color: #4285f4;
+              --app-primary-color: #009688;
               --app-secondary-color: black;
 
               display: block;
