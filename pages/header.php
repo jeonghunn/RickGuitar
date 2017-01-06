@@ -26,6 +26,7 @@
       <link rel="import" href="pages/bower_components/app-route/app-location.html">
       <link rel="import" href="pages/bower_components/app-route/app-route.html">
       <link rel="import" href="pages/bower_components/iron-pages/iron-pages.html">
+      <link rel="import" href="pages/bower_components/iron-icons/iron-icons.html">
       <link rel="import" href="pages/bower_components/iron-selector/iron-selector.html">
       <link rel="import" href="pages/bower_components/paper-icon-button/paper-icon-button.html">
       <link rel="import" href="pages/bower_components/paper-card/paper-card.html">
