@@ -288,6 +288,12 @@ class PageClass
     }
 
 
+
+    function isAdmin($permission){
+        return $permission < 3;
+    }
+
+
 }
       
 ?>
