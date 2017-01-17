@@ -38,7 +38,7 @@ require_once 'core/lib/Thumbnail.class.php';
 //loadAPIs('page');
 
 
-
+require_once 'modules/settings/settings.loader.php';
 require_once 'modules/main/main.loader.php';
 require_once 'modules/account/account.loader.php';
 require_once 'modules/board/board.loader.php';
