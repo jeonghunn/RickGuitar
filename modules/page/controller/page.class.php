@@ -290,7 +290,7 @@ class PageClass
 
 
     function isAdmin($permission){
-        return $permission < 3;
+        return $permission < 3 && $permission > 0;
     }
 
 
