@@ -28,6 +28,11 @@ function SecurityInfoCheck($value){
 }
 
 function SecurityAllowActionCheck($value){
+
+    //Default Parameter
+    if(startsWith($value, "_")) return true;
+
+
     if($value == "download") return true;
     if($value == "attach") return true;
     if($value == "attach_download") return true;
