@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "2.47.124.19";
+    return "2.47.203";
 }
 
 
@@ -271,11 +271,15 @@ echo $row[$info[$i]];
     }  
 
 //Print for native app
-function print_array($row){
+function print_array($row)
+{
 
-   echo  json_encode($row);
-    }
 
+    echo json_encode($row, JSON_UNESCAPED_UNICODE);
+
+
+
+}
 
     function ExplodeInfoValue($info){
 	return explode("//",$info);
