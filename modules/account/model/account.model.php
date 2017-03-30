@@ -19,4 +19,16 @@ function Model_Account_CheckAccountByPage($page_srl, $password_hash){
 
 }
 
-      
+
+
+function Model_Account_setStatus($srl, $status)
+{
+    return DBQuery("UPDATE `accounts` SET `status` = '$status'   WHERE `srl` = '$srl' AND `status` < 5");
+}
+
+
+function Model_Account_setStatusByPage($page_srl, $status)
+{
+    return DBQuery("UPDATE `accounts` SET `status` = '$status'   WHERE `page_srl` = '$page_srl' AND `status` < 5");
+}
+

@@ -10,6 +10,7 @@
 
 //load model
 require_once 'modules/account/model/account.model.php';
+require_once 'modules/account/model/member.model.php';
 
 
 //load class

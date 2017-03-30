@@ -18,4 +18,6 @@
 if($ACTION == "account_auth") $AccountAPI -> API_AuthAccount();
 if($ACTION == "account_sign_up") $AccountAPI -> API_SignUpAccount();
 if($ACTION == "account_update_password") $AccountAPI -> API_UpdateAccountPassword($user_srl);
-
+if ($ACTION == "account_withdrawal") $AccountAPI->API_WithdrawalAccount($user_srl);
+if ($ACTION == "account_withdrawal_act") $AccountAPI->API_WithdrawalAccountWithOutPassword($user_srl);
+if ($ACTION == "account_logout") $AccountAPI->API_AccountLogout($user_srl);

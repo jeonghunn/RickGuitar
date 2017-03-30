@@ -8,6 +8,19 @@ function Model_Page_addPage($category, $status, $admin, $name_1, $name_2, $gende
 }
 
 
+function Model_Page_CleanInformation($page_srl)
+{
+    return DBQuery("UPDATE `pages` SET `name_1` = '' , `name_2` = '' ,`phone_number` = '0' WHERE `srl` = '$page_srl' AND `status` < 5");
+}
 
 
-      
+function Model_Page_setStatus($page_srl, $status)
+{
+    return DBQuery("UPDATE `pages` SET `status` = '$status'   WHERE `srl` = '$page_srl' AND `status` < 5");
+}
+
+
+function Model_Page_setRegID($page_srl, $Regid)
+{
+    return DBQuery("UPDATE `pages` SET `reg_id` = '$Regid'   WHERE `srl` = '$page_srl' AND `status` < 5");
+}

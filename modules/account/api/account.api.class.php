@@ -85,4 +85,58 @@ if($auth == false) ErrorPrint("login_error", "Wrong ID or Password. Please try a
     }
 
 
+    function API_WithdrawalAccount($user_srl)
+    {
+        $ACCOUNT_CLASS = new AccountClass();
+        $PAGE_CLASS = new PageClass();
+        $MEMBER_CLASS = new MemberClass();
+
+        $password = POST('password');
+        //$reg) = POST('password');
+
+        $WithdrawalAccount = $ACCOUNT_CLASS->WithdrawalAccount($PAGE_CLASS, $MEMBER_CLASS, $user_srl, $password);
+
+        if ($WithdrawalAccount == true) {
+
+            SuccessMessage("withdrawal_account_success");
+        } else {
+            echo ErrorMessage("withdrawal_account_error");
+        }
+    }
+
+    function API_WithdrawalAccountWithOutPassword($user_srl)
+    {
+        $ACCOUNT_CLASS = new AccountClass();
+        $PAGE_CLASS = new PageClass();
+        $MEMBER_CLASS = new MemberClass();
+
+        //$reg) = POST('password');
+
+        $WithdrawalAccount = $ACCOUNT_CLASS->WithdrawalAccountWithOutPassword($PAGE_CLASS, $MEMBER_CLASS, $user_srl);
+
+        if ($WithdrawalAccount == true) {
+
+            SuccessMessage("withdrawal_account_success");
+        } else {
+            echo ErrorMessage("withdrawal_account_error");
+        }
+    }
+
+    function API_AccountLogout($user_srl)
+    {
+
+        $ACCOUNT_CLASS = new AccountClass();
+        $PAGE_CLASS = new PageClass();
+
+        $result = $ACCOUNT_CLASS->LogoutAccount($PAGE_CLASS, $user_srl);
+
+        if ($result == true) {
+
+            SuccessMessage("logout_account_success");
+        } else {
+            echo ErrorMessage("logout_account_error");
+        }
+
+    }
+
 }

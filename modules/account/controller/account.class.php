@@ -27,7 +27,7 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
     function CheckAccount($email, $password){
    //     if(!rtnSpecialCharCheck($password)) return false;
         if($email == null || $password == null) return false;
-       $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `accounts` WHERE  `email_address` LIKE '$email' AND  `password` LIKE '$password'"));
+        $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `accounts` WHERE  `email_address` LIKE '$email' AND  `password` LIKE '$password' AND status < 5"));
        // $row['email_address'] = "jeonghunn@naver.com";
         if($email == $row['email_address']) {
             return true;
@@ -67,11 +67,51 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
         return Model_Account_UpdatePassword($page_srl, $this -> HashPassword($new_password));
     }
 
-
     function CheckVaildPassword($password){
         return strlen($password) >= 6 && strlen($password) <= 20;
     }
 
+    function WithdrawalAccount($PAGE_CLASS, $MEMBER_CLASS, $user_srl, $password)
+    {
+        $loginResult = $this->CheckAccountByPage($user_srl, $password);
+
+        if ($loginResult) {
+            return $this->WithDrawalAccountAct($PAGE_CLASS, $MEMBER_CLASS, $user_srl);
+        }
+
+
+        return false;
+    }
+
+    function WithDrawalAccountAct($PAGE_CLASS, $MEMBER_CLASS, $user_srl)
+    {
+
+        //$result
+
+
+        //Change Account Status
+        $AccountResult = Model_Account_setStatusByPage($user_srl, 5);
+
+        //Delete Member
+        $MemberResult = $MEMBER_CLASS->setStatusByPageAct($user_srl, 5);
+
+        //Clean Page Information
+        $PAGE_CLASS->CleanPageInformation($user_srl);
+
+        //Delete Page
+        $PageResult = $PAGE_CLASS->setStatusAct($user_srl, 5);
+
+
+        return ($AccountResult && $MemberResult && $PageResult);
+    }
+
+    function WithdrawalAccountWithOutPassword($PAGE_CLASS, $MEMBER_CLASS, $user_srl)
+    {
+
+        return $this->WithDrawalAccountAct($PAGE_CLASS, $MEMBER_CLASS, $user_srl);
+
+
+    }
 
     function SignUpAccount($PAGE_CLASS ,$MEMBER_CLASS, $category,  $email, $password, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country){
 
@@ -117,6 +157,13 @@ function AccountLogin($MEMBER_CLASS, $email, $password){
     }
 
 
+    function LogoutAccount($PAGE_CLASS, $user_srl)
+    {
+
+
+        return $PAGE_CLASS->setRegIDAct($user_srl, "");
+        //    return $PAGE_CLASS-> Log;
+    }
 
 
 }

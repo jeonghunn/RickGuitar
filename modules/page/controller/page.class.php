@@ -8,14 +8,19 @@ class PageClass
         $add_info_to_system = "UPDATE `pages` SET `ip_addr` = '" . gprofile_update_app;
     }
 
-    function ProfileInfoUpdate($user_srl, $title, $value)
+    function PageInfo($user_srl, $page_srl, $page_info)
     {
-        $add_info_to_system = "UPDATE `pages` SET `$title` = '$value' WHERE `srl` = $user_srl";
-        $system_result = DBQuery($add_info_to_system);
 
-        return $system_result;
+//$user_srl = AuthCheck($user_srl, false);
+//Get Member Info
+        $row = $this -> GetPageInfo($page_srl);
+        $row = $this -> AccessPageInfo(setRelationStatus($user_srl, $page_srl), $row, $page_srl, $page_info);
+       $row['page_srl'] = $page_srl;
+        $row['rel_you_status'] = setRelationStatus($user_srl, $page_srl);
+        $row['rel_me_status'] = setRelationStatus($page_srl, $user_srl);
+
+        return $row;
     }
-
 
     function GetPageInfo($user_srl)
     {
@@ -41,52 +46,18 @@ class PageClass
         return $row;
     }
 
+    function setStatusAct($page_srl, $status)
+    {
+
+        return Model_Page_setStatus($page_srl, $status);
+    }
+
 
 //IF use this function you must import auth.php and private.php
-    function PageInfo($user_srl, $page_srl, $page_info)
-    {
-
-//$user_srl = AuthCheck($user_srl, false);
-//Get Member Info
-        $row = $this -> GetPageInfo($page_srl);
-        $row = $this -> AccessPageInfo(setRelationStatus($user_srl, $page_srl), $row, $page_srl, $page_info);
-       $row['page_srl'] = $page_srl;
-        $row['rel_you_status'] = setRelationStatus($user_srl, $page_srl);
-        $row['rel_me_status'] = setRelationStatus($page_srl, $user_srl);
-
-        return $row;
-    }
-
-    function ProfileUpdate($file_name)
-    {
-        global $_FILES;
-        if($_FILES == null){
-            echo "files_null_error";
-        }
-        $target_path =  "files/profile/";
-        $thumbnail_path =  "files/profile/thumbnail/";
-      //  $tmp_img = explode(".", $_FILES['uploadedfile']['name']);
-//$img_name = $file_name.".".$tmp_img[1];
-        $img_name = $file_name . "." . "jpg";
-        $target_path = $target_path . basename($img_name);
-
-        $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
-        Thumbnail::create($target_path,
-            120, 120,
-            SCALE_EXACT_FIT,
-            Array(
-                'savepath' => $thumbnail_path . $img_name
-            ));
-        $this -> ProfileInfoUpdate($file_name, "profile_update", getTimeStamp());
-       $this ->  ProfileInfoUpdate($file_name, "profile_pic", "Y");
-        return $upload_result;
-    }
-
 
     function BackgroundImageUpdate($ATTACH_CLASS){
 
     }
-
 
     function GetAllPageInfoByUpdate($user_srl, $start, $number)
     {
@@ -99,7 +70,6 @@ class PageClass
         $row = DBQuery("SELECT * FROM  `pages` WHERE  `status` < 4 ORDER BY  `pages`.`popularity` DESC LIMIT $start , $number");
         return $row;
     }
-
 
     function getPageAuth($user_srl, $page_srl)
     {
@@ -129,7 +99,14 @@ class PageClass
         }
     }
 
-// You must import member_class.php
+    function ProfileInfoUpdate($user_srl, $title, $value)
+    {
+        $add_info_to_system = "UPDATE `pages` SET `$title` = '$value' WHERE `srl` = $user_srl";
+        $system_result = DBQuery($add_info_to_system);
+
+        return $system_result;
+    }
+
     function member_PrintListbyUpdate($row)
     {
         $total = mysqli_num_rows($row);
@@ -156,36 +133,27 @@ class PageClass
 
     }
 
+// You must import member_class.php
 
-
-
-//Find lastest number.
-    function PageLastNumber(){
-        $user_table_status =mysqli_fetch_array(DBQuery("SHOW TABLE STATUS LIKE 'pages'"));
-        return $user_table_status['Auto_increment'];
-    }
-
-//add 1
-
-    //Find the Same Reg ID
     function CheckSameRegID($reg_id){
         $CheckSameRegID = mysqli_fetch_array(DBQuery("SELECT * FROM  `pages` WHERE  `reg_id` LIKE '$reg_id'"));
         return $CheckSameRegID;
     }
 
 
-    //Tarks Account
+
+
+//Find lastest number.
+
     function CheckSameTarksAccount($tarks_account){
         $CheckSameTarksAccount = mysqli_fetch_array(DBQuery("SELECT * FROM  `pages` WHERE  `tarks_account` LIKE '$tarks_account'"));
         return $CheckSameTarksAccount;
     }
 
-    function CreateStatus($member_srl){
-        $ExistStatus = mysqli_fetch_array(DBQuery("SELECT * FROM  `status` WHERE  `user_srl` LIKE '$member_srl'"));
-        if($ExistStatus == null)   DBQuery("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$member_srl', '3');");
-    }
+//add 1
 
-//requrie favorite_class.php
+    //Find the Same Reg ID
+
     function CreatePage($user_srl, $name, $lang, $country, $profile_pic){
         global  $_FILES;
         //  $user_srl = AuthCheck($user_srl, false);
@@ -216,10 +184,62 @@ class PageClass
     }
 
 
+    //Tarks Account
 
+    function PageLastNumber(){
+        $user_table_status =mysqli_fetch_array(DBQuery("SHOW TABLE STATUS LIKE 'pages'"));
+        return $user_table_status['Auto_increment'];
+    }
 
+    function ProfileUpdate($file_name)
+    {
+        global $_FILES;
+        if($_FILES == null){
+            echo "files_null_error";
+        }
+        $target_path =  "files/profile/";
+        $thumbnail_path =  "files/profile/thumbnail/";
+      //  $tmp_img = explode(".", $_FILES['uploadedfile']['name']);
+//$img_name = $file_name.".".$tmp_img[1];
+        $img_name = $file_name . "." . "jpg";
+        $target_path = $target_path . basename($img_name);
 
+        $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $target_path);
+        Thumbnail::create($target_path,
+            120, 120,
+            SCALE_EXACT_FIT,
+            Array(
+                'savepath' => $thumbnail_path . $img_name
+            ));
+        $this -> ProfileInfoUpdate($file_name, "profile_update", getTimeStamp());
+       $this ->  ProfileInfoUpdate($file_name, "profile_pic", "Y");
+        return $upload_result;
+    }
 
+//requrie favorite_class.php
+
+    function CreateStatus($member_srl){
+        $ExistStatus = mysqli_fetch_array(DBQuery("SELECT * FROM  `status` WHERE  `user_srl` LIKE '$member_srl'"));
+        if($ExistStatus == null)   DBQuery("INSERT INTO `status` (`user_srl`, `phone_number`) VALUES ('$member_srl', '3');");
+    }
+
+    function DeleteUser($user_srl) {
+        $deletesql ="DELETE FROM `pages` WHERE `user_srl` = '$user_srl'";
+        $deleteresult = DBQuery($deletesql);
+
+        return $deleteresult;
+
+    }
+
+    function CleanPageInformation($page_srl)
+    {
+        return Model_Page_CleanInformation($page_srl);
+    }
+
+    function AddUserActivityByApp($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country){
+        $AddUserAct = $this -> AddUser($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
+        echo $AddUserAct[0]."//".$AddUserAct[1];
+    }
 
     function AddUser($category, $admin, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country) {
         //Add user to System
@@ -248,6 +268,11 @@ class PageClass
         return array("page_srl" => $PageNumber,  "auth" => $auth_code);
     }
 
+//    function UpdateUserActivityByApp($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country){
+//        $UpdateUserAct = $this -> UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
+//        echo $UpdateUserAct[0]."//".$UpdateUserAct[1];
+//    }
+
     function UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country) {
 
 
@@ -267,32 +292,16 @@ class PageClass
     }
 
 
-    function DeleteUser($user_srl) {
-        $deletesql ="DELETE FROM `pages` WHERE `user_srl` = '$user_srl'";
-        $deleteresult = DBQuery($deletesql);
-
-
-
-    }
-
-
-    function AddUserActivityByApp($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country){
-        $AddUserAct = $this -> AddUser($tarks_account, $admin ,$name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $lang, $country);
-        echo $AddUserAct[0]."//".$AddUserAct[1];
-    }
-
-
-    function UpdateUserActivityByApp($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country){
-        $UpdateUserAct = $this -> UpdateUser($user_srl, $tarks_account, $name_1, $name_2, $gender, $birthday, $country_code, $phone_number, $profile_pic, $reg_id, $country);
-        echo $UpdateUserAct[0]."//".$UpdateUserAct[1];
-    }
-
-
 
     function isAdmin($permission){
         return $permission < 3 && $permission > 0;
     }
 
+
+    function setRegIDAct($page_srl, $Regid)
+    {
+        return Model_Page_setRegID($page_srl, $Regid);
+    }
 
 }
       
