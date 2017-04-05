@@ -19,7 +19,7 @@
     <title>Square</title>
 
       <!-- will be replaced with elements/elements.vulcanized.html -->
-      <link rel="import" href="/rect/pages/elements/elements.html">
+      <link rel="import" href="http://tarks.net/rect/pages/elements/elements.html">
 
 <!---->
 <!--      <link rel="import" href="pages/bower_components/polymer/polymer.html">-->
