@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/elements/elements.html" afterPath="$PROJECT_DIR$/pages/elements/elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,7 +106,7 @@
       <file leaf-file-name="elements.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/elements/elements.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
+            <state relative-caret-position="324">
               <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
               <folding />
             </state>
@@ -1123,14 +1121,7 @@
       <workItem from="1491127152126" duration="594000" />
       <workItem from="1491212747903" duration="194000" />
       <workItem from="1491401084810" duration="448000" />
-      <workItem from="1491406266987" duration="265000" />
-    </task>
-    <task id="LOCAL-00479" summary="updated">
-      <created>1474993052777</created>
-      <option name="number" value="00479" />
-      <option name="presentableId" value="LOCAL-00479" />
-      <option name="project" value="LOCAL" />
-      <updated>1474993052777</updated>
+      <workItem from="1491406266987" duration="423000" />
     </task>
     <task id="LOCAL-00480" summary="updated">
       <created>1474993079606</created>
@@ -1468,11 +1459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491406384490</updated>
     </task>
-    <option name="localTasksCounter" value="528" />
+    <task id="LOCAL-00528" summary="test">
+      <created>1491406574920</created>
+      <option name="number" value="00528" />
+      <option name="presentableId" value="LOCAL-00528" />
+      <option name="project" value="LOCAL" />
+      <updated>1491406574920</updated>
+    </task>
+    <option name="localTasksCounter" value="529" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="738056000" />
+    <option name="totallyTimeSpent" value="738214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1982,7 +1980,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/elements/elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
+        <state relative-caret-position="324">
           <caret line="41" column="4" lean-forward="true" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
           <folding />
         </state>
