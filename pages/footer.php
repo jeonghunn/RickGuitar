@@ -1,6 +1,6 @@
 </div>
 
-<!--<link href="pages/css/sticky-footer-navbar.css" rel="stylesheet">-->
+<link href="pages/css/sticky-footer-navbar.css" rel="stylesheet">
 
 <div id="footer">
     <div class="container">
