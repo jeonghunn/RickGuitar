@@ -13,7 +13,7 @@ function getAPIVersion(){
 }
 
 function getAPIKey(){
-    return 'akfdjk32jkl23';
+    return 'xT3FP4AuctM-';
 }
 
 function getCorePUrl(){
