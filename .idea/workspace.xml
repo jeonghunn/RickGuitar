@@ -97,8 +97,8 @@
       <file leaf-file-name="error.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/error.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+            <state relative-caret-position="45">
+              <caret line="3" column="95" lean-forward="false" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
               <folding />
             </state>
           </provider>
@@ -1125,14 +1125,7 @@
       <workItem from="1491406266987" duration="2418000" />
       <workItem from="1491724565466" duration="871000" />
       <workItem from="1491731702970" duration="1263000" />
-      <workItem from="1491735605657" duration="677000" />
-    </task>
-    <task id="LOCAL-00495" summary="오타 수정">
-      <created>1483533685313</created>
-      <option name="number" value="00495" />
-      <option name="presentableId" value="LOCAL-00495" />
-      <option name="project" value="LOCAL" />
-      <updated>1483533685313</updated>
+      <workItem from="1491735605657" duration="738000" />
     </task>
     <task id="LOCAL-00496" summary="오타 수정">
       <created>1483533998466</created>
@@ -1470,11 +1463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491736174257</updated>
     </task>
-    <option name="localTasksCounter" value="544" />
+    <task id="LOCAL-00544" summary="404 not found error test">
+      <created>1491736287888</created>
+      <option name="number" value="00544" />
+      <option name="presentableId" value="LOCAL-00544" />
+      <option name="project" value="LOCAL" />
+      <updated>1491736287888</updated>
+    </task>
+    <option name="localTasksCounter" value="545" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="743020000" />
+    <option name="totallyTimeSpent" value="743081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1983,8 +1983,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/error.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        <state relative-caret-position="45">
+          <caret line="3" column="95" lean-forward="false" selection-start-line="3" selection-start-column="95" selection-end-line="3" selection-end-column="95" />
           <folding />
         </state>
       </provider>

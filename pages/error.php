@@ -1,7 +1,7 @@
 
 
 
-<?php  if($error_code == 404)  http_response_code(404); ?>
+<?php  if($error_code == 404)  header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found", true, 404); ?>
 <!-- html -->
     <div class="container">
 
