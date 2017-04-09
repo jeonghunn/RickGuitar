@@ -51,6 +51,10 @@ function getUserAgent(){
     return $_SERVER['HTTP_USER_AGENT'];
 }
 
+function getTitleColor(){
+    return "#009688";
+}
+
 //function getDate(){
 //    return date('Y-m-d H:i:s');
 //}
