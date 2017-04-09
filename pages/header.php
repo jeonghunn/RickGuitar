@@ -18,7 +18,7 @@
     <title>Square</title>
 
       <!-- will be replaced with elements/elements.vulcanized.html -->
-      <link rel="import" href="pages/elements/elements.html">
+
 
 <!---->
 <!--      <link rel="import" href="pages/bower_components/polymer/polymer.html">-->
@@ -96,7 +96,7 @@
 
 <!--    <script src="pages/js/class.js"></script>-->
 
-
+      <link rel="import" href="pages/elements/elements.html">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
