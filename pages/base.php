@@ -17,7 +17,7 @@ function getAPIKey(){
 }
 
 function getCorePUrl(){
-    return "tarks.net/develop/favorite/";
+    return "tarks.net/rect/";
 }
 
 function getCoreUrl($s){
