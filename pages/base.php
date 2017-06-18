@@ -5,7 +5,7 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 function getClientVersion(){
-    return "0.1.410";
+    return "0.1.618";
 }
 
 function getAPIVersion(){
@@ -17,7 +17,7 @@ function getAPIKey(){
 }
 
 function getCorePUrl(){
-    return "tarks.net/haru/";
+    return "tarks.net/square/";
 }
 
 function getCoreUrl($s){
