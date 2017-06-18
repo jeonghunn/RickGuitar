@@ -5,7 +5,7 @@ $L['app_name'] = 'Happy Birthday!';
 
 
 //Site Menu
-$L['info'] = 'Beta Info';
+$L['info'] = 'Info';
 $L['home'] = 'Home';
 $L['sign_in'] = 'Sign in';
 $L['id'] = 'ID';

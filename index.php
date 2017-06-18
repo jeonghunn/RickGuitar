@@ -1,6 +1,15 @@
 <?php
 define('642979',   TRUE);
 
+
+//HTTPS
+//if (!isset($_SERVER['HTTPS'])) {
+//    header('Location: https://'.$_SERVER["HTTP_HOST"].$_SERVER['REQUEST_URI']);
+//}
+
+
+//LOAD
+
  require_once 'pages/base.php';
 //Variable
 $page_srl = GET('p');
@@ -9,35 +18,72 @@ $loaded = false;
 
 //Session
 session_start();
+if(isset($_COOKIE['AT'])){
+    $_SESSION['user_auth'] = $_COOKIE['AT'];
+}
 $user_auth = $_SESSION['user_auth'];
+if(strpos(REQUEST('keep_signed_in'), 'true') !== false)  setcookie('AT', $user_auth, time()+(60*60*24*100) );
+
+//Logout
+if($act_parameter == "logout") {
+    session_destroy();
+    unset($_COOKIE['AT']);
+    setcookie('AT', null, 1);
+    setLoaded(true);
+    echo "<meta http-equiv='refresh' content='0;url=index.php'>";
+}
+
+
+
 //echo $user_auth;
 //Lang
 
 require_once "pages/lang/".getLang().".php";
 
 
-$user_info = json_decode(PostAct(getAPIUrl(),  array(array('a', 'my_page_info'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('user_auth', $user_auth), array('page_info', 'user_srl//tarks_account//admin//name_1//name_2//gender//birthday//country_code//phone_number//join_day//profile_pic//profile_update//lang//country//like_me//favorite//rel_you_status//rel_me_status'))), true);
+$user_info = json_decode(PostAct(getAPIUrl(),  array(array('a', 'my_page_info'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', $user_auth), array('page_info', 'user_srl//tarks_account//admin//name_1//name_2//gender//birthday//country_code//phone_number//join_day//profile_pic//profile_update//lang//country//like_me//favorite//rel_you_status//rel_me_status'))), true);
 
-$user_srl = $user_info[0]['user_srl'];
-$user_name = SetUserName($user_info[11]['lang'], $user_info[2]['name_1'], $user_info[3]['name_2']);
+$user_srl = $user_info['srl'];
+$user_name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
 
 if(REQUEST('header') != 'false') require_once 'pages/header.php';
 
 //Check login
 if(!CheckLogin()) {
+
+
+	//signup
+	if($act_parameter == "signupact"){
+        $signupresult = PostAct(getAPISUrl(), array(array('a', 'account_sign_up'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('email', POST('email')), array('password', POST('password')),  array('name_2', explode("@", POST('email'))[0])));
+       $signupresult_array = json_decode($signupresult , true);
+        if (strpos($signupresult, 'error') !== false) {
+            alert_dialog(T('sign_up_'.$signupresult_array['message']));
+            require_once 'pages/signup.php';
+            setLoaded(true);
+        }else{
+            $act_parameter = "loginact"; //login now
+
+		}
+	}
+
+
 //Check loginact
 
 	if($act_parameter == "loginact"){
 
 
 session_start();
-$user_auth = PostAct(getAPISUrl(), array(array('a', 'tarks_auth'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('id', POST('id')), array('password', POST('password'))));
-if($user_auth != "null"){
-$_SESSION['user_auth'] = $user_auth;
-echo "<meta http-equiv='refresh' content='0;url=index.php'>";
+$user_auth = PostAct(getAPISUrl(), array(array('a', 'account_auth'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('email', POST('email')), array('password', POST('password'))));
+        if (strpos($user_auth, 'error') !== false) {
+            alert_dialog(T('login_failed_des'));
+            require_once 'pages/login.php';
 }else{
-	alert_error_print(T('login_failed'), T('login_failed_des'));
-	require_once 'pages/login.php';
+            $_SESSION['user_auth'] = $user_auth;
+
+
+
+            echo "<script>window.location.href='index.php?keep_signed_in=".POST("keep_signed_in")."';</script>";
+
 
 }
 setLoaded(true);
@@ -50,7 +96,8 @@ setLoaded(true);
 
 
 }
- 
+
+
 //Profile
 		if($act_parameter == null && $page_srl != null){
 		$page_info = getPageInfo($page_srl);
@@ -60,9 +107,12 @@ setLoaded(true);
 }
 
 //Guest, User all can
+LoadPages("", "day", false);
+LoadPages("home", "day", false);
 LoadPages("error", "error", false);
 LoadPages("info", "info", false);
-
+LoadPages("infodetail", "infodetail", false);
+LoadPages("signup", "signup", false);
 //API
 	    LoadPages("api_main", "api/api_main", false);
 		LoadPages("api_add", "api/api_add", true);

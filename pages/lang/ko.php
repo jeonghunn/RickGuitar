@@ -4,7 +4,7 @@
 $L['app_name'] = '생축';
 
 //Public
-$L['info'] = 'Beta 정보';
+$L['info'] = '정보';
 $L['home'] = '홈';
 $L['sign_in'] = '로그인';
 $L['id'] = '아이디';
