@@ -2,108 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="update">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/build/bundled/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/build/bundled/images/403_error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/build/bundled/images/404_error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/build/bundled/manifest.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/build/unbundled/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/build/unbundled/images/403_error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/build/unbundled/images/404_error.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pages/build/unbundled/manifest.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base.php" afterPath="$PROJECT_DIR$/pages/base.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower.json" afterPath="$PROJECT_DIR$/pages/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/app-layout/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/app-layout/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/font-roboto/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/font-roboto/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/font-roboto/roboto.html" afterPath="$PROJECT_DIR$/pages/bower_components/font-roboto/roboto.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-a11y-keys-behavior/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-a11y-keys-behavior/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/iron-button-state.html" afterPath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/iron-button-state.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/test/active-state.html" afterPath="$PROJECT_DIR$/pages/bower_components/iron-behaviors/test/active-state.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-checked-element-behavior/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-checked-element-behavior/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-checked-element-behavior/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-checked-element-behavior/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-checked-element-behavior/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-checked-element-behavior/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-flex-layout/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-flex-layout/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-flex-layout/README.md" afterPath="$PROJECT_DIR$/pages/bower_components/iron-flex-layout/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-flex-layout/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-flex-layout/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-flex-layout/iron-flex-layout.html" afterPath="$PROJECT_DIR$/pages/bower_components/iron-flex-layout/iron-flex-layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/README.md" afterPath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-form-element-behavior/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-icon/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-icon/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-icon/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-icon/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-icon/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-icon/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-icons/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-icons/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-icons/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-icons/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-iconset-svg/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-iconset-svg/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-iconset-svg/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-iconset-svg/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-iconset-svg/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-iconset-svg/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-image/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-image/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-image/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-image/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-image/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-image/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-meta/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-meta/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-meta/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-meta/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-meta/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-meta/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-pages/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-pages/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-pages/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-pages/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-pages/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-pages/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/iron-resizable-behavior.html" afterPath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/iron-resizable-behavior.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/test/test-elements.html" afterPath="$PROJECT_DIR$/pages/bower_components/iron-resizable-behavior/test/test-elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-selector/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-selector/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-selector/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-selector/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-selector/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/pages/bower_components/iron-selector/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-selector/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-selector/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-validatable-behavior/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-validatable-behavior/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-validatable-behavior/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/iron-validatable-behavior/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-validatable-behavior/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/pages/bower_components/iron-validatable-behavior/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/iron-validatable-behavior/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/iron-validatable-behavior/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-behaviors/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/paper-behaviors/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-behaviors/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/paper-behaviors/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-behaviors/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/paper-behaviors/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-behaviors/test/paper-ripple-behavior.html" afterPath="$PROJECT_DIR$/pages/bower_components/paper-behaviors/test/paper-ripple-behavior.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-card/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/paper-card/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-card/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/paper-card/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-card/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/paper-card/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-card/demo/index.html" afterPath="$PROJECT_DIR$/pages/bower_components/paper-card/demo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-card/paper-card.html" afterPath="$PROJECT_DIR$/pages/bower_components/paper-card/paper-card.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-card/test/basic.html" afterPath="$PROJECT_DIR$/pages/bower_components/paper-card/test/basic.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-icon-button/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/paper-icon-button/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-icon-button/README.md" afterPath="$PROJECT_DIR$/pages/bower_components/paper-icon-button/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-icon-button/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/paper-icon-button/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-icon-button/paper-icon-button-light.html" afterPath="$PROJECT_DIR$/pages/bower_components/paper-icon-button/paper-icon-button-light.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-material/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/paper-material/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-material/.travis.yml" afterPath="$PROJECT_DIR$/pages/bower_components/paper-material/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-material/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/pages/bower_components/paper-material/CONTRIBUTING.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-material/README.md" afterPath="$PROJECT_DIR$/pages/bower_components/paper-material/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-material/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/paper-material/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-material/paper-material.html" afterPath="$PROJECT_DIR$/pages/bower_components/paper-material/paper-material.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/paper-styles/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/paper-styles/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/polymer/.bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/polymer/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/polymer/bower.json" afterPath="$PROJECT_DIR$/pages/bower_components/polymer/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/polymer/build.log" afterPath="$PROJECT_DIR$/pages/bower_components/polymer/build.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/polymer/polymer-micro.html" afterPath="$PROJECT_DIR$/pages/bower_components/polymer/polymer-micro.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/polymer/polymer-mini.html" afterPath="$PROJECT_DIR$/pages/bower_components/polymer/polymer-mini.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/bower_components/polymer/polymer.html" afterPath="$PROJECT_DIR$/pages/bower_components/polymer/polymer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/signin.css" afterPath="$PROJECT_DIR$/pages/css/signin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/elements/app-theme.html" afterPath="$PROJECT_DIR$/pages/elements/app-theme.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/elements/elements.html" afterPath="$PROJECT_DIR$/pages/elements/elements.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/error.php" afterPath="$PROJECT_DIR$/pages/error.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/footer.php" afterPath="$PROJECT_DIR$/pages/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/info.php" afterPath="$PROJECT_DIR$/pages/info.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/lang/en.php" afterPath="$PROJECT_DIR$/pages/lang/en.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/lang/ko.php" afterPath="$PROJECT_DIR$/pages/lang/ko.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/login.php" afterPath="$PROJECT_DIR$/pages/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/navbar.php" afterPath="$PROJECT_DIR$/pages/navbar.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/profile.php" afterPath="$PROJECT_DIR$/pages/profile.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1333,14 +1232,7 @@
       <workItem from="1491738944058" duration="763000" />
       <workItem from="1491742570766" duration="536000" />
       <workItem from="1491743475808" duration="872000" />
-      <workItem from="1497791990936" duration="347000" />
-    </task>
-    <task id="LOCAL-00512" summary="style-updated">
-      <created>1483536500777</created>
-      <option name="number" value="00512" />
-      <option name="presentableId" value="LOCAL-00512" />
-      <option name="project" value="LOCAL" />
-      <updated>1483536500777</updated>
+      <workItem from="1497791990936" duration="498000" />
     </task>
     <task id="LOCAL-00513" summary="navbarupdated">
       <created>1483536521327</created>
@@ -1678,11 +1570,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491744292506</updated>
     </task>
-    <option name="localTasksCounter" value="561" />
+    <task id="LOCAL-00561" summary="update">
+      <created>1497792396877</created>
+      <option name="number" value="00561" />
+      <option name="presentableId" value="LOCAL-00561" />
+      <option name="project" value="LOCAL" />
+      <updated>1497792396878</updated>
+    </task>
+    <option name="localTasksCounter" value="562" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="745824000" />
+    <option name="totallyTimeSpent" value="745975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1698,29 +1597,30 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20114942" sideWeight="0.57241744" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20114942" sideWeight="0.5740149" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12034079" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20114942" sideWeight="0.4259851" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12034079" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1730,7 +1630,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32796317" sideWeight="0.4978701" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20114942" sideWeight="0.42758253" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13205537" sideWeight="0.45953143" order="7" side_tool="false" content_ui="tabs" />
@@ -2065,6 +1964,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2072,6 +1972,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
