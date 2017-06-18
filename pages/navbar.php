@@ -1,7 +1,11 @@
 
 
 <style is="custom-style">
-
+    paper-toolbar.daylight {
+        --paper-toolbar-title: {
+            font-weight: bold;
+        };
+    }
 
     paper-drawer-panel {
         --paper-drawer-panel-left-drawer-container: {
@@ -24,7 +28,7 @@
 
 
 
-<paper-toolbar >
+<paper-toolbar class="daylight">
     <shibui-dropdown-menu>
         <paper-icon-button icon="menu" slot="trigger" ></paper-icon-button>
 
