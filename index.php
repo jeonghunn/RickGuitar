@@ -107,8 +107,8 @@ setLoaded(true);
 }
 
 //Guest, User all can
-LoadPages("", "day", false);
-LoadPages("home", "day", false);
+LoadPages("", "main", false);
+LoadPages("home", "main", false);
 LoadPages("error", "error", false);
 LoadPages("info", "info", false);
 LoadPages("infodetail", "infodetail", false);
