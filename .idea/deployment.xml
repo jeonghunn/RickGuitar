@@ -12,7 +12,7 @@
       <paths name="SquareCoreServer (project level)">
         <serverdata>
           <mappings>
-            <mapping deploy="/rect" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/square" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

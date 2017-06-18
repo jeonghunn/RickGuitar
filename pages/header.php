@@ -10,12 +10,14 @@
 
     <meta name="author" content="">
       <!-- See https://goo.gl/qRE0vM -->
-      <meta name="theme-color" content="#009688">
+      <meta name="theme-color" content="<?php getTitleColor() ?>">
 
 
     <link rel="shortcut icon" href="icon.png">
 
-    <title>Square</title>
+    <title><?php S('app_name')?></title>
+
+
 
       <!-- will be replaced with elements/elements.vulcanized.html -->
 
@@ -104,8 +106,10 @@
     <![endif]-->
 
       <style>
+
+
          body {
-              --app-primary-color: #009688;
+              --app-primary-color: #00BCD4;
               --app-secondary-color: black;
 
               display: block;
@@ -151,7 +155,7 @@
 
   </head>
 
-  <body>
+  <body unresolved class="fullbleed layout">
 
 
 
@@ -159,6 +163,5 @@
 
   <?php if(REQUEST('nav') != 'false') require_once 'pages/navbar.php'; ?>
 
- <div class="container">
 
 

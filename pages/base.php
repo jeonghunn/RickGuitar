@@ -5,7 +5,7 @@
 //    return "http://tarks.net/develop/favorite/";
 //}
 function getClientVersion(){
-    return "0.2.106.21.32";
+    return "0.1.410";
 }
 
 function getAPIVersion(){
@@ -17,7 +17,7 @@ function getAPIKey(){
 }
 
 function getCorePUrl(){
-    return "tarks.net/rect/";
+    return "tarks.net/haru/";
 }
 
 function getCoreUrl($s){
@@ -26,6 +26,11 @@ function getCoreUrl($s){
 
 function getAPIUrl(){
     return getCoreUrl(false)."api.php";
+}
+
+//get api url by status http https
+function getAPIUrlS(){
+    return getCoreUrl(isSecure())."api.php";
 }
 
 function getAPISUrl(){
@@ -52,7 +57,13 @@ function getUserAgent(){
 }
 
 function getTitleColor(){
-    return "#009688";
+    $datehour =  date('H');
+
+    if($datehour >= 6 && $datehour <= 18) return "#00BCD4";
+
+
+
+    return "#283593";
 }
 
 //function getDate(){
@@ -110,6 +121,10 @@ function FatalError(){
     exit();
 }
 
+function getUserAuth(){
+    return $_SESSION['user_auth'];
+}
+
 function S($str){
   echo T($str);
 }
@@ -125,6 +140,12 @@ function A($str){
 function CoreInfo(){
   global $SERVER_VERSION;
   echo "<h2>FavoriteCore</h2><br><h1>".$SERVER_VERSION."</h1>";
+}
+
+function isSecure() {
+    return
+        (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+        || $_SERVER['SERVER_PORT'] == 443;
 }
 
 function REQUEST($value){
@@ -262,6 +283,10 @@ function contentconvert($content)
 //Print Error
 function alert_error_print($title, $content){
     alert_print("danger", $title, $content);
+}
+
+function alert_dialog($content){
+    echo "<script>alert('".$content."')</script>";
 }
 
 function alert_print($category, $title, $content){
