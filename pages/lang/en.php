@@ -1,7 +1,7 @@
 <?php
 
 //Service Name
-$L['app_name'] = 'Haru';
+$L['app_name'] = 'Happy Birthday!';
 
 
 //Site Menu

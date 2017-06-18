@@ -1,7 +1,7 @@
 <?php
 
 //Service Name
-$L['app_name'] = '하루';
+$L['app_name'] = '생축';
 
 //Public
 $L['info'] = 'Beta 정보';
