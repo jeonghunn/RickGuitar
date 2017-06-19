@@ -36,6 +36,11 @@
                   <option value="audi">Audi</option>
               </select>
 
+              <textarea placeholder="할 말"></textarea>
+
+              <button type="button" class="btn btn-default btn-lg">
+                  생일 페이지 만들기
+              </button>
           </div>
 
 </center><br><br><br>
