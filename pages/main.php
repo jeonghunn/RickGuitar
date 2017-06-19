@@ -8,10 +8,9 @@
       <center><h3 stlye="font-size: 21px;">그 누구도 예상하지못한 생일축하방법</h3>
 <br>
           <div class="squarecard">
+<br>
+                 <h4>축하해줄 사람의 이름, 생일 그리고 할 말을 작성해주세요.</h4>
 
-                 <h2>이름</h2>
-
-              <h2>생일</h2>
 
           </div>
 
