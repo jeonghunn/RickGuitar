@@ -1,6 +1,5 @@
 
 
-</paper-toolbar>
 
 <style>
 

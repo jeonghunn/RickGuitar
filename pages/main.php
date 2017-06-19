@@ -1,5 +1,4 @@
 
-</paper-toolbar>
 
 <!-- html -->
     <div class="container">

@@ -1,32 +1,5 @@
 
 
-<style is="custom-style">
-    paper-toolbar.daylight {
-        --paper-toolbar-title: {
-            font-weight: bold;
-        };
-    }
-
-    paper-drawer-panel {
-        --paper-drawer-panel-left-drawer-container: {
-            background-color: #eeeeee;
-        };
-
-        height: 100%;
-    }
-
-
-    .drawer-menu {
-        --paper-menu-background-color: #eeeeee;
-        --menu-link-color: #111111;
-        --paper-menu-color: #000000;
-    }
-
-
-</style>
-
-
-
 
 <paper-toolbar class="daylight">
     <shibui-dropdown-menu>

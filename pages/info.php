@@ -1,5 +1,4 @@
 
-</paper-toolbar>
 
 
 <style>
