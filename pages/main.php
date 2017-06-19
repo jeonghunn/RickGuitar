@@ -14,25 +14,27 @@
 
               <div class="input-group input-group-lg">
                   <input type="text" class="form-control" placeholder="이름" aria-describedby="sizing-addon1">
-                  <select name="year">
-                      <option value="volvo">1998</option>
-                      <option value="saab">1997</option>
-                      <option value="fiat">Fiat</option>
-                      <option value="audi">Audi</option>
-                  </select>
-                  <select name="month">
-                      <option value="volvo">5</option>
-                      <option value="saab">1997</option>
-                      <option value="fiat">Fiat</option>
-                      <option value="audi">Audi</option>
-                  </select>
-                  <select name="day">
-                      <option value="volvo">4</option>
-                      <option value="saab">1997</option>
-                      <option value="fiat">Fiat</option>
-                      <option value="audi">Audi</option>
-                  </select>
+
               </div>
+
+              <select name="year">
+                  <option value="volvo">1998</option>
+                  <option value="saab">1997</option>
+                  <option value="fiat">Fiat</option>
+                  <option value="audi">Audi</option>
+              </select>
+              <select name="month">
+                  <option value="volvo">5</option>
+                  <option value="saab">1997</option>
+                  <option value="fiat">Fiat</option>
+                  <option value="audi">Audi</option>
+              </select>
+              <select name="day">
+                  <option value="volvo">4</option>
+                  <option value="saab">1997</option>
+                  <option value="fiat">Fiat</option>
+                  <option value="audi">Audi</option>
+              </select>
 
           </div>
 
