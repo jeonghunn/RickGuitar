@@ -38,7 +38,7 @@
               <br>
 
               <textarea class="form-control" rows="3"></textarea>
-
+<br><br>
               <button type="button" class="btn btn-default btn-lg">
                   생일 페이지 만들기
               </button>
