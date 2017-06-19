@@ -9,7 +9,9 @@
 <br>
           <div class="squarecard">
 
-                  This is some text within a card block.
+                 <h2>이름</h2>
+
+              <h2>생일</h2>
 
           </div>
 
