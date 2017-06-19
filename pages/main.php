@@ -7,7 +7,11 @@
 <br><br>
       <center><h3 stlye="font-size: 21px;">그 누구도 예상하지못한 생일축하방법</h3>
 
-          <paper-button raised onclick="location.href='mailto:jeonghunn1@gmail.com'">지금 축하해보기</paper-button>
+          <div class="card">
+              <div class="card-block">
+                  This is some text within a card block.
+              </div>
+          </div>
 
 </center>
     </div> <!-- /container -->
