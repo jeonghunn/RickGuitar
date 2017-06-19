@@ -37,8 +37,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+            <state relative-caret-position="402">
+              <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -1325,14 +1325,7 @@
       <workItem from="1497840138760" duration="836000" />
       <workItem from="1497841114306" duration="636000" />
       <workItem from="1497874361843" duration="15000" />
-      <workItem from="1497874388047" duration="3408000" />
-    </task>
-    <task id="LOCAL-00541" summary="404 not found error test">
-      <created>1491736058279</created>
-      <option name="number" value="00541" />
-      <option name="presentableId" value="LOCAL-00541" />
-      <option name="project" value="LOCAL" />
-      <updated>1491736058279</updated>
+      <workItem from="1497874388047" duration="3470000" />
     </task>
     <task id="LOCAL-00542" summary="404 not found error test">
       <created>1491736130558</created>
@@ -1670,11 +1663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497878198870</updated>
     </task>
-    <option name="localTasksCounter" value="590" />
+    <task id="LOCAL-00590" summary="set color">
+      <created>1497878303077</created>
+      <option name="number" value="00590" />
+      <option name="presentableId" value="LOCAL-00590" />
+      <option name="project" value="LOCAL" />
+      <updated>1497878303077</updated>
+    </task>
+    <option name="localTasksCounter" value="591" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="754038000" />
+    <option name="totallyTimeSpent" value="754100000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1774,7 +1774,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="404 not found error test" />
     <MESSAGE value="get titlecolor" />
     <MESSAGE value="api url updated" />
     <MESSAGE value="info updated" />
@@ -1799,7 +1798,8 @@
     <MESSAGE value="navbar updated" />
     <MESSAGE value="string updated" />
     <MESSAGE value="card added" />
-    <option name="LAST_COMMIT_MESSAGE" value="card added" />
+    <MESSAGE value="set color" />
+    <option name="LAST_COMMIT_MESSAGE" value="set color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2200,8 +2200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="90" column="38" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+        <state relative-caret-position="402">
+          <caret line="95" column="26" lean-forward="false" selection-start-line="95" selection-start-column="26" selection-end-line="95" selection-end-column="26" />
           <folding />
         </state>
       </provider>
