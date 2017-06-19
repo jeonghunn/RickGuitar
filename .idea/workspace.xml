@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/lang/en.php" afterPath="$PROJECT_DIR$/pages/lang/en.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/lang/ko.php" afterPath="$PROJECT_DIR$/pages/lang/ko.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/navbar.php" afterPath="$PROJECT_DIR$/pages/navbar.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -86,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="navbar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="195">
+              <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -106,7 +104,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ko.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ko.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -208,9 +206,9 @@
         <option value="$PROJECT_DIR$/pages/main.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
-        <option value="$PROJECT_DIR$/pages/navbar.php" />
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
         <option value="$PROJECT_DIR$/pages/lang/ko.php" />
+        <option value="$PROJECT_DIR$/pages/navbar.php" />
       </list>
     </option>
   </component>
@@ -1327,14 +1325,7 @@
       <workItem from="1497840138760" duration="836000" />
       <workItem from="1497841114306" duration="636000" />
       <workItem from="1497874361843" duration="15000" />
-      <workItem from="1497874388047" duration="3022000" />
-    </task>
-    <task id="LOCAL-00537" summary="test">
-      <created>1491731744078</created>
-      <option name="number" value="00537" />
-      <option name="presentableId" value="LOCAL-00537" />
-      <option name="project" value="LOCAL" />
-      <updated>1491731744079</updated>
+      <workItem from="1497874388047" duration="3064000" />
     </task>
     <task id="LOCAL-00538" summary="test">
       <created>1491732514005</created>
@@ -1672,11 +1663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497877781382</updated>
     </task>
-    <option name="localTasksCounter" value="586" />
+    <task id="LOCAL-00586" summary="string updated">
+      <created>1497877912230</created>
+      <option name="number" value="00586" />
+      <option name="presentableId" value="LOCAL-00586" />
+      <option name="project" value="LOCAL" />
+      <updated>1497877912230</updated>
+    </task>
+    <option name="localTasksCounter" value="587" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="753652000" />
+    <option name="totallyTimeSpent" value="753694000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1776,7 +1774,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="polymer updated" />
     <MESSAGE value="404 not found die test" />
     <MESSAGE value="404 not found error test" />
     <MESSAGE value="get titlecolor" />
@@ -1801,7 +1798,8 @@
     <MESSAGE value="viewport updated" />
     <MESSAGE value="script updated" />
     <MESSAGE value="navbar updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar updated" />
+    <MESSAGE value="string updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="string updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2192,18 +2190,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="58" lean-forward="true" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
           <folding />
         </state>
       </provider>
