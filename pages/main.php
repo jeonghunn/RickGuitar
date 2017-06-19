@@ -16,7 +16,7 @@
                   <input type="text" class="form-control" placeholder="이름" aria-describedby="sizing-addon1">
 
               </div>
-
+<br>
               <select name="year">
                   <option value="volvo">1998</option>
                   <option value="saab">1997</option>
