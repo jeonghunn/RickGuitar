@@ -10,7 +10,7 @@
           <div class="squarecard">
 <br>
                  <h4>축하해줄 사람의 이름, 생일 그리고 할 말을 작성해주세요.</h4>
-
+<hr>
 
           </div>
 
