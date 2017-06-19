@@ -2,6 +2,7 @@
 
 //Service Name
 $L['app_name'] = 'Happy Birthday!';
+$L['app_full_name'] = 'Happy Birthday!';
 
 
 //Site Menu
@@ -36,47 +37,6 @@ $L['sign_up_password_length_error'] = 'Passwords must be between 6-20 characters
 $L['sign_up_name_invaild_error'] = 'Enter your name.';
 $L['sign_up_email_exist_error'] = 'You already have an account with the same email address.';
 
-//Day
-$L['day_time_0'] = '12 AM';
-$L['day_time_1'] = '1 AM';
-$L['day_time_2'] = '2 AM';
-$L['day_time_3'] = '3 AM';
-$L['day_time_4'] = '4 AM';
-$L['day_time_5'] = '5 AM';
-$L['day_time_6'] = '6 AM';
-$L['day_time_7'] = '7 AM';
-$L['day_time_8'] = '8 AM';
-$L['day_time_9'] = '9 AM';
-$L['day_time_10'] = '10 AM';
-$L['day_time_11'] = '11 AM';
-$L['day_time_12'] = '12 PM';
-$L['day_time_13'] = '1 PM';
-$L['day_time_14'] = '2 PM';
-$L['day_time_15'] = '3 PM';
-$L['day_time_16'] = '4 PM';
-$L['day_time_17'] = '5 PM';
-$L['day_time_18'] = '6 PM';
-$L['day_time_19'] = '7 PM';
-$L['day_time_20'] = '8 PM';
-$L['day_time_21'] = '9 PM';
-$L['day_time_22'] = '10 PM';
-$L['day_time_23'] = '11 PM';
-$L['day_grade'] = 'Grade';
-$L['day_work'] = 'Work';
-$L['day_grade_a'] = 'A - Great';
-$L['day_grade_b'] = 'B - It is OK.';
-$L['day_grade_c'] = 'C - Inadequate';
-$L['day_grade_f'] = 'F - Did not anything';
-$L['day_blank_error_des'] = 'Please enter all fields.';
-$L['day_too_late_error_des'] = 'It\'s too late to enter.';
-$L['day_view_more'] = 'View More';
-$L['haru_rank_top'] = 'Top Rank';
-$L['haru_during_deployment'] = 'During deployment';
-$L['day_how_long'] = 'How Long';
-$L['1_quarter_high'] = 'Quarter 1 High';
-$L['2_quarter_high'] = 'Quarter 2 High';
-$L['3_quarter_high'] = 'Quarter 3 High';
-$L['4_quarter_high'] = 'Quarter 4 High';
 
 //Profile
 $L['write'] = 'Write';
