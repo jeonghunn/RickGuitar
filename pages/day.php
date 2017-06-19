@@ -477,7 +477,9 @@ $beforeDayLink = "?year=".$beforeDayA[0]."&month=".intval($beforeDayA[1])."&day=
                         document.querySelector('#completetoastfailed').open();
                     }
 
-
+                    if(str.indexOf('hi') >= 0){
+                        alert('HI!!');
+                    }
 
                 }
             }
