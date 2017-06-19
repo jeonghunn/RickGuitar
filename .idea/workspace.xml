@@ -57,8 +57,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+            <state relative-caret-position="119">
+              <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -1324,14 +1324,7 @@
       <workItem from="1497840138760" duration="836000" />
       <workItem from="1497841114306" duration="636000" />
       <workItem from="1497874361843" duration="15000" />
-      <workItem from="1497874388047" duration="2435000" />
-    </task>
-    <task id="LOCAL-00533" summary="polymer updated">
-      <created>1491725878073</created>
-      <option name="number" value="00533" />
-      <option name="presentableId" value="LOCAL-00533" />
-      <option name="project" value="LOCAL" />
-      <updated>1491725878073</updated>
+      <workItem from="1497874388047" duration="2544000" />
     </task>
     <task id="LOCAL-00534" summary="test">
       <created>1491725994042</created>
@@ -1669,11 +1662,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497877121477</updated>
     </task>
-    <option name="localTasksCounter" value="582" />
+    <task id="LOCAL-00582" summary="navbar updated">
+      <created>1497877261129</created>
+      <option name="number" value="00582" />
+      <option name="presentableId" value="LOCAL-00582" />
+      <option name="project" value="LOCAL" />
+      <updated>1497877261129</updated>
+    </task>
+    <option name="localTasksCounter" value="583" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="753065000" />
+    <option name="totallyTimeSpent" value="753174000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1773,7 +1773,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="account updated" />
     <MESSAGE value="polymer updated" />
     <MESSAGE value="404 not found die test" />
     <MESSAGE value="404 not found error test" />
@@ -1798,7 +1797,8 @@
     <MESSAGE value="style updated" />
     <MESSAGE value="viewport updated" />
     <MESSAGE value="script updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="script updated" />
+    <MESSAGE value="navbar updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="navbar updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2199,8 +2199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
           <folding />
         </state>
       </provider>
