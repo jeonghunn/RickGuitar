@@ -58,12 +58,12 @@
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding>
-                <marker date="1497840914000" expanded="true" signature="6314:6368" ph="..." />
-                <marker date="1497840914000" expanded="true" signature="6527:6659" ph="SELECT * FRO... favorite" />
-                <marker date="1497840914000" expanded="true" signature="6711:6843" ph="SELECT * FRO... favorite" />
-                <marker date="1497840914000" expanded="true" signature="6894:6945" ph="SELECT * FRO... pages" />
+                <marker date="1497840970000" expanded="true" signature="6319:6373" ph="..." />
+                <marker date="1497840970000" expanded="true" signature="6532:6664" ph="SELECT * FRO... favorite" />
+                <marker date="1497840970000" expanded="true" signature="6716:6848" ph="SELECT * FRO... favorite" />
+                <marker date="1497840970000" expanded="true" signature="6899:6950" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -1252,14 +1252,7 @@
       <workItem from="1491742570766" duration="536000" />
       <workItem from="1491743475808" duration="872000" />
       <workItem from="1497791990936" duration="3666000" />
-      <workItem from="1497840138760" duration="745000" />
-    </task>
-    <task id="LOCAL-00522" summary="test">
-      <created>1491401129552</created>
-      <option name="number" value="00522" />
-      <option name="presentableId" value="LOCAL-00522" />
-      <option name="project" value="LOCAL" />
-      <updated>1491401129553</updated>
+      <workItem from="1497840138760" duration="799000" />
     </task>
     <task id="LOCAL-00523" summary="test">
       <created>1491401198363</created>
@@ -1597,11 +1590,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497840782514</updated>
     </task>
-    <option name="localTasksCounter" value="571" />
+    <task id="LOCAL-00571" summary="test">
+      <created>1497840925164</created>
+      <option name="number" value="00571" />
+      <option name="presentableId" value="LOCAL-00571" />
+      <option name="project" value="LOCAL" />
+      <updated>1497840925164</updated>
+    </task>
+    <option name="localTasksCounter" value="572" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="749888000" />
+    <option name="totallyTimeSpent" value="749942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1716,7 +1716,6 @@
     <MESSAGE value="api url updated" />
     <MESSAGE value="info updated" />
     <MESSAGE value="apikey updated" />
-    <MESSAGE value="test" />
     <MESSAGE value="update" />
     <MESSAGE value="daylight deleted" />
     <MESSAGE value="daylight edited" />
@@ -1726,7 +1725,8 @@
     <MESSAGE value="index updated" />
     <MESSAGE value="main updated" />
     <MESSAGE value="ipaddr updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="ipaddr updated" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2121,12 +2121,12 @@
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding>
-            <marker date="1497840914000" expanded="true" signature="6314:6368" ph="..." />
-            <marker date="1497840914000" expanded="true" signature="6527:6659" ph="SELECT * FRO... favorite" />
-            <marker date="1497840914000" expanded="true" signature="6711:6843" ph="SELECT * FRO... favorite" />
-            <marker date="1497840914000" expanded="true" signature="6894:6945" ph="SELECT * FRO... pages" />
+            <marker date="1497840970000" expanded="true" signature="6319:6373" ph="..." />
+            <marker date="1497840970000" expanded="true" signature="6532:6664" ph="SELECT * FRO... favorite" />
+            <marker date="1497840970000" expanded="true" signature="6716:6848" ph="SELECT * FRO... favorite" />
+            <marker date="1497840970000" expanded="true" signature="6899:6950" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>

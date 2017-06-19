@@ -20,7 +20,7 @@ function getIPAddr(){
     if(!strcmp($ipaddr, $_SERVER['SERVER_ADDR']) || !strcmp($ipaddr, "127.0.0.1")){
         $ipaddr = REQUEST("ip_addr");
     }
-    $ipaddr = REQUEST("ip_addr");
+    $ipaddr = $_SERVER["REMOTE_ADDR"];
     return $ipaddr;
 }
 
