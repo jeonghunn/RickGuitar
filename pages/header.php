@@ -87,22 +87,7 @@
               --paper-icon-button-ink-color: white;
           }
 
-          .drawer-list {
-              margin: 0 20px;
-          }
 
-          .drawer-list a {
-              display: block;
-              padding: 0 16px;
-              text-decoration: none;
-              color: var(--app-secondary-color);
-              line-height: 40px;
-          }
-
-          .drawer-list a.iron-selected {
-              color: black;
-              font-weight: bold;
-          }
       </style>
 
       <style>

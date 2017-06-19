@@ -4,7 +4,6 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/navbar.php" afterPath="$PROJECT_DIR$/pages/navbar.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,8 +57,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="308">
+              <caret line="89" column="3" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -1324,14 +1323,7 @@
       <workItem from="1497840138760" duration="836000" />
       <workItem from="1497841114306" duration="636000" />
       <workItem from="1497874361843" duration="15000" />
-      <workItem from="1497874388047" duration="1737000" />
-    </task>
-    <task id="LOCAL-00528" summary="test">
-      <created>1491406574920</created>
-      <option name="number" value="00528" />
-      <option name="presentableId" value="LOCAL-00528" />
-      <option name="project" value="LOCAL" />
-      <updated>1491406574920</updated>
+      <workItem from="1497874388047" duration="1946000" />
     </task>
     <task id="LOCAL-00529" summary="test">
       <created>1491406849273</created>
@@ -1669,11 +1661,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497874995583</updated>
     </task>
-    <option name="localTasksCounter" value="577" />
+    <task id="LOCAL-00577" summary="header updated">
+      <created>1497876511464</created>
+      <option name="number" value="00577" />
+      <option name="presentableId" value="LOCAL-00577" />
+      <option name="project" value="LOCAL" />
+      <updated>1497876511464</updated>
+    </task>
+    <option name="localTasksCounter" value="578" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="752367000" />
+    <option name="totallyTimeSpent" value="752576000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1777,7 +1776,6 @@
     <MESSAGE value="icons added" />
     <MESSAGE value="custom style imported" />
     <MESSAGE value="account updated" />
-    <MESSAGE value="header updated" />
     <MESSAGE value="polymer updated" />
     <MESSAGE value="404 not found die test" />
     <MESSAGE value="404 not found error test" />
@@ -1798,7 +1796,8 @@
     <MESSAGE value="bower components deleted" />
     <MESSAGE value="polymer deleted" />
     <MESSAGE value="bootstrap updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap updated" />
+    <MESSAGE value="header updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="header updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2199,8 +2198,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="308">
+          <caret line="89" column="3" lean-forward="false" selection-start-line="89" selection-start-column="3" selection-end-line="89" selection-end-column="3" />
           <folding />
         </state>
       </provider>
