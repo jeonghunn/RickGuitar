@@ -57,7 +57,7 @@
     <link href="pages/css/navbar-fixed-top.css" rel="stylesheet">
 
 <!--         JS -->
-             <script src="pages/js/angular.min.js"></script>
+<!--             <script src="pages/js/angular.min.js"></script>-->
       <script type="text/javascript" src="pages/js/jquery.js"></script>
 
 <!--    <script src="pages/js/class.js"></script>-->
