@@ -86,20 +86,20 @@
           app-header paper-icon-button {
               --paper-icon-button-ink-color: white;
           }
-         .card {
+         .squarecard {
              /* Add shadows to create the "card" effect */
              background-color: #FFFFFF;
              box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
              transition: 0.3s;
              border-radius: 8px; /* 5px rounded corners */
-             width:500px;
-             height: 500px;
+             width:480px;
+             height: 480px;
          }
 
 
 
          /* On mouse-over, add a deeper shadow */
-         .card:hover {
+         .squarecard:hover {
              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
          }
 

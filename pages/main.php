@@ -7,10 +7,10 @@
 <br><br>
       <center><h3 stlye="font-size: 21px;">그 누구도 예상하지못한 생일축하방법</h3>
 
-          <div class="card">
-              <div class="card-block">
+          <div class="squarecard">
+
                   This is some text within a card block.
-              </div>
+
           </div>
 
 </center>
