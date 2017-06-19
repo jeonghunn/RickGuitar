@@ -35,8 +35,9 @@
                   <option value="fiat">Fiat</option>
                   <option value="audi">Audi</option>
               </select>
+              <br>
 
-              <textarea placeholder="할 말"></textarea>
+              <textarea class="form-control" rows="3"></textarea>
 
               <button type="button" class="btn btn-default btn-lg">
                   생일 페이지 만들기
