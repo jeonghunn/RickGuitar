@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/css/navbar-fixed-top.css" afterPath="$PROJECT_DIR$/pages/css/navbar-fixed-top.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/navbar.php" afterPath="$PROJECT_DIR$/pages/navbar.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -108,8 +107,8 @@
       <file leaf-file-name="navbar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -1326,14 +1325,7 @@
       <workItem from="1497840138760" duration="836000" />
       <workItem from="1497841114306" duration="636000" />
       <workItem from="1497874361843" duration="15000" />
-      <workItem from="1497874388047" duration="2602000" />
-    </task>
-    <task id="LOCAL-00535" summary="test">
-      <created>1491726048954</created>
-      <option name="number" value="00535" />
-      <option name="presentableId" value="LOCAL-00535" />
-      <option name="project" value="LOCAL" />
-      <updated>1491726048954</updated>
+      <workItem from="1497874388047" duration="2896000" />
     </task>
     <task id="LOCAL-00536" summary="test">
       <created>1491726080261</created>
@@ -1671,11 +1663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1497877380897</updated>
     </task>
-    <option name="localTasksCounter" value="584" />
+    <task id="LOCAL-00584" summary="navbar updated">
+      <created>1497877442871</created>
+      <option name="number" value="00584" />
+      <option name="presentableId" value="LOCAL-00584" />
+      <option name="project" value="LOCAL" />
+      <updated>1497877442871</updated>
+    </task>
+    <option name="localTasksCounter" value="585" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="753232000" />
+    <option name="totallyTimeSpent" value="753526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2201,8 +2200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="17" column="48" lean-forward="false" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
           <folding />
         </state>
       </provider>
