@@ -166,7 +166,8 @@ function PostAct($url, $arrayvars){
     $vars = null;
     $arrayvars[]= array('ip_addr', getIPAddr());
 
-for ($i=0 ; $i < count($arrayvars);$i++){
+
+    for ($i=0 ; $i < count($arrayvars);$i++){
 
 
     $vars = $vars.$arrayvars[$i][0]."=".$arrayvars[$i][1];
