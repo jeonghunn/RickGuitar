@@ -31,6 +31,7 @@ require_once 'core/permission.php';
 
 //Check IP
 PermissionCheckAct($user_srl);
+echo getIPAddr();
 IPManageAct(getIPAddr(), getNowUrl(), getTimeStamp());
 
 //Log Client
