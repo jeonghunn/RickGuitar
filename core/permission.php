@@ -19,8 +19,8 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
             $ip_active = $resulta['ip_active'];
             $ip_point = $resulta['ip_point'];
 
-            echo
-	//Information Update
+
+            //Information Update
 	echo "UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '$REMOTE_ADDR'";
 }
 
