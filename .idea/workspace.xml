@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/permission.php" afterPath="$PROJECT_DIR$/core/permission.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -92,17 +93,17 @@
       <file leaf-file-name="permission.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/permission.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+            <state relative-caret-position="419">
+              <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
               <folding>
-                <marker date="1498062054000" expanded="true" signature="267:393" ph="INSERT INTO `ip_manage`... " />
-                <marker date="1498062054000" expanded="true" signature="900:1045" ph="UPDATE `ip_m... " />
-                <marker date="1498062054000" expanded="true" signature="900:1065" ph="UPDATE `ip_m... " />
-                <marker date="1498062054000" expanded="true" signature="1703:1766" ph="SELECT * FRO... ip_manage" />
-                <marker date="1498062054000" expanded="true" signature="1951:2032" ph="UPDATE `ip_m... " />
-                <marker date="1498062054000" expanded="true" signature="2198:2250" ph="SELECT * FRO... pages" />
-                <marker date="1498062054000" expanded="true" signature="2683:2754" ph="UPDATE `api`... " />
-                <marker date="1498062054000" expanded="true" signature="3183:3232" ph="SELECT * FRO... api" />
+                <marker date="1498062479000" expanded="true" signature="267:393" ph="INSERT INTO `ip_manage`... " />
+                <marker date="1498062479000" expanded="true" signature="902:1047" ph="UPDATE `ip_m... " />
+                <marker date="1498062479000" expanded="true" signature="902:1067" ph="UPDATE `ip_m... " />
+                <marker date="1498062479000" expanded="true" signature="1743:1806" ph="SELECT * FRO... ip_manage" />
+                <marker date="1498062479000" expanded="true" signature="1991:2072" ph="UPDATE `ip_m... " />
+                <marker date="1498062479000" expanded="true" signature="2238:2290" ph="SELECT * FRO... pages" />
+                <marker date="1498062479000" expanded="true" signature="2723:2794" ph="UPDATE `api`... " />
+                <marker date="1498062479000" expanded="true" signature="3223:3272" ph="SELECT * FRO... api" />
               </folding>
             </state>
           </provider>
@@ -131,8 +132,8 @@
       <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="514">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,8 +175,8 @@
       <find>IPManageCalc</find>
       <find>APICheckAct</find>
       <find>IPManageAct</find>
-      <find>getIPManageInfo</find>
       <find>getIPAddr</find>
+      <find>getIPManageInfo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1267,14 +1268,7 @@
       <workItem from="1497874361843" duration="15000" />
       <workItem from="1497874388047" duration="5668000" />
       <workItem from="1498046695928" duration="3547000" />
-      <workItem from="1498057046033" duration="4426000" />
-    </task>
-    <task id="LOCAL-00590" summary="set color">
-      <created>1497878303077</created>
-      <option name="number" value="00590" />
-      <option name="presentableId" value="LOCAL-00590" />
-      <option name="project" value="LOCAL" />
-      <updated>1497878303077</updated>
+      <workItem from="1498057046033" duration="4847000" />
     </task>
     <task id="LOCAL-00591" summary="card updated">
       <created>1497878365075</created>
@@ -1612,11 +1606,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498062028001</updated>
     </task>
-    <option name="localTasksCounter" value="639" />
+    <task id="LOCAL-00639" summary="ipmanaage updated">
+      <created>1498062060162</created>
+      <option name="number" value="00639" />
+      <option name="presentableId" value="LOCAL-00639" />
+      <option name="project" value="LOCAL" />
+      <updated>1498062060163</updated>
+    </task>
+    <option name="localTasksCounter" value="640" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="764271000" />
+    <option name="totallyTimeSpent" value="764692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2129,25 +2130,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="514">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/permission.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="34" column="45" lean-forward="false" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        <state relative-caret-position="419">
+          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
           <folding>
-            <marker date="1498062054000" expanded="true" signature="267:393" ph="INSERT INTO `ip_manage`... " />
-            <marker date="1498062054000" expanded="true" signature="900:1045" ph="UPDATE `ip_m... " />
-            <marker date="1498062054000" expanded="true" signature="900:1065" ph="UPDATE `ip_m... " />
-            <marker date="1498062054000" expanded="true" signature="1703:1766" ph="SELECT * FRO... ip_manage" />
-            <marker date="1498062054000" expanded="true" signature="1951:2032" ph="UPDATE `ip_m... " />
-            <marker date="1498062054000" expanded="true" signature="2198:2250" ph="SELECT * FRO... pages" />
-            <marker date="1498062054000" expanded="true" signature="2683:2754" ph="UPDATE `api`... " />
-            <marker date="1498062054000" expanded="true" signature="3183:3232" ph="SELECT * FRO... api" />
+            <marker date="1498062479000" expanded="true" signature="267:393" ph="INSERT INTO `ip_manage`... " />
+            <marker date="1498062479000" expanded="true" signature="902:1047" ph="UPDATE `ip_m... " />
+            <marker date="1498062479000" expanded="true" signature="902:1067" ph="UPDATE `ip_m... " />
+            <marker date="1498062479000" expanded="true" signature="1743:1806" ph="SELECT * FRO... ip_manage" />
+            <marker date="1498062479000" expanded="true" signature="1991:2072" ph="UPDATE `ip_m... " />
+            <marker date="1498062479000" expanded="true" signature="2238:2290" ph="SELECT * FRO... pages" />
+            <marker date="1498062479000" expanded="true" signature="2723:2794" ph="UPDATE `api`... " />
+            <marker date="1498062479000" expanded="true" signature="3223:3272" ph="SELECT * FRO... api" />
           </folding>
         </state>
       </provider>

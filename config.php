@@ -34,11 +34,11 @@ require_once 'core/permission.php';
 
 //Check IP
 PermissionCheckAct($user_srl);
-IPManageAct(getIPAddr(), getNowUrl(), getTimeStamp());
+$ipmanage = IPManageAct(getIPAddr(), getNowUrl(), getTimeStamp());
 
 
 //Log Client
-ActLog($user_srl, getIPAddr(), getTimeStamp(), $log_category, $log);
+if ($ipmanage) ActLog($user_srl, getIPAddr(), getTimeStamp(), $log_category, $log);
 
 
 //set user_Srl
