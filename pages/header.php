@@ -99,6 +99,7 @@
 
          .centered {
              vertical-align: middle;
+             margin-top: 50%;
 
          }
 
