@@ -33,6 +33,14 @@
         </div>
     </div>
 
+    <div class="squarecard">
+        <div class="centered">
+            <br><br><br><br><br><br>
+            <span style="font-size: 32px;">﻿만으로 <br> <span style="font-size: 40px;">18</span>살 <br>입니다.</span><br/>
+
+        </div>
+    </div>
+
 
     <br><br><br>
 </div> <!-- /container -->
