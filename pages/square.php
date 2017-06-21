@@ -44,7 +44,7 @@
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br>
-            <span style="font-size: 32px;">﻿인생을 시간으로 본다면 지금 시간은<br> <span style="font-size: 40px;">5</span>시 <span
+            <span style="font-size: 24px;">﻿인생을 시간으로 본다면 지금 시간은<br> <span style="font-size: 40px;">5</span>시 <span
                         style="font-size: 40px;">24</span>분<Br>이 됩니다.</span><br/>
 
         </div>
