@@ -3,6 +3,7 @@
 function IPManageAct($REMOTE_ADDR, $nowurl, $date){
                  //  Permission Check
     $ip_manage = getIPManageInfo($REMOTE_ADDR);
+    echo $REMOTE_ADDR;
 //IP Check 
         if($ip_manage['active'] == null) {
         	//Make New IP
