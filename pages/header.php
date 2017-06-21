@@ -94,8 +94,17 @@
              border-radius: 16px; /* 5px rounded corners */
              width:440px;
              height: 440px;
-             display: table;
-             margin: 0 auto;
+             position: absolute; /*it can be fixed too*/
+             left: 0;
+             right: 0;
+             top: 0;
+             bottom: 0;
+             margin: auto;
+
+             /*this to solve "the content will not be cut when the window is smaller than the content": */
+             max-width: 100%;
+             max-height: 100%;
+             overflow: auto;
          }
 
 
