@@ -2,7 +2,7 @@
 
 function IPManageAct($REMOTE_ADDR, $nowurl, $date){
                  //  Permission Check
-        $ip_manage = getIPManageInfo();
+    $ip_manage = getIPManageInfo($REMOTE_ADDR);
 //IP Check 
         if($ip_manage['active'] == null) {
         	//Make New IP
@@ -37,8 +37,9 @@ function IPManageCalc($date, $nowurl,  $ip_manage, $ip_active, $ip_point){
 }
 
 
-function getIPManageInfo(){
-    return mysqli_fetch_array(DBQuery("SELECT * FROM  `ip_manage` WHERE  `ip_addr` LIKE '".getIPAddr()."'"));
+function getIPManageInfo($REMOTE_ADDR)
+{
+    return mysqli_fetch_array(DBQuery("SELECT * FROM  `ip_manage` WHERE  `ip_addr` LIKE '$REMOTE_ADDR'"));
 }
 
 
