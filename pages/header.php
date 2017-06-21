@@ -98,13 +98,10 @@
          }
 
          .centered {
-             position: fixed;
              top: 50%;
              left: 50%;
-             transform: translate(-50%, -50%);
-             transform: -webkit-translate(-50%, -50%);
-             transform: -moz-translate(-50%, -50%);
-             transform: -ms-translate(-50%, -50%);
+             transform: translate3d(-50%, -50%, 0);
+             position: absolute;
 
          }
 
