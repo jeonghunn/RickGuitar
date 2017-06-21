@@ -29,14 +29,17 @@ require_once 'core/logger.php';
 require_once 'core/security.php';
 require_once 'core/permission.php';
 
+
+// Client log
+
 //Check IP
 PermissionCheckAct($user_srl);
 IPManageAct(getIPAddr(), getNowUrl(), getTimeStamp());
 
 
 //Log Client
-ActLogSyncTask($user_srl, getIPAddr(),getTimeStamp(), $log_category, $log);
-ClientAgentLogSyncTask($user_srl);
+ActLog($user_srl, getIPAddr(), getTimeStamp(), $log_category, $log);
+
 
 //set user_Srl
 
