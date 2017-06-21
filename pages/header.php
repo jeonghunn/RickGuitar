@@ -94,6 +94,8 @@
              border-radius: 16px; /* 5px rounded corners */
              width:440px;
              height: 440px;
+             display: table;
+             margin: 0 auto;
          }
 
 
