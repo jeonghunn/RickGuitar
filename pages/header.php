@@ -95,13 +95,16 @@
              width:440px;
              height: 440px;
 
+             position: absolute;
+             top: 0;
+             bottom: 0;
+             left: 0;
+             right: 0;
+
+             margin: auto;
+
          }
 
-         .centered {
-             vertical-align: middle;
-             margin-top: 50%;
-
-         }
 
          /* On mouse-over, add a deeper shadow */
          .squarecard:hover {
