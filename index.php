@@ -121,6 +121,7 @@ LoadPages("signup", "signup", false);
 //Check Key string
 if ($act_parameter != null) {
     require_once 'pages/square.php';
+    setLoaded(true);
 }
 
 
