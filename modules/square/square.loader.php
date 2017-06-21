@@ -13,7 +13,7 @@ require_once 'modules/square/controller/square_card.class.php';
 //require_once 'modules/board/controller/attach.class.php';
 
 //load api class
-require_once 'modules/board/api/square.api.class.php';
+require_once 'modules/square/api/square.api.class.php';
 
 
 //load apis
