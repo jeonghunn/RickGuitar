@@ -15,23 +15,23 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 
             if ($ip_manage['active'] == "N" && ($ip_manage['last_access'] > $date - 10 && $ip_point > 0)) ErrorMessage("ip_error");
 
-            $resulta = IPManageCalc($date, $nowurl, $ip_manage, $ip_active, $ip_point);
+            $resulta = IPManageCalc($date, $ip_manage, $ip_active, $ip_point);
             $ip_active = $resulta['ip_active'];
             $ip_point = $resulta['ip_point'];
 
 
             //Information Update
-            DBQuery("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '" . getIPAddr() . "'");
+            DBQuery("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_access` = '$date' WHERE `ip_addr` = '" . getIPAddr() . "'");
 }
 
-    return $ip_point > 50 ? false : true;
+    return $ip_point > 150 ? false : true;
 }
 
 
-function IPManageCalc($date, $nowurl,  $ip_manage, $ip_active, $ip_point){
+function IPManageCalc($date, $ip_manage, $ip_active, $ip_point)
+{
     if($ip_point > 999) $ip_active = "N";
     if($ip_manage['last_access'] > $date - 1) $ip_point = $ip_point + 7;
-    if ($ip_manage['last_access'] > $date - 1 && $nowurl == $ip_manage['last_address']) $ip_point = $ip_point + 13;
     if ($ip_manage['last_access'] < $date - 2 && $ip_point > 0) $ip_point = sqrt($ip_point);
     if($ip_point < 1000 && $ip_manage['log'] == NULL) $ip_active = "Y";
 
