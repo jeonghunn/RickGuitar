@@ -3,9 +3,6 @@
 function IPManageAct($REMOTE_ADDR, $nowurl, $date){
                  //  Permission Check
         $ip_manage = getIPManageInfo();
-
-    if ($ip_manage['active'] == "N") ErrorMessage("ip_error");
-
 //IP Check 
         if($ip_manage['active'] == null) {
         	//Make New IP
@@ -14,8 +11,8 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 	//Point (IF more than 100, that ip will be blocked)
 	$ip_active = $ip_manage['active'];
 	$ip_point = $ip_manage['point'];
-	//Check DDOS
-     APICheckAct($ip_point);
+
+            if ($ip_manage['active'] == "N" && ($ip_manage['last_access'] > $date - 10 && $ip_point > 0)) ErrorMessage("ip_error");
 
             $resulta = IPManageCalc($date, $nowurl, $ip_manage, $ip_active, $ip_point);
             $ip_active = $resulta['ip_active'];
