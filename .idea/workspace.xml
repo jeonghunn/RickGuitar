@@ -93,16 +93,16 @@
         <entry file="file://$PROJECT_DIR$/core/permission.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
-              <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+              <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
-                <marker date="1498062510000" expanded="true" signature="267:393" ph="INSERT INTO `ip_manage`... " />
-                <marker date="1498062510000" expanded="true" signature="900:1045" ph="UPDATE `ip_m... " />
-                <marker date="1498062510000" expanded="true" signature="900:1065" ph="UPDATE `ip_m... " />
-                <marker date="1498062510000" expanded="true" signature="1745:1808" ph="SELECT * FRO... ip_manage" />
-                <marker date="1498062510000" expanded="true" signature="1993:2074" ph="UPDATE `ip_m... " />
-                <marker date="1498062510000" expanded="true" signature="2240:2292" ph="SELECT * FRO... pages" />
-                <marker date="1498062510000" expanded="true" signature="2725:2796" ph="UPDATE `api`... " />
-                <marker date="1498062510000" expanded="true" signature="3225:3274" ph="SELECT * FRO... api" />
+                <marker date="1498062673000" expanded="true" signature="267:393" ph="INSERT INTO `ip_manage`... " />
+                <marker date="1498062673000" expanded="true" signature="900:1045" ph="UPDATE `ip_m... " />
+                <marker date="1498062673000" expanded="true" signature="900:1065" ph="UPDATE `ip_m... " />
+                <marker date="1498062673000" expanded="true" signature="1744:1807" ph="SELECT * FRO... ip_manage" />
+                <marker date="1498062673000" expanded="true" signature="1992:2073" ph="UPDATE `ip_m... " />
+                <marker date="1498062673000" expanded="true" signature="2239:2291" ph="SELECT * FRO... pages" />
+                <marker date="1498062673000" expanded="true" signature="2724:2795" ph="UPDATE `api`... " />
+                <marker date="1498062673000" expanded="true" signature="3224:3273" ph="SELECT * FRO... api" />
               </folding>
             </state>
           </provider>
@@ -1267,14 +1267,7 @@
       <workItem from="1497874361843" duration="15000" />
       <workItem from="1497874388047" duration="5668000" />
       <workItem from="1498046695928" duration="3547000" />
-      <workItem from="1498057046033" duration="4877000" />
-    </task>
-    <task id="LOCAL-00592" summary="squarecard updated">
-      <created>1497878412672</created>
-      <option name="number" value="00592" />
-      <option name="presentableId" value="LOCAL-00592" />
-      <option name="project" value="LOCAL" />
-      <updated>1497878412673</updated>
+      <workItem from="1498057046033" duration="5040000" />
     </task>
     <task id="LOCAL-00593" summary="squarecard updated">
       <created>1497878477216</created>
@@ -1612,11 +1605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498062488424</updated>
     </task>
-    <option name="localTasksCounter" value="641" />
+    <task id="LOCAL-00641" summary="ipmanaage updated">
+      <created>1498062515293</created>
+      <option name="number" value="00641" />
+      <option name="presentableId" value="LOCAL-00641" />
+      <option name="project" value="LOCAL" />
+      <updated>1498062515294</updated>
+    </task>
+    <option name="localTasksCounter" value="642" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="764722000" />
+    <option name="totallyTimeSpent" value="764885000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2138,16 +2138,16 @@
     <entry file="file://$PROJECT_DIR$/core/permission.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
-          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
-            <marker date="1498062510000" expanded="true" signature="267:393" ph="INSERT INTO `ip_manage`... " />
-            <marker date="1498062510000" expanded="true" signature="900:1045" ph="UPDATE `ip_m... " />
-            <marker date="1498062510000" expanded="true" signature="900:1065" ph="UPDATE `ip_m... " />
-            <marker date="1498062510000" expanded="true" signature="1745:1808" ph="SELECT * FRO... ip_manage" />
-            <marker date="1498062510000" expanded="true" signature="1993:2074" ph="UPDATE `ip_m... " />
-            <marker date="1498062510000" expanded="true" signature="2240:2292" ph="SELECT * FRO... pages" />
-            <marker date="1498062510000" expanded="true" signature="2725:2796" ph="UPDATE `api`... " />
-            <marker date="1498062510000" expanded="true" signature="3225:3274" ph="SELECT * FRO... api" />
+            <marker date="1498062673000" expanded="true" signature="267:393" ph="INSERT INTO `ip_manage`... " />
+            <marker date="1498062673000" expanded="true" signature="900:1045" ph="UPDATE `ip_m... " />
+            <marker date="1498062673000" expanded="true" signature="900:1065" ph="UPDATE `ip_m... " />
+            <marker date="1498062673000" expanded="true" signature="1744:1807" ph="SELECT * FRO... ip_manage" />
+            <marker date="1498062673000" expanded="true" signature="1992:2073" ph="UPDATE `ip_m... " />
+            <marker date="1498062673000" expanded="true" signature="2239:2291" ph="SELECT * FRO... pages" />
+            <marker date="1498062673000" expanded="true" signature="2724:2795" ph="UPDATE `api`... " />
+            <marker date="1498062673000" expanded="true" signature="3224:3273" ph="SELECT * FRO... api" />
           </folding>
         </state>
       </provider>
