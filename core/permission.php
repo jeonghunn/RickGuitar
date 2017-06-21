@@ -9,7 +9,6 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
         	//Make New IP
    DBQuery("INSERT INTO `ip_manage` (`ip_addr`, `active`, `last_address`, `last_access`) VALUES ('$REMOTE_ADDR' , 'Y', '$nowurl', '$date');");
 }else{
-	//Point (IF more than 100, that ip will be blocked)
 	$ip_active = $ip_manage['active'];
 	$ip_point = $ip_manage['point'];
 

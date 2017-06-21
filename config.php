@@ -38,7 +38,9 @@ $ipmanage = IPManageAct(getIPAddr(), getNowUrl(), getTimeStamp());
 
 
 //Log Client
-if ($ipmanage) ActLog($user_srl, getIPAddr(), getTimeStamp(), $log_category, $log);
+//if ($ipmanage){
+//    ActLog($user_srl, getIPAddr(), getTimeStamp(), $log_category, $log);
+//}
 
 
 //set user_Srl
