@@ -21,7 +21,7 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 
 
             //Information Update
-            DBQuery("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '$REMOTE_ADDR'");
+            DBQuery("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '" . getIPAddr() . "'");
 }
 
 
