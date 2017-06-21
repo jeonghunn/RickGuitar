@@ -95,6 +95,9 @@
              width:440px;
              height: 440px;
 
+         }
+
+         .centered {
              position: absolute;
              top: 0;
              bottom: 0;
@@ -104,7 +107,6 @@
              margin: auto;
 
          }
-
 
          /* On mouse-over, add a deeper shadow */
          .squarecard:hover {
