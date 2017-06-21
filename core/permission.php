@@ -3,6 +3,9 @@
 function IPManageAct($REMOTE_ADDR, $nowurl, $date){
                  //  Permission Check
         $ip_manage = getIPManageInfo();
+
+    if ($ip_manage['active'] == "N") ErrorMessage("ip_error");
+
 //IP Check 
         if($ip_manage['active'] == null) {
         	//Make New IP
@@ -21,9 +24,9 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
 	//Information Update
 	DBQuery("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '$REMOTE_ADDR'");
 }
-        if($ip_manage['active'] == "N") ErrorMessage("ip_error");
 
-    }
+
+}
 
 
 function IPManageCalc($date, $nowurl,  $ip_manage, $ip_active, $ip_point){
