@@ -164,7 +164,7 @@ function POST($value){
 function PostAct($url, $arrayvars){
 
     $vars = null;
-    $arrayvars[][] = array('ip_addr', getIPAddr());
+    $arrayvars[]= array('ip_addr', getIPAddr());
 
 for ($i=0 ; $i < count($arrayvars);$i++){
 

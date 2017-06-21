@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/permission.php" afterPath="$PROJECT_DIR$/core/permission.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/base.php" afterPath="$PROJECT_DIR$/pages/base.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
+            <state relative-caret-position="300">
               <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
               <folding>
                 <marker date="1498059395000" expanded="true" signature="6289:6343" ph="..." />
@@ -49,14 +49,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="176" column="1" lean-forward="true" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
+            <state relative-caret-position="381">
+              <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
               <folding>
-                <marker date="1498059439000" expanded="true" signature="136:151" ph="..." />
-                <marker date="1498059439000" expanded="true" signature="5483:5537" ph="..." />
+                <marker date="1498060187000" expanded="true" signature="136:151" ph="..." />
+                <marker date="1498060187000" expanded="true" signature="5480:5534" ph="..." />
               </folding>
             </state>
           </provider>
@@ -104,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="permission.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="permission.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/permission.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <marker date="1498060051000" expanded="true" signature="258:384" ph="INSERT INTO `ip_manage`... " />
                 <marker date="1498060051000" expanded="true" signature="778:936" ph="UPDATE `ip_m... " />
@@ -164,8 +164,8 @@
       <find>PostAct</find>
       <find>static</find>
       <find>nav</find>
-      <find>IPManageCalc</find>
       <find>ActLog</find>
+      <find>IPManageCalc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -231,8 +231,8 @@
         <option value="$PROJECT_DIR$/modules/square/square.loader.php" />
         <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
-        <option value="$PROJECT_DIR$/pages/base.php" />
         <option value="$PROJECT_DIR$/core/permission.php" />
+        <option value="$PROJECT_DIR$/pages/base.php" />
       </list>
     </option>
   </component>
@@ -1257,14 +1257,7 @@
       <workItem from="1497874361843" duration="15000" />
       <workItem from="1497874388047" duration="5668000" />
       <workItem from="1498046695928" duration="3547000" />
-      <workItem from="1498057046033" duration="2427000" />
-    </task>
-    <task id="LOCAL-00571" summary="test">
-      <created>1497840925164</created>
-      <option name="number" value="00571" />
-      <option name="presentableId" value="LOCAL-00571" />
-      <option name="project" value="LOCAL" />
-      <updated>1497840925164</updated>
+      <workItem from="1498057046033" duration="2564000" />
     </task>
     <task id="LOCAL-00572" summary="test">
       <created>1497840977498</created>
@@ -1602,11 +1595,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498060027520</updated>
     </task>
-    <option name="localTasksCounter" value="620" />
+    <task id="LOCAL-00620" summary="ip manage system updated">
+      <created>1498060056580</created>
+      <option name="number" value="00620" />
+      <option name="presentableId" value="LOCAL-00620" />
+      <option name="project" value="LOCAL" />
+      <updated>1498060056581</updated>
+    </task>
+    <option name="localTasksCounter" value="621" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="762272000" />
+    <option name="totallyTimeSpent" value="762409000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2041,30 +2041,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="176" column="1" lean-forward="true" selection-start-line="176" selection-start-column="1" selection-end-line="176" selection-end-column="1" />
-          <folding>
-            <marker date="1498059439000" expanded="true" signature="136:151" ph="..." />
-            <marker date="1498059439000" expanded="true" signature="5483:5537" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-          <folding>
-            <marker date="1498059395000" expanded="true" signature="6289:6343" ph="..." />
-            <marker date="1498059395000" expanded="true" signature="6502:6634" ph="SELECT * FRO... favorite" />
-            <marker date="1498059395000" expanded="true" signature="6686:6818" ph="SELECT * FRO... favorite" />
-            <marker date="1498059395000" expanded="true" signature="6869:6920" ph="SELECT * FRO... pages" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/logger.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -2105,8 +2081,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/permission.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <marker date="1498060051000" expanded="true" signature="258:384" ph="INSERT INTO `ip_manage`... " />
             <marker date="1498060051000" expanded="true" signature="778:936" ph="UPDATE `ip_m... " />
@@ -2115,6 +2091,30 @@
             <marker date="1498060051000" expanded="true" signature="2149:2201" ph="SELECT * FRO... pages" />
             <marker date="1498060051000" expanded="true" signature="2634:2705" ph="UPDATE `api`... " />
             <marker date="1498060051000" expanded="true" signature="3134:3183" ph="SELECT * FRO... api" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <marker date="1498059395000" expanded="true" signature="6289:6343" ph="..." />
+            <marker date="1498059395000" expanded="true" signature="6502:6634" ph="SELECT * FRO... favorite" />
+            <marker date="1498059395000" expanded="true" signature="6686:6818" ph="SELECT * FRO... favorite" />
+            <marker date="1498059395000" expanded="true" signature="6869:6920" ph="SELECT * FRO... pages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+          <folding>
+            <marker date="1498060187000" expanded="true" signature="136:151" ph="..." />
+            <marker date="1498060187000" expanded="true" signature="5480:5534" ph="..." />
           </folding>
         </state>
       </provider>
