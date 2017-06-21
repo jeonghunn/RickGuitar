@@ -98,10 +98,8 @@
          }
 
          .centered {
-             display: inline-block;
              vertical-align: middle;
-             width: 300px;
-             padding: 10px 15px;
+
          }
 
          /* On mouse-over, add a deeper shadow */
