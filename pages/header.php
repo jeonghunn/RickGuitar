@@ -94,20 +94,15 @@
              border-radius: 16px; /* 5px rounded corners */
              width:440px;
              height: 440px;
-             position: absolute; /*it can be fixed too*/
-             left: 0;
-             right: 0;
-             top: 0;
-             bottom: 0;
-             margin: auto;
 
-             /*this to solve "the content will not be cut when the window is smaller than the content": */
-             max-width: 100%;
-             max-height: 100%;
-             overflow: auto;
          }
 
-
+         .centered {
+             display: inline-block;
+             vertical-align: middle;
+             width: 300px;
+             padding: 10px 15px;
+         }
 
          /* On mouse-over, add a deeper shadow */
          .squarecard:hover {
