@@ -17,7 +17,7 @@
         <div class="centered">
             <br><br><br><br><br><br>
             <span style="font-size: 32px;"><p><span style="font-size: 32px;">﻿지금까지</span></p>
-<span style="font-size: 32px;"><span style="font-size: 40px;">6823</span>일</span>
+<span style="font-size: 32px;"><span style="font-size: 40px;">6823</span>일</span><br>
 지났습니다.</p>
 
 </span>
