@@ -98,8 +98,16 @@
          }
 
          .centered {
-             margin: 0 auto;
+             width: 100%;
+             height: 100%;
+             position: fixed;
              top: 50%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+             transform: -webkit-translate(-50%, -50%);
+             transform: -moz-translate(-50%, -50%);
+             transform: -ms-translate(-50%, -50%);
+
          }
 
          /* On mouse-over, add a deeper shadow */
