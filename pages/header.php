@@ -98,10 +98,7 @@
          }
 
          .centered {
-             top: 50%;
-             left: 50%;
-             transform: translate3d(-50%, -50%, 0);
-             position: absolute;
+             margin: 0 auto;
 
          }
 
