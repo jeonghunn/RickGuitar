@@ -104,6 +104,53 @@
          }
 
 
+
+         /*데스크탑*/
+         @media screen and (min-width: 1367px){
+
+             #cardpaper {
+                 width: 60%;
+             }
+
+         }
+
+         /*랩탑*/
+         @media screen and (min-width: 1025px) and (max-width: 1366px){
+
+             #cardpaper {
+                 width: 60%;
+             }
+
+
+         }
+
+         /*아이패드 가로*/
+         @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+         }
+
+         /*아이패드 세로*/
+         @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+
+         }
+
+         /*모바일*/
+         @media screen and (min-width: 351px) and (max-width: 767px){
+             .squarecard {
+
+                 width:100%;
+
+             }
+
+
+         }
+
+         /*작은 모바일*/
+         @media screen and (max-width: 350px){
+
+         }
+
+
       </style>
 
       <style>
