@@ -97,19 +97,6 @@
 
          }
 
-         .centered {
-             width: 100%;
-             height: 100%;
-             position: fixed;
-             top: 50%;
-             left: 50%;
-             transform: translate(-50%, -50%);
-             transform: -webkit-translate(-50%, -50%);
-             transform: -moz-translate(-50%, -50%);
-             transform: -ms-translate(-50%, -50%);
-
-         }
-
          /* On mouse-over, add a deeper shadow */
          .squarecard:hover {
              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
