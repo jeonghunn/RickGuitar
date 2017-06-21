@@ -28,7 +28,7 @@
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br>
-            <span style="font-size: 24px;">﻿이번 생일이 <span style="font-size: 32px;">20</span>번째 생일이며</span><br/>
+            <span style="font-size: 32px;">﻿이번 생일이 <br> <span style="font-size: 40px;">20</span>번째 <br>생일이며</span><br/>
 
         </div>
     </div>
