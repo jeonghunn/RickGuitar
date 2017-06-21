@@ -32,7 +32,7 @@ function IPManageCalc($date, $nowurl,  $ip_manage, $ip_active, $ip_point){
     if($ip_point > 999) $ip_active = "N";
     if($ip_manage['last_access'] > $date - 1) $ip_point = $ip_point + 7;
     if ($ip_manage['last_access'] > $date - 1 && $nowurl == $ip_manage['last_address']) $ip_point = $ip_point + 13;
-    if($ip_manage['last_access'] < $date - 10 && $ip_point > 0) $ip_point =  sqrt($ip_point);
+    if ($ip_manage['last_access'] < $date - 3 && $ip_point > 0) $ip_point = sqrt($ip_point);
     if($ip_point < 1000 && $ip_manage['log'] == NULL) $ip_active = "Y";
 
     return array("ip_active" => $ip_active, "ip_point" => $ip_point);
