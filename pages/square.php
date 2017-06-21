@@ -1,5 +1,5 @@
 <!-- html -->
-<div class="container">
+<div class="container" style="text-align: center;">
 
     <div class="squarecard">
 
