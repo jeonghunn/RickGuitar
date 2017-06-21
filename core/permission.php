@@ -24,7 +24,7 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
             DBQuery("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '" . getIPAddr() . "'");
 }
 
-    return $ip_point > 500 ? false : true;
+    return $ip_point > 150 ? false : true;
 }
 
 
