@@ -19,6 +19,7 @@ function IPManageAct($REMOTE_ADDR, $nowurl, $date){
             $ip_active = $resulta['ip_active'];
             $ip_point = $resulta['ip_point'];
 
+            echo $REMOTE_ADDR;
 	//Information Update
 	DBQuery("UPDATE `ip_manage` SET  `active` = '$ip_active', `point` = '$ip_point' , `last_address` = '$nowurl' , `last_access` = '$date' WHERE `ip_addr` = '$REMOTE_ADDR'");
 }
@@ -40,7 +41,6 @@ function IPManageCalc($date, $nowurl,  $ip_manage, $ip_active, $ip_point){
 
 function getIPManageInfo($REMOTE_ADDR)
 {
-    echo $REMOTE_ADDR;
     return mysqli_fetch_array(DBQuery("SELECT * FROM  `ip_manage` WHERE  `ip_addr` LIKE '$REMOTE_ADDR'"));
 }
 
