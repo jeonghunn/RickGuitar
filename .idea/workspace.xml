@@ -97,8 +97,8 @@
       <file leaf-file-name="navbar.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="255">
+              <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -1326,14 +1326,7 @@
       <workItem from="1497841114306" duration="636000" />
       <workItem from="1497874361843" duration="15000" />
       <workItem from="1497874388047" duration="5668000" />
-      <workItem from="1498046695928" duration="454000" />
-    </task>
-    <task id="LOCAL-00563" summary="daylight edited">
-      <created>1497793535183</created>
-      <option name="number" value="00563" />
-      <option name="presentableId" value="LOCAL-00563" />
-      <option name="project" value="LOCAL" />
-      <updated>1497793535183</updated>
+      <workItem from="1498046695928" duration="503000" />
     </task>
     <task id="LOCAL-00564" summary="address updated">
       <created>1497793707905</created>
@@ -1671,11 +1664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498046791914</updated>
     </task>
-    <option name="localTasksCounter" value="612" />
+    <task id="LOCAL-00612" summary="menu updated">
+      <created>1498047181114</created>
+      <option name="number" value="00612" />
+      <option name="presentableId" value="LOCAL-00612" />
+      <option name="project" value="LOCAL" />
+      <updated>1498047181114</updated>
+    </task>
+    <option name="localTasksCounter" value="613" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="756752000" />
+    <option name="totallyTimeSpent" value="756801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1775,7 +1775,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="apikey updated" />
     <MESSAGE value="update" />
     <MESSAGE value="daylight deleted" />
     <MESSAGE value="daylight edited" />
@@ -1800,7 +1799,8 @@
     <MESSAGE value="squarecard updated" />
     <MESSAGE value="date updated" />
     <MESSAGE value="card updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="card updated" />
+    <MESSAGE value="menu updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu updated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2152,8 +2152,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding />
         </state>
       </provider>
