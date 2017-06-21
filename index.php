@@ -118,6 +118,11 @@ LoadPages("signup", "signup", false);
 		LoadPages("api_add", "api/api_add", true);
 
 
+//Check Key string
+if ($act_parameter != null) {
+    require_once 'pages/square.php';
+}
+
 
 
 function checkLoaded(){
