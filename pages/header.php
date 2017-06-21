@@ -99,7 +99,7 @@
 
          .centered {
              margin: 0 auto;
-
+             top: 50%;
          }
 
          /* On mouse-over, add a deeper shadow */
