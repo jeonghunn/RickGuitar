@@ -47,7 +47,7 @@ class SquareApiClass{
     function API_Write($user_srl){
 
 
-        $DOCUMENT_CLASS = new DocumentClass();
+        $SQUARE_CLASS = new SquareClass();
         $PAGE_CLASS = new PageClass();
         $ATTACH_CLASS = new AttachClass();
         $PUSH_CLASS = new PushClass();

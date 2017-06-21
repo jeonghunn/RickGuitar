@@ -17,7 +17,7 @@ function getAPIAddress(){
 
 function getIPAddr(){
     $ipaddr = $_SERVER["REMOTE_ADDR"];
-    if(!strcmp($ipaddr, $_SERVER['SERVER_ADDR']) || !strcmp($ipaddr, "127.0.0.1")){
+    if(!strcmp($ipaddr, $_SERVER['SERVER_ADDR']) || !strcmp($ipaddr, "52.78.110.116")){
         $ipaddr = REQUEST("ip_addr");
     }
 
