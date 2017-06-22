@@ -100,8 +100,8 @@
       <file leaf-file-name="square.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="793">
+              <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
               <folding>
                 <marker date="1498154315000" expanded="true" signature="2169:2393" ph="..." />
                 <marker date="1498154315000" expanded="true" signature="3049:3587" ph="..." />
@@ -146,8 +146,8 @@
       <file leaf-file-name="info.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+            <state relative-caret-position="682">
+              <caret line="65" column="70" lean-forward="false" selection-start-line="65" selection-start-column="70" selection-end-line="65" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -177,7 +177,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>day</find>
       <find>PostAct</find>
       <find>static</find>
       <find>nav</find>
@@ -207,6 +206,7 @@
       <find>birthmonth</find>
       <find>$birthday</find>
       <find>birthday</find>
+      <find>remain</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -1492,14 +1492,7 @@
       <workItem from="1497874388047" duration="5668000" />
       <workItem from="1498046695928" duration="3547000" />
       <workItem from="1498057046033" duration="12825000" />
-      <workItem from="1498110841442" duration="18511000" />
-    </task>
-    <task id="LOCAL-00705" summary="square model updated">
-      <created>1498140597252</created>
-      <option name="number" value="00705" />
-      <option name="presentableId" value="LOCAL-00705" />
-      <option name="project" value="LOCAL" />
-      <updated>1498140597252</updated>
+      <workItem from="1498110841442" duration="19261000" />
     </task>
     <task id="LOCAL-00706" summary="square write updated">
       <created>1498145986905</created>
@@ -1837,11 +1830,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498154325583</updated>
     </task>
-    <option name="localTasksCounter" value="754" />
+    <task id="LOCAL-00754" summary="alpha ver">
+      <created>1498154859077</created>
+      <option name="number" value="00754" />
+      <option name="presentableId" value="LOCAL-00754" />
+      <option name="project" value="LOCAL" />
+      <updated>1498154859077</updated>
+    </task>
+    <option name="localTasksCounter" value="755" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="791181000" />
+    <option name="totallyTimeSpent" value="791931000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1949,7 +1949,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="set color" />
     <MESSAGE value="squarecard updated" />
     <MESSAGE value="date updated" />
     <MESSAGE value="menu updated" />
@@ -1974,7 +1973,8 @@
     <MESSAGE value="kakao link" />
     <MESSAGE value="square updated" />
     <MESSAGE value="bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug fixed" />
+    <MESSAGE value="alpha ver" />
+    <option name="LAST_COMMIT_MESSAGE" value="alpha ver" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2421,8 +2421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="793">
+          <caret line="86" column="12" lean-forward="true" selection-start-line="86" selection-start-column="12" selection-end-line="86" selection-end-column="12" />
           <folding>
             <marker date="1498154315000" expanded="true" signature="2169:2393" ph="..." />
             <marker date="1498154315000" expanded="true" signature="3049:3587" ph="..." />
@@ -2465,8 +2465,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+        <state relative-caret-position="682">
+          <caret line="65" column="70" lean-forward="false" selection-start-line="65" selection-start-column="70" selection-end-line="65" selection-end-column="70" />
           <folding />
         </state>
       </provider>
