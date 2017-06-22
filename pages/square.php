@@ -162,7 +162,7 @@ $birthday_contents = $square_result['content'];
     }
 
 
-    var firstImg = $(".imageblock:first-of-type link");
+    var firstImg = $(".imageblock:first-of-type img");
     var contents = "";
     if (firstImg.attr("src")) {
         var firstImgSrc = firstImg.attr("src");
