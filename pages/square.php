@@ -153,6 +153,8 @@ $birthday_contents = $square_result['content'];
 
 </div> <!-- /container -->
 
+
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 <script>
 
     function copyToClipboard(text) {
@@ -191,4 +193,4 @@ $birthday_contents = $square_result['content'];
 
 
 </script>
-<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
