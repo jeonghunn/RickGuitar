@@ -16,21 +16,23 @@ $birthday_contents = $square_result['content'];
 <!-- html -->
 <div class="container" align="center">
 
-    <h4>성공적으로 생성되었습니다.</h4>
-    <p>주소를 복사해 친구들과 공유할 수 있습니다.</p>
 
-    <br>
-    <button type="button" class="btn btn-default btn-lg" onclick="copyToClipboard(window.location.href)">
-        이 페이지 주소 복사
-    </button>
-    <button type="button" class="btn btn-default btn-lg"
-            onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebook-share-dialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
-        페이스북으로 공유
-    </button>
-    <button type="button" class="btn btn-default btn-lg" id="kakao-link-btn" onclick="sendLink()">
-        카카오톡으로 공유
-    </button>
+    <?php if ($square_data['date'] > getTimeStamp() - 10) { ?>
+        <h4>성공적으로 생성되었습니다.</h4>
+        <p>주소를 복사해 친구들과 공유할 수 있습니다.</p>
 
+        <br>
+        <button type="button" class="btn btn-default btn-lg" onclick="copyToClipboard(window.location.href)">
+            이 페이지 주소 복사
+        </button>
+        <button type="button" class="btn btn-default btn-lg"
+                onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebook-share-dialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
+            페이스북으로 공유
+        </button>
+        <button type="button" class="btn btn-default btn-lg" id="kakao-link-btn" onclick="sendLink()">
+            카카오톡으로 공유
+        </button>
+    <?php } ?>
 
     <div class="squarecard">
         <div class="centered">
