@@ -1,4 +1,4 @@
-<link rel="image_src" href="pages/images/birhtday_image.jpg"/>
+<link rel="image_src" href="pages/images/birthday_image.jpg"/>
 
 
 <!-- html -->

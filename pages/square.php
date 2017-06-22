@@ -12,7 +12,7 @@ $birthday_contents = $square_result['content'];
 
 
 ?>
-<link rel="image_src" href="pages/images/birhtday_image.jpg"/>
+<link rel="image_src" href="pages/images/birthday_image.jpg"/>
 
 <!-- html -->
 <div class="container" align="center">
