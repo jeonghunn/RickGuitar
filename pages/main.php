@@ -54,6 +54,29 @@
 <script>
 
     function writeAct() {
+
+        var birthday_name = document.getElementById("name").value;
+        var birthday_year = document.getElementById("year").value;
+        var birthday_month = document.getElementById("month").value;
+        var birthday_day = document.getElementById("day").value;
+        var content = document.getElementById("contents").value;
+        ;
+
+        var data = JSON.stringify(new Array("birhtday_name"
+    :
+        birthday_name, "birhtday_year"
+    :
+        birthday_year, "birhtday_month"
+    :
+        birthday_month, "birhtday_day"
+    :
+        birthday_day, "birhtday_contents"
+    :
+        content
+    ))
+        ;
+
+
         $.ajax({
             type: "POST",
             url: "<?php echo getAPIUrlS() ?>",
@@ -61,7 +84,9 @@
                 "a": "square_write",
                 "apiv": "<?php echo getAPIVersion()?>",
                 "api_key": "<?php echo getAPIKey()?>",
-                "auth": "<?php echo getUserAuth()?>"
+                "auth": "<?php echo getUserAuth()?>",
+                "type": "birthday",
+                "data": data
             },
             success: function (data) {
                 if (data.includes("success")) {
