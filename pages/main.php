@@ -40,7 +40,7 @@
               </select>
               <br><br>
 
-              <textarea class="form-control" rows="3" placeholder="할말" id="contents" style="width:70%"></textarea>
+              <textarea class="form-control" rows="3" placeholder="할 말" id="contents" style="width:70%"></textarea>
 <br><br>
               <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
                   생일 페이지 만들기
