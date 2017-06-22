@@ -7,7 +7,67 @@ $birthday_name = $square_data['birthday_name'];
 $birthday_year = $square_data['birthday_year'];
 $birthday_month = $square_data['birthday_month'];
 $birthday_day = $square_data['birthday_day'];
-$birthday_contents = $square_result['content'];
+$birthday_contents = $square_data['birthday_contents'];
+
+
+$bt = "$birthday_year" . "-" . "$birthday_month" . "-" . "$birthday_day";
+$birthdaynum = $year - $birthday_year + 1;
+
+
+$btimelast = time() - mktime(0, 0, 0, $birthday_month, $birthday_day, $year); // 정한 날과의 시간 차이
+$birthdaylasthour = floor($btimelast / 3600);
+$birthdaylastmin = floor($btimelast / 60) % 60;
+
+$btimeleft = mktime(23, 59, 59, $birthday_month, $birthday_day, $year) - time();  // 정한 날과의 시간 차이
+$birthdaylefthour = floor($btimeleft / 3600);
+$birthdayleftmin = floor($btimeleft / 60) % 60;
+
+$nextyear = $year + 1;
+
+$nbday = $nextyear . "-" . "$birthday_month" . "-" . "$birthday_day";
+
+
+$realage = realagecalc($birthday_year, $birthday_month, $birthday_day, $year, $month, $day);
+$life = $realage / 80;
+$lifetime = 1440 * $life;
+$lifehour = floor($lifetime / 60);
+$lifemin = $lifetime % 60;
+
+
+$wikicon = file_get_contents('http://ko.m.wikipedia.org/wiki/' . $birthday_month . '월_' . $birthday_day . '일');
+
+$DOM = new DOMDocument;
+$DOM->loadHTML(mb_convert_encoding($wikicon, 'HTML-ENTITIES', 'UTF-8'));
+
+//get all H1
+$items = $DOM->getElementsByTagName('ul');
+
+//  echo "<ul>".$items->item(1)->nodeValue."</ul>";
+
+$itr = $items->item(1);
+
+
+function remain($d)
+{
+    $day = strtotime($d);
+    return intval((time() - $day) / 86400);
+}
+
+
+function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_month, $now_day)
+{
+    if ($birth_month < $now_month)
+        $age = $now_year - $birth_year;
+    else if ($birth_month == $now_month) {
+        if ($birth_day <= $now_day)
+            $age = $now_year - $birth_year;
+        else
+            $age = $now_year - $birth_year - 1;
+    } else
+        $age = $now_year - $birth_year - 1;
+
+    return $age;
+}
 
 
 ?>
@@ -50,7 +110,7 @@ $birthday_contents = $square_result['content'];
         <div class="centered">
             <br><br><br><br><br><br>
             <span style="font-size: 32px;"><p><span style="font-size: 32px;">﻿지금까지</span></p>
-<span style="font-size: 32px;"><span style="font-size: 40px;">6823</span>일</span><br>
+<span style="font-size: 32px;"><span style="font-size: 40px;"><?php echo remain($bt) ?></span>일</span><br>
 지났습니다.</p>
 
 </span>
@@ -61,7 +121,7 @@ $birthday_contents = $square_result['content'];
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br>
-            <span style="font-size: 32px;">﻿이번 생일이 <br> <span style="font-size: 40px;">20</span>번째 <br>생일이며</span><br/>
+            <span style="font-size: 32px;">﻿이번 생일이 <br> <span style="font-size: 40px;"><?php echo $birthdaynum ?></span>번째 <br>생일이며</span><br/>
 
         </div>
     </div>
@@ -69,7 +129,7 @@ $birthday_contents = $square_result['content'];
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br>
-            <span style="font-size: 32px;">﻿만으로 <br> <span style="font-size: 40px;">18</span>살 <br>입니다.</span><br/>
+            <span style="font-size: 32px;">﻿만으로 <br> <span style="font-size: 40px;"><?php echo $realage ?></span>살 <br>입니다.</span><br/>
 
         </div>
     </div>
@@ -77,18 +137,9 @@ $birthday_contents = $square_result['content'];
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br>
-            <span style="font-size: 32px;">﻿인생을 시간으로 본다면<br> 지금 시간은<br> <span style="font-size: 40px;">5</span>시 <span
-                        style="font-size: 40px;">24</span>분이 됩니다.</span><br/>
-
-        </div>
-    </div>
-
-
-    <div class="squarecard">
-        <div class="centered">
-            <br><br><br><br><br><br>
-            <span style="font-size: 32px;">﻿지금까지 생일이 <br><span style="font-size: 40px;">2794</span>시간 <span
-                        style="font-size: 40px;">2</span>분 지났으며,</span>
+            <span style="font-size: 32px;">﻿인생을 시간으로 본다면<br> 지금 시간은<br> <span
+                        style="font-size: 40px;"><?php echo $lifehour ?></span>시 <span
+                        style="font-size: 40px;"><?php echo $lifemin ?></span>분이 됩니다.</span><br/>
 
         </div>
     </div>
@@ -97,8 +148,20 @@ $birthday_contents = $square_result['content'];
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br>
-            <span style="font-size: 32px;">﻿생일이 끝나기까지 <br><span style="font-size: 40px;">3</span>시간 <span
-                        style="font-size: 40px;">2</span>분 남았습니다.</span>
+            <span style="font-size: 32px;">﻿지금까지 생일이 <br><span
+                        style="font-size: 40px;"><?php echo $birthdaylasthour ?></span>시간 <span
+                        style="font-size: 40px;"><?php echo $birthdaylastmin ?></span>분 지났으며,</span>
+
+        </div>
+    </div>
+
+
+    <div class="squarecard">
+        <div class="centered">
+            <br><br><br><br><br><br>
+            <span style="font-size: 32px;">﻿생일이 끝나기까지 <br><span
+                        style="font-size: 40px;"><?php echo $birthdaylefthour ?></span>시간 <span
+                        style="font-size: 40px;"><?php echo $birthdayleftmin ?></span>분 남았습니다.</span>
 
         </div>
     </div>
@@ -106,23 +169,27 @@ $birthday_contents = $square_result['content'];
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br>
-            <span style="font-size: 32px;"><span style="font-size: 40px;">﻿2018</span>년 다음 생일은 <br><span
-                        style="font-size: 40px;">481</span>일 후가 됩니다.</span><br/>
+            <span style="font-size: 32px;"><span
+                        style="font-size: 40px;"><?php echo $nextyear ?></span>년 다음 생일은 <br><span
+                        style="font-size: 40px;"><?php echo -remain($nbday) ?></span>일 후가 됩니다.</span><br/>
 
         </div>
     </div>
 
     <div class="squarecard">
         <div class="centered">
-            <br><h4>5월 4일에는 무슨 일들이 일어났을까요?</h4>
+            <br><h4><?php echo $birthday_month ?>월 <?php echo $birthday_day ?>일에는 무슨 일들이 일어났을까요?</h4>
             <hr>
-            <h3 style="text-align: -webkit-center; font-weight: normal;"><span style="font-size: 12px;">1919년 - 5·4 운동: 중국 천안문 광장에서 반일운동이 시작되다.</span><br/><br/><span
-                        style="font-size: 12px;">1970년 - 베트남 전쟁: 켄트 주립대학교 발포 사건으로 4명이 사망하고 9명이 부상당하다.</span><br/><br/><span
-                        style="font-size: 12px;">1979년 - 영국 총선거에서 보수당이 압승, 마거릿 대처가 첫 여자 수상이 되다.</span><br/><br/><span
-                        style="font-size: 12px;">1982년 - 장영자·이철희 부부가 어음 사기 사건으로 구속되다.</span><br/><br/><span
-                        style="font-size: 12px;">2008년 - 2008년 보령 바닷물 범람 사고가 발생했다.</span><br/><br/><span
-                        style="font-size: 12px;">2014년 - 미국 캘리포니아 주 솔라노 카운티에서 열린 2014 트래비스 에어 엑스포 (2014 Travis Air Expo) 에어쇼 도중에 PT-17복엽기가 추락해 조종사 에디 안드레이니(Eddie Andreini)가 사망하다.</span>
-            </h3>
+            <?php
+
+            if ($itr->hasChildNodes()) {
+                $childs = $itr->childNodes;
+                foreach ($childs as $i) {
+                    echo $i->nodeValue . "<br />";
+                }
+            }
+
+            ?>
 
 
         </div>
@@ -131,7 +198,7 @@ $birthday_contents = $square_result['content'];
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br><br>
-            <span style="font-size: 40px;">생일 축하해!!!</span><br/>
+            <span style="font-size: 40px;"><?php echo $birthday_contents ?></span><br/>
 
         </div>
     </div>
