@@ -1,7 +1,7 @@
 <?php
 
 
-$square_data = json_decode($square_result['data']);
+$square_data = json_decode($square_result['data'], true);
 
 $birthday_name = $square_data['birthday_name'];
 $birthday_year = $square_data['birthday_year'];
