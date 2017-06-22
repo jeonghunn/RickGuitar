@@ -1,3 +1,4 @@
+<link rel="image_src" href="pages/images/birhtday_image.jpg"/>
 
 
 <!-- html -->

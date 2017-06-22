@@ -15,7 +15,7 @@
 
     <link rel="shortcut icon" href="icon.png">
 
-    <title><?php S('app_name')?></title>
+      <title><?php S('app_full_name') ?></title>
 
 
 
