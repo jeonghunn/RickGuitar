@@ -18,7 +18,7 @@
               </div>
 <br>
               <select name="year">
-                  <?php for ($a = 1940; $a <= Date("y"); $a++) {
+                  <?php for ($a = 2017; $a >= 1940; $a--) {
 
                       echo "<option value=\"$a\">$a</option>";
                   } ?>
