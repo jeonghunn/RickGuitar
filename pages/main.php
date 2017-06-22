@@ -66,7 +66,7 @@
             success: function (data) {
                 if (data.includes("success")) {
 
-                    location.href = "<?php echo getCorePUrl() ?>" + data.square_key;
+                    location.href = "<?php echo getCorePUrl() ?>" + data['square_key'];
 
 
                 } else {
