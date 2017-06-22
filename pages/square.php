@@ -17,7 +17,7 @@ $birthday_contents = $square_result['content'];
 <div class="container" align="center">
 
 
-    <?php if ($square_data['date'] > getTimeStamp() - 10) { ?>
+    <?php if ($square_result['date'] > getTimeStamp() - 10) { ?>
         <h4>성공적으로 생성되었습니다.</h4>
         <p>주소를 복사해 친구들과 공유할 수 있습니다.</p>
 
