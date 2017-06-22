@@ -63,11 +63,11 @@
         ;
 
         var data = JSON.stringify({
-                "birhtday_name": birthday_name,
-                "birhtday_year": birthday_year,
-                "birhtday_month": birthday_month,
-                "birhtday_day": birthday_day,
-                "birhtday_contents": content
+            "birthday_name": birthday_name,
+            "birthday_year": birthday_year,
+            "birthday_month": birthday_month,
+            "birthday_day": birthday_day,
+            "birthday_contents": content
             })
         ;
 
