@@ -68,6 +68,7 @@
       <paper-material elevation="1" id="cardpaper" style="margin-top: 3%; height: auto;">
 
           <p>2017.6.18 개발 시작</p>
+          <p>2017.6.23 Alpha Ver</p>
 
       </paper-material>
 
