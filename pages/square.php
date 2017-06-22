@@ -100,10 +100,11 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br>
-            <p><span style="font-size: 32px;"><span style="font-size: 40px;"><?php echo $birthday_name ?></span> 님은 <br><span
-                            style="font-size: 40px;"><?php echo $birthday_year ?></span>년 <span
-                            style="font-size: 40px;"><?php echo $birthday_month ?></span>월 <span
-                            style="font-size: 40px;"><?php echo $birthday_day ?></span>일에<br> 태어났고,</span>
+            <p><span style="font-size: 32px;"><span
+                            style="font-size: 40px;"><?php P($birthday_name) ?></span> 님은 <br><span
+                            style="font-size: 40px;"><?php P($birthday_year) ?></span>년 <span
+                            style="font-size: 40px;"><?php P($birthday_month) ?></span>월 <span
+                            style="font-size: 40px;"><?php P($birthday_day) ?></span>일에<br> 태어났고,</span>
             </p>
 
         </div>
@@ -181,7 +182,7 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
 
     <div class="squarecard">
         <div class="centered">
-            <br><h4><?php echo $birthday_month ?>월 <?php echo $birthday_day ?>일에는 무슨 일들이 일어났을까요?</h4>
+            <br><h4><?php P($birthday_month) ?>월 <?php P($birthday_day) ?>일에는 무슨 일들이 일어났을까요?</h4>
             <hr>
             <?php
 
@@ -201,7 +202,7 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br><br>
-            <span style="font-size: 40px;"><?php echo $birthday_contents ?></span><br/>
+            <span style="font-size: 40px;"><?php P($birthday_contents) ?></span><br/>
 
         </div>
     </div>
