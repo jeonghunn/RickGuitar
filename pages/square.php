@@ -81,7 +81,7 @@
 
     <div class="squarecard">
         <div class="centered">
-            <br><h4>5월 4일에는 무슨 일이 일어났을까요?</h4>
+            <br><h4>5월 4일에는 무슨 일들이 일어났을까요?</h4>
             <hr>
             <h3 style="text-align: -webkit-center; font-weight: normal;"><span style="font-size: 12px;">1919년 - 5·4 운동: 중국 천안문 광장에서 반일운동이 시작되다.</span><br/><br/><span
                         style="font-size: 12px;">1970년 - 베트남 전쟁: 켄트 주립대학교 발포 사건으로 4명이 사망하고 9명이 부상당하다.</span><br/><br/><span
