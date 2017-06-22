@@ -108,6 +108,17 @@
     <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
         나도 이런거 만들어보기
     </button>
+    <br><br>
+    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+        이 페이지 주소 복사
+    </button>
+    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+        페이스북으로 공유
+    </button>
+    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+        카카오톡으로 공유
+    </button>
+
 </div> <!-- /container -->
 
 
