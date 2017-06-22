@@ -28,7 +28,7 @@ $birthday_contents = $square_result['content'];
             onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebook-share-dialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
         페이스북으로 공유
     </button>
-    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+    <button type="button" class="btn btn-default btn-lg" id="kakao-link-btn" onclick="sendLink()">
         카카오톡으로 공유
     </button>
 
@@ -159,4 +159,36 @@ $birthday_contents = $square_result['content'];
         window.prompt("택스트창에 있는 주소 복사 :", text);
     }
 
+
+    var firstImg = $(".imageblock:first-of-type img");
+    var contents = "";
+    if (firstImg.attr("src")) {
+        var firstImgSrc = firstImg.attr("src");
+        var firstImgRatio = parseInt(firstImg.css("height")) / parseInt(firstImg.css("width"));
+        if (firstImgRatio <= 0.27) var firstImgRatio = 0.27;
+    } else {
+        var firstImgSrc = location.origin + "/favicon.ico";
+        var firstImgRatio = 1
+    }
+
+    Kakao.init('YOUR APP KEY');   // 사용할 앱의 JavaScript 키를 설정해 주세요.
+
+    function sendLink() {
+        Kakao.Link.sendTalkLink({
+            label: '<?php echo $birthday_name ?>님의 생일', // 공유할 메세지의 제목을 설정
+            image: {
+                src: firstImgSrc,
+                width: '300',
+                height: parseInt(300 * firstImgRatio)
+            } // 이건 썸네일을 설정 하는 겁니다.
+            ,
+            webButton: {
+                text: '보기',
+                url: document.URL // 각각의 포스팅 본문의 링크를 거는 코드입니다.
+            }
+        });
+    }
+
+
 </script>
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
