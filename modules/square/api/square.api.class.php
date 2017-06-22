@@ -55,16 +55,16 @@ class SquareApiClass{
         $page_srl = REQUEST('page_srl');
         $title = REQUEST('title');
         $content = REQUEST('content');
+        $data = REQUEST('data');
         $permission = REQUEST('permission');
         $status = REQUEST('status');
         $privacy = REQUEST('privacy');
 
-        $document_write = $DOCUMENT_CLASS ->  document_write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS,  $page_srl, $user_srl , $title, $content, $permission, $status, $privacy);
-        if($document_write == true){
-            echo "success";
-        }else{
-            echo "error";
-        }
+        $square_write = $SQUARE_CLASS->Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $data, $permission, $status, $privacy);
+
+        echo json_encode($square_write);
+
+
     }
 
 
