@@ -91,8 +91,8 @@
       <file leaf-file-name="square.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="84" column="473" lean-forward="false" selection-start-line="84" selection-start-column="473" selection-end-line="84" selection-end-column="473" />
+            <state relative-caret-position="522">
+              <caret line="85" column="701" lean-forward="false" selection-start-line="85" selection-start-column="701" selection-end-line="85" selection-end-column="701" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
@@ -104,6 +104,12 @@
                 <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#2;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#3;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#4;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#5;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1345,14 +1351,7 @@
       <workItem from="1497874388047" duration="5668000" />
       <workItem from="1498046695928" duration="3547000" />
       <workItem from="1498057046033" duration="12825000" />
-      <workItem from="1498110841442" duration="969000" />
-    </task>
-    <task id="LOCAL-00636" summary="log bug fixed">
-      <created>1498061929681</created>
-      <option name="number" value="00636" />
-      <option name="presentableId" value="LOCAL-00636" />
-      <option name="project" value="LOCAL" />
-      <updated>1498061929681</updated>
+      <workItem from="1498110841442" duration="1002000" />
     </task>
     <task id="LOCAL-00637" summary="ipmanaage updated">
       <created>1498061998568</created>
@@ -1690,11 +1689,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498111692290</updated>
     </task>
-    <option name="localTasksCounter" value="685" />
+    <task id="LOCAL-00685" summary="page square updated">
+      <created>1498111917687</created>
+      <option name="number" value="00685" />
+      <option name="presentableId" value="LOCAL-00685" />
+      <option name="project" value="LOCAL" />
+      <updated>1498111917687</updated>
+    </task>
+    <option name="localTasksCounter" value="686" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="773639000" />
+    <option name="totallyTimeSpent" value="773672000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2217,8 +2223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="84" column="473" lean-forward="false" selection-start-line="84" selection-start-column="473" selection-end-line="84" selection-end-column="473" />
+        <state relative-caret-position="522">
+          <caret line="85" column="701" lean-forward="false" selection-start-line="85" selection-start-column="701" selection-end-line="85" selection-end-column="701" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
@@ -2230,6 +2236,12 @@
             <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#2;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#5;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
