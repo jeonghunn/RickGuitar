@@ -1,6 +1,6 @@
 <?php
 
-$square_key = REQUEST('square_key');
+$square_key = $act_parameter;
 $square_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_read'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('square_key', $square_key))), true);
 $square_data = json_encode($square_result['data']);
 
