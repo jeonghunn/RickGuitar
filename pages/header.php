@@ -147,7 +147,11 @@
 
          /*작은 모바일*/
          @media screen and (max-width: 350px){
+             .squarecard {
 
+                 width: 100%;
+
+             }
          }
 
 
