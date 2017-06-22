@@ -70,6 +70,15 @@
         </div>
     </div>
 
+    <div class="squarecard">
+        <div class="centered">
+            <br><br><br><br><br><br>
+            <span style="font-size: 32px;"><span style="font-size: 40px;">﻿2018</span>년 다음 생일은 <span
+                        style="font-size: 40px;">481</span>일 남았습니다.</span><br/>
+
+        </div>
+    </div>
+
 
     <br><br><br>
 </div> <!-- /container -->
