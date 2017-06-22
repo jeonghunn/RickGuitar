@@ -1,3 +1,19 @@
+<?php
+
+$square_key = REQUEST('square_key');
+$square_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_read'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('square_key', $square_key))), true);
+$square_data = json_encode($square_result['data']);
+
+$birthday_name = $square_data['birthday_name'];
+$birthday_year = $square_data['birthday_year'];
+$birthday_month = $square_data['birthday_month'];
+$birthday_day = $square_data['birthday_day'];
+$birthday_contents = $square_result['content'];
+
+
+?>
+
+
 <!-- html -->
 <div class="container" align="center">
 
@@ -5,7 +21,7 @@
     <p>주소를 복사해 친구들과 공유할 수 있습니다.</p>
 
     <br>
-    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+    <button type="button" class="btn btn-default btn-lg" onclick="copyToClipboard(window.location.href)">
         이 페이지 주소 복사
     </button>
     <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
@@ -23,7 +39,7 @@
                             style="font-size: 40px;">1998</span>년 <span
                             style="font-size: 40px;">10</span>월 <span
                             style="font-size: 40px;">17</span>일에<br> 태어났고,</span>
-        </p>
+            </p>
 
         </div>
     </div>
@@ -136,4 +152,10 @@
 
 </div> <!-- /container -->
 
+<script>
 
+    function copyToClipboard(text) {
+        window.prompt("택스트창에 있는 주소 복사 :", text);
+    }
+
+</script>
