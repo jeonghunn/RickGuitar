@@ -104,7 +104,7 @@ class SquareClass
 
 //require attach_class.php
 
-    function Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $data, $permission, $status, $privacy)
+    function Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $permission, $status, $privacy)
     {
 //Check Value security
         security_value_check($title);
@@ -117,9 +117,9 @@ class SquareClass
         $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
         $last_number = $this->LastNumber();
         $square_key = GenerateString(12);
-        if ($content != "" && $relation_status != -1 && $relation_status >= $page_info['write_status'] && ($page_info != null || $page_srl == 0)) {
+        if ($type != "" && $relation_status != -1 && $relation_status >= $page_info['write_status'] && ($page_info != null || $page_srl == 0)) {
             $attach_result = $ATTACH_CLASS->attach_file("square", $page_srl, $last_number, $user_srl, $status);
-            $result = Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $content, $data, $permission, $status, $privacy, $attach_result);
+            $result = Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $content, $type, $data, $permission, $status, $privacy, $attach_result);
 
             if (getIPAddr() != $page_info['ip_addr']) $PAGE_CLASS -> updatePopularity($user_srl, $page_srl, 1);
 //Set last update
