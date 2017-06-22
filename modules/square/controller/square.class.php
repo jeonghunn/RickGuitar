@@ -118,7 +118,7 @@ class SquareClass
         $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
         $last_number = $this->LastNumber();
         $square_key = GenerateString(12);
-        if ($type != "" && $relation_status != -1 && $relation_status >= $page_info['write_status'] && ($page_info != null || $page_srl == 0)) {
+        if ($type != "") {
             $attach_result = $ATTACH_CLASS->attach_file("square", $page_srl, $last_number, $user_srl, $status);
             $result = Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $content, $type, $data, $permission, $status, $privacy, $attach_result);
 
