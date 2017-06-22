@@ -18,7 +18,7 @@
 
               </div>
 <br>
-              <select name="year">
+              <select name="year" id="year">
                   <?php for ($a = 2017; $a >= 1940; $a--) {
 
                       echo "<option value=\"$a\">$a</option>";
@@ -26,13 +26,13 @@
 
 
               </select>
-              <select name="month">
+              <select name="month" id="month">
                   <?php for ($m = 1; $m <= 12; $m++) {
 
                       echo "<option value=\"$m\">$m</option>";
                   } ?>
               </select>
-              <select name="day">
+              <select name="day" id="day">
                   <?php for ($d = 1; $d <= 31; $d++) {
 
                       echo "<option value=\"$d\">$d</option>";
