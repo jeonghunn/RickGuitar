@@ -104,7 +104,10 @@
     </div>
 
 
-    <br><br><br>
+    <br><br>
+    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+        나도 이런거 만들어보기
+    </button>
 </div> <!-- /container -->
 
 
