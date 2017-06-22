@@ -51,6 +51,16 @@
     </div>
 
 
+    <div class="squarecard">
+        <div class="centered">
+            <br><br><br><br><br><br>
+            <span style="font-size: 32px;">﻿지금까지 생일이 <br><span style="font-size: 40px;">2794</span>시간 <span
+                        style="font-size: 40px;">2</span>분 지났으며,</span>
+
+        </div>
+    </div>
+
+
     <br><br><br>
 </div> <!-- /container -->
 
