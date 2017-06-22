@@ -26,16 +26,16 @@
 
               </select>
               <select name="month">
-                  <option value="volvo">5</option>
-                  <option value="saab">1997</option>
-                  <option value="fiat">Fiat</option>
-                  <option value="audi">Audi</option>
+                  <?php for ($m = 1; $m <= 12; $m++) {
+
+                      echo "<option value=\"$m\">$m</option>";
+                  } ?>
               </select>
               <select name="day">
-                  <option value="volvo">4</option>
-                  <option value="saab">1997</option>
-                  <option value="fiat">Fiat</option>
-                  <option value="audi">Audi</option>
+                  <?php for ($d = 1; $d <= 31; $d++) {
+
+                      echo "<option value=\"$d\">$d</option>";
+                  } ?>
               </select>
               <br><br>
 
