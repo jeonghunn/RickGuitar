@@ -112,11 +112,9 @@
     <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
         이 페이지 주소 복사
     </button>
-    <br>
     <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
         페이스북으로 공유
     </button>
-    <br>
     <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
         카카오톡으로 공유
     </button>
