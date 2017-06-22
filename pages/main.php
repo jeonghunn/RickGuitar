@@ -18,10 +18,12 @@
               </div>
 <br>
               <select name="year">
-                  <option value="volvo">1998</option>
-                  <option value="saab">1997</option>
-                  <option value="fiat">Fiat</option>
-                  <option value="audi">Audi</option>
+                  <?php for ($a = 1940; $a <= Date("y"); $a++) {
+
+                      echo "<option value=\"$a\">$a</option>";
+                  } ?>
+
+
               </select>
               <select name="month">
                   <option value="volvo">5</option>
