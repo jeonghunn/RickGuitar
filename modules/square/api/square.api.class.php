@@ -29,16 +29,18 @@ class SquareApiClass{
 
     function API_Read($user_srl){
 
-        $DOCUMENT_CLASS = new DocumentClass();
+        $SQUARE_CLASS = new SquareClass();
         $PAGE_CLASS = new PageClass();
         $ATTACH_CLASS = new AttachClass();
 
-        $doc_srl = REQUEST('doc_srl');
-        $doc_info = REQUEST('doc_info');
+        $square_srl = REQUEST('square_srl');
+        //  $square_info = REQUEST('doc_info');
         $attach_info = REQUEST('attach_info');
 
-        $Doc_read = $DOCUMENT_CLASS -> document_read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $doc_srl, ExplodeInfoValue($attach_info));
-        print_info($Doc_read, ExplodeInfoValue($doc_info));
+        $square_info = array('square_key', 'page_srl', 'user_srl', 'name', 'title', 'content', 'type', 'data', 'date', 'status', 'attach');
+
+        $square_read = $SQUARE_CLASS->Read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_srl, ExplodeInfoValue($attach_info));
+        print_info($square_read, $square_info);
 
     }
 

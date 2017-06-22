@@ -3,19 +3,18 @@
 class SquareClass
 {
 
-    function document_read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $doc_srl, $attach_info)
+    function Read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_srl, $attach_info)
     {
         //$user_srl = AuthCheck($user_srl, false);
-        $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
+        $row = Model_Square_getSquare($square_srl);
         $page_info = $PAGE_CLASS -> GetPageInfo($row['page_srl']);
         //View
-        DBQuery("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
-        if (getIPAddr() != $row['ip_addr'])  $PAGE_CLASS -> updatePopularity($user_srl, $row['page_srl'], 1);
+        Model_Square_ViewCountUp($row['views'], $square_srl);
 //Status
-        $status = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
+        $status = $this->getStatus($PAGE_CLASS, $user_srl, $square_srl);
 
         $row['you_doc_status'] = $status;
-      if($attach_info != null)  $row['attach_contents'] = json_encode($ATTACH_CLASS -> attach_read($user_srl, "document", $doc_srl, $status, $attach_info));
+        if ($attach_info != null) $row['attach_contents'] = json_encode($ATTACH_CLASS->attach_read($user_srl, "square", $square_srl, $status, $attach_info));
 
 
      //   echo $row['attach_contents'];
@@ -32,15 +31,21 @@ class SquareClass
 
 //Find lastest number.
 
-    function getDocStatus($PAGE_CLASS, $user_srl, $doc_srl)
+    function getStatus($PAGE_CLASS, $user_srl, $square_srl)
     {
+
+
 //doc owner
-        $doc_owner = $this -> getDocOwner($doc_srl);
-        $doc_page_owner = $this -> getDocPageOwner($PAGE_CLASS ,$doc_srl);
+
+
+        $owner = $this->getDocOwner($square_srl);
+        $page_owner = $this->getDocPageOwner($PAGE_CLASS, $square_srl);
+
+        if ($page_owner == 0) $status = 0;
 
         //Check Status
-        if ($user_srl != $doc_owner) {
-            $status = setRelationStatus($user_srl, $doc_page_owner);
+        if ($user_srl != $owner) {
+            $status = setRelationStatus($user_srl, $page_owner);
         } else {
             $status = 4;
         }
