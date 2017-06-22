@@ -41,7 +41,7 @@
 
               <textarea class="form-control" rows="3" placeholder="할말" style="width:70%"></textarea>
 <br><br>
-              <button type="button" class="btn btn-default btn-lg">
+              <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
                   생일 페이지 만들기
               </button>
           </div>
@@ -49,4 +49,34 @@
 </center><br><br><br>
     </div> <!-- /container -->
 
+
+<script>
+
+    function writeAct() {
+        $.ajax({
+            type: "POST",
+            url: "<?php echo getAPIUrlS() ?>",
+            data: {
+                "a": "square_write",
+                "apiv": "<?php echo getAPIVersion()?>",
+                "api_key": "<?php echo getAPIKey()?>",
+                "auth": "<?php echo getUserAuth()?>"
+            },
+            success: function (data) {
+                if (data.includes("success")) {
+
+                    location.reload(true);
+
+
+                } else {
+                    alert('죄송합니다. 뭔가 문제가 있는거 같아요. 잠시 후에 다시 시도해주세요 ㅠㅠ 문의 : jeonghunn1@gmail.com');
+
+
+                }
+            }
+        });
+    }
+
+
+</script>
 
