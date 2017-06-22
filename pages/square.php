@@ -162,7 +162,6 @@ $birthday_contents = $square_result['content'];
     }
 
 
-    var firstImg = $("http://tarks.net/square/pages/images/birthday_image.jpg");
     var contents = "";
     if (firstImg.attr("src")) {
         var firstImgSrc = firstImg.attr("src");
@@ -178,12 +177,7 @@ $birthday_contents = $square_result['content'];
     function sendLink() {
         Kakao.Link.sendTalkLink({
             label: '<?php echo $birthday_name ?>님의 생일', // 공유할 메세지의 제목을 설정
-            image: {
-                src: firstImgSrc,
-                width: '300',
-                height: parseInt(300 * firstImgRatio)
-            } // 이건 썸네일을 설정 하는 겁니다.
-            ,
+
             webButton: {
                 text: '보기',
                 url: document.URL // 각각의 포스팅 본문의 링크를 거는 코드입니다.
