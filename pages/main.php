@@ -62,18 +62,13 @@
         var content = document.getElementById("contents").value;
         ;
 
-        var data = JSON.stringify(new Array("birhtday_name"
-    :
-        birthday_name, "birhtday_year"
-    :
-        birthday_year, "birhtday_month"
-    :
-        birthday_month, "birhtday_day"
-    :
-        birthday_day, "birhtday_contents"
-    :
-        content
-    ))
+        var data = JSON.stringify({
+                "birhtday_name": birthday_name,
+                "birhtday_year": birthday_year,
+                "birhtday_month": birthday_month,
+                "birhtday_day": birthday_day,
+                "birhtday_contents": content
+            })
         ;
 
 
