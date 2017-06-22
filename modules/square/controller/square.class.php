@@ -3,10 +3,11 @@
 class SquareClass
 {
 
-    function Read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_srl, $attach_info)
+    function Read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_key, $attach_info)
     {
         //$user_srl = AuthCheck($user_srl, false);
-        $row = Model_Square_getSquare($square_srl);
+        $row = Model_Square_getSquareByKey($square_key);
+        $square_srl = $row['square_srl'];
         $page_info = $PAGE_CLASS -> GetPageInfo($row['page_srl']);
         //View
         Model_Square_ViewCountUp($row['views'], $square_srl);

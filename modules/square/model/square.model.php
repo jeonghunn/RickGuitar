@@ -12,9 +12,9 @@ function Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $c
     return DBQuery("INSERT INTO `square` (`square_key`, `page_srl`, `user_srl`, `name`, `title`, `content`,`type` ,`data`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$square_key', '$page_srl', '$user_srl', '$name', '$title', '$content', '$type', '$data',  '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '" . getIPAddr() . "');");
 }
 
-function Model_Square_getSquare($square_srl)
+function Model_Square_getSquareByKey($square_key)
 {
-    return mysqli_fetch_array(DBQuery("SELECT * FROM  `square` WHERE  `srl` LIKE '$square_srl'"));
+    return mysqli_fetch_array(DBQuery("SELECT * FROM  `square` WHERE  `square_key` LIKE '$square_key'"));
 }
 
 function Model_Square_ViewCountUp($views, $square_srl)
