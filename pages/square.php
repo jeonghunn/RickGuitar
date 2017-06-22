@@ -164,7 +164,6 @@ $birthday_contents = $square_result['content'];
 
     var contents = "";
 
-
     Kakao.init('4c0bd2702cc62066b3e51409f6da1d0c');   // 사용할 앱의 JavaScript 키를 설정해 주세요.
 
     function sendLink() {
