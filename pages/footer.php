@@ -1,5 +1,4 @@
-
-<div id="footer">
+<div id="footer" style="margin-top: 80px;">
 
     <div class="container">
         <br>
