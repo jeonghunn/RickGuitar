@@ -74,9 +74,10 @@
       <file leaf-file-name="square.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="113" column="13" lean-forward="true" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding>
+                <element signature="n#button#1;n#div#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
@@ -94,6 +95,7 @@
                 <element signature="n#style#0;n#span#4;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#5;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#button#5;n#div#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1348,14 +1350,7 @@
       <workItem from="1497874388047" duration="5668000" />
       <workItem from="1498046695928" duration="3547000" />
       <workItem from="1498057046033" duration="12825000" />
-      <workItem from="1498110841442" duration="3156000" />
-    </task>
-    <task id="LOCAL-00649" summary="page square updated">
-      <created>1498066003345</created>
-      <option name="number" value="00649" />
-      <option name="presentableId" value="LOCAL-00649" />
-      <option name="project" value="LOCAL" />
-      <updated>1498066003345</updated>
+      <workItem from="1498110841442" duration="3342000" />
     </task>
     <task id="LOCAL-00650" summary="page square updated">
       <created>1498066099504</created>
@@ -1693,11 +1688,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498137008095</updated>
     </task>
-    <option name="localTasksCounter" value="698" />
+    <task id="LOCAL-00698" summary="square updated">
+      <created>1498137027036</created>
+      <option name="number" value="00698" />
+      <option name="presentableId" value="LOCAL-00698" />
+      <option name="project" value="LOCAL" />
+      <updated>1498137027036</updated>
+    </task>
+    <option name="localTasksCounter" value="699" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="775826000" />
+    <option name="totallyTimeSpent" value="776012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2223,9 +2225,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="113" column="13" lean-forward="true" selection-start-line="113" selection-start-column="13" selection-end-line="113" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding>
+            <element signature="n#button#1;n#div#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#span#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
@@ -2243,6 +2246,7 @@
             <element signature="n#style#0;n#span#4;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#5;n#h3#0;n#div#0;n#div#8;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#9;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#button#5;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

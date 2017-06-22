@@ -1,6 +1,21 @@
 <!-- html -->
 <div class="container" align="center">
 
+    <h4>성공적으로 생성되었습니다.</h4>
+    <p>주소를 복사해 친구들과 공유할 수 있습니다.</p>
+
+    <br>
+    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+        이 페이지 주소 복사
+    </button>
+    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+        페이스북으로 공유
+    </button>
+    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+        카카오톡으로 공유
+    </button>
+
+
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br>
