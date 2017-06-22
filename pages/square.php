@@ -9,6 +9,9 @@ $birthday_month = $square_data['birthday_month'];
 $birthday_day = $square_data['birthday_day'];
 $birthday_contents = $square_data['birthday_contents'];
 
+$year = date("Y");
+$month = date("n");
+$day = date("j");
 
 $bt = "$birthday_year" . "-" . "$birthday_month" . "-" . "$birthday_day";
 $birthdaynum = $year - $birthday_year + 1;
