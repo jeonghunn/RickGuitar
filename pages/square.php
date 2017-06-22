@@ -61,6 +61,16 @@
     </div>
 
 
+    <div class="squarecard">
+        <div class="centered">
+            <br><br><br><br><br><br>
+            <span style="font-size: 32px;">﻿생일이 끝나기까지 <br><span style="font-size: 40px;">3</span>시간 <span
+                        style="font-size: 40px;">2</span>분 남았습니다.</span>
+
+        </div>
+    </div>
+
+
     <br><br><br>
 </div> <!-- /container -->
 
