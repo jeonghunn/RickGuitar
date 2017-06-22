@@ -111,6 +111,7 @@ class SquareClass
         security_value_check($content);
 //Start
 //	$user_srl = AuthCheck($user_srl, false);
+        $result = false;
         $relation_status = setRelationStatus($user_srl, $page_srl);
         $user_info = $PAGE_CLASS -> GetPageInfo($user_srl);
         $page_info = $PAGE_CLASS -> GetPageInfo($page_srl);
