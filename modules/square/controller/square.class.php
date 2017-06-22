@@ -95,7 +95,7 @@ class SquareClass
         return $result;
     }
 
-    function DocLastNumber()
+    function LastNumber()
     {
         $table_status = mysqli_fetch_array(DBQuery("SHOW TABLE STATUS LIKE 'documents'"));
         return $table_status['Auto_increment'];
@@ -104,7 +104,7 @@ class SquareClass
 
 //require attach_class.php
 
-    function document_write($PAGE_CLASS, $ATTACH_CLASS,  $PUSH_CLASS,  $page_srl, $user_srl, $title, $content, $permission, $status, $privacy)
+    function Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $permission, $status, $privacy)
     {
 //Check Value security
         security_value_check($title);
@@ -115,8 +115,8 @@ class SquareClass
         $user_info = $PAGE_CLASS -> GetPageInfo($user_srl);
         $page_info = $PAGE_CLASS -> GetPageInfo($page_srl);
         $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
-        $last_number = $this -> DocLastNumber();
-        if ($content != "" && $relation_status != -1 && $relation_status >= $page_info['write_status'] && $page_info != null) {
+        $last_number = $this->LastNumber();
+        if ($content != "" && $relation_status != -1 && $relation_status >= $page_info['write_status'] && ($page_info != null || $page_srl == 0)) {
             $attach_result = $ATTACH_CLASS -> attach_file("document", $page_srl, $last_number, $user_srl, $status);
             $result = DBQuery("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '" . getIPAddr() . "');");
 
