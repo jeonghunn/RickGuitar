@@ -47,8 +47,8 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+            <state relative-caret-position="120">
+              <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -1484,14 +1484,7 @@
       <workItem from="1497874388047" duration="5668000" />
       <workItem from="1498046695928" duration="3547000" />
       <workItem from="1498057046033" duration="12825000" />
-      <workItem from="1498110841442" duration="20059000" />
-    </task>
-    <task id="LOCAL-00708" summary="square write bug fixed">
-      <created>1498146340785</created>
-      <option name="number" value="00708" />
-      <option name="presentableId" value="LOCAL-00708" />
-      <option name="project" value="LOCAL" />
-      <updated>1498146340785</updated>
+      <workItem from="1498110841442" duration="20607000" />
     </task>
     <task id="LOCAL-00709" summary="write method updated">
       <created>1498146574893</created>
@@ -1829,11 +1822,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498156148432</updated>
     </task>
-    <option name="localTasksCounter" value="757" />
+    <task id="LOCAL-00757" summary="ie bug fixed">
+      <created>1498156681129</created>
+      <option name="number" value="00757" />
+      <option name="presentableId" value="LOCAL-00757" />
+      <option name="project" value="LOCAL" />
+      <updated>1498156681129</updated>
+    </task>
+    <option name="localTasksCounter" value="758" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="792729000" />
+    <option name="totallyTimeSpent" value="793277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1941,7 +1941,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="date updated" />
     <MESSAGE value="menu updated" />
     <MESSAGE value="square module added" />
     <MESSAGE value="wrong url bug fixed" />
@@ -1966,7 +1965,8 @@
     <MESSAGE value="bug fixed" />
     <MESSAGE value="alpha ver" />
     <MESSAGE value="XSS pateched" />
-    <option name="LAST_COMMIT_MESSAGE" value="XSS pateched" />
+    <MESSAGE value="ie bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="ie bug fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2455,8 +2455,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+        <state relative-caret-position="120">
+          <caret line="8" column="54" lean-forward="false" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
           </folding>
