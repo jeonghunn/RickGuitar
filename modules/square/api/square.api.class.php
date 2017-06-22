@@ -33,7 +33,7 @@ class SquareApiClass{
         $PAGE_CLASS = new PageClass();
         $ATTACH_CLASS = new AttachClass();
 
-        $square_srl = REQUEST('square_key');
+        $square_key = REQUEST('square_key');
         //  $square_info = REQUEST('doc_info');
         $attach_info = REQUEST('attach_info');
 
