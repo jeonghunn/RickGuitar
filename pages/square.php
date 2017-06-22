@@ -98,7 +98,7 @@
     <div class="squarecard">
         <div class="centered">
             <br><br><br><br><br><br><br>
-            <span style="font-size: 32px;">생일 축하해!!!</span><br/>
+            <span style="font-size: 40px;">생일 축하해!!!</span><br/>
 
         </div>
     </div>
