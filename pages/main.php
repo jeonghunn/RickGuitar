@@ -85,7 +85,7 @@
                 "data": data
             },
             success: function (data) {
-                if (data.includes("success")) {
+                if (data.indexOf('success') >= 0) {
 
                     var Result = JSON.parse(data);
 
