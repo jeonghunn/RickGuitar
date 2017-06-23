@@ -60,7 +60,12 @@
         var birthday_month = document.getElementById("month").value;
         var birthday_day = document.getElementById("day").value;
         var content = document.getElementById("contents").value;
-        ;
+
+
+        if (birthday_name == '') {
+            alert('이름을 입력해주세요.');
+            return false;
+        }
 
         var data = JSON.stringify({
             "birthday_name": birthday_name,
