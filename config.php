@@ -40,6 +40,7 @@ $ipmanage = IPManageAct(getIPAddr(), getNowUrl(), getTimeStamp());
 //Log Client
 if ($ipmanage) {
     ActLog($user_srl, getIPAddr(), getTimeStamp(), $log_category, $log);
+    ClientAgentLog($user_srl, getIPAddr(), getUserAgent(), getTimeStamp());
 }
 
 
