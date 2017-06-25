@@ -20,8 +20,6 @@ function isDevelopmentMode()
 function isDevelopmentServer()
 {
 
-    echo "DEVELOPMENT_MODE_ERROR<br>";
-    FatalError();
 
     if (isDevelopmentMode()) {
         if (strpos($_SERVER['REQUEST_URI'], 'develop') !== false) {
