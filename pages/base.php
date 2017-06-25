@@ -12,11 +12,15 @@ function getAPIVersion(){
     return 1;
 }
 
+function isDevelopmentMode()
+{
+    return true;
+}
+
 function isDevelopmentServer()
 {
-    $DevelopmentMode = true;
 
-    if ($DevelopmentMode) {
+    if (isDevelopmentMode()) {
         if (strpos($_SERVER['REQUEST_URI'], 'develop') !== false) {
 
             return true;
