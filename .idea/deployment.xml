@@ -19,7 +19,7 @@
       <paths name="SquareDevelopServer">
         <serverdata>
           <mappings>
-            <mapping deploy="/develop/square" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/develop/square" local="$PROJECT_DIR$" web="/develop/square" />
           </mappings>
         </serverdata>
       </paths>
