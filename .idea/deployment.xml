@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="SquareCoreServer" uploadOnCheckin="2965e2d3-4334-4369-b153-3e9d761d9758">
+  <component name="PublishConfigData" serverName="SquareDevelopServer" uploadOnCheckin="2965e2d3-4334-4369-b153-3e9d761d9758">
     <serverData>
       <paths name="SquareCoreServer">
         <serverdata>
@@ -13,6 +13,13 @@
         <serverdata>
           <mappings>
             <mapping deploy="/square" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="SquareDevelopServer">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/develop/square" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
