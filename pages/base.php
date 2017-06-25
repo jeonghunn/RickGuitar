@@ -30,6 +30,7 @@ function isDevelopmentServer()
     return false;
 }
 
+
 function getAPIKey(){
     return 'xT3FP4AuctM-';
 }

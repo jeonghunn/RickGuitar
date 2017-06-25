@@ -106,11 +106,11 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            <state relative-caret-position="308">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
-                <marker date="1498409967000" expanded="true" signature="136:151" ph="..." />
-                <marker date="1498409967000" expanded="true" signature="5835:5889" ph="..." />
+                <marker date="1498410027000" expanded="true" signature="136:151" ph="..." />
+                <marker date="1498410027000" expanded="true" signature="5854:5908" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1460,14 +1460,7 @@
       <workItem from="1498207487130" duration="1993000" />
       <workItem from="1498313525355" duration="476000" />
       <workItem from="1498323283408" duration="1655000" />
-      <workItem from="1498404122315" duration="5188000" />
-    </task>
-    <task id="LOCAL-00718" summary="square updated">
-      <created>1498148814346</created>
-      <option name="number" value="00718" />
-      <option name="presentableId" value="LOCAL-00718" />
-      <option name="project" value="LOCAL" />
-      <updated>1498148814346</updated>
+      <workItem from="1498404122315" duration="5247000" />
     </task>
     <task id="LOCAL-00719" summary="birthday image added">
       <created>1498149316804</created>
@@ -1805,11 +1798,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498409028777</updated>
     </task>
-    <option name="localTasksCounter" value="767" />
+    <task id="LOCAL-00767" summary="development mode updated">
+      <created>1498409974796</created>
+      <option name="number" value="00767" />
+      <option name="presentableId" value="LOCAL-00767" />
+      <option name="project" value="LOCAL" />
+      <updated>1498409974796</updated>
+    </task>
+    <option name="localTasksCounter" value="768" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="803901000" />
+    <option name="totallyTimeSpent" value="803960000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1917,7 +1917,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ip manage system updated" />
     <MESSAGE value="updated" />
     <MESSAGE value="log bug fixed" />
     <MESSAGE value="ipmanaage updated" />
@@ -1942,7 +1941,8 @@
     <MESSAGE value="vaild check updated" />
     <MESSAGE value="client log bug fixed" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="development mode updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="development mode updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2351,11 +2351,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="28" column="17" lean-forward="true" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        <state relative-caret-position="308">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <marker date="1498409967000" expanded="true" signature="136:151" ph="..." />
-            <marker date="1498409967000" expanded="true" signature="5835:5889" ph="..." />
+            <marker date="1498410027000" expanded="true" signature="136:151" ph="..." />
+            <marker date="1498410027000" expanded="true" signature="5854:5908" ph="..." />
           </folding>
         </state>
       </provider>
