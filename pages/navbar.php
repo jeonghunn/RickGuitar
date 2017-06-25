@@ -17,6 +17,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="home"><?php S('home') ?></a>
                 <li><a href="info"><?php S('info') ?></a></li>
+                <?php if (isDevelopmentServer()) echo "<li><a href=\"info\">Development Server</a></li>" ?>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
