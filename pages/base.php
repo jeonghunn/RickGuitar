@@ -12,12 +12,30 @@ function getAPIVersion(){
     return 1;
 }
 
+function isDevelopmentServer()
+{
+    $DevelopmentMode = true;
+
+    if ($DevelopmentMode) {
+        if (strpos($_SERVER['REQUEST_URI'], 'develop') !== false) {
+
+            return true;
+
+        } else {
+            echo "DEVELOPMENT_MODE_ERROR<br>";
+            FatalError();
+        }
+    }
+
+    return false;
+}
+
 function getAPIKey(){
     return 'xT3FP4AuctM-';
 }
 
 function getCorePUrl(){
-    return "tarks.net/square/";
+    return isDevelopmentServer() ? "tarks.net/develop/square/" : "tarks.net/square/";
 }
 
 function getCoreUrl($s){
