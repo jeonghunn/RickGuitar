@@ -99,7 +99,6 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
 
     <div class="squarecard">
         <div class="centered">
-            <br><br><br><br><br><br>
             <p><span style="font-size: 32px;"><span
                             style="font-size: 40px;"><?php P($birthday_name) ?></span> 님은 <br><span
                             style="font-size: 40px;"><?php P($birthday_year) ?></span>년 <span

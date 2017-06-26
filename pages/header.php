@@ -103,6 +103,14 @@
              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
          }
 
+         .centered {
+             position: absolute;
+             left: 93px;
+             top: 21px;
+             width: 135px;
+             height: 84px;
+             display: table;
+         }
 
 
          /*데스크탑*/
