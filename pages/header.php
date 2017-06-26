@@ -105,7 +105,9 @@
          }
 
          .centered {
-             margin-top: -50%;
+             position: relative;
+             top: -50%;
+             margin: 0 auto;
 
          }
 
