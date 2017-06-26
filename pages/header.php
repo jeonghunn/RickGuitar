@@ -105,10 +105,8 @@
          }
 
          .centered {
-             height: auto;
-             margin: 0 auto;
-             padding: 10px;
-             position: relative;
+             margin-top: auto;
+             margin-bottom: auto;
          }
 
 
