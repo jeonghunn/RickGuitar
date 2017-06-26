@@ -105,7 +105,7 @@
          }
 
          .centered {
-             padding-top: 50%;
+             padding-top: 25%;
 
          }
 
