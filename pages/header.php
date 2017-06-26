@@ -105,10 +105,6 @@
 
          .centered {
              position: absolute;
-             left: 93px;
-             top: 21px;
-             width: 135px;
-             height: 84px;
              display: table;
          }
 
