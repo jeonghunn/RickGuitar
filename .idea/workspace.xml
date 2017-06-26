@@ -4,7 +4,6 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/square.php" afterPath="$PROJECT_DIR$/pages/square.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +27,7 @@
               <entry file="file://$PROJECT_DIR$/pages/square.php">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="271">
-                    <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+                    <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
                     <folding />
                   </state>
                 </provider>
@@ -83,8 +82,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="99" column="13" lean-forward="false" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+            <state relative-caret-position="430">
+              <caret line="100" column="28" lean-forward="false" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -1475,14 +1474,7 @@
       <workItem from="1498313525355" duration="476000" />
       <workItem from="1498323283408" duration="1655000" />
       <workItem from="1498404122315" duration="6902000" />
-      <workItem from="1498475666040" duration="10045000" />
-    </task>
-    <task id="LOCAL-00745" summary="square updated">
-      <created>1498153273358</created>
-      <option name="number" value="00745" />
-      <option name="presentableId" value="LOCAL-00745" />
-      <option name="project" value="LOCAL" />
-      <updated>1498153273358</updated>
+      <workItem from="1498475666040" duration="10098000" />
     </task>
     <task id="LOCAL-00746" summary="square updated">
       <created>1498153335961</created>
@@ -1820,11 +1812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498493740010</updated>
     </task>
-    <option name="localTasksCounter" value="794" />
+    <task id="LOCAL-00794" summary="test">
+      <created>1498493847117</created>
+      <option name="number" value="00794" />
+      <option name="presentableId" value="LOCAL-00794" />
+      <option name="project" value="LOCAL" />
+      <updated>1498493847117</updated>
+    </task>
+    <option name="localTasksCounter" value="795" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="815660000" />
+    <option name="totallyTimeSpent" value="815713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2366,15 +2365,15 @@
     <entry file="file://$PROJECT_DIR$/pages/square.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
-          <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="99" column="13" lean-forward="false" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        <state relative-caret-position="430">
+          <caret line="100" column="28" lean-forward="false" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
           <folding />
         </state>
       </provider>

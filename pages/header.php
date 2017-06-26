@@ -99,7 +99,6 @@
              position: relative;
              top: -50%;
              margin: 0 auto;
-             width: 200px;
              border: 1px solid orange;
 
          }
