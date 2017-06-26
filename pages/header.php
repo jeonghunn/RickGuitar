@@ -106,6 +106,7 @@
 
          .centered {
              padding-top: auto;
+             padding-bottom: auto;
 
          }
 
