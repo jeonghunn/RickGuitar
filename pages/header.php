@@ -96,7 +96,9 @@
              min-height: 440px;
              margin-top: 24px;
 
-             vertical-align: middle;
+             position: relative;
+             top: 50%;
+             transform: translateY(-50%);
 
          }
 
