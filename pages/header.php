@@ -109,8 +109,9 @@
          .centered {
              margin-left: auto;
              margin-right: auto;
+             position: relative;
              top: 50%;
-             transform: translateY(-50%);
+             transform: translateY(-25%);
          }
 
 
