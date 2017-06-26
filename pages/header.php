@@ -89,7 +89,7 @@
 
          .outer {
              display: table;
-             padding-top: 24px;
+             margin-top: 24px;
          }
 
          .tablerow {
