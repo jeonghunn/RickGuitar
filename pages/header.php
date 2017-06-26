@@ -111,7 +111,7 @@
              margin-right: auto;
              position: relative;
              top: 50%;
-             transform: translateY(-25%);
+             transform: translateY(25%);
          }
 
 
