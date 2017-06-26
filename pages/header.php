@@ -95,7 +95,7 @@
              width:440px;
              min-height: 440px;
              margin-top: 24px;
-             vertical-align: middle;
+             vertical-align: center;
 
          }
 
