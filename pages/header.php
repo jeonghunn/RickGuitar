@@ -96,10 +96,7 @@
              min-height: 440px;
              margin-top: 24px;
 
-             position: relative;
-             top: -50%;
-             margin: 0 auto;
-             border: 1px solid orange;
+             vertical-align: middle;
 
          }
 
