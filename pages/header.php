@@ -105,8 +105,7 @@
          }
 
          .centered {
-             padding-top: auto;
-             padding-bottom: auto;
+             margin-top: -50%;
 
          }
 
