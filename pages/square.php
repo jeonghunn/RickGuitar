@@ -125,66 +125,70 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
         </div>
     </div>
 
-    <div class="squarecard">
-        <div class="centered">
-            <br><br><br><br><br><br>
-            <span style="font-size: 32px;">﻿이번 생일이 <br> <span style="font-size: 40px;"><?php echo $birthdaynum ?></span>번째 <br>생일이며</span><br/>
+    <div class="outer">
+        <div class="tablerow">
+            <div class="squarecard">
 
+                <span style="font-size: 32px;">﻿이번 생일이 <br> <span style="font-size: 40px;"><?php echo $birthdaynum ?></span>번째 <br>생일이며</span><br/>
+            </div>
         </div>
     </div>
 
-    <div class="squarecard">
-        <div class="centered">
-            <br><br><br><br><br><br>
-            <span style="font-size: 32px;">﻿만으로 <br> <span style="font-size: 40px;"><?php echo $realage ?></span>살 <br>입니다.</span><br/>
+    <div class="outer">
+        <div class="tablerow">
+            <div class="squarecard">
 
+                <span style="font-size: 32px;">﻿만으로 <br> <span style="font-size: 40px;"><?php echo $realage ?></span>살 <br>입니다.</span><br/>
+            </div>
         </div>
     </div>
 
-    <div class="squarecard">
-        <div class="centered">
-            <br><br><br><br><br><br>
+    <div class="outer">
+        <div class="tablerow">
+            <div class="squarecard">
+
             <span style="font-size: 32px;">﻿인생을 시간으로 본다면<br> 지금 시간은<br> <span
                         style="font-size: 40px;"><?php echo $lifehour ?></span>시 <span
                         style="font-size: 40px;"><?php echo $lifemin ?></span>분이 됩니다.</span><br/>
-
+            </div>
         </div>
     </div>
 
 
-    <div class="squarecard">
-        <div class="centered">
-            <br><br><br><br><br><br>
+    <div class="outer">
+        <div class="tablerow">
+            <div class="squarecard">
             <span style="font-size: 32px;">﻿지금까지 생일이 <br><span
                         style="font-size: 40px;"><?php echo $birthdaylasthour ?></span>시간 <span
                         style="font-size: 40px;"><?php echo $birthdaylastmin ?></span>분 지났으며,</span>
-
+            </div>
         </div>
     </div>
 
 
-    <div class="squarecard">
-        <div class="centered">
-            <br><br><br><br><br><br>
+    <div class="outer">
+        <div class="tablerow">
+            <div class="squarecard">
             <span style="font-size: 32px;">﻿생일이 끝나기까지 <br><span
                         style="font-size: 40px;"><?php echo $birthdaylefthour ?></span>시간 <span
                         style="font-size: 40px;"><?php echo $birthdayleftmin ?></span>분 남았습니다.</span>
-
+            </div>
         </div>
     </div>
 
-    <div class="squarecard">
-        <div class="centered">
-            <br><br><br><br><br><br>
+    <div class="outer">
+        <div class="tablerow">
+            <div class="squarecard">
             <span style="font-size: 32px;"><span
                         style="font-size: 40px;"><?php echo $nextyear ?></span>년 다음 생일은 <br><span
                         style="font-size: 40px;"><?php echo -remain($nbday) ?></span>일 후가 됩니다.</span><br/>
-
+            </div>
         </div>
     </div>
 
-    <div class="squarecard">
-        <div class="centered">
+    <div class="outer">
+        <div class="tablerow">
+            <div class="squarecard">
             <br><h4><?php P($birthday_month) ?>월 <?php P($birthday_day) ?>일에는 무슨 일들이 일어났을까요?</h4>
             <hr>
             <?php
@@ -198,15 +202,15 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
 
             ?>
 
-
+            </div>
         </div>
     </div>
 
-    <div class="squarecard">
-        <div class="centered">
-            <br><br><br><br><br><br><br>
+    <div class="outer">
+        <div class="tablerow">
+            <div class="squarecard">
             <span style="font-size: 40px;"><?php P($birthday_contents) ?></span><br/>
-
+            </div>
         </div>
     </div>
 
