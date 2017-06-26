@@ -86,6 +86,17 @@
           app-header paper-icon-button {
               --paper-icon-button-ink-color: white;
           }
+
+         .outer {
+             display: table;
+
+         }
+
+         .tablerow {
+             display: table-row;
+         }
+
+
          .squarecard {
              /* Add shadows to create the "card" effect */
              background-color: #FFFFFF;
@@ -93,10 +104,10 @@
              transition: 0.3s;
              border-radius: 16px; /* 5px rounded corners */
              width:440px;
-             min-height: 440px;
+             height: 440px;
              margin-top: 24px;
-
-
+             vertical-align: middle;
+             display: table-cell;
 
          }
 
