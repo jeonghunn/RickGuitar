@@ -96,9 +96,7 @@
              min-height: 440px;
              margin-top: 24px;
 
-             position: relative;
-             top: 50%;
-             transform: translateY(-50%);
+
 
          }
 
@@ -109,10 +107,11 @@
 
 
          .centered {
+             margin-left: auto;
+             margin-right: auto;
              position: relative;
-             top: -50%;
-             margin: 0 auto;
-
+             top: 50%;
+             transform: translateY(-50%);
          }
 
 
