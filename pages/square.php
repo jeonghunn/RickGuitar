@@ -112,15 +112,16 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
         </div>
     </div>
 
-    <div class="squarecard">
-        <div class="centered">
-            <br><br><br><br><br><br>
+    <div class="outer">
+        <div class="tablerow">
+            <div class="squarecard">
             <span style="font-size: 32px;"><p><span style="font-size: 32px;">﻿지금까지</span></p>
 <span style="font-size: 32px;"><span style="font-size: 40px;"><?php echo remain($bt) ?></span>일</span><br>
 지났습니다.</p>
 
 </span>
 
+            </div>
         </div>
     </div>
 
