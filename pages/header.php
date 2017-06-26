@@ -109,7 +109,7 @@
          .centered {
              margin-left: auto;
              margin-right: auto;
-             position: relative;
+             position: fixed;
              top: 50%;
              transform: translateY(-50%);
          }
