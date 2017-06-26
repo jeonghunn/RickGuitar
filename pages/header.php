@@ -93,7 +93,7 @@
          }
 
          .tablerow {
-             margin-top: 24px;
+
              display: table-row;
          }
 
@@ -106,7 +106,7 @@
              border-radius: 16px; /* 5px rounded corners */
              width:440px;
              height: 440px;
-
+             padding-top: 24px;
              vertical-align: middle;
              display: table-cell;
 
