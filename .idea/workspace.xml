@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
     </list>
@@ -82,8 +82,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+            <state relative-caret-position="152">
+              <caret line="91" column="31" lean-forward="false" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -1474,14 +1474,7 @@
       <workItem from="1498313525355" duration="476000" />
       <workItem from="1498323283408" duration="1655000" />
       <workItem from="1498404122315" duration="6902000" />
-      <workItem from="1498475666040" duration="10993000" />
-    </task>
-    <task id="LOCAL-00757" summary="ie bug fixed">
-      <created>1498156681129</created>
-      <option name="number" value="00757" />
-      <option name="presentableId" value="LOCAL-00757" />
-      <option name="project" value="LOCAL" />
-      <updated>1498156681129</updated>
+      <workItem from="1498475666040" duration="11030000" />
     </task>
     <task id="LOCAL-00758" summary="dupdated">
       <created>1498157277222</created>
@@ -1819,11 +1812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498494891147</updated>
     </task>
-    <option name="localTasksCounter" value="806" />
+    <task id="LOCAL-00806" summary="test">
+      <created>1498494914705</created>
+      <option name="number" value="00806" />
+      <option name="presentableId" value="LOCAL-00806" />
+      <option name="project" value="LOCAL" />
+      <updated>1498494914705</updated>
+    </task>
+    <option name="localTasksCounter" value="807" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="816608000" />
+    <option name="totallyTimeSpent" value="816645000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2372,8 +2372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="108" column="20" lean-forward="false" selection-start-line="108" selection-start-column="20" selection-end-line="108" selection-end-column="20" />
+        <state relative-caret-position="152">
+          <caret line="91" column="31" lean-forward="false" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
           <folding />
         </state>
       </provider>
