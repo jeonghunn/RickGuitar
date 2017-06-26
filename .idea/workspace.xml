@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/square.php" afterPath="$PROJECT_DIR$/pages/square.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,8 +82,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="94" column="18" lean-forward="false" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="18" />
+            <state relative-caret-position="212">
+              <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -255,8 +255,8 @@
         <option value="$PROJECT_DIR$/modules/square/controller/birthday.class.php" />
         <option value="$PROJECT_DIR$/pages/info.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
-        <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/square.php" />
+        <option value="$PROJECT_DIR$/pages/header.php" />
       </list>
     </option>
   </component>
@@ -1474,14 +1474,7 @@
       <workItem from="1498313525355" duration="476000" />
       <workItem from="1498323283408" duration="1655000" />
       <workItem from="1498404122315" duration="6902000" />
-      <workItem from="1498475666040" duration="10940000" />
-    </task>
-    <task id="LOCAL-00755" summary="alpha ver">
-      <created>1498155868127</created>
-      <option name="number" value="00755" />
-      <option name="presentableId" value="LOCAL-00755" />
-      <option name="project" value="LOCAL" />
-      <updated>1498155868127</updated>
+      <workItem from="1498475666040" duration="10970000" />
     </task>
     <task id="LOCAL-00756" summary="XSS pateched">
       <created>1498156148432</created>
@@ -1819,11 +1812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498494832280</updated>
     </task>
-    <option name="localTasksCounter" value="804" />
+    <task id="LOCAL-00804" summary="test">
+      <created>1498494860804</created>
+      <option name="number" value="00804" />
+      <option name="presentableId" value="LOCAL-00804" />
+      <option name="project" value="LOCAL" />
+      <updated>1498494860804</updated>
+    </task>
+    <option name="localTasksCounter" value="805" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="816555000" />
+    <option name="totallyTimeSpent" value="816585000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2372,8 +2372,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="94" column="18" lean-forward="false" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="18" />
+        <state relative-caret-position="212">
+          <caret line="95" column="30" lean-forward="false" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
           <folding />
         </state>
       </provider>
