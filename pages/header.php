@@ -104,7 +104,6 @@
          }
 
          .centered {
-             position: absolute;
              display: table;
              display: table-cell;
              vertical-align: middle;
