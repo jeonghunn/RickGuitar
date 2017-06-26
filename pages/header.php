@@ -95,7 +95,7 @@
              width:440px;
              min-height: 440px;
              margin-top: 24px;
-             vertical-align: center;
+
 
          }
 
@@ -105,10 +105,10 @@
          }
 
          .centered {
-             display: table;
-             display: table-cell;
-
-             text-align: center;
+             height: auto;
+             margin: 0 auto;
+             padding: 10px;
+             position: relative;
          }
 
 
