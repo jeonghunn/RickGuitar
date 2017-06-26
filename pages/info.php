@@ -45,14 +45,7 @@
     }
 </style>
 
-<style is="custom-style">
-    .flex-horizontal {
-        @apply(--layout-horizontal);
-    }
-    .flexchild {
-        @apply(--layout-flex);
-    }
-</style>
+
 
 
 
@@ -68,7 +61,7 @@
     <br><br>
 
           <p>2017.6.18 개발 시작</p>
-          <p>2017.6.23 Alpha Ver</p>
+    <p>2017.6.23 Alpha Ver, Birthday</p>
 
 
 </div>
