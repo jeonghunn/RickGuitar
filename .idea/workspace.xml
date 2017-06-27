@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="client wiki part updated">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/square.php" afterPath="$PROJECT_DIR$/pages/square.php" />
@@ -27,8 +27,8 @@
             <file leaf-file-name="square.php" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/pages/square.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="149">
-                    <caret line="162" column="64" lean-forward="false" selection-start-line="162" selection-start-column="64" selection-end-line="162" selection-end-column="64" />
+                  <state relative-caret-position="172">
+                    <caret line="185" column="35" lean-forward="false" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
                     <folding />
                   </state>
                 </provider>
@@ -59,12 +59,12 @@
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1498585530000" expanded="true" signature="6286:6340" ph="..." />
-                <marker date="1498585530000" expanded="true" signature="6499:6631" ph="SELECT * FRO... favorite" />
-                <marker date="1498585530000" expanded="true" signature="6683:6815" ph="SELECT * FRO... favorite" />
-                <marker date="1498585530000" expanded="true" signature="6866:6917" ph="SELECT * FRO... pages" />
+                <marker date="1498585633000" expanded="true" signature="6289:6343" ph="..." />
+                <marker date="1498585633000" expanded="true" signature="6502:6634" ph="SELECT * FRO... favorite" />
+                <marker date="1498585633000" expanded="true" signature="6686:6818" ph="SELECT * FRO... favorite" />
+                <marker date="1498585633000" expanded="true" signature="6869:6920" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -1462,14 +1462,7 @@
       <workItem from="1498323283408" duration="1655000" />
       <workItem from="1498404122315" duration="6902000" />
       <workItem from="1498475666040" duration="13031000" />
-      <workItem from="1498580425724" duration="4823000" />
-    </task>
-    <task id="LOCAL-00766" summary="test">
-      <created>1498409028776</created>
-      <option name="number" value="00766" />
-      <option name="presentableId" value="LOCAL-00766" />
-      <option name="project" value="LOCAL" />
-      <updated>1498409028777</updated>
+      <workItem from="1498580425724" duration="4926000" />
     </task>
     <task id="LOCAL-00767" summary="development mode updated">
       <created>1498409974796</created>
@@ -1807,11 +1800,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498585112323</updated>
     </task>
-    <option name="localTasksCounter" value="815" />
+    <task id="LOCAL-00815" summary="client wiki part updated">
+      <created>1498585563315</created>
+      <option name="number" value="00815" />
+      <option name="presentableId" value="LOCAL-00815" />
+      <option name="project" value="LOCAL" />
+      <updated>1498585563315</updated>
+    </task>
+    <option name="localTasksCounter" value="816" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="823469000" />
+    <option name="totallyTimeSpent" value="823572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1919,7 +1919,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="page square updated" />
     <MESSAGE value="loaded bug fixed" />
     <MESSAGE value="card updated" />
     <MESSAGE value="main updated" />
@@ -1944,7 +1943,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="vertical center" />
     <MESSAGE value="birthday class added" />
-    <option name="LAST_COMMIT_MESSAGE" value="birthday class added" />
+    <MESSAGE value="client wiki part updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="client wiki part updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2356,8 +2356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="162" column="64" lean-forward="false" selection-start-line="162" selection-start-column="64" selection-end-line="162" selection-end-column="64" />
+        <state relative-caret-position="172">
+          <caret line="185" column="35" lean-forward="false" selection-start-line="185" selection-start-column="35" selection-end-line="185" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -2365,12 +2365,12 @@
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1498585530000" expanded="true" signature="6286:6340" ph="..." />
-            <marker date="1498585530000" expanded="true" signature="6499:6631" ph="SELECT * FRO... favorite" />
-            <marker date="1498585530000" expanded="true" signature="6683:6815" ph="SELECT * FRO... favorite" />
-            <marker date="1498585530000" expanded="true" signature="6866:6917" ph="SELECT * FRO... pages" />
+            <marker date="1498585633000" expanded="true" signature="6289:6343" ph="..." />
+            <marker date="1498585633000" expanded="true" signature="6502:6634" ph="SELECT * FRO... favorite" />
+            <marker date="1498585633000" expanded="true" signature="6686:6818" ph="SELECT * FRO... favorite" />
+            <marker date="1498585633000" expanded="true" signature="6869:6920" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
