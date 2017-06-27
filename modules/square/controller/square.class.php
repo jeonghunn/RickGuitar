@@ -110,13 +110,35 @@ class SquareClass
 
 //require attach_class.php
 
-    function Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $permission, $status, $privacy)
+    function Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $square_cards, $permission, $status, $privacy)
     {
 //Check Value security
         security_value_check($title);
         security_value_check($content);
-//Start
-//	$user_srl = AuthCheck($user_srl, false);
+
+        $WriteResult = null;
+
+        //ToArray
+        $data_array = json_decode($data, true);
+        $square_cards_array = json_decode($square_cards, true);
+
+        //GETResult of doc
+        if ($type == "birthday") {
+            $BIRTHDAY_CLASS = new BirthdayClass();
+            $WriteResult = $BIRTHDAY_CLASS->getWriteResult($title, $content, $data_array, $square_cards_array);
+
+        }
+
+        //Set WriteResult
+        if ($WriteResult != null) {
+            $title = $WriteResult[0];
+            $content = $WriteResult[1];
+            $data = json_encode($WriteResult[2]);
+            $square_cards = json_encode($WriteResult[3]);
+
+        }
+
+
         $result = false;
         $relation_status = setRelationStatus($user_srl, $page_srl);
         $user_info = $PAGE_CLASS -> GetPageInfo($user_srl);
@@ -126,6 +148,8 @@ class SquareClass
         $square_key = GenerateString(12);
         if ($type != "" && ($relation_status != -1 && $relation_status >= $page_info['write_status'] && $page_info != null) || ($page_srl == 0)) {
             $attach_result = $ATTACH_CLASS->attach_file("square", $page_srl, $last_number, $user_srl, $status);
+
+
             $result = Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $content, $type, $data, $permission, $status, $privacy, $attach_result);
 
             //  if (getIPAddr() != $page_info['ip_addr']) $PAGE_CLASS -> updatePopularity($user_srl, $page_srl, 1);

@@ -63,7 +63,7 @@ class SquareApiClass{
         $status = REQUEST('status');
         $privacy = REQUEST('privacy');
 
-        $square_write = $SQUARE_CLASS->Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $permission, $status, $privacy);
+        $square_write = $SQUARE_CLASS->Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, null, $permission, $status, $privacy);
 
         echo json_encode($square_write);
 

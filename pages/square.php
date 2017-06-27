@@ -37,19 +37,6 @@ $lifehour = floor($lifetime / 60);
 $lifemin = $lifetime % 60;
 
 
-$wikicon = file_get_contents('http://ko.m.wikipedia.org/wiki/' . $birthday_month . '월_' . $birthday_day . '일');
-
-$DOM = new DOMDocument;
-$DOM->loadHTML(mb_convert_encoding($wikicon, 'HTML-ENTITIES', 'UTF-8'));
-
-//get all H1
-$items = $DOM->getElementsByTagName('ul');
-
-//  echo "<ul>".$items->item(1)->nodeValue."</ul>";
-
-$itr = $items->item(1);
-
-
 function remain($d)
 {
     $day = strtotime($d);
