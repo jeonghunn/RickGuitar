@@ -38,6 +38,7 @@ class BirthdayClass
 
         $itr = $items->item(1);
 
+        if ($wikicon == null) return false;
         if ($itr->hasChildNodes()) {
             $array = $itr->childNodes;
 
