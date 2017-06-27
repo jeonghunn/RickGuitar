@@ -15,7 +15,7 @@ class BirthdayClass
 
         $wiki_result = $this->getWikipediaResult($birthday_month, $birthday_day);
 
-        $square_data[] = array("birthday_wiki" => $wiki_result);
+        // $square_data[] = array_merge($square_data, array("birthday_wiki" => $wiki_result));
 
 
         return array($title, $content, $square_data, $square_cards);
