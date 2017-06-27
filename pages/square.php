@@ -8,6 +8,8 @@ $birthday_year = $square_data['birthday_year'];
 $birthday_month = $square_data['birthday_month'];
 $birthday_day = $square_data['birthday_day'];
 $birthday_contents = $square_data['birthday_contents'];
+$birthday_wiki = $square_data['birthday_wiki'];
+$birthday_wiki_array = json_decode($birthday_wiki, true);
 
 $year = date("Y");
 $month = date("n");
@@ -180,12 +182,33 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
             <hr>
             <?php
 
-            if ($itr->hasChildNodes()) {
-                $childs = $itr->childNodes;
-                foreach ($childs as $i) {
+
+            if ($birthday_wiki != null) {
+
+                foreach ($birthday_wiki_array as $i) {
                     echo $i->nodeValue . "<br />";
                 }
+
+            } else {
+
+                $wikicon = file_get_contents('http://ko.m.wikipedia.org/wiki/' . $birthday_month . '월_' . $birthday_day . '일');
+
+                $DOM = new DOMDocument;
+                $DOM->loadHTML(mb_convert_encoding($wikicon, 'HTML-ENTITIES', 'UTF-8'));
+
+//get all H1
+                $items = $DOM->getElementsByTagName('ul');
+
+
+                if ($itr->hasChildNodes()) {
+                    $childs = $itr->childNodes;
+                    foreach ($childs as $i) {
+                        echo $i->nodeValue . "<br />";
+                    }
+                }
             }
+
+
 
             ?>
 
