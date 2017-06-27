@@ -191,7 +191,7 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
 
             } else {
 
-                echo "This is not from db";
+
 
                 $wikicon = file_get_contents('http://ko.m.wikipedia.org/wiki/' . $birthday_month . '월_' . $birthday_day . '일');
 
@@ -202,6 +202,9 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
                 $items = $DOM->getElementsByTagName('ul');
 
 
+                $itr = $items->item(1);
+
+
                 if ($itr->hasChildNodes()) {
                     $childs = $itr->childNodes;
                     foreach ($childs as $i) {
@@ -209,7 +212,6 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
                     }
                 }
             }
-
 
 
             ?>
