@@ -123,7 +123,7 @@ class SquareClass
         $data_array = ReadJson($data);
         $square_cards_array = ReadJson($square_cards);
 
-
+        echo $data;
         //GETResult of doc
         if ($type == "birthday") {
             $BIRTHDAY_CLASS = new BirthdayClass();
@@ -136,7 +136,7 @@ class SquareClass
             $title = $WriteResult[0];
             $content = $WriteResult[1];
             $data = json_encode($WriteResult[2]);
-            echo $data;
+
             $square_cards = json_encode($WriteResult[3]);
 
         }
