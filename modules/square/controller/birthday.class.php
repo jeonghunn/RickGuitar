@@ -17,8 +17,6 @@ class BirthdayClass
 
         // $square_data[] = array_merge($square_data, array("birthday_wiki" => $wiki_result));
 
-        print_r($square_data);
-
 
         return array($title, $content, $square_data, $square_cards);
     }
