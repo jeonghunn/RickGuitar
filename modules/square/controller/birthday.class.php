@@ -43,7 +43,7 @@ class BirthdayClass
         if ($itr->hasChildNodes()) {
             $childs = $itr->childNodes;
             foreach ($childs as $i) {
-                $array[] = $i->nodeValue;
+                $array[] = array($i->nodeValue);
             }
 
         }
