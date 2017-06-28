@@ -11,7 +11,7 @@ $birthday_contents = $square_data['birthday_contents'];
 $birthday_wiki = $square_data['birthday_wiki'];
 $birthday_wiki_array = $birthday_wiki;
 
-print_r($birthday_wiki_array);
+print_r($birthday_wiki);
 echo "dsffs";
 
 $year = date("Y");
