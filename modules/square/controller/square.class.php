@@ -122,7 +122,7 @@ class SquareClass
         $data_array = json_decode($data, true);
         $square_cards_array = json_decode($square_cards, true);
 
-        echo $data;
+        print_r($data_array);
 
         //GETResult of doc
         if ($type == "birthday") {
