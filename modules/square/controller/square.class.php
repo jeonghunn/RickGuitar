@@ -118,13 +118,10 @@ class SquareClass
 
         $WriteResult = null;
 
-        echo $data;
 
         //ToArray
         $data_array = ReadJson($data);
         $square_cards_array = ReadJson($square_cards);
-
-        print_r($data_array);
 
         //GETResult of doc
         if ($type == "birthday") {
