@@ -118,6 +118,8 @@ class SquareClass
 
         $WriteResult = null;
 
+        echo $data;
+
         //ToArray
         $data_array = json_decode($data, true);
         $square_cards_array = json_decode($square_cards, true);
