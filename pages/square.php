@@ -186,9 +186,12 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
 
             if ($birthday_wiki != "") {
 
-                foreach ($birthday_wiki_array as $i) {
-                    echo $birthday_wiki_array[0] . "<br />";
+                for ($i = 0; $i < count($birthday_wiki_array), $i++;) {
+
+                    echo $birthday_wiki_array[$i] . "<br />";
+
                 }
+
 
             } else {
 
