@@ -121,7 +121,7 @@ class SquareClass
         echo $data;
 
         //ToArray
-        $data_array = json_decode($data, true);
+        $data_array = json_decode('{\"birthday_name\":\"박순윤\",\"birthday_year\":\"1984\",\"birthday_month\":\"10\",\"birthday_day\":\"18\",\"birthday_contents\":\"\"}', true);
         $square_cards_array = json_decode($square_cards, true);
 
         print_r($data_array);
