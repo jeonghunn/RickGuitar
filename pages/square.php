@@ -11,7 +11,6 @@ $birthday_contents = $square_data['birthday_contents'];
 $birthday_wiki = $square_data['birthday_wiki'];
 $birthday_wiki_array = json_decode($birthday_wiki, true);
 
-echo $birthday_wiki_array[0];
 
 $year = date("Y");
 $month = date("n");
@@ -188,7 +187,7 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
             if ($birthday_wiki != "") {
 
                 foreach ($birthday_wiki_array as $i) {
-                    echo $birthday_wiki_array[$i];
+                    echo $birthday_wiki_array[0] . "<br />";
                 }
 
             } else {
