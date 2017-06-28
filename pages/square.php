@@ -9,7 +9,7 @@ $birthday_month = $square_data['birthday_month'];
 $birthday_day = $square_data['birthday_day'];
 $birthday_contents = $square_data['birthday_contents'];
 $birthday_wiki = $square_data['birthday_wiki'];
-$birthday_wiki_array = json_decode($birthday_wiki, true);
+$birthday_wiki_array = $birthday_wiki;
 
 $year = date("Y");
 $month = date("n");
