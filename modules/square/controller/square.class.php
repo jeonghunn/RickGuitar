@@ -135,6 +135,8 @@ class SquareClass
         if ($WriteResult != null) {
             $title = $WriteResult[0];
             $content = $WriteResult[1];
+
+            print_r($WriteResult[2]);
             $data = json_encode($WriteResult[2]);
             $square_cards = json_encode($WriteResult[3]);
 
