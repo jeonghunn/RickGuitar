@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="birthday wiki updated">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/square.php" afterPath="$PROJECT_DIR$/pages/square.php" />
     </list>
@@ -26,8 +26,8 @@
             <file leaf-file-name="square.php" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/pages/square.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="366">
-                    <caret line="195" column="16" lean-forward="false" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
+                  <state relative-caret-position="261">
+                    <caret line="188" column="67" lean-forward="false" selection-start-line="188" selection-start-column="67" selection-end-line="188" selection-end-column="67" />
                     <folding />
                   </state>
                 </provider>
@@ -101,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/modules/square/square.loader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -1460,14 +1460,7 @@
       <workItem from="1498404122315" duration="6902000" />
       <workItem from="1498475666040" duration="13031000" />
       <workItem from="1498580425724" duration="7742000" />
-      <workItem from="1498648987084" duration="11037000" />
-    </task>
-    <task id="LOCAL-00812" summary="vertical center">
-      <created>1498495391703</created>
-      <option name="number" value="00812" />
-      <option name="presentableId" value="LOCAL-00812" />
-      <option name="project" value="LOCAL" />
-      <updated>1498495391703</updated>
+      <workItem from="1498648987084" duration="11119000" />
     </task>
     <task id="LOCAL-00813" summary="vertical center">
       <created>1498495490416</created>
@@ -1805,11 +1798,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498665336072</updated>
     </task>
-    <option name="localTasksCounter" value="861" />
+    <task id="LOCAL-00861" summary="birthday wiki updated">
+      <created>1498665659191</created>
+      <option name="number" value="00861" />
+      <option name="presentableId" value="LOCAL-00861" />
+      <option name="project" value="LOCAL" />
+      <updated>1498665659191</updated>
+    </task>
+    <option name="localTasksCounter" value="862" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="837425000" />
+    <option name="totallyTimeSpent" value="837507000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2382,18 +2382,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/square.loader.php">
+    <entry file="file://$PROJECT_DIR$/pages/square.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="63" lean-forward="true" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+        <state relative-caret-position="261">
+          <caret line="188" column="67" lean-forward="false" selection-start-line="188" selection-start-column="67" selection-end-line="188" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square.php">
+    <entry file="file://$PROJECT_DIR$/modules/square/square.loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="195" column="16" lean-forward="false" selection-start-line="195" selection-start-column="16" selection-end-line="195" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding />
         </state>
       </provider>
