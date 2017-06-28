@@ -11,6 +11,8 @@ $birthday_contents = $square_data['birthday_contents'];
 $birthday_wiki = $square_data['birthday_wiki'];
 $birthday_wiki_array = json_decode($birthday_wiki, true);
 
+echo $birthday_wiki;
+
 $year = date("Y");
 $month = date("n");
 $day = date("j");
