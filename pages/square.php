@@ -12,6 +12,7 @@ $birthday_wiki = $square_data['birthday_wiki'];
 $birthday_wiki_array = $birthday_wiki;
 
 print_r($birthday_wiki_array);
+echo "dsffs";
 
 $year = date("Y");
 $month = date("n");
