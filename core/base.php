@@ -276,10 +276,15 @@ function print_array($row)
 {
 
 
-    echo json_encode($row, JSON_UNESCAPED_UNICODE);
+    echo EncodeJson($row);
 
 
 
+}
+
+function EncodeJson($array)
+{
+    return json_encode($array, JSON_UNESCAPED_UNICODE);
 }
 
     function ExplodeInfoValue($info){
