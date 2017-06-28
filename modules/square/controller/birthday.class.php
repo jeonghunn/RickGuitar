@@ -14,8 +14,9 @@ class BirthdayClass
         $birthday_contents = $square_data['birthday_contents'];
 
         $wiki_result = $this->getWikipediaResult($birthday_month, $birthday_day);
+        $wiki_result_json = json_encode($wiki_result);
 
-        $square_data = array_merge($square_data, array("birthday_wiki" => json_encode($wiki_result)));
+        $square_data = array_merge($square_data, array("birthday_wiki" => $wiki_result_json));
 
 
         return array($title, $content, $square_data, $square_cards);
