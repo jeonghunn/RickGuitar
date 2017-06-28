@@ -37,10 +37,14 @@ class BirthdayClass
 //  echo "<ul>".$items->item(1)->nodeValue."</ul>";
 
         $itr = $items->item(1);
+        $array = array();
 
         if ($wikicon == null) return false;
         if ($itr->hasChildNodes()) {
-            $array = $itr->childNodes;
+            $childs = $itr->childNodes;
+            foreach ($childs as $i) {
+                $array[] = $i->nodeValue;
+            }
 
         }
 

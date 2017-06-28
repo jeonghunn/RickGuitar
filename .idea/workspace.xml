@@ -26,8 +26,8 @@
             <file leaf-file-name="square.php" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/pages/square.php">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="435">
-                    <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+                  <state relative-caret-position="512">
+                    <caret line="208" column="47" lean-forward="true" selection-start-line="208" selection-start-column="20" selection-end-line="208" selection-end-column="47" />
                     <folding />
                   </state>
                 </provider>
@@ -146,8 +146,8 @@
       <file leaf-file-name="birthday.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="421">
+              <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -1476,14 +1476,7 @@
       <workItem from="1498404122315" duration="6902000" />
       <workItem from="1498475666040" duration="13031000" />
       <workItem from="1498580425724" duration="7742000" />
-      <workItem from="1498648987084" duration="5489000" />
-    </task>
-    <task id="LOCAL-00794" summary="test">
-      <created>1498493847117</created>
-      <option name="number" value="00794" />
-      <option name="presentableId" value="LOCAL-00794" />
-      <option name="project" value="LOCAL" />
-      <updated>1498493847117</updated>
+      <workItem from="1498648987084" duration="5697000" />
     </task>
     <task id="LOCAL-00795" summary="test">
       <created>1498493899129</created>
@@ -1821,11 +1814,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498656762032</updated>
     </task>
-    <option name="localTasksCounter" value="843" />
+    <task id="LOCAL-00843" summary=" wiki updated">
+      <created>1498656824583</created>
+      <option name="number" value="00843" />
+      <option name="presentableId" value="LOCAL-00843" />
+      <option name="project" value="LOCAL" />
+      <updated>1498656824583</updated>
+    </task>
+    <option name="localTasksCounter" value="844" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="831877000" />
+    <option name="totallyTimeSpent" value="832085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1933,7 +1933,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="square write updated" />
     <MESSAGE value="square write bug fixed" />
     <MESSAGE value="write method updated" />
     <MESSAGE value="square_read updated" />
@@ -1958,7 +1957,8 @@
     <MESSAGE value="birthday_wiki test" />
     <MESSAGE value="bug fixed" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value=" wiki updated" />
+    <option name="LAST_COMMIT_MESSAGE" value=" wiki updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2357,14 +2357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -2405,10 +2397,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="208" column="47" lean-forward="true" selection-start-line="208" selection-start-column="20" selection-end-line="208" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="421">
+          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
           <folding />
         </state>
       </provider>
