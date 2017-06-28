@@ -136,7 +136,6 @@ class SquareClass
             $title = $WriteResult[0];
             $content = $WriteResult[1];
             $data = EncodeJson($WriteResult[2]);
-            echo $data;
             $square_cards = EncodeJson($WriteResult[3]);
 
         }

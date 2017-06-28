@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/square/controller/square.class.php" afterPath="$PROJECT_DIR$/modules/square/controller/square.class.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -74,10 +73,10 @@
             <state relative-caret-position="296">
               <caret line="284" column="19" lean-forward="false" selection-start-line="284" selection-start-column="9" selection-end-line="284" selection-end-column="19" />
               <folding>
-                <marker date="1498656466000" expanded="true" signature="6349:6403" ph="..." />
-                <marker date="1498656466000" expanded="true" signature="6562:6694" ph="SELECT * FRO... favorite" />
-                <marker date="1498656466000" expanded="true" signature="6746:6878" ph="SELECT * FRO... favorite" />
-                <marker date="1498656466000" expanded="true" signature="6929:6980" ph="SELECT * FRO... pages" />
+                <marker date="1498656485000" expanded="true" signature="6351:6405" ph="..." />
+                <marker date="1498656485000" expanded="true" signature="6564:6696" ph="SELECT * FRO... favorite" />
+                <marker date="1498656485000" expanded="true" signature="6748:6880" ph="SELECT * FRO... favorite" />
+                <marker date="1498656485000" expanded="true" signature="6931:6982" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -157,16 +156,16 @@
       <file leaf-file-name="square.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="139" column="38" lean-forward="false" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
+            <state relative-caret-position="202">
+              <caret line="137" column="48" lean-forward="false" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
               <folding>
-                <marker date="1498656481000" expanded="true" signature="1651:1692" ph="SELECT * FRO... documents" />
-                <marker date="1498656481000" expanded="true" signature="2225:2312" ph="UPDATE `docu... " />
-                <marker date="1498656481000" expanded="true" signature="2845:3127" ph="INSERT INTO `documents`... " />
-                <marker date="1498656481000" expanded="true" signature="5346:5438" ph="UPDATE `page... " />
-                <marker date="1498656481000" expanded="true" signature="6988:7162" ph="SELECT * FRO... documents" />
-                <marker date="1498656481000" expanded="true" signature="8102:8249" ph="SELECT * FRO... documents" />
-                <marker date="1498656481000" expanded="true" signature="8794:8957" ph="SELECT * FRO... documents" />
+                <marker date="1498656756000" expanded="true" signature="1651:1692" ph="SELECT * FRO... documents" />
+                <marker date="1498656756000" expanded="true" signature="2225:2312" ph="UPDATE `docu... " />
+                <marker date="1498656756000" expanded="true" signature="2845:3127" ph="INSERT INTO `documents`... " />
+                <marker date="1498656756000" expanded="true" signature="5322:5414" ph="UPDATE `page... " />
+                <marker date="1498656756000" expanded="true" signature="6964:7138" ph="SELECT * FRO... documents" />
+                <marker date="1498656756000" expanded="true" signature="8078:8225" ph="SELECT * FRO... documents" />
+                <marker date="1498656756000" expanded="true" signature="8770:8933" ph="SELECT * FRO... documents" />
               </folding>
             </state>
           </provider>
@@ -1477,14 +1476,7 @@
       <workItem from="1498404122315" duration="6902000" />
       <workItem from="1498475666040" duration="13031000" />
       <workItem from="1498580425724" duration="7742000" />
-      <workItem from="1498648987084" duration="5285000" />
-    </task>
-    <task id="LOCAL-00792" summary="test">
-      <created>1498493677653</created>
-      <option name="number" value="00792" />
-      <option name="presentableId" value="LOCAL-00792" />
-      <option name="project" value="LOCAL" />
-      <updated>1498493677653</updated>
+      <workItem from="1498648987084" duration="5440000" />
     </task>
     <task id="LOCAL-00793" summary="test">
       <created>1498493740009</created>
@@ -1822,11 +1814,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498656349879</updated>
     </task>
-    <option name="localTasksCounter" value="841" />
+    <task id="LOCAL-00841" summary="test">
+      <created>1498656500706</created>
+      <option name="number" value="00841" />
+      <option name="presentableId" value="LOCAL-00841" />
+      <option name="project" value="LOCAL" />
+      <updated>1498656500706</updated>
+    </task>
+    <option name="localTasksCounter" value="842" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="831673000" />
+    <option name="totallyTimeSpent" value="831828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2379,10 +2378,10 @@
         <state relative-caret-position="296">
           <caret line="284" column="19" lean-forward="false" selection-start-line="284" selection-start-column="9" selection-end-line="284" selection-end-column="19" />
           <folding>
-            <marker date="1498656466000" expanded="true" signature="6349:6403" ph="..." />
-            <marker date="1498656466000" expanded="true" signature="6562:6694" ph="SELECT * FRO... favorite" />
-            <marker date="1498656466000" expanded="true" signature="6746:6878" ph="SELECT * FRO... favorite" />
-            <marker date="1498656466000" expanded="true" signature="6929:6980" ph="SELECT * FRO... pages" />
+            <marker date="1498656485000" expanded="true" signature="6351:6405" ph="..." />
+            <marker date="1498656485000" expanded="true" signature="6564:6696" ph="SELECT * FRO... favorite" />
+            <marker date="1498656485000" expanded="true" signature="6748:6880" ph="SELECT * FRO... favorite" />
+            <marker date="1498656485000" expanded="true" signature="6931:6982" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
@@ -2400,16 +2399,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="139" column="38" lean-forward="false" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
+        <state relative-caret-position="202">
+          <caret line="137" column="48" lean-forward="false" selection-start-line="137" selection-start-column="48" selection-end-line="137" selection-end-column="48" />
           <folding>
-            <marker date="1498656481000" expanded="true" signature="1651:1692" ph="SELECT * FRO... documents" />
-            <marker date="1498656481000" expanded="true" signature="2225:2312" ph="UPDATE `docu... " />
-            <marker date="1498656481000" expanded="true" signature="2845:3127" ph="INSERT INTO `documents`... " />
-            <marker date="1498656481000" expanded="true" signature="5346:5438" ph="UPDATE `page... " />
-            <marker date="1498656481000" expanded="true" signature="6988:7162" ph="SELECT * FRO... documents" />
-            <marker date="1498656481000" expanded="true" signature="8102:8249" ph="SELECT * FRO... documents" />
-            <marker date="1498656481000" expanded="true" signature="8794:8957" ph="SELECT * FRO... documents" />
+            <marker date="1498656756000" expanded="true" signature="1651:1692" ph="SELECT * FRO... documents" />
+            <marker date="1498656756000" expanded="true" signature="2225:2312" ph="UPDATE `docu... " />
+            <marker date="1498656756000" expanded="true" signature="2845:3127" ph="INSERT INTO `documents`... " />
+            <marker date="1498656756000" expanded="true" signature="5322:5414" ph="UPDATE `page... " />
+            <marker date="1498656756000" expanded="true" signature="6964:7138" ph="SELECT * FRO... documents" />
+            <marker date="1498656756000" expanded="true" signature="8078:8225" ph="SELECT * FRO... documents" />
+            <marker date="1498656756000" expanded="true" signature="8770:8933" ph="SELECT * FRO... documents" />
           </folding>
         </state>
       </provider>
