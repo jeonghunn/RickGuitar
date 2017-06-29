@@ -20,6 +20,10 @@ $L['contributors'] = 'Contributors';
 $L['update_info'] = 'Update Info';
 $L['haru_point'] = 'p';
 
+//Menu
+$L['birthday'] = 'Birthday';
+$L['acrostic'] = 'Acrostic';
+
 //info
 $L['show_all_contributors'] = 'Show All Contributors';
 

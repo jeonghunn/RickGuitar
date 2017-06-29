@@ -19,6 +19,10 @@ $L['contributors'] = '기여자';
 $L['update_info'] = '정보 갱신';
 $L['haru_point'] = '점';
 
+//Menu
+$L['birthday'] = '생일';
+$L['acrostic'] = '삼행시';
+
 //info
 $L['show_all_contributors'] = '모든 기여자 목록 보기';
 
