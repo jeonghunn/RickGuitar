@@ -54,13 +54,15 @@
 
 <script>
 
-    function writeAct() {
 
+    function writeAct() {
+        setbuttonstatus(false);
         var birthday_name = document.getElementById("name").value;
         var birthday_year = document.getElementById("year").value;
         var birthday_month = document.getElementById("month").value;
         var birthday_day = document.getElementById("day").value;
         var content = document.getElementById("contents").value;
+
 
 
         if (birthday_name == '') {
@@ -91,6 +93,8 @@
                 "data": data
             },
             success: function (data) {
+                setbuttonstatus(true);
+
                 if (data.indexOf('success') >= 0) {
 
                     var Result = JSON.parse(data);
@@ -106,6 +110,7 @@
             },
 
             error: function (jqXHR) {
+                setbuttonstatus(true);
                 alert('죄송합니다. 뭔가 문제가 있는거 같아요. 잠시 후에 다시 시도해주세요 ㅠㅠ 문의 : jeonghunn1@gmail.com');
             }
 
@@ -113,6 +118,17 @@
 
 
         });
+    }
+
+
+    function setbuttonstatus(status) {
+
+        if (status) {
+            $('button').prop('disabled', false);
+        } else {
+            $('button').prop('disabled', true);
+        }
+
     }
 
 
