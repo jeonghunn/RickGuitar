@@ -1,8 +1,8 @@
 <?php
 
 //Service Name
-$L['app_name'] = '생축';
-$L['app_full_name'] = '생일 축하합니다!';
+$L['app_name'] = 'Square';
+$L['app_full_name'] = 'Square';
 
 //Public
 $L['info'] = '정보';
