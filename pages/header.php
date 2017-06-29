@@ -89,6 +89,7 @@
 
          .outer {
              display: table;
+             width: 440px;
              margin-top: 24px;
          }
 
