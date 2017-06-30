@@ -154,6 +154,7 @@ class SquareClass
 
             $result = Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $content, $type, $data, $permission, $status, $privacy, $attach_result);
 
+            echo "RAN";
             //  if (getIPAddr() != $page_info['ip_addr']) $PAGE_CLASS -> updatePopularity($user_srl, $page_srl, 1);
 //Set last update
             DBQuery("UPDATE `pages` SET `last_update` = '" . getTimeStamp() . "'   WHERE `user_srl` = '$page_srl'");
