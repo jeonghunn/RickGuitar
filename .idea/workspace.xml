@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/square/controller/square.class.php" afterPath="$PROJECT_DIR$/modules/square/controller/square.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/square/model/square.model.php" afterPath="$PROJECT_DIR$/modules/square/model/square.model.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -129,15 +129,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square.model.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="square.model.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="100" lean-forward="false" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
+            <state relative-caret-position="180">
+              <caret line="12" column="393" lean-forward="false" selection-start-line="12" selection-start-column="393" selection-end-line="12" selection-end-column="393" />
               <folding>
-                <marker date="1498147781000" expanded="true" signature="299:679" ph="INSERT INTO `square`... " />
-                <marker date="1498147781000" expanded="true" signature="778:840" ph="SELECT * FRO... square" />
-                <marker date="1498147781000" expanded="true" signature="925:993" ph="UPDATE `squa... " />
+                <marker date="1498849100000" expanded="true" signature="290:670" ph="INSERT INTO `square`... " />
+                <marker date="1498849100000" expanded="true" signature="694:1074" ph="INSERT INTO `square`... " />
+                <marker date="1498849100000" expanded="true" signature="1173:1235" ph="SELECT * FRO... square" />
+                <marker date="1498849100000" expanded="true" signature="1320:1388" ph="UPDATE `squa... " />
               </folding>
             </state>
           </provider>
@@ -233,7 +234,6 @@
         <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/core/permission.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
-        <option value="$PROJECT_DIR$/modules/square/model/square.model.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/pages/info.php" />
         <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
@@ -251,6 +251,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/birthday/birthday_write.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
+        <option value="$PROJECT_DIR$/modules/square/model/square.model.php" />
       </list>
     </option>
   </component>
@@ -1486,14 +1487,7 @@
       <workItem from="1498580425724" duration="7742000" />
       <workItem from="1498648987084" duration="14462000" />
       <workItem from="1498746571962" duration="12005000" />
-      <workItem from="1498814724486" duration="16441000" />
-    </task>
-    <task id="LOCAL-00830" summary="test">
-      <created>1498652132872</created>
-      <option name="number" value="00830" />
-      <option name="presentableId" value="LOCAL-00830" />
-      <option name="project" value="LOCAL" />
-      <updated>1498652132872</updated>
+      <workItem from="1498814724486" duration="16735000" />
     </task>
     <task id="LOCAL-00831" summary="test">
       <created>1498652433142</created>
@@ -1831,11 +1825,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498848413956</updated>
     </task>
-    <option name="localTasksCounter" value="879" />
+    <task id="LOCAL-00879" summary="updated">
+      <created>1498848731277</created>
+      <option name="number" value="00879" />
+      <option name="presentableId" value="LOCAL-00879" />
+      <option name="project" value="LOCAL" />
+      <updated>1498848731277</updated>
+    </task>
+    <option name="localTasksCounter" value="880" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="869296000" />
+    <option name="totallyTimeSpent" value="869590000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1943,7 +1944,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="vertical center" />
     <MESSAGE value="birthday class added" />
     <MESSAGE value="client wiki part updated" />
     <MESSAGE value="wiki bug fixed" />
@@ -1968,7 +1968,8 @@
     <MESSAGE value="birthday updated" />
     <MESSAGE value="bug fixed" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2411,18 +2412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="100" lean-forward="false" selection-start-line="16" selection-start-column="100" selection-end-line="16" selection-end-column="100" />
-          <folding>
-            <marker date="1498147781000" expanded="true" signature="299:679" ph="INSERT INTO `square`... " />
-            <marker date="1498147781000" expanded="true" signature="778:840" ph="SELECT * FRO... square" />
-            <marker date="1498147781000" expanded="true" signature="925:993" ph="UPDATE `squa... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -2448,6 +2437,19 @@
             <marker date="1498848714000" expanded="true" signature="6964:7138" ph="SELECT * FRO... documents" />
             <marker date="1498848714000" expanded="true" signature="8078:8225" ph="SELECT * FRO... documents" />
             <marker date="1498848714000" expanded="true" signature="8770:8933" ph="SELECT * FRO... documents" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="393" lean-forward="false" selection-start-line="12" selection-start-column="393" selection-end-line="12" selection-end-column="393" />
+          <folding>
+            <marker date="1498849100000" expanded="true" signature="290:670" ph="INSERT INTO `square`... " />
+            <marker date="1498849100000" expanded="true" signature="694:1074" ph="INSERT INTO `square`... " />
+            <marker date="1498849100000" expanded="true" signature="1173:1235" ph="SELECT * FRO... square" />
+            <marker date="1498849100000" expanded="true" signature="1320:1388" ph="UPDATE `squa... " />
           </folding>
         </state>
       </provider>
