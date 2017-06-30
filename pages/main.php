@@ -10,7 +10,7 @@
 <br>
           <div class="squarecard">
 
-              <textarea class="form-control" rows="3" placeholder="할 말" id="contents" style="width:70%"></textarea>
+              <textarea class="form-control" rows="3" placeholder="내용" id="contents" style="width:70%"></textarea>
               <br>
           </div>
             <br><br>
