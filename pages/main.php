@@ -4,40 +4,18 @@
 <!-- html -->
     <div class="container">
 
-    <h1 style="font-size: 63px;text-align: center;color: <?php  getTitleColor() ?>;">참신하게 생일을 축하해보세요.</h1>
+        <h1 style="font-size: 63px;text-align: center;color: <?php getTitleColor() ?>;">네모안에 생각을 담아보세요.</h1>
 <br><br>
-        <center><h3 stlye="font-size: 21px;">그 누구도 예상하지 못한 생일축하방법</h3>
+        <center><h3 stlye="font-size: 21px;">글 작성하기</h3>
 <br>
           <div class="squarecard">
-<br>
-                 <h4>축하해줄 사람의 이름, 생일 그리고 할 말을 작성해주세요.</h4>
-<hr>
 
               <div class="input-group input-group-lg">
                   <input type="text" class="form-control" placeholder="이름" id="name" aria-describedby="sizing-addon1">
 
               </div>
 <br>
-              <select name="year" id="year">
-                  <?php for ($a = 2017; $a >= 1940; $a--) {
 
-                      echo "<option value=\"$a\">$a</option>";
-                  } ?>
-
-
-              </select>
-              <select name="month" id="month">
-                  <?php for ($m = 1; $m <= 12; $m++) {
-
-                      echo "<option value=\"$m\">$m</option>";
-                  } ?>
-              </select>
-              <select name="day" id="day">
-                  <?php for ($d = 1; $d <= 31; $d++) {
-
-                      echo "<option value=\"$d\">$d</option>";
-                  } ?>
-              </select>
               <br><br>
 
               <textarea class="form-control" rows="3" placeholder="할 말" id="contents" style="width:70%"></textarea>
