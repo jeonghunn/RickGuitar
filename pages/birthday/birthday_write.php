@@ -103,6 +103,7 @@
 
 
                 } else {
+                    alert(data);
                     alert('죄송합니다. 뭔가 문제가 있는거 같아요. 잠시 후에 다시 시도해주세요 ㅠㅠ 문의 : jeonghunn1@gmail.com');
 
 
@@ -111,6 +112,7 @@
 
             error: function (jqXHR) {
                 setbuttonstatus(true);
+                alert(jqXHR);
                 alert('죄송합니다. 뭔가 문제가 있는거 같아요. 잠시 후에 다시 시도해주세요 ㅠㅠ 문의 : jeonghunn1@gmail.com');
             }
 
