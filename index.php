@@ -113,6 +113,7 @@ LoadPages("error", "error", false);
 LoadPages("info", "info", false);
 LoadPages("infodetail", "infodetail", false);
 LoadPages("signup", "signup", false);
+LoadPages("birthday", "birthday/brithday_write", false);
 //API
 	    LoadPages("api_main", "api/api_main", false);
 		LoadPages("api_add", "api/api_add", true);
