@@ -10,21 +10,16 @@
 <br>
           <div class="squarecard">
 
-              <div class="input-group input-group-lg">
-                  <input type="text" class="form-control" placeholder="이름" id="name" aria-describedby="sizing-addon1">
-
-              </div>
-<br>
-
-              <br><br>
-
               <textarea class="form-control" rows="3" placeholder="할 말" id="contents" style="width:70%"></textarea>
-              <br><br><br><br>
-              <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
-                  생일 페이지 만들기
-              </button>
-              <br><br><br>
+              <br>
           </div>
+
+            <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
+                카드 추가하기
+            </button>
+            <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
+                작성 완료
+            </button>
 
 </center><br><br><br>
     </div> <!-- /container -->
