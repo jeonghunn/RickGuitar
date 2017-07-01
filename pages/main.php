@@ -28,6 +28,8 @@
 
 <script>
 
+    var cardcount = 0;
+
 
     function addCard() {
 //        var newDiv = document.createElement("div");
@@ -45,18 +47,13 @@
 
         var currentDiv = document.getElementById("firstcard");
         $(' <div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea> <br> </div><br>').insertBefore('#squarecard');
-
+        cardcount++;
 
     }
 
 
     function writeAct() {
         setbuttonstatus(false);
-        var birthday_name = document.getElementById("name").value;
-        var birthday_year = document.getElementById("year").value;
-        var birthday_month = document.getElementById("month").value;
-        var birthday_day = document.getElementById("day").value;
-        var content = document.getElementById("contents").value;
 
 
 
