@@ -8,7 +8,7 @@
 <br><br>
         <center><h3 stlye="font-size: 21px;">글 작성하기</h3>
 <br>
-            <div class="squarecard" id="firstcard">
+            <div class="squarecard">
 
               <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea>
               <br>
