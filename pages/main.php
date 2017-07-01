@@ -8,12 +8,13 @@
 <br><br>
         <center><h3 stlye="font-size: 21px;">글 작성하기</h3>
 <br>
-            <div class="squarecard" id="squarecard">
+            <div class="squarecard">
 
               <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea>
               <br>
           </div>
             <br><br>
+            <div id="squarecard"></div>
             <button type="button" class="btn btn-default btn-lg" onclick="addCard()">
                 카드 추가하기
             </button>
