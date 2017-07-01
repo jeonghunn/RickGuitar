@@ -14,7 +14,7 @@
               <br>
           </div>
             <br><br>
-            <button type="button" class="btn btn-default btn-lg" onclick="addCard()">
+            <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
                 카드 추가하기
             </button>
             <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
@@ -28,16 +28,16 @@
 <script>
 
 
-    //    function cardAdd() {
-    //        var newDiv = document.createElement("div");
-    //        var newContent = document.createTextNode("Hi there and greetings!");
-    //        newDiv.appendChild(newContent); //add the text node to the newly created div.
-    //
-    //        // add the newly created element and its content int
-    //
-    //        var currentDiv = document.getElementById("div1");
-    //        document.body.insertBefore(newDiv, currentDiv);
-    //    }
+    function addCard() {
+        var newDiv = document.createElement("div");
+        var newContent = document.createTextNode("Hi there and greetings!");
+        newDiv.appendChild(newContent); //add the text node to the newly created div.
+
+        // add the newly created element and its content int
+
+        var currentDiv = document.getElementById("div1");
+        document.body.insertBefore(newDiv, currentDiv);
+    }
 
 
     function writeAct() {
@@ -108,8 +108,8 @@
 
 
     function addCard() {
-        var btn = document.createElement("div");
-        var t = document.createTextNode(' <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea><br>');
+        var btn = document.createElement("BUTTON");
+        var t = document.createTextNode("CLICK ME");
         btn.appendChild(t);
         document.body.appendChild(btn);
     }
