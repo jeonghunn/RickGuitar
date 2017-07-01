@@ -43,7 +43,7 @@
 //        // add the newly created element and its content int
 
         var currentDiv = document.getElementById("firstcard");
-        $(' <div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea> <br> </div>').insertBefore('.squarecard');
+        $(' <div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea> <br> </div><br>').insertBefore('.squarecard');
 
 
     }
