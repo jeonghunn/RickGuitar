@@ -47,7 +47,9 @@
 
         var currentDiv = document.getElementById("firstcard");
         $(' <div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea> <br> </div><br>').insertBefore('#squarecard');
-        cardcount++;
+        cardcount = cardcount + 1;
+
+        alert(cardcount);
 
     }
 

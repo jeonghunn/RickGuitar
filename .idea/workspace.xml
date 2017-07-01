@@ -120,11 +120,11 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="431">
+              <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <marker date="1498921435000" expanded="true" signature="1596:1605" ph="..." />
+                <marker date="1498925764000" expanded="true" signature="1619:1628" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1431,21 +1431,7 @@
       <workItem from="1498746571962" duration="12005000" />
       <workItem from="1498814724486" duration="18828000" />
       <workItem from="1498885173962" duration="6533000" />
-      <workItem from="1498909523212" duration="4655000" />
-    </task>
-    <task id="LOCAL-00851" summary="json updated">
-      <created>1498663798282</created>
-      <option name="number" value="00851" />
-      <option name="presentableId" value="LOCAL-00851" />
-      <option name="project" value="LOCAL" />
-      <updated>1498663798282</updated>
-    </task>
-    <task id="LOCAL-00852" summary="json updated">
-      <created>1498663867853</created>
-      <option name="number" value="00852" />
-      <option name="presentableId" value="LOCAL-00852" />
-      <option name="project" value="LOCAL" />
-      <updated>1498663867853</updated>
+      <workItem from="1498909523212" duration="6848000" />
     </task>
     <task id="LOCAL-00853" summary="json updated">
       <created>1498664225155</created>
@@ -1776,11 +1762,25 @@
       <option name="project" value="LOCAL" />
       <updated>1498921242748</updated>
     </task>
-    <option name="localTasksCounter" value="900" />
+    <task id="LOCAL-00900" summary="main updated">
+      <created>1498921463982</created>
+      <option name="number" value="00900" />
+      <option name="presentableId" value="LOCAL-00900" />
+      <option name="project" value="LOCAL" />
+      <updated>1498921463982</updated>
+    </task>
+    <task id="LOCAL-00901" summary="cardcount updated">
+      <created>1498925509981</created>
+      <option name="number" value="00901" />
+      <option name="presentableId" value="LOCAL-00901" />
+      <option name="project" value="LOCAL" />
+      <updated>1498925509981</updated>
+    </task>
+    <option name="localTasksCounter" value="902" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="882871000" />
+    <option name="totallyTimeSpent" value="885064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1888,7 +1888,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="itr bug fixed" />
     <MESSAGE value="error catch" />
     <MESSAGE value="birthday_wiki test" />
     <MESSAGE value=" wiki updated" />
@@ -1910,10 +1909,11 @@
     <MESSAGE value="updated" />
     <MESSAGE value="sql injection bug fixed" />
     <MESSAGE value="debug mode off" />
-    <MESSAGE value="main updated" />
     <MESSAGE value="squarecard updated" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="main updated" />
+    <MESSAGE value="cardcount updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="cardcount updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2389,11 +2389,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        <state relative-caret-position="431">
+          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#textarea#0;n#div#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <marker date="1498921435000" expanded="true" signature="1596:1605" ph="..." />
+            <marker date="1498925764000" expanded="true" signature="1619:1628" ph="..." />
           </folding>
         </state>
       </provider>
