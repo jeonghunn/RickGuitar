@@ -29,21 +29,23 @@
 
 
     function addCard() {
-        var newDiv = document.createElement("div");
-        var newContent = document.createElement("textarea");
-        newContent.className = "form-control";
-        newContent.rows = "12";
-        newContent.placeholder = "내용";
-        newContent.id = "contents";
-        newContent.style = "width:70%";
-        newDiv.className = "squarecard";
-
-        newDiv.appendChild(newContent); //add the text node to the newly created div.
-
-        // add the newly created element and its content int
+//        var newDiv = document.createElement("div");
+//        var newContent = document.createElement("textarea");
+//        newContent.className = "form-control";
+//        newContent.rows = "12";
+//        newContent.placeholder = "내용";
+//        newContent.id = "contents";
+//        newContent.style = "width:70%";
+//        newDiv.className = "squarecard";
+//
+//        newDiv.appendChild(newContent); //add the text node to the newly created div.
+//
+//        // add the newly created element and its content int
 
         var currentDiv = document.getElementById("firstcard");
-        document.body.insertBefore(newDiv, currentDiv);
+        $(' <div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea> <br> </div>').insertBefore('.squarecard');
+
+
     }
 
 
