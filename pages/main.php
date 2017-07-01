@@ -28,16 +28,16 @@
 <script>
 
 
-    function cardAdd() {
-        var newDiv = document.createElement("div");
-        var newContent = document.createTextNode("Hi there and greetings!");
-        newDiv.appendChild(newContent); //add the text node to the newly created div.
-
-        // add the newly created element and its content int
-
-        var currentDiv = document.getElementById("div1");
-        document.body.insertBefore(newDiv, currentDiv);
-    }
+    //    function cardAdd() {
+    //        var newDiv = document.createElement("div");
+    //        var newContent = document.createTextNode("Hi there and greetings!");
+    //        newDiv.appendChild(newContent); //add the text node to the newly created div.
+    //
+    //        // add the newly created element and its content int
+    //
+    //        var currentDiv = document.getElementById("div1");
+    //        document.body.insertBefore(newDiv, currentDiv);
+    //    }
 
 
     function writeAct() {
@@ -106,6 +106,13 @@
         });
     }
 
+
+    function addCard() {
+        var btn = document.createElement("div");
+        var t = document.createTextNode(' <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea><br>');
+        btn.appendChild(t);
+        document.body.appendChild(btn);
+    }
 
     function setbuttonstatus(status) {
 
