@@ -1,18 +1,22 @@
-<link rel="image_src" href="pages/images/birthday_image.jpg"/>
+
 
 
 <!-- html -->
     <div class="container">
 
-        <h1 style="font-size: 63px;text-align: center;color: <?php getTitleColor() ?>;">네모안에 생각을 담아보세요.</h1>
+        <h1 style="font-size: 63px;text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
 <br><br>
         <center><h3 stlye="font-size: 21px;">글 작성하기</h3>
 <br>
-            <div class="squarecard">
+            <div class="outer">
+                <div class="tablerow">
+                    <div class="squarecard">
 
-              <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea>
-              <br>
-          </div>
+                        <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea>
+                        <br>
+                    </div>
+                </div>
+            </div>
             <br><br>
             <div id="squarecard"></div>
             <button type="button" class="btn btn-default btn-lg" onclick="addCard()">
@@ -28,28 +32,14 @@
 
 <script>
 
-    var cardcount = 0;
+    var cardcount = 1;
 
 
     function addCard() {
-//        var newDiv = document.createElement("div");
-//        var newContent = document.createElement("textarea");
-//        newContent.className = "form-control";
-//        newContent.rows = "12";
-//        newContent.placeholder = "내용";
-//        newContent.id = "contents";
-//        newContent.style = "width:70%";
-//        newDiv.className = "squarecard";
-//
-//        newDiv.appendChild(newContent); //add the text node to the newly created div.
-//
-//        // add the newly created element and its content int
 
-        var currentDiv = document.getElementById("firstcard");
-        $(' <div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea> <br> </div><br>').insertBefore('#squarecard');
         cardcount = cardcount + 1;
+        $('        <div class="outer"> <div class="tablerow"><div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea> <br> </div></div></div><br>').insertBefore('#squarecard');
 
-        alert(cardcount);
 
     }
 
