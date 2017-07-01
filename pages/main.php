@@ -42,7 +42,7 @@
 
         // add the newly created element and its content int
 
-        var currentDiv = document.getElementById("div1");
+        var currentDiv = document.getElementById("firstcard");
         document.body.insertBefore(newDiv, currentDiv);
     }
 
