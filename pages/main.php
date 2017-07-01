@@ -14,7 +14,7 @@
               <br>
           </div>
             <br><br>
-            <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
+            <button type="button" class="btn btn-default btn-lg" onclick="addCard()">
                 카드 추가하기
             </button>
             <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
