@@ -6,7 +6,7 @@
 
         <h1 style="font-size: 63px;text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
 <br><br>
-        <center><h3 stlye="font-size: 21px;">글 작성하기</h3>
+        <center><h3 stlye="font-size: 21px;">지금 써보기</h3>
 <br>
             <div class="outer">
                 <div class="tablerow">
