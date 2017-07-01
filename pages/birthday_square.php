@@ -3,6 +3,65 @@
 
 $square_data = json_decode($square_result['data'], true);
 
+$birthday_name = $square_data['birthday_name'];
+$birthday_year = $square_data['birthday_year'];
+$birthday_month = $square_data['birthday_month'];
+$birthday_day = $square_data['birthday_day'];
+$birthday_contents = $square_data['birthday_contents'];
+$birthday_wiki = $square_data['birthday_wiki'];
+$birthday_wiki_array = json_decode($birthday_wiki, true);
+
+
+$year = date("Y");
+$month = date("n");
+$day = date("j");
+
+$bt = "$birthday_year" . "-" . "$birthday_month" . "-" . "$birthday_day";
+$birthdaynum = $year - $birthday_year + 1;
+
+
+$btimelast = time() - mktime(0, 0, 0, $birthday_month, $birthday_day, $year); // 정한 날과의 시간 차이
+$birthdaylasthour = floor($btimelast / 3600);
+$birthdaylastmin = floor($btimelast / 60) % 60;
+
+$btimeleft = mktime(23, 59, 59, $birthday_month, $birthday_day, $year) - time();  // 정한 날과의 시간 차이
+$birthdaylefthour = floor($btimeleft / 3600);
+$birthdayleftmin = floor($btimeleft / 60) % 60;
+
+$nextyear = $year + 1;
+
+$nbday = $nextyear . "-" . "$birthday_month" . "-" . "$birthday_day";
+
+
+$realage = realagecalc($birthday_year, $birthday_month, $birthday_day, $year, $month, $day);
+$life = $realage / 80;
+$lifetime = 1440 * $life;
+$lifehour = floor($lifetime / 60);
+$lifemin = $lifetime % 60;
+
+
+function remain($d)
+{
+    $day = strtotime($d);
+    return intval((time() - $day) / 86400);
+}
+
+
+function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_month, $now_day)
+{
+    if ($birth_month < $now_month)
+        $age = $now_year - $birth_year;
+    else if ($birth_month == $now_month) {
+        if ($birth_day <= $now_day)
+            $age = $now_year - $birth_year;
+        else
+            $age = $now_year - $birth_year - 1;
+    } else
+        $age = $now_year - $birth_year - 1;
+
+    return $age;
+}
+
 
 ?>
 <link rel="image_src" href="pages/images/birthday_image.jpg"/>
@@ -60,7 +119,8 @@ $square_data = json_decode($square_result['data'], true);
         <div class="tablerow">
             <div class="squarecard">
 
-                <span style="font-size: 32px;">﻿이번 생일이 <br> <span style="font-size: 40px;"><?php echo $birthdaynum ?></span>번째 <br>생일이며</span><br/>
+                <span style="font-size: 32px;">﻿이번 생일이 <br> <span
+                            style="font-size: 40px;"><?php echo $birthdaynum ?></span>번째 <br>생일이며</span><br/>
             </div>
         </div>
     </div>
@@ -69,7 +129,8 @@ $square_data = json_decode($square_result['data'], true);
         <div class="tablerow">
             <div class="squarecard">
 
-                <span style="font-size: 32px;">﻿만으로 <br> <span style="font-size: 40px;"><?php echo $realage ?></span>살 <br>입니다.</span><br/>
+                <span style="font-size: 32px;">﻿만으로 <br> <span
+                            style="font-size: 40px;"><?php echo $realage ?></span>살 <br>입니다.</span><br/>
             </div>
         </div>
     </div>
@@ -120,46 +181,45 @@ $square_data = json_decode($square_result['data'], true);
     <div class="outer">
         <div class="tablerow">
             <div class="squarecard">
-            <br><h4><?php P($birthday_month) ?>월 <?php P($birthday_day) ?>일에는 무슨 일들이 일어났을까요?</h4>
-            <hr>
-            <?php
+                <br><h4><?php P($birthday_month) ?>월 <?php P($birthday_day) ?>일에는 무슨 일들이 일어났을까요?</h4>
+                <hr>
+                <?php
 
 
-            if ($birthday_wiki != "") {
+                if ($birthday_wiki != "") {
 
-                for ($i = 0; $i < count($birthday_wiki_array); $i++) {
+                    for ($i = 0; $i < count($birthday_wiki_array); $i++) {
 
-                    echo $birthday_wiki_array[$i] . "<br />";
+                        echo $birthday_wiki_array[$i] . "<br />";
 
-                }
-
-
-            } else {
+                    }
 
 
+                } else {
 
-                $wikicon = file_get_contents('http://ko.m.wikipedia.org/wiki/' . $birthday_month . '월_' . $birthday_day . '일');
 
-                $DOM = new DOMDocument;
-                $DOM->loadHTML(mb_convert_encoding($wikicon, 'HTML-ENTITIES', 'UTF-8'));
+                    $wikicon = file_get_contents('http://ko.m.wikipedia.org/wiki/' . $birthday_month . '월_' . $birthday_day . '일');
+
+                    $DOM = new DOMDocument;
+                    $DOM->loadHTML(mb_convert_encoding($wikicon, 'HTML-ENTITIES', 'UTF-8'));
 
 //get all H1
-                $items = $DOM->getElementsByTagName('ul');
+                    $items = $DOM->getElementsByTagName('ul');
 
 
-                $itr = $items->item(1);
+                    $itr = $items->item(1);
 
 
-                if ($itr->hasChildNodes()) {
-                    $childs = $itr->childNodes;
-                    foreach ($childs as $i) {
-                        echo $i->nodeValue . "<br />";
+                    if ($itr->hasChildNodes()) {
+                        $childs = $itr->childNodes;
+                        foreach ($childs as $i) {
+                            echo $i->nodeValue . "<br />";
+                        }
                     }
                 }
-            }
 
 
-            ?>
+                ?>
 
             </div>
         </div>
@@ -168,7 +228,7 @@ $square_data = json_decode($square_result['data'], true);
     <div class="outer">
         <div class="tablerow">
             <div class="squarecard">
-            <span style="font-size: 40px;"><?php P($birthday_contents) ?></span><br/>
+                <span style="font-size: 40px;"><?php P($birthday_contents) ?></span><br/>
             </div>
         </div>
     </div>
