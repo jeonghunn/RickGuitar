@@ -8,7 +8,7 @@
 <br><br>
         <center><h3 stlye="font-size: 21px;">글 작성하기</h3>
 <br>
-          <div class="squarecard">
+            <div class="squarecard" id="firstcard">
 
               <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea>
               <br>
@@ -30,13 +30,19 @@
 
     function addCard() {
         var newDiv = document.createElement("div");
-        var newContent = document.createTextNode("Hi there and greetings!");
+        var newContent = document.createElement("textarea");
+        newContent.className = "form-control";
+        newContent.rows = "12";
+        newContent.placeholder = "내용";
+        newContent.id = "contents";
+        newContent.style = "width:70%";
         newDiv.className = "squarecard";
+
         newDiv.appendChild(newContent); //add the text node to the newly created div.
 
         // add the newly created element and its content int
 
-        var currentDiv = document.getElementById("div1");
+        var currentDiv = document.getElementById("firstcard");
         document.body.insertBefore(newDiv, currentDiv);
     }
 
