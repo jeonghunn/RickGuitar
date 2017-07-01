@@ -31,6 +31,7 @@
     function addCard() {
         var newDiv = document.createElement("div");
         var newContent = document.createTextNode("Hi there and greetings!");
+        newDiv.className = "squarecard";
         newDiv.appendChild(newContent); //add the text node to the newly created div.
 
         // add the newly created element and its content int
