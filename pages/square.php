@@ -35,7 +35,7 @@ $square_cards = json_decode($square_result['square_cards'], true);
                 <div class="squarecard"><?php P($square_cards[$i]['content']); ?></div>
             </div>
         </div>
-    <? } ?>
+    <?php } ?>
 
 
 
