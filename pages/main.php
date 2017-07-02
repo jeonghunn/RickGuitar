@@ -48,7 +48,7 @@
     function writeAct() {
         setbuttonstatus(false);
 
-        var square_cards_array = {};
+        var square_cards_array = [];
 
 
         for (var i = 1; i <= cardcount; i++) {
