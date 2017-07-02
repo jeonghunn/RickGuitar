@@ -75,7 +75,7 @@
                 "apiv": "<?php echo getAPIVersion()?>",
                 "api_key": "<?php echo getAPIKey()?>",
                 "auth": "<?php echo getUserAuth()?>",
-                "type": "birthday",
+                "type": "square",
                 "square_cards": square_cards
             },
             success: function (data) {
