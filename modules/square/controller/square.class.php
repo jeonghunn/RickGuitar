@@ -147,13 +147,13 @@ class SquareClass
             $title = $WriteResult[0];
             $content = $WriteResult[1];
             $data = EncodeJson($WriteResult[2]);
-            $square_cards = $WriteResult[3];
+            $square_cards_array = $WriteResult[3];
 
         }
 
 
         //WRTIE SquareCard
-        foreach ($square_cards as $i) {
+        foreach ($square_cards_array as $i) {
 
             $SQUARE_CARD_CLASS->Write($ATTACH_CLASS, $PUSH_CLASS, $last_number, 0, $page_srl, $user_srl, $square_cards[$i], $permission, $status, $privacy);
 
