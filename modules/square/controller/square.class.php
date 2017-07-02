@@ -155,7 +155,7 @@ class SquareClass
         //WRTIE SquareCard
         foreach ($square_cards as $i) {
 
-            $SQUARE_CARD_CLASS->Write($ATTACH_CLASS, $PUSH_CLASS, $last_number, 0, $page_srl, $user_srl, $content, $permission, $status, $privacy);
+            $SQUARE_CARD_CLASS->Write($ATTACH_CLASS, $PUSH_CLASS, $last_number, 0, $page_srl, $user_srl, $square_cards[$i], $permission, $status, $privacy);
 
 
         }
