@@ -32,7 +32,8 @@ $square_cards = json_decode($square_result['square_cards'], true);
     <?php for ($i = 0; $i < count($square_cards); $i++) { ?>
         <div class="outer">
             <div class="tablerow">
-                <div class="squarecard"><?php P($square_cards[$i]['content']); ?></div>
+                <div class="squarecard"><span style="font-size: 32px;"><?php P($square_cards[$i]['content']); ?></span>
+                </div>
             </div>
         </div>
     <?php } ?>
