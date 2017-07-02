@@ -14,7 +14,7 @@ function Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $c
 
 function Model_Square_getSquareByKey($square_key)
 {
-    return mysqli_fetch_array(DBQuery("SELECT * FROM  `square` WHERE  `square_key` LIKE '$square_key' AND `status` < 5"));
+    return mysqli_fetch_array(DBQuery("SELECT * FROM  `square` WHERE  `square_key` LIKE '$square_key' "));
 }
 
 function Model_Square_ViewCountUp($views, $square_srl)
