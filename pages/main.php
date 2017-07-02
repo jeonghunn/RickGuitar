@@ -48,7 +48,6 @@
         setbuttonstatus(false);
 
         var square_cards_array = {};
-        var birthday_name = document.getElementById("name").value;
 
 
         for (i = 1; i <= cardcount; i++) {
