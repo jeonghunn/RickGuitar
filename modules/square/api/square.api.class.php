@@ -30,6 +30,7 @@ class SquareApiClass{
     function API_Read($user_srl){
 
         $SQUARE_CLASS = new SquareClass();
+        $SQUARE_CARD_CLASS = new SquareCardClass();
         $PAGE_CLASS = new PageClass();
         $ATTACH_CLASS = new AttachClass();
 
@@ -39,7 +40,7 @@ class SquareApiClass{
 
         $square_info = array('square_key', 'page_srl', 'user_srl', 'name', 'title', 'content', 'type', 'data', 'date', 'status', 'attach');
 
-        $square_read = $SQUARE_CLASS->Read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_key, ExplodeInfoValue($attach_info));
+        $square_read = $SQUARE_CLASS->Read($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_key, ExplodeInfoValue($attach_info));
         print_info($square_read, $square_info);
 
     }
