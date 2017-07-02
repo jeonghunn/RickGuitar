@@ -235,7 +235,7 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
 
 
     <br><br>
-    <button type="button" class="btn btn-default btn-lg" onclick="location.href='home'">
+    <button type="button" class="btn btn-default btn-lg" onclick="location.href='birthday'">
         나도 이런거 만들어보기
     </button>
     <br><br>

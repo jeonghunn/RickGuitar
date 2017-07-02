@@ -126,8 +126,9 @@ if ($act_parameter != null && !$loaded) {
     $square_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_read'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('square_key', $square_key))), true);
 //if null
     if ($square_result['square_key'] != null) {
-        //  if($square_result['type'] == "birthday") require_once 'pages/birthday_square.php';
-        require_once 'pages/square.php';
+        if ($square_result['type'] == "birthday") require_once 'pages/birthday/birthday_square.php';
+        if ($square_result['type'] == "square") require_once 'pages/square.php';
+
         setLoaded(true);
     }
 
