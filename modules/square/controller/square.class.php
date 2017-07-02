@@ -20,6 +20,9 @@ class SquareClass
         $row['square_cards'] = json_encode(getSqlList($SQUARE_CARD_CLASS->Read($square_srl), array("content")));
 
 
+        echo $row['square_cards'];
+
+
         if ($status < $page_info['status']) $row = false;
         if ($status < $row['status']) $row = false;
 
