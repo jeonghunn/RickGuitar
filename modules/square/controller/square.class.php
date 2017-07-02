@@ -7,7 +7,7 @@ class SquareClass
     {
         //$user_srl = AuthCheck($user_srl, false);
         $row = Model_Square_getSquareByKey($square_key);
-        $square_srl = $row['square_srl'];
+        $square_srl = $row['srl'];
         $page_info = $PAGE_CLASS -> GetPageInfo($row['page_srl']);
         //View
         Model_Square_ViewCountUp($row['views'], $square_srl);
@@ -18,8 +18,6 @@ class SquareClass
         if ($attach_info != null) $row['attach_contents'] = json_encode($ATTACH_CLASS->attach_read($user_srl, "square", $square_srl, $status, $attach_info));
 
         $row['square_cards'] = json_encode(getSqlList($SQUARE_CARD_CLASS->Read($square_srl), array("content", "date")));
-
-        print_r(getSqlList($SQUARE_CARD_CLASS->Read($square_srl), array("content", "date")));
 
 
         if ($status < $page_info['status']) $row = false;
