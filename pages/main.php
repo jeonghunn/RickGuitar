@@ -52,7 +52,8 @@
 
 
         for (i = 1; i <= cardcount; i++) {
-            square_cards_array.push(document.getElementById("content_" + i).value);
+            var cardvalue = document.getElementById("content_" + i).value;
+            square_cards_array.push(cardvalue);
         }
 
 
