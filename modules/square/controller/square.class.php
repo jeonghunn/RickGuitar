@@ -110,11 +110,21 @@ class SquareClass
 
 //require attach_class.php
 
-    function Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $square_cards, $permission, $status, $privacy)
+    function Write($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $square_cards, $permission, $status, $privacy)
     {
 //Check Value security
         security_value_check($title);
         security_value_check($content);
+
+
+        $result = false;
+        $relation_status = setRelationStatus($user_srl, $page_srl);
+        $user_info = $PAGE_CLASS->GetPageInfo($user_srl);
+        $page_info = $PAGE_CLASS->GetPageInfo($page_srl);
+        $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
+        $last_number = $this->LastNumber();
+        $square_key = GenerateString(12);
+
 
         $WriteResult = null;
 
@@ -125,6 +135,7 @@ class SquareClass
 
 
         //GETResult of doc
+
         if ($type == "birthday") {
             $BIRTHDAY_CLASS = new BirthdayClass();
             $WriteResult = $BIRTHDAY_CLASS->getWriteResult($title, $content, $data_array, $square_cards_array);
@@ -136,18 +147,21 @@ class SquareClass
             $title = $WriteResult[0];
             $content = $WriteResult[1];
             $data = EncodeJson($WriteResult[2]);
-            $square_cards = EncodeJson($WriteResult[3]);
+            $square_cards = $WriteResult[3];
 
         }
 
 
-        $result = false;
-        $relation_status = setRelationStatus($user_srl, $page_srl);
-        $user_info = $PAGE_CLASS -> GetPageInfo($user_srl);
-        $page_info = $PAGE_CLASS -> GetPageInfo($page_srl);
-        $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
-        $last_number = $this->LastNumber();
-        $square_key = GenerateString(12);
+        //WRTIE SquareCard
+        foreach ($square_cards as $i) {
+
+            $SQUARE_CARD_CLASS->Write($ATTACH_CLASS, $PUSH_CLASS, $last_number, 0, $page_srl, $user_srl, $content, $permission, $status, $privacy);
+
+
+        }
+
+
+
         if ($type != "" && ($relation_status != -1 && $relation_status >= $page_info['write_status'] && $page_info != null) || ($page_srl == 0)) {
             $attach_result = $ATTACH_CLASS->attach_file("square", $page_srl, $last_number, $user_srl, $status);
 

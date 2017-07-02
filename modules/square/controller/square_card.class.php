@@ -3,6 +3,7 @@
 class SquareCardClass
 {
 
+
     function document_read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $doc_srl, $attach_info)
     {
         //$user_srl = AuthCheck($user_srl, false);
@@ -95,36 +96,26 @@ class SquareCardClass
         return $result;
     }
 
-    function DocLastNumber()
+    function getLastNumber()
     {
-        $table_status = mysqli_fetch_array(DBQuery("SHOW TABLE STATUS LIKE 'documents'"));
+        $table_status = Model_SquareCards_getLastNumber();
         return $table_status['Auto_increment'];
     }
 
 
 //require attach_class.php
 
-    function document_write($PAGE_CLASS, $ATTACH_CLASS,  $PUSH_CLASS,  $page_srl, $user_srl, $title, $content, $permission, $status, $privacy)
+    function Write($ATTACH_CLASS, $PUSH_CLASS, $square_srl, $parent_card_srl, $page_srl, $user_srl, $content, $permission, $status, $privacy)
     {
-//Check Value security
-        security_value_check($title);
+
         security_value_check($content);
 //Start
 //	$user_srl = AuthCheck($user_srl, false);
-        $relation_status = setRelationStatus($user_srl, $page_srl);
-        $user_info = $PAGE_CLASS -> GetPageInfo($user_srl);
-        $page_info = $PAGE_CLASS -> GetPageInfo($page_srl);
-        $name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
-        $last_number = $this -> DocLastNumber();
-        if ($content != "" && $relation_status != -1 && $relation_status >= $page_info['write_status'] && $page_info != null) {
-            $attach_result = $ATTACH_CLASS -> attach_file("document", $page_srl, $last_number, $user_srl, $status);
-            $result = DBQuery("INSERT INTO `documents` (`page_srl`, `user_srl`, `name`, `title`, `content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$name', '$title', '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '" . getIPAddr() . "');");
+        $last_number = $this->getLastNumber();
+        if ($content != "") {
+            $attach_result = $ATTACH_CLASS->attach_file("square_card", $page_srl, $last_number, $user_srl, $status);
+            $result = Model_SquareCards_Write($page_srl, $user_srl, $square_srl, $parent_card_srl, null, $content, $permission, $status, $privacy, $attach_result);
 
-            if (getIPAddr() != $page_info['ip_addr']) $PAGE_CLASS -> updatePopularity($user_srl, $page_srl, 1);
-//Set last update
-            DBQuery("UPDATE `pages` SET `last_update` = '" . getTimeStamp() . "'   WHERE `user_srl` = '$page_srl'");
-//Push
-           $this ->  document_send_push($PUSH_CLASS, $page_srl, $user_srl, $name, $content, $last_number);
         }
 //echo mysqli_error();
 

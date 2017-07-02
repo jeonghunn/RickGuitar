@@ -9,6 +9,7 @@
 
 //load model
 require_once 'modules/square/model/square.model.php';
+require_once 'modules/square/model/square_cards.model.php';
 
 //load class
 require_once 'modules/square/controller/square.class.php';
