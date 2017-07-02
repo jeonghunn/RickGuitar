@@ -15,7 +15,7 @@ function Model_SquareCards_Write($page_srl, $user_srl, $square_srl, $parent_card
 
 function Model_SquareCard_getSquareCardsBySquare($square_srl)
 {
-    return DBQuery("SELECT * FROM  `square_cards` WHERE  `square_srl` = '$square_srl' AND `status` < 5");
+    return DBQuery("SELECT * FROM  `square_cards` WHERE  `square_srl` = '$square_srl' ");
 }
 //
 //function Model_Square_ViewCountUp($views, $square_srl)
