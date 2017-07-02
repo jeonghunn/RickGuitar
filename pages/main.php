@@ -57,7 +57,7 @@
         }
 
 
-        if (document.getElementById("content_1").value == '') {
+        if (document.getElementById("contents_1").value == '') {
             alert('내용을 입력해주세요.');
             setbuttonstatus(true);
             return false;
