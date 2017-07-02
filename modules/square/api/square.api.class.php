@@ -59,11 +59,12 @@ class SquareApiClass{
         $content = REQUEST('content');
         $type = REQUEST('type');
         $data = REQUEST('data');
+        $square_cards = REQUEST('square_cards');
         $permission = REQUEST('permission');
         $status = REQUEST('status');
         $privacy = REQUEST('privacy');
 
-        $square_write = $SQUARE_CLASS->Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, null, $permission, $status, $privacy);
+        $square_write = $SQUARE_CLASS->Write($PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $square_cards, $permission, $status, $privacy);
 
         echo json_encode($square_write);
 

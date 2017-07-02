@@ -38,7 +38,7 @@
     function addCard() {
 
         cardcount = cardcount + 1;
-        $('        <div class="outer"> <div class="tablerow"><div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents" style="width:70%"></textarea> <br> </div></div></div><br>').insertBefore('#squarecard');
+        $('        <div class="outer"> <div class="tablerow"><div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents_' + cardcount + '" style="width:70%"></textarea> <br> </div></div></div><br>').insertBefore('#squarecard');
 
 
     }
@@ -47,22 +47,22 @@
     function writeAct() {
         setbuttonstatus(false);
 
+        var square_cards_array = {};
+        var birthday_name = document.getElementById("name").value;
 
 
-        if (birthday_name == '') {
-            alert('이름을 입력해주세요.');
+        for (i = 1; i <= cardcount; i++) {
+            square_cards_array.push(document.getElementById("content_" + i).value);
+        }
+
+
+        if (document.getElementById("content_1").value == '') {
+            alert('내용을 입력해주세요.');
             setbuttonstatus(true);
             return false;
         }
 
-        var data = JSON.stringify({
-            "birthday_name": birthday_name,
-            "birthday_year": birthday_year,
-            "birthday_month": birthday_month,
-            "birthday_day": birthday_day,
-            "birthday_contents": content
-            })
-        ;
+        var square_cards = JSON.stringify(square_cards_array);
 
 
 
@@ -75,7 +75,7 @@
                 "api_key": "<?php echo getAPIKey()?>",
                 "auth": "<?php echo getUserAuth()?>",
                 "type": "birthday",
-                "data": data
+                "square_cards": square_cards
             },
             success: function (data) {
                 setbuttonstatus(true);
