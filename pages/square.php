@@ -5,7 +5,6 @@ $square_data = json_decode($square_result['data'], true);
 
 
 ?>
-<link rel="image_src" href="pages/images/birthday_image.jpg"/>
 
 <!-- html -->
 <div class="container" align="center">
@@ -32,146 +31,12 @@ $square_data = json_decode($square_result['data'], true);
         <div class="tablerow">
             <div class="squarecard">
 
-                <p><span style="font-size: 32px;"><span
-                                style="font-size: 40px;"><?php P($birthday_name) ?></span> 님은 <br><span
-                                style="font-size: 40px;"><?php P($birthday_year) ?></span>년 <span
-                                style="font-size: 40px;"><?php P($birthday_month) ?></span>월 <span
-                                style="font-size: 40px;"><?php P($birthday_day) ?></span>일에<br> 태어났고,</span>
-                </p>
 
             </div>
         </div>
     </div>
 
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
-            <span style="font-size: 32px;"><p><span style="font-size: 32px;">﻿지금까지</span></p>
-<span style="font-size: 32px;"><span style="font-size: 40px;"><?php echo remain($bt) ?></span>일</span><br>
-지났습니다.</p>
 
-</span>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
-
-                <span style="font-size: 32px;">﻿이번 생일이 <br> <span style="font-size: 40px;"><?php echo $birthdaynum ?></span>번째 <br>생일이며</span><br/>
-            </div>
-        </div>
-    </div>
-
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
-
-                <span style="font-size: 32px;">﻿만으로 <br> <span style="font-size: 40px;"><?php echo $realage ?></span>살 <br>입니다.</span><br/>
-            </div>
-        </div>
-    </div>
-
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
-
-            <span style="font-size: 32px;">﻿인생을 시간으로 본다면<br> 지금 시간은<br> <span
-                        style="font-size: 40px;"><?php echo $lifehour ?></span>시 <span
-                        style="font-size: 40px;"><?php echo $lifemin ?></span>분이 됩니다.</span><br/>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
-            <span style="font-size: 32px;">﻿지금까지 생일이 <br><span
-                        style="font-size: 40px;"><?php echo $birthdaylasthour ?></span>시간 <span
-                        style="font-size: 40px;"><?php echo $birthdaylastmin ?></span>분 지났으며,</span>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
-            <span style="font-size: 32px;">﻿생일이 끝나기까지 <br><span
-                        style="font-size: 40px;"><?php echo $birthdaylefthour ?></span>시간 <span
-                        style="font-size: 40px;"><?php echo $birthdayleftmin ?></span>분 남았습니다.</span>
-            </div>
-        </div>
-    </div>
-
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
-            <span style="font-size: 32px;"><span
-                        style="font-size: 40px;"><?php echo $nextyear ?></span>년 다음 생일은 <br><span
-                        style="font-size: 40px;"><?php echo -remain($nbday) ?></span>일 후가 됩니다.</span><br/>
-            </div>
-        </div>
-    </div>
-
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
-            <br><h4><?php P($birthday_month) ?>월 <?php P($birthday_day) ?>일에는 무슨 일들이 일어났을까요?</h4>
-            <hr>
-            <?php
-
-
-            if ($birthday_wiki != "") {
-
-                for ($i = 0; $i < count($birthday_wiki_array); $i++) {
-
-                    echo $birthday_wiki_array[$i] . "<br />";
-
-                }
-
-
-            } else {
-
-
-
-                $wikicon = file_get_contents('http://ko.m.wikipedia.org/wiki/' . $birthday_month . '월_' . $birthday_day . '일');
-
-                $DOM = new DOMDocument;
-                $DOM->loadHTML(mb_convert_encoding($wikicon, 'HTML-ENTITIES', 'UTF-8'));
-
-//get all H1
-                $items = $DOM->getElementsByTagName('ul');
-
-
-                $itr = $items->item(1);
-
-
-                if ($itr->hasChildNodes()) {
-                    $childs = $itr->childNodes;
-                    foreach ($childs as $i) {
-                        echo $i->nodeValue . "<br />";
-                    }
-                }
-            }
-
-
-            ?>
-
-            </div>
-        </div>
-    </div>
-
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
-            <span style="font-size: 40px;"><?php P($birthday_contents) ?></span><br/>
-            </div>
-        </div>
-    </div>
 
 
     <br><br>
