@@ -4,27 +4,25 @@ class SquareCardClass
 {
 
 
-    function document_read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $doc_srl, $attach_info)
+    function Read($square_srl)
     {
         //$user_srl = AuthCheck($user_srl, false);
-        $row = mysqli_fetch_array(DBQuery("SELECT * FROM  `documents` WHERE  `srl` LIKE '$doc_srl'"));
-        $page_info = $PAGE_CLASS -> GetPageInfo($row['page_srl']);
-        //View
-        DBQuery("UPDATE `documents` SET `views` = $row[views] + 1 WHERE `srl` = '$doc_srl'");
-        if (getIPAddr() != $row['ip_addr'])  $PAGE_CLASS -> updatePopularity($user_srl, $row['page_srl'], 1);
-//Status
-        $status = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
+        $row = Model_SquareCard_getSquareCardsBySquare($square_srl);
 
-        $row['you_doc_status'] = $status;
-      if($attach_info != null)  $row['attach_contents'] = json_encode($ATTACH_CLASS -> attach_read($user_srl, "document", $doc_srl, $status, $attach_info));
+
+//Status
+//        $status = $this -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);
+
+
+        //     if($attach_info != null)  $row['attach_contents'] = json_encode($ATTACH_CLASS -> attach_read($user_srl, "square_card", $doc_srl, $status, $attach_info));
 
 
      //   echo $row['attach_contents'];
        // $row['me_doc_status'] = $this -> getDocStatus($PAGE_CLASS, $doc_srl, $user_srl);
 
 
-        if ($status < $page_info['status']) $row = false;
-        if ($status < $row['status']) $row = false;
+        //  if ($status < $page_info['status']) $row = false;
+        //   if ($status < $row['status']) $row = false;
 
 
 

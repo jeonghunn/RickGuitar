@@ -12,10 +12,11 @@ function Model_SquareCards_Write($page_srl, $user_srl, $square_srl, $parent_card
     return DBQuery("INSERT INTO `square_cards`  ( `page_srl`, `user_srl`,  `square_srl`,  `parent_card_srl`,  `name`,`content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$square_srl', '$parent_card_srl', '$name',  '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '" . getIPAddr() . "');");
 }
 
-//function Model_Square_getSquareByKey($square_key)
-//{
-//    return mysqli_fetch_array(DBQuery("SELECT * FROM  `square` WHERE  `square_key` LIKE '$square_key'"));
-//}
+
+function Model_SquareCard_getSquareCardsBySquare($square_srl)
+{
+    return DBQuery("SELECT * FROM  `square_cards` WHERE  `square_srl` LIKE '$square_srl' AND `status` < 5");
+}
 //
 //function Model_Square_ViewCountUp($views, $square_srl)
 //{

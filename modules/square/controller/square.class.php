@@ -3,7 +3,7 @@
 class SquareClass
 {
 
-    function Read($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_key, $attach_info)
+    function Read($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_key, $attach_info)
     {
         //$user_srl = AuthCheck($user_srl, false);
         $row = Model_Square_getSquareByKey($square_key);
@@ -17,9 +17,7 @@ class SquareClass
         $row['you_doc_status'] = $status;
         if ($attach_info != null) $row['attach_contents'] = json_encode($ATTACH_CLASS->attach_read($user_srl, "square", $square_srl, $status, $attach_info));
 
-
-     //   echo $row['attach_contents'];
-       // $row['me_doc_status'] = $this -> getDocStatus($PAGE_CLASS, $doc_srl, $user_srl);
+        $row['square_cards'] = json_encode(getSqlList($SQUARE_CARD_CLASS->Read($square_srl), array("content")));
 
 
         if ($status < $page_info['status']) $row = false;

@@ -18,8 +18,9 @@
                     </div>
                 </div>
             </div>
-            <br><br>
+            <br><br><br>
             <div id="squarecard"></div>
+            <br><br>
             <button type="button" class="btn btn-default btn-lg" onclick="addCard()">
                 카드 추가하기
             </button>
@@ -39,7 +40,7 @@
     function addCard() {
 
         cardcount = cardcount + 1;
-        $('        <div class="outer"> <div class="tablerow"><div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents_' + cardcount + '" style="width:70%"></textarea> <br> </div></div></div><br>').insertBefore('#squarecard');
+        $('<div class="outer"> <div class="tablerow"><div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents_' + cardcount + '" style="width:70%"></textarea> <br> </div></div></div><br>').insertBefore('#squarecard');
 
 
     }

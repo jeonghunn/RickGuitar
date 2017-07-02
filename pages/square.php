@@ -2,6 +2,7 @@
 
 
 $square_data = json_decode($square_result['data'], true);
+$square_cards = json_decode($square_result['square_cards'], true);
 
 
 ?>
@@ -27,15 +28,14 @@ $square_data = json_decode($square_result['data'], true);
         </button>
     <?php } ?>
 
-    <div class="outer">
-        <div class="tablerow">
-            <div class="squarecard">
 
-
+    <?php for ($i = 0; $i < count($square_cards); $i++) { ?>
+        <div class="outer">
+            <div class="tablerow">
+                <div class="squarecard"><?php P($square_cards[$i]['content']); ?></div>
             </div>
         </div>
-    </div>
-
+    <? } ?>
 
 
 
