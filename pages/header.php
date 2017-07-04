@@ -83,10 +83,10 @@
              background: transparent;
              resize: none;
              border: 0 none;
-             width: 94%;
+             width: 92%;
              font-size: 32px;
              outline: none;
-             height: 94%;
+             height: 92%;
              vertical-align: middle;
          }
 
