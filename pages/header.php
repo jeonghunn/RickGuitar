@@ -79,13 +79,17 @@
               display: block;
           }
 
-          app-header {
-              color: #fff;
-              background-color: var(--app-primary-color);
-          }
-          app-header paper-icon-button {
-              --paper-icon-button-ink-color: white;
-          }
+         .cardtextarea {
+             background: transparent;
+             color: white;
+             resize: none;
+             border: 0 none;
+             width: 100%;
+             font-size: 5em;
+             outline: none;
+             height: 100%;
+             position: absolute;
+         }
 
          .outer {
              display: table;

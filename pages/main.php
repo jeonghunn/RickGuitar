@@ -12,7 +12,7 @@
                 <div class="tablerow">
                     <div class="squarecard">
 
-                        <textarea class="form-control" rows="12" placeholder="내용" id="contents_1"
+                        <textarea class="cardtextarea" rows="12" placeholder="내용" id="contents_1"
                                   style="width:70%"></textarea>
                         <br>
                     </div>
