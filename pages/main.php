@@ -39,7 +39,7 @@
     function addCard() {
 
         cardcount = cardcount + 1;
-        $('<div class="outer"> <div class="tablerow"><div class="squarecard"> <textarea class="form-control" rows="12" placeholder="내용" id="contents_' + cardcount + '" style="width:70%"></textarea> <br> </div></div></div><br>').insertBefore('#squarecard');
+        $('<div class="outer"> <div class="tablerow"><div class="squarecard"><textarea class="cardtextarea" placeholder="내용을 입력해주세요."  id="contents_' + cardcount + '" style="width:70%"></textarea> <br> </div></div></div><br>').insertBefore('#squarecard');
 
 
     }
