@@ -12,8 +12,7 @@
                 <div class="tablerow">
                     <div class="squarecard">
 
-                        <textarea class="cardtextarea" placeholder="내용" id="contents_1"
-                                  style="width:70%"></textarea>
+                        <textarea class="cardtextarea" placeholder="내용" id="contents_1"></textarea>
                         <br>
                     </div>
                 </div>
