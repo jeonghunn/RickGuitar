@@ -87,7 +87,6 @@
              font-size: 32px;
              outline: none;
              height: 100%;
-             position: absolute;
          }
 
          .outer {
