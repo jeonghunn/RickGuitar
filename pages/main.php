@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <br><br><br>
+            <br><br>
             <div id="squarecard"></div>
             <br><br>
             <button type="button" class="btn btn-default btn-lg" onclick="addCard()">
