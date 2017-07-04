@@ -83,7 +83,7 @@
              background: transparent;
              resize: none;
              border: 0 none;
-             width: 100%;
+             width: 96%;
              font-size: 32px;
              outline: none;
              height: 100%;
