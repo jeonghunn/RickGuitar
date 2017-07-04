@@ -83,9 +83,11 @@
              background: transparent;
              resize: none;
              border: 0 none;
+             width: 100%;
              font-size: 32px;
              outline: none;
-
+             height: 100%;
+             position: absolute;
          }
 
          .outer {
