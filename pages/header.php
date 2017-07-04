@@ -85,7 +85,7 @@
              border: 0 none;
              font-size: 32px;
              outline: none;
-             position: absolute;
+
          }
 
          .outer {
