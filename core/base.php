@@ -2,17 +2,17 @@
 
 
 function getCoreVersion(){
-    return "3.1.704";
+    return "3.1.704.18";
 }
 
 
 //Basic Info
 function getSiteAddress(){
-    return "http://tarks.net/rect/";
+    return "http://tarks.net/square/";
 }
 
 function getAPIAddress(){
-    return "http://tarks.net/rect/api.php";
+    return "http://tarks.net/square/api.php";
 }
 
 function getIPAddr(){
