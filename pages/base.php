@@ -301,15 +301,15 @@ return true;
   return false;
 }
 
-function ConverForWrite($content)
+function ConvertForWrite($content)
 {
     return str_replace("\n", "[{br}]", $content);
 }
 
 
-function contentconvert($content)
+function ConvertForRead($content)
 {
-  return str_replace("&lt;etr&gt;", "<br>", htmlspecialchars($content));
+    return str_replace("{[br]}", "<br>", htmlspecialchars($content));
 }
 
 //Print Error
