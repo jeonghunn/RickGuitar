@@ -87,6 +87,7 @@
              font-size: 32px;
              outline: none;
              height: 100%;
+             vertical-align: middle;
          }
 
          .outer {
