@@ -86,7 +86,7 @@
              width: 96%;
              font-size: 32px;
              outline: none;
-             height: 100%;
+             height: 96%;
              vertical-align: middle;
          }
 
