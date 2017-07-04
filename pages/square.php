@@ -82,7 +82,7 @@ $square_cards = json_decode($square_result['square_cards'], true);
 
     function sendLink() {
         Kakao.Link.sendTalkLink({
-            label: '<?php echo $birthday_name ?>님의 생일', // 공유할 메세지의 제목을 설정
+            label: '<?php echo $square_cards[0]['content'] ?>', // 공유할 메세지의 제목을 설정
             image: {
                 src: firstImgSrc,
                 width: '300',
