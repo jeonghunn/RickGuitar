@@ -52,7 +52,7 @@
 
 
         for (var i = 1; i <= cardcount; i++) {
-            var cardvalue = document.getElementById("contents_" + i).value;
+            var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).value);
             square_cards_array.push(cardvalue);
         }
 
@@ -105,6 +105,15 @@
         });
     }
 
+
+    function ConvertForWrite(content) {
+        return replaceAll(content, "\n", "{[br]}");
+    }
+
+
+    function replaceAll(str, searchStr, replaceStr) {
+        return str.split(searchStr).join(replaceStr);
+    }
 
 
     function setbuttonstatus(status) {

@@ -301,6 +301,12 @@ return true;
   return false;
 }
 
+function ConverForWrite($content)
+{
+    return str_replace("\n", "[{br}]", $content);
+}
+
+
 function contentconvert($content)
 {
   return str_replace("&lt;etr&gt;", "<br>", htmlspecialchars($content));
