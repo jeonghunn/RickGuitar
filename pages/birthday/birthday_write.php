@@ -76,7 +76,7 @@
                 "birthday_year": birthday_year,
                 "birthday_month": birthday_month,
                 "birthday_day": birthday_day,
-                "birthday_contents": content
+            "birthday_contents": ConvertForWrite(content)
             })
         ;
 
@@ -103,7 +103,6 @@
 
 
                 } else {
-                    alert(data);
                     alert('죄송합니다. 뭔가 문제가 있는거 같아요. 잠시 후에 다시 시도해주세요 ㅠㅠ 문의 : jeonghunn1@gmail.com');
 
 
@@ -120,6 +119,14 @@
         });
     }
 
+    function ConvertForWrite(content) {
+        return replaceAll(content, "\n", "{[br]}");
+    }
+
+
+    function replaceAll(str, searchStr, replaceStr) {
+        return str.split(searchStr).join(replaceStr);
+    }
 
     function setbuttonstatus(status) {
 

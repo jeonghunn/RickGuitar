@@ -228,7 +228,7 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
     <div class="outer">
         <div class="tablerow">
             <div class="squarecard">
-                <span style="font-size: 40px;"><?php P($birthday_contents) ?></span><br/>
+                <span style="font-size: 40px;"><?php echo ConvertForRead($birthday_contents) ?></span><br/>
             </div>
         </div>
     </div>
