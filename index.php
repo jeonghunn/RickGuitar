@@ -46,7 +46,6 @@ $user_info = json_decode(PostAct(getAPIUrl(),  array(array('a', 'my_page_info'),
 $user_srl = $user_info['srl'];
 $user_name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
 
-if(REQUEST('header') != 'false') require_once 'pages/header.php';
 
 //Check login
 if(!CheckLogin()) {
