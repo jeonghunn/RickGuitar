@@ -10,6 +10,7 @@ $square_cards = json_decode($square_result['square_cards'], true);
 <!-- html -->
 <div class="container" align="center">
 
+    <title>우왕</title>
 
     <?php if ($square_result['date'] > getTimeStamp() - 5) { ?>
         <h4>성공적으로 생성되었습니다.</h4>
