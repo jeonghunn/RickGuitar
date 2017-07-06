@@ -10,8 +10,6 @@ $square_cards = json_decode($square_result['square_cards'], true);
 <!-- html -->
 <div class="container" align="center">
 
-    <title>우왕</title>
-
     <?php if ($square_result['date'] > getTimeStamp() - 5) { ?>
         <h4>성공적으로 생성되었습니다.</h4>
         <p>주소를 복사해 친구들과 공유할 수 있습니다.</p>
