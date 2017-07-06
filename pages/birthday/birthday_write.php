@@ -1,4 +1,7 @@
-<?php require_once 'pages/header.php'; ?>
+<?php
+
+$html_title = T('birthday');
+require_once 'pages/header.php'; ?>
 <link rel="image_src" href="pages/images/birthday_image.jpg"/>
 
 
