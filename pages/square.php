@@ -3,7 +3,7 @@
 $square_data = json_decode($square_result['data'], true);
 $square_cards = json_decode($square_result['square_cards'], true);
 
-$html_title = substr($square_cards[0]['content'], 0, 20);
+$html_title = mb_substr($square_cards[0]['content'], 0, 20);
 require_once 'pages/header.php';
 
 
