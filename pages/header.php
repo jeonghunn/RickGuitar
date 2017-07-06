@@ -15,7 +15,15 @@
 
     <link rel="shortcut icon" href="icon.png">
 
-      <title><?php S('app_full_name') ?></title>
+      <title><?php
+          if ($html_title == null) {
+
+              S('app_full_name');
+          } else {
+              echo $html_title;
+
+          }
+          ?></title>
 
 
 

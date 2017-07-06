@@ -1,5 +1,6 @@
 <?php
 
+require_once 'pages/header.php';
 
 $square_data = json_decode($square_result['data'], true);
 $square_cards = json_decode($square_result['square_cards'], true);
