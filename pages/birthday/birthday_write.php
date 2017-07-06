@@ -1,3 +1,4 @@
+<?php require_once 'pages/header.php'; ?>
 <link rel="image_src" href="pages/images/birthday_image.jpg"/>
 
 
@@ -76,7 +77,7 @@
                 "birthday_year": birthday_year,
                 "birthday_month": birthday_month,
                 "birthday_day": birthday_day,
-            "birthday_contents": ConvertForWrite(content)
+                "birthday_contents": ConvertForWrite(content)
             })
         ;
 
