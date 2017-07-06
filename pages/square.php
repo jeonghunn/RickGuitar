@@ -7,6 +7,7 @@ $square_cards = json_decode($square_result['square_cards'], true);
 
 ?>
 
+
 <!-- html -->
 <div class="container" align="center">
 

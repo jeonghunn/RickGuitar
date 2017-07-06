@@ -66,6 +66,9 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
 ?>
 <link rel="image_src" href="pages/images/birthday_image.jpg"/>
 
+
+<title>hihihihihihi</title>
+
 <!-- html -->
 <div class="container" align="center">
 
