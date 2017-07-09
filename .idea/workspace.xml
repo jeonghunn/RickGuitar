@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -26,8 +27,8 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <marker date="1499614289000" expanded="true" signature="6357:6411" ph="..." />
                 <marker date="1499614289000" expanded="true" signature="6570:6702" ph="SELECT * FRO... favorite" />
@@ -1455,13 +1456,6 @@
       <workItem from="1499545570044" duration="387000" />
       <workItem from="1499609942840" duration="577000" />
     </task>
-    <task id="LOCAL-00931" summary="test">
-      <created>1499005460729</created>
-      <option name="number" value="00931" />
-      <option name="presentableId" value="LOCAL-00931" />
-      <option name="project" value="LOCAL" />
-      <updated>1499005460729</updated>
-    </task>
     <task id="LOCAL-00932" summary="square_srl bug fixed">
       <created>1499005563431</created>
       <option name="number" value="00932" />
@@ -1798,11 +1792,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499357423584</updated>
     </task>
-    <option name="localTasksCounter" value="980" />
+    <task id="LOCAL-00980" summary="ver">
+      <created>1499614304373</created>
+      <option name="number" value="00980" />
+      <option name="presentableId" value="LOCAL-00980" />
+      <option name="project" value="LOCAL" />
+      <updated>1499614304373</updated>
+    </task>
+    <option name="localTasksCounter" value="981" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="950905000" />
+    <option name="totallyTimeSpent" value="950933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1936,7 +1937,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="red bug fixed" />
     <MESSAGE value="square cards bug fixed" />
     <MESSAGE value="updated" />
     <MESSAGE value="square_srl bug fixed" />
@@ -1961,7 +1961,8 @@
     <MESSAGE value="birthday title" />
     <MESSAGE value="square br bug fixed" />
     <MESSAGE value="br bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="br bug fixed" />
+    <MESSAGE value="ver" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2354,8 +2355,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <marker date="1499614289000" expanded="true" signature="6357:6411" ph="..." />
             <marker date="1499614289000" expanded="true" signature="6570:6702" ph="SELECT * FRO... favorite" />
