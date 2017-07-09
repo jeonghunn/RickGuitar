@@ -109,7 +109,7 @@ setLoaded(true);
 LoadPages("", "main", false);
 LoadPages("home", "main", false);
 LoadPages("error", "error", false);
-LoadPages("info", "info", false);
+LoadPages("info", "info/view/info", false);
 LoadPages("infodetail", "infodetail", false);
 LoadPages("signup", "signup", false);
 LoadPages("birthday", "birthday/view/birthday_write", false);
