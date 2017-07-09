@@ -106,7 +106,7 @@ setLoaded(true);
 }
 
 //Guest, User all can
-LoadPages("", "main", false);
+LoadPages("", "square/view/square_write", false);
 LoadPages("home", "main", false);
 LoadPages("error", "error", false);
 LoadPages("info", "info/view/info", false);
@@ -126,7 +126,7 @@ if ($act_parameter != null && !$loaded) {
 //if null
     if ($square_result['square_key'] != null) {
         if ($square_result['type'] == "birthday") require_once 'pages/birthday/view/birthday_square.php';
-        if ($square_result['type'] == "square") require_once 'pages/square.php';
+        if ($square_result['type'] == "square") require_once 'pages/square/view/square_view.php';
 
         setLoaded(true);
     }

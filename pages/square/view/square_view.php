@@ -1,10 +1,13 @@
 <?php
+require_once 'pages/square/square.class.php';
+
+$SQUARE_CLASS = new SquareClass();
 
 $square_data = json_decode($square_result['data'], true);
 $square_cards = json_decode($square_result['square_cards'], true);
 
 $html_title = mb_substr(str_replace("{[br]}", " ", $square_cards[0]['content']), 0, 30);
-require_once 'pages/header.php';
+importHeader();
 
 
 ?>
@@ -35,7 +38,7 @@ require_once 'pages/header.php';
         <div class="outer">
             <div class="tablerow">
                 <div class="squarecard"><span
-                            style="font-size: 32px;"><?php echo ConvertForRead($square_cards[$i]['content']); ?></span>
+                            style="font-size: 32px;"><?php echo $SQUARE_CLASS->ConvertForRead($square_cards[$i]['content']); ?></span>
                 </div>
             </div>
         </div>

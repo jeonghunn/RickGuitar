@@ -40,6 +40,11 @@ function getAPIKey(){
     return 'xT3FP4AuctM-';
 }
 
+function importHeader()
+{
+    require_once 'pages/header.php';
+}
+
 function getCorePUrl(){
     return isDevelopmentServer() ? "tarks.net/develop/square/" : "tarks.net/square/";
 }
