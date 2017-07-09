@@ -107,7 +107,7 @@ setLoaded(true);
 
 //Guest, User all can
 LoadPages("", "square/view/square_write", false);
-LoadPages("home", "main", false);
+LoadPages("home", "square/view/square_write", false);
 LoadPages("error", "error", false);
 LoadPages("info", "info/view/info", false);
 LoadPages("infodetail", "infodetail", false);
