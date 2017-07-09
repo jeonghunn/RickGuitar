@@ -1,5 +1,5 @@
 <?php
-require_once 'pages/square/view/square.class.php';
+require_once 'pages/square/controller/square.class.php';
 
 $SQUARE_CLASS = new SquareClass();
 
