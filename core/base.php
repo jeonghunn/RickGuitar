@@ -92,7 +92,7 @@ function MessagePrint($category, $message, $des){
 }
 
 function ReadJson($value){
-    echo $value;
+    print_r(json_decode(stripslashes($value), true));
     return json_decode(stripslashes($value), true);
 }
 
