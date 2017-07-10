@@ -111,8 +111,8 @@ class SquareClass
     function Write($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $square_cards, $permission, $status, $privacy)
     {
 //Check Value security
-        security_value_check($title);
-        security_value_check($content);
+//        security_value_check($title);
+//        security_value_check($content);
 
 
         $result = false;
