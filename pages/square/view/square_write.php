@@ -78,7 +78,6 @@
             },
             success: function (data) {
                 setbuttonstatus(true);
-                alert(data);
                 if (data.indexOf('success') >= 0) {
 
                     var Result = JSON.parse(data);
