@@ -106,7 +106,7 @@ class SquareCardClass
     function Write($ATTACH_CLASS, $PUSH_CLASS, $square_srl, $parent_card_srl, $page_srl, $user_srl, $content, $permission, $status, $privacy)
     {
 
-        security_value_check($content);
+        //  security_value_check($content);
 //Start
 //	$user_srl = AuthCheck($user_srl, false);
         $last_number = $this->getLastNumber();
