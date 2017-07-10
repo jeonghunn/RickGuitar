@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "3.3.711";
+    return "3.3.711.0.52";
 }
 
 
