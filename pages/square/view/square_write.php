@@ -63,7 +63,7 @@
         }
 
         var square_cards = JSON.stringify(square_cards_array);
-
+        alert(square_cards);
 
         $.ajax({
             type: "POST",
