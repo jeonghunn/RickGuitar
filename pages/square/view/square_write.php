@@ -63,7 +63,7 @@
         }
 
         var square_cards = JSON.stringify(square_cards_array);
-        alert(square_cards);
+
 
         $.ajax({
             type: "POST",
@@ -78,7 +78,7 @@
             },
             success: function (data) {
                 setbuttonstatus(true);
-
+                alert(data);
                 if (data.indexOf('success') >= 0) {
 
                     var Result = JSON.parse(data);
