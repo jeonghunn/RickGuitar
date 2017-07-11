@@ -81,8 +81,6 @@
 
 
          body {
-              --app-primary-color: #00BCD4;
-              --app-secondary-color: black;
 
               display: block;
           }
@@ -120,6 +118,7 @@
              width:440px;
              height: 440px;
 
+             max-width: 440px;
              vertical-align: middle;
              display: table-cell;
 
