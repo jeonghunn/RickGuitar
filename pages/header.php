@@ -118,7 +118,7 @@
              width:440px;
              height: 440px;
 
-             max-width: 440px;
+             word-break: break-all;
              vertical-align: middle;
              display: table-cell;
 
