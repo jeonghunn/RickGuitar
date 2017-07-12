@@ -38,7 +38,7 @@ importHeader();
         <div class="outer">
             <div class="tablerow">
                 <div class="squarecard"><span
-                            style="font-size: 32px;"><?php echo $SQUARE_CLASS->ConvertForRead($square_cards[$i]['content']); ?></span>
+                            style="font-size: 32px;"><?php echo $SQUARE_CLASS->ConvertForRead(htmlspecialchars($square_cards[$i]['content'])); ?></span>
                 </div>
             </div>
         </div>
