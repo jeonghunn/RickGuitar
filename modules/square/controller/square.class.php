@@ -17,7 +17,7 @@ class SquareClass
         $row['you_doc_status'] = $status;
         if ($attach_info != null) $row['attach_contents'] = json_encode($ATTACH_CLASS->attach_read($user_srl, "square", $square_srl, $status, $attach_info));
 
-        $row['square_cards'] = json_encode($this->getReadResult($SQUARE_CARD_CLASS, $square_srl, $row['type']));
+        $row['square_cards'] = json_encode($this->getReadResult($SQUARE_CARD_CLASS, $square_srl, json_decode($row['data'], true), $row['type']));
 
 
         if ($status < $page_info['status']) $row = false;
@@ -28,13 +28,13 @@ class SquareClass
         return $row;
     }
 
-    function getReadResult($SQUARE_CARD_CLASS, $square_srl, $type)
+    function getReadResult($SQUARE_CARD_CLASS, $square_srl, $data, $type)
     {
         $cards = getSqlList($SQUARE_CARD_CLASS->Read($square_srl), array("content", "date"));
 
         if ($type == "birthday") {
             $BIRTHDAY_CLASS = new BirthdayClass();
-            $cards = $BIRTHDAY_CLASS->getReadResult($cards);
+            $cards = $BIRTHDAY_CLASS->getReadResult($data, $cards);
         }
 
 

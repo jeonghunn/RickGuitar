@@ -21,10 +21,30 @@ class BirthdayClass
         return array($title, $content, $square_data, $square_cards);
     }
 
-    function getReadResult($cards)
+    function getReadResult($data, $cards)
     {
 
-        $result_array = array(array("content" => "생일 태스트입니다."));
+        $birthday_name = $data['birthday_name'];
+        $birthday_year = $data['birthday_year'];
+        $birthday_month = $data['birthday_month'];
+        $birthday_day = $data['birthday_day'];
+        $birthday_contents = $data['birthday_contents'];
+
+        $result_array = array(array("content" => "생일 태스트입니다."),
+            array("content" => "<p><span style=\"font-size: 32px;\"><span
+                                style=\"font-size: 40px;\">" . $birthday_name . " 님은 <br><span
+                                style=\"font-size: 40px;\">" . $birthday_year . "</span>년 <span
+                                style=\"font-size: 40px;\">" . $birthday_month . "</span>월 <span
+                                style=\"font-size: 40px;\">" . $birthday_day . "</span>일에<br> 태어났고,</span>
+                </p>"),
+            array("content" => "생일 태스트입니다."),
+            array("content" => "생일 태스트입니다."),
+            array("content" => "생일 태스트입니다."),
+            array("content" => "생일 태스트입니다."),
+            array("content" => "생일 태스트입니다."),
+
+
+        );
 
         return $result_array;
     }
