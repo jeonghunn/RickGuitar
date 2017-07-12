@@ -21,11 +21,12 @@ class BirthdayClass
         return array($title, $content, $square_data, $square_cards);
     }
 
-    function getReadResult()
+    function getReadResult($cards)
     {
 
         $result_array = array(array("content" => "생일 태스트입니다."));
 
+        return $result_array;
     }
 
     function getWikipediaResult($birthday_month, $birthday_day)
