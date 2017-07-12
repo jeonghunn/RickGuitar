@@ -24,7 +24,7 @@ class BirthdayClass
     function getReadResult()
     {
 
-        $result_array = array(array("contents" => "생일 태스트입니다."));
+        $result_array = array(array("content" => "생일 태스트입니다."));
 
     }
 
