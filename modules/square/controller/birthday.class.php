@@ -55,8 +55,112 @@ class BirthdayClass
     }
 
 
+    function getYear()
+    {
+        return date("Y");
+    }
+
+    function getMonth()
+    {
+        return date("n");
+    }
+
+    function getDay()
+    {
+        return date("j");
+    }
+
+    function getBirthdayNum($birthday_year)
+    {
+        return $this->getYear() - $birthday_year + 1;
+    }
+
+    function getBTimeLast($birthday_month, $birthday_day)
+    {
+        return time() - mktime(0, 0, 0, $birthday_month, $birthday_day, $this->getYear()); // 정한 날과의 시간 차이
+    }
+
+    function getBirthdayLastHour($birthday_month, $birthday_day)
+    {
+        return floor($this->getBTimeLast($birthday_month, $birthday_day) / 3600);
+    }
+
+    function getBirthdayLastMin($birthday_month, $birthday_day)
+    {
+        return floor($this->getBTimeLast($birthday_month, $birthday_day) / 60) % 60;
+    }
 
 
+    function getBTimeLeft($birthday_month, $birthday_day)
+    {
+        return mktime(23, 59, 59, $birthday_month, $birthday_day, $this->getYear()) - time();  // 정한 날과의 시간 차이
+    }
+
+    function getBirthdayLeftHour($birthday_month, $birthday_day)
+    {
+        return floor($this->getBTimeLeft($birthday_month, $birthday_day) / 3600);
+    }
+
+    function getBirthdayLeftMin($birthday_month, $birthday_day)
+    {
+        return floor($this->getBTimeLeft($birthday_month, $birthday_day) / 60) % 60;
+    }
+
+    function getNextYear()
+    {
+        return $this->getYear() + 1;
+    }
+
+    function getNextRemainBirthday($birthday_month, $birthday_day)
+    {
+        return -$this->remain($this->getNextYear() . "-" . "$birthday_month" . "-" . "$birthday_day");
+    }
+
+    function getRealAge($birthday_year, $birthday_month, $birthday_day)
+    {
+        return $this->realagecalc($birthday_year, $birthday_month, $birthday_day, $this->getYear(), $this->getMonth(), $this->getDay());
+    }
+
+    function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_month, $now_day)
+    {
+        if ($birth_month < $now_month)
+            $age = $now_year - $birth_year;
+        else if ($birth_month == $now_month) {
+            if ($birth_day <= $now_day)
+                $age = $now_year - $birth_year;
+            else
+                $age = $now_year - $birth_year - 1;
+        } else
+            $age = $now_year - $birth_year - 1;
+
+        return $age;
+    }
+
+    function getLife($birthday_year, $birthday_month, $birthday_day)
+    {
+        return $this->getRealAge($birthday_year, $birthday_month, $birthday_day) / 80;
+    }
+
+    function getLifeTime($birthday_year, $birthday_month, $birthday_day)
+    {
+        return $this->getLife($birthday_year, $birthday_month, $birthday_day) * 1440;
+    }
+
+    function getLifeHour($birthday_year, $birthday_month, $birthday_day)
+    {
+        floor($this->getLifeTime($birthday_year, $birthday_month, $birthday_day) / 60);
+    }
+
+    function getLifeMin($birthday_year, $birthday_month, $birthday_day)
+    {
+        return $this->getLifeTime($birthday_year, $birthday_month, $birthday_day) % 60;
+    }
+
+    function remain($d)
+    {
+        $day = strtotime($d);
+        return intval((time() - $day) / 86400);
+    }
 }
 
 ?>
