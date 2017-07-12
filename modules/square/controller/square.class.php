@@ -17,7 +17,7 @@ class SquareClass
         $row['you_doc_status'] = $status;
         if ($attach_info != null) $row['attach_contents'] = json_encode($ATTACH_CLASS->attach_read($user_srl, "square", $square_srl, $status, $attach_info));
 
-        $row['square_cards'] = json_encode(getReadResult($SQUARE_CARD_CLASS, $square_srl, $row['type']));
+        $row['square_cards'] = json_encode($this->getReadResult($SQUARE_CARD_CLASS, $square_srl, $row['type']));
 
 
         if ($status < $page_info['status']) $row = false;
