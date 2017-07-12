@@ -24,6 +24,8 @@ class BirthdayClass
     function getReadResult()
     {
 
+        $result_array = array(array("contents" => "생일 태스트입니다."));
+
     }
 
     function getWikipediaResult($birthday_month, $birthday_day)
