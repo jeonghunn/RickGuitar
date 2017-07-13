@@ -44,7 +44,8 @@ class BirthdayClass
 {[/span]}'),
             array("content" => '{[span style="font-size: 32px;"]}﻿이번 생일이 {[br]} {[span
                             style="font-size: 40px;"]}' . $this->getBirthdayNum($birthday_year) . '{[/span]}번째 {[br]}생일이며{[/span]}'),
-            array("content" => "생일 태스트입니다."),
+            array("content" => ' {[span style="font-size: 32px;"]}﻿만으로 {[br]} {[span
+                            style="font-size: 40px;"]}{[?php echo $realage ?]}{[/span]}살 {[br]}입니다.{[/span]}'),
             array("content" => "생일 태스트입니다."),
             array("content" => "생일 태스트입니다."),
 
