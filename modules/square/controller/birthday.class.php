@@ -70,6 +70,47 @@ class BirthdayClass
         return $result_array;
     }
 
+    function getBirthdayWikiContents($birthday_wiki, $birthday_month, $birthday_day)
+    {
+
+        $birthday_wiki_contents = "";
+
+        if ($birthday_wiki != "") {
+
+            $birthday_wiki_array = json_decode($birthday_wiki, true);
+
+            for ($i = 0; $i < count($birthday_wiki_array); $i++) {
+
+                $birthday_wiki_contents = $birthday_wiki_contents . $birthday_wiki_array[$i] . "<br />";
+
+            }
+
+
+        } else {
+
+
+            $wikicon = file_get_contents('http://ko.m.wikipedia.org/wiki/' . $birthday_month . '월_' . $birthday_day . '일');
+
+            $DOM = new DOMDocument;
+            $DOM->loadHTML(mb_convert_encoding($wikicon, 'HTML-ENTITIES', 'UTF-8'));
+
+//get all H1
+            $items = $DOM->getElementsByTagName('ul');
+
+
+            $itr = $items->item(1);
+
+
+            if ($itr->hasChildNodes()) {
+                $childs = $itr->childNodes;
+                foreach ($childs as $i) {
+                    $birthday_wiki_contents = $birthday_wiki_contents . $i->nodeValue . "<br />";
+                }
+            }
+        }
+
+    }
+
     function getWikipediaResult($birthday_month, $birthday_day)
     {
         $wikicon = file_get_contents('http://ko.m.wikipedia.org/wiki/' . $birthday_month . '월_' . $birthday_day . '일');
