@@ -22,7 +22,7 @@ class SquareClass
         $contents = str_replace("{[p", "<p", $contents);
         $contents = str_replace("{[b", "<b", $contents);
         $contents = str_replace("{[i", "<i", $contents);
-        $contents = str_replace("&quot;", ";", $contents);
+//        $contents = str_replace("&quot;", ";", $contents);
         $contents = str_replace('\"', '"', $contents);
         $contents = str_replace('\'', "''", $contents);
 
