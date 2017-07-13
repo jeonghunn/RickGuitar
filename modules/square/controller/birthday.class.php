@@ -31,7 +31,7 @@ class BirthdayClass
         $birthday_contents = $data['birthday_contents'];
         $birthday_wiki = $data['birthday_wiki'];
         $birthday_wiki_contents = '{[br]}{[h4]}' . $birthday_month . '월 ' . $birthday_day . '일에는 무슨 일들이 일어났을까요?{[/h4]}
-                {[hr]}' . $birthday_wiki;
+                {[hr]}' . $this->getBirthdayWikiContents($birthday_wiki, $birthday_month, $birthday_day);
 
         $result_array = array(array("content" => "{[span style=\"font-size: 100px;\"]}동현{[/span]}"),
             array("content" => '{[p]}{[span style="font-size: 32px;"]}{[span
@@ -81,7 +81,7 @@ class BirthdayClass
 
             for ($i = 0; $i < count($birthday_wiki_array); $i++) {
 
-                $birthday_wiki_contents = $birthday_wiki_contents . $birthday_wiki_array[$i] . "<br />";
+                $birthday_wiki_contents = $birthday_wiki_contents . $birthday_wiki_array[$i] . "{[br]}";
 
             }
 
@@ -104,11 +104,12 @@ class BirthdayClass
             if ($itr->hasChildNodes()) {
                 $childs = $itr->childNodes;
                 foreach ($childs as $i) {
-                    $birthday_wiki_contents = $birthday_wiki_contents . $i->nodeValue . "<br />";
+                    $birthday_wiki_contents = $birthday_wiki_contents . $i->nodeValue . "{[br]}";
                 }
             }
         }
 
+        return $birthday_wiki_contents;
     }
 
     function getWikipediaResult($birthday_month, $birthday_day)
