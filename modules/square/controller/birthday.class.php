@@ -38,7 +38,7 @@ class BirthdayClass
                                 style="font-size: 40px;"]}' . $birthday_day . '{[/span]}일에{[br]} 태어났고,{[/span]}
                 {[/p]}'),
             array("content" => ' {[span style="font-size: 32px;"]}{[p]}{[span style="font-size: 32px;"]}﻿지금까지{[/span]}{[/p]}
-{[span style="font-size: 32px;"]}{[span style="font-size: 40px;"]}{[?php echo remain($bt) ?]}{[/span]}일{[/span]}{[br]}
+{[span style="font-size: 32px;"]}{[span style="font-size: 40px;"]}' . $this->getLifeDays($birthday_year, $birthday_month, $birthday_day) . '{[/span]}일{[/span]}{[br]}
 지났습니다.{[/p]}
 
 {[/span]}'),
@@ -138,6 +138,16 @@ class BirthdayClass
     function getNextRemainBirthday($birthday_month, $birthday_day)
     {
         return -$this->remain($this->getNextYear() . "-" . "$birthday_month" . "-" . "$birthday_day");
+    }
+
+    function getBirthdayText($birthday_year, $birthday_month, $birthday_day)
+    {
+        return "$birthday_year" . "-" . "$birthday_month" . "-" . "$birthday_day";
+    }
+
+    function getLifeDays($birthday_year, $birthday_month, $birthday_day)
+    {
+        return $this->remain($this->getBirthdayText($birthday_year, $birthday_month, $birthday_day));
     }
 
     function getRealAge($birthday_year, $birthday_month, $birthday_day)
