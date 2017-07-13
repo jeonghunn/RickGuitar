@@ -81,7 +81,7 @@ class BirthdayClass
 
             for ($i = 0; $i < count($birthday_wiki_array); $i++) {
 
-                $birthday_wiki_contents = $birthday_wiki_contents . $birthday_wiki_array[$i] . "{[br]}";
+                $birthday_wiki_contents = $birthday_wiki_contents . $birthday_wiki_array[$i];
 
             }
 
@@ -104,7 +104,7 @@ class BirthdayClass
             if ($itr->hasChildNodes()) {
                 $childs = $itr->childNodes;
                 foreach ($childs as $i) {
-                    $birthday_wiki_contents = $birthday_wiki_contents . $i->nodeValue . "{[br]}";
+                    $birthday_wiki_contents = $birthday_wiki_contents . $i->nodeValue;
                 }
             }
         }
