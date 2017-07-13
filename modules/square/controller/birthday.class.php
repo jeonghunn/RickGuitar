@@ -32,7 +32,7 @@ class BirthdayClass
 
         $result_array = array(array("content" => "{[span style=\"font-size: 100px;\"]}동현{[/span]}"),
             array("content" => '{[p]}{[span style="font-size: 32px;"]}{[span
-                                style="font-size: 40px;"]}' . $birthday_name . ' 님은 {[br]}{[span
+                                style="font-size: 40px;"]}' . $birthday_name . '{[/span]} 님은 {[br]}{[span
                                 style="font-size: 40px;"]}' . $birthday_year . '{[/span]}년 {[span
                                 style="font-size: 40px;"]}' . $birthday_month . '{[/span]}월 {[span
                                 style="font-size: 40px;"]}' . $birthday_day . '{[/span]}일에{[br]} 태어났고,{[/span]}
