@@ -186,7 +186,7 @@ class BirthdayClass
 
     function getLifeHour($birthday_year, $birthday_month, $birthday_day)
     {
-        floor($this->getLifeTime($birthday_year, $birthday_month, $birthday_day) / 60);
+        return floor($this->getLifeTime($birthday_year, $birthday_month, $birthday_day) / 60);
     }
 
     function getLifeMin($birthday_year, $birthday_month, $birthday_day)
