@@ -33,8 +33,8 @@ class BirthdayClass
         $result_array = array(array("content" => "생일 태스트입니다."),
             array("content" => "{[p]}{[span style=\"font-size: 32px;\"]}{[span
                                 style=\"font-size: 40px;\"]}" . $birthday_name . " 님은 {[br]}{[span
-                                style=\"font-size: 40px;\"]}" . $birthday_year . "{[/span>년 {[span
-                                style=\"font-size: 40px;\"]}" . $birthday_month . "{[/span>월 {[span
+                                style=\"font-size: 40px;\"]}" . $birthday_year . "{[/span]}년 {[span
+                                style=\"font-size: 40px;\"]}" . $birthday_month . "{[/span]}월 {[span
                                 style=\"font-size: 40px;\"]}" . $birthday_day . "{[/span]}일에{[br]} 태어났고,{[/span]}
                 {[/p]}"),
             array("content" => "생일 태스트입니다."),
