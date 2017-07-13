@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/square/controller/birthday.class.php" afterPath="$PROJECT_DIR$/modules/square/controller/birthday.class.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -44,16 +45,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <marker date="1499952934000" expanded="true" signature="6354:6408" ph="..." />
-                <marker date="1499952934000" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
-                <marker date="1499952934000" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
-                <marker date="1499952934000" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
+                <marker date="1499953115000" expanded="true" signature="6357:6411" ph="..." />
+                <marker date="1499953115000" expanded="true" signature="6570:6702" ph="SELECT * FRO... favorite" />
+                <marker date="1499953115000" expanded="true" signature="6754:6886" ph="SELECT * FRO... favorite" />
+                <marker date="1499953115000" expanded="true" signature="6937:6988" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -149,28 +150,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="birthday.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="birthday.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="36" column="85" lean-forward="false" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
+            <state relative-caret-position="430">
+              <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
               <folding>
-                <marker date="1499953058000" expanded="true" signature="1071:1535" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1083:1099" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1104:1512" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1104:1530" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1108:1165" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1108:1512" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1148:1164" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1205:1262" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1205:1293" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1245:1261" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1303:1360" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1303:1392" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1343:1359" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1402:1459" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1402:1489" ph="..." />
-                <marker date="1499953058000" expanded="true" signature="1442:1458" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1071:1535" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1083:1099" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1104:1512" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1104:1530" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1108:1165" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1108:1512" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1148:1164" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1205:1262" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1205:1293" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1245:1261" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1303:1360" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1303:1392" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1343:1359" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1402:1459" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1402:1489" ph="..." />
+                <marker date="1499953108000" expanded="true" signature="1442:1458" ph="..." />
               </folding>
             </state>
           </provider>
@@ -285,8 +286,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/birthday.class.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
   </component>
@@ -1564,14 +1565,7 @@
       <workItem from="1499609942840" duration="577000" />
       <workItem from="1499731013400" duration="1008000" />
       <workItem from="1499873151872" duration="9736000" />
-      <workItem from="1499951322205" duration="645000" />
-    </task>
-    <task id="LOCAL-00943" summary="test">
-      <created>1499164406615</created>
-      <option name="number" value="00943" />
-      <option name="presentableId" value="LOCAL-00943" />
-      <option name="project" value="LOCAL" />
-      <updated>1499164406615</updated>
+      <workItem from="1499951322205" duration="699000" />
     </task>
     <task id="LOCAL-00944" summary="test">
       <created>1499164452740</created>
@@ -1909,11 +1903,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499952955340</updated>
     </task>
-    <option name="localTasksCounter" value="992" />
+    <task id="LOCAL-00992" summary="birthday getReadresult bug fixed">
+      <created>1499953067320</created>
+      <option name="number" value="00992" />
+      <option name="presentableId" value="LOCAL-00992" />
+      <option name="project" value="LOCAL" />
+      <updated>1499953067320</updated>
+    </task>
+    <option name="localTasksCounter" value="993" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="962979000" />
+    <option name="totallyTimeSpent" value="963033000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2396,40 +2397,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
+    <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state relative-caret-position="430">
+          <caret line="32" column="63" lean-forward="true" selection-start-line="32" selection-start-column="63" selection-end-line="32" selection-end-column="63" />
           <folding>
-            <marker date="1499952934000" expanded="true" signature="6354:6408" ph="..." />
-            <marker date="1499952934000" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
-            <marker date="1499952934000" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
-            <marker date="1499952934000" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
+            <marker date="1499953108000" expanded="true" signature="1071:1535" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1083:1099" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1104:1512" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1104:1530" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1108:1165" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1108:1512" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1148:1164" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1205:1262" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1205:1293" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1245:1261" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1303:1360" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1303:1392" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1343:1359" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1402:1459" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1402:1489" ph="..." />
+            <marker date="1499953108000" expanded="true" signature="1442:1458" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
+    <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="36" column="85" lean-forward="false" selection-start-line="36" selection-start-column="85" selection-end-line="36" selection-end-column="85" />
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1499953058000" expanded="true" signature="1071:1535" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1083:1099" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1104:1512" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1104:1530" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1108:1165" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1108:1512" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1148:1164" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1205:1262" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1205:1293" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1245:1261" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1303:1360" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1303:1392" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1343:1359" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1402:1459" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1402:1489" ph="..." />
-            <marker date="1499953058000" expanded="true" signature="1442:1458" ph="..." />
+            <marker date="1499953115000" expanded="true" signature="6357:6411" ph="..." />
+            <marker date="1499953115000" expanded="true" signature="6570:6702" ph="SELECT * FRO... favorite" />
+            <marker date="1499953115000" expanded="true" signature="6754:6886" ph="SELECT * FRO... favorite" />
+            <marker date="1499953115000" expanded="true" signature="6937:6988" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
