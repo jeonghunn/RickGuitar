@@ -29,6 +29,9 @@ class BirthdayClass
         $birthday_month = $data['birthday_month'];
         $birthday_day = $data['birthday_day'];
         $birthday_contents = $data['birthday_contents'];
+        $birthday_wiki = $data['birthday_wiki'];
+        $birthday_wiki_contents = '{[br]}{[h4]}' . $birthday_month . '월 ' . $birthday_day . '일에는 무슨 일들이 일어났을까요?{[/h4]}
+                {[hr]}' . $birthday_wiki;
 
         $result_array = array(array("content" => "{[span style=\"font-size: 100px;\"]}동현{[/span]}"),
             array("content" => '{[p]}{[span style="font-size: 32px;"]}{[span
@@ -58,8 +61,8 @@ class BirthdayClass
             array("content" => '{[span style="font-size: 32px;"]}{[span
                         style="font-size: 40px;"]}' . $this->getNextYear() . '{[/span]}년 다음 생일은 {[br]}{[span
                         style="font-size: 40px;"]}' . $this->getNextRemainBirthday($birthday_month, $birthday_day) . '{[/span]}일 후가 됩니다.{[/span]}'),
-            array("content" => "생일 태스트입니다."),
-            array("content" => "생일 태스트입니다."),
+            array("content" => $birthday_wiki_contents),
+            array("content" => $birthday_contents),
 
 
         );
