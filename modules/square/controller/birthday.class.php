@@ -50,8 +50,8 @@ class BirthdayClass
                         style="font-size: 40px;"]}' . $this->getLifeHour($birthday_year, $birthday_month, $birthday_day) . '{[/span]}시 {[span
                         style="font-size: 40px;"]}' . $this->getLifeMin($birthday_year, $birthday_month, $birthday_day) . '{[/span]}분이 됩니다.{[/span]}'),
             array("content" => '{[span style="font-size: 32px;"]}﻿지금까지 생일이 {[br]}{[span
-                        style="font-size: 40px;"]}{[?php echo $birthdaylasthour ?]}{[/span]}시간 {[span
-                        style="font-size: 40px;"]}{[?php echo $birthdaylastmin ?]}{[/span]}분 지났으며,{[/span]}'),
+                        style="font-size: 40px;"]}' . $this->getBirthdayLastHour($birthday_month, $birthday_day) . '{[/span]}시간 {[span
+                        style="font-size: 40px;"]}' . $this->getBirthdayLastMin($birthday_month, $birthday_day) . '{[/span]}분 지났으며,{[/span]}'),
             array("content" => "생일 태스트입니다."),
             array("content" => "생일 태스트입니다."),
             array("content" => "생일 태스트입니다."),

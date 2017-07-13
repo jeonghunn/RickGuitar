@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/square/controller/birthday.class.php" afterPath="$PROJECT_DIR$/modules/square/controller/birthday.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/birthday/view/birthday_square.php" afterPath="$PROJECT_DIR$/pages/birthday/view/birthday_square.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
               <entry file="file://$PROJECT_DIR$/pages/birthday/view/birthday_square.php">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="727">
-                    <caret line="174" column="10" lean-forward="false" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="11" />
+                    <caret line="174" column="10" lean-forward="false" selection-start-line="175" selection-start-column="4" selection-end-line="175" selection-end-column="5" />
                     <folding />
                   </state>
                 </provider>
@@ -45,16 +45,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1499974730000" expanded="true" signature="6356:6410" ph="..." />
-                <marker date="1499974730000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-                <marker date="1499974730000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-                <marker date="1499974730000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+                <marker date="1499974948000" expanded="true" signature="6356:6410" ph="..." />
+                <marker date="1499974948000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+                <marker date="1499974948000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+                <marker date="1499974948000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -224,11 +224,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="birthday.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="birthday.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="51" column="32" lean-forward="false" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+            <state relative-caret-position="451">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -352,9 +352,9 @@
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/birthday/view/birthday_square.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/birthday.class.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
   </component>
@@ -1634,13 +1634,6 @@
       <workItem from="1499873151872" duration="9736000" />
       <workItem from="1499951322205" duration="8428000" />
     </task>
-    <task id="LOCAL-00956" summary="main card updated">
-      <created>1499169055506</created>
-      <option name="number" value="00956" />
-      <option name="presentableId" value="LOCAL-00956" />
-      <option name="project" value="LOCAL" />
-      <updated>1499169055506</updated>
-    </task>
     <task id="LOCAL-00957" summary="main card updated">
       <created>1499175819447</created>
       <option name="number" value="00957" />
@@ -1977,11 +1970,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499974745830</updated>
     </task>
-    <option name="localTasksCounter" value="1005" />
+    <task id="LOCAL-01005" summary="birthday card bug fixed">
+      <created>1499974862853</created>
+      <option name="number" value="01005" />
+      <option name="presentableId" value="LOCAL-01005" />
+      <option name="project" value="LOCAL" />
+      <updated>1499974862853</updated>
+    </task>
+    <option name="localTasksCounter" value="1006" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="973035000" />
+    <option name="totallyTimeSpent" value="973129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2570,7 +2570,15 @@
     <entry file="file://$PROJECT_DIR$/pages/birthday/view/birthday_square.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="727">
-          <caret line="174" column="10" lean-forward="false" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="11" />
+          <caret line="174" column="10" lean-forward="false" selection-start-line="175" selection-start-column="4" selection-end-line="175" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2580,19 +2588,11 @@
         <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1499974730000" expanded="true" signature="6356:6410" ph="..." />
-            <marker date="1499974730000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-            <marker date="1499974730000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-            <marker date="1499974730000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+            <marker date="1499974948000" expanded="true" signature="6356:6410" ph="..." />
+            <marker date="1499974948000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+            <marker date="1499974948000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+            <marker date="1499974948000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="51" column="32" lean-forward="false" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
