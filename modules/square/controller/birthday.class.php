@@ -33,7 +33,7 @@ class BirthdayClass
         $birthday_wiki_contents = '{[br]}{[h4]}' . $birthday_month . '월 ' . $birthday_day . '일에는 무슨 일들이 일어났을까요?{[/h4]}
                 {[hr]}{[p style="font-size: 14px;"]}' . $this->getBirthdayWikiContents($birthday_wiki, $birthday_month, $birthday_day) . "{[/p]}";
 
-        $result_array = array(array("content" => "{[span style=\"font-size: 100px;\"]}동현{[/span]}"),
+        $result_array = array(
             array("content" => '{[p]}{[span style="font-size: 32px;"]}{[span
                                 style="font-size: 40px;"]}' . $birthday_name . '{[/span]} 님은 {[br]}{[span
                                 style="font-size: 40px;"]}' . $birthday_year . '{[/span]}년 {[span
