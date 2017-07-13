@@ -173,6 +173,7 @@ function realagecalc($birth_year, $birth_month, $birth_day, $now_year, $now_mont
             </div>
         </div>
     </div>
+    <
 
     <div class="outer">
         <div class="tablerow">
