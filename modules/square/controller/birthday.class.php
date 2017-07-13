@@ -30,7 +30,7 @@ class BirthdayClass
         $birthday_day = $data['birthday_day'];
         $birthday_contents = $data['birthday_contents'];
 
-        $result_array = array(array("content" => "생일 태스트입니다."),
+        $result_array = array(array("content" => "{[span style=\"font-size: 100px;\"]}동현{[/span]}"),
             array("content" => '{[p]}{[span style="font-size: 32px;"]}{[span
                                 style="font-size: 40px;"]}' . $birthday_name . ' 님은 {[br]}{[span
                                 style="font-size: 40px;"]}' . $birthday_year . '{[/span]}년 {[span
