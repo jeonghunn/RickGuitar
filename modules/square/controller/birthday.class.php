@@ -46,7 +46,9 @@ class BirthdayClass
                             style="font-size: 40px;"]}' . $this->getBirthdayNum($birthday_year) . '{[/span]}번째 {[br]}생일이며{[/span]}'),
             array("content" => ' {[span style="font-size: 32px;"]}﻿만으로 {[br]} {[span
                             style="font-size: 40px;"]}' . $this->getRealAge($birthday_year, $birthday_month, $birthday_day) . '{[/span]}살 {[br]}입니다.{[/span]}'),
-            array("content" => "생일 태스트입니다."),
+            array("content" => '{[span style="font-size: 32px;"]}﻿인생을 시간으로 본다면{[br]} 지금 시간은{[br]} {[span
+                        style="font-size: 40px;"]}' . $this->getLifeHour($birthday_year, $birthday_month, $birthday_day) . '{[/span]}시 {[span
+                        style="font-size: 40px;"]}' . $this->getLifeMin($birthday_year, $birthday_month, $birthday_day) . '{[/span]}분이 됩니다.{[/span]}'),
             array("content" => "생일 태스트입니다."),
 
 
