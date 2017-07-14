@@ -40,7 +40,7 @@ function getAPIKey(){
     return 'xT3FP4AuctM-';
 }
 
-function importHeader()
+function importHeader($html_title)
 {
     require_once 'pages/header.php';
 }

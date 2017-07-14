@@ -7,7 +7,7 @@ $square_data = json_decode($square_result['data'], true);
 $square_cards = json_decode($square_result['square_cards'], true);
 
 $html_title = mb_substr(str_replace("{[br]}", " ", $square_cards[0]['content']), 0, 30);
-importHeader();
+importHeader($html_title);
 
 
 ?>
