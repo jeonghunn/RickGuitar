@@ -32,4 +32,16 @@ class SquareClass
         return $contents;
     }
 
+    function getHTMLTitle($title, $square_cards)
+    {
+
+        if ($title == "" || $title == null) {
+            return mb_substr(str_replace("{[br]}", " ", $square_cards[0]['content']), 0, 30);
+        } else {
+            return mb_substr($title, 0, 30);
+        }
+
+
+    }
+
 }
