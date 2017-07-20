@@ -7,8 +7,10 @@ $square_data = json_decode($square_result['data'], true);
 $square_cards = json_decode($square_result['square_cards'], true);
 
 $html_title = $SQUARE_CLASS->getHTMLTitle($square_result['title'], $square_cards);
+
 importHeader($html_title);
 
+if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"pages/images/birthday_image.jpg\"/>";
 
 ?>
 
