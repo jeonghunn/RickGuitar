@@ -93,6 +93,7 @@ require_once 'pages/header.php'; ?>
                 "apiv": "<?php echo getAPIVersion()?>",
                 "api_key": "<?php echo getAPIKey()?>",
                 "auth": "<?php echo getUserAuth()?>",
+                "title": birthday_name + "님의 생일",
                 "type": "birthday",
                 "data": data
             },
@@ -115,7 +116,6 @@ require_once 'pages/header.php'; ?>
 
             error: function (jqXHR) {
                 setbuttonstatus(true);
-                alert(jqXHR);
                 alert('죄송합니다. 뭔가 문제가 있는거 같아요. 잠시 후에 다시 시도해주세요 ㅠㅠ 문의 : jeonghunn1@gmail.com');
             }
 
