@@ -90,7 +90,7 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
 
     function sendLink() {
         Kakao.Link.sendTalkLink({
-            label: '<?php echo $square_cards[0]['content'] ?>', // 공유할 메세지의 제목을 설정
+            label: '<?php echo $html_title ?>', // 공유할 메세지의 제목을 설정
             image: {
                 src: firstImgSrc,
                 width: '300',
