@@ -20,6 +20,7 @@ class SquareClass
         $contents = str_replace("{[h", "<h", $contents);
         $contents = str_replace("{[p", "<p", $contents);
         $contents = str_replace("{[b", "<b", $contents);
+        $contents = str_replace("{[a", "<a", $contents);
         $contents = str_replace("{[i", "<i", $contents);
         $contents = str_replace("{[u", "<u", $contents);
         $contents = str_replace("{[o", "<o", $contents);
