@@ -14,7 +14,7 @@ function getAPIVersion(){
 
 function isDevelopmentMode()
 {
-    return false;
+    return true;
 }
 
 function isDevelopmentServer()
