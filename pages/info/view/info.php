@@ -63,6 +63,7 @@
     <p>2017.6.23 Alpha Ver, Birthday</p>
     <p>2017.7.3 - 3.1 Patch</p>
     <p>2017.7.6 - 3.2 Patch</p>
+    <p>2017.7.22 - 3.3 Patch</p>
 
 
 </div>
