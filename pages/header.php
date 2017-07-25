@@ -117,7 +117,7 @@
              border-radius: 16px; /* 5px rounded corners */
              width:440px;
              height: 440px;
-             padding-left: 2%;
+             padding-left: 24px;
 
              word-break: break-all;
              /*vertical-align: middle;*/
