@@ -3,10 +3,9 @@
 <!-- html -->
     <div class="container">
 
-        <h1 style="font-size: 63px;text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
+        <h1 style="text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
 <br><br>
-        <center><h3 stlye="font-size: 21px;">지금 써보기</h3>
-<br>
+        <center>
             <div class="outer">
                 <div class="tablerow">
                     <div class="squarecard">
