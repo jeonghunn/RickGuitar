@@ -120,6 +120,7 @@
 
              word-break: break-all;
              /*vertical-align: middle;*/
+             text-align: left;
              display: table-cell;
 
          }
