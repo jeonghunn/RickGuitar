@@ -119,7 +119,7 @@
              height: 440px;
 
              word-break: break-all;
-             vertical-align: middle;
+             /*vertical-align: middle;*/
              display: table-cell;
 
          }
