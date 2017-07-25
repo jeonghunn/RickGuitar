@@ -16,7 +16,7 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
 
 
 <!-- html -->
-<div class="container" align="center">
+<div class="container">
 
     <?php if ($square_result['date'] > getTimeStamp() - 5) { ?>
         <h4>성공적으로 생성되었습니다.</h4>
