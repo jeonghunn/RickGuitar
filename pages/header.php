@@ -118,6 +118,10 @@
              width:440px;
              height: 440px;
              padding-left: 24px;
+             padding-right: 24px;
+             padding-bottom: 24px;
+             padding-top: 24px;
+
 
              word-break: break-all;
              /*vertical-align: middle;*/
