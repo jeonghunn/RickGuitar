@@ -12,11 +12,11 @@
 
                         <textarea class="cardtextarea" placeholder="내용을 입력해주세요." id="contents_1"></textarea>
                         <label class="radio-inline">
-                            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" checked> 가운데
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="center" checked> 가운데
                             정렬
                         </label>
                         <label class="radio-inline">
-                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 왼쪽 정렬
+                            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="left"> 왼쪽 정렬
                         </label>
                         <br>
                     </div>

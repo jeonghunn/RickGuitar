@@ -124,8 +124,7 @@
 
 
              word-break: break-all;
-             /*vertical-align: middle;*/
-             text-align: left;
+             vertical-align: middle;
              display: table-cell;
 
          }
