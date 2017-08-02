@@ -113,8 +113,8 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="60" column="62" lean-forward="false" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
+            <state relative-caret-position="154">
+              <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1546,21 +1546,7 @@
       <workItem from="1501157550588" duration="2142000" />
       <workItem from="1501164183518" duration="670000" />
       <workItem from="1501176596461" duration="923000" />
-      <workItem from="1501686265773" duration="830000" />
-    </task>
-    <task id="LOCAL-01001" summary="test">
-      <created>1499973664681</created>
-      <option name="number" value="01001" />
-      <option name="presentableId" value="LOCAL-01001" />
-      <option name="project" value="LOCAL" />
-      <updated>1499973664681</updated>
-    </task>
-    <task id="LOCAL-01002" summary="birthday card updated">
-      <created>1499973766941</created>
-      <option name="number" value="01002" />
-      <option name="presentableId" value="LOCAL-01002" />
-      <option name="project" value="LOCAL" />
-      <updated>1499973766941</updated>
+      <workItem from="1501686265773" duration="920000" />
     </task>
     <task id="LOCAL-01003" summary="birthday card updated">
       <created>1499974007117</created>
@@ -1891,11 +1877,25 @@
       <option name="project" value="LOCAL" />
       <updated>1501687053554</updated>
     </task>
-    <option name="localTasksCounter" value="1050" />
+    <task id="LOCAL-01050" summary="javascript array updated">
+      <created>1501687114914</created>
+      <option name="number" value="01050" />
+      <option name="presentableId" value="LOCAL-01050" />
+      <option name="project" value="LOCAL" />
+      <updated>1501687114914</updated>
+    </task>
+    <task id="LOCAL-01051" summary="javascript syntex bug fixed">
+      <created>1501687155539</created>
+      <option name="number" value="01051" />
+      <option name="presentableId" value="LOCAL-01051" />
+      <option name="project" value="LOCAL" />
+      <updated>1501687155539</updated>
+    </task>
+    <option name="localTasksCounter" value="1052" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1024517000" />
+    <option name="totallyTimeSpent" value="1024607000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2003,8 +2003,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="card test" />
-    <MESSAGE value="birthday card bug fixed" />
     <MESSAGE value="birthday card updated wiki" />
     <MESSAGE value="birthday card updated" />
     <MESSAGE value="tag updated" />
@@ -2028,7 +2026,9 @@
     <MESSAGE value="html title updated" />
     <MESSAGE value="; bug fixed" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="javascript array updated" />
+    <MESSAGE value="javascript syntex bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="javascript syntex bug fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2416,8 +2416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="60" column="62" lean-forward="false" selection-start-line="60" selection-start-column="62" selection-end-line="60" selection-end-column="62" />
+        <state relative-caret-position="154">
+          <caret line="61" column="8" lean-forward="false" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
           <folding />
         </state>
       </provider>
