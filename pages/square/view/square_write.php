@@ -58,7 +58,7 @@
 
         for (var i = 1; i <= cardcount; i++) {
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).value);
-            square_cards_array.push({alpha: 'puffin', contents: cardvalue};
+            square_cards_array.push({alpha: 'puffin', contents: cardvalue});
         )
             ;
         }
