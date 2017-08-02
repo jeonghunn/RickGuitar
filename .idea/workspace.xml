@@ -113,8 +113,8 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="66" column="29" lean-forward="false" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+            <state relative-caret-position="364">
+              <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -1546,14 +1546,7 @@
       <workItem from="1501157550588" duration="2142000" />
       <workItem from="1501164183518" duration="670000" />
       <workItem from="1501176596461" duration="923000" />
-      <workItem from="1501686265773" duration="747000" />
-    </task>
-    <task id="LOCAL-00999" summary="card test">
-      <created>1499973459427</created>
-      <option name="number" value="00999" />
-      <option name="presentableId" value="LOCAL-00999" />
-      <option name="project" value="LOCAL" />
-      <updated>1499973459427</updated>
+      <workItem from="1501686265773" duration="777000" />
     </task>
     <task id="LOCAL-01000" summary="birthday card updated">
       <created>1499973573348</created>
@@ -1891,11 +1884,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501686951339</updated>
     </task>
-    <option name="localTasksCounter" value="1048" />
+    <task id="LOCAL-01048" summary="; bug fixed">
+      <created>1501687024605</created>
+      <option name="number" value="01048" />
+      <option name="presentableId" value="LOCAL-01048" />
+      <option name="project" value="LOCAL" />
+      <updated>1501687024605</updated>
+    </task>
+    <option name="localTasksCounter" value="1049" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1024434000" />
+    <option name="totallyTimeSpent" value="1024464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2003,7 +2003,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="second card updated" />
     <MESSAGE value="card test" />
     <MESSAGE value="birthday card bug fixed" />
     <MESSAGE value="birthday card updated wiki" />
@@ -2028,7 +2027,8 @@
     <MESSAGE value="default updated" />
     <MESSAGE value="html title updated" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="; bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="; bug fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2416,8 +2416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="66" column="29" lean-forward="false" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        <state relative-caret-position="364">
+          <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
           <folding />
         </state>
       </provider>
