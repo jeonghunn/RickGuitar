@@ -58,7 +58,9 @@
 
         for (var i = 1; i <= cardcount; i++) {
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).value);
-            square_cards_array.push(cardvalue);
+            square_cards_array.push({'alpha': 'puffin', 'contents': cardvalue};
+        )
+            ;
         }
 
 
@@ -70,6 +72,8 @@
 
         var square_cards = JSON.stringify(square_cards_array);
 
+        alert(square_cards);
+        return false
 
         $.ajax({
             type: "POST",
