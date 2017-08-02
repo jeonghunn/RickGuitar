@@ -64,7 +64,7 @@
             square_cards_array.push({style: 'puffin', contents: cardvalue});
 
         }
-
+        return false;
 
         if (document.getElementById("contents_1").value == '') {
             alert('내용을 입력해주세요.');
