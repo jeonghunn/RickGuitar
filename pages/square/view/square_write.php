@@ -12,11 +12,12 @@
 
                         <textarea class="cardtextarea" placeholder="내용을 입력해주세요." id="contents_1"></textarea>
                         <label class="radio-inline">
-                            <input type="radio" name="alignradio_1" id="alignradio_center_1" value="center" checked> 가운데
+                            <input type="radio" name="align_radio_1" id="alignradio_center_1" value="center" checked>
+                            가운데
                             정렬
                         </label>
                         <label class="radio-inline">
-                            <input type="radio" name="alignradio_1" id="inlineRadio_left_1" value="left"> 왼쪽 정렬
+                            <input type="radio" name="align_radio_1" id="inlineRadio_left_1" value="left"> 왼쪽 정렬
                         </label>
                         <br>
                     </div>
@@ -58,7 +59,7 @@
 
         for (var i = 1; i <= cardcount; i++) {
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).value);
-            var style = document.getElementsByName("alignradio" + i).value;
+            var style = document.getElementsByName("align_radio_" + i).value;
             alert(style);
             square_cards_array.push({style: 'puffin', contents: cardvalue});
 
