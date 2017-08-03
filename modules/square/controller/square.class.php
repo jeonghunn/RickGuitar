@@ -166,7 +166,7 @@ class SquareClass
         //WRTIE SquareCard
         for ($i = 0; $i < count($square_cards_array); $i++) {
 
-            $SQUARE_CARD_CLASS->Write($ATTACH_CLASS, $PUSH_CLASS, $last_number, 0, $page_srl, $user_srl, RealEscapeString($square_cards_array[$i]['content']), $permission, $status, $privacy);
+            $SQUARE_CARD_CLASS->Write($ATTACH_CLASS, $PUSH_CLASS, $last_number, 0, $page_srl, $user_srl, RealEscapeString($square_cards_array[$i]['content']), RealEscapeString($square_cards_array[$i]['align']), RealEscapeString($square_cards_array[$i]['style']), $permission, $status, $privacy);
 
 
         }
