@@ -62,12 +62,11 @@
             var alignbool = document.getElementsByName("align_radio_" + i)[0].checked;
             var align_value = alignbool ? "center" : "left";
 
-            alert(align_value);
 
-            square_cards_array.push({style: style, contents: cardvalue});
+            square_cards_array.push({align: align_value, content: cardvalue});
 
         }
-        return false;
+
 
         if (document.getElementById("contents_1").value == '') {
             alert('내용을 입력해주세요.');

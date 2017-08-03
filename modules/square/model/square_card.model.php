@@ -7,9 +7,9 @@ function Model_SquareCards_getLastNumber()
 }
 
 
-function Model_SquareCards_Write($page_srl, $user_srl, $square_srl, $parent_card_srl, $name, $content, $permission, $status, $privacy, $attach_result)
+function Model_SquareCards_Write($page_srl, $user_srl, $square_srl, $parent_card_srl, $name, $content, $align, $style, $permission, $status, $privacy, $attach_result)
 {
-    return DBQuery("INSERT INTO `square_cards`  ( `page_srl`, `user_srl`,  `square_srl`,  `parent_card_srl`,  `name`,`content`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$square_srl', '$parent_card_srl', '$name',  '$content', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '" . getIPAddr() . "');");
+    return DBQuery("INSERT INTO `square_cards`  ( `page_srl`, `user_srl`,  `square_srl`,  `parent_card_srl`,  `name`,`content`, `align`, `style`, `date`, `permission`, `status`, `privacy`,  `attach`,  `ip_addr`) VALUES ('$page_srl', '$user_srl', '$square_srl', '$parent_card_srl', '$name',  '$content', '$align', '$style', '" . getTimeStamp() . "', '$permission', '$status', '$privacy', '$attach_result ? 1 : 0', '" . getIPAddr() . "');");
 }
 
 
