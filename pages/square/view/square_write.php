@@ -59,9 +59,9 @@
 
         for (var i = 1; i <= cardcount; i++) {
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).value);
-            var style = document.getElementsByName("align_radio_" + i).value;
+            var style = document.getElementsByName("align_radio_" + i)[0].checked;
             alert(style);
-            square_cards_array.push({style: 'puffin', contents: cardvalue});
+            square_cards_array.push({style: style, contents: cardvalue});
 
         }
         return false;
