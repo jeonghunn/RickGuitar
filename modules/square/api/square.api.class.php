@@ -35,10 +35,10 @@ class SquareApiClass{
         $ATTACH_CLASS = new AttachClass();
 
         $square_key = REQUEST('square_key');
-        //  $square_info = REQUEST('doc_info');
+        //  $square_i]nfo = REQUEST('doc_info');
         $attach_info = REQUEST('attach_info');
 
-        $square_info = array('square_key', 'page_srl', 'user_srl', 'name', 'title', 'content', 'type', 'data', 'date', 'status', 'attach', 'square_cards');
+        $square_info = array('square_key', 'page_srl', 'user_srl', 'name', 'title', 'content', 'align', 'type', 'data', 'date', 'status', 'attach', 'square_cards');
 
         $square_read = $SQUARE_CLASS->Read($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_key, ExplodeInfoValue($attach_info));
         print_info($square_read, $square_info);
