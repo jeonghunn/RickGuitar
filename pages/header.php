@@ -124,7 +124,6 @@
 
 
              word-break: break-all;
-             vertical-align: middle;
              display: table-cell;
 
          }
