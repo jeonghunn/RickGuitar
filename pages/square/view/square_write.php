@@ -61,7 +61,7 @@
         for (var i = 1; i <= cardcount; i++) {
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).value);
             var alignbool = document.getElementsByName("align_radio_" + i)[0].checked;
-            var align_value = alignbool ? "center" : "left";
+            var align_value = alignbool ? "center-center" : "left";
 
 
             square_cards_array.push({align: align_value, content: cardvalue});
