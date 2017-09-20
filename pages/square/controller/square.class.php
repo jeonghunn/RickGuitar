@@ -49,4 +49,25 @@ class SquareClass
 
     }
 
+
+    function getStyle($style, $align)
+    {
+
+        $class_result = "";
+
+        if ($style == "") {
+            //set default style
+            $class_result = "squarecard";
+
+        }
+
+        if ($align == "center") {
+            $style = "vertical-align: middle;";
+        }
+
+        $style_result = 'style="' . $style . '" class="' . $class_result . '"';
+
+        return $style_result;
+    }
+
 }

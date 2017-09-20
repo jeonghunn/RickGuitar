@@ -39,7 +39,7 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
     <?php for ($i = 0; $i < count($square_cards); $i++) { ?>
         <div class="outer">
             <div class="tablerow">
-                <div style="<?php echo $square_cards[$i]['style']; ?>"><span
+                <div <?php echo $SQUARE_CLASS->getStyle($square_cards[$i]['style']); ?>><span
                             style="font-size: 32px;"><?php echo $SQUARE_CLASS->ConvertForRead(htmlspecialchars($square_cards[$i]['content'])); ?></span>
                 </div>
             </div>
