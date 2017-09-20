@@ -30,7 +30,7 @@ class SquareClass
 
     function getReadResult($SQUARE_CARD_CLASS, $square_srl, $data, $type)
     {
-        $cards = getSqlList($SQUARE_CARD_CLASS->Read($square_srl), array("content", "date", "style"));
+        $cards = getSqlList($SQUARE_CARD_CLASS->Read($square_srl), array("content", "date", "style", "align"));
 
         if ($type == "birthday") {
             $BIRTHDAY_CLASS = new BirthdayClass();
