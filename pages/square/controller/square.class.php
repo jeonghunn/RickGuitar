@@ -62,7 +62,7 @@ class SquareClass
         }
 
         if ($align == "center") {
-            $style = "vertical-align: middle;";
+            $style = $style . " vertical-align: middle;";
         }
 
         $style_result = 'style="' . $style . '" class="' . $class_result . '"';
