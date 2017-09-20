@@ -61,7 +61,11 @@ class SquareClass
 
         }
 
-        if ($align == "center") {
+        if ($align == "left") {
+            $customstyle = $customstyle . " text-align:left;";
+        }
+
+        if ($align == "center-center" || $align == "") {
             $customstyle = $customstyle . " vertical-align: middle;";
         }
 
