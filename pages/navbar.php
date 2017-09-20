@@ -11,7 +11,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <b><a class="navbar-brand" href="home" style="font-size: 24px;"><?php S('app_full_name') ?></a></b>
+            <b><a class="navbar-brand" href="home" style="font-size: 18px;"><?php S('app_full_name') ?></a></b>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
