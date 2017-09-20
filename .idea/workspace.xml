@@ -4,6 +4,7 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/square/controller/square.class.php" afterPath="$PROJECT_DIR$/pages/square/controller/square.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/square/view/square_view.php" afterPath="$PROJECT_DIR$/pages/square/view/square_view.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_view.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="square_view.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="41" column="108" lean-forward="false" selection-start-line="41" selection-start-column="108" selection-end-line="41" selection-end-column="108" />
+            <state relative-caret-position="384">
+              <caret line="42" column="135" lean-forward="false" selection-start-line="42" selection-start-column="135" selection-end-line="42" selection-end-column="135" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -79,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
+            <state relative-caret-position="487">
+              <caret line="64" column="41" lean-forward="false" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -254,9 +255,9 @@
         <option value="$PROJECT_DIR$/pages/birthday/view/birthday_write.php" />
         <option value="$PROJECT_DIR$/pages/navbar.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
       </list>
     </option>
   </component>
@@ -1546,14 +1547,7 @@
       <workItem from="1505307351377" duration="495000" />
       <workItem from="1505888735308" duration="543000" />
       <workItem from="1505889397277" duration="215000" />
-      <workItem from="1505889628096" duration="3398000" />
-    </task>
-    <task id="LOCAL-01028" summary="development mode updated">
-      <created>1500665215551</created>
-      <option name="number" value="01028" />
-      <option name="presentableId" value="LOCAL-01028" />
-      <option name="project" value="LOCAL" />
-      <updated>1500665215551</updated>
+      <workItem from="1505889628096" duration="3459000" />
     </task>
     <task id="LOCAL-01029" summary="info updated">
       <created>1500900655463</created>
@@ -1891,11 +1885,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505899272992</updated>
     </task>
-    <option name="localTasksCounter" value="1077" />
+    <task id="LOCAL-01077" summary="bug fixed">
+      <created>1505899353740</created>
+      <option name="number" value="01077" />
+      <option name="presentableId" value="LOCAL-01077" />
+      <option name="project" value="LOCAL" />
+      <updated>1505899353740</updated>
+    </task>
+    <option name="localTasksCounter" value="1078" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1060791000" />
+    <option name="totallyTimeSpent" value="1060852000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2407,21 +2408,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+    <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="41" column="108" lean-forward="false" selection-start-line="41" selection-start-column="108" selection-end-line="41" selection-end-column="108" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="487">
+          <caret line="64" column="41" lean-forward="false" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="384">
+          <caret line="42" column="135" lean-forward="false" selection-start-line="42" selection-start-column="135" selection-end-line="42" selection-end-column="135" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
