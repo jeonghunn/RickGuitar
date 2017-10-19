@@ -59,7 +59,8 @@ class BirthdayClass
 
         );
 
-        array_push($result_array, array("content" => '{[span style="font-size: 32px;"]}﻿생일이 끝나기까지 {[br]}{[span
+        //Prevent Minus
+        if ($this->getBirthdayLeftHour($birthday_month, $birthday_day) > 0) array_push($result_array, array("content" => '{[span style="font-size: 32px;"]}﻿생일이 끝나기까지 {[br]}{[span
                         style="font-size: 40px;"]}' . $this->getBirthdayLeftHour($birthday_month, $birthday_day) . '{[/span]}시간 {[span
                         style="font-size: 40px;"]}' . $this->getBirthdayLeftMin($birthday_month, $birthday_day) . '{[/span]}분 남았습니다.{[/span]}'));
 
