@@ -55,9 +55,7 @@ class BirthdayClass
             array("content" => '{[span style="font-size: 32px;"]}﻿지금까지 생일이 {[br]}{[span
                         style="font-size: 40px;"]}' . $this->getBirthdayLastHour($birthday_month, $birthday_day) . '{[/span]}시간 {[span
                         style="font-size: 40px;"]}' . $this->getBirthdayLastMin($birthday_month, $birthday_day) . '{[/span]}분 지났으며,{[/span]}'),
-            array("content" => '{[span style="font-size: 32px;"]}﻿생일이 끝나기까지 {[br]}{[span
-                        style="font-size: 40px;"]}' . $this->getBirthdayLeftHour($birthday_month, $birthday_day) . '{[/span]}시간 {[span
-                        style="font-size: 40px;"]}' . $this->getBirthdayLeftMin($birthday_month, $birthday_day) . '{[/span]}분 남았습니다.{[/span]}'),
+            null,
             array("content" => '{[span style="font-size: 32px;"]}{[span
                         style="font-size: 40px;"]}' . $this->getNextYear() . '{[/span]}년 다음 생일은 {[br]}{[span
                         style="font-size: 40px;"]}' . $this->getNextRemainBirthday($birthday_month, $birthday_day) . '{[/span]}일 후가 됩니다.{[/span]}'),
