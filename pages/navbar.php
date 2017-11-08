@@ -1,6 +1,5 @@
 
 
-
 <!-- Static navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">

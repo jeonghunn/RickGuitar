@@ -5,7 +5,6 @@ function getCoreVersion(){
     return "3.5.1108";
 }
 
-
 //Basic Info
 function getSiteAddress(){
     return "http://tarks.net/square/";
