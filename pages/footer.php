@@ -3,9 +3,10 @@
     <a class="container">
         <br>
         <hr>
-        <a href="info"></a>
-        <p class="text-muted" style="text-align: center;">Copyrightⓒ. 2017. Tarks. All Rights Reserved.</p></a>
-    </div>
+        <a href="info"><p class="text-muted" style="text-align: center;">Copyrightⓒ. 2017. Tarks. All Rights
+                Reserved.</p></a>
+
+</div>
 
 </div>
 
