@@ -1,9 +1,10 @@
 <div id="footer" style="margin-top: 80px;">
 
-    <div class="container">
+    <a class="container">
         <br>
         <hr>
-        <p class="text-muted" style="text-align: center;" href="info">Copyrightⓒ. 2017. Tarks. All Rights Reserved.</p>
+        <a href="info"></a>
+        <p class="text-muted" style="text-align: center;">Copyrightⓒ. 2017. Tarks. All Rights Reserved.</p></a>
     </div>
 
 </div>
