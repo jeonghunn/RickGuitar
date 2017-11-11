@@ -37,6 +37,7 @@ require_once 'pages/header.php'; ?>
             </select>
             <select name="day" id="day">
                 <?php for ($d = 1; $d <= 31; $d++) {
+                    // $selected = ($d ==)
 
                     echo "<option value=\"$d\">$d</option>";
                 } ?>

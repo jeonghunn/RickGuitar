@@ -1,7 +1,6 @@
 <?php
-require_once 'pages/square/controller/square.class.php';
+require_once 'pages/square/square.loader.php';
 
-$SQUARE_CLASS = new SquareClass();
 
 $square_data = json_decode($square_result['data'], true);
 $square_cards = json_decode($square_result['square_cards'], true);
