@@ -40,10 +40,10 @@
             <state relative-caret-position="60">
               <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <marker date="1510431709229" expanded="true" signature="6356:6410" ph="..." />
-                <marker date="1510431709229" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-                <marker date="1510431709229" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-                <marker date="1510431709229" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+                <marker date="1510431791128" expanded="true" signature="6356:6410" ph="..." />
+                <marker date="1510431791128" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+                <marker date="1510431791128" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+                <marker date="1510431791128" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -83,9 +83,9 @@
         <entry file="file://$PROJECT_DIR$/pages/birthday/view/birthday_write.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="94">
-              <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+              <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
               <folding>
-                <marker date="1510431704242" expanded="true" signature="1986:2383" ph="{...}" />
+                <marker date="1510431783121" expanded="true" signature="1978:2375" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -1284,14 +1284,7 @@
       <workItem from="1510142933777" duration="32000" />
       <workItem from="1510142993411" duration="1493000" />
       <workItem from="1510429688391" duration="993000" />
-      <workItem from="1510430869001" duration="836000" />
-    </task>
-    <task id="LOCAL-01040" summary="test">
-      <created>1500997981606</created>
-      <option name="number" value="01040" />
-      <option name="presentableId" value="LOCAL-01040" />
-      <option name="project" value="LOCAL" />
-      <updated>1500997981606</updated>
+      <workItem from="1510430869001" duration="918000" />
     </task>
     <task id="LOCAL-01041" summary="test">
       <created>1500998004420</created>
@@ -1629,11 +1622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510431642556</updated>
     </task>
-    <option name="localTasksCounter" value="1089" />
+    <task id="LOCAL-01089" summary="birthday auto select bug fixed">
+      <created>1510431744429</created>
+      <option name="number" value="01089" />
+      <option name="presentableId" value="LOCAL-01089" />
+      <option name="project" value="LOCAL" />
+      <updated>1510431744429</updated>
+    </task>
+    <option name="localTasksCounter" value="1090" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1065999000" />
+    <option name="totallyTimeSpent" value="1066081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1764,9 +1764,9 @@
     <MESSAGE value="info updated" />
     <MESSAGE value="Merge commit 'd4ed611c9e372808f6e2cb579fd3eea89517fee5' into develop&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;core/base.php" />
     <MESSAGE value="birthday auto select" />
-    <MESSAGE value="birthday auto select bug fixed" />
     <MESSAGE value="birthday class import bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="birthday class import bug fixed" />
+    <MESSAGE value="birthday auto select bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="birthday auto select bug fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2103,9 +2103,9 @@
     <entry file="file://$PROJECT_DIR$/pages/birthday/view/birthday_write.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
-          <caret line="35" column="47" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <caret line="35" column="56" lean-forward="false" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding>
-            <marker date="1510431704242" expanded="true" signature="1986:2383" ph="{...}" />
+            <marker date="1510431783121" expanded="true" signature="1978:2375" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -2115,10 +2115,10 @@
         <state relative-caret-position="60">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1510431709229" expanded="true" signature="6356:6410" ph="..." />
-            <marker date="1510431709229" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-            <marker date="1510431709229" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-            <marker date="1510431709229" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+            <marker date="1510431791128" expanded="true" signature="6356:6410" ph="..." />
+            <marker date="1510431791128" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+            <marker date="1510431791128" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+            <marker date="1510431791128" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>

@@ -33,14 +33,14 @@ require_once 'pages/header.php'; ?>
                 <?php for ($m = 1; $m <= 12; $m++) {
                     $selected = ($m == $BIRTHDAY_CLASS->getMonth()) ? "selected" : "";
 
-                    echo "<option value=\"$m\" \"$selected\" >$m</option>";
+                    echo "<option value=\"$m\" $selected >$m</option>";
                 } ?>
             </select>
             <select name="day" id="day">
                 <?php for ($d = 1; $d <= 31; $d++) {
                     $selected = ($d == $BIRTHDAY_CLASS->getDay()) ? "selected" : "";
 
-                    echo "<option value=\"$d\" \"$selected\" >$d</option>";
+                    echo "<option value=\"$d\" $selected >$d</option>";
                 } ?>
             </select>
             <br><br>
