@@ -1,5 +1,5 @@
 <?php
-
+require_once 'pages/square/square.loader.php';
 $html_title = T('birthday');
 require_once 'pages/header.php'; ?>
 <link rel="image_src" href="pages/images/birthday_image.jpg"/>
@@ -31,15 +31,16 @@ require_once 'pages/header.php'; ?>
             </select>
             <select name="month" id="month">
                 <?php for ($m = 1; $m <= 12; $m++) {
+                    $selected = ($d == $BIRTHDAY_CLASS->getMonth()) ? "selected" : "";
 
-                    echo "<option value=\"$m\">$m</option>";
+                    echo "<option value=\"$m\" " + $selected + ">$m</option>";
                 } ?>
             </select>
             <select name="day" id="day">
                 <?php for ($d = 1; $d <= 31; $d++) {
-                    // $selected = ($d ==)
+                    $selected = ($d == $BIRTHDAY_CLASS->getDay()) ? "selected" : "";
 
-                    echo "<option value=\"$d\">$d</option>";
+                    echo "<option value=\"$d\" " + $selected + ">$d</option>";
                 } ?>
             </select>
             <br><br>
