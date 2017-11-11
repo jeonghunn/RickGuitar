@@ -1,5 +1,5 @@
 <?php
-require_once 'pages/square/square.loader.php';
+require_once 'pages/birthday/birthday.loader.php';
 $html_title = T('birthday');
 require_once 'pages/header.php'; ?>
 <link rel="image_src" href="pages/images/birthday_image.jpg"/>
