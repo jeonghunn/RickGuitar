@@ -12,14 +12,15 @@
 
                         <textarea class="cardtextarea" placeholder="내용을 입력해주세요." id="contents_1"></textarea>
                         <label class="radio-inline">
+                            <input type="radio" name="align_radio_1" id="inlineRadio_left_1" value="left"> 왼쪽 정렬
+                        </label>
+                        <label class="radio-inline">
                             <input type="radio" name="align_radio_1" id="alignradio_center_1" value="center-center"
                                    checked>
                             가운데
                             정렬
                         </label>
-                        <label class="radio-inline">
-                            <input type="radio" name="align_radio_1" id="inlineRadio_left_1" value="left"> 왼쪽 정렬
-                        </label>
+
                         <br>
                     </div>
                 </div>
@@ -46,7 +47,7 @@
     function addCard() {
 
         cardcount = cardcount + 1;
-        $('<div class="outer"> <div class="tablerow"><div class="squarecard"><textarea class="cardtextarea" placeholder="내용을 입력해주세요."  id="contents_' + cardcount + '" ></textarea> <label class="radio-inline"><input type="radio" name="align_radio_' + cardcount + '"  value="center-center" checked>가운데 정렬</label><label class="radio-inline"><input type="radio" name="align_radio_' + cardcount + '"  value="left"> 왼쪽 정렬</label> <br> </div></div></div><br>').insertBefore('#squarecard');
+        $('<div class="outer"> <div class="tablerow"><div class="squarecard"><textarea class="cardtextarea" placeholder="내용을 입력해주세요."  id="contents_' + cardcount + '" ></textarea> <label class="radio-inline"><input type="radio" name="align_radio_' + cardcount + '"  value="left"> 왼쪽 정렬</label> <label class="radio-inline"><input type="radio" name="align_radio_' + cardcount + '"  value="center-center" checked>가운데 정렬</label> <br> </div></div></div><br>').insertBefore('#squarecard');
 
 
     }
