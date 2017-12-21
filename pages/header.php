@@ -119,7 +119,7 @@
              padding-left: 24px;
              padding-right: 24px;
              padding-bottom: 24px;
-             padding-top: 24px;
+             padding-top: 16px;
 
 
              word-break: break-all;
