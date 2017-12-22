@@ -11,7 +11,7 @@
                     <div class="squarecard">
 
                         <textarea class="cardtextarea" placeholder="내용을 입력해주세요." id="contents_1"
-                                  style="    vertical-align:middle; text-align: center;"></textarea>
+                                  style=" display:inline-block;   vertical-align:middle; text-align: center;"></textarea>
                         <label class="radio-inline">
                             <input type="radio" name="align_radio_1" id="inlineRadio_left_1" value="left"> 왼쪽 정렬
                         </label>
