@@ -79,4 +79,7 @@ $L['error_api_error_des'] = 'Sorry. Your API has been stopped or expired.<br> As
 $L['error_404_error'] = '404 Not Found';
 $L['error_404_error_des'] = 'Sorry. That page you looking for doesn\'t exist.';
 
+//Unknown Error
+$L['error_unknown_error'] = 'Sorry, something went wrong. Try again later.';
+
 ?>
