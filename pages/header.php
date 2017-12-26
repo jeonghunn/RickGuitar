@@ -243,7 +243,7 @@
 
   </head>
 
-  <body id="content">
+  <body>
 
 
 
@@ -252,4 +252,4 @@
   <?php if(REQUEST('nav') != 'false') require_once 'pages/navbar.php'; ?>
 
 
-
+  <div id="content">

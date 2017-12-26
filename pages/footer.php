@@ -1,3 +1,4 @@
+</div>
 <div id="footer" style="margin-top: 80px;">
 
     <a class="container">
