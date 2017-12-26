@@ -217,7 +217,7 @@
 
           .navbar-default {
 
-              background-color: rgba(0, 0, 0, 0.0);
+              background-color: #FFFFFF;
           }
 
 
