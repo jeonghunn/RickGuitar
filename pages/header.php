@@ -220,8 +220,7 @@
               width: 100%;
               height: 5rem;
               overflow: hidden;
-              position: fixed;
-              padding-top: 0px;
+
               filter: blur(4px);
           }
 
@@ -229,6 +228,10 @@
           @extend #blurryscroll;
               filter: none;
               background-color: rgba(0, 0, 0, 0.0);
+          }
+
+          .navbar-default a {
+
               color: black;
           }
 
