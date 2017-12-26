@@ -29,7 +29,8 @@
 
 
             <!--            버튼 툴바-->
-            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
+                 style="  text-align: center;">
                 <div class="btn-group" role="group" aria-label="First group">
                     <button type="button" class="btn btn-default">1</button>
                     <button type="button" class="btn btn-default">2</button>
