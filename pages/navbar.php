@@ -1,5 +1,4 @@
-
-
+<div id="blurryscroll" aria-hidden="true"></div>
 <!-- Static navbar -->
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
@@ -25,4 +24,3 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-<div class="blurheader"></div>
