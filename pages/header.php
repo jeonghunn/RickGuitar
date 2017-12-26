@@ -213,6 +213,24 @@
               /*background-color: #eeeeee;*/
               background-image: linear-gradient(0deg, #FFFFFF, #eeeeee);
           }
+
+          header, .blurheader {
+              background: rgba(255, 255, 255, .6);
+              height: 88px;
+              position: fixed;
+              width: 100%;
+              top: 0;
+              border-bottom: 1px solid rgba(0, 0, 0, .2);
+              z-index: 10000000000;
+          }
+
+          .blurheader {
+              background: transparent;
+              overflow: hidden;
+              z-index: 10000;
+              background: #fff;
+              left: 0;
+          }
       </style>
 
 
