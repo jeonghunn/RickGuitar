@@ -218,7 +218,7 @@
           .navbar-default {
           @extend #blurryscroll;
 
-              background-color: rgba(0, 0, 0, 50.0);
+              background-color: rgba(0, 0, 0, 0.2);
           }
 
 
