@@ -217,7 +217,7 @@
 
           .navbar-default {
 
-              background-color: #FFFFFF;
+              background-image: linear-gradient(0deg, #FFFFFF, #eeeeee);
           }
 
 
