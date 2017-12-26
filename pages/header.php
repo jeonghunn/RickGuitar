@@ -231,6 +231,23 @@
               background: #fff;
               left: 0;
           }
+
+          #navbar {
+              width: 75%;
+              text-align: justify;
+              min-width: 500px;
+              margin: 1% auto 0 auto;
+              padding: 0;
+              z-index: 10000000001;
+              position: fixed;
+              top: 0;
+          }
+
+          #navbar:after {
+              content: '';
+              display: inline-block;
+              width: 100%;
+          }
       </style>
 
 
