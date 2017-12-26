@@ -8,9 +8,9 @@
         <center>
             <div class="outer">
                 <div class="tablerow">
-                    <div class="squarecard">
+                    <div class="squarecard" id="contents_1">
 
-                        <textarea class="cardtextarea" placeholder="내용을 입력해주세요." id="contents_1"
+                        <textarea class="cardtextarea" placeholder="내용을 입력해주세요."
                                   style=" display:inline-block;   vertical-align:middle; text-align: center;"></textarea>
                         <label class="radio-inline">
                             <input type="radio" name="align_radio_1" id="inlineRadio_left_1" value="left"> 왼쪽 정렬
@@ -26,6 +26,27 @@
                     </div>
                 </div>
             </div>
+
+
+            <!--            버튼 툴바-->
+            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-group mr-2" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary">1</button>
+                    <button type="button" class="btn btn-secondary">2</button>
+                    <button type="button" class="btn btn-secondary">3</button>
+                    <button type="button" class="btn btn-secondary">4</button>
+                </div>
+                <div class="btn-group mr-2" role="group" aria-label="Second group">
+                    <button type="button" class="btn btn-secondary">5</button>
+                    <button type="button" class="btn btn-secondary">6</button>
+                    <button type="button" class="btn btn-secondary">7</button>
+                </div>
+                <div class="btn-group" role="group" aria-label="Third group">
+                    <button type="button" class="btn btn-secondary">8</button>
+                </div>
+            </div>
+
+
             <br>
             <div id="squarecard"></div>
             <br><br>
