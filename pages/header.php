@@ -218,7 +218,7 @@
               top: 0;
               left: 0;
               width: 100%;
-              height: 0rem;
+              height: 10rem;
               overflow: hidden;
               position: fixed;
               filter: blur(4px);
