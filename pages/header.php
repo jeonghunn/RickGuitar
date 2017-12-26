@@ -210,7 +210,8 @@
               font-family: 'Roboto', 'Noto', sans-serif;
               line-height: 1.5;
               min-height: 100vh;
-              background-color: #eeeeee;
+              /*background-color: #eeeeee;*/
+              background-image: linear-gradient(90deg, #4F364C, #FFFFFF);
           }
       </style>
 
