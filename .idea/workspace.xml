@@ -27,13 +27,13 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="285">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
-                <marker date="1514278501403" expanded="true" signature="6351:6405" ph="..." />
-                <marker date="1514278501403" expanded="true" signature="6564:6696" ph="SELECT * FRO... favorite" />
-                <marker date="1514278501403" expanded="true" signature="6748:6880" ph="SELECT * FRO... favorite" />
-                <marker date="1514278501403" expanded="true" signature="6931:6982" ph="SELECT * FRO... pages" />
+                <marker date="1514279146060" expanded="true" signature="6354:6408" ph="..." />
+                <marker date="1514279146060" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
+                <marker date="1514279146060" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
+                <marker date="1514279146060" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -52,8 +52,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="115" column="31" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="31" />
+            <state relative-caret-position="157">
+              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -168,10 +168,10 @@
       <find>square_read</find>
       <find>copyToClipboard</find>
       <find>centered</find>
-      <find>squarecard</find>
       <find>getResult</find>
       <find>getReadResult</find>
       <find>radius</find>
+      <find>squarecard</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -1271,14 +1271,7 @@
       <workItem from="1513929438938" duration="488000" />
       <workItem from="1513932270870" duration="98000" />
       <workItem from="1514104567379" duration="1732000" />
-      <workItem from="1514278407381" duration="96000" />
-    </task>
-    <task id="LOCAL-01047" summary="test">
-      <created>1501686951338</created>
-      <option name="number" value="01047" />
-      <option name="presentableId" value="LOCAL-01047" />
-      <option name="project" value="LOCAL" />
-      <updated>1501686951339</updated>
+      <workItem from="1514278407381" duration="674000" />
     </task>
     <task id="LOCAL-01048" summary="; bug fixed">
       <created>1501687024605</created>
@@ -1616,11 +1609,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514108558095</updated>
     </task>
-    <option name="localTasksCounter" value="1096" />
+    <task id="LOCAL-01096" summary="radius updated">
+      <created>1514278516773</created>
+      <option name="number" value="01096" />
+      <option name="presentableId" value="LOCAL-01096" />
+      <option name="project" value="LOCAL" />
+      <updated>1514278516773</updated>
+    </task>
+    <option name="localTasksCounter" value="1097" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1070210000" />
+    <option name="totallyTimeSpent" value="1070788000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1640,8 +1640,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21854305" sideWeight="0.59444445" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21854305" sideWeight="0.59652776" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21854305" sideWeight="0.40347221" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1668,7 +1669,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32689655" sideWeight="0.4978701" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21854305" sideWeight="0.40555555" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13099042" sideWeight="0.45953143" order="7" side_tool="false" content_ui="tabs" />
@@ -1729,7 +1729,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="radio name bug fixed" />
     <MESSAGE value="main write updated" />
     <MESSAGE value="align value test" />
     <MESSAGE value="align updated" />
@@ -1754,7 +1753,8 @@
     <MESSAGE value="error string updated" />
     <MESSAGE value="squareclass js added" />
     <MESSAGE value="js rollback" />
-    <option name="LAST_COMMIT_MESSAGE" value="js rollback" />
+    <MESSAGE value="radius updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="radius updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2070,21 +2070,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="115" column="31" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="31" />
+        <state relative-caret-position="157">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="285">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
-            <marker date="1514278501403" expanded="true" signature="6351:6405" ph="..." />
-            <marker date="1514278501403" expanded="true" signature="6564:6696" ph="SELECT * FRO... favorite" />
-            <marker date="1514278501403" expanded="true" signature="6748:6880" ph="SELECT * FRO... favorite" />
-            <marker date="1514278501403" expanded="true" signature="6931:6982" ph="SELECT * FRO... pages" />
+            <marker date="1514279146060" expanded="true" signature="6354:6408" ph="..." />
+            <marker date="1514279146060" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
+            <marker date="1514279146060" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
+            <marker date="1514279146060" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
