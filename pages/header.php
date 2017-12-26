@@ -214,27 +214,14 @@
               background-image: linear-gradient(0deg, #FFFFFF, #eeeeee);
           }
 
-          #blurryscroll {
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 5rem;
-              overflow: hidden;
-              position: fixed;
-              filter: blur(4px);
-          }
 
           .navbar-default {
           @extend #blurryscroll;
-              filter: none;
+              filter: blur(4px);;
               background-color: rgba(0, 0, 0, 0.0);
           }
 
-          .navbar-default a {
 
-
-              color: black;
-          }
 
 
       </style>
