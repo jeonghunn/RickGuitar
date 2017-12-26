@@ -113,7 +113,7 @@
              /* Add shadows to create the "card" effect */
              background-color: #FFFFFF;
              transition: 0.3s;
-             border-radius: 16px; /* 5px rounded corners */
+             /*   border-radius: 16px; 5px rounded corners */
              width:440px;
              height: 440px;
              padding-left: 24px;
