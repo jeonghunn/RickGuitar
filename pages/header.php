@@ -220,7 +220,7 @@
               width: 100%;
               height: 5rem;
               overflow: hidden;
-
+              position: fixed;
               filter: blur(4px);
           }
 
@@ -231,6 +231,7 @@
           }
 
           .navbar-default a {
+
 
               color: black;
           }
