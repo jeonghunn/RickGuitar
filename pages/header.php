@@ -228,6 +228,7 @@
           @extend #blurryscroll;
               filter: none;
               background-color: rgba(0, 0, 0, 0.0);
+              color: black;
           }
 
 
