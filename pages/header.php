@@ -246,8 +246,7 @@
   <body>
 
 
-  <div id="content">
   <?php if(REQUEST('nav') != 'false') require_once 'pages/navbar.php'; ?>
 
 
-
+  <div id="content">
