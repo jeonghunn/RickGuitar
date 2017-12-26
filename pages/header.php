@@ -218,7 +218,7 @@
               top: 0;
               left: 0;
               width: 100%;
-              height: 10rem;
+              height: 5rem;
               overflow: hidden;
               position: fixed;
               filter: blur(4px);
@@ -248,5 +248,3 @@
 
   <?php if(REQUEST('nav') != 'false') require_once 'pages/navbar.php'; ?>
 
-
-  <div id="content">
