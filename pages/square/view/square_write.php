@@ -8,12 +8,7 @@
     <center>
             <div class="outer">
                 <div class="tablerow">
-                    <div class="squarecard" id="contents_1" contentEditable="true">
-
-
-
-                        <br>
-                    </div>
+                    <div class="squarecard" id="contents_1" contentEditable="true"></div>
                 </div>
             </div>
 
