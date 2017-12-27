@@ -5,7 +5,7 @@
 
         <h1 style="text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
 <br><br>
-        <center>
+
             <div class="outer">
                 <div class="tablerow">
                     <div class="squarecard" id="contents_1">
@@ -58,7 +58,7 @@
                 작성 완료
             </button>
 
-</center><br><br><br>
+        <br><br><br>
     </div> <!-- /container -->
 
 
