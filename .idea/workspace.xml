@@ -61,8 +61,8 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="86">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
@@ -1259,14 +1259,7 @@
       <workItem from="1514104567379" duration="1732000" />
       <workItem from="1514278407381" duration="4469000" />
       <workItem from="1514304821933" duration="632000" />
-      <workItem from="1514353761902" duration="1163000" />
-    </task>
-    <task id="LOCAL-01090" summary="design updated">
-      <created>1513873656433</created>
-      <option name="number" value="01090" />
-      <option name="presentableId" value="LOCAL-01090" />
-      <option name="project" value="LOCAL" />
-      <updated>1513873656434</updated>
+      <workItem from="1514353761902" duration="1316000" />
     </task>
     <task id="LOCAL-01091" summary="design updated">
       <created>1513873704213</created>
@@ -1604,11 +1597,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514357801960</updated>
     </task>
-    <option name="localTasksCounter" value="1139" />
+    <task id="LOCAL-01139" summary="text align center">
+      <created>1514357925145</created>
+      <option name="number" value="01139" />
+      <option name="presentableId" value="LOCAL-01139" />
+      <option name="project" value="LOCAL" />
+      <updated>1514357925145</updated>
+    </task>
+    <option name="localTasksCounter" value="1140" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1079552000" />
+    <option name="totallyTimeSpent" value="1079705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1717,7 +1717,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info updated" />
     <MESSAGE value="Merge commit 'd4ed611c9e372808f6e2cb579fd3eea89517fee5' into develop&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;core/base.php" />
     <MESSAGE value="birthday auto select" />
     <MESSAGE value="birthday class import bug fixed" />
@@ -1742,7 +1741,8 @@
     <MESSAGE value="container text align center" />
     <MESSAGE value="center tag added" />
     <MESSAGE value="div added" />
-    <option name="LAST_COMMIT_MESSAGE" value="div added" />
+    <MESSAGE value="text align center" />
+    <option name="LAST_COMMIT_MESSAGE" value="text align center" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2088,8 +2088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="86">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />

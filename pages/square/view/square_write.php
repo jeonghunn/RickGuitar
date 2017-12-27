@@ -30,7 +30,7 @@
 
             <!--            버튼 툴바-->
         <div style="text-align: center;">
-
+            <br>
 
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
                  style="  text-align: center;">
