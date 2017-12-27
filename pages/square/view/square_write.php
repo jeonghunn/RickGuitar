@@ -29,11 +29,11 @@
 
 
             <!--            버튼 툴바-->
-        <div style="text-align: center;">
+        <div>
             <br>
 
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
-                 style="  text-align: center;">
+                 style=" display: inline-block;">
                 <div class="btn-group btn-group-lg" role="group" aria-label="First group">
                     <button type="button" class="btn btn-default">1</button>
                     <button type="button" class="btn btn-default">2</button>
