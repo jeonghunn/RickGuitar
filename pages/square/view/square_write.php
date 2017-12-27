@@ -29,6 +29,9 @@
 
 
             <!--            버튼 툴바-->
+        <div>
+
+
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
                  style="  text-align: center;">
                 <div class="btn-group btn-group-lg" role="group" aria-label="First group">
@@ -46,6 +49,9 @@
                     <button type="button" class="btn btn-default">8</button>
                 </div>
             </div>
+
+
+        </div>
 
 
             <br>
