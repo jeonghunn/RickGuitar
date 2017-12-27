@@ -121,7 +121,7 @@
              padding-right: 24px;
              padding-bottom: 24px;
              padding-top: 16px;
-
+             font-size: 32px;
 
              word-break: break-all;
              display: table-cell;
