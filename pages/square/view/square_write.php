@@ -155,7 +155,7 @@
 
 
     function ConvertForWrite(content) {
-        return replaceAll(content, "\n", "{[br]}");
+        return replaceAll(content, "<br>", "{[br]}");
     }
 
 
