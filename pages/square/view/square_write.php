@@ -100,8 +100,8 @@
 
         for (var i = 1; i <= cardcount; i++) {
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).innerHTML);
-            var alignbool = document.getElementsByName("align_radio_" + i)[0].checked;
-            var align_value = alignbool ? "left" : "center-center";
+            //   var alignbool = document.getElementsByName("align_radio_" + i)[0].checked;
+            //       var align_value = alignbool ? "left" : "center-center";
 
 
             square_cards_array.push({align: align_value, content: cardvalue});
