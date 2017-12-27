@@ -1,7 +1,7 @@
 <?php require_once 'pages/header.php'; ?>
 
 <!-- html -->
-    <div class="container">
+<div class="container" style="text-align:center;">
 
         <h1 style="text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
 <br><br>
