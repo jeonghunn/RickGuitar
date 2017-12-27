@@ -35,19 +35,24 @@
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
                  style=" display: inline-block;">
                 <div class="btn-group btn-group-lg" role="group" aria-label="First group">
-                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-left"
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-camera"
                                                                         aria-hidden="true"></span></button>
-                    <button type="button" class="btn btn-default">2</button>
-                    <button type="button" class="btn btn-default">3</button>
-                    <button type="button" class="btn btn-default">4</button>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-file"
+                                                                        aria-hidden="true"></span></button>
                 </div>
                 <div class="btn-group btn-group-lg" role="group" aria-label="Second group">
-                    <button type="button" class="btn btn-default">5</button>
-                    <button type="button" class="btn btn-default">6</button>
-                    <button type="button" class="btn btn-default">7</button>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-font"
+                                                                        aria-hidden="true"></span></button>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-bold"
+                                                                        aria-hidden="true"></span></button>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-italic"
+                                                                        aria-hidden="true"></span></button>
                 </div>
                 <div class="btn-group btn-group-lg" role="group" aria-label="Third group">
-                    <button type="button" class="btn btn-default">8</button>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-left"
+                                                                        aria-hidden="true"></span></button>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-center"
+                                                                        aria-hidden="true"></span></button>
                 </div>
             </div>
 
