@@ -4,8 +4,8 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change beforePath="$PROJECT_DIR$/pages/footer.php" afterPath="$PROJECT_DIR$/pages/footer.php" />
       <change beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,12 +29,12 @@
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
               <folding>
-                <marker date="1514450493167" expanded="true" signature="6354:6408" ph="..." />
-                <marker date="1514450493167" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
-                <marker date="1514450493167" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
-                <marker date="1514450493167" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
+                <marker date="1514450617686" expanded="true" signature="6357:6411" ph="..." />
+                <marker date="1514450617686" expanded="true" signature="6570:6702" ph="SELECT * FRO... favorite" />
+                <marker date="1514450617686" expanded="true" signature="6754:6886" ph="SELECT * FRO... favorite" />
+                <marker date="1514450617686" expanded="true" signature="6937:6988" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -105,8 +105,8 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1585">
-              <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+            <state relative-caret-position="210">
+              <caret line="76" column="46" lean-forward="false" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -143,7 +143,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\n</find>
       <find>1'</find>
       <find>\</find>
       <find>&quot;</find>
@@ -173,6 +172,7 @@
       <find>write</find>
       <find>htmlspecialchars</find>
       <find>ConvertForWrite</find>
+      <find>ß</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -243,12 +243,12 @@
         <option value="$PROJECT_DIR$/pages/square/controller/square_class.js" />
         <option value="$PROJECT_DIR$/pages/js/blurnav.js" />
         <option value="$PROJECT_DIR$/pages/navbar.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/info/view/info.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
@@ -1284,14 +1284,7 @@
       <workItem from="1514353761902" duration="1803000" />
       <workItem from="1514362026751" duration="667000" />
       <workItem from="1514372679846" duration="10176000" />
-      <workItem from="1514447884571" duration="1742000" />
-    </task>
-    <task id="LOCAL-01113" summary="blur updated">
-      <created>1514282737286</created>
-      <option name="number" value="01113" />
-      <option name="presentableId" value="LOCAL-01113" />
-      <option name="project" value="LOCAL" />
-      <updated>1514282737287</updated>
+      <workItem from="1514447884571" duration="1866000" />
     </task>
     <task id="LOCAL-01114" summary="blur updated">
       <created>1514282780452</created>
@@ -1629,11 +1622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514449175295</updated>
     </task>
-    <option name="localTasksCounter" value="1162" />
+    <task id="LOCAL-01162" summary="mediumeditor imported">
+      <created>1514450509588</created>
+      <option name="number" value="01162" />
+      <option name="presentableId" value="LOCAL-01162" />
+      <option name="project" value="LOCAL" />
+      <updated>1514450509588</updated>
+    </task>
+    <option name="localTasksCounter" value="1163" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1092777000" />
+    <option name="totallyTimeSpent" value="1092901000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1664,6 +1664,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2777778" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13099042" sideWeight="0.45953143" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1684,7 +1685,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13099042" sideWeight="0.45953143" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1742,7 +1742,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="radius updated" />
     <MESSAGE value="shadow updated" />
     <MESSAGE value="background color updated" />
     <MESSAGE value="blur js updated" />
@@ -1767,7 +1766,8 @@
     <MESSAGE value="square write br fixed" />
     <MESSAGE value="test" />
     <MESSAGE value="info updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="info updated" />
+    <MESSAGE value="mediumeditor imported" />
+    <option name="LAST_COMMIT_MESSAGE" value="mediumeditor imported" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2090,14 +2090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1585">
-          <caret line="43" column="43" lean-forward="false" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -2114,15 +2106,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="76" column="46" lean-forward="false" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding>
-            <marker date="1514450493167" expanded="true" signature="6354:6408" ph="..." />
-            <marker date="1514450493167" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
-            <marker date="1514450493167" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
-            <marker date="1514450493167" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
+            <marker date="1514450617686" expanded="true" signature="6357:6411" ph="..." />
+            <marker date="1514450617686" expanded="true" signature="6570:6702" ph="SELECT * FRO... favorite" />
+            <marker date="1514450617686" expanded="true" signature="6754:6886" ph="SELECT * FRO... favorite" />
+            <marker date="1514450617686" expanded="true" signature="6937:6988" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>

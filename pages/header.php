@@ -76,7 +76,7 @@
     <!--[if lt IE 9]>
 
     <![endif]-->
-      ß
+
       <style>
 
 

@@ -74,6 +74,7 @@
 
 <script>
 
+    var editor = new MediumEditor('.squarecard');
     var cardcount = 1;
 
 
