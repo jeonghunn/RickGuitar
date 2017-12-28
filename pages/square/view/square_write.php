@@ -71,6 +71,7 @@
     <br><br><br>
     </div> <!-- /container -->
 
+<script src="pages/js/medium-editor.js"></script>
 
 <script>
 
