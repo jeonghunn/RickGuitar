@@ -62,7 +62,7 @@
     <link href="pages/css/bootstrap.css" rel="stylesheet">
 
 <!--     Custom styles for this template -->
-    <link href="pages/css/navbar-fixed-top.css" rel="stylesheet">
+      <!--    <link href="pages/css/navbar-fixed-top.css" rel="stylesheet">-->
 
 <!--         JS -->
 <!--             <script src="pages/js/angular.min.js"></script>-->
