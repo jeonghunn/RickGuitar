@@ -6480,7 +6480,7 @@ if (!("classList" in document.createElement("_"))) {
                 }
 
                 middleBoundary = boundary.left + boundary.width / 2;
-                positions.top += boundary.top - toolbarHeight;
+                positions.top += boundary.top - toolbarHeight + 10;
 
                 if (boundary.top < buttonHeight) {
                     toolbarElement.classList.add('medium-toolbar-arrow-over');

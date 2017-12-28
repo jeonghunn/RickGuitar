@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pages/js/medium-editor.js" afterPath="$PROJECT_DIR$/pages/js/medium-editor.js" />
     </list>
@@ -41,13 +41,13 @@
       <file leaf-file-name="medium-editor.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="6501" column="10" lean-forward="true" selection-start-line="6501" selection-start-column="10" selection-end-line="6501" selection-end-column="10" />
+            <state relative-caret-position="317">
+              <caret line="6482" column="66" lean-forward="false" selection-start-line="6482" selection-start-column="66" selection-end-line="6482" selection-end-column="66" />
               <folding>
-                <marker date="1514469942000" expanded="true" signature="145455:145461" ph="•" />
-                <marker date="1514469942000" expanded="true" signature="145730:145736" ph="→" />
-                <marker date="1514469942000" expanded="true" signature="146008:146014" ph="←" />
-                <marker date="1514469942000" expanded="true" signature="148480:148487" ph="“" />
+                <marker date="1514470167000" expanded="true" signature="145455:145461" ph="•" />
+                <marker date="1514470167000" expanded="true" signature="145730:145736" ph="→" />
+                <marker date="1514470167000" expanded="true" signature="146008:146014" ph="←" />
+                <marker date="1514470167000" expanded="true" signature="148480:148487" ph="“" />
               </folding>
             </state>
           </provider>
@@ -1297,14 +1297,7 @@
       <workItem from="1514372679846" duration="10176000" />
       <workItem from="1514447884571" duration="4782000" />
       <workItem from="1514465086352" duration="168000" />
-      <workItem from="1514465345157" duration="4346000" />
-    </task>
-    <task id="LOCAL-01133" summary="editor wip">
-      <created>1514309960922</created>
-      <option name="number" value="01133" />
-      <option name="presentableId" value="LOCAL-01133" />
-      <option name="project" value="LOCAL" />
-      <updated>1514309960922</updated>
+      <workItem from="1514465345157" duration="4399000" />
     </task>
     <task id="LOCAL-01134" summary="btn group large">
       <created>1514354034554</created>
@@ -1642,11 +1635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514469572365</updated>
     </task>
-    <option name="localTasksCounter" value="1182" />
+    <task id="LOCAL-01182" summary="test">
+      <created>1514470137379</created>
+      <option name="number" value="01182" />
+      <option name="presentableId" value="LOCAL-01182" />
+      <option name="project" value="LOCAL" />
+      <updated>1514470137379</updated>
+    </task>
+    <option name="localTasksCounter" value="1183" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1100331000" />
+    <option name="totallyTimeSpent" value="1100384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2137,13 +2137,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="6501" column="10" lean-forward="true" selection-start-line="6501" selection-start-column="10" selection-end-line="6501" selection-end-column="10" />
+        <state relative-caret-position="317">
+          <caret line="6482" column="66" lean-forward="false" selection-start-line="6482" selection-start-column="66" selection-end-line="6482" selection-end-column="66" />
           <folding>
-            <marker date="1514469942000" expanded="true" signature="145455:145461" ph="•" />
-            <marker date="1514469942000" expanded="true" signature="145730:145736" ph="→" />
-            <marker date="1514469942000" expanded="true" signature="146008:146014" ph="←" />
-            <marker date="1514469942000" expanded="true" signature="148480:148487" ph="“" />
+            <marker date="1514470167000" expanded="true" signature="145455:145461" ph="•" />
+            <marker date="1514470167000" expanded="true" signature="145730:145736" ph="→" />
+            <marker date="1514470167000" expanded="true" signature="146008:146014" ph="←" />
+            <marker date="1514470167000" expanded="true" signature="148480:148487" ph="“" />
           </folding>
         </state>
       </provider>
