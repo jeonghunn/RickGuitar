@@ -6485,11 +6485,11 @@ if (!("classList" in document.createElement("_"))) {
                 if (boundary.top < buttonHeight) {
                     toolbarElement.classList.add('medium-toolbar-arrow-over');
                     toolbarElement.classList.remove('medium-toolbar-arrow-under');
-                    positions.top += buttonHeight + boundary.height - this.diffTop + 100;
+                    positions.top += buttonHeight + boundary.height - this.diffTop + 80;
                 } else {
                     toolbarElement.classList.add('medium-toolbar-arrow-under');
                     toolbarElement.classList.remove('medium-toolbar-arrow-over');
-                    positions.top += this.diffTop - 100;
+                    positions.top += this.diffTop - 80;
                 }
 
                 if (middleBoundary < halfOffsetWidth) {
