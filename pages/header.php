@@ -218,6 +218,7 @@
           .navbar-default {
 
               background-color: rgba(256, 256, 256, 0.0);
+              border: none;
           }
 
 
