@@ -6489,7 +6489,7 @@ if (!("classList" in document.createElement("_"))) {
                 } else {
                     toolbarElement.classList.add('medium-toolbar-arrow-under');
                     toolbarElement.classList.remove('medium-toolbar-arrow-over');
-                    positions.top += this.diffTop;
+                    positions.top += this.diffTop + 100;
                 }
 
                 if (middleBoundary < halfOffsetWidth) {
