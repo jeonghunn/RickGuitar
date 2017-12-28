@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="convertforread updated">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
+      <change beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -34,6 +33,21 @@
                 <marker date="1514465472000" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
                 <marker date="1514465472000" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
                 <marker date="1514465472000" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medium-editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="6403" column="35" lean-forward="true" selection-start-line="6403" selection-start-column="35" selection-end-line="6403" selection-end-column="35" />
+              <folding>
+                <marker date="1514465023000" expanded="true" signature="145455:145461" ph="•" />
+                <marker date="1514465023000" expanded="true" signature="145730:145736" ph="→" />
+                <marker date="1514465023000" expanded="true" signature="146008:146014" ph="←" />
+                <marker date="1514465023000" expanded="true" signature="148480:148487" ph="“" />
               </folding>
             </state>
           </provider>
@@ -49,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1050">
-              <caret line="70" column="51" lean-forward="false" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
+            <state relative-caret-position="340">
+              <caret line="219" column="55" lean-forward="false" selection-start-line="219" selection-start-column="55" selection-end-line="219" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -74,16 +88,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square_class.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/controller/square_class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -140,8 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&quot;</find>
-      <find>&quot;&quot;</find>
       <find>e</find>
       <find>&lt;</find>
       <find>&lt;etr&gt;</find>
@@ -170,6 +172,8 @@
       <find>a</find>
       <find>da</find>
       <find>ß</find>
+      <find>position</find>
+      <find>top</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -241,12 +245,12 @@
         <option value="$PROJECT_DIR$/pages/js/blurnav.js" />
         <option value="$PROJECT_DIR$/pages/navbar.php" />
         <option value="$PROJECT_DIR$/pages/info/view/info.php" />
-        <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/header.php" />
       </list>
     </option>
   </component>
@@ -332,6 +336,12 @@
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
@@ -1287,14 +1297,7 @@
       <workItem from="1514372679846" duration="10176000" />
       <workItem from="1514447884571" duration="4782000" />
       <workItem from="1514465086352" duration="168000" />
-      <workItem from="1514465345157" duration="128000" />
-    </task>
-    <task id="LOCAL-01123" summary="blur updated">
-      <created>1514290967658</created>
-      <option name="number" value="01123" />
-      <option name="presentableId" value="LOCAL-01123" />
-      <option name="project" value="LOCAL" />
-      <updated>1514290967658</updated>
+      <workItem from="1514465345157" duration="389000" />
     </task>
     <task id="LOCAL-01124" summary="blur updated">
       <created>1514291370523</created>
@@ -1632,11 +1635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514453558258</updated>
     </task>
-    <option name="localTasksCounter" value="1172" />
+    <task id="LOCAL-01172" summary="editor updated">
+      <created>1514465486166</created>
+      <option name="number" value="01172" />
+      <option name="presentableId" value="LOCAL-01172" />
+      <option name="project" value="LOCAL" />
+      <updated>1514465486166</updated>
+    </task>
+    <option name="localTasksCounter" value="1173" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1096113000" />
+    <option name="totallyTimeSpent" value="1096374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1656,8 +1666,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21581921" sideWeight="0.60833335" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21581921" sideWeight="0.61022365" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21581921" sideWeight="0.38977635" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1685,7 +1696,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32689655" sideWeight="0.4978701" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21589404" sideWeight="0.39166668" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13099042" sideWeight="0.45953143" order="7" side_tool="false" content_ui="tabs" />
@@ -1745,7 +1755,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="blur nav update" />
     <MESSAGE value="html2canvas add" />
     <MESSAGE value="blur updated" />
     <MESSAGE value="nav updated" />
@@ -1770,7 +1779,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="squareview bug fixed" />
     <MESSAGE value="convertforread updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="convertforread updated" />
+    <MESSAGE value="editor updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="editor updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2056,19 +2066,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js" />
     <entry file="file://$PROJECT_DIR$/pages/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" column="51" lean-forward="false" selection-start-line="70" selection-start-column="51" selection-end-line="70" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -2097,6 +2098,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <marker date="1514465472000" expanded="true" signature="6354:6408" ph="..." />
+            <marker date="1514465472000" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
+            <marker date="1514465472000" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
+            <marker date="1514465472000" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="6403" column="35" lean-forward="true" selection-start-line="6403" selection-start-column="35" selection-end-line="6403" selection-end-column="35" />
+          <folding>
+            <marker date="1514465023000" expanded="true" signature="145455:145461" ph="•" />
+            <marker date="1514465023000" expanded="true" signature="145730:145736" ph="→" />
+            <marker date="1514465023000" expanded="true" signature="146008:146014" ph="←" />
+            <marker date="1514465023000" expanded="true" signature="148480:148487" ph="“" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2113,16 +2140,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <marker date="1514465472000" expanded="true" signature="6354:6408" ph="..." />
-            <marker date="1514465472000" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
-            <marker date="1514465472000" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
-            <marker date="1514465472000" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="219" column="55" lean-forward="false" selection-start-line="219" selection-start-column="55" selection-end-line="219" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
