@@ -14,7 +14,6 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li><a href="home"><?php S('home') ?></a></li>
                 <li><a href="birthday"><?php S('birthday') ?></a></li>
                 <?php if (isDevelopmentServer()) echo "<li><a href=\"info\">Development Server</a></li>" ?>
 
