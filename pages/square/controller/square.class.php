@@ -13,7 +13,7 @@ class SquareClass
     function ConvertForRead($contents)
     {
 
-
+        $contents = html_entity_decode($contents);
         $contents = htmlspecialchars($contents);
         $contents = str_replace("]}", ">", $contents);
         $contents = str_replace("{[/", "</", $contents);
@@ -30,7 +30,7 @@ class SquareClass
         $contents = str_replace("&quot;", '"', $contents);
         $contents = str_replace('\"', '"', $contents);
         $contents = str_replace('\'', "''", $contents);
-        $contents = html_entity_decode($contents);
+
 
         return $contents;
     }
