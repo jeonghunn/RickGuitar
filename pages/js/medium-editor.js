@@ -6486,10 +6486,16 @@ if (!("classList" in document.createElement("_"))) {
                     toolbarElement.classList.add('medium-toolbar-arrow-over');
                     toolbarElement.classList.remove('medium-toolbar-arrow-under');
                     positions.top += buttonHeight + boundary.height - this.diffTop + 80;
+                    if (typeof window.orientation !== 'undefined') {
+                        positions.top = positions.top + 80;
+                    }
                 } else {
                     toolbarElement.classList.add('medium-toolbar-arrow-under');
                     toolbarElement.classList.remove('medium-toolbar-arrow-over');
-                    positions.top += this.diffTop - 80;
+                    positions.top += this.diffTop;
+                    if (typeof window.orientation !== 'undefined') {
+                        positions.top = positions.top - 80;
+                    }
                 }
 
                 if (middleBoundary < halfOffsetWidth) {
