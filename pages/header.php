@@ -69,14 +69,14 @@
       <script type="text/javascript" src="pages/js/jquery.js"></script>
 
 <!--    <script src="pages/js/class.js"></script>-->
-
-      <link rel="import" href="pages/elements/elements.html">
+      <link rel="stylesheet" href="pages/css/medium-editor.css">
+      <link rel="stylesheet" href="pages/css/beagle.css">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
 
     <![endif]-->
-
+      ß
       <style>
 
 
