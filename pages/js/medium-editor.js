@@ -6485,7 +6485,7 @@ if (!("classList" in document.createElement("_"))) {
                 if (boundary.top < buttonHeight) {
                     toolbarElement.classList.add('medium-toolbar-arrow-over');
                     toolbarElement.classList.remove('medium-toolbar-arrow-under');
-                    positions.top += buttonHeight + boundary.height - this.diffTop + 80;
+                    positions.top += buttonHeight + boundary.height - this.diffTop;
                     if (typeof window.orientation !== 'undefined') {
                         positions.top = positions.top + 80;
                     }

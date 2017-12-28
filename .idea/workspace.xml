@@ -41,13 +41,13 @@
       <file leaf-file-name="medium-editor.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="6487" column="87" lean-forward="false" selection-start-line="6487" selection-start-column="87" selection-end-line="6487" selection-end-column="87" />
+            <state relative-caret-position="186">
+              <caret line="6487" column="82" lean-forward="false" selection-start-line="6487" selection-start-column="82" selection-end-line="6487" selection-end-column="82" />
               <folding>
-                <marker date="1514470557000" expanded="true" signature="145455:145461" ph="•" />
-                <marker date="1514470557000" expanded="true" signature="145730:145736" ph="→" />
-                <marker date="1514470557000" expanded="true" signature="146008:146014" ph="←" />
-                <marker date="1514470557000" expanded="true" signature="148480:148487" ph="“" />
+                <marker date="1514470881000" expanded="true" signature="145455:145461" ph="•" />
+                <marker date="1514470881000" expanded="true" signature="145730:145736" ph="→" />
+                <marker date="1514470881000" expanded="true" signature="146008:146014" ph="←" />
+                <marker date="1514470881000" expanded="true" signature="148480:148487" ph="“" />
               </folding>
             </state>
           </provider>
@@ -1297,21 +1297,7 @@
       <workItem from="1514372679846" duration="10176000" />
       <workItem from="1514447884571" duration="4782000" />
       <workItem from="1514465086352" duration="168000" />
-      <workItem from="1514465345157" duration="4788000" />
-    </task>
-    <task id="LOCAL-01140" summary="br">
-      <created>1514358075538</created>
-      <option name="number" value="01140" />
-      <option name="presentableId" value="LOCAL-01140" />
-      <option name="project" value="LOCAL" />
-      <updated>1514358075538</updated>
-    </task>
-    <task id="LOCAL-01141" summary="editor component design">
-      <created>1514358233784</created>
-      <option name="number" value="01141" />
-      <option name="presentableId" value="LOCAL-01141" />
-      <option name="project" value="LOCAL" />
-      <updated>1514358233784</updated>
+      <workItem from="1514465345157" duration="5109000" />
     </task>
     <task id="LOCAL-01142" summary="editor component design">
       <created>1514362060933</created>
@@ -1642,11 +1628,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514470522102</updated>
     </task>
-    <option name="localTasksCounter" value="1189" />
+    <task id="LOCAL-01189" summary="test">
+      <created>1514470572419</created>
+      <option name="number" value="01189" />
+      <option name="presentableId" value="LOCAL-01189" />
+      <option name="project" value="LOCAL" />
+      <updated>1514470572419</updated>
+    </task>
+    <task id="LOCAL-01190" summary="test">
+      <created>1514470850940</created>
+      <option name="number" value="01190" />
+      <option name="presentableId" value="LOCAL-01190" />
+      <option name="project" value="LOCAL" />
+      <updated>1514470850940</updated>
+    </task>
+    <option name="localTasksCounter" value="1191" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1100773000" />
+    <option name="totallyTimeSpent" value="1101094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2137,13 +2137,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="6487" column="87" lean-forward="false" selection-start-line="6487" selection-start-column="87" selection-end-line="6487" selection-end-column="87" />
+        <state relative-caret-position="186">
+          <caret line="6487" column="82" lean-forward="false" selection-start-line="6487" selection-start-column="82" selection-end-line="6487" selection-end-column="82" />
           <folding>
-            <marker date="1514470557000" expanded="true" signature="145455:145461" ph="•" />
-            <marker date="1514470557000" expanded="true" signature="145730:145736" ph="→" />
-            <marker date="1514470557000" expanded="true" signature="146008:146014" ph="←" />
-            <marker date="1514470557000" expanded="true" signature="148480:148487" ph="“" />
+            <marker date="1514470881000" expanded="true" signature="145455:145461" ph="•" />
+            <marker date="1514470881000" expanded="true" signature="145730:145736" ph="→" />
+            <marker date="1514470881000" expanded="true" signature="146008:146014" ph="←" />
+            <marker date="1514470881000" expanded="true" signature="148480:148487" ph="“" />
           </folding>
         </state>
       </provider>
