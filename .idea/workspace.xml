@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change beforePath="$PROJECT_DIR$/pages/js/medium-editor.js" afterPath="$PROJECT_DIR$/pages/js/medium-editor.js" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -24,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -39,16 +38,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="medium-editor.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="medium-editor.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="6060" column="106" lean-forward="false" selection-start-line="6060" selection-start-column="106" selection-end-line="6060" selection-end-column="106" />
+            <state relative-caret-position="466">
+              <caret line="6487" column="41" lean-forward="false" selection-start-line="6487" selection-start-column="41" selection-end-line="6487" selection-end-column="41" />
               <folding>
-                <marker date="1514469348000" expanded="true" signature="145455:145461" ph="•" />
-                <marker date="1514469348000" expanded="true" signature="145730:145736" ph="→" />
-                <marker date="1514469348000" expanded="true" signature="146008:146014" ph="←" />
-                <marker date="1514469348000" expanded="true" signature="148480:148487" ph="“" />
+                <marker date="1514469556000" expanded="true" signature="145455:145461" ph="•" />
+                <marker date="1514469556000" expanded="true" signature="145730:145736" ph="→" />
+                <marker date="1514469556000" expanded="true" signature="146008:146014" ph="←" />
+                <marker date="1514469556000" expanded="true" signature="148480:148487" ph="“" />
               </folding>
             </state>
           </provider>
@@ -145,9 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&lt;</find>
-      <find>&lt;etr&gt;</find>
-      <find>&lt;etr</find>
       <find>etr</find>
       <find>header</find>
       <find>T</find>
@@ -175,6 +171,9 @@
       <find>position</find>
       <find>top</find>
       <find>mouseup</find>
+      <find>positionToolbarIfShown</find>
+      <find>setToolbarPosition</find>
+      <find>positionToolbar</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -250,8 +249,8 @@
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/navbar.php" />
-        <option value="$PROJECT_DIR$/pages/js/medium-editor.js" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/js/medium-editor.js" />
       </list>
     </option>
   </component>
@@ -1298,14 +1297,7 @@
       <workItem from="1514372679846" duration="10176000" />
       <workItem from="1514447884571" duration="4782000" />
       <workItem from="1514465086352" duration="168000" />
-      <workItem from="1514465345157" duration="3615000" />
-    </task>
-    <task id="LOCAL-01131" summary="nav updated">
-      <created>1514292745803</created>
-      <option name="number" value="01131" />
-      <option name="presentableId" value="LOCAL-01131" />
-      <option name="project" value="LOCAL" />
-      <updated>1514292745803</updated>
+      <workItem from="1514465345157" duration="3810000" />
     </task>
     <task id="LOCAL-01132" summary="button editor added">
       <created>1514309679146</created>
@@ -1643,11 +1635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514469134760</updated>
     </task>
-    <option name="localTasksCounter" value="1180" />
+    <task id="LOCAL-01180" summary="editor mobile support">
+      <created>1514469381151</created>
+      <option name="number" value="01180" />
+      <option name="presentableId" value="LOCAL-01180" />
+      <option name="project" value="LOCAL" />
+      <updated>1514469381151</updated>
+    </task>
+    <option name="localTasksCounter" value="1181" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1099600000" />
+    <option name="totallyTimeSpent" value="1099795000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1756,7 +1755,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="html2canvas add" />
     <MESSAGE value="blur updated" />
     <MESSAGE value="button editor added" />
     <MESSAGE value="editor wip" />
@@ -1781,7 +1779,8 @@
     <MESSAGE value="convertforread updated" />
     <MESSAGE value="editor updated" />
     <MESSAGE value="nav updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav updated" />
+    <MESSAGE value="editor mobile support" />
+    <option name="LAST_COMMIT_MESSAGE" value="editor mobile support" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2107,32 +2106,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="41" column="93" lean-forward="false" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="107" lean-forward="false" selection-start-line="21" selection-start-column="107" selection-end-line="21" selection-end-column="107" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="6060" column="106" lean-forward="false" selection-start-line="6060" selection-start-column="106" selection-end-line="6060" selection-end-column="106" />
-          <folding>
-            <marker date="1514469348000" expanded="true" signature="145455:145461" ph="•" />
-            <marker date="1514469348000" expanded="true" signature="145730:145736" ph="→" />
-            <marker date="1514469348000" expanded="true" signature="146008:146014" ph="←" />
-            <marker date="1514469348000" expanded="true" signature="148480:148487" ph="“" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2145,6 +2123,27 @@
             <marker date="1514469354000" expanded="true" signature="6570:6702" ph="SELECT * FRO... favorite" />
             <marker date="1514469354000" expanded="true" signature="6754:6886" ph="SELECT * FRO... favorite" />
             <marker date="1514469354000" expanded="true" signature="6937:6988" ph="SELECT * FRO... pages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="41" column="93" lean-forward="false" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="6487" column="41" lean-forward="false" selection-start-line="6487" selection-start-column="41" selection-end-line="6487" selection-end-column="41" />
+          <folding>
+            <marker date="1514469556000" expanded="true" signature="145455:145461" ph="•" />
+            <marker date="1514469556000" expanded="true" signature="145730:145736" ph="→" />
+            <marker date="1514469556000" expanded="true" signature="146008:146014" ph="←" />
+            <marker date="1514469556000" expanded="true" signature="148480:148487" ph="“" />
           </folding>
         </state>
       </provider>
