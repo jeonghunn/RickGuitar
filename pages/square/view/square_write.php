@@ -72,7 +72,7 @@
     </div> <!-- /container -->
 
 <script src="pages/js/medium-editor.js"></script>
-<script src="pages/js/medium-editor-mobile-plugin.js"></script>
+<!--<script src="pages/js/medium-editor-mobile-plugin.js"></script>-->
 
 
 <script>
