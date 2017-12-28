@@ -159,7 +159,9 @@
 
 
     function ConvertForWrite(content) {
-        return replaceAll(content, "<br>", "{[br]}");
+        content = replaceAll(content, "<", "{[");
+        content = replaceAll(content, ">", "]}");
+        return content;
     }
 
 
