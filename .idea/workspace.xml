@@ -128,7 +128,7 @@
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+              <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -1304,14 +1304,7 @@
       <workItem from="1514353761902" duration="1803000" />
       <workItem from="1514362026751" duration="667000" />
       <workItem from="1514372679846" duration="10176000" />
-      <workItem from="1514447884571" duration="4173000" />
-    </task>
-    <task id="LOCAL-01120" summary="blur updated">
-      <created>1514290860726</created>
-      <option name="number" value="01120" />
-      <option name="presentableId" value="LOCAL-01120" />
-      <option name="project" value="LOCAL" />
-      <updated>1514290860726</updated>
+      <workItem from="1514447884571" duration="4247000" />
     </task>
     <task id="LOCAL-01121" summary="blur updated">
       <created>1514290883679</created>
@@ -1649,11 +1642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514453099642</updated>
     </task>
-    <option name="localTasksCounter" value="1169" />
+    <task id="LOCAL-01169" summary="convertforread updated">
+      <created>1514453273648</created>
+      <option name="number" value="01169" />
+      <option name="presentableId" value="LOCAL-01169" />
+      <option name="project" value="LOCAL" />
+      <updated>1514453273648</updated>
+    </task>
+    <option name="localTasksCounter" value="1170" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1095208000" />
+    <option name="totallyTimeSpent" value="1095282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1762,7 +1762,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="blur js updated" />
     <MESSAGE value="blur nav update" />
     <MESSAGE value="html2canvas add" />
     <MESSAGE value="blur updated" />
@@ -1787,7 +1786,8 @@
     <MESSAGE value="mediumeditor mobile support" />
     <MESSAGE value="test" />
     <MESSAGE value="squareview bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="squareview bug fixed" />
+    <MESSAGE value="convertforread updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="convertforread updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2155,7 +2155,7 @@
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
           <folding />
         </state>
       </provider>
