@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="mediumeditor imported">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/js/medium-editor-mobile-plugin.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change beforePath="$PROJECT_DIR$/pages/footer.php" afterPath="$PROJECT_DIR$/pages/footer.php" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -29,12 +29,28 @@
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding>
-                <marker date="1514450863738" expanded="true" signature="6357:6411" ph="..." />
-                <marker date="1514450863738" expanded="true" signature="6570:6702" ph="SELECT * FRO... favorite" />
-                <marker date="1514450863738" expanded="true" signature="6754:6886" ph="SELECT * FRO... favorite" />
-                <marker date="1514450863738" expanded="true" signature="6937:6988" ph="SELECT * FRO... pages" />
+                <marker date="1514451815818" expanded="true" signature="6354:6408" ph="..." />
+                <marker date="1514451815818" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
+                <marker date="1514451815818" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
+                <marker date="1514451815818" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medium-editor.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1331">
+              <caret line="594" column="0" lean-forward="true" selection-start-line="594" selection-start-column="0" selection-end-line="594" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <marker date="1514450733775" expanded="true" signature="145455:145461" ph="•" />
+                <marker date="1514450733775" expanded="true" signature="145730:145736" ph="→" />
+                <marker date="1514450733775" expanded="true" signature="146008:146014" ph="←" />
+                <marker date="1514450733775" expanded="true" signature="148480:148487" ph="“" />
               </folding>
             </state>
           </provider>
@@ -55,16 +71,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square.loader.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/square.loader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -105,8 +111,8 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="73" column="49" lean-forward="false" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+            <state relative-caret-position="168">
+              <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,8 +149,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>1'</find>
-      <find>\</find>
       <find>&quot;</find>
       <find>&quot;&quot;</find>
       <find>e</find>
@@ -172,6 +176,8 @@
       <find>write</find>
       <find>htmlspecialchars</find>
       <find>ConvertForWrite</find>
+      <find>a</find>
+      <find>da</find>
       <find>ß</find>
     </findStrings>
     <replaceStrings>
@@ -1302,14 +1308,7 @@
       <workItem from="1514353761902" duration="1803000" />
       <workItem from="1514362026751" duration="667000" />
       <workItem from="1514372679846" duration="10176000" />
-      <workItem from="1514447884571" duration="2111000" />
-    </task>
-    <task id="LOCAL-01116" summary="blur updated">
-      <created>1514282946991</created>
-      <option name="number" value="01116" />
-      <option name="presentableId" value="LOCAL-01116" />
-      <option name="project" value="LOCAL" />
-      <updated>1514282946991</updated>
+      <workItem from="1514447884571" duration="2831000" />
     </task>
     <task id="LOCAL-01117" summary="blur updated">
       <created>1514290664255</created>
@@ -1647,11 +1646,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514450773263</updated>
     </task>
-    <option name="localTasksCounter" value="1165" />
+    <task id="LOCAL-01165" summary="mediumeditor imported">
+      <created>1514450871630</created>
+      <option name="number" value="01165" />
+      <option name="presentableId" value="LOCAL-01165" />
+      <option name="project" value="LOCAL" />
+      <updated>1514450871630</updated>
+    </task>
+    <option name="localTasksCounter" value="1166" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1093146000" />
+    <option name="totallyTimeSpent" value="1093866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1799,7 +1805,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/api/api_add.php" />
     <entry file="file://$PROJECT_DIR$/pages/day.php" />
     <entry file="file://$PROJECT_DIR$/pages/square.php" />
     <entry file="file://$PROJECT_DIR$/modules/account/model/member.model.php">
@@ -2124,10 +2129,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1331">
+          <caret line="594" column="0" lean-forward="true" selection-start-line="594" selection-start-column="0" selection-end-line="594" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1514450733775" expanded="true" signature="145455:145461" ph="•" />
+            <marker date="1514450733775" expanded="true" signature="145730:145736" ph="→" />
+            <marker date="1514450733775" expanded="true" signature="146008:146014" ph="←" />
+            <marker date="1514450733775" expanded="true" signature="148480:148487" ph="“" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="73" column="49" lean-forward="false" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+        <state relative-caret-position="168">
+          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2135,12 +2154,12 @@
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding>
-            <marker date="1514450863738" expanded="true" signature="6357:6411" ph="..." />
-            <marker date="1514450863738" expanded="true" signature="6570:6702" ph="SELECT * FRO... favorite" />
-            <marker date="1514450863738" expanded="true" signature="6754:6886" ph="SELECT * FRO... favorite" />
-            <marker date="1514450863738" expanded="true" signature="6937:6988" ph="SELECT * FRO... pages" />
+            <marker date="1514451815818" expanded="true" signature="6354:6408" ph="..." />
+            <marker date="1514451815818" expanded="true" signature="6567:6699" ph="SELECT * FRO... favorite" />
+            <marker date="1514451815818" expanded="true" signature="6751:6883" ph="SELECT * FRO... favorite" />
+            <marker date="1514451815818" expanded="true" signature="6934:6985" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
