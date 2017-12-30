@@ -73,9 +73,6 @@
 
 <script src="pages/js/medium-editor.js"></script>
 
-<script src="pages/js/handlebars.runtime.js"></script>
-<script src="pages/js/medium-editor-insert-plugin.js"></script>
-<!--<script src="pages/js/medium-editor-mobile-plugin.js"></script>-->
 
 
 <script>

@@ -63,7 +63,6 @@
       <!--     Medium Editor -->
       <link rel="stylesheet" href="pages/css/medium-editor.css">
       <link rel="stylesheet" href="pages/css/beagle.css">
-      <link rel="stylesheet" href="pages/css/medium-editor-insert-plugin.min.css">
 
 
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
