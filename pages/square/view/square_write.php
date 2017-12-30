@@ -83,7 +83,7 @@
     var editor = new MediumEditor('.squarecard');
 
     $(function () {
-        $('.editable').mediumInsert({
+        $('.squarecard').mediumInsert({
             editor: editor
         });
     });
