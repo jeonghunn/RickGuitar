@@ -87,12 +87,12 @@
         <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="6484" column="53" lean-forward="false" selection-start-line="6484" selection-start-column="53" selection-end-line="6484" selection-end-column="53" />
+              <caret line="6484" column="52" lean-forward="false" selection-start-line="6484" selection-start-column="52" selection-end-line="6484" selection-end-column="52" />
               <folding>
-                <marker date="1514613388013" expanded="true" signature="145455:145461" ph="•" />
-                <marker date="1514613388013" expanded="true" signature="145730:145736" ph="→" />
-                <marker date="1514613388013" expanded="true" signature="146008:146014" ph="←" />
-                <marker date="1514613388013" expanded="true" signature="148480:148487" ph="“" />
+                <marker date="1514613439150" expanded="true" signature="145455:145461" ph="•" />
+                <marker date="1514613439150" expanded="true" signature="145730:145736" ph="→" />
+                <marker date="1514613439150" expanded="true" signature="146008:146014" ph="←" />
+                <marker date="1514613439150" expanded="true" signature="148480:148487" ph="“" />
               </folding>
             </state>
           </provider>
@@ -1287,14 +1287,7 @@
       <workItem from="1514447884571" duration="4782000" />
       <workItem from="1514465086352" duration="168000" />
       <workItem from="1514465345157" duration="5301000" />
-      <workItem from="1514613045356" duration="344000" />
-    </task>
-    <task id="LOCAL-01146" summary="script bug fixed">
-      <created>1514379335987</created>
-      <option name="number" value="01146" />
-      <option name="presentableId" value="LOCAL-01146" />
-      <option name="project" value="LOCAL" />
-      <updated>1514379335988</updated>
+      <workItem from="1514613045356" duration="395000" />
     </task>
     <task id="LOCAL-01147" summary="writeAct fixed">
       <created>1514379774357</created>
@@ -1632,11 +1625,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514613357733</updated>
     </task>
-    <option name="localTasksCounter" value="1195" />
+    <task id="LOCAL-01195" summary="mobile editor improved">
+      <created>1514613400362</created>
+      <option name="number" value="01195" />
+      <option name="presentableId" value="LOCAL-01195" />
+      <option name="project" value="LOCAL" />
+      <updated>1514613400362</updated>
+    </task>
+    <option name="localTasksCounter" value="1196" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1101630000" />
+    <option name="totallyTimeSpent" value="1101681000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2145,12 +2145,12 @@
     <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="6484" column="53" lean-forward="false" selection-start-line="6484" selection-start-column="53" selection-end-line="6484" selection-end-column="53" />
+          <caret line="6484" column="52" lean-forward="false" selection-start-line="6484" selection-start-column="52" selection-end-line="6484" selection-end-column="52" />
           <folding>
-            <marker date="1514613388013" expanded="true" signature="145455:145461" ph="•" />
-            <marker date="1514613388013" expanded="true" signature="145730:145736" ph="→" />
-            <marker date="1514613388013" expanded="true" signature="146008:146014" ph="←" />
-            <marker date="1514613388013" expanded="true" signature="148480:148487" ph="“" />
+            <marker date="1514613439150" expanded="true" signature="145455:145461" ph="•" />
+            <marker date="1514613439150" expanded="true" signature="145730:145736" ph="→" />
+            <marker date="1514613439150" expanded="true" signature="146008:146014" ph="←" />
+            <marker date="1514613439150" expanded="true" signature="148480:148487" ph="“" />
           </folding>
         </state>
       </provider>
