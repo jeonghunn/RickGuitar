@@ -51,28 +51,22 @@
       <script>
 
 
-          // Load pre-caching Service Worker
-    /*      if ('serviceWorker' in navigator) {
-              window.addEventListener('load', function() {
-                  navigator.serviceWorker.register('/service-worker.js');
-              });
-          }*/
+
       </script>
     <!-- Bootstrap core CSS -->
     <link href="pages/css/bootstrap.css" rel="stylesheet">
 
-<!--     Custom styles for this template -->
-      <!--    <link href="pages/css/navbar-fixed-top.css" rel="stylesheet">-->
 
-<!--         JS -->
-<!--             <script src="pages/js/angular.min.js"></script>-->
       <script type="text/javascript" src="pages/js/jquery.js"></script>
 
-<!--    <script src="pages/js/class.js"></script>-->
+
+      <!--     Medium Editor -->
       <link rel="stylesheet" href="pages/css/medium-editor.css">
       <link rel="stylesheet" href="pages/css/beagle.css">
+      <link rel="stylesheet" href="pages/css/medium-editor-insert-plugin.min.css">
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
 
     <![endif]-->
