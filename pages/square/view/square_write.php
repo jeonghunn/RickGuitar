@@ -81,6 +81,13 @@
 <script>
 
     var editor = new MediumEditor('.squarecard');
+
+    $(function () {
+        $('.editable').mediumInsert({
+            editor: editor
+        });
+    });
+
     var cardcount = 1;
 
 
