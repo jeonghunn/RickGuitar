@@ -27,13 +27,13 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="59">
+              <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding>
-                <marker date="1514731892000" expanded="true" signature="6351:6405" ph="..." />
-                <marker date="1514731892000" expanded="true" signature="6564:6696" ph="SELECT * FRO... favorite" />
-                <marker date="1514731892000" expanded="true" signature="6748:6880" ph="SELECT * FRO... favorite" />
-                <marker date="1514731892000" expanded="true" signature="6931:6982" ph="SELECT * FRO... pages" />
+                <marker date="1514733859000" expanded="true" signature="6350:6404" ph="..." />
+                <marker date="1514733859000" expanded="true" signature="6563:6695" ph="SELECT * FRO... favorite" />
+                <marker date="1514733859000" expanded="true" signature="6747:6879" ph="SELECT * FRO... favorite" />
+                <marker date="1514733859000" expanded="true" signature="6930:6981" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -102,8 +102,8 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+            <state relative-caret-position="412">
+              <caret line="87" column="102" lean-forward="false" selection-start-line="87" selection-start-column="102" selection-end-line="87" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -1255,14 +1255,7 @@
       <workItem from="1514465345157" duration="5301000" />
       <workItem from="1514613045356" duration="1888000" />
       <workItem from="1514623279568" duration="1349000" />
-      <workItem from="1514731601628" duration="255000" />
-    </task>
-    <task id="LOCAL-01156" summary="test">
-      <created>1514391098945</created>
-      <option name="number" value="01156" />
-      <option name="presentableId" value="LOCAL-01156" />
-      <option name="project" value="LOCAL" />
-      <updated>1514391098945</updated>
+      <workItem from="1514731601628" duration="1381000" />
     </task>
     <task id="LOCAL-01157" summary="test">
       <created>1514392049000</created>
@@ -1600,11 +1593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514624355979</updated>
     </task>
-    <option name="localTasksCounter" value="1205" />
+    <task id="LOCAL-01205" summary="medium insert fixed">
+      <created>1514731912235</created>
+      <option name="number" value="01205" />
+      <option name="presentableId" value="LOCAL-01205" />
+      <option name="project" value="LOCAL" />
+      <updated>1514731912236</updated>
+    </task>
+    <option name="localTasksCounter" value="1206" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1104778000" />
+    <option name="totallyTimeSpent" value="1105904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1616,7 +1616,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1001" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="997" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1624,8 +1624,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17214043" sideWeight="0.6145833" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21501707" sideWeight="0.61608094" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21501707" sideWeight="0.38391906" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1653,7 +1654,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258278" sideWeight="0.49513888" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21456954" sideWeight="0.38541666" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13099042" sideWeight="0.45953143" order="7" side_tool="false" content_ui="tabs" />
@@ -1713,7 +1713,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="center tag added" />
     <MESSAGE value="div added" />
     <MESSAGE value="text align center" />
     <MESSAGE value="br" />
@@ -1738,7 +1737,8 @@
     <MESSAGE value="js, css added" />
     <MESSAGE value="handlebar added" />
     <MESSAGE value="editor file upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="editor file upload" />
+    <MESSAGE value="medium insert fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="medium insert fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2086,21 +2086,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="412">
+          <caret line="87" column="102" lean-forward="false" selection-start-line="87" selection-start-column="102" selection-end-line="87" selection-end-column="102" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="59">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding>
-            <marker date="1514731892000" expanded="true" signature="6351:6405" ph="..." />
-            <marker date="1514731892000" expanded="true" signature="6564:6696" ph="SELECT * FRO... favorite" />
-            <marker date="1514731892000" expanded="true" signature="6748:6880" ph="SELECT * FRO... favorite" />
-            <marker date="1514731892000" expanded="true" signature="6931:6982" ph="SELECT * FRO... pages" />
+            <marker date="1514733859000" expanded="true" signature="6350:6404" ph="..." />
+            <marker date="1514733859000" expanded="true" signature="6563:6695" ph="SELECT * FRO... favorite" />
+            <marker date="1514733859000" expanded="true" signature="6747:6879" ph="SELECT * FRO... favorite" />
+            <marker date="1514733859000" expanded="true" signature="6930:6981" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
