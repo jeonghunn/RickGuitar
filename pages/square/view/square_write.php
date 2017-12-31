@@ -88,7 +88,7 @@
         var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard" id="contents_' + cardcount + '" contentEditable="true"></div></div><div><br>';
         $(cardadd).insertBefore('#squarecard');
 
-
+        editor = new MediumEditor('.squarecard');
     }
 
 
