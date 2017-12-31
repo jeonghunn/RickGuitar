@@ -86,7 +86,7 @@
 
         cardcount = cardcount + 1;
         var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard" id="contents_' + cardcount + '" contentEditable="true"></div></div><div><br>';
-        $().insertBefore('#squarecard');
+        $(cardadd).insertBefore('#squarecard');
 
 
     }
