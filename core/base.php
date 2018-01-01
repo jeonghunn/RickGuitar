@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "3.7.101.21.15";
+    return "3.7.101.21.23";
 }
 
 //Basic Info
