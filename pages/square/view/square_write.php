@@ -79,7 +79,7 @@
 
     var editor = new MediumEditor('.squarecard', {
         toolbar: {
-            buttons: ['bold', 'italic', 'underline', 'quote', 'anchor', 'image', 'justifyLeft', 'justifyCenter', 'justifyRight', 'orderedlist', 'unorderedlist', 'pre', 'h1'],
+            buttons: ['bold', 'italic', 'underline', 'quote', 'anchor', 'image', 'justifyLeft', 'justifyCenter', 'orderedlist', 'h1'],
         },
         buttonLabels: 'fontawesome',
         anchor: {
