@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -24,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -99,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
+            <state relative-caret-position="172">
+              <caret line="81" column="166" lean-forward="false" selection-start-line="81" selection-start-column="166" selection-end-line="81" selection-end-column="166" />
               <folding />
             </state>
           </provider>
@@ -235,8 +234,8 @@
         <option value="$PROJECT_DIR$/pages/navbar.php" />
         <option value="$PROJECT_DIR$/pages/js/medium-editor.js" />
         <option value="$PROJECT_DIR$/pages/header.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
   </component>
@@ -1256,14 +1255,7 @@
       <workItem from="1514613045356" duration="1888000" />
       <workItem from="1514623279568" duration="1349000" />
       <workItem from="1514731601628" duration="2425000" />
-      <workItem from="1514808604793" duration="320000" />
-    </task>
-    <task id="LOCAL-01161" summary="info updated">
-      <created>1514449175294</created>
-      <option name="number" value="01161" />
-      <option name="presentableId" value="LOCAL-01161" />
-      <option name="project" value="LOCAL" />
-      <updated>1514449175295</updated>
+      <workItem from="1514808604793" duration="368000" />
     </task>
     <task id="LOCAL-01162" summary="mediumeditor imported">
       <created>1514450509588</created>
@@ -1601,11 +1593,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514808908935</updated>
     </task>
-    <option name="localTasksCounter" value="1210" />
+    <task id="LOCAL-01210" summary="editor bug fixed">
+      <created>1514808942834</created>
+      <option name="number" value="01210" />
+      <option name="presentableId" value="LOCAL-01210" />
+      <option name="project" value="LOCAL" />
+      <updated>1514808942834</updated>
+    </task>
+    <option name="localTasksCounter" value="1211" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1107268000" />
+    <option name="totallyTimeSpent" value="1107316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1714,7 +1713,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="br" />
     <MESSAGE value="editor component design" />
     <MESSAGE value="contentEditable" />
     <MESSAGE value="font size updated" />
@@ -1739,7 +1737,8 @@
     <MESSAGE value="medium insert fixed" />
     <MESSAGE value="addcard updated" />
     <MESSAGE value="custom editor updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom editor updated" />
+    <MESSAGE value="editor bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="editor bug fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2085,14 +2084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="79" column="46" lean-forward="false" selection-start-line="79" selection-start-column="46" selection-end-line="79" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -2103,6 +2094,14 @@
             <marker date="1514808928000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
             <marker date="1514808928000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="81" column="166" lean-forward="false" selection-start-line="81" selection-start-column="166" selection-end-line="81" selection-end-column="166" />
+          <folding />
         </state>
       </provider>
     </entry>
