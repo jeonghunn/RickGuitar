@@ -77,7 +77,15 @@
 
 <script>
 
-    var editor = new MediumEditor('.squarecard');
+    var editor = new MediumEditor('.editable', {
+        toolbar: {
+            buttons: ['bold', 'italic', 'underline', 'quote', 'anchor', 'image', 'justifyLeft', 'justifyCenter', 'justifyRight', 'orderedlist', 'unorderedlist', 'pre', 'h1'],
+        },
+        buttonLabels: 'fontawesome',
+        anchor: {
+            targetCheckbox: true
+        }
+    });
 
     var cardcount = 1;
 
