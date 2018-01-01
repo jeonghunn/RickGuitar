@@ -77,7 +77,7 @@
 
 <script>
 
-    var editor = new MediumEditor('.editable', {
+    var editor = new MediumEditor('.squarecard', {
         toolbar: {
             buttons: ['bold', 'italic', 'underline', 'quote', 'anchor', 'image', 'justifyLeft', 'justifyCenter', 'justifyRight', 'orderedlist', 'unorderedlist', 'pre', 'h1'],
         },
