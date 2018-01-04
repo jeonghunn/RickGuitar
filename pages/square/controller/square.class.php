@@ -10,11 +10,12 @@ class SquareClass
 {
 
 
-    function ConvertForRead($contents)
+    function ConvertForRead($HTML_PURIFIER, $contents)
     {
 
         $contents = html_entity_decode($contents);
-        $contents = htmlspecialchars($contents);
+        //    $contents = htmlspecialchars($contents);
+        $contents = $HTML_PURIFIER->purify($contents);
         $contents = str_replace("]}", ">", $contents);
         $contents = str_replace("{[/", "</", $contents);
         $contents = str_replace("{[br", "<br", $contents);
