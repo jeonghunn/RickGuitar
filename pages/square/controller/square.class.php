@@ -14,7 +14,7 @@ class SquareClass
     {
 
         $contents = html_entity_decode($contents);
-        echo $contents;
+        echo $contents . "|";
         $contents = $HTML_PURIFIER->purify($contents);
         echo $contents;
         $contents = htmlspecialchars($contents);

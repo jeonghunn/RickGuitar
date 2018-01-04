@@ -41,8 +41,8 @@
       <file leaf-file-name="square.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="211">
+              <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -1288,14 +1288,7 @@
       <workItem from="1514731601628" duration="2425000" />
       <workItem from="1514808604793" duration="1043000" />
       <workItem from="1515076389948" duration="2570000" />
-      <workItem from="1515079313436" duration="1111000" />
-    </task>
-    <task id="LOCAL-01174" summary="nav updated">
-      <created>1514465877574</created>
-      <option name="number" value="01174" />
-      <option name="presentableId" value="LOCAL-01174" />
-      <option name="project" value="LOCAL" />
-      <updated>1514465877574</updated>
+      <workItem from="1515079313436" duration="1153000" />
     </task>
     <task id="LOCAL-01175" summary="nav updated">
       <created>1514466073371</created>
@@ -1633,11 +1626,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515080506201</updated>
     </task>
-    <option name="localTasksCounter" value="1223" />
+    <task id="LOCAL-01223" summary="test">
+      <created>1515081461166</created>
+      <option name="number" value="01223" />
+      <option name="presentableId" value="LOCAL-01223" />
+      <option name="project" value="LOCAL" />
+      <updated>1515081461167</updated>
+    </task>
+    <option name="localTasksCounter" value="1224" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1111672000" />
+    <option name="totallyTimeSpent" value="1111714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1764,14 +1764,14 @@
     <MESSAGE value="addcard updated" />
     <MESSAGE value="custom editor updated" />
     <MESSAGE value="editor bug fixed" />
-    <MESSAGE value="test" />
     <MESSAGE value="font awesome added" />
     <MESSAGE value="editor updated" />
     <MESSAGE value="Merge commit 'f98e5dce9a095838b443c3f4aeb863319aceb16c' into develop&#10;&#10;# Conflicts:&#10;#&#9;core/base.php" />
     <MESSAGE value="HTMlPurifier added" />
     <MESSAGE value="load library added" />
     <MESSAGE value="HTML_PURIFIER on convertforread" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML_PURIFIER on convertforread" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2136,8 +2136,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="211">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding />
         </state>
       </provider>
