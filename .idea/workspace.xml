@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pages/lib/lib.loader.php" afterPath="$PROJECT_DIR$/pages/lib/lib.loader.php" />
+      <change beforePath="$PROJECT_DIR$/pages/square/controller/square.class.php" afterPath="$PROJECT_DIR$/pages/square/controller/square.class.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="511">
+              <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -90,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lib.loader.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lib.loader.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -246,8 +246,8 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
-        <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/lib/lib.loader.php" />
+        <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
       </list>
     </option>
   </component>
@@ -1288,14 +1288,7 @@
       <workItem from="1514731601628" duration="2425000" />
       <workItem from="1514808604793" duration="1043000" />
       <workItem from="1515076389948" duration="2570000" />
-      <workItem from="1515079313436" duration="1430000" />
-    </task>
-    <task id="LOCAL-01177" summary="nav updated">
-      <created>1514466557249</created>
-      <option name="number" value="01177" />
-      <option name="presentableId" value="LOCAL-01177" />
-      <option name="project" value="LOCAL" />
-      <updated>1514466557249</updated>
+      <workItem from="1515079313436" duration="1530000" />
     </task>
     <task id="LOCAL-01178" summary="nav updated">
       <created>1514468899299</created>
@@ -1633,11 +1626,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515081602034</updated>
     </task>
-    <option name="localTasksCounter" value="1226" />
+    <task id="LOCAL-01226" summary="lib setting updated">
+      <created>1515081784275</created>
+      <option name="number" value="01226" />
+      <option name="presentableId" value="LOCAL-01226" />
+      <option name="project" value="LOCAL" />
+      <updated>1515081784275</updated>
+    </task>
+    <option name="localTasksCounter" value="1227" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1111991000" />
+    <option name="totallyTimeSpent" value="1112091000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1746,7 +1746,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="square write br fixed" />
     <MESSAGE value="info updated" />
     <MESSAGE value="mediumeditor imported" />
     <MESSAGE value="mediumeditor mobile support" />
@@ -1771,7 +1770,8 @@
     <MESSAGE value="load library added" />
     <MESSAGE value="HTML_PURIFIER on convertforread" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="lib setting updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="lib setting updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2110,6 +2110,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1365">
@@ -2128,16 +2136,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="511">
+          <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
           <folding />
         </state>
       </provider>
