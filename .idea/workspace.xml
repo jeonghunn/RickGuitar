@@ -2,9 +2,383 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier.auto.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier.autoload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier.composer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier.func.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier.includes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier.kses.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier.path.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier.safe-includes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Arborize.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrCollections.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/AlphaValue.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Background.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/BackgroundPosition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Border.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Color.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Composite.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/DenyElementDecorator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Filter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Font.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/FontFamily.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Ident.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/ImportantDecorator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Length.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/ListStyle.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Multiple.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Number.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/Percentage.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/TextDecoration.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/CSS/URI.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/Clone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/Enum.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/Bool.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/Class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/Color.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/FrameTarget.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/ID.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/Length.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/LinkTypes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/MultiLength.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/Nmtokens.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/HTML/Pixels.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/Integer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/Lang.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/Switch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/URI.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/URI/Email.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/URI/Email/SimpleCheck.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/URI/Host.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/URI/IPv4.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrDef/URI/IPv6.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/Background.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/BdoDir.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/BgColor.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/BoolToCSS.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/Border.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/EnumToCSS.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/ImgRequired.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/ImgSpace.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/Input.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/Lang.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/Length.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/Name.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/NameSync.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/Nofollow.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/SafeEmbed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/SafeObject.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/SafeParam.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/ScriptRequired.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/TargetBlank.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/TargetNoopener.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/TargetNoreferrer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTransform/Textarea.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrTypes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/AttrValidator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Bootstrap.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/CSSDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ChildDef.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ChildDef/Chameleon.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ChildDef/Custom.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ChildDef/Empty.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ChildDef/List.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ChildDef/Optional.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ChildDef/Required.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ChildDef/StrictBlockquote.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ChildDef/Table.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/Builder/ConfigSchema.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/Builder/Xml.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/Exception.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/Interchange.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/Interchange/Directive.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/Interchange/Id.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/InterchangeBuilder.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/Validator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/ValidatorAtom.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema.ser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.AllowedClasses.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.AllowedFrameTargets.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.AllowedRel.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.AllowedRev.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.ClassUseCDATA.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.DefaultImageAlt.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.DefaultInvalidImage.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.DefaultInvalidImageAlt.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.DefaultTextDir.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.EnableID.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.ForbiddenClasses.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.ID.HTML5.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.IDBlacklist.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.IDBlacklistRegexp.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.IDPrefix.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Attr.IDPrefixLocal.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.AutoParagraph.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.Custom.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.DisplayLinkURI.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.Linkify.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.PurifierLinkify.DocURL.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.PurifierLinkify.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.Predicate.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.RemoveNbsp.Exceptions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.RemoveNbsp.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveSpansWithoutAttributes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.AllowDuplicates.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.AllowImportant.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.AllowTricky.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.AllowedFonts.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.AllowedProperties.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.DefinitionRev.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.ForbiddenProperties.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.MaxImgLength.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.Proprietary.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/CSS.Trusted.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Cache.DefinitionImpl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Cache.SerializerPath.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Cache.SerializerPermissions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.AggressivelyFixLt.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.AggressivelyRemoveScript.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.AllowHostnameUnderscore.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.CollectErrors.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.ColorKeywords.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.ConvertDocumentToFragment.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.DirectLexLineNumberSyncInterval.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.DisableExcludes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.EnableIDNA.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.Encoding.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.EscapeInvalidChildren.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.EscapeInvalidTags.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.EscapeNonASCIICharacters.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.HiddenElements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.Language.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.LegacyEntityDecoder.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.LexerImpl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.MaintainLineNumbers.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.NormalizeNewlines.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.RemoveInvalidImg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.RemoveProcessingInstructions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Core.RemoveScriptContents.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Filter.Custom.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.Escaping.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.Scope.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.TidyImpl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Filter.YouTube.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.Allowed.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.AllowedAttributes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.AllowedComments.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.AllowedCommentsRegexp.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.AllowedElements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.AllowedModules.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.Attr.Name.UseCDATA.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.BlockWrapper.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.CoreModules.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.CustomDoctype.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.DefinitionID.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.DefinitionRev.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.Doctype.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.FlashAllowFullScreen.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.ForbiddenAttributes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.ForbiddenElements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.MaxImgLength.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.Nofollow.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.Parent.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.Proprietary.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.SafeEmbed.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.SafeIframe.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.SafeObject.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.SafeScripting.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.Strict.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.TargetBlank.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.TargetNoopener.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.TargetNoreferrer.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.TidyAdd.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.TidyLevel.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.TidyRemove.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.Trusted.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/HTML.XHTML.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Output.CommentScriptContents.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Output.FixInnerHTML.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Output.FlashCompat.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Output.Newline.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Output.SortAttr.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Output.TidyFormat.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/Test.ForceNoIconv.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.AllowedSchemes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.Base.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.DefaultScheme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.DefinitionID.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.DefinitionRev.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.Disable.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.DisableExternal.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.DisableExternalResources.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.DisableResources.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.Host.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.HostBlacklist.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.MakeAbsolute.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.Munge.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.MungeResources.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.MungeSecretKey.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.OverrideAllowedSchemes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/URI.SafeIframeRegexp.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ConfigSchema/schema/info.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ContentSets.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Context.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Definition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DefinitionCache.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DefinitionCache/Decorator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DefinitionCache/Decorator/Cleanup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DefinitionCache/Decorator/Memory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DefinitionCache/Decorator/Template.php.in" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DefinitionCache/Null.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DefinitionCache/Serializer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DefinitionCache/Serializer/README" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DefinitionCacheFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Doctype.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/DoctypeRegistry.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ElementDef.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Encoder.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/EntityLookup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/EntityLookup/entities.ser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/EntityParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ErrorCollector.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/ErrorStruct.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Exception.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Filter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Filter/ExtractStyleBlocks.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Filter/YouTube.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Generator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Bdo.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/CommonAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Edit.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Forms.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Hypertext.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Iframe.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Image.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Legacy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/List.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Name.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Nofollow.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Object.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Presentation.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Proprietary.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Ruby.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/SafeEmbed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/SafeObject.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/SafeScripting.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Scripting.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/StyleAttribute.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Tables.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Target.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/TargetBlank.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/TargetNoopener.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/TargetNoreferrer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Tidy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Tidy/Name.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Tidy/Proprietary.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Tidy/Strict.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Tidy/Transitional.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Tidy/XHTML.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModule/XMLCommonAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/HTMLModuleManager.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/IDAccumulator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Injector.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Injector/AutoParagraph.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Injector/DisplayLinkURI.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Injector/Linkify.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Injector/PurifierLinkify.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Injector/RemoveEmpty.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Injector/SafeObject.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Language.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Language/classes/en-x-test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Language/messages/en-x-test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Language/messages/en-x-testmini.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Language/messages/en.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/LanguageFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Length.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Lexer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Lexer/DOMLex.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Lexer/DirectLex.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Lexer/PH5P.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Node.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Node/Comment.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Node/Element.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Node/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/PercentEncoder.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Printer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Printer/CSSDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Printer/ConfigForm.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Printer/ConfigForm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Printer/ConfigForm.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Printer/HTMLDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/PropertyList.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/PropertyListIterator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Queue.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Strategy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Strategy/Composite.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Strategy/Core.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Strategy/FixNesting.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Strategy/MakeWellFormed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Strategy/RemoveForeignElements.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Strategy/ValidateAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/StringHash.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/StringHashParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/TagTransform.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/TagTransform/Font.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/TagTransform/Simple.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Token.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Token/Comment.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Token/Empty.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Token/End.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Token/Start.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Token/Tag.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Token/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/TokenFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URI.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIFilter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIFilter/DisableExternal.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIFilter/DisableExternalResources.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIFilter/DisableResources.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIFilter/HostBlacklist.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIFilter/MakeAbsolute.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIFilter/Munge.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIFilter/SafeIframe.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme/data.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme/file.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme/ftp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme/http.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme/https.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme/mailto.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme/news.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme/nntp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URIScheme/tel.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/URISchemeRegistry.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/UnitConverter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/VarParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/VarParser/Flexible.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/VarParser/Native.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/VarParserException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/HTMLPurifier/HTMLPurifier/Zipper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/lib/lib.loader.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,32 +402,22 @@
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
               <folding>
-                <marker date="1514809687000" expanded="true" signature="6356:6410" ph="..." />
-                <marker date="1514809687000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-                <marker date="1514809687000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-                <marker date="1514809687000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+                <marker date="1515077907000" expanded="true" signature="6353:6407" ph="..." />
+                <marker date="1515077907000" expanded="true" signature="6566:6698" ph="SELECT * FRO... favorite" />
+                <marker date="1515077907000" expanded="true" signature="6750:6882" ph="SELECT * FRO... favorite" />
+                <marker date="1515077907000" expanded="true" signature="6933:6984" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_card.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
+      <file leaf-file-name="beagle.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/css/beagle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square.api.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/square/square.api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -69,22 +433,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="birthday.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2160">
-              <caret line="144" column="0" lean-forward="false" selection-start-line="144" selection-start-column="0" selection-end-line="157" selection-end-column="5" />
+            <state relative-caret-position="975">
+              <caret line="65" column="107" lean-forward="false" selection-start-line="65" selection-start-column="107" selection-end-line="65" selection-end-column="107" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="65" column="107" lean-forward="false" selection-start-line="65" selection-start-column="107" selection-end-line="65" selection-end-column="107" />
-              <folding />
+            <state relative-caret-position="-161">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <marker date="1514112690000" expanded="true" signature="6045:6099" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,31 +465,41 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="lib.loader.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1650">
+              <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
+            <state relative-caret-position="1215">
               <caret line="81" column="112" lean-forward="false" selection-start-line="81" selection-start-column="112" selection-end-line="81" selection-end-column="112" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square_view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="93" lean-forward="false" selection-start-line="41" selection-start-column="93" selection-end-line="41" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,8 +572,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/board/api/board.api.class.php" />
-        <option value="$PROJECT_DIR$/pages/bower.json" />
         <option value="$PROJECT_DIR$/pages/manifest.json" />
         <option value="$PROJECT_DIR$/modules/page/controller/page.class.php" />
         <option value="$PROJECT_DIR$/pages/elements/elements.html" />
@@ -246,6 +620,8 @@
         <option value="$PROJECT_DIR$/pages/js/medium-editor.js" />
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
+        <option value="$PROJECT_DIR$/pages/css/beagle.css" />
+        <option value="$PROJECT_DIR$/pages/lib/lib.loader.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
@@ -270,7 +646,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -291,6 +667,9 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,22 +696,18 @@
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="square" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="square" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,19 +756,19 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jhrunning/Documents/SquareCore/core/base.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pages/birthday" />
-      <recent name="$PROJECT_DIR$/pages/square" />
-      <recent name="$PROJECT_DIR$/pages/birthday/controller" />
-      <recent name="$PROJECT_DIR$/modules/square/model" />
-      <recent name="$PROJECT_DIR$/pages" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages/birthday/view" />
       <recent name="$PROJECT_DIR$/pages/birthday" />
       <recent name="$PROJECT_DIR$/modules/notification/controller" />
       <recent name="$PROJECT_DIR$/modules/page/controller" />
       <recent name="$PROJECT_DIR$/modules/page/api" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/lib" />
+      <recent name="$PROJECT_DIR$/pages/birthday" />
+      <recent name="$PROJECT_DIR$/pages/square" />
+      <recent name="$PROJECT_DIR$/pages/birthday/controller" />
+      <recent name="$PROJECT_DIR$/modules/square/model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1267,20 +1642,7 @@
       <workItem from="1514623279568" duration="1349000" />
       <workItem from="1514731601628" duration="2425000" />
       <workItem from="1514808604793" duration="1043000" />
-    </task>
-    <task id="LOCAL-01167" summary="test">
-      <created>1514453055782</created>
-      <option name="number" value="01167" />
-      <option name="presentableId" value="LOCAL-01167" />
-      <option name="project" value="LOCAL" />
-      <updated>1514453055783</updated>
-    </task>
-    <task id="LOCAL-01168" summary="squareview bug fixed">
-      <created>1514453099642</created>
-      <option name="number" value="01168" />
-      <option name="presentableId" value="LOCAL-01168" />
-      <option name="project" value="LOCAL" />
-      <updated>1514453099642</updated>
+      <workItem from="1515076389948" duration="1509000" />
     </task>
     <task id="LOCAL-01169" summary="convertforread updated">
       <created>1514453273648</created>
@@ -1611,11 +1973,25 @@
       <option name="project" value="LOCAL" />
       <updated>1514809509379</updated>
     </task>
-    <option name="localTasksCounter" value="1216" />
+    <task id="LOCAL-01216" summary="editor updated">
+      <created>1515076769638</created>
+      <option name="number" value="01216" />
+      <option name="presentableId" value="LOCAL-01216" />
+      <option name="project" value="LOCAL" />
+      <updated>1515076769638</updated>
+    </task>
+    <task id="LOCAL-01217" summary="Merge commit 'f98e5dce9a095838b443c3f4aeb863319aceb16c' into develop&#10;&#10;# Conflicts:&#10;#&#9;core/base.php">
+      <created>1515076867505</created>
+      <option name="number" value="01217" />
+      <option name="presentableId" value="LOCAL-01217" />
+      <option name="project" value="LOCAL" />
+      <updated>1515076867505</updated>
+    </task>
+    <option name="localTasksCounter" value="1218" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1107991000" />
+    <option name="totallyTimeSpent" value="1109500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1627,7 +2003,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="996" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1635,16 +2011,16 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140575" sideWeight="0.6176784" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21298406" sideWeight="0.6192758" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2140575" sideWeight="0.38232163" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21298406" sideWeight="0.38072416" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21512248" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2172524" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1724,8 +2100,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="contentEditable" />
-    <MESSAGE value="font size updated" />
     <MESSAGE value="script bug fixed" />
     <MESSAGE value="writeAct fixed" />
     <MESSAGE value="square write br fixed" />
@@ -1749,7 +2123,9 @@
     <MESSAGE value="test" />
     <MESSAGE value="font awesome added" />
     <MESSAGE value="editor updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="editor updated" />
+    <MESSAGE value="Merge commit 'f98e5dce9a095838b443c3f4aeb863319aceb16c' into develop&#10;&#10;# Conflicts:&#10;#&#9;core/base.php" />
+    <MESSAGE value="HTMlPurifier added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTMlPurifier added" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1763,20 +2139,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/account/account.loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1816,13 +2178,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="40" column="95" lean-forward="false" selection-start-line="40" selection-start-column="95" selection-end-line="40" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1948,24 +2303,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2048,26 +2389,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/square.loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -2088,18 +2413,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="81" column="112" lean-forward="false" selection-start-line="81" selection-start-column="112" selection-end-line="81" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/beagle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
+        <state relative-caret-position="975">
           <caret line="65" column="107" lean-forward="false" selection-start-line="65" selection-start-column="107" selection-end-line="65" selection-end-column="107" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+    <entry file="file://$PROJECT_DIR$/pages/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="81" column="112" lean-forward="false" selection-start-line="81" selection-start-column="112" selection-end-line="81" selection-end-column="112" />
+        <state relative-caret-position="-161">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <marker date="1514112690000" expanded="true" signature="6045:6099" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/square.loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -2107,12 +2490,12 @@
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
           <folding>
-            <marker date="1514809687000" expanded="true" signature="6356:6410" ph="..." />
-            <marker date="1514809687000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-            <marker date="1514809687000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-            <marker date="1514809687000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+            <marker date="1515077907000" expanded="true" signature="6353:6407" ph="..." />
+            <marker date="1515077907000" expanded="true" signature="6566:6698" ph="SELECT * FRO... favorite" />
+            <marker date="1515077907000" expanded="true" signature="6750:6882" ph="SELECT * FRO... favorite" />
+            <marker date="1515077907000" expanded="true" signature="6933:6984" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
