@@ -11,6 +11,7 @@ define('642979',   TRUE);
 //LOAD
 
  require_once 'pages/base.php';
+require_once 'pages/lib/lib.loader.php'; //Load library
 //Variable
 $page_srl = GET('p');
 $act_parameter = GET('a');
