@@ -56,21 +56,18 @@
 <br><br>
     <h1 style="font-size: 48px;">
         Ver <?php echo PostAct(getAPIUrl(), array(array('api_key', getAPIKey()), array('a', 'CoreVersion'))); ?></h1>
-    <p>Version</p>
-    <br><br><br>
-    <paper-button raised onclick="location.href='mailto:jeonghunn1@gmail.com'">jeonghunn1@gmail.com</paper-button>
-    <br><br>
 
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
         <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default">Left</button>
+            <a href="http://tarks.net/fsquare" class="btn btn-default" role="button">Square Forum</a>
         </div>
         <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default">Middle</button>
+            <a href="http://tarks.net/develop/square" class="btn btn-default" role="button">Square Development
+                Server</a>
         </div>
         <div class="btn-group" role="group">
-            <button type="button" class="btn btn-default">Right</button>
+            <a href="http://tarks.net/" class="btn btn-default" role="button">Tarks.net</a>
         </div>
     </div>
 
