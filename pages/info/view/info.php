@@ -63,8 +63,7 @@
             <a href="http://tarks.net/fsquare" class="btn btn-default" role="button">Square Forum</a>
         </div>
         <div class="btn-group" role="group">
-            <a href="http://tarks.net/develop/square" class="btn btn-default" role="button">Square Development
-                Server</a>
+            <a href="http://tarks.net/develop/square" class="btn btn-default" role="button">Square Development</a>
         </div>
         <div class="btn-group" role="group">
             <a href="http://tarks.net/" class="btn btn-default" role="button">Tarks.net</a>
@@ -103,12 +102,9 @@
             <div class="thumbnail">
                 <!--       <img src="..." alt="..."> -->
                 <div class="caption">
-                    <h3>Square Development</h3>
-                    <p><a href="http://tarks.net/develop/square" class="btn btn-default" role="button">tarks.net/develop/square</a>
-                    </p>
-                    <p><a href="fsquare_devchangelog" class="btn btn-default" role="button">Changelog</a></p>
-                    <p><a href="fsquare_devnotice" class="btn btn-default" role="button">Notice</a></p>
-                    <p><a href="fsquare_devfeedback" class="btn btn-default" role="button">FeedBack</a></p>
+                    <h3>Developer</h3>
+
+                    <p>Junghoon Lee</p>
                 </div>
             </div>
 
