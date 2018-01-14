@@ -92,8 +92,10 @@
         <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-              <folding />
+              <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1300,14 +1302,7 @@
       <workItem from="1514808604793" duration="1043000" />
       <workItem from="1515076389948" duration="2570000" />
       <workItem from="1515079313436" duration="1839000" />
-      <workItem from="1515956577668" duration="943000" />
-    </task>
-    <task id="LOCAL-01186" summary="test">
-      <created>1514470370376</created>
-      <option name="number" value="01186" />
-      <option name="presentableId" value="LOCAL-01186" />
-      <option name="project" value="LOCAL" />
-      <updated>1514470370377</updated>
+      <workItem from="1515956577668" duration="1064000" />
     </task>
     <task id="LOCAL-01187" summary="test">
       <created>1514470419128</created>
@@ -1645,11 +1640,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515957550187</updated>
     </task>
-    <option name="localTasksCounter" value="1235" />
+    <task id="LOCAL-01235" summary="info test">
+      <created>1515957576291</created>
+      <option name="number" value="01235" />
+      <option name="presentableId" value="LOCAL-01235" />
+      <option name="project" value="LOCAL" />
+      <updated>1515957576291</updated>
+    </task>
+    <option name="localTasksCounter" value="1236" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1113343000" />
+    <option name="totallyTimeSpent" value="1113464000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2150,8 +2152,10 @@
     <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-          <folding />
+          <caret line="56" column="41" lean-forward="false" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
