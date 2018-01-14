@@ -74,5 +74,57 @@
     <br><br>
 
 
+    <div class="row">
+        <div class="col-sm-6 col-md-6">
+            <div class="thumbnail">
+                <!--       <img src="..." alt="..."> -->
+                <div class="caption">
+                    <h3>Square</h3>
+                    <p><a href="http://square.tarks.net" class="btn btn-default" role="button">square.tarks.net</a></p>
+                    <p><a href="fsquare_changelog" class="btn btn-default" role="button">Changelog</a></p>
+                    <p><a href="fsquare_notice" class="btn btn-default" role="button">Notice</a></p>
+                    <p><a href="fsquare_feedback" class="btn btn-default" role="button">FeedBack</a></p>
+
+
+                </div>
+                <img class="zbxe_widget_output" widget="content" skin="default" colorset="white" content_type="document"
+                     module_srls="226360,226358" list_type="image_title_content" tab_type="none" markup_type="list"
+                     list_count="1" page_count="1" option_view="title,regdate,content" show_browser_title="Y"
+                     show_comment_count="Y" show_trackback_count="Y" show_category="Y" show_icon="Y"
+                     order_target="regdate" order_type="desc" thumbnail_type="crop"/>
+
+            </div>
+
+
+        </div>
+
+        <div class="col-sm-6 col-md-6">
+
+            <div class="thumbnail">
+                <!--       <img src="..." alt="..."> -->
+                <div class="caption">
+                    <h3>Square Development</h3>
+                    <p><a href="http://tarks.net/develop/square" class="btn btn-default" role="button">tarks.net/develop/square</a>
+                    </p>
+                    <p><a href="fsquare_devchangelog" class="btn btn-default" role="button">Changelog</a></p>
+                    <p><a href="fsquare_devnotice" class="btn btn-default" role="button">Notice</a></p>
+                    <p><a href="fsquare_devfeedback" class="btn btn-default" role="button">FeedBack</a></p>
+                </div>
+            </div>
+
+
+            <img class="zbxe_widget_output" widget="content" skin="default" colorset="white" content_type="document"
+                 module_srls="226356,226286" list_type="image_title_content" tab_type="none" markup_type="list"
+                 list_count="1" page_count="1" option_view="title,regdate,content" show_browser_title="Y"
+                 show_comment_count="Y" show_trackback_count="Y" show_category="Y" show_icon="Y" order_target="regdate"
+                 order_type="desc" thumbnail_type="crop"/>
+
+
+        </div>
+
+
+    </div>
+
+</div>
 
 </div>
