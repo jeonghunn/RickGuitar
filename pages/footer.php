@@ -3,8 +3,6 @@
 
     <a class="container">
         <br>
-
-        <li>Square Forum</li>
         <a href="info"><p class="text-muted" style="text-align: center;">Copyrightⓒ. 2017-2018. Tarks. All Rights
                 Reserved.</p></a>
 

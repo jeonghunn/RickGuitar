@@ -55,16 +55,20 @@
 <!--      <h1 style="font-size: 36px; center;">HaruCore</h1>-->
 <br><br>
       <h3 style="font-size: 21px;" ><?php echo PostAct(getAPIUrl(),  array(array('api_key', getAPIKey()), array('a', 'CoreVersion'))); ?></h3><br><br><h3 stlye="font-size: 18px;">Developed By Junghoon Lee</h3><br><paper-button raised onclick="location.href='mailto:jeonghunn1@gmail.com'">jeonghunn1@gmail.com</paper-button><br><br>
-    <b><?php S('contributors'); ?></b><br>
+    <div class="btn-group btn-group-justified" role="group" aria-label="...">
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">Left</button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">Middle</button>
+        </div>
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default">Right</button>
+        </div>
+    </div>
 
     <br><br>
 
-          <p>2017.6.18 개발 시작</p>
-    <p>2017.6.23 Alpha Ver, Birthday</p>
-    <p>2017.7.3 - 3.1 Patch</p>
-    <p>2017.7.6 - 3.2 Patch</p>
-    <p>2017.7.22 - 3.3 Patch</p>
-    <p>2017.9.25 - 3.4 Patch</p>
 
 
 </div>
