@@ -105,6 +105,8 @@
                     <h3>Developer</h3>
 
                     <p>Junghoon Lee</p>
+                    <a href="http://jhrun.tistory.com" class="btn btn-default" role="button">Blog</a>
+                    <a href="http://facebook.com/jhrunning" class="btn btn-default" role="button">Facebook</a>
                 </div>
             </div>
 
