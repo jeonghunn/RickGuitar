@@ -78,19 +78,14 @@
             <div class="thumbnail">
                 <!--       <img src="..." alt="..."> -->
                 <div class="caption">
-                    <h3>Square</h3>
-                    <p><a href="http://square.tarks.net" class="btn btn-default" role="button">square.tarks.net</a></p>
-                    <p><a href="fsquare_changelog" class="btn btn-default" role="button">Changelog</a></p>
-                    <p><a href="fsquare_notice" class="btn btn-default" role="button">Notice</a></p>
-                    <p><a href="fsquare_feedback" class="btn btn-default" role="button">FeedBack</a></p>
+                    <h3>Information</h3>
+                    <a href="http://tarks.net/fsquare_changelog" class="btn btn-default" role="button">Changelog</a>
+                    <a href="http://tarks.net/fsquare_notice" class="btn btn-default" role="button">Notice</a>
+                    <a href="http://tarks.net/fsquare_feedback" class="btn btn-default" role="button">FeedBack</a>
+                    <a href="license" class="btn btn-default" role="button">Open Source License</a>
 
 
                 </div>
-                <img class="zbxe_widget_output" widget="content" skin="default" colorset="white" content_type="document"
-                     module_srls="226360,226358" list_type="image_title_content" tab_type="none" markup_type="list"
-                     list_count="1" page_count="1" option_view="title,regdate,content" show_browser_title="Y"
-                     show_comment_count="Y" show_trackback_count="Y" show_category="Y" show_icon="Y"
-                     order_target="regdate" order_type="desc" thumbnail_type="crop"/>
 
             </div>
 
@@ -104,18 +99,12 @@
                 <div class="caption">
                     <h3>Developer</h3>
 
-                    <p>Junghoon Lee</p>
+                    <p>Junghoon Lee(JHRunning)</p>
                     <a href="http://jhrun.tistory.com" class="btn btn-default" role="button">Blog</a>
                     <a href="http://facebook.com/jhrunning" class="btn btn-default" role="button">Facebook</a>
                 </div>
             </div>
 
-
-            <img class="zbxe_widget_output" widget="content" skin="default" colorset="white" content_type="document"
-                 module_srls="226356,226286" list_type="image_title_content" tab_type="none" markup_type="list"
-                 list_count="1" page_count="1" option_view="title,regdate,content" show_browser_title="Y"
-                 show_comment_count="Y" show_trackback_count="Y" show_category="Y" show_icon="Y" order_target="regdate"
-                 order_type="desc" thumbnail_type="crop"/>
 
 
         </div>
