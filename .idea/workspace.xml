@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pages/footer.php" afterPath="$PROJECT_DIR$/pages/footer.php" />
       <change beforePath="$PROJECT_DIR$/pages/info/view/info.php" afterPath="$PROJECT_DIR$/pages/info/view/info.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -92,8 +91,8 @@
       <file leaf-file-name="info.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="649">
-              <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+            <state relative-caret-position="274">
+              <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -112,8 +111,8 @@
       <file leaf-file-name="square_view.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="108" lean-forward="false" selection-start-line="41" selection-start-column="108" selection-end-line="41" selection-end-column="108" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -1301,14 +1300,7 @@
       <workItem from="1514808604793" duration="1043000" />
       <workItem from="1515076389948" duration="2570000" />
       <workItem from="1515079313436" duration="1839000" />
-      <workItem from="1515956577668" duration="711000" />
-    </task>
-    <task id="LOCAL-01183" summary="test">
-      <created>1514470182228</created>
-      <option name="number" value="01183" />
-      <option name="presentableId" value="LOCAL-01183" />
-      <option name="project" value="LOCAL" />
-      <updated>1514470182228</updated>
+      <workItem from="1515956577668" duration="788000" />
     </task>
     <task id="LOCAL-01184" summary="test">
       <created>1514470228641</created>
@@ -1646,11 +1638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515956859112</updated>
     </task>
-    <option name="localTasksCounter" value="1232" />
+    <task id="LOCAL-01232" summary="info test">
+      <created>1515957334027</created>
+      <option name="number" value="01232" />
+      <option name="presentableId" value="LOCAL-01232" />
+      <option name="project" value="LOCAL" />
+      <updated>1515957334027</updated>
+    </task>
+    <option name="localTasksCounter" value="1233" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1113111000" />
+    <option name="totallyTimeSpent" value="1113188000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1759,7 +1758,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mediumeditor mobile support" />
     <MESSAGE value="squareview bug fixed" />
     <MESSAGE value="convertforread updated" />
     <MESSAGE value="nav updated" />
@@ -1784,7 +1782,8 @@
     <MESSAGE value="lib setting updated" />
     <MESSAGE value="covertforread updated" />
     <MESSAGE value="footer test" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer test" />
+    <MESSAGE value="info test" />
+    <option name="LAST_COMMIT_MESSAGE" value="info test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2087,14 +2086,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="108" lean-forward="false" selection-start-line="41" selection-start-column="108" selection-end-line="41" selection-end-column="108" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/load.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2148,10 +2139,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+        <state relative-caret-position="274">
+          <caret line="52" column="38" lean-forward="false" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
           <folding />
         </state>
       </provider>
