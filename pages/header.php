@@ -84,7 +84,7 @@
              resize: none;
              border: 0 none;
              width: 92%;
-             font-size: 32px;
+             font-size: 24px;
              outline: none;
              height: 92%;
              vertical-align: middle;
