@@ -56,7 +56,7 @@
 <br><br>
     <h1 style="font-size: 48px;">
         Ver <?php echo PostAct(getAPIUrl(), array(array('api_key', getAPIKey()), array('a', 'CoreVersion'))); ?></h1>
-
+    <br>
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
         <div class="btn-group" role="group">
