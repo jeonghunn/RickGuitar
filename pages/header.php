@@ -115,7 +115,7 @@
              padding-right: 24px;
              padding-bottom: 24px;
              padding-top: 16px;
-             font-size: 32px;
+             font-size: 24px;
 
              word-break: break-all;
              display: table-cell;
