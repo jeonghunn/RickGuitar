@@ -38,6 +38,57 @@
     </div>
 
 
+    <h1>새로운 업데이트</h1>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-2">
+
+            <div class="squarecard_mainbig">Big 1</div>
+
+
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+
+
+            <div class="squarecard_mainbig">Big 2</div>
+
+        </div>
+
+
+        <div class="col-sm-6 col-md-2">
+
+            <div class="squarecard_mainbig">Big 3</div>
+
+
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+
+            <div class="squarecard_mainbig">Big 3</div>
+
+
+        </div>
+
+        <div class="col-sm-6 col-md-2">
+
+            <div class="squarecard_mainbig">Big 3</div>
+
+
+        </div>
+
+
+        <div class="col-sm-6 col-md-2">
+
+            <div class="squarecard_mainbig">Big 3</div>
+
+
+        </div>
+
+
+    </div>
+
+
 </div> <!-- /container -->
 
 
