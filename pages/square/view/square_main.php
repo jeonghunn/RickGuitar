@@ -48,7 +48,14 @@
 
         </div>
 
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-6 col-md-3">
+
+
+            <div class="squarecard_mainbig">Big 2</div>
+
+        </div>
+
+        <div class="col-sm-6 col-md-3">
 
 
             <div class="squarecard_mainbig">Big 2</div>
@@ -56,32 +63,18 @@
         </div>
 
 
-        <div class="col-sm-6 col-md-2">
-
-            <div class="squarecard_mainbig">Big 3</div>
+        <div class="col-sm-6 col-md-3">
 
 
-        </div>
-
-        <div class="col-sm-6 col-md-2">
-
-            <div class="squarecard_mainbig">Big 3</div>
-
-
-        </div>
-
-        <div class="col-sm-6 col-md-2">
-
-            <div class="squarecard_mainbig">Big 3</div>
-
+            <div class="squarecard_mainbig">Big 2</div>
 
         </div>
 
 
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-6 col-md-3">
 
-            <div class="squarecard_mainbig">Big 3</div>
 
+            <div class="squarecard_mainbig">Big 2</div>
 
         </div>
 
