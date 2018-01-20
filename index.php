@@ -107,12 +107,13 @@ setLoaded(true);
 }
 
 //Guest, User all can
-LoadPages("", "square/view/square_write", false);
-LoadPages("home", "square/view/square_write", false);
+LoadPages("", "square/view/square_main", false);
+LoadPages("home", "square/view/square_main", false);
 LoadPages("error", "error", false);
 LoadPages("info", "info/view/info", false);
 LoadPages("infodetail", "infodetail", false);
 LoadPages("signup", "signup", false);
+LoadPages("write", "square/view/square_write", false);
 LoadPages("birthday", "birthday/view/birthday_write", false);
 //API
 	    LoadPages("api_main", "api/api_main", false);
