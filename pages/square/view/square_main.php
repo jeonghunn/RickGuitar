@@ -41,7 +41,7 @@
     <h1>새로운 업데이트</h1>
         <br>
     <div class="row">
-        <div class="col-sm-6 col-md-2">
+        <div class="col-sm-6 col-md-3">
 
             <div class="squarecard_mainbig">Big 1</div>
 
