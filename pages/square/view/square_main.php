@@ -37,9 +37,9 @@
 
     </div>
 
-
+    <div id="group">
     <h1>새로운 업데이트</h1>
-
+        <br>
     <div class="row">
         <div class="col-sm-6 col-md-2">
 
@@ -89,6 +89,6 @@
     </div>
 
 
-</div> <!-- /container -->
+    </div> <!-- /container -->
 
 
