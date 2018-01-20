@@ -61,8 +61,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1310,14 +1310,7 @@
       <workItem from="1515956577668" duration="3849000" />
       <workItem from="1516020904914" duration="328000" />
       <workItem from="1516466477346" duration="33000" />
-      <workItem from="1516466702561" duration="985000" />
-    </task>
-    <task id="LOCAL-01201" summary="handlebar added">
-      <created>1514624140262</created>
-      <option name="number" value="01201" />
-      <option name="presentableId" value="LOCAL-01201" />
-      <option name="project" value="LOCAL" />
-      <updated>1514624140262</updated>
+      <workItem from="1516466702561" duration="1022000" />
     </task>
     <task id="LOCAL-01202" summary="handlebar added">
       <created>1514624166158</created>
@@ -1655,11 +1648,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516467651654</updated>
     </task>
-    <option name="localTasksCounter" value="1250" />
+    <task id="LOCAL-01250" summary="cardw style">
+      <created>1516467716878</created>
+      <option name="number" value="01250" />
+      <option name="presentableId" value="LOCAL-01250" />
+      <option name="project" value="LOCAL" />
+      <updated>1516467716878</updated>
+    </task>
+    <option name="localTasksCounter" value="1251" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1117595000" />
+    <option name="totallyTimeSpent" value="1117632000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1768,7 +1768,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="file upload plugin" />
     <MESSAGE value="js, css added" />
     <MESSAGE value="handlebar added" />
     <MESSAGE value="editor file upload" />
@@ -1793,7 +1792,8 @@
     <MESSAGE value="font size updated" />
     <MESSAGE value="main page added" />
     <MESSAGE value="card test" />
-    <option name="LAST_COMMIT_MESSAGE" value="card test" />
+    <MESSAGE value="cardw style" />
+    <option name="LAST_COMMIT_MESSAGE" value="cardw style" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2169,8 +2169,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="105">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
