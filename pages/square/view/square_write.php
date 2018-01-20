@@ -87,7 +87,9 @@
         }
     });
 
-    document.getElementById("content_1").focus();
+    window.onload = function () {
+
+        document.getElementById("content_1").focus();
     }
     ;
 

@@ -30,10 +30,10 @@
             <state relative-caret-position="60">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1516468290000" expanded="true" signature="6355:6409" ph="..." />
-                <marker date="1516468290000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-                <marker date="1516468290000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-                <marker date="1516468290000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+                <marker date="1516468348000" expanded="true" signature="6355:6409" ph="..." />
+                <marker date="1516468348000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+                <marker date="1516468348000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+                <marker date="1516468348000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="89" column="38" lean-forward="false" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+            <state relative-caret-position="281">
+              <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1311,14 +1311,7 @@
       <workItem from="1515956577668" duration="3849000" />
       <workItem from="1516020904914" duration="328000" />
       <workItem from="1516466477346" duration="33000" />
-      <workItem from="1516466702561" duration="1571000" />
-    </task>
-    <task id="LOCAL-01209" summary="custom editor updated">
-      <created>1514808908934</created>
-      <option name="number" value="01209" />
-      <option name="presentableId" value="LOCAL-01209" />
-      <option name="project" value="LOCAL" />
-      <updated>1514808908935</updated>
+      <workItem from="1516466702561" duration="1628000" />
     </task>
     <task id="LOCAL-01210" summary="editor bug fixed">
       <created>1514808942834</created>
@@ -1656,11 +1649,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516468230904</updated>
     </task>
-    <option name="localTasksCounter" value="1258" />
+    <task id="LOCAL-01258" summary="autofocus updated">
+      <created>1516468304216</created>
+      <option name="number" value="01258" />
+      <option name="presentableId" value="LOCAL-01258" />
+      <option name="project" value="LOCAL" />
+      <updated>1516468304216</updated>
+    </task>
+    <option name="localTasksCounter" value="1259" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1118181000" />
+    <option name="totallyTimeSpent" value="1118238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1769,7 +1769,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="medium insert fixed" />
     <MESSAGE value="addcard updated" />
     <MESSAGE value="custom editor updated" />
     <MESSAGE value="editor bug fixed" />
@@ -1794,7 +1793,8 @@
     <MESSAGE value="container align" />
     <MESSAGE value="write card added" />
     <MESSAGE value="write autofocus" />
-    <option name="LAST_COMMIT_MESSAGE" value="write autofocus" />
+    <MESSAGE value="autofocus updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="autofocus updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2157,8 +2157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="89" column="38" lean-forward="false" selection-start-line="89" selection-start-column="38" selection-end-line="89" selection-end-column="38" />
+        <state relative-caret-position="281">
+          <caret line="88" column="0" lean-forward="true" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2168,10 +2168,10 @@
         <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1516468290000" expanded="true" signature="6355:6409" ph="..." />
-            <marker date="1516468290000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-            <marker date="1516468290000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-            <marker date="1516468290000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+            <marker date="1516468348000" expanded="true" signature="6355:6409" ph="..." />
+            <marker date="1516468348000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+            <marker date="1516468348000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+            <marker date="1516468348000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
