@@ -89,7 +89,7 @@
 
     window.onload = function () {
 
-        document.getElementById("content_1").focus();
+        document.getElementById("contents_1").focus();
     }
     ;
 
