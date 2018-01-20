@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="pages/css/main.css">
 
 <!-- html -->
-<div class="container">
+<div class="container" align="center">
 
 
     <div class="squarecardw"></div>
