@@ -71,12 +71,6 @@
         </div>
 
 
-        <div class="col-sm-6 col-md-3">
-
-
-            <div class="squarecard_mainbig">Big 2</div>
-
-        </div>
 
 
     </div>
