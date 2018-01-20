@@ -7,7 +7,7 @@
 <div class="container" align="center">
 
 
-    <div class="squarecardw"></div>
+    <div class="squarecardw" onclick="location.href='write'; ">새로운 카드 쓰기</div>
 
 </div> <!-- /container -->
 
