@@ -87,6 +87,10 @@
         }
     });
 
+    document.getElementById("content_1").focus();
+    }
+    ;
+
     var cardcount = 1;
 
 
