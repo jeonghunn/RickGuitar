@@ -18,4 +18,4 @@ $HTML_PURIFIER_CONFIG->set('HTML.Allowed', 'a[href],u,p,b,i,span[style],p,strong
 $HTML_PURIFIER_CONFIG->set('HTML.AllowedAttributes', 'href, src, height, width, alt');
 
 //load apis
-$HTML_PURIFIER = new HTMLPurifier($HTML_PURIFIER_CONFIG);
+//$HTML_PURIFIER = new HTMLPurifier($HTML_PURIFIER_CONFIG);
