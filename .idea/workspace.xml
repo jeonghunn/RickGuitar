@@ -28,12 +28,12 @@
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <marker date="1516519540531" expanded="true" signature="6353:6407" ph="..." />
-                <marker date="1516519540531" expanded="true" signature="6566:6698" ph="SELECT * FRO... favorite" />
-                <marker date="1516519540531" expanded="true" signature="6750:6882" ph="SELECT * FRO... favorite" />
-                <marker date="1516519540531" expanded="true" signature="6933:6984" ph="SELECT * FRO... pages" />
+                <marker date="1516519614856" expanded="true" signature="6356:6410" ph="..." />
+                <marker date="1516519614856" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+                <marker date="1516519614856" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+                <marker date="1516519614856" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -64,8 +64,8 @@
       <file leaf-file-name="lib.loader.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="180">
+              <caret line="17" column="83" lean-forward="false" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -1264,14 +1264,7 @@
       <workItem from="1516466477346" duration="33000" />
       <workItem from="1516466702561" duration="4945000" />
       <workItem from="1516519368610" duration="36000" />
-      <workItem from="1516519449557" duration="93000" />
-    </task>
-    <task id="LOCAL-01226" summary="lib setting updated">
-      <created>1515081784275</created>
-      <option name="number" value="01226" />
-      <option name="presentableId" value="LOCAL-01226" />
-      <option name="project" value="LOCAL" />
-      <updated>1515081784275</updated>
+      <workItem from="1516519449557" duration="167000" />
     </task>
     <task id="LOCAL-01227" summary="covertforread updated">
       <created>1515081882519</created>
@@ -1609,11 +1602,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516472311164</updated>
     </task>
-    <option name="localTasksCounter" value="1275" />
+    <task id="LOCAL-01275" summary="a tag allowed">
+      <created>1516519552787</created>
+      <option name="number" value="01275" />
+      <option name="presentableId" value="LOCAL-01275" />
+      <option name="project" value="LOCAL" />
+      <updated>1516519552788</updated>
+    </task>
+    <option name="localTasksCounter" value="1276" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1121684000" />
+    <option name="totallyTimeSpent" value="1121758000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1633,8 +1633,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20927152" sideWeight="0.6256656" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20927152" sideWeight="0.62777776" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20927152" sideWeight="0.37222221" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1661,7 +1662,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258278" sideWeight="0.49513888" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21046644" sideWeight="0.3743344" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13099042" sideWeight="0.45953143" order="7" side_tool="false" content_ui="tabs" />
@@ -1722,7 +1722,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="editor updated" />
     <MESSAGE value="Merge commit 'f98e5dce9a095838b443c3f4aeb863319aceb16c' into develop&#10;&#10;# Conflicts:&#10;#&#9;core/base.php" />
     <MESSAGE value="HTMlPurifier added" />
     <MESSAGE value="load library added" />
@@ -1747,7 +1746,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="square big updated" />
     <MESSAGE value="main layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="main layout" />
+    <MESSAGE value="a tag allowed" />
+    <option name="LAST_COMMIT_MESSAGE" value="a tag allowed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2102,8 +2102,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state relative-caret-position="180">
+          <caret line="17" column="83" lean-forward="false" selection-start-line="17" selection-start-column="83" selection-end-line="17" selection-end-column="83" />
           <folding />
         </state>
       </provider>
@@ -2111,12 +2111,12 @@
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1516519540531" expanded="true" signature="6353:6407" ph="..." />
-            <marker date="1516519540531" expanded="true" signature="6566:6698" ph="SELECT * FRO... favorite" />
-            <marker date="1516519540531" expanded="true" signature="6750:6882" ph="SELECT * FRO... favorite" />
-            <marker date="1516519540531" expanded="true" signature="6933:6984" ph="SELECT * FRO... pages" />
+            <marker date="1516519614856" expanded="true" signature="6356:6410" ph="..." />
+            <marker date="1516519614856" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+            <marker date="1516519614856" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+            <marker date="1516519614856" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
