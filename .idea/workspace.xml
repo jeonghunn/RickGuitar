@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="href allowed">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change beforePath="$PROJECT_DIR$/pages/lib/lib.loader.php" afterPath="$PROJECT_DIR$/pages/lib/lib.loader.php" />
@@ -30,10 +30,10 @@
             <state relative-caret-position="60">
               <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <marker date="1516519919358" expanded="true" signature="6356:6410" ph="..." />
-                <marker date="1516519919358" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-                <marker date="1516519919358" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-                <marker date="1516519919358" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+                <marker date="1516520146629" expanded="true" signature="6356:6410" ph="..." />
+                <marker date="1516520146629" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+                <marker date="1516520146629" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+                <marker date="1516520146629" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -64,18 +64,18 @@
       <file leaf-file-name="lib.loader.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="17" column="81" lean-forward="false" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+            <state relative-caret-position="165">
+              <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="endcredits.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/js/endcredits.js">
+      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="474">
+              <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -316,6 +316,19 @@
               <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="square" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="square" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1264,14 +1277,7 @@
       <workItem from="1516466477346" duration="33000" />
       <workItem from="1516466702561" duration="4945000" />
       <workItem from="1516519368610" duration="36000" />
-      <workItem from="1516519449557" duration="460000" />
-    </task>
-    <task id="LOCAL-01228" summary="covertforread updated">
-      <created>1515081991210</created>
-      <option name="number" value="01228" />
-      <option name="presentableId" value="LOCAL-01228" />
-      <option name="project" value="LOCAL" />
-      <updated>1515081991210</updated>
+      <workItem from="1516519449557" duration="687000" />
     </task>
     <task id="LOCAL-01229" summary="covertforread updated">
       <created>1515082044839</created>
@@ -1609,11 +1615,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516519627779</updated>
     </task>
-    <option name="localTasksCounter" value="1277" />
+    <task id="LOCAL-01277" summary="a.href allowed">
+      <created>1516519931603</created>
+      <option name="number" value="01277" />
+      <option name="presentableId" value="LOCAL-01277" />
+      <option name="project" value="LOCAL" />
+      <updated>1516519931603</updated>
+    </task>
+    <option name="localTasksCounter" value="1278" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1122051000" />
+    <option name="totallyTimeSpent" value="1122278000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1722,7 +1735,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HTMlPurifier added" />
     <MESSAGE value="load library added" />
     <MESSAGE value="HTML_PURIFIER on convertforread" />
     <MESSAGE value="lib setting updated" />
@@ -1747,7 +1759,8 @@
     <MESSAGE value="main layout" />
     <MESSAGE value="a tag allowed" />
     <MESSAGE value="href allowed" />
-    <option name="LAST_COMMIT_MESSAGE" value="href allowed" />
+    <MESSAGE value="a.href allowed" />
+    <option name="LAST_COMMIT_MESSAGE" value="a.href allowed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1939,13 +1952,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1260">
@@ -2100,10 +2106,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="81" lean-forward="false" selection-start-line="17" selection-start-column="81" selection-end-line="17" selection-end-column="81" />
+        <state relative-caret-position="165">
+          <caret line="16" column="51" lean-forward="false" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -2113,10 +2127,10 @@
         <state relative-caret-position="60">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1516519919358" expanded="true" signature="6356:6410" ph="..." />
-            <marker date="1516519919358" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-            <marker date="1516519919358" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-            <marker date="1516519919358" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+            <marker date="1516520146629" expanded="true" signature="6356:6410" ph="..." />
+            <marker date="1516520146629" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+            <marker date="1516520146629" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+            <marker date="1516520146629" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
