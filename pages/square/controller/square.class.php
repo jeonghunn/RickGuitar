@@ -34,7 +34,7 @@ class SquareClass
         $contents = str_replace('\"', '"', $contents);
         $contents = str_replace('\'', "''", $contents);
 
-        // $contents = $HTML_PURIFIER->purify($contents);
+        $contents = $HTML_PURIFIER->purify($contents);
         return $contents;
     }
 
