@@ -15,7 +15,7 @@ require_once 'pages/lib/HTMLPurifier/HTMLPurifier.auto.php';
 $HTML_PURIFIER_CONFIG = HTMLPurifier_Config::createDefault();
 $HTML_PURIFIER_CONFIG->set('URI.AllowedSchemes', array('data' => true));
 //$HTML_PURIFIER_CONFIG->set('HTML.Allowed', 'a[href],u,p,b,i,span[style],p,strong,em,li,ul,ol,div[align],br,img');
-$HTML_PURIFIER_CONFIG->set('HTML.AllowedAttributes', 'href, src, height, width, alt');
+//$HTML_PURIFIER_CONFIG->set('HTML.AllowedAttributes', 'href, src, height, width, alt');
 
 //load apis
 $HTML_PURIFIER = new HTMLPurifier($HTML_PURIFIER_CONFIG);

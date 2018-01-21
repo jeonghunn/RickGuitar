@@ -63,8 +63,8 @@
       <file leaf-file-name="lib.loader.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state relative-caret-position="255">
+              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
               <folding>
                 <element signature="e#6#69#0#PHP" expanded="true" />
               </folding>
@@ -1265,14 +1265,7 @@
       <workItem from="1516466477346" duration="33000" />
       <workItem from="1516466702561" duration="4945000" />
       <workItem from="1516519368610" duration="36000" />
-      <workItem from="1516519449557" duration="1658000" />
-    </task>
-    <task id="LOCAL-01233" summary="info test">
-      <created>1515957406462</created>
-      <option name="number" value="01233" />
-      <option name="presentableId" value="LOCAL-01233" />
-      <option name="project" value="LOCAL" />
-      <updated>1515957406462</updated>
+      <workItem from="1516519449557" duration="1692000" />
     </task>
     <task id="LOCAL-01234" summary="info test">
       <created>1515957550187</created>
@@ -1610,11 +1603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516520823505</updated>
     </task>
-    <option name="localTasksCounter" value="1282" />
+    <task id="LOCAL-01282" summary="test">
+      <created>1516521153959</created>
+      <option name="number" value="01282" />
+      <option name="presentableId" value="LOCAL-01282" />
+      <option name="project" value="LOCAL" />
+      <updated>1516521153959</updated>
+    </task>
+    <option name="localTasksCounter" value="1283" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1123249000" />
+    <option name="totallyTimeSpent" value="1123283000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1746,9 +1746,9 @@
     <MESSAGE value="main layout" />
     <MESSAGE value="a tag allowed" />
     <MESSAGE value="a.href allowed" />
-    <MESSAGE value="test" />
     <MESSAGE value="href allowed" />
-    <option name="LAST_COMMIT_MESSAGE" value="href allowed" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2117,8 +2117,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="2" lean-forward="false" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+        <state relative-caret-position="255">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
           <folding>
             <element signature="e#6#69#0#PHP" expanded="true" />
           </folding>
