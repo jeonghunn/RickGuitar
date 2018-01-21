@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change beforePath="$PROJECT_DIR$/pages/lib/lib.loader.php" afterPath="$PROJECT_DIR$/pages/lib/lib.loader.php" />
-      <change beforePath="$PROJECT_DIR$/pages/square/controller/square.class.php" afterPath="$PROJECT_DIR$/pages/square/controller/square.class.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -62,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lib.loader.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lib.loader.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
+              <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
               <folding>
                 <element signature="e#6#69#0#PHP" expanded="true" />
               </folding>
@@ -250,8 +248,8 @@
         <option value="$PROJECT_DIR$/pages/css/main.css" />
         <option value="$PROJECT_DIR$/pages/square/view/square_main.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
-        <option value="$PROJECT_DIR$/pages/lib/lib.loader.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/lib/lib.loader.php" />
       </list>
     </option>
   </component>
@@ -1267,14 +1265,7 @@
       <workItem from="1516466477346" duration="33000" />
       <workItem from="1516466702561" duration="4945000" />
       <workItem from="1516519368610" duration="36000" />
-      <workItem from="1516519449557" duration="1085000" />
-    </task>
-    <task id="LOCAL-01231" summary="footer test">
-      <created>1515956859112</created>
-      <option name="number" value="01231" />
-      <option name="presentableId" value="LOCAL-01231" />
-      <option name="project" value="LOCAL" />
-      <updated>1515956859112</updated>
+      <workItem from="1516519449557" duration="1342000" />
     </task>
     <task id="LOCAL-01232" summary="info test">
       <created>1515957334027</created>
@@ -1612,11 +1603,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516520519520</updated>
     </task>
-    <option name="localTasksCounter" value="1280" />
+    <task id="LOCAL-01280" summary="href allowed">
+      <created>1516520570852</created>
+      <option name="number" value="01280" />
+      <option name="presentableId" value="LOCAL-01280" />
+      <option name="project" value="LOCAL" />
+      <updated>1516520570852</updated>
+    </task>
+    <option name="localTasksCounter" value="1281" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1122676000" />
+    <option name="totallyTimeSpent" value="1122933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1747,10 +1745,10 @@
     <MESSAGE value="square big updated" />
     <MESSAGE value="main layout" />
     <MESSAGE value="a tag allowed" />
-    <MESSAGE value="href allowed" />
     <MESSAGE value="a.href allowed" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="href allowed" />
+    <option name="LAST_COMMIT_MESSAGE" value="href allowed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2104,16 +2102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="91" lean-forward="false" selection-start-line="17" selection-start-column="91" selection-end-line="17" selection-end-column="91" />
-          <folding>
-            <element signature="e#6#69#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -2123,6 +2111,16 @@
             <marker date="1516520559714" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
             <marker date="1516520559714" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
             <marker date="1516520559714" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+          <folding>
+            <element signature="e#6#69#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
