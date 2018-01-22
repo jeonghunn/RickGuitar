@@ -204,7 +204,7 @@
       <style>
           body {
               margin: 0;
-              font-family: 'Roboto', 'Noto', sans-serif;
+              font-family: 'NanumSquare', 'Roboto', 'Noto', sans-serif;
               line-height: 1.5;
               min-height: 100vh;
               /*background-color: #eeeeee;*/
