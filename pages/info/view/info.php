@@ -92,7 +92,6 @@
 
 
         </div>
-        <br>
         <div class="col-sm-6 col-md-6">
 
             <div class="thumbnail">
