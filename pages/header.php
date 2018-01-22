@@ -208,12 +208,6 @@
               background-image: linear-gradient(0deg, #000000, #f8f9fa);
           }
 
-          .navbar {
-
-              background-color: rgba(256, 256, 256, 0.0);
-              border: none;
-          }
-
 
 
 
