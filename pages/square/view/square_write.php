@@ -60,10 +60,10 @@
             <br>
             <div id="squarecard"></div>
             <br><br>
-            <button type="button" class="btn btn-default btn-lg" onclick="addCard()">
+        <button type="button" class="btn btn-outline-secondary btn-lg" onclick="addCard()">
                 카드 추가하기
             </button>
-            <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
+        <button type="button" class="btn btn-dark btn-lg" onclick="writeAct()">
                 작성 완료
             </button>
 
