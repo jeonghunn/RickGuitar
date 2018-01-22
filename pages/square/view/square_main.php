@@ -34,9 +34,9 @@
 
         </div>
 
-        <br>
-    </div>
 
+    </div>
+    <br>
     <div id="group">
     <h1>새로운 업데이트</h1>
         <br>
@@ -71,10 +71,8 @@
         </div>
 
 
-        <br>
-
     </div>
-
+        <br>
 
         <div id="group">
             <h1>새로운 업데이트</h1>
