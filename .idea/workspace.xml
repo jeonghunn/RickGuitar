@@ -4,7 +4,6 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
-      <change beforePath="$PROJECT_DIR$/pages/navbar.php" afterPath="$PROJECT_DIR$/pages/navbar.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,7 +78,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navbar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="navbar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -101,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="210" column="0" lean-forward="false" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+            <state relative-caret-position="336">
+              <caret line="207" column="70" lean-forward="false" selection-start-line="207" selection-start-column="64" selection-end-line="207" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -247,8 +246,8 @@
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
-        <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/navbar.php" />
+        <option value="$PROJECT_DIR$/pages/header.php" />
       </list>
     </option>
   </component>
@@ -1276,14 +1275,7 @@
       <workItem from="1516529776819" duration="150000" />
       <workItem from="1516591565528" duration="689000" />
       <workItem from="1516616262831" duration="36000" />
-      <workItem from="1516643688590" duration="2959000" />
-    </task>
-    <task id="LOCAL-01260" summary="autofocus updated">
-      <created>1516468413063</created>
-      <option name="number" value="01260" />
-      <option name="presentableId" value="LOCAL-01260" />
-      <option name="project" value="LOCAL" />
-      <updated>1516468413063</updated>
+      <workItem from="1516643688590" duration="2987000" />
     </task>
     <task id="LOCAL-01261" summary="main focus updated">
       <created>1516468898389</created>
@@ -1621,11 +1613,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516646914460</updated>
     </task>
-    <option name="localTasksCounter" value="1309" />
+    <task id="LOCAL-01309" summary="navbar updated">
+      <created>1516646958492</created>
+      <option name="number" value="01309" />
+      <option name="presentableId" value="LOCAL-01309" />
+      <option name="project" value="LOCAL" />
+      <updated>1516646958492</updated>
+    </task>
+    <option name="localTasksCounter" value="1310" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1127801000" />
+    <option name="totallyTimeSpent" value="1127829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2117,18 +2116,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="210" column="0" lean-forward="false" selection-start-line="210" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="207" column="70" lean-forward="false" selection-start-line="207" selection-start-column="64" selection-end-line="207" selection-end-column="70" />
           <folding />
         </state>
       </provider>

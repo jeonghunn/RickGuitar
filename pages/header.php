@@ -205,7 +205,7 @@
               line-height: 1.5;
               min-height: 100vh;
               /*background-color: #eeeeee;*/
-              background-image: linear-gradient(0deg, #000000, #f8f9fa);
+              background-image: linear-gradient(0deg, #FFFFFF, #f8f9fa);
           }
 
 
