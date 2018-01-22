@@ -60,13 +60,13 @@
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
         <div class="btn-group" role="group">
-            <a href="http://tarks.net/fsquare" class="btn btn-default" role="button">Square Forum</a>
+            <a href="http://tarks.net/fsquare" class="btn btn-dark" role="button">Square Forum</a>
         </div>
         <div class="btn-group" role="group">
-            <a href="http://tarks.net/develop/square" class="btn btn-default" role="button">Square Development</a>
+            <a href="http://tarks.net/develop/square" class="btn btn-dark" role="button">Square Development</a>
         </div>
         <div class="btn-group" role="group">
-            <a href="http://tarks.net/" class="btn btn-default" role="button">Tarks.net</a>
+            <a href="http://tarks.net/" class="btn btn-dark" role="button">Tarks.net</a>
         </div>
     </div>
 
