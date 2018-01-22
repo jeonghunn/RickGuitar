@@ -13,7 +13,7 @@ require_once 'pages/header.php'; ?>
         <br>
         <div class="squarecard">
             <br>
-            <h4>축하해줄 사람의 이름, 생일 그리고 할 말을 작성해주세요.</h4>
+            <p>축하해줄 사람의 이름, 생일 그리고 할 말을 작성해주세요.</p>
             <hr>
 
             <div class="input-group input-group-lg">
@@ -47,7 +47,7 @@ require_once 'pages/header.php'; ?>
 
             <textarea class="form-control" rows="3" placeholder="할 말" id="contents" style="width:70%"></textarea>
             <br><br><br><br>
-            <button type="button" class="btn btn-default btn-lg" onclick="writeAct()">
+            <button type="button" class="btn btn-dark btn-lg" onclick="writeAct()">
                 생일 페이지 만들기
             </button>
             <br><br><br>
