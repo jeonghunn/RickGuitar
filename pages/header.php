@@ -59,6 +59,9 @@
 
       <script type="text/javascript" src="pages/js/jquery.js"></script>
 
+      <!--     font -->
+      <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+
 
       <!--     Medium Editor -->
       <link rel="stylesheet" href="pages/css/medium-editor.css">
