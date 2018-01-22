@@ -15,6 +15,6 @@
 
         </ul>
 
-        <?php if (isDevelopmentServer()) echo "<li><a href=\"info\">Development Server</a></li>" ?>
+        <?php if (isDevelopmentServer()) echo "<li class=\"nav-item\"><a  class=\"nav-link\" href=\"info\">Development Server</a></li>" ?>
     </div>
 </nav>
