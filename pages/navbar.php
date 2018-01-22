@@ -1,6 +1,6 @@
 <div id="blurryscroll" aria-hidden="true"></div>
 <!-- Static navbar -->
-<nav class="navbar navbar-light bg-light justify-content-between">
+<nav class="navbar sticky-top navbar-light bg-light">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
