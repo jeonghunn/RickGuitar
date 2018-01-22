@@ -79,10 +79,10 @@
                 <!--       <img src="..." alt="..."> -->
                 <div class="caption">
                     <h3>Information</h3>
-                    <a href="http://tarks.net/fsquare_changelog" class="btn btn-default" role="button">Changelog</a>
-                    <a href="http://tarks.net/fsquare_notice" class="btn btn-default" role="button">Notice</a>
-                    <a href="http://tarks.net/fsquare_feedback" class="btn btn-default" role="button">FeedBack</a>
-                    <a href="license" class="btn btn-default" role="button">Open Source License</a>
+                    <a href="http://tarks.net/fsquare_changelog" class="btn btn-dark" role="button">Changelog</a>
+                    <a href="http://tarks.net/fsquare_notice" class="btn btn-dark" role="button">Notice</a>
+                    <a href="http://tarks.net/fsquare_feedback" class="btn btn-dark" role="button">FeedBack</a>
+                    <a href="license" class="btn btn-dark" role="button">Open Source License</a>
 
 
                 </div>
@@ -100,8 +100,8 @@
                     <h3>Developer</h3>
 
                     <p>Junghoon Lee(JHRunning)</p>
-                    <a href="http://jhrun.tistory.com" class="btn btn-default" role="button">Blog</a>
-                    <a href="http://facebook.com/jhrunning" class="btn btn-default" role="button">Facebook</a>
+                    <a href="http://jhrun.tistory.com" class="btn btn-dark" role="button">Blog</a>
+                    <a href="http://facebook.com/jhrunning" class="btn btn-dark" role="button">Facebook</a>
                 </div>
             </div>
 

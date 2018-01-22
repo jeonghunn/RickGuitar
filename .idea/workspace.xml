@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change beforePath="$PROJECT_DIR$/pages/info/view/info.php" afterPath="$PROJECT_DIR$/pages/info/view/info.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -23,26 +24,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
+            <state relative-caret-position="60">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1516650434000" expanded="true" signature="6355:6409" ph="..." />
-                <marker date="1516650434000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-                <marker date="1516650434000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-                <marker date="1516650434000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+                <marker date="1516650881000" expanded="true" signature="6355:6409" ph="..." />
+                <marker date="1516650881000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+                <marker date="1516650881000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+                <marker date="1516650881000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="info.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
+            <state relative-caret-position="372">
+              <caret line="103" column="79" lean-forward="false" selection-start-line="103" selection-start-column="79" selection-end-line="103" selection-end-column="79" />
               <folding />
             </state>
           </provider>
@@ -246,8 +247,8 @@
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/birthday/view/birthday_write.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/info/view/info.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
   </component>
@@ -272,8 +273,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="2146" />
-    <option name="y" value="155" />
+    <option name="x" value="2029" />
+    <option name="y" value="174" />
     <option name="width" value="1440" />
     <option name="height" value="827" />
   </component>
@@ -1308,14 +1309,7 @@
       <workItem from="1516529776819" duration="150000" />
       <workItem from="1516591565528" duration="689000" />
       <workItem from="1516616262831" duration="36000" />
-      <workItem from="1516643688590" duration="6353000" />
-    </task>
-    <task id="LOCAL-01269" summary="main layout">
-      <created>1516470948833</created>
-      <option name="number" value="01269" />
-      <option name="presentableId" value="LOCAL-01269" />
-      <option name="project" value="LOCAL" />
-      <updated>1516470948833</updated>
+      <workItem from="1516643688590" duration="6480000" />
     </task>
     <task id="LOCAL-01270" summary="main layout">
       <created>1516472139531</created>
@@ -1653,11 +1647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516650454275</updated>
     </task>
-    <option name="localTasksCounter" value="1318" />
+    <task id="LOCAL-01318" summary="info page updated">
+      <created>1516650772227</created>
+      <option name="number" value="01318" />
+      <option name="presentableId" value="LOCAL-01318" />
+      <option name="project" value="LOCAL" />
+      <updated>1516650772227</updated>
+    </task>
+    <option name="localTasksCounter" value="1319" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1131195000" />
+    <option name="totallyTimeSpent" value="1131322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1669,7 +1670,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2146" y="155" width="1440" height="827" extended-state="0" />
+    <frame x="2029" y="174" width="1440" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1766,7 +1767,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main page added" />
     <MESSAGE value="card test" />
     <MESSAGE value="cardw style" />
     <MESSAGE value="container align" />
@@ -1791,7 +1791,8 @@
     <MESSAGE value="font updated" />
     <MESSAGE value="wrtie button updated" />
     <MESSAGE value="birthday page design updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="birthday page design updated" />
+    <MESSAGE value="info page updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="info page updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2164,24 +2165,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
+    <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <marker date="1516650434000" expanded="true" signature="6355:6409" ph="..." />
-            <marker date="1516650434000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-            <marker date="1516650434000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-            <marker date="1516650434000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
-          </folding>
+        <state relative-caret-position="372">
+          <caret line="103" column="79" lean-forward="false" selection-start-line="103" selection-start-column="79" selection-end-line="103" selection-end-column="79" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
+    <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="68" column="59" lean-forward="false" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <marker date="1516650881000" expanded="true" signature="6355:6409" ph="..." />
+            <marker date="1516650881000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+            <marker date="1516650881000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+            <marker date="1516650881000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+          </folding>
         </state>
       </provider>
     </entry>
