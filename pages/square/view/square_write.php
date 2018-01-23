@@ -64,9 +64,9 @@
                 카드 추가하기
             </button>
         <div class="dropdown">
-            <button class="btn btn-outline-secondary btn-lg" dropdown-toggle
-            " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
+            <button class="btn btn-outline-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown button
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Action</a>
