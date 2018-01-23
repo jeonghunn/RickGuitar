@@ -8,7 +8,7 @@
     <center>
             <div class="outer">
                 <div class="tablerow">
-                    <div class="squarecard animated infinite bounce" id="contents_1" contentEditable="true"></div>
+                    <div class="squarecard animated fadeInUp" id="contents_1" contentEditable="true"></div>
                 </div>
             </div>
 
@@ -99,7 +99,7 @@
     function addCard() {
 
         cardcount = cardcount + 1;
-        var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard" id="contents_' + cardcount + '" contentEditable="true"></div></div><div><br>';
+        var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" contentEditable="true"></div></div><div><br>';
         $(cardadd).insertBefore('#squarecard');
         editor = new MediumEditor('.squarecard');
 
