@@ -111,6 +111,7 @@ LoadPages("", "square/view/square_main", false);
 LoadPages("home", "square/view/square_main", false);
 LoadPages("error", "error", false);
 LoadPages("info", "info/view/info", false);
+LoadPages("license", "info/view/license", false);
 LoadPages("infodetail", "infodetail", false);
 LoadPages("signup", "signup", false);
 LoadPages("write", "square/view/square_write", false);
