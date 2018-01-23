@@ -60,7 +60,7 @@
       <script type="text/javascript" src="pages/js/jquery.js"></script>
 
       <!--     font -->
-      <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
+      <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
       <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 
@@ -76,6 +76,7 @@
     <![endif]-->
 
       <style>
+
 
 
          body {
@@ -205,7 +206,7 @@
       <style>
           body {
               margin: 0;
-              font-family: 'Roboto', 'Nanum Square', 'Noto', sans-serif;
+              font-family: 'Roboto', 'NanumSquare', 'Noto', sans-serif;
               -webkit-font-smoothing: antialiased;
               line-height: 1.5;
               min-height: 100vh;
