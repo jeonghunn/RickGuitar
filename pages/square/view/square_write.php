@@ -101,8 +101,9 @@
         cardcount = cardcount + 1;
         var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard" id="contents_' + cardcount + '" contentEditable="true"></div></div><div><br>';
         $(cardadd).insertBefore('#squarecard');
-
+        $('#squarecard').addClass('animated bounceOutLeft');
         editor = new MediumEditor('.squarecard');
+
     }
 
 
