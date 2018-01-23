@@ -111,7 +111,7 @@
          .squarecard {
              /* Add shadows to create the "card" effect */
              box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-             font-family: 'Roboto', 'Noto', sans-serif, 'Nanum Square';
+             font-family: 'Roboto', 'Noto', sans-serif;
              background-color: #FFFFFF;
              transition: 0.3s;
              /*   border-radius: 16px; 5px rounded corners */
