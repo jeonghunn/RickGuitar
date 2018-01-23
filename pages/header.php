@@ -58,6 +58,7 @@
 
 
       <script type="text/javascript" src="pages/js/jquery.js"></script>
+      <script src="pages/js/popper.min.js"></script>
 
       <!--     font -->
       <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">

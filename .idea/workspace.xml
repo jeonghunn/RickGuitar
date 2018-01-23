@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/js/popper.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pages/footer.php" afterPath="$PROJECT_DIR$/pages/footer.php" />
+      <change beforePath="$PROJECT_DIR$/pages/header.php" afterPath="$PROJECT_DIR$/pages/header.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,16 +49,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1650">
-              <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="license.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/info/view/license.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -114,6 +104,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
               <caret line="40" column="11" lean-forward="false" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -240,13 +240,13 @@
         <option value="$PROJECT_DIR$/pages/navbar.php" />
         <option value="$PROJECT_DIR$/pages/birthday/view/birthday_write.php" />
         <option value="$PROJECT_DIR$/pages/info/view/info.php" />
-        <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/info/view/license.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
+        <option value="$PROJECT_DIR$/pages/header.php" />
       </list>
     </option>
   </component>
@@ -1315,14 +1315,7 @@
       <workItem from="1516616262831" duration="36000" />
       <workItem from="1516643688590" duration="6812000" />
       <workItem from="1516688363812" duration="5086000" />
-      <workItem from="1516729834683" duration="1951000" />
-    </task>
-    <task id="LOCAL-01299" summary="navbar test">
-      <created>1516645596569</created>
-      <option name="number" value="01299" />
-      <option name="presentableId" value="LOCAL-01299" />
-      <option name="project" value="LOCAL" />
-      <updated>1516645596569</updated>
+      <workItem from="1516729834683" duration="2021000" />
     </task>
     <task id="LOCAL-01300" summary="navbar test">
       <created>1516645627234</created>
@@ -1660,11 +1653,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516731684846</updated>
     </task>
-    <option name="localTasksCounter" value="1348" />
+    <task id="LOCAL-01348" summary="popper.min.js added">
+      <created>1516731994614</created>
+      <option name="number" value="01348" />
+      <option name="presentableId" value="LOCAL-01348" />
+      <option name="project" value="LOCAL" />
+      <updated>1516731994614</updated>
+    </task>
+    <option name="localTasksCounter" value="1349" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1138691000" />
+    <option name="totallyTimeSpent" value="1138761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1773,7 +1773,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="square big updated" />
     <MESSAGE value="main layout" />
     <MESSAGE value="a tag allowed" />
     <MESSAGE value="a.href allowed" />
@@ -1798,7 +1797,8 @@
     <MESSAGE value="1st card animation deleted" />
     <MESSAGE value="square view updated" />
     <MESSAGE value="dropdown added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dropdown added" />
+    <MESSAGE value="popper.min.js added" />
+    <option name="LAST_COMMIT_MESSAGE" value="popper.min.js added" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2093,14 +2093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="92" lean-forward="false" selection-start-line="74" selection-start-column="92" selection-end-line="74" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
@@ -2170,6 +2162,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
@@ -2178,10 +2178,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/footer.php">
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="466">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
