@@ -205,6 +205,7 @@
           body {
               margin: 0;
               font-family: 'NanumSquare', 'Roboto', 'Noto', sans-serif;
+              -webkit-font-smoothing: antialiased;
               line-height: 1.5;
               min-height: 100vh;
               /*background-color: #eeeeee;*/
