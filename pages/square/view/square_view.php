@@ -55,11 +55,11 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
     <button type="button" class="btn btn-outline-dark btn-lg" onclick="copyToClipboard(window.location.href)">
         이 페이지 주소 복사
     </button>
-    <button type="button" class="btn btn-outline-dark btn-lg"
+    <button type="button" class="btn btn-outline-primary btn-lg"
             onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebook-share-dialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
         페이스북으로 공유
     </button>
-    <button type="button" class="btn btn-outline-dark btn-lg" id="kakao-link-btn" onclick="sendLink()">
+    <button type="button" class="btn btn-outline-warning btn-lg" id="kakao-link-btn" onclick="sendLink()">
         카카오톡으로 공유
     </button>
 
