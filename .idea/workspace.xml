@@ -30,10 +30,10 @@
             <state relative-caret-position="60">
               <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <marker date="1516699450000" expanded="true" signature="6356:6410" ph="..." />
-                <marker date="1516699450000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-                <marker date="1516699450000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-                <marker date="1516699450000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+                <marker date="1516699758000" expanded="true" signature="6356:6410" ph="..." />
+                <marker date="1516699758000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+                <marker date="1516699758000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+                <marker date="1516699758000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -52,8 +52,8 @@
       <file leaf-file-name="license.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/info/view/license.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="57" column="90" lean-forward="false" selection-start-line="57" selection-start-column="90" selection-end-line="57" selection-end-column="90" />
+            <state relative-caret-position="615">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -74,8 +74,8 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="101" column="106" lean-forward="false" selection-start-line="101" selection-start-column="106" selection-end-line="101" selection-end-column="106" />
+            <state relative-caret-position="150">
+              <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -1316,14 +1316,7 @@
       <workItem from="1516591565528" duration="689000" />
       <workItem from="1516616262831" duration="36000" />
       <workItem from="1516643688590" duration="6812000" />
-      <workItem from="1516688363812" duration="4747000" />
-    </task>
-    <task id="LOCAL-01291" summary="test">
-      <created>1516521577354</created>
-      <option name="number" value="01291" />
-      <option name="presentableId" value="LOCAL-01291" />
-      <option name="project" value="LOCAL" />
-      <updated>1516521577354</updated>
+      <workItem from="1516688363812" duration="5081000" />
     </task>
     <task id="LOCAL-01292" summary="test">
       <created>1516521729126</created>
@@ -1661,11 +1654,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516699372494</updated>
     </task>
-    <option name="localTasksCounter" value="1340" />
+    <task id="LOCAL-01340" summary="animated card">
+      <created>1516699461884</created>
+      <option name="number" value="01340" />
+      <option name="presentableId" value="LOCAL-01340" />
+      <option name="project" value="LOCAL" />
+      <updated>1516699461884</updated>
+    </task>
+    <option name="localTasksCounter" value="1341" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1136401000" />
+    <option name="totallyTimeSpent" value="1136735000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1774,7 +1774,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="autofocus updated" />
     <MESSAGE value="main focus updated" />
     <MESSAGE value="mainbig" />
     <MESSAGE value="square big updated" />
@@ -1799,7 +1798,8 @@
     <MESSAGE value="animation updated" />
     <MESSAGE value="license page added" />
     <MESSAGE value="animated card" />
-    <option name="LAST_COMMIT_MESSAGE" value="animated card" />
+    <MESSAGE value="1st card animation deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st card animation deleted" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2163,8 +2163,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/info/view/license.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="57" column="90" lean-forward="false" selection-start-line="57" selection-start-column="90" selection-end-line="57" selection-end-column="90" />
+        <state relative-caret-position="615">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -2173,8 +2173,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="101" column="106" lean-forward="false" selection-start-line="101" selection-start-column="106" selection-end-line="101" selection-end-column="106" />
+        <state relative-caret-position="150">
+          <caret line="10" column="42" lean-forward="false" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -2184,10 +2184,10 @@
         <state relative-caret-position="60">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1516699450000" expanded="true" signature="6356:6410" ph="..." />
-            <marker date="1516699450000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-            <marker date="1516699450000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-            <marker date="1516699450000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+            <marker date="1516699758000" expanded="true" signature="6356:6410" ph="..." />
+            <marker date="1516699758000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+            <marker date="1516699758000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+            <marker date="1516699758000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
