@@ -60,11 +60,11 @@
             <br>
             <div id="squarecard"></div>
             <br><br>
-        <button type="button" class="btn btn-outline-secondary btn-lg" onclick="addCard()">
+        <button type="button" class="btn btn-outline-dark btn-lg" onclick="addCard()">
                 카드 추가하기
             </button>
         <div class="dropdown">
-            <button class="btn btn-outline-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton"
+            <button class="btn btn-outline-dark btn-lg dropdown-toggle" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown button
             </button>
