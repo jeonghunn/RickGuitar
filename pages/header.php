@@ -60,7 +60,7 @@
       <script type="text/javascript" src="pages/js/jquery.js"></script>
 
       <!--     font -->
-      <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+      <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
 
 
       <!--     Medium Editor -->
@@ -204,7 +204,7 @@
       <style>
           body {
               margin: 0;
-              font-family: 'NanumSquare', 'Roboto', 'Noto', sans-serif;
+              font-family: 'Nanum Square', 'Roboto', 'Noto', sans-serif;
               -webkit-font-smoothing: antialiased;
               line-height: 1.5;
               min-height: 100vh;
