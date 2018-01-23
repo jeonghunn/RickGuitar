@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="animation updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
     </list>
@@ -61,8 +61,8 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="104" column="47" lean-forward="false" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -1313,14 +1313,7 @@
       <workItem from="1516591565528" duration="689000" />
       <workItem from="1516616262831" duration="36000" />
       <workItem from="1516643688590" duration="6812000" />
-      <workItem from="1516688363812" duration="3710000" />
-    </task>
-    <task id="LOCAL-01285" summary="test">
-      <created>1516521382114</created>
-      <option name="number" value="01285" />
-      <option name="presentableId" value="LOCAL-01285" />
-      <option name="project" value="LOCAL" />
-      <updated>1516521382114</updated>
+      <workItem from="1516688363812" duration="3977000" />
     </task>
     <task id="LOCAL-01286" summary="test">
       <created>1516521458768</created>
@@ -1658,11 +1651,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516698339464</updated>
     </task>
-    <option name="localTasksCounter" value="1334" />
+    <task id="LOCAL-01334" summary="animation updated">
+      <created>1516698435276</created>
+      <option name="number" value="01334" />
+      <option name="presentableId" value="LOCAL-01334" />
+      <option name="project" value="LOCAL" />
+      <updated>1516698435276</updated>
+    </task>
+    <option name="localTasksCounter" value="1335" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1135364000" />
+    <option name="totallyTimeSpent" value="1135631000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1771,7 +1771,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="container align" />
     <MESSAGE value="write card added" />
     <MESSAGE value="write autofocus" />
     <MESSAGE value="autofocus updated" />
@@ -1796,7 +1795,8 @@
     <MESSAGE value="font style updated" />
     <MESSAGE value="animation css added" />
     <MESSAGE value="bootstrap updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap updated" />
+    <MESSAGE value="animation updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="animation updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2180,8 +2180,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="103" column="22" lean-forward="false" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="104" column="47" lean-forward="false" selection-start-line="104" selection-start-column="47" selection-end-line="104" selection-end-column="47" />
           <folding />
         </state>
       </provider>
