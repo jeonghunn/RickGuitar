@@ -22,14 +22,14 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
         <p>주소를 복사해 친구들과 공유할 수 있습니다.</p>
 
         <br>
-        <button type="button" class="btn btn-default btn-lg" onclick="copyToClipboard(window.location.href)">
+        <button type="button" class="btn btn-outline-dark btn-lg" onclick="copyToClipboard(window.location.href)">
             이 페이지 주소 복사
         </button>
-        <button type="button" class="btn btn-default btn-lg"
+        <button type="button" class="btn btn-outline-dark btn-lg"
                 onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebook-share-dialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
             페이스북으로 공유
         </button>
-        <button type="button" class="btn btn-default btn-lg" id="kakao-link-btn" onclick="sendLink()">
+        <button type="button" class="btn btn-outline-dark btn-lg" id="kakao-link-btn" onclick="sendLink()">
             카카오톡으로 공유
         </button>
     <?php } ?>
