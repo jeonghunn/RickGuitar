@@ -53,5 +53,8 @@
         Open Source License</h1>
     <br>
 
+    <h2>Animate.css</h2>
+    <p>https://github.com/daneden/animate.css</p>
+    <p>Animate.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)</p>
 
 </div>
