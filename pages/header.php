@@ -204,7 +204,7 @@
       <style>
           body {
               margin: 0;
-              font-family: 'Nanum Square', 'Roboto', 'Noto', sans-serif;
+              font-family: 'Roboto', 'Nanum Square', 'Noto', sans-serif;
               -webkit-font-smoothing: antialiased;
               text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
               line-height: 1.5;
