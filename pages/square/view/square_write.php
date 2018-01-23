@@ -63,7 +63,7 @@
         <button type="button" class="btn btn-outline-dark btn-lg" onclick="addCard()">
                 카드 추가하기
             </button>
-        <div class="dropdown">
+        <div class="dropdown" style="width:auto;">
             <button class="btn btn-outline-dark btn-lg dropdown-toggle" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown button
