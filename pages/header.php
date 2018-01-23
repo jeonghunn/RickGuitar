@@ -60,7 +60,7 @@
       <script type="text/javascript" src="pages/js/jquery.js"></script>
 
       <!--     font -->
-      <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+      <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
       <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 
@@ -111,6 +111,7 @@
          .squarecard {
              /* Add shadows to create the "card" effect */
              box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+             font-family: 'Roboto', 'Noto', sans-serif, 'Nanum Square';
              background-color: #FFFFFF;
              transition: 0.3s;
              /*   border-radius: 16px; 5px rounded corners */
@@ -206,7 +207,7 @@
       <style>
           body {
               margin: 0;
-              font-family: 'Roboto', 'NanumSquare', 'Noto', sans-serif;
+              font-family: 'Roboto', 'Nanum Square', 'Noto', sans-serif;
               -webkit-font-smoothing: antialiased;
               line-height: 1.5;
               min-height: 100vh;

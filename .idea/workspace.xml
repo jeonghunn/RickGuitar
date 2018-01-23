@@ -24,16 +24,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <marker date="1516695013000" expanded="true" signature="6353:6407" ph="..." />
-                <marker date="1516695013000" expanded="true" signature="6566:6698" ph="SELECT * FRO... favorite" />
-                <marker date="1516695013000" expanded="true" signature="6750:6882" ph="SELECT * FRO... favorite" />
-                <marker date="1516695013000" expanded="true" signature="6933:6984" ph="SELECT * FRO... pages" />
+                <marker date="1516696000000" expanded="true" signature="6356:6410" ph="..." />
+                <marker date="1516696000000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+                <marker date="1516696000000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+                <marker date="1516696000000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -109,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="208" column="43" lean-forward="false" selection-start-line="208" selection-start-column="43" selection-end-line="208" selection-end-column="43" />
+            <state relative-caret-position="357">
+              <caret line="120" column="33" lean-forward="true" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -143,7 +143,6 @@
       <find>getResult</find>
       <find>getReadResult</find>
       <find>radius</find>
-      <find>squarecard</find>
       <find>navbar</find>
       <find>textarea</find>
       <find>write</find>
@@ -170,6 +169,7 @@
       <find>background</find>
       <find>navb</find>
       <find>family</find>
+      <find>squarecard</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -245,8 +245,8 @@
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/birthday/view/birthday_write.php" />
         <option value="$PROJECT_DIR$/pages/info/view/info.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
   </component>
@@ -1308,14 +1308,7 @@
       <workItem from="1516591565528" duration="689000" />
       <workItem from="1516616262831" duration="36000" />
       <workItem from="1516643688590" duration="6812000" />
-      <workItem from="1516688363812" duration="1940000" />
-    </task>
-    <task id="LOCAL-01280" summary="href allowed">
-      <created>1516520570852</created>
-      <option name="number" value="01280" />
-      <option name="presentableId" value="LOCAL-01280" />
-      <option name="project" value="LOCAL" />
-      <updated>1516520570852</updated>
+      <workItem from="1516688363812" duration="2668000" />
     </task>
     <task id="LOCAL-01281" summary="href allowed">
       <created>1516520823505</created>
@@ -1653,11 +1646,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516691857790</updated>
     </task>
-    <option name="localTasksCounter" value="1329" />
+    <task id="LOCAL-01329" summary="font style updated">
+      <created>1516695027304</created>
+      <option name="number" value="01329" />
+      <option name="presentableId" value="LOCAL-01329" />
+      <option name="project" value="LOCAL" />
+      <updated>1516695027305</updated>
+    </task>
+    <option name="localTasksCounter" value="1330" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1133594000" />
+    <option name="totallyTimeSpent" value="1134322000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2157,24 +2157,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding>
-            <marker date="1516695013000" expanded="true" signature="6353:6407" ph="..." />
-            <marker date="1516695013000" expanded="true" signature="6566:6698" ph="SELECT * FRO... favorite" />
-            <marker date="1516695013000" expanded="true" signature="6750:6882" ph="SELECT * FRO... favorite" />
-            <marker date="1516695013000" expanded="true" signature="6933:6984" ph="SELECT * FRO... pages" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="120" column="33" lean-forward="true" selection-start-line="120" selection-start-column="33" selection-end-line="120" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
+    <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="208" column="43" lean-forward="false" selection-start-line="208" selection-start-column="43" selection-end-line="208" selection-end-column="43" />
-          <folding />
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <marker date="1516696000000" expanded="true" signature="6356:6410" ph="..." />
+            <marker date="1516696000000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+            <marker date="1516696000000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+            <marker date="1516696000000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+          </folding>
         </state>
       </provider>
     </entry>
