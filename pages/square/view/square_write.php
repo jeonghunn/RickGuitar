@@ -60,20 +60,23 @@
             <br>
             <div id="squarecard"></div>
             <br><br>
-        <button type="button" class="btn btn-outline-dark btn-lg" onclick="addCard()">
-                카드 추가하기
-            </button>
-        <div class="dropdown" style="width:auto;">
-            <button class="btn btn-outline-dark btn-lg dropdown-toggle" type="button" id="dropdownMenuButton"
+        <div class="dropdown">
+            <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown button
+                전체 공개
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">전체 공개</a>
+                <a class="dropdown-item" href="#">비공개(주소를 알아야 조회 가능)</a>
                 <a class="dropdown-item" href="#">Something else here</a>
             </div>
         </div>
+
+        <br>
+        <button type="button" class="btn btn-outline-dark btn-lg" onclick="addCard()">
+            카드 추가하기
+        </button>
+
         <button type="button" class="btn btn-dark btn-lg" onclick="writeAct()">
                 작성 완료
             </button>
