@@ -67,7 +67,7 @@
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">전체 공개</a>
-                <a class="dropdown-item" href="#">비공개(주소를 알아야 조회 가능)</a>
+                <a class="dropdown-item" href="#">비공개(주소를 알려줘야 조회 가능)</a>
             </div>
         </div>
 
