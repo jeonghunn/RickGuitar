@@ -73,11 +73,11 @@
 
         <br>
         <button type="button" class="btn btn-outline-dark btn-lg" onclick="addCard()">
-            카드 추가하기
+            <?php S('write_add_card') ?>
         </button>
 
         <button type="button" class="btn btn-dark btn-lg" onclick="writeAct()">
-                작성 완료
+            <?php S('write_post') ?>
             </button>
 
     </center>
