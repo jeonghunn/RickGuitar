@@ -33,7 +33,7 @@ $L['write_public'] = 'Public';
 $L['write_private'] = 'Private';
 $L['write_private_des'] = 'Private (Share only me or people you want)';
 $L['write_add_card'] = 'Add Card';
-$L['write_post'] = 'Post';
+$L['write_post'] = 'POST';
 
 //Login
 $L['email'] = 'Email';

@@ -62,12 +62,12 @@
             <br><br>
         <div class="dropdown">
             <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="write_status_button">
                 <?php S('write_public') ?>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#"><?php S('write_public') ?></a>
-                <a class="dropdown-item" href="#"><?php S('write_private_des') ?></a>
+                <a class="dropdown-item" onclick="setStatus('0')"><?php S('write_public') ?></a>
+                <a class="dropdown-item" onclick="setStatus('unregistered')"><?php S('write_private_des') ?></a>
             </div>
         </div>
 
@@ -107,7 +107,7 @@
     ;
 
     var cardcount = 1;
-
+    var status = '0';
 
     function addCard() {
 
@@ -155,6 +155,7 @@
                 "apiv": "<?php echo getAPIVersion()?>",
                 "api_key": "<?php echo getAPIKey()?>",
                 "auth": "<?php echo getUserAuth()?>",
+                "status": status,
                 "type": "square",
                 "square_cards": square_cards
             },
@@ -185,6 +186,12 @@
 
     }
 
+
+    function setStatus(s) {
+        status = s;
+        if (status == '0') document.getElementById("write_status_button").innerHTML = "<?php S('write_public') ?>";
+        if (status == 'unregistered') document.getElementById("write_status_button").innerHTML = "<?php S('write_private') ?>";
+    }
 
     function ConvertForWrite(content) {
         content = replaceAll(content, "<", "{[");
