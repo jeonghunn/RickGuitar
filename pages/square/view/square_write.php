@@ -189,8 +189,8 @@
 
     function setStatus(s) {
         status = s;
-        if (status == '0') document.getElementById("write_status_button").innerHTML = "<?php S('write_public') ?>";
-        if (status == 'unregistered') document.getElementById("write_status_button").innerHTML = "<?php S('write_private') ?>";
+        if (status == '0') document.getElementById("dropdownMenuButton").innerHTML = "<?php S('write_public') ?>";
+        if (status == 'unregistered') document.getElementById("dropdownMenuButton").innerHTML = "<?php S('write_private') ?>";
     }
 
     function ConvertForWrite(content) {

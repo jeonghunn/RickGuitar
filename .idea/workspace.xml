@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change beforePath="$PROJECT_DIR$/pages/lang/en.php" afterPath="$PROJECT_DIR$/pages/lang/en.php" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -25,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="-2364">
               <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding>
                 <marker date="1516817156000" expanded="true" signature="6352:6406" ph="..." />
@@ -70,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="192" column="120" lean-forward="false" selection-start-line="192" selection-start-column="120" selection-end-line="192" selection-end-column="120" />
+            <state relative-caret-position="269">
+              <caret line="192" column="81" lean-forward="false" selection-start-line="192" selection-start-column="81" selection-end-line="192" selection-end-column="81" />
               <folding />
             </state>
           </provider>
@@ -246,8 +244,8 @@
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/lang/ko.php" />
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
   </component>
@@ -1324,14 +1322,7 @@
       <workItem from="1516688363812" duration="5086000" />
       <workItem from="1516729834683" duration="2257000" />
       <workItem from="1516798354768" duration="155000" />
-      <workItem from="1516803589801" duration="4343000" />
-    </task>
-    <task id="LOCAL-01306" summary="background updated">
-      <created>1516646768194</created>
-      <option name="number" value="01306" />
-      <option name="presentableId" value="LOCAL-01306" />
-      <option name="project" value="LOCAL" />
-      <updated>1516646768194</updated>
+      <workItem from="1516803589801" duration="4555000" />
     </task>
     <task id="LOCAL-01307" summary="navbar updated">
       <created>1516646835500</created>
@@ -1669,11 +1660,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516815580009</updated>
     </task>
-    <option name="localTasksCounter" value="1355" />
+    <task id="LOCAL-01355" summary="square write updated - write status">
+      <created>1516817178222</created>
+      <option name="number" value="01355" />
+      <option name="presentableId" value="LOCAL-01355" />
+      <option name="project" value="LOCAL" />
+      <updated>1516817178223</updated>
+    </task>
+    <option name="localTasksCounter" value="1356" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1144058000" />
+    <option name="totallyTimeSpent" value="1144270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2171,17 +2169,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="192" column="120" lean-forward="false" selection-start-line="192" selection-start-column="120" selection-end-line="192" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="-2364">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
             <marker date="1516817156000" expanded="true" signature="6352:6406" ph="..." />
@@ -2189,6 +2179,14 @@
             <marker date="1516817156000" expanded="true" signature="6749:6881" ph="SELECT * FRO... favorite" />
             <marker date="1516817156000" expanded="true" signature="6932:6983" ph="SELECT * FRO... pages" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="192" column="81" lean-forward="false" selection-start-line="192" selection-start-column="81" selection-end-line="192" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
