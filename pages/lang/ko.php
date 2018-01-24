@@ -26,6 +26,12 @@ $L['acrostic'] = '삼행시';
 //info
 $L['show_all_contributors'] = '모든 기여자 목록 보기';
 
+//Write
+$L['write_public'] = '전체 공개';
+$L['write_private'] = '비공개';
+$L['write_private_des'] = '비공개(나만 보거나 원하는 사람한테만 공유)';
+$L['write_add_card'] = '카드 추가하기';
+$L['write_post'] = '작성 완료';
 
 //Login
 $L['email'] = '이메일';

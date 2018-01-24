@@ -63,11 +63,11 @@
         <div class="dropdown">
             <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                전체 공개
+                <?php S('write_public') ?>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">전체 공개</a>
-                <a class="dropdown-item" href="#">비공개(주소를 알려줘야 조회 가능)</a>
+                <a class="dropdown-item" href="#"><?php S('write_public') ?></a>
+                <a class="dropdown-item" href="#"><?php S('write_private_des') ?></a>
             </div>
         </div>
 

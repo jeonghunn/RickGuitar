@@ -27,6 +27,14 @@ $L['acrostic'] = 'Acrostic';
 //info
 $L['show_all_contributors'] = 'Show All Contributors';
 
+
+//Write
+$L['write_public'] = 'Public';
+$L['write_private'] = 'Private';
+$L['write_private_des'] = 'Private (Share only me or people you want)';
+$L['write_add_card'] = 'Add Card';
+$L['write_post'] = 'Post';
+
 //Login
 $L['email'] = 'Email';
 $L['keep_signed_in'] = 'Keep signed in';
