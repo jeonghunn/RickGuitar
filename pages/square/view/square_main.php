@@ -74,7 +74,7 @@
     </div>
         <br>
 
-        <div id="group" class="card-deck">
+        <div id="group">
             <h2>새로운 업데이트</h2>
             <br>
 
