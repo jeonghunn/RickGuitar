@@ -43,6 +43,10 @@
 </style>
 
 
+<!--style-->
+<link rel="stylesheet" href="pages/css/main.css">
+
+
 <!-- html -->
 
 <div class="container">
