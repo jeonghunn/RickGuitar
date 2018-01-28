@@ -103,8 +103,8 @@
       <file leaf-file-name="square_collection.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="620">
+              <caret line="144" column="8" lean-forward="false" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1331,14 +1331,7 @@
       <workItem from="1516729834683" duration="2257000" />
       <workItem from="1516798354768" duration="155000" />
       <workItem from="1516803589801" duration="5180000" />
-      <workItem from="1517147423796" duration="4404000" />
-    </task>
-    <task id="LOCAL-01329" summary="font style updated">
-      <created>1516695027304</created>
-      <option name="number" value="01329" />
-      <option name="presentableId" value="LOCAL-01329" />
-      <option name="project" value="LOCAL" />
-      <updated>1516695027305</updated>
+      <workItem from="1517147423796" duration="4512000" />
     </task>
     <task id="LOCAL-01330" summary="font style updated">
       <created>1516696011845</created>
@@ -1676,11 +1669,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517152119702</updated>
     </task>
-    <option name="localTasksCounter" value="1378" />
+    <task id="LOCAL-01378" summary="collection updated">
+      <created>1517152200475</created>
+      <option name="number" value="01378" />
+      <option name="presentableId" value="LOCAL-01378" />
+      <option name="project" value="LOCAL" />
+      <updated>1517152200475</updated>
+    </task>
+    <option name="localTasksCounter" value="1379" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1149299000" />
+    <option name="totallyTimeSpent" value="1149407000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1789,7 +1789,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="write updated" />
     <MESSAGE value="navbar test" />
     <MESSAGE value="background updated" />
     <MESSAGE value="navbar updated" />
@@ -1814,7 +1813,8 @@
     <MESSAGE value="square collection" />
     <MESSAGE value="design updated" />
     <MESSAGE value="main card test" />
-    <option name="LAST_COMMIT_MESSAGE" value="main card test" />
+    <MESSAGE value="collection updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="collection updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2204,8 +2204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="620">
+          <caret line="144" column="8" lean-forward="false" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
           <folding />
         </state>
       </provider>
