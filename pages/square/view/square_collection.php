@@ -47,8 +47,6 @@
 
 <div class="container">
 
-    <!--      <h1 style="font-size: 36px; center;">HaruCore</h1>-->
-    <br><br>
 
 
     <div class="my-3 p-3 bg-white rounded box-shadow">
