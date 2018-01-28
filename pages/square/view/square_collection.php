@@ -55,6 +55,9 @@
 
     <div class="my-3 p-3 bg-white rounded box-shadow">
         <h6 class="border-bottom border-gray pb-2 mb-0">Recent updates</h6>
+        <small class="d-block text-right mt-3">
+            <a href="#">All updates</a>
+        </small>
         <div class="media text-muted pt-3">
             <img data-src="holder.js/32x32?theme=thumb&amp;bg=007bff&amp;fg=007bff&amp;size=1" alt="32x32"
                  class="mr-2 rounded"
@@ -88,9 +91,7 @@
                 condimentum nibh, ut fermentum massa justo sit amet risus.
             </p>
         </div>
-        <small class="d-block text-right mt-3">
-            <a href="#">All updates</a>
-        </small>
+
     </div>
 
 </div>
