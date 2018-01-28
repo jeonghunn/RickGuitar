@@ -80,7 +80,7 @@
         <div class="card-deck">
 
 
-            <div class="squarecard_mainbig">
+            <div class="card">
                 <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
