@@ -114,6 +114,7 @@ LoadPages("info", "info/view/info", false);
 LoadPages("license", "info/view/license", false);
 LoadPages("infodetail", "infodetail", false);
 LoadPages("signup", "signup", false);
+LoadPages("new", "square/view/square_collection", false);
 LoadPages("write", "square/view/square_write", false);
 LoadPages("birthday", "birthday/view/birthday_write", false);
 //API
