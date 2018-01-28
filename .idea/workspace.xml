@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_collection.php" afterPath="$PROJECT_DIR$/pages/square/view/square_collection.php" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_main.php" afterPath="$PROJECT_DIR$/pages/square/view/square_main.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -84,8 +83,8 @@
       <file leaf-file-name="square_main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="85" column="106" lean-forward="false" selection-start-line="85" selection-start-column="106" selection-end-line="85" selection-end-column="106" />
+            <state relative-caret-position="242">
+              <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -1328,14 +1327,7 @@
       <workItem from="1516729834683" duration="2257000" />
       <workItem from="1516798354768" duration="155000" />
       <workItem from="1516803589801" duration="5180000" />
-      <workItem from="1517147423796" duration="1018000" />
-    </task>
-    <task id="LOCAL-01313" summary="nav brand font weight">
-      <created>1516647175532</created>
-      <option name="number" value="01313" />
-      <option name="presentableId" value="LOCAL-01313" />
-      <option name="project" value="LOCAL" />
-      <updated>1516647175532</updated>
+      <workItem from="1517147423796" duration="1072000" />
     </task>
     <task id="LOCAL-01314" summary="font updated">
       <created>1516649407747</created>
@@ -1673,11 +1665,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517148113947</updated>
     </task>
-    <option name="localTasksCounter" value="1362" />
+    <task id="LOCAL-01362" summary="main card test">
+      <created>1517148462513</created>
+      <option name="number" value="01362" />
+      <option name="presentableId" value="LOCAL-01362" />
+      <option name="project" value="LOCAL" />
+      <updated>1517148462514</updated>
+    </task>
+    <option name="localTasksCounter" value="1363" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1145913000" />
+    <option name="totallyTimeSpent" value="1145967000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1786,7 +1785,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="write updated" />
     <MESSAGE value="navbar test" />
     <MESSAGE value="background updated" />
@@ -1811,7 +1809,8 @@
     <MESSAGE value="square write updated - write status" />
     <MESSAGE value="square collection" />
     <MESSAGE value="design updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="design updated" />
+    <MESSAGE value="main card test" />
+    <option name="LAST_COMMIT_MESSAGE" value="main card test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2194,8 +2193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="85" column="106" lean-forward="false" selection-start-line="85" selection-start-column="106" selection-end-line="85" selection-end-column="106" />
+        <state relative-caret-position="242">
+          <caret line="83" column="31" lean-forward="false" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
           <folding />
         </state>
       </provider>

@@ -81,12 +81,10 @@
                 <div class="col-sm-6 col-md-3">
 
                     <div class="squarecard_mainbig">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <p class="card-text">
+                        Hi There!
+
                             <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
+
                     </div>
 
 
