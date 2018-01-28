@@ -74,40 +74,29 @@
     </div>
         <br>
 
+        <div id="group" class="card-deck">
+            <h2>새로운 업데이트</h2>
+            <br>
 
-        <h2>새로운 업데이트</h2>
-        <br>
-        <div class="card-deck">
+
+            <div class="squarecard_mainbig">
+                <p>Hi There!</p>
+
+                <small class="text-muted">Last updated 3 mins ago</small>
+
+            </div>
 
 
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.</p>
-                    <p class="card-text">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional
-                        content.</p>
-                    <p class="card-text">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This card has even longer content than the first to show that equal height
-                        action.</p>
-                    <p class="card-text">
-                        <small class="text-muted">Last updated 3 mins ago</small>
-                    </p>
-                </div>
-            </div>
+            <div class="squarecard_mainbig">Big 2</div>
+
+
+            <div class="squarecard_mainbig">Big 2</div>
+
+
+            <div class="squarecard_mainbig">Big 2</div>
+
+
+            <br>
 
             </div>
 
