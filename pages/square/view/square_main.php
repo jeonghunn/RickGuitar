@@ -79,7 +79,7 @@
             <br>
 
 
-            <div class="squarecard_mainbig">
+            <div class="card">
                         <p>Hi There!</p>
 
                             <small class="text-muted">Last updated 3 mins ago</small>
