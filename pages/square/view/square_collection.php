@@ -49,12 +49,10 @@
 
     <!--      <h1 style="font-size: 36px; center;">HaruCore</h1>-->
     <br><br>
-    <h1 style="font-size: 48px;">
-        Open Source License</h1>
-    <br>
+
 
     <div class="my-3 p-3 bg-white rounded box-shadow">
-
+        <h4 class="border-bottom border-gray pb-2 mb-0">Recent updates</h4>
         <div class="media text-muted pt-3">
             <img data-src="holder.js/32x32?theme=thumb&amp;bg=007bff&amp;fg=007bff&amp;size=1" alt="32x32"
                  class="mr-2 rounded"
