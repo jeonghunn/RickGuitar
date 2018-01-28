@@ -81,7 +81,7 @@
                 <div class="col-sm-6 col-md-3">
 
                     <div class="squarecard_mainbig">
-                        Hi There!
+                        <p>Hi There!</p>
 
                             <small class="text-muted">Last updated 3 mins ago</small>
 
