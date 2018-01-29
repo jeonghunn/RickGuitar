@@ -3,6 +3,7 @@
 <style>
 
 
+
     /*데스크탑*/
     @media screen and (min-width: 1367px) {
 
@@ -51,14 +52,14 @@
         <h2>새로운 업데이트</h2>
         <br>
     <div id="grid">
-        <div class="squarecard_mainbig">Big 2</div>
-        <div class="squarecard_mainbig">Big 2</div>
-        <div class="squarecard_mainbig">Big 2</div>
-        <div class="squarecard_mainbig">Big 2</div>
-        <div class="squarecard_mainbig">Big 2</div>
-        <div class="squarecard_mainbig">Big 2</div>
-        <div class="squarecard_mainbig">Big 2</div>
-        <div class="squarecard_mainbig">Big 2</div>
+        <div class="squarecard_grid">Big 2</div>
+        <div class="squarecard_grid">Big 2</div>
+        <div class="squarecard_grid">Big 2</div>
+        <div class="squarecard_grid">Big 2</div>
+        <div class="squarecard_grid">Big 2</div>
+        <div class="squarecard_grid">Big 2</div>
+        <div class="squarecard_grid">Big 2</div>
+        <div class="squarecard_grid">Big 2</div>
 
         </div>
 
