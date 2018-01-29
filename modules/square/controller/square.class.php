@@ -240,8 +240,9 @@ class SquareClass
     function getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $name, $start, $number, $info, $attach_info)
     {
 
-        $other_srl = 0;
-        $status = setRelationStatus($user_srl, $other_srl);
+        // $other_srl = 0;
+        //  $status = setRelationStatus($user_srl, $other_srl);
+        $status = 0;
 
         $row = null;
 
@@ -258,7 +259,7 @@ class SquareClass
                     $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
 
                     //  echo print_info($result, $doc_info);
-                    if ($attach_info != null && $result['attach'] != 0) $result['attach_contents'] = json_encode($ATTACH_CLASS->attach_read($user_srl, "document", $result['srl'], 0, $attach_info));
+                    if ($attach_info != null && $result['attach'] != 0) $result['attach_contents'] = json_encode($ATTACH_CLASS->attach_read($user_srl, "square", $result['srl'], 0, $attach_info));
 
                     $array[] = array_info_match($result, $info);
                 }
