@@ -7,7 +7,7 @@
     @media screen and (min-width: 1367px) {
 
         .squarecard_mainbig {
-            width: 25%;
+            width: 240px;
         }
 
     }
