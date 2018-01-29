@@ -250,8 +250,7 @@ class SquareClass
         if ($name == "new") {
 
             $row = Model_Square_getLastUpdates($status, $user_srl, $start, $number);
-            $total = mysqli_num_rows($row);
-            echo $total . "sdf";
+
 
             if ($attach_info != null) {
                 $total = mysqli_num_rows($row);
@@ -268,6 +267,8 @@ class SquareClass
             }
 
         }
+
+        print_r($array);
 
         // if ($doc_page_srl_info['status'] > $status || $doc_page_srl_info == null) $array = false;
         return $array;

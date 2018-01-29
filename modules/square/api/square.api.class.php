@@ -24,7 +24,7 @@ class SquareApiClass{
         $attach_info = array('category', 'filename', 'extension', 'filevalue', 'size', 'date');
 
 
-        $List = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $name, $start_num, $number, ExplodeInfoValue($square_info), ExplodeInfoValue($attach_info));
+        $List = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $name, $start_num, $number, $square_info, $attach_info);
         print_array($List);
 
 
