@@ -75,11 +75,12 @@ importHeader(null);
         <h2>새로운 업데이트</h2>
         <br>
 
-    <?php for ($i = 0;
+    <?php
+
+    for ($i = 0;
     $i < count($collection_result);
     $i++) {
-
-    echo count($collection_result); ?>
+    ?>
 
     <div id="grid">
         <div class="griddiv">
