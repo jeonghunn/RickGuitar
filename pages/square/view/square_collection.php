@@ -75,17 +75,20 @@ importHeader(null);
         <h2>새로운 업데이트</h2>
         <br>
 
-    <?php
 
-    for ($i = 0;
-    $i < count($collection_result);
-    $i++) {
-    ?>
 
     <div id="grid">
-        <div class="griddiv">
-            <div class="squarecard_grid"><?php echo $collection_result[$i]['title']; ?></div>
-        </div>
+
+        <?php
+
+        for ($i = 0;
+             $i < count($collection_result);
+             $i++) {
+            ?>
+
+            <div class="griddiv">
+                <div class="squarecard_grid"><?php echo $collection_result[$i]['title']; ?></div>
+            </div>
 
 
         <?php } ?>
