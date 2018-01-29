@@ -24,7 +24,7 @@ function Model_Square_ViewCountUp($views, $square_srl)
 
 function Model_Square_getLastUpdates($status, $user_srl, $start, $number)
 {
-    return DBQuery("SELECT * FROM  `square` WHERE  (`status` <=$status OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `square`.`srl` DESC LIMIT $start , $number");
+    return DBQuery("SELECT * FROM  `square` WHERE  (`status` LIKE '0' OR (`user_srl` =$user_srl AND `status` < 5)) ORDER BY  `square`.`srl` DESC LIMIT $start , $number");
 }
 
 
