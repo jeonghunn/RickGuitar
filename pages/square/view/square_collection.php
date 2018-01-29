@@ -6,8 +6,8 @@
     /*데스크탑*/
     @media screen and (min-width: 1367px) {
 
-        #cardpaper {
-            width: 70%;
+        .squarecard_mainbig {
+            width: 25%;
         }
 
     }
