@@ -27,13 +27,13 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="15">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1517248101000" expanded="true" signature="6355:6409" ph="..." />
-                <marker date="1517248101000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-                <marker date="1517248101000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-                <marker date="1517248101000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+                <marker date="1517248196000" expanded="true" signature="6355:6409" ph="..." />
+                <marker date="1517248196000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+                <marker date="1517248196000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+                <marker date="1517248196000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -82,8 +82,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+            <state relative-caret-position="489">
+              <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -1372,13 +1372,6 @@
       <workItem from="1517147423796" duration="4670000" />
       <workItem from="1517242468641" duration="2634000" />
     </task>
-    <task id="LOCAL-01354" summary="square write updated">
-      <created>1516815580009</created>
-      <option name="number" value="01354" />
-      <option name="presentableId" value="LOCAL-01354" />
-      <option name="project" value="LOCAL" />
-      <updated>1516815580009</updated>
-    </task>
     <task id="LOCAL-01355" summary="square write updated - write status">
       <created>1516817178222</created>
       <option name="number" value="01355" />
@@ -1715,11 +1708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517248013344</updated>
     </task>
-    <option name="localTasksCounter" value="1403" />
+    <task id="LOCAL-01403" summary="collection page updated">
+      <created>1517248108088</created>
+      <option name="number" value="01403" />
+      <option name="presentableId" value="LOCAL-01403" />
+      <option name="project" value="LOCAL" />
+      <updated>1517248108088</updated>
+    </task>
+    <option name="localTasksCounter" value="1404" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1154743000" />
+    <option name="totallyTimeSpent" value="1154837000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2278,21 +2278,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        <state relative-caret-position="489">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="15">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1517248101000" expanded="true" signature="6355:6409" ph="..." />
-            <marker date="1517248101000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-            <marker date="1517248101000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-            <marker date="1517248101000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+            <marker date="1517248196000" expanded="true" signature="6355:6409" ph="..." />
+            <marker date="1517248196000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+            <marker date="1517248196000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+            <marker date="1517248196000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
