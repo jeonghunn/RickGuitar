@@ -85,3 +85,9 @@
 
 
     </div>
+
+<script>
+    var some = new eg.InfiniteGrid("#grid").on("layoutComplete", function (e) {
+        // ...
+    });
+</script>

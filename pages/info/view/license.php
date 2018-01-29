@@ -57,4 +57,10 @@
     <p>https://github.com/daneden/animate.css</p>
     <p>Animate.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)</p>
 
+    <br>
+
+    <h2>egjs</h2>
+    <p>http://naver.github.io/egjs</p>
+    <p>egjs is released under the MIT license.</p>
+
 </div>
