@@ -113,8 +113,8 @@
       <file leaf-file-name="square_main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+            <state relative-caret-position="323">
+              <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -1383,13 +1383,6 @@
       <workItem from="1517147423796" duration="4670000" />
       <workItem from="1517242468641" duration="2634000" />
     </task>
-    <task id="LOCAL-01387" summary="getCollection bug fixed">
-      <created>1517245974583</created>
-      <option name="number" value="01387" />
-      <option name="presentableId" value="LOCAL-01387" />
-      <option name="project" value="LOCAL" />
-      <updated>1517245974583</updated>
-    </task>
     <task id="LOCAL-01388" summary="test">
       <created>1517246021206</created>
       <option name="number" value="01388" />
@@ -1726,11 +1719,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517258354125</updated>
     </task>
-    <option name="localTasksCounter" value="1436" />
+    <task id="LOCAL-01436" summary="test">
+      <created>1517258543945</created>
+      <option name="number" value="01436" />
+      <option name="presentableId" value="LOCAL-01436" />
+      <option name="project" value="LOCAL" />
+      <updated>1517258543945</updated>
+    </task>
+    <option name="localTasksCounter" value="1437" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1159179000" />
+    <option name="totallyTimeSpent" value="1159382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1881,13 +1881,13 @@
     <MESSAGE value="start number bug fixed" />
     <MESSAGE value="getCollection bug fixed" />
     <MESSAGE value="ver updated" />
-    <MESSAGE value="test" />
     <MESSAGE value="card load updated" />
     <MESSAGE value="eg.min js added" />
     <MESSAGE value="hammer.min.js added" />
     <MESSAGE value="collection page updated" />
     <MESSAGE value="security bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="security bug fixed" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2308,8 +2308,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="323">
+          <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
           <folding />
         </state>
       </provider>

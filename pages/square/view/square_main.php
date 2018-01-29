@@ -38,11 +38,19 @@
     </div>
     <br>
     <div id="group">
-        <h2>새로운 업데이트</h2>
-        <small class="d-block text-right mt-3">
-            <a href="#">All suggestions</a>
-        </small>
-        <br>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-8">
+                <h2>새로운 업데이트</h2>
+            </div>
+
+            <div class="col-sm-6 col-md-8">
+                <small class="d-block text-right mt-3">
+                    <a href="#">All suggestions</a>
+                </small>
+            </div>
+
+            <br>
     <div class="row">
         <div class="col-sm-6 col-md-3">
 
