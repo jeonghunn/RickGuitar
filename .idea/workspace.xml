@@ -30,11 +30,21 @@
             <state relative-caret-position="60">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1517247985000" expanded="true" signature="6355:6409" ph="..." />
-                <marker date="1517247985000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-                <marker date="1517247985000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-                <marker date="1517247985000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+                <marker date="1517248101000" expanded="true" signature="6355:6409" ph="..." />
+                <marker date="1517248101000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+                <marker date="1517248101000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+                <marker date="1517248101000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="square_class.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/square/controller/square_class.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -44,16 +54,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
               <caret line="63" column="46" lean-forward="false" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="square.api.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/square/square.api.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -82,8 +82,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="414">
+              <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -1372,13 +1372,6 @@
       <workItem from="1517147423796" duration="4670000" />
       <workItem from="1517242468641" duration="2634000" />
     </task>
-    <task id="LOCAL-01353" summary="square write updated">
-      <created>1516815424488</created>
-      <option name="number" value="01353" />
-      <option name="presentableId" value="LOCAL-01353" />
-      <option name="project" value="LOCAL" />
-      <updated>1516815424489</updated>
-    </task>
     <task id="LOCAL-01354" summary="square write updated">
       <created>1516815580009</created>
       <option name="number" value="01354" />
@@ -1715,11 +1708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517247903117</updated>
     </task>
-    <option name="localTasksCounter" value="1402" />
+    <task id="LOCAL-01402" summary="collection page updated">
+      <created>1517248013344</created>
+      <option name="number" value="01402" />
+      <option name="presentableId" value="LOCAL-01402" />
+      <option name="project" value="LOCAL" />
+      <updated>1517248013344</updated>
+    </task>
+    <option name="localTasksCounter" value="1403" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1154639000" />
+    <option name="totallyTimeSpent" value="1154743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2102,14 +2102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_class.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -2276,10 +2268,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_class.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="414">
+          <caret line="36" column="30" lean-forward="true" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -2289,10 +2289,10 @@
         <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1517247985000" expanded="true" signature="6355:6409" ph="..." />
-            <marker date="1517247985000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-            <marker date="1517247985000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-            <marker date="1517247985000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+            <marker date="1517248101000" expanded="true" signature="6355:6409" ph="..." />
+            <marker date="1517248101000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+            <marker date="1517248101000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+            <marker date="1517248101000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
