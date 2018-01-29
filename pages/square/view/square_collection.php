@@ -6,7 +6,9 @@
 
     /*데스크탑*/
     @media screen and (min-width: 1367px) {
-
+        .squarecard_grid {
+            width: 250px;
+        }
     }
 
     /*랩탑*/
