@@ -123,9 +123,14 @@ class SquareClass
     {
 
         if (strlen($title) > 60) {
+            $title = str_replace("{[", "<", $title);
+            $title = str_replace("]}", ">", $title);
             return mb_substr($title, 0, 60) . "...";
+        } else {
+            $title = str_replace("{[", "<", $title);
+            $title = str_replace("]}", ">", $title);
         }
-
+        $title = strip_tags($title);
 
         return $title;
     }
