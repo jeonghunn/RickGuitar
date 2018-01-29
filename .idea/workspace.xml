@@ -41,9 +41,21 @@
       <file leaf-file-name="square_collection.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="79" column="44" lean-forward="false" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+            <state relative-caret-position="90">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="21" />
+              <folding>
+                <marker date="1515873905000" expanded="true" signature="6045:6099" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,16 +133,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square.loader.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/square.loader.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -142,7 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>top</find>
       <find>mouseup</find>
       <find>positionToolbarIfShown</find>
       <find>setToolbarPosition</find>
@@ -172,6 +173,7 @@
       <find>getCollection</find>
       <find>EncodeJsonEncodeJson</find>
       <find>squarecard_grid</find>
+      <find>importHeader</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -1374,13 +1376,6 @@
       <workItem from="1517147423796" duration="4670000" />
       <workItem from="1517242468641" duration="2634000" />
     </task>
-    <task id="LOCAL-01372" summary="main card test">
-      <created>1517151571396</created>
-      <option name="number" value="01372" />
-      <option name="presentableId" value="LOCAL-01372" />
-      <option name="project" value="LOCAL" />
-      <updated>1517151571396</updated>
-    </task>
     <task id="LOCAL-01373" summary="main card test">
       <created>1517151693253</created>
       <option name="number" value="01373" />
@@ -1717,11 +1712,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517256544224</updated>
     </task>
-    <option name="localTasksCounter" value="1421" />
+    <task id="LOCAL-01421" summary="collection page updated">
+      <created>1517256590789</created>
+      <option name="number" value="01421" />
+      <option name="presentableId" value="LOCAL-01421" />
+      <option name="project" value="LOCAL" />
+      <updated>1517256590789</updated>
+    </task>
+    <option name="localTasksCounter" value="1422" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1157248000" />
+    <option name="totallyTimeSpent" value="1157418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2004,13 +2006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/lib/lib.loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -2250,14 +2245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/square.api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/square.loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2293,10 +2280,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/square.api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="33" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="42" column="21" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="21" />
+          <folding>
+            <marker date="1515873905000" expanded="true" signature="6045:6099" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="79" column="44" lean-forward="false" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>

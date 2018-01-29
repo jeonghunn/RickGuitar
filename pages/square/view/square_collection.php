@@ -4,9 +4,8 @@ require_once 'pages/square/square.loader.php';
 
 $result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_collection'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('name', $act_parameter), array('start_num', 0), array('number', 24))), true);
 
-$html_title = $SQUARE_CLASS->getHTMLTitle($square_result['title']);
-
-importHeader($html_title);
+print_r($result);
+importHeader(null);
 
 
 ?>
