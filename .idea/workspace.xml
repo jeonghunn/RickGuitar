@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/js/eg.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pages/js/hammer.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change beforePath="$PROJECT_DIR$/pages/footer.php" afterPath="$PROJECT_DIR$/pages/footer.php" />
@@ -31,10 +31,10 @@
             <state relative-caret-position="60">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1517247318000" expanded="true" signature="6355:6409" ph="..." />
-                <marker date="1517247318000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-                <marker date="1517247318000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-                <marker date="1517247318000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+                <marker date="1517247404000" expanded="true" signature="6355:6409" ph="..." />
+                <marker date="1517247404000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+                <marker date="1517247404000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+                <marker date="1517247404000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -104,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/pages/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -1373,13 +1373,6 @@
       <workItem from="1517147423796" duration="4670000" />
       <workItem from="1517242468641" duration="2634000" />
     </task>
-    <task id="LOCAL-01346" summary="dropdown added">
-      <created>1516731649145</created>
-      <option name="number" value="01346" />
-      <option name="presentableId" value="LOCAL-01346" />
-      <option name="project" value="LOCAL" />
-      <updated>1516731649145</updated>
-    </task>
     <task id="LOCAL-01347" summary="dropdown added">
       <created>1516731684846</created>
       <option name="number" value="01347" />
@@ -1716,11 +1709,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517246822668</updated>
     </task>
-    <option name="localTasksCounter" value="1395" />
+    <task id="LOCAL-01395" summary="eg.min js added">
+      <created>1517247329551</created>
+      <option name="number" value="01395" />
+      <option name="presentableId" value="LOCAL-01395" />
+      <option name="project" value="LOCAL" />
+      <updated>1517247329551</updated>
+    </task>
+    <option name="localTasksCounter" value="1396" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1153973000" />
+    <option name="totallyTimeSpent" value="1154059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1852,7 +1852,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="birthday page design updated" />
     <MESSAGE value="info page updated" />
     <MESSAGE value="font style updated" />
     <MESSAGE value="animation css added" />
@@ -1877,7 +1876,8 @@
     <MESSAGE value="ver updated" />
     <MESSAGE value="test" />
     <MESSAGE value="card load updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="card load updated" />
+    <MESSAGE value="eg.min js added" />
+    <option name="LAST_COMMIT_MESSAGE" value="eg.min js added" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2278,7 +2278,7 @@
     <entry file="file://$PROJECT_DIR$/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -2288,10 +2288,10 @@
         <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1517247318000" expanded="true" signature="6355:6409" ph="..." />
-            <marker date="1517247318000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-            <marker date="1517247318000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-            <marker date="1517247318000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+            <marker date="1517247404000" expanded="true" signature="6355:6409" ph="..." />
+            <marker date="1517247404000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+            <marker date="1517247404000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+            <marker date="1517247404000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
