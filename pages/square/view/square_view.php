@@ -5,7 +5,7 @@ require_once 'pages/square/square.loader.php';
 $square_data = json_decode($square_result['data'], true);
 $square_cards = json_decode($square_result['square_cards'], true);
 
-$html_title = $SQUARE_CLASS->getHTMLTitle($square_result['title'], $square_cards);
+$html_title = $SQUARE_CLASS->getHTMLTitle($square_result['title']);
 
 importHeader($html_title);
 

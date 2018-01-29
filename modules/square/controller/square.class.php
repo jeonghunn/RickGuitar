@@ -119,6 +119,20 @@ class SquareClass
     }
 
 
+    function getSummarizedTitle($title)
+    {
+
+        if (strlen($title) > 60) {
+            return mb_substr($title, 0, 60) . "...";
+        }
+
+
+        return $title;
+    }
+
+
+
+
 //require attach_class.php
 
     function Write($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $square_cards, $permission, $status, $privacy)
@@ -143,6 +157,12 @@ class SquareClass
         //ToArray
         $data_array = ReadJson($data);
         $square_cards_array = ReadJson($square_cards);
+
+
+        //setTitle
+        if ($title == null) {
+            $title = $this->getSummarizedTitle($square_cards_array[0]['content']);
+        }
 
 
         //GETResult of doc
