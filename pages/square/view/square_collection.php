@@ -13,17 +13,23 @@
 
     /*랩탑*/
     @media screen and (min-width: 1025px) and (max-width: 1366px) {
-
+        .squarecard_grid {
+            width: 250px;
+        }
     }
 
     /*아이패드 가로*/
     @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-
+        .squarecard_grid {
+            width: 250px;
+        }
     }
 
     /*아이패드 세로*/
     @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-
+        .squarecard_grid {
+            width: 250px;
+        }
     }
 
     /*모바일*/
