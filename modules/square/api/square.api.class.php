@@ -23,7 +23,7 @@ class SquareApiClass{
         $square_info = array('square_key', 'page_srl', 'user_srl', 'name', 'title', 'content', 'type', 'data', 'date', 'status', 'attach', 'square_cards');
         $attach_info = array('category', 'filename', 'extension', 'filevalue', 'size', 'date');
 
-
+        echo "tet";
         $List = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $name, $start_num, $number, ExplodeInfoValue($square_info), ExplodeInfoValue($attach_info));
         print_array($List);
 
