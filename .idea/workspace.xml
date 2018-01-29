@@ -4,7 +4,11 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
+      <change beforePath="$PROJECT_DIR$/modules/square/api/square.api.class.php" afterPath="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
       <change beforePath="$PROJECT_DIR$/modules/square/controller/square.class.php" afterPath="$PROJECT_DIR$/modules/square/controller/square.class.php" />
+      <change beforePath="$PROJECT_DIR$/modules/square/model/square.model.php" afterPath="$PROJECT_DIR$/modules/square/model/square.model.php" />
+      <change beforePath="$PROJECT_DIR$/modules/square/square.api.php" afterPath="$PROJECT_DIR$/modules/square/square.api.php" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_collection.php" afterPath="$PROJECT_DIR$/pages/square/view/square_collection.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,12 +32,12 @@
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1517243344000" expanded="true" signature="6352:6406" ph="..." />
-                <marker date="1517243344000" expanded="true" signature="6565:6697" ph="SELECT * FRO... favorite" />
-                <marker date="1517243344000" expanded="true" signature="6749:6881" ph="SELECT * FRO... favorite" />
-                <marker date="1517243344000" expanded="true" signature="6932:6983" ph="SELECT * FRO... pages" />
+                <marker date="1517245190000" expanded="true" signature="6355:6409" ph="..." />
+                <marker date="1517245190000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+                <marker date="1517245190000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+                <marker date="1517245190000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -49,16 +53,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3105">
-              <caret line="207" column="20" lean-forward="false" selection-start-line="207" selection-start-column="20" selection-end-line="207" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="square_main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,32 +63,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="square_collection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="538">
-              <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="1014">
+              <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_class.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/controller/square_class.js">
+      <file leaf-file-name="square_card.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="57" column="22" lean-forward="false" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="576">
+              <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+              <folding>
+                <marker date="1499972454000" expanded="true" signature="1380:1421" ph="SELECT * FRO... documents" />
+                <marker date="1499972454000" expanded="true" signature="1954:2041" ph="UPDATE `documents`... " />
+                <marker date="1499972454000" expanded="true" signature="2574:2856" ph="INSERT INTO `documents`... " />
+                <marker date="1499972454000" expanded="true" signature="5036:5210" ph="SELECT * FRO... documents" />
+                <marker date="1499972454000" expanded="true" signature="6150:6297" ph="SELECT * FRO... documents" />
+                <marker date="1499972454000" expanded="true" signature="6842:7005" ph="SELECT * FRO... documents" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,26 +103,50 @@
       <file leaf-file-name="square.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="132" column="36" lean-forward="false" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
+            <state relative-caret-position="17">
+              <caret line="240" column="110" lean-forward="true" selection-start-line="240" selection-start-column="27" selection-end-line="240" selection-end-column="110" />
               <folding>
-                <marker date="1517243344000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
-                <marker date="1517243344000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
-                <marker date="1517243344000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
-                <marker date="1517243344000" expanded="true" signature="6762:6854" ph="UPDATE `pages`... " />
-                <marker date="1517243344000" expanded="true" signature="8404:8578" ph="SELECT * FRO... documents" />
-                <marker date="1517243344000" expanded="true" signature="9518:9665" ph="SELECT * FRO... documents" />
-                <marker date="1517243344000" expanded="true" signature="10210:10373" ph="SELECT * FRO... documents" />
+                <marker date="1517245094000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
+                <marker date="1517245094000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
+                <marker date="1517245094000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
+                <marker date="1517245094000" expanded="true" signature="6764:6856" ph="UPDATE `pages`... " />
+                <marker date="1517245094000" expanded="true" signature="9346:9493" ph="SELECT * FRO... documents" />
+                <marker date="1517245094000" expanded="true" signature="10038:10201" ph="SELECT * FRO... documents" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+      <file leaf-file-name="square.model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="360">
+              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="36" />
+              <folding>
+                <marker date="1517245094000" expanded="true" signature="299:679" ph="INSERT INTO `square`... " />
+                <marker date="1517245094000" expanded="true" signature="778:857" ph="SELECT * FRO... square" />
+                <marker date="1517245094000" expanded="true" signature="942:1010" ph="UPDATE `square`... " />
+                <marker date="1517245094000" expanded="true" signature="1095:1236" ph="SELECT * FRO... square" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="square.api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/square/square.api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="square.api.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/square/api/square.api.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -148,8 +163,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ConvertForWrite</find>
-      <find>a</find>
       <find>da</find>
       <find>ß</find>
       <find>position</find>
@@ -178,6 +191,8 @@
       <find>html</find>
       <find>html1</find>
       <find>summar</find>
+      <find>getlist</find>
+      <find>list</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -209,7 +224,6 @@
         <option value="$PROJECT_DIR$/pages/login.php" />
         <option value="$PROJECT_DIR$/modules/square/api/board.api.class.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/documents.class.php" />
-        <option value="$PROJECT_DIR$/modules/square/square.api.php" />
         <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/core/permission.php" />
         <option value="$PROJECT_DIR$/pages/birthday.php" />
@@ -224,10 +238,8 @@
         <option value="$PROJECT_DIR$/pages/square.php" />
         <option value="$PROJECT_DIR$/pages/birthday/view/birthday_square.php" />
         <option value="$PROJECT_DIR$/pages/base.php" />
-        <option value="$PROJECT_DIR$/modules/square/model/square.model.php" />
         <option value="$PROJECT_DIR$/modules/square/model/square_card.model.php" />
         <option value="$PROJECT_DIR$/pages/profile.php" />
-        <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/birthday.class.php" />
         <option value="$PROJECT_DIR$/pages/birthday/controller/birthday.class.php" />
         <option value="$PROJECT_DIR$/pages/square/square.loader.php" />
@@ -250,10 +262,13 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/css/main.css" />
         <option value="$PROJECT_DIR$/pages/square/view/square_main.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_collection.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_collection.php" />
+        <option value="$PROJECT_DIR$/modules/square/model/square.model.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
+        <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
+        <option value="$PROJECT_DIR$/modules/square/square.api.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
@@ -327,7 +342,21 @@
               <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="square" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="square" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="square" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
@@ -1364,14 +1393,7 @@
       <workItem from="1516798354768" duration="155000" />
       <workItem from="1516803589801" duration="5180000" />
       <workItem from="1517147423796" duration="4670000" />
-      <workItem from="1517242468641" duration="824000" />
-    </task>
-    <task id="LOCAL-01333" summary="bootstrap updated">
-      <created>1516698339464</created>
-      <option name="number" value="01333" />
-      <option name="presentableId" value="LOCAL-01333" />
-      <option name="project" value="LOCAL" />
-      <updated>1516698339464</updated>
+      <workItem from="1517242468641" duration="2634000" />
     </task>
     <task id="LOCAL-01334" summary="animation updated">
       <created>1516698435276</created>
@@ -1709,11 +1731,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517243213958</updated>
     </task>
-    <option name="localTasksCounter" value="1382" />
+    <task id="LOCAL-01382" summary="setTitle updated">
+      <created>1517243351733</created>
+      <option name="number" value="01382" />
+      <option name="presentableId" value="LOCAL-01382" />
+      <option name="project" value="LOCAL" />
+      <updated>1517243351733</updated>
+    </task>
+    <option name="localTasksCounter" value="1383" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1150389000" />
+    <option name="totallyTimeSpent" value="1152199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1861,20 +1890,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/blurnav.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
@@ -1910,13 +1925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/birthday.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2160">
@@ -1928,13 +1936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/square.api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -2170,14 +2171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="115" column="0" lean-forward="false" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -2218,31 +2211,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="136" column="17" lean-forward="false" selection-start-line="136" selection-start-column="12" selection-end-line="136" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+          <folding>
+            <marker date="1499972454000" expanded="true" signature="1380:1421" ph="SELECT * FRO... documents" />
+            <marker date="1499972454000" expanded="true" signature="1954:2041" ph="UPDATE `documents`... " />
+            <marker date="1499972454000" expanded="true" signature="2574:2856" ph="INSERT INTO `documents`... " />
+            <marker date="1499972454000" expanded="true" signature="5036:5210" ph="SELECT * FRO... documents" />
+            <marker date="1499972454000" expanded="true" signature="6150:6297" ph="SELECT * FRO... documents" />
+            <marker date="1499972454000" expanded="true" signature="6842:7005" ph="SELECT * FRO... documents" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="132" column="36" lean-forward="false" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
+        <state relative-caret-position="17">
+          <caret line="240" column="110" lean-forward="true" selection-start-line="240" selection-start-column="27" selection-end-line="240" selection-end-column="110" />
           <folding>
-            <marker date="1517243344000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
-            <marker date="1517243344000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
-            <marker date="1517243344000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
-            <marker date="1517243344000" expanded="true" signature="6762:6854" ph="UPDATE `pages`... " />
-            <marker date="1517243344000" expanded="true" signature="8404:8578" ph="SELECT * FRO... documents" />
-            <marker date="1517243344000" expanded="true" signature="9518:9665" ph="SELECT * FRO... documents" />
-            <marker date="1517243344000" expanded="true" signature="10210:10373" ph="SELECT * FRO... documents" />
+            <marker date="1517245094000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
+            <marker date="1517245094000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
+            <marker date="1517245094000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
+            <marker date="1517245094000" expanded="true" signature="6764:6856" ph="UPDATE `pages`... " />
+            <marker date="1517245094000" expanded="true" signature="9346:9493" ph="SELECT * FRO... documents" />
+            <marker date="1517245094000" expanded="true" signature="10038:10201" ph="SELECT * FRO... documents" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="36" />
+          <folding>
+            <marker date="1517245094000" expanded="true" signature="299:679" ph="INSERT INTO `square`... " />
+            <marker date="1517245094000" expanded="true" signature="778:857" ph="SELECT * FRO... square" />
+            <marker date="1517245094000" expanded="true" signature="942:1010" ph="UPDATE `square`... " />
+            <marker date="1517245094000" expanded="true" signature="1095:1236" ph="SELECT * FRO... square" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/api/square.api.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/square.api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1517243344000" expanded="true" signature="6352:6406" ph="..." />
-            <marker date="1517243344000" expanded="true" signature="6565:6697" ph="SELECT * FRO... favorite" />
-            <marker date="1517243344000" expanded="true" signature="6749:6881" ph="SELECT * FRO... favorite" />
-            <marker date="1517243344000" expanded="true" signature="6932:6983" ph="SELECT * FRO... pages" />
+            <marker date="1517245190000" expanded="true" signature="6355:6409" ph="..." />
+            <marker date="1517245190000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+            <marker date="1517245190000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+            <marker date="1517245190000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
