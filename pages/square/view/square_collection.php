@@ -3,7 +3,7 @@
 require_once 'pages/square/square.loader.php';
 
 $collection_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_collection'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('name', $act_parameter), array('start_num', 0), array('number', 24))), true);
-print_r($collection_result);
+
 importHeader(null);
 
 
@@ -77,7 +77,9 @@ importHeader(null);
 
     <?php for ($i = 0;
     $i < count($collection_result);
-    $i++) { ?>
+    $i++) {
+
+    echo count($collection_result); ?>
 
     <div id="grid">
         <div class="griddiv">
