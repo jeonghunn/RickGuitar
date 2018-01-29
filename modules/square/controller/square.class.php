@@ -247,8 +247,8 @@ class SquareClass
 
 
         if ($name == "new") {
-            echo "tet";
-            $row = Model_Square_getLastUpdates($status, $user_srl);
+
+            $row = Model_Square_getLastUpdates($status, $user_srl, $start, $number);
 
 
             if ($attach_info != null) {

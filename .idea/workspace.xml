@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/modules/square/api/square.api.class.php" afterPath="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
+      <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change beforePath="$PROJECT_DIR$/modules/square/controller/square.class.php" afterPath="$PROJECT_DIR$/modules/square/controller/square.class.php" />
+      <change beforePath="$PROJECT_DIR$/modules/square/model/square.model.php" afterPath="$PROJECT_DIR$/modules/square/model/square.model.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,16 +25,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1517245562000" expanded="true" signature="6352:6406" ph="..." />
-                <marker date="1517245562000" expanded="true" signature="6565:6697" ph="SELECT * FRO... favorite" />
-                <marker date="1517245562000" expanded="true" signature="6749:6881" ph="SELECT * FRO... favorite" />
-                <marker date="1517245562000" expanded="true" signature="6932:6983" ph="SELECT * FRO... pages" />
+                <marker date="1517245838000" expanded="true" signature="6355:6409" ph="..." />
+                <marker date="1517245838000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+                <marker date="1517245838000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+                <marker date="1517245838000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -76,18 +77,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="249" column="23" lean-forward="false" selection-start-line="249" selection-start-column="23" selection-end-line="249" selection-end-column="23" />
+            <state relative-caret-position="262">
+              <caret line="250" column="82" lean-forward="false" selection-start-line="250" selection-start-column="82" selection-end-line="250" selection-end-column="82" />
               <folding>
-                <marker date="1517245782000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
-                <marker date="1517245782000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
-                <marker date="1517245782000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
-                <marker date="1517245782000" expanded="true" signature="6764:6856" ph="UPDATE `pages`... " />
-                <marker date="1517245782000" expanded="true" signature="9386:9533" ph="SELECT * FRO... documents" />
-                <marker date="1517245782000" expanded="true" signature="10078:10241" ph="SELECT * FRO... documents" />
+                <marker date="1517245838000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
+                <marker date="1517245838000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
+                <marker date="1517245838000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
+                <marker date="1517245838000" expanded="true" signature="6764:6856" ph="UPDATE `pages`... " />
+                <marker date="1517245838000" expanded="true" signature="9380:9527" ph="SELECT * FRO... documents" />
+                <marker date="1517245838000" expanded="true" signature="10072:10235" ph="SELECT * FRO... documents" />
               </folding>
             </state>
           </provider>
@@ -97,12 +98,12 @@
         <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="36" />
+              <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
               <folding>
-                <marker date="1517245199000" expanded="true" signature="299:679" ph="INSERT INTO `square`... " />
-                <marker date="1517245199000" expanded="true" signature="778:857" ph="SELECT * FRO... square" />
-                <marker date="1517245199000" expanded="true" signature="942:1010" ph="UPDATE `square`... " />
-                <marker date="1517245199000" expanded="true" signature="1096:1237" ph="SELECT * FRO... square" />
+                <marker date="1517245838000" expanded="true" signature="299:679" ph="INSERT INTO `square`... " />
+                <marker date="1517245838000" expanded="true" signature="778:857" ph="SELECT * FRO... square" />
+                <marker date="1517245838000" expanded="true" signature="942:1010" ph="UPDATE `square`... " />
+                <marker date="1517245838000" expanded="true" signature="1113:1254" ph="SELECT * FRO... square" />
               </folding>
             </state>
           </provider>
@@ -189,9 +190,9 @@
       <find>html1</find>
       <find>summar</find>
       <find>getlist</find>
-      <find>getCollection</find>
       <find>EncodeJsonEncodeJson</find>
       <find>list</find>
+      <find>getCollection</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -264,11 +265,11 @@
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_collection.php" />
-        <option value="$PROJECT_DIR$/modules/square/model/square.model.php" />
         <option value="$PROJECT_DIR$/modules/square/square.api.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
+        <option value="$PROJECT_DIR$/modules/square/model/square.model.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
   </component>
@@ -1394,13 +1395,6 @@
       <workItem from="1517147423796" duration="4670000" />
       <workItem from="1517242468641" duration="2634000" />
     </task>
-    <task id="LOCAL-01336" summary="animation updated">
-      <created>1516698719785</created>
-      <option name="number" value="01336" />
-      <option name="presentableId" value="LOCAL-01336" />
-      <option name="project" value="LOCAL" />
-      <updated>1516698719785</updated>
-    </task>
     <task id="LOCAL-01337" summary="animation updated">
       <created>1516698787326</created>
       <option name="number" value="01337" />
@@ -1737,11 +1731,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517245716852</updated>
     </task>
-    <option name="localTasksCounter" value="1385" />
+    <task id="LOCAL-01385" summary="test">
+      <created>1517245792158</created>
+      <option name="number" value="01385" />
+      <option name="presentableId" value="LOCAL-01385" />
+      <option name="project" value="LOCAL" />
+      <updated>1517245792158</updated>
+    </task>
+    <option name="localTasksCounter" value="1386" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1152472000" />
+    <option name="totallyTimeSpent" value="1152529000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2063,6 +2064,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2253,37 +2255,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="36" />
-          <folding>
-            <marker date="1517245199000" expanded="true" signature="299:679" ph="INSERT INTO `square`... " />
-            <marker date="1517245199000" expanded="true" signature="778:857" ph="SELECT * FRO... square" />
-            <marker date="1517245199000" expanded="true" signature="942:1010" ph="UPDATE `square`... " />
-            <marker date="1517245199000" expanded="true" signature="1096:1237" ph="SELECT * FRO... square" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <marker date="1517245562000" expanded="true" signature="6352:6406" ph="..." />
-            <marker date="1517245562000" expanded="true" signature="6565:6697" ph="SELECT * FRO... favorite" />
-            <marker date="1517245562000" expanded="true" signature="6749:6881" ph="SELECT * FRO... favorite" />
-            <marker date="1517245562000" expanded="true" signature="6932:6983" ph="SELECT * FRO... pages" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2295,17 +2271,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding>
+            <marker date="1517245838000" expanded="true" signature="299:679" ph="INSERT INTO `square`... " />
+            <marker date="1517245838000" expanded="true" signature="778:857" ph="SELECT * FRO... square" />
+            <marker date="1517245838000" expanded="true" signature="942:1010" ph="UPDATE `square`... " />
+            <marker date="1517245838000" expanded="true" signature="1113:1254" ph="SELECT * FRO... square" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="249" column="23" lean-forward="false" selection-start-line="249" selection-start-column="23" selection-end-line="249" selection-end-column="23" />
+        <state relative-caret-position="262">
+          <caret line="250" column="82" lean-forward="false" selection-start-line="250" selection-start-column="82" selection-end-line="250" selection-end-column="82" />
           <folding>
-            <marker date="1517245782000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
-            <marker date="1517245782000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
-            <marker date="1517245782000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
-            <marker date="1517245782000" expanded="true" signature="6764:6856" ph="UPDATE `pages`... " />
-            <marker date="1517245782000" expanded="true" signature="9386:9533" ph="SELECT * FRO... documents" />
-            <marker date="1517245782000" expanded="true" signature="10078:10241" ph="SELECT * FRO... documents" />
+            <marker date="1517245838000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
+            <marker date="1517245838000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
+            <marker date="1517245838000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
+            <marker date="1517245838000" expanded="true" signature="6764:6856" ph="UPDATE `pages`... " />
+            <marker date="1517245838000" expanded="true" signature="9380:9527" ph="SELECT * FRO... documents" />
+            <marker date="1517245838000" expanded="true" signature="10072:10235" ph="SELECT * FRO... documents" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <marker date="1517245838000" expanded="true" signature="6355:6409" ph="..." />
+            <marker date="1517245838000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+            <marker date="1517245838000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+            <marker date="1517245838000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
