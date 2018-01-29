@@ -6,18 +6,10 @@
     /*데스크탑*/
     @media screen and (min-width: 1367px) {
 
-        .squarecard_mainbig {
-            width: 240px;
-        }
-
     }
 
     /*랩탑*/
     @media screen and (min-width: 1025px) and (max-width: 1366px) {
-
-        #cardpaper {
-            width: 70%;
-        }
 
     }
 
