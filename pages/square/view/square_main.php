@@ -40,13 +40,13 @@
     <div id="group">
 
         <div class="row">
-            <div class="col-sm-6 col-md-8">
+            <div class="col-sm-6 col-md-6">
                 <h2>새로운 업데이트</h2>
             </div>
 
-            <div class="col-sm-6 col-md-8">
+            <div class="col-sm-6 col-md-6">
                 <small class="d-block text-right mt-3">
-                    <a href="#">All suggestions</a>
+                    <a href="new">더 보기</a>
                 </small>
             </div>
 
