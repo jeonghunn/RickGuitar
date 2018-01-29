@@ -8,20 +8,20 @@
 class SquareApiClass{
 
 
-    function API_getList($user_srl){
+    function API_getCollection($user_srl)
+    {
 
-        $DOCUMENT_CLASS = new DocumentClass();
+        $SQUARE_CLASS = new SquareClass();
+        $SQUARE_CARD_CLASS = new SquareCardClass();
         $PAGE_CLASS = new PageClass();
         $ATTACH_CLASS = new AttachClass();
 
-        $page_srl = REQUEST('page_srl');
-        $start_doc = REQUEST('start_doc');
-        $doc_number = REQUEST('doc_number');
-        $doc_info = REQUEST('doc_info');
-        $attach_info = REQUEST('attach_info');
+        $name = REQUEST('name');
+        $start_num = REQUEST('start_num');
+        $number = REQUEST('number');
 
-        $DocList = $DOCUMENT_CLASS -> document_getList($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $page_srl, $start_doc, $doc_number,  ExplodeInfoValue($doc_info), ExplodeInfoValue($attach_info));
-        print_array($DocList);
+        $List = $SQUARE_CLASS->document_getList($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $page_srl, $start_doc, $doc_number, ExplodeInfoValue($doc_info), ExplodeInfoValue($attach_info));
+        print_array($List);
 
 
     }
