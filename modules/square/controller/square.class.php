@@ -250,11 +250,12 @@ class SquareClass
         if ($name == "new") {
 
             $row = Model_Square_getLastUpdates($status, $user_srl, $start, $number);
-
+            $total = mysqli_num_rows($row);
+            echo $total . "sdf";
 
             if ($attach_info != null) {
                 $total = mysqli_num_rows($row);
-                echo $total . "sdf";
+
                 for ($i = 0; $i < $total; $i++) {
                     mysqli_data_seek($row, $i);           //포인터 이동
                     $result = mysqli_fetch_array($row);        //레코드를 배열로 저장
