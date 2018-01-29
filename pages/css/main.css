@@ -39,14 +39,19 @@
     /*   border-radius: 16px; 5px rounded corners */
     width: 250px;
     height: 250px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 24px;
     padding-top: 16px;
     font-size: 24px;
 
+}
+
+.griddiv {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-top: 16px;
+    font-size: 24px;
 }

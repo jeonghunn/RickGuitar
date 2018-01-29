@@ -52,16 +52,45 @@
         <h2>새로운 업데이트</h2>
         <br>
     <div id="grid">
-        <div class="squarecard_grid">Big 2</div>
-        <div class="squarecard_grid">Big 2</div>
-        <div class="squarecard_grid">Big 2</div>
-        <div class="squarecard_grid">Big 2</div>
-        <div class="squarecard_grid">Big 2</div>
-        <div class="squarecard_grid">Big 2</div>
-        <div class="squarecard_grid">Big 2</div>
-        <div class="squarecard_grid">Big 2</div>
-
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
         </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+        <div class="griddiv">
+            <div class="squarecard_grid">Big 2</div>
+        </div>
+
+
+    </div>
 
 
         <br><br>
