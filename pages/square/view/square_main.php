@@ -50,6 +50,7 @@
                 </small>
             </div>
 
+        </div>
             <br>
     <div class="row">
         <div class="col-sm-6 col-md-3">
