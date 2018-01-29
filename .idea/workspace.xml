@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/js/hammer.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
-      <change beforePath="$PROJECT_DIR$/pages/footer.php" afterPath="$PROJECT_DIR$/pages/footer.php" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_collection.php" afterPath="$PROJECT_DIR$/pages/square/view/square_collection.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +30,10 @@
             <state relative-caret-position="60">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1517247404000" expanded="true" signature="6355:6409" ph="..." />
-                <marker date="1517247404000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-                <marker date="1517247404000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-                <marker date="1517247404000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+                <marker date="1517247474000" expanded="true" signature="6355:6409" ph="..." />
+                <marker date="1517247474000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+                <marker date="1517247474000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+                <marker date="1517247474000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -113,8 +112,8 @@
       <file leaf-file-name="square_collection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-111">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -245,8 +244,8 @@
         <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/css/main.css" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_collection.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_collection.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
@@ -1373,13 +1372,6 @@
       <workItem from="1517147423796" duration="4670000" />
       <workItem from="1517242468641" duration="2634000" />
     </task>
-    <task id="LOCAL-01347" summary="dropdown added">
-      <created>1516731684846</created>
-      <option name="number" value="01347" />
-      <option name="presentableId" value="LOCAL-01347" />
-      <option name="project" value="LOCAL" />
-      <updated>1516731684846</updated>
-    </task>
     <task id="LOCAL-01348" summary="popper.min.js added">
       <created>1516731994614</created>
       <option name="number" value="01348" />
@@ -1716,11 +1708,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517247329551</updated>
     </task>
-    <option name="localTasksCounter" value="1396" />
+    <task id="LOCAL-01396" summary="hammer.min.js added">
+      <created>1517247413406</created>
+      <option name="number" value="01396" />
+      <option name="presentableId" value="LOCAL-01396" />
+      <option name="project" value="LOCAL" />
+      <updated>1517247413406</updated>
+    </task>
+    <option name="localTasksCounter" value="1397" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1154059000" />
+    <option name="totallyTimeSpent" value="1154129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1852,7 +1851,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info page updated" />
     <MESSAGE value="font style updated" />
     <MESSAGE value="animation css added" />
     <MESSAGE value="bootstrap updated" />
@@ -1877,7 +1875,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="card load updated" />
     <MESSAGE value="eg.min js added" />
-    <option name="LAST_COMMIT_MESSAGE" value="eg.min js added" />
+    <MESSAGE value="hammer.min.js added" />
+    <option name="LAST_COMMIT_MESSAGE" value="hammer.min.js added" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2211,14 +2210,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/birthday/view/birthday_write.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -2259,14 +2250,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -2283,15 +2266,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="41" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
-            <marker date="1517247404000" expanded="true" signature="6355:6409" ph="..." />
-            <marker date="1517247404000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-            <marker date="1517247404000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-            <marker date="1517247404000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+            <marker date="1517247474000" expanded="true" signature="6355:6409" ph="..." />
+            <marker date="1517247474000" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+            <marker date="1517247474000" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+            <marker date="1517247474000" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>

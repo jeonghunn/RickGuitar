@@ -55,10 +55,10 @@
     <br><br>
 
 
-    <div id="group">
+
         <h2>새로운 업데이트</h2>
         <br>
-
+    <div id="grid">
         <div class="squarecard_mainbig">Big 2</div>
         <div class="squarecard_mainbig">Big 2</div>
         <div class="squarecard_mainbig">Big 2</div>
