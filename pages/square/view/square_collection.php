@@ -26,7 +26,9 @@
 
     /*모바일*/
     @media screen and (min-width: 351px) and (max-width: 767px) {
-
+        .squarecard_grid {
+            width: 90;
+        }
     }
 
     /*작은 모바일*/
