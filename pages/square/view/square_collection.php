@@ -84,7 +84,7 @@ importHeader(null);
 
     <div id="grid">
         <div class="griddiv">
-            <div class="squarecard_grid"><?php echo $SQUARE_CLASS->ConvertForRead($HTML_PURIFIER, $collection_result[$i]['title']); ?></div>
+            <div class="squarecard_grid"><?php echo $collection_result[$i]['title']; ?></div>
         </div>
 
 
