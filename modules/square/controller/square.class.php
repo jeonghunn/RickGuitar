@@ -268,7 +268,6 @@ class SquareClass
 
         }
 
-        print_r($array);
 
         // if ($doc_page_srl_info['status'] > $status || $doc_page_srl_info == null) $array = false;
         return $array;
