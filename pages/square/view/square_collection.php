@@ -1,4 +1,15 @@
-<?php require_once 'pages/header.php'; ?>
+<?php
+
+require_once 'pages/square/square.loader.php';
+
+$result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_collection'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('name', $act_parameter), array('start_num', 0), array('number', 24))), true);
+
+$html_title = $SQUARE_CLASS->getHTMLTitle($square_result['title']);
+
+importHeader($html_title);
+
+
+?>
 
 <style>
 
@@ -65,43 +76,22 @@
 
         <h2>새로운 업데이트</h2>
         <br>
+
+    <?php for ($i = 0;
+    $i < count($result);
+    $i++) { ?>
+
     <div id="grid">
         <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
+            <div class="squarecard_grid"><?php echo $SQUARE_CLASS->ConvertForRead($HTML_PURIFIER, $result[$i]['title']); ?>
+                <
+            </div>
         </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
-        <div class="griddiv">
-            <div class="squarecard_grid">Big 2</div>
-        </div>
+
+
+        <?php } ?>
+
+
 
 
     </div>
