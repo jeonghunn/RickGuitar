@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change beforePath="$PROJECT_DIR$/pages/css/main.css" afterPath="$PROJECT_DIR$/pages/css/main.css" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -27,7 +26,7 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="60">
               <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
               <folding>
                 <marker date="1517248623000" expanded="true" signature="6355:6409" ph="..." />
@@ -82,8 +81,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="567">
+              <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -245,8 +244,8 @@
         <option value="$PROJECT_DIR$/pages/footer.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_collection.php" />
-        <option value="$PROJECT_DIR$/pages/css/main.css" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/css/main.css" />
       </list>
     </option>
   </component>
@@ -1372,13 +1371,6 @@
       <workItem from="1517147423796" duration="4670000" />
       <workItem from="1517242468641" duration="2634000" />
     </task>
-    <task id="LOCAL-01361" summary="design updated">
-      <created>1517148113947</created>
-      <option name="number" value="01361" />
-      <option name="presentableId" value="LOCAL-01361" />
-      <option name="project" value="LOCAL" />
-      <updated>1517148113947</updated>
-    </task>
     <task id="LOCAL-01362" summary="main card test">
       <created>1517148462513</created>
       <option name="number" value="01362" />
@@ -1715,11 +1707,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517248590173</updated>
     </task>
-    <option name="localTasksCounter" value="1410" />
+    <task id="LOCAL-01410" summary="collection page updated">
+      <created>1517248629326</created>
+      <option name="number" value="01410" />
+      <option name="presentableId" value="LOCAL-01410" />
+      <option name="project" value="LOCAL" />
+      <updated>1517248629327</updated>
+    </task>
+    <option name="localTasksCounter" value="1411" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1155256000" />
+    <option name="totallyTimeSpent" value="1155293000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2278,15 +2277,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        <state relative-caret-position="567">
+          <caret line="54" column="22" lean-forward="false" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="60">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding>
             <marker date="1517248623000" expanded="true" signature="6355:6409" ph="..." />
