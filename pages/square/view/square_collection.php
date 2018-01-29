@@ -58,69 +58,15 @@
     <div id="group">
         <h2>새로운 업데이트</h2>
         <br>
-        <div class="row">
-            <div class="col-sm-6 col-md-3">
 
-                <div class="squarecard_mainbig">Big 1</div>
-
-
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-
-
-                <div class="squarecard_mainbig">Big 2</div>
-
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-
-
-                <div class="squarecard_mainbig">Big 2</div>
-
-            </div>
-
-
-            <div class="col-sm-6 col-md-3">
-
-
-                <div class="squarecard_mainbig">Big 2</div>
-
-            </div>
-
-
-        </div>
-        <br>
-        <div class="row">
-            <div class="col-sm-6 col-md-3">
-
-                <div class="squarecard_mainbig">Big 1</div>
-
-
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-
-
-                <div class="squarecard_mainbig">Big 2</div>
-
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-
-
-                <div class="squarecard_mainbig">Big 2</div>
-
-            </div>
-
-
-            <div class="col-sm-6 col-md-3">
-
-
-                <div class="squarecard_mainbig">Big 2</div>
-
-            </div>
-
+        <div class="squarecard_mainbig">Big 2</div>
+        <div class="squarecard_mainbig">Big 2</div>
+        <div class="squarecard_mainbig">Big 2</div>
+        <div class="squarecard_mainbig">Big 2</div>
+        <div class="squarecard_mainbig">Big 2</div>
+        <div class="squarecard_mainbig">Big 2</div>
+        <div class="squarecard_mainbig">Big 2</div>
+        <div class="squarecard_mainbig">Big 2</div>
 
         </div>
 
