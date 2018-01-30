@@ -122,14 +122,10 @@ class SquareClass
     function getSummarizedTitle($title)
     {
 
-        if (strlen($title) > 60) {
-            $title = str_replace("{[", "<", $title);
-            $title = str_replace("]}", ">", $title);
-            return mb_substr($title, 0, 60) . "...";
-        } else {
-            $title = str_replace("{[", "<", $title);
-            $title = str_replace("]}", ">", $title);
-        }
+        $title = str_replace("{[", "<", $title);
+        $title = str_replace("]}", ">", $title);
+
+        if (strlen($title) > 60) $title = mb_substr($title, 0, 60) . "...";
         $title = strip_tags($title);
 
         return $title;
