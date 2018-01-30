@@ -88,7 +88,7 @@ importHeader(null);
 
             <div class="griddiv">
                 <div class="squarecard_grid"
-                     onclick="location.href='<?php echo $collection_result[$i]["square_key"]; ?>'"><?php echo $collection_result[$i]['title']; ?></div>
+                     onclick="location.href='<?php echo $collection_result[$i]["square_key"]; ?>'"><?php P($collection_result[$i]['title']); ?></div>
             </div>
 
 
