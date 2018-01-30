@@ -24,33 +24,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+            <state relative-caret-position="60">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <marker date="1517322347000" expanded="true" signature="6353:6407" ph="..." />
-                <marker date="1517322347000" expanded="true" signature="6566:6698" ph="SELECT * FRO... favorite" />
-                <marker date="1517322347000" expanded="true" signature="6750:6882" ph="SELECT * FRO... favorite" />
-                <marker date="1517322347000" expanded="true" signature="6933:6984" ph="SELECT * FRO... pages" />
+                <marker date="1517322452000" expanded="true" signature="6356:6410" ph="..." />
+                <marker date="1517322452000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+                <marker date="1517322452000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+                <marker date="1517322452000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="square.class.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="121" column="31" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="31" />
+            <state relative-caret-position="321">
+              <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
               <folding>
-                <marker date="1517322347000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
-                <marker date="1517322347000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
-                <marker date="1517322347000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
-                <marker date="1517322347000" expanded="true" signature="6612:6704" ph="UPDATE `pages`... " />
-                <marker date="1517322347000" expanded="true" signature="9256:9403" ph="SELECT * FRO... documents" />
-                <marker date="1517322347000" expanded="true" signature="9948:10111" ph="SELECT * FRO... documents" />
+                <marker date="1517322452000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
+                <marker date="1517322452000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
+                <marker date="1517322452000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
+                <marker date="1517322452000" expanded="true" signature="6613:6705" ph="UPDATE `pages`... " />
+                <marker date="1517322452000" expanded="true" signature="9257:9404" ph="SELECT * FRO... documents" />
+                <marker date="1517322452000" expanded="true" signature="9949:10112" ph="SELECT * FRO... documents" />
               </folding>
             </state>
           </provider>
@@ -1294,14 +1294,7 @@
       <workItem from="1517147423796" duration="4670000" />
       <workItem from="1517242468641" duration="2634000" />
       <workItem from="1517305881786" duration="122000" />
-      <workItem from="1517322109423" duration="242000" />
-    </task>
-    <task id="LOCAL-01390" summary="getCollection bug fixed">
-      <created>1517246231409</created>
-      <option name="number" value="01390" />
-      <option name="presentableId" value="LOCAL-01390" />
-      <option name="project" value="LOCAL" />
-      <updated>1517246231409</updated>
+      <workItem from="1517322109423" duration="324000" />
     </task>
     <task id="LOCAL-01391" summary="ver updated">
       <created>1517246326502</created>
@@ -1639,11 +1632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517258780746</updated>
     </task>
-    <option name="localTasksCounter" value="1439" />
+    <task id="LOCAL-01439" summary="getSummarizedTitle bug fixed">
+      <created>1517322385151</created>
+      <option name="number" value="01439" />
+      <option name="presentableId" value="LOCAL-01439" />
+      <option name="project" value="LOCAL" />
+      <updated>1517322385152</updated>
+    </task>
+    <option name="localTasksCounter" value="1440" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1159988000" />
+    <option name="totallyTimeSpent" value="1160070000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1663,8 +1663,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2063854" sideWeight="0.6416309" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25655645" sideWeight="0.6432375" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25655645" sideWeight="0.3567625" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1692,7 +1693,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258278" sideWeight="0.49513888" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25691244" sideWeight="0.3583691" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13099042" sideWeight="0.45953143" order="7" side_tool="false" content_ui="tabs" />
@@ -1752,7 +1752,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bootstrap updated" />
     <MESSAGE value="animation updated" />
     <MESSAGE value="license page added" />
     <MESSAGE value="animated card" />
@@ -1777,7 +1776,8 @@
     <MESSAGE value="collection page updated" />
     <MESSAGE value="security bug fixed" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="getSummarizedTitle bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="getSummarizedTitle bug fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2145,30 +2145,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
+    <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        <state relative-caret-position="321">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
           <folding>
-            <marker date="1517322347000" expanded="true" signature="6353:6407" ph="..." />
-            <marker date="1517322347000" expanded="true" signature="6566:6698" ph="SELECT * FRO... favorite" />
-            <marker date="1517322347000" expanded="true" signature="6750:6882" ph="SELECT * FRO... favorite" />
-            <marker date="1517322347000" expanded="true" signature="6933:6984" ph="SELECT * FRO... pages" />
+            <marker date="1517322452000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
+            <marker date="1517322452000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
+            <marker date="1517322452000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
+            <marker date="1517322452000" expanded="true" signature="6613:6705" ph="UPDATE `pages`... " />
+            <marker date="1517322452000" expanded="true" signature="9257:9404" ph="SELECT * FRO... documents" />
+            <marker date="1517322452000" expanded="true" signature="9949:10112" ph="SELECT * FRO... documents" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
+    <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="121" column="31" lean-forward="false" selection-start-line="121" selection-start-column="13" selection-end-line="121" selection-end-column="31" />
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1517322347000" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
-            <marker date="1517322347000" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
-            <marker date="1517322347000" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
-            <marker date="1517322347000" expanded="true" signature="6612:6704" ph="UPDATE `pages`... " />
-            <marker date="1517322347000" expanded="true" signature="9256:9403" ph="SELECT * FRO... documents" />
-            <marker date="1517322347000" expanded="true" signature="9948:10111" ph="SELECT * FRO... documents" />
+            <marker date="1517322452000" expanded="true" signature="6356:6410" ph="..." />
+            <marker date="1517322452000" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+            <marker date="1517322452000" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+            <marker date="1517322452000" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>
