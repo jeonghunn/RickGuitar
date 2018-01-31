@@ -96,8 +96,11 @@
 
         setEditor();
         document.getElementById("contents_1").focus();
+    };
+
+    window.onbeforeunload = function () {
+        return true;
     }
-    ;
 
     var editor = null;
     var cardcount = 1;
