@@ -91,6 +91,9 @@
 <script>
 
 
+    var editor = null;
+    var cardcount = 1;
+    var status = '0';
 
     window.onload = function () {
 
@@ -98,14 +101,10 @@
         document.getElementById("contents_1").focus();
     };
 
+
     window.onbeforeunload = function () {
-        return true;
+        return checkWrote();
     }
-
-    var editor = null;
-    var cardcount = 1;
-    var status = '0';
-
 
     function addCard() {
 
@@ -146,7 +145,7 @@
         }
 
 
-        if (document.getElementById("contents_1").innerHTML == '') {
+        if (!checkWrote()) {
             alert('내용을 입력해주세요.');
 
 
@@ -196,6 +195,9 @@
 
     }
 
+    function checkWrote() {
+        return document.getElementById("contents_1").innerHTML != '';
+    }
 
     function setStatus(s) {
         status = s;
