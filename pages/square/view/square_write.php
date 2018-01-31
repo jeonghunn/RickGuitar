@@ -90,32 +90,39 @@
 
 <script>
 
-    var editor = new MediumEditor('.squarecard', {
-        toolbar: {
-            buttons: ['bold', 'italic', 'underline', 'quote', 'anchor', 'image', 'justifyLeft', 'justifyCenter', 'h1'],
-        },
-        buttonLabels: 'fontawesome',
-        anchor: {
-            targetCheckbox: true
-        }
-    });
+
 
     window.onload = function () {
 
+        setEditor();
         document.getElementById("contents_1").focus();
     }
     ;
 
+    var editor = null;
     var cardcount = 1;
     var status = '0';
+
 
     function addCard() {
 
         cardcount = cardcount + 1;
         var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" contentEditable="true"></div></div><div><br>';
         $(cardadd).insertBefore('#squarecard');
-        editor = new MediumEditor('.squarecard');
+        setEditor();
 
+    }
+
+    function setEditor() {
+        editor = new MediumEditor('.squarecard', {
+            toolbar: {
+                buttons: ['bold', 'italic', 'underline', 'quote', 'anchor', 'image', 'justifyLeft', 'justifyCenter', 'h1'],
+            },
+            buttonLabels: 'fontawesome',
+            anchor: {
+                targetCheckbox: true
+            }
+        });
     }
 
 
