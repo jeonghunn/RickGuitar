@@ -106,7 +106,10 @@
 
     window.onbeforeunload = function () {
 
-        return checkPreventClose();
+        if (checkPreventClose()) {
+            return true;
+        }
+
     }
 
     function addCard() {
