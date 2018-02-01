@@ -176,7 +176,7 @@
 
                     submitted = true; //success submit
                     var Result = JSON.parse(data);
-
+                    alert(submitted);
                     location.href = Result['square_key'];
 
 
