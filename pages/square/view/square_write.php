@@ -105,6 +105,7 @@
 
 
     window.onbeforeunload = function () {
+        alert(submitted);
         return checkWrote() && (!submitted);
     }
 
@@ -176,7 +177,7 @@
 
                     submitted = true; //success submit
                     var Result = JSON.parse(data);
-                    alert(!submitted);
+
                     location.href = Result['square_key'];
 
 
