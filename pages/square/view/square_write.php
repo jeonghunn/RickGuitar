@@ -200,7 +200,7 @@
     }
 
     function checkPreventClose() {
-        alert(submitted);
+        alert("dfdfdf");
         return ((checkWrote()) && (!submitted));
     }
 
