@@ -21,14 +21,14 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
     /*데스크탑*/
     @media screen and (min-width: 1367px) {
         .kakao {
-            visibility: unset;
+            display: none;
         }
     }
 
     /*랩탑*/
     @media screen and (min-width: 1025px) and (max-width: 1366px) {
         .kakao {
-            visibility: unset;
+            display: none;
         }
     }
 
