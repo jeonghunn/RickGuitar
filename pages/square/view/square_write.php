@@ -95,6 +95,7 @@
     var cardcount = 1;
     var status = '0';
     var isProcessing = false;
+    var submitted = false;
 
     window.onload = function () {
 
@@ -104,7 +105,7 @@
 
 
     window.onbeforeunload = function () {
-        return checkWrote() && (!isProcessing);
+        return checkWrote() && (!submitted);
     }
 
     function addCard() {
@@ -173,6 +174,7 @@
                 setProcessing(false);
                 if (data.indexOf('success') >= 0) {
 
+                    submitted = true; //success submit
                     var Result = JSON.parse(data);
 
                     location.href = Result['square_key'];
