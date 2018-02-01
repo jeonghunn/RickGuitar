@@ -130,7 +130,7 @@
 
 
     function writeAct() {
-        isProcessing(true);
+        setProcessing(true);
 
         var square_cards_array = [];
 
@@ -150,7 +150,7 @@
             alert('내용을 입력해주세요.');
 
 
-            isProcessing(false);
+            setProcessing(false);
             return false;
         }
 
@@ -170,7 +170,7 @@
                 "square_cards": square_cards
             },
             success: function (data) {
-                isProcessing(false);
+                setProcessing(false);
                 if (data.indexOf('success') >= 0) {
 
                     var Result = JSON.parse(data);
@@ -186,7 +186,7 @@
             },
 
             error: function (jqXHR) {
-                isProcessing(false);
+                setProcessing(false);
                 alert('<?php S('error_unknown_error') ?>');
             }
 
@@ -217,7 +217,7 @@
         return str.split(searchStr).join(replaceStr);
     }
 
-    function isProcessing(status) {
+    function setProcessing(status) {
         isProcessing = status;
         setbuttonstatus(!status);
     }
