@@ -106,7 +106,7 @@
 
     window.onbeforeunload = function () {
 
-        return (checkWrote() && (!submitted));
+        return checkPreventClose();
     }
 
     function addCard() {
@@ -197,6 +197,10 @@
         });
 
 
+    }
+
+    function checkPreventClose() {
+        return ((checkWrote()) && (!submitted));
     }
 
     function checkWrote() {
