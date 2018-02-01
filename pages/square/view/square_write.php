@@ -200,7 +200,7 @@
     }
 
     function checkPreventClose() {
-        console.log(submitted);
+        console.log(((checkWrote()) && (!submitted)));
         return ((checkWrote()) && (!submitted));
     }
 
