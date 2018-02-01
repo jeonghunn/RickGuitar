@@ -61,10 +61,10 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="178" column="17" lean-forward="false" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+            <state relative-caret-position="236">
+              <caret line="178" column="27" lean-forward="false" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="27" />
               <folding>
-                <marker date="1517473097758" expanded="true" signature="5984:5990" ph="{...}" />
+                <marker date="1517473139736" expanded="true" signature="5984:5990" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -1287,14 +1287,7 @@
       <workItem from="1517417705186" duration="167000" />
       <workItem from="1517422575199" duration="15000" />
       <workItem from="1517422731696" duration="844000" />
-      <workItem from="1517472058381" duration="1037000" />
-    </task>
-    <task id="LOCAL-01397" summary="collection page updated">
-      <created>1517247485059</created>
-      <option name="number" value="01397" />
-      <option name="presentableId" value="LOCAL-01397" />
-      <option name="project" value="LOCAL" />
-      <updated>1517247485059</updated>
+      <workItem from="1517472058381" duration="1081000" />
     </task>
     <task id="LOCAL-01398" summary="collection page updated">
       <created>1517247667358</created>
@@ -1632,11 +1625,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517472925458</updated>
     </task>
-    <option name="localTasksCounter" value="1446" />
+    <task id="LOCAL-01446" summary="squarewrite prevent close bug fixed test">
+      <created>1517473108761</created>
+      <option name="number" value="01446" />
+      <option name="presentableId" value="LOCAL-01446" />
+      <option name="project" value="LOCAL" />
+      <updated>1517473108761</updated>
+    </task>
+    <option name="localTasksCounter" value="1447" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1163238000" />
+    <option name="totallyTimeSpent" value="1163282000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1745,7 +1745,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="animated card" />
     <MESSAGE value="1st card animation deleted" />
     <MESSAGE value="square view updated" />
     <MESSAGE value="dropdown added" />
@@ -1770,7 +1769,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="squarewrite prevent close added" />
     <MESSAGE value="squarewrite prevent close bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="squarewrite prevent close bug fixed" />
+    <MESSAGE value="squarewrite prevent close bug fixed test" />
+    <option name="LAST_COMMIT_MESSAGE" value="squarewrite prevent close bug fixed test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2152,10 +2152,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="178" column="17" lean-forward="false" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="17" />
+        <state relative-caret-position="236">
+          <caret line="178" column="27" lean-forward="false" selection-start-line="178" selection-start-column="27" selection-end-line="178" selection-end-column="27" />
           <folding>
-            <marker date="1517473097758" expanded="true" signature="5984:5990" ph="{...}" />
+            <marker date="1517473139736" expanded="true" signature="5984:5990" ph="{...}" />
           </folding>
         </state>
       </provider>
