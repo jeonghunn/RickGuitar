@@ -94,6 +94,7 @@
     var editor = null;
     var cardcount = 1;
     var status = '0';
+    var isProcessing = false;
 
     window.onload = function () {
 
@@ -103,7 +104,7 @@
 
 
     window.onbeforeunload = function () {
-        return checkWrote();
+        return checkWrote() && (!isProcessing);
     }
 
     function addCard() {
@@ -129,7 +130,7 @@
 
 
     function writeAct() {
-        setbuttonstatus(false);
+        isProcessing(true);
 
         var square_cards_array = [];
 
@@ -149,7 +150,7 @@
             alert('내용을 입력해주세요.');
 
 
-            setbuttonstatus(true);
+            isProcessing(false);
             return false;
         }
 
@@ -169,7 +170,7 @@
                 "square_cards": square_cards
             },
             success: function (data) {
-                setbuttonstatus(true);
+                isProcessing(false);
                 if (data.indexOf('success') >= 0) {
 
                     var Result = JSON.parse(data);
@@ -185,7 +186,7 @@
             },
 
             error: function (jqXHR) {
-                setbuttonstatus(true);
+                isProcessing(false);
                 alert('<?php S('error_unknown_error') ?>');
             }
 
@@ -214,6 +215,11 @@
 
     function replaceAll(str, searchStr, replaceStr) {
         return str.split(searchStr).join(replaceStr);
+    }
+
+    function isProcessing(status) {
+        isProcessing = status;
+        setbuttonstatus(!status);
     }
 
 
