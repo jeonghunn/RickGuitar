@@ -105,8 +105,8 @@
 
 
     window.onbeforeunload = function () {
-        alert(submitted);
-        return checkWrote() && (!submitted);
+
+        return (checkWrote() && (!submitted));
     }
 
     function addCard() {
