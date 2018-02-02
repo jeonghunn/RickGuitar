@@ -8,6 +8,27 @@
 class SquareApiClass{
 
 
+    function API_getMain($user_srl)
+    {
+
+        $SQUARE_CLASS = new SquareClass();
+        $SQUARE_CARD_CLASS = new SquareCardClass();
+        $PAGE_CLASS = new PageClass();
+        $ATTACH_CLASS = new AttachClass();
+
+
+        $square_info = array('square_key', 'page_srl', 'user_srl', 'name', 'title', 'content', 'type', 'data', 'date', 'status', 'attach', 'square_cards');
+        $attach_info = array('category', 'filename', 'extension', 'filevalue', 'size', 'date');
+
+        //$SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $name, 0, 3, $square_info, $attach_info);
+        $List = $SQUARE_CLASS->getMain($SQUARE_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_info, $attach_info);
+        print_array($List);
+
+
+    }
+
+
+
     function API_getCollection($user_srl)
     {
 

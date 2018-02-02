@@ -1,4 +1,12 @@
-<?php require_once 'pages/header.php'; ?>
+<?php
+
+
+$collection_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_main'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()))), true);
+
+
+importHeader(null);
+
+?>
 
 <!--style-->
 <link rel="stylesheet" href="pages/css/main.css">

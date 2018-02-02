@@ -7,6 +7,7 @@
  */
 
 
+if ($ACTION == "square_main") $SquareAPI->API_getMain($user_srl);
 if ($ACTION == "square_collection") $SquareAPI->API_getCollection($user_srl);
 if($ACTION == "square_write") $SquareAPI -> API_Write($user_srl);
 if($ACTION == "square_read") $SquareAPI -> API_Read($user_srl);

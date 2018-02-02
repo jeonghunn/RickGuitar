@@ -234,6 +234,22 @@ class SquareClass
     }
 
 
+    function getMain($SQUARE_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_info, $attach_info)
+    {
+
+        $result = null;
+
+        $top_items = array(array([square_key] => "w8UkEWEiFGzi", [title] => "아직 개발중이라 할 말이 없군요."), array([square_key] => "w8UkEWEiFGzi", [title] => "여백을 채우고 있습니다."), array([square_key] => "w8UkEWEiFGzi", [title] => "Square 3.8"));
+        $new_collection = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, "new", 0, 4, $square_info, $attach_info);
+
+
+        $result = array($top_items, $new_collection);
+
+
+        return $result;
+    }
+
+
     function getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $name, $start, $number, $info, $attach_info)
     {
 
