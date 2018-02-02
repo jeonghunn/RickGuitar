@@ -27,6 +27,8 @@
     padding-bottom: 24px;
     padding-top: 16px;
     font-size: 24px;
+    cursor: pointer;
+    cursor: hand;
 
 
 }
@@ -46,6 +48,10 @@
     padding-top: 16px;
     font-size: 24px;
 
+}
+
+.squarecard_mainbig:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .squarecard_grid:hover {
