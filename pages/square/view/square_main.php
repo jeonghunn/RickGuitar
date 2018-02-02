@@ -21,27 +21,28 @@ importHeader(null);
 
 
     <div class="row">
-        <div class="col-sm-6 col-md-4">
 
-            <div class="squarecard_mainbig">Big 1</div>
+        <?php
 
-
-        </div>
-
-        <div class="col-sm-6 col-md-4">
-
-
-            <div class="squarecard_mainbig">Big 2</div>
-
-        </div>
+        for ($i = 0;
+             $i < count($top_items);
+             $i++) {
+            ?>
 
 
-        <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4">
 
-            <div class="squarecard_mainbig">Big 3</div>
+                <div class="squarecard_mainbig "
+                     onclick="location.href='<?php echo $top_items[$i]["square_key"]; ?>'"><?php P($top_items[$i]['title']); ?></div>
 
 
-        </div>
+            </div>
+
+
+        <?php } ?>
+
+
+
 
 
     </div>
@@ -62,68 +63,25 @@ importHeader(null);
         </div>
             <br>
     <div class="row">
-        <div class="col-sm-6 col-md-3">
+        <?php
 
-            <div class="squarecard_mainbig">Big 1</div>
-
-
-        </div>
-
-        <div class="col-sm-6 col-md-3">
+        for ($i = 0;
+             $i < count($new_items);
+             $i++) {
+            ?>
 
 
-            <div class="squarecard_mainbig">Big 2</div>
+            <div class="col-sm-6 col-md-4">
 
-        </div>
-
-        <div class="col-sm-6 col-md-3">
-
-
-            <div class="squarecard_mainbig">Big 2</div>
-
-        </div>
+                <div class="squarecard_mainbig "
+                     onclick="location.href='<?php echo $new_items[$i]["square_key"]; ?>'"><?php P($new_items[$i]['title']); ?></div>
 
 
-        <div class="col-sm-6 col-md-3">
+            </div>
 
 
-            <div class="squarecard_mainbig">Big 2</div>
-
-        </div>
+        <?php } ?>
 
 
     </div>
-        <br>
-        <div class="row">
-            <div class="col-sm-6 col-md-3">
-
-                <div class="squarecard_mainbig">Big 1</div>
-
-
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-
-
-                <div class="squarecard_mainbig">Big 2</div>
-
-            </div>
-
-            <div class="col-sm-6 col-md-3">
-
-
-                <div class="squarecard_mainbig">Big 2</div>
-
-            </div>
-
-
-            <div class="col-sm-6 col-md-3">
-
-
-                <div class="squarecard_mainbig">Big 2</div>
-
-            </div>
-
-
-        </div>
 
