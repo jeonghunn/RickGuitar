@@ -71,7 +71,7 @@ importHeader(null);
             ?>
 
 
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-3">
 
                 <div class="squarecard_mainbig "
                      onclick="location.href='<?php echo $new_items[$i]["square_key"]; ?>'"><?php P($new_items[$i]['title']); ?></div>
