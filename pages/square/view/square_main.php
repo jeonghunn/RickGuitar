@@ -1,8 +1,9 @@
 <?php
 
 
-$collection_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_main'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()))), true);
-
+$main_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_main'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()))), true);
+$top_items = $main_result['top'];
+$new_items = $main_result['new'];
 
 importHeader(null);
 

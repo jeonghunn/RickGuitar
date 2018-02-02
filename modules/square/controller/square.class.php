@@ -243,7 +243,7 @@ class SquareClass
         $new_collection = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, "new", 0, 4, $square_info, $attach_info);
 
 
-        $result = array($top_items, $new_collection);
+        $result = array('top' => $top_items, 'new' => $new_collection);
 
 
         return $result;
