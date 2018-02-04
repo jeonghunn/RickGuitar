@@ -57,7 +57,9 @@
         <!---->
         <!--        </div>-->
 
+        <br>
 
+        <p id="status_message"></p>
             <br>
             <div id="squarecard"></div>
             <br><br>
@@ -72,9 +74,7 @@
             </div>
         </div>
 
-        <br>
 
-        <p id="status_message"></p>
         <br>
         <button type="button" class="btn btn-outline-dark btn-lg" onclick="addCard()">
             <?php S('write_add_card') ?>
