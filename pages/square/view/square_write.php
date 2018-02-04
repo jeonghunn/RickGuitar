@@ -144,7 +144,7 @@
 
     function getTemp() {
 
-        if (typeof(Storage) !== "undefined") {
+        if (localStorage.getItem('temp_card_count') != 0 && localStorage.getItem('temp_card_count') != null) {
             if (confirm("작성중이던 글이 있습니다. 불러오시겠습니까?")) {
                 //add card first
                 var CardCount = localStorage.getItem('temp_card_count');
