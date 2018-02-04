@@ -5,7 +5,7 @@
 
         <h1 style="text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
     <p id="status_message" style="text-align: center;"></p>
-<br><br>
+    <br>
     <center>
             <div class="outer">
                 <div class="tablerow">
