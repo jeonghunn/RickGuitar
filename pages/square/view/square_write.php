@@ -73,6 +73,9 @@
         </div>
 
         <br>
+
+        <p id="status_message"></p>
+        <br>
         <button type="button" class="btn btn-outline-dark btn-lg" onclick="addCard()">
             <?php S('write_add_card') ?>
         </button>
@@ -81,7 +84,6 @@
             <?php S('write_post') ?>
             </button>
 
-        <p id="status_message"></p>
 
     </center>
     <br><br><br>
