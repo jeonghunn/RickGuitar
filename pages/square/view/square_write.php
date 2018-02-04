@@ -227,6 +227,7 @@
                 setProcessing(false);
                 if (data.indexOf('success') >= 0) {
 
+                    localStorage.clear();//delete temp
                     submitted = true; //success submit
                     var Result = JSON.parse(data);
 
