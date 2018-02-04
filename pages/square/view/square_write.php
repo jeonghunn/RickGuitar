@@ -57,12 +57,12 @@
         <!---->
         <!--        </div>-->
 
-        <br>
 
-        <p id="status_message"></p>
             <br>
             <div id="squarecard"></div>
-            <br><br>
+        <br> <br>
+
+        <p id="status_message"></p><br>
         <div class="dropdown">
             <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="write_status_button">
