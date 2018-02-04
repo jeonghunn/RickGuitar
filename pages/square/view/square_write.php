@@ -117,6 +117,7 @@
             localStorage.setItem(editables[i].getAttribute('id'), editables[i].innerHTML);
 
         }
+        }
     ,
         5000
     );
