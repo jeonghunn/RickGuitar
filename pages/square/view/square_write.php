@@ -4,6 +4,7 @@
 <div class="container">
 
         <h1 style="text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
+    <p id="status_message"></p>
 <br><br>
     <center>
             <div class="outer">
@@ -100,9 +101,25 @@
     window.onload = function () {
 
         setEditor();
+        getTemp();
+
+
+
         document.getElementById("contents_1").focus();
     };
 
+    //temp save
+    setInterval(function () {
+        var editables = document.querySelectorAll('.squarecard');
+        localStorage.setItem('temp_card_count', editables.length);
+        for (var i = 0; i < editables.length; i++) {
+            localStorage.setItem(editables[i].getAttribute('id'), editables[i].innerHTML);
+
+        }
+        document.getElementById("status_messange").innerHTML = "임시 저장되었습니다. " + new Date().toLocaleString();
+    ,
+        5000
+    );
 
     window.onbeforeunload = function () {
 
@@ -110,6 +127,25 @@
             return true;
         }
 
+    }
+
+    function getTemp() {
+
+        if (typeof(Storage) !== "undefined") {
+            if (confirm("작성중이던 글이 있습니다. 불러오시겠습니까?")) {
+                //add card first
+                var CardCount = localStorage.getItem('temp_card_count');
+                for (var i = 1; i <= CardCount; i++) {
+                    if (i != 1) addCard();
+                    document.getElementById("contents_" + i).innerHTML = localStorage.getItem("contents_" + i);
+                }
+
+
+            } else {
+                localStorage.clear();
+            }
+
+        }
     }
 
     function addCard() {
