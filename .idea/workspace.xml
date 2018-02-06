@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" afterPath="$PROJECT_DIR$/core/base.php" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -24,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -115,13 +114,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="35" column="63" lean-forward="false" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
+            <state relative-caret-position="493">
+              <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
               <folding>
-                <element signature="n#style#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#center#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -264,8 +263,8 @@
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_main.php" />
         <option value="$PROJECT_DIR$/pages/css/main.css" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
   </component>
@@ -1334,14 +1333,7 @@
       <workItem from="1517587365756" duration="1652000" />
       <workItem from="1517771650263" duration="3029000" />
       <workItem from="1517907980369" duration="287000" />
-      <workItem from="1517908631626" duration="996000" />
-    </task>
-    <task id="LOCAL-01434" summary="security bug fixed">
-      <created>1517258165709</created>
-      <option name="number" value="01434" />
-      <option name="presentableId" value="LOCAL-01434" />
-      <option name="project" value="LOCAL" />
-      <updated>1517258165709</updated>
+      <workItem from="1517908631626" duration="1266000" />
     </task>
     <task id="LOCAL-01435" summary="security bug fixed">
       <created>1517258354125</created>
@@ -1679,11 +1671,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517910688127</updated>
     </task>
-    <option name="localTasksCounter" value="1483" />
+    <task id="LOCAL-01483" summary="front editor updated">
+      <created>1517910875000</created>
+      <option name="number" value="01483" />
+      <option name="presentableId" value="LOCAL-01483" />
+      <option name="project" value="LOCAL" />
+      <updated>1517910875000</updated>
+    </task>
+    <option name="localTasksCounter" value="1484" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1174797000" />
+    <option name="totallyTimeSpent" value="1175067000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1792,7 +1791,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="collection updated" />
     <MESSAGE value="setTitle updated" />
     <MESSAGE value="collection bug fixed" />
     <MESSAGE value="start number bug fixed" />
@@ -1817,7 +1815,8 @@
     <MESSAGE value="temp save updated" />
     <MESSAGE value="temp save bug fixed" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="front editor updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="front editor updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2201,16 +2200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="35" column="63" lean-forward="false" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -2220,6 +2209,16 @@
             <marker date="1517910864199" expanded="true" signature="6563:6695" ph="SELECT * FRO... favorite" />
             <marker date="1517910864199" expanded="true" signature="6747:6879" ph="SELECT * FRO... favorite" />
             <marker date="1517910864199" expanded="true" signature="6930:6981" ph="SELECT * FRO... pages" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#center#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -30,6 +30,9 @@
         <!--        <div>-->
         <!--            <br>-->
         <!---->
+
+        <div id="edit"></div>
+        <br>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
              style=" display: inline-block;">
             <div class="btn-group btn-group-lg" role="group" aria-label="First group">
@@ -54,6 +57,7 @@
             </div>
         </div>
 
+</div>
 
         <br>
             <div id="squarecard"></div>
