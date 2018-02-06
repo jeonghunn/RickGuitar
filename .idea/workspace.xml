@@ -23,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -114,11 +114,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="100" lean-forward="false" selection-start-line="11" selection-start-column="100" selection-end-line="11" selection-end-column="100" />
+              <caret line="11" column="90" lean-forward="false" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
               <folding />
             </state>
           </provider>
@@ -1331,14 +1331,7 @@
       <workItem from="1517587365756" duration="1652000" />
       <workItem from="1517771650263" duration="3029000" />
       <workItem from="1517907980369" duration="287000" />
-      <workItem from="1517908631626" duration="47000" />
-    </task>
-    <task id="LOCAL-01431" summary="collection page updated">
-      <created>1517257834583</created>
-      <option name="number" value="01431" />
-      <option name="presentableId" value="LOCAL-01431" />
-      <option name="project" value="LOCAL" />
-      <updated>1517257834583</updated>
+      <workItem from="1517908631626" duration="572000" />
     </task>
     <task id="LOCAL-01432" summary="collection page updated">
       <created>1517257908960</created>
@@ -1676,11 +1669,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517774375611</updated>
     </task>
-    <option name="localTasksCounter" value="1480" />
+    <task id="LOCAL-01480" summary="test">
+      <created>1517908688770</created>
+      <option name="number" value="01480" />
+      <option name="presentableId" value="LOCAL-01480" />
+      <option name="project" value="LOCAL" />
+      <updated>1517908688770</updated>
+    </task>
+    <option name="localTasksCounter" value="1481" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1173848000" />
+    <option name="totallyTimeSpent" value="1174373000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1700,8 +1700,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549801" sideWeight="0.65416664" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549801" sideWeight="0.65625" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549801" sideWeight="0.34375" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.4978701" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1728,7 +1729,6 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943678" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3258278" sideWeight="0.49513888" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549801" sideWeight="0.34583333" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13099042" sideWeight="0.45953143" order="7" side_tool="false" content_ui="tabs" />
@@ -1801,7 +1801,6 @@
     <MESSAGE value="collection page updated" />
     <MESSAGE value="security bug fixed" />
     <MESSAGE value="getSummarizedTitle bug fixed" />
-    <MESSAGE value="test" />
     <MESSAGE value="squarewrite prevent close added" />
     <MESSAGE value="squarewrite prevent close bug fixed test" />
     <MESSAGE value="squarewrite prevent close bug fixed" />
@@ -1814,7 +1813,8 @@
     <MESSAGE value="temp save status message updated" />
     <MESSAGE value="temp save updated" />
     <MESSAGE value="temp save bug fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="temp save bug fixed" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2190,19 +2190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <marker date="1517774367112" expanded="true" signature="6355:6409" ph="..." />
-            <marker date="1517774367112" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
-            <marker date="1517774367112" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
-            <marker date="1517774367112" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/medium-editor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85665">
@@ -2214,8 +2201,21 @@
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="100" lean-forward="false" selection-start-line="11" selection-start-column="100" selection-end-line="11" selection-end-column="100" />
+          <caret line="11" column="90" lean-forward="false" selection-start-line="11" selection-start-column="90" selection-end-line="11" selection-end-column="90" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <marker date="1517774367112" expanded="true" signature="6355:6409" ph="..." />
+            <marker date="1517774367112" expanded="true" signature="6568:6700" ph="SELECT * FRO... favorite" />
+            <marker date="1517774367112" expanded="true" signature="6752:6884" ph="SELECT * FRO... favorite" />
+            <marker date="1517774367112" expanded="true" signature="6935:6986" ph="SELECT * FRO... pages" />
+          </folding>
         </state>
       </provider>
     </entry>
