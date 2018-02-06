@@ -30,35 +30,32 @@
         <!--        <div>-->
         <!--            <br>-->
         <!---->
-        <!--            <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"-->
-        <!--                 style=" display: inline-block;">-->
-        <!--                <div class="btn-group btn-group-lg" role="group" aria-label="First group">-->
-        <!--                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-camera"-->
-        <!--                                                                        aria-hidden="true"></span></button>-->
-        <!--                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-file"-->
-        <!--                                                                        aria-hidden="true"></span></button>-->
-        <!--                </div>-->
-        <!--                <div class="btn-group btn-group-lg" role="group" aria-label="Second group">-->
-        <!--                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-font"-->
-        <!--                                                                        aria-hidden="true"></span></button>-->
-        <!--                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-bold"-->
-        <!--                                                                        aria-hidden="true"></span></button>-->
-        <!--                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-italic"-->
-        <!--                                                                        aria-hidden="true"></span></button>-->
-        <!--                </div>-->
-        <!--                <div class="btn-group btn-group-lg" role="group" aria-label="Third group">-->
-        <!--                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-left"-->
-        <!--                                                                        aria-hidden="true"></span></button>-->
-        <!--                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-center"-->
-        <!--                                                                        aria-hidden="true"></span></button>-->
-        <!--                </div>-->
-        <!--            </div>-->
-        <!---->
-        <!---->
-        <!--        </div>-->
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
+             style=" display: inline-block;">
+            <div class="btn-group btn-group-lg" role="group" aria-label="First group">
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-camera"
+                                                                    aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-file"
+                                                                    aria-hidden="true"></span></button>
+            </div>
+            <div class="btn-group btn-group-lg" role="group" aria-label="Second group">
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-font"
+                                                                    aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-bold"
+                                                                    aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-italic"
+                                                                    aria-hidden="true"></span></button>
+            </div>
+            <div class="btn-group btn-group-lg" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-left"
+                                                                    aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-center"
+                                                                    aria-hidden="true"></span></button>
+            </div>
+        </div>
 
 
-            <br>
+        <br>
             <div id="squarecard"></div>
         <br> <br>
 
@@ -98,6 +95,7 @@
 
     var editor = null;
     var cardcount = 1;
+    var activeCard = 0;
     var status = '0';
     var isProcessing = false;
     var submitted = false;
@@ -274,7 +272,10 @@
         return content;
     }
 
+    function activeCardEditor(card_n) {
 
+
+    }
     function replaceAll(str, searchStr, replaceStr) {
         return str.split(searchStr).join(replaceStr);
     }
