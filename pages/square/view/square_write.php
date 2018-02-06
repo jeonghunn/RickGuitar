@@ -9,7 +9,7 @@
     <center>
             <div class="outer">
                 <div class="tablerow">
-                    <div class="squarecard" id="contents_1" contentEditable="true"></div>
+                    <div class="squarecard" id="contents_1" contentEditable="true" onfocus="alert(0)"></div>
                 </div>
             </div>
 
@@ -141,6 +141,7 @@
         }
 
     }
+
 
     function getTemp() {
 
