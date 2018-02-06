@@ -31,7 +31,7 @@
         <!--            <br>-->
         <!---->
 
-        <div id="edit"></div>
+        <div id="edit">
         <br>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
              style=" display: inline-block;">
