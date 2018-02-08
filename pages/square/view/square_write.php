@@ -189,7 +189,7 @@
         document.getElementById("edit_" + num).style = 'display:none;';
     }
 
-    function showEditor() {
+    function showEditor(num) {
         document.getElementById("edit_" + num).style = '';
     }
 
