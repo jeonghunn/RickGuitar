@@ -174,11 +174,11 @@
 
         if (active_card != cardnum) {
             //old card editor disable
-            if (active_card != 0) hideEditor(active_card);
+            hideEditor(active_card);
 //activeCardChange
             active_card = cardnum;
             //showcard
-            if (active_card != 0) showEditor(active_card);
+            showEditor(active_card);
 
         }
 
@@ -187,12 +187,12 @@
 
     function hideEditor(num) {
         var editorid = "edit_" + num;
-        document.getElementById(editorid).style = 'display:none;';
+        if (num != 0) document.getElementById(editorid).style = 'display:none;';
     }
 
     function showEditor(num) {
         var editorid = "edit_" + num;
-        document.getElementById(editorid).style = '';
+        if (num != 0) document.getElementById(editorid).style = '';
     }
 
     function addCard() {
@@ -233,7 +233,7 @@
             '</div>'
         $(cardadd + editor).insertBefore('#squarecard');
         setEditor();
-        activeCard(cardcount);
+        hideEditor(active_card);
 
     }
 
