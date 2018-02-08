@@ -64,6 +64,8 @@
       <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
       <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
+      <!--      Icons-->
+      <link rel="stylesheet" href="pages/css/iconic/open-iconic-bootstrap.css">
 
       <!--     Medium Editor -->
       <link rel="stylesheet" href="pages/css/medium-editor.css">
