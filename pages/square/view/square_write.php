@@ -38,22 +38,16 @@
             <div class="btn-group btn-group-lg" role="group" aria-label="First group">
                 <button type="button" class="btn btn-secondary"><span class="oi oi-camera-slr" title="icon name"
                                                                       aria-hidden="true"></span></button>
-                <button type="button" class="btn btn-secondary"><span class="glyphicon glyphicon-file"
-                                                                      aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-secondary"><span class="oi oi-file"></span></button>
             </div>
             <div class="btn-group btn-group-lg" role="group" aria-label="Second group">
-                <button type="button" class="btn btn-secondary"><span class="glyphicon glyphicon-font"
-                                                                      aria-hidden="true"></span></button>
-                <button type="button" class="btn btn-secondary"><span class="glyphicon glyphicon-bold"
-                                                                      aria-hidden="true"></span></button>
-                <button type="button" class="btn btn-secondary"><span class="glyphicon glyphicon-italic"
-                                                                      aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-secondary"><span class="oi oi-text"></span></button>
+                <button type="button" class="btn btn-secondary"><span class="oi oi-bold"></span></button>
+                <button type="button" class="btn btn-secondary"><span class="oi oi-italic"></span></button>
             </div>
             <div class="btn-group btn-group-lg" role="group" aria-label="Third group">
-                <button type="button" class="btn btn-secondary"><span class="glyphicon glyphicon-align-left"
-                                                                      aria-hidden="true"></span></button>
-                <button type="button" class="btn btn-secondary"><span class="glyphicon glyphicon-align-center"
-                                                                      aria-hidden="true"></span></button>
+                <button type="button" class="btn btn-secondary"><span class="oi oi-justify-left"></span></button>
+                <button type="button" class="btn btn-secondary"><span class="oi oi-justify-center"></span></button>
             </div>
         </div>
 
