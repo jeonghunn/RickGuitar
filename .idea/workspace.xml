@@ -108,7 +108,7 @@
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="38" column="102" lean-forward="false" selection-start-line="38" selection-start-column="102" selection-end-line="38" selection-end-column="102" />
+              <caret line="38" column="93" lean-forward="false" selection-start-line="38" selection-start-column="93" selection-end-line="38" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -1332,14 +1332,7 @@
       <workItem from="1517771650263" duration="3029000" />
       <workItem from="1517907980369" duration="287000" />
       <workItem from="1517908631626" duration="1397000" />
-      <workItem from="1518061508663" duration="542000" />
-    </task>
-    <task id="LOCAL-01439" summary="getSummarizedTitle bug fixed">
-      <created>1517322385151</created>
-      <option name="number" value="01439" />
-      <option name="presentableId" value="LOCAL-01439" />
-      <option name="project" value="LOCAL" />
-      <updated>1517322385152</updated>
+      <workItem from="1518061508663" duration="716000" />
     </task>
     <task id="LOCAL-01440" summary="getSummarizedTitle bug fixed">
       <created>1517322460199</created>
@@ -1677,11 +1670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518061673240</updated>
     </task>
-    <option name="localTasksCounter" value="1488" />
+    <task id="LOCAL-01488" summary="iconic added">
+      <created>1518062092431</created>
+      <option name="number" value="01488" />
+      <option name="presentableId" value="LOCAL-01488" />
+      <option name="project" value="LOCAL" />
+      <updated>1518062092431</updated>
+    </task>
+    <option name="localTasksCounter" value="1489" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1175740000" />
+    <option name="totallyTimeSpent" value="1175914000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2193,14 +2193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="67" column="73" lean-forward="false" selection-start-line="67" selection-start-column="73" selection-end-line="67" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -2214,10 +2206,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="67" column="73" lean-forward="false" selection-start-line="67" selection-start-column="73" selection-end-line="67" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="38" column="102" lean-forward="false" selection-start-line="38" selection-start-column="102" selection-end-line="38" selection-end-column="102" />
+          <caret line="38" column="93" lean-forward="false" selection-start-line="38" selection-start-column="93" selection-end-line="38" selection-end-column="93" />
           <folding />
         </state>
       </provider>

@@ -36,7 +36,8 @@
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
              style=" display: inline-block;">
             <div class="btn-group btn-group-lg" role="group" aria-label="First group">
-                <button type="button" class="btn btn-secondary"><span class="oi oi-camera-slr"></span></button>
+                <button type="button" class="btn btn-secondary"><span class="oi oi-camera-slr" title="icon name"
+                                                                      aria-hidden="true"></span></button>
                 <button type="button" class="btn btn-secondary"><span class="glyphicon glyphicon-file"
                                                                       aria-hidden="true"></span></button>
             </div>
