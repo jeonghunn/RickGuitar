@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "3.8.208.14.51";
+    return "3.8.208.14.53";
 }
 
 //Basic Info
