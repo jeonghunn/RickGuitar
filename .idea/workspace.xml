@@ -87,10 +87,10 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="192" column="56" lean-forward="false" selection-start-line="192" selection-start-column="56" selection-end-line="192" selection-end-column="56" />
+            <state relative-caret-position="135">
+              <caret line="189" column="40" lean-forward="false" selection-start-line="189" selection-start-column="40" selection-end-line="189" selection-end-column="40" />
               <folding>
-                <marker date="1518067624124" expanded="true" signature="7363:7386" ph="..." />
+                <marker date="1518067944085" expanded="true" signature="7421:7444" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1334,14 +1334,7 @@
       <workItem from="1517771650263" duration="3029000" />
       <workItem from="1517907980369" duration="287000" />
       <workItem from="1517908631626" duration="1397000" />
-      <workItem from="1518061508663" duration="5079000" />
-    </task>
-    <task id="LOCAL-01452" summary="squarewrite prevent close bug fixed test">
-      <created>1517473956362</created>
-      <option name="number" value="01452" />
-      <option name="presentableId" value="LOCAL-01452" />
-      <option name="project" value="LOCAL" />
-      <updated>1517473956362</updated>
+      <workItem from="1518061508663" duration="5398000" />
     </task>
     <task id="LOCAL-01453" summary="squarewrite prevent close bug fixed test">
       <created>1517474006859</created>
@@ -1679,11 +1672,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518067369657</updated>
     </task>
-    <option name="localTasksCounter" value="1501" />
+    <task id="LOCAL-01501" summary="test">
+      <created>1518067633864</created>
+      <option name="number" value="01501" />
+      <option name="presentableId" value="LOCAL-01501" />
+      <option name="project" value="LOCAL" />
+      <updated>1518067633864</updated>
+    </task>
+    <option name="localTasksCounter" value="1502" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1180277000" />
+    <option name="totallyTimeSpent" value="1180596000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1811,13 +1811,13 @@
     <MESSAGE value="temp save status message updated" />
     <MESSAGE value="temp save updated" />
     <MESSAGE value="temp save bug fixed" />
-    <MESSAGE value="test" />
     <MESSAGE value="front editor updated" />
     <MESSAGE value="iconic added" />
     <MESSAGE value="editor icon updated" />
     <MESSAGE value="editor updated" />
     <MESSAGE value="editor active updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="editor active updated" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2219,10 +2219,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="192" column="56" lean-forward="false" selection-start-line="192" selection-start-column="56" selection-end-line="192" selection-end-column="56" />
+        <state relative-caret-position="135">
+          <caret line="189" column="40" lean-forward="false" selection-start-line="189" selection-start-column="40" selection-end-line="189" selection-end-column="40" />
           <folding>
-            <marker date="1518067624124" expanded="true" signature="7363:7386" ph="..." />
+            <marker date="1518067944085" expanded="true" signature="7421:7444" ph="..." />
           </folding>
         </state>
       </provider>

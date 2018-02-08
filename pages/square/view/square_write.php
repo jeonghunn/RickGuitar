@@ -186,11 +186,13 @@
 
 
     function hideEditor(num) {
-        document.getElementById("edit_" + num).innerText = 'display:none;';
+        var editorid = "edit_" + num;
+        document.getElementById(editorid).style = 'display:none;';
     }
 
     function showEditor(num) {
-        document.getElementById("edit_" + num).innerText = '';
+        var editorid = "edit_" + num;
+        document.getElementById(editorid).style = '';
     }
 
     function addCard() {
