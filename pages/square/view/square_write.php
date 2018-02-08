@@ -174,11 +174,11 @@
 
         if (active_card != cardnum) {
             //old card editor disable
-            hideEditor(active_card);
+            if (active_card != 0) hideEditor(active_card);
 //activeCardChange
             active_card = cardnum;
             //showcard
-            showEditor(active_card);
+            if (active_card != 0) showEditor(active_card);
 
         }
 
