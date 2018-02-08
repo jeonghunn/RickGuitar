@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-bootstrap.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-bootstrap.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-bootstrap.styl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-foundation.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-foundation.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-foundation.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-foundation.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic-foundation.styl" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pages/css/iconic/open-iconic.styl" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +23,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -118,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+            <state relative-caret-position="154">
+              <caret line="38" column="102" lean-forward="false" selection-start-line="38" selection-start-column="102" selection-end-line="38" selection-end-column="102" />
               <folding />
             </state>
           </provider>
@@ -274,9 +260,9 @@
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_main.php" />
         <option value="$PROJECT_DIR$/pages/css/main.css" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
   </component>
@@ -1346,14 +1332,7 @@
       <workItem from="1517771650263" duration="3029000" />
       <workItem from="1517907980369" duration="287000" />
       <workItem from="1517908631626" duration="1397000" />
-      <workItem from="1518061508663" duration="153000" />
-    </task>
-    <task id="LOCAL-01438" summary="test">
-      <created>1517258780746</created>
-      <option name="number" value="01438" />
-      <option name="presentableId" value="LOCAL-01438" />
-      <option name="project" value="LOCAL" />
-      <updated>1517258780746</updated>
+      <workItem from="1518061508663" duration="542000" />
     </task>
     <task id="LOCAL-01439" summary="getSummarizedTitle bug fixed">
       <created>1517322385151</created>
@@ -1691,11 +1670,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518061624702</updated>
     </task>
-    <option name="localTasksCounter" value="1487" />
+    <task id="LOCAL-01487" summary="iconic added">
+      <created>1518061673240</created>
+      <option name="number" value="01487" />
+      <option name="presentableId" value="LOCAL-01487" />
+      <option name="project" value="LOCAL" />
+      <updated>1518061673240</updated>
+    </task>
+    <option name="localTasksCounter" value="1488" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1175351000" />
+    <option name="totallyTimeSpent" value="1175740000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1708,6 +1694,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32949308" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1723,7 +1710,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18636848" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20902778" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20902778" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2198,14 +2185,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -2232,6 +2211,14 @@
             <marker date="1518061604644" expanded="true" signature="6747:6879" ph="SELECT * FRO... favorite" />
             <marker date="1518061604644" expanded="true" signature="6930:6981" ph="SELECT * FRO... pages" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="38" column="102" lean-forward="false" selection-start-line="38" selection-start-column="102" selection-end-line="38" selection-end-column="102" />
+          <folding />
         </state>
       </provider>
     </entry>
