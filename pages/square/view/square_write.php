@@ -104,7 +104,7 @@
 
     var editor = null;
     var cardcount = 1;
-    var activeCard = 0;
+    var active_card = 0;
     var status = '0';
     var isProcessing = false;
     var submitted = false;
@@ -172,13 +172,13 @@
     function activeCard(cardnum) {
 
 
-        if (activeCard != cardnum) {
+        if (active_card != cardnum) {
             //old card editor disable
-            hideEditor(activeCard);
+            hideEditor(active_card);
 //activeCardChange
-            activeCard = cardnum;
+            active_card = cardnum;
             //showcard
-            showEditor(activeCard);
+            showEditor(active_card);
 
         }
 
