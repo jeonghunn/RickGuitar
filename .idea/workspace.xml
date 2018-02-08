@@ -30,10 +30,10 @@
             <state relative-caret-position="60">
               <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <marker date="1518063274096" expanded="true" signature="6356:6410" ph="..." />
-                <marker date="1518063274096" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-                <marker date="1518063274096" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-                <marker date="1518063274096" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+                <marker date="1518064283656" expanded="true" signature="6356:6410" ph="..." />
+                <marker date="1518064283656" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+                <marker date="1518064283656" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+                <marker date="1518064283656" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -98,9 +98,11 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="56" column="109" lean-forward="false" selection-start-line="56" selection-start-column="109" selection-end-line="56" selection-end-column="109" />
-              <folding />
+            <state relative-caret-position="377">
+              <caret line="225" column="26" lean-forward="false" selection-start-line="225" selection-start-column="26" selection-end-line="225" selection-end-column="26" />
+              <folding>
+                <marker date="1518064253974" expanded="true" signature="6990:7013" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,7 +158,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>square</find>
       <find>32</find>
       <find>onload</find>
       <find>background</find>
@@ -186,6 +187,7 @@
       <find>checkWrote</find>
       <find>focus</find>
       <find>type</find>
+      <find>activeCard</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -1333,14 +1335,7 @@
       <workItem from="1517771650263" duration="3029000" />
       <workItem from="1517907980369" duration="287000" />
       <workItem from="1517908631626" duration="1397000" />
-      <workItem from="1518061508663" duration="1682000" />
-    </task>
-    <task id="LOCAL-01447" summary="squarewrite prevent close bug fixed test">
-      <created>1517473147000</created>
-      <option name="number" value="01447" />
-      <option name="presentableId" value="LOCAL-01447" />
-      <option name="project" value="LOCAL" />
-      <updated>1517473147000</updated>
+      <workItem from="1518061508663" duration="2684000" />
     </task>
     <task id="LOCAL-01448" summary="squarewrite prevent close bug fixed test">
       <created>1517473267727</created>
@@ -1678,11 +1673,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518063049027</updated>
     </task>
-    <option name="localTasksCounter" value="1496" />
+    <task id="LOCAL-01496" summary="editor updated">
+      <created>1518063280191</created>
+      <option name="number" value="01496" />
+      <option name="presentableId" value="LOCAL-01496" />
+      <option name="project" value="LOCAL" />
+      <updated>1518063280191</updated>
+    </task>
+    <option name="localTasksCounter" value="1497" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1176880000" />
+    <option name="totallyTimeSpent" value="1177882000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1821,7 +1823,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2204,9 +2206,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="56" column="109" lean-forward="false" selection-start-line="56" selection-start-column="109" selection-end-line="56" selection-end-column="109" />
-          <folding />
+        <state relative-caret-position="377">
+          <caret line="225" column="26" lean-forward="false" selection-start-line="225" selection-start-column="26" selection-end-line="225" selection-end-column="26" />
+          <folding>
+            <marker date="1518064253974" expanded="true" signature="6990:7013" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2215,10 +2219,10 @@
         <state relative-caret-position="60">
           <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1518063274096" expanded="true" signature="6356:6410" ph="..." />
-            <marker date="1518063274096" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-            <marker date="1518063274096" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-            <marker date="1518063274096" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+            <marker date="1518064283656" expanded="true" signature="6356:6410" ph="..." />
+            <marker date="1518064283656" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+            <marker date="1518064283656" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+            <marker date="1518064283656" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>

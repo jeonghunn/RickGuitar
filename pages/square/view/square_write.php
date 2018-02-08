@@ -9,7 +9,7 @@
     <center>
             <div class="outer">
                 <div class="tablerow">
-                    <div class="squarecard" id="contents_1" contentEditable="true" onclick="alert(0)"></div>
+                    <div class="squarecard" id="contents_1" contentEditable="true" onclick="activeCard(1)"></div>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@
         <!--            <br>-->
         <!---->
 
-        <div id="edit">
+        <div id="edit_1">
         <br>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
              style=" display: inline-block;">
@@ -169,11 +169,59 @@
         }
     }
 
+    function activeCard(cardnum) {
+
+
+        if (activeCard != cardnum) {
+            //old card editor disable
+
+
+        }
+
+    }
+
+
+    function hideEditor() {
+
+    }
+
     function addCard() {
 
         cardcount = cardcount + 1;
         var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" contentEditable="true"></div></div><div><br>';
-        $(cardadd).insertBefore('#squarecard');
+        var editor = '<div id="edit_' + cardcount + '">\n' +
+            '        <br>\n' +
+            '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
+            '             style=" display: inline-block;">\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="First group">\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
+            '                                                                                  title="icon name"\n' +
+            '                                                                                  aria-hidden="true"></span></button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>\n' +
+            '            </div>\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="Second group">\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-text"></span></button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-bold"></span></button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-italic"></span></button>\n' +
+            '            </div>\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="Third group">\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-justify-left"></span>\n' +
+            '                </button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-justify-center"></span>\n' +
+            '                </button>\n' +
+            '            </div>\n' +
+            '\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>\n' +
+            '                </button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span\n' +
+            '                            class="oi oi-caret-bottom"></span></span>\n' +
+            '                </button>\n' +
+            '            </div>\n' +
+            '        </div>\n' +
+            '\n' +
+            '</div>'
+        $(cardadd + editor).insertBefore('#squarecard');
         setEditor();
 
     }
