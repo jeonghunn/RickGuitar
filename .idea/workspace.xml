@@ -27,13 +27,13 @@
       <file leaf-file-name="base.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="60">
+              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding>
-                <marker date="1518069229090" expanded="true" signature="6356:6410" ph="..." />
-                <marker date="1518069229090" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-                <marker date="1518069229090" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-                <marker date="1518069229090" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+                <marker date="1518069314250" expanded="true" signature="6356:6410" ph="..." />
+                <marker date="1518069314250" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+                <marker date="1518069314250" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+                <marker date="1518069314250" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
               </folding>
             </state>
           </provider>
@@ -88,10 +88,10 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="106" column="23" lean-forward="false" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+            <state relative-caret-position="340">
+              <caret line="236" column="32" lean-forward="false" selection-start-line="236" selection-start-column="32" selection-end-line="236" selection-end-column="32" />
               <folding>
-                <marker date="1518069229095" expanded="true" signature="7449:7472" ph="..." />
+                <marker date="1518069304612" expanded="true" signature="7449:7472" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1335,14 +1335,7 @@
       <workItem from="1517771650263" duration="3029000" />
       <workItem from="1517907980369" duration="287000" />
       <workItem from="1517908631626" duration="1397000" />
-      <workItem from="1518061508663" duration="6571000" />
-    </task>
-    <task id="LOCAL-01458" summary="kakao disable feature added">
-      <created>1517478854579</created>
-      <option name="number" value="01458" />
-      <option name="presentableId" value="LOCAL-01458" />
-      <option name="project" value="LOCAL" />
-      <updated>1517478854579</updated>
+      <workItem from="1518061508663" duration="6656000" />
     </task>
     <task id="LOCAL-01459" summary="kakao disable feature added">
       <created>1517478879072</created>
@@ -1680,11 +1673,18 @@
       <option name="project" value="LOCAL" />
       <updated>1518069114511</updated>
     </task>
-    <option name="localTasksCounter" value="1507" />
+    <task id="LOCAL-01507" summary="editor active card bug fixed">
+      <created>1518069242537</created>
+      <option name="number" value="01507" />
+      <option name="presentableId" value="LOCAL-01507" />
+      <option name="project" value="LOCAL" />
+      <updated>1518069242537</updated>
+    </task>
+    <option name="localTasksCounter" value="1508" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1181769000" />
+    <option name="totallyTimeSpent" value="1181854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1793,7 +1793,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="collection page updated" />
     <MESSAGE value="security bug fixed" />
     <MESSAGE value="getSummarizedTitle bug fixed" />
     <MESSAGE value="squarewrite prevent close added" />
@@ -1818,7 +1817,8 @@
     <MESSAGE value="activeEditor bug fixed" />
     <MESSAGE value="editor animation updated" />
     <MESSAGE value="editor cardadd editor display updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="editor cardadd editor display updated" />
+    <MESSAGE value="editor active card bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="editor active card bug fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2207,23 +2207,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="106" column="23" lean-forward="false" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="23" />
+        <state relative-caret-position="340">
+          <caret line="236" column="32" lean-forward="false" selection-start-line="236" selection-start-column="32" selection-end-line="236" selection-end-column="32" />
           <folding>
-            <marker date="1518069229095" expanded="true" signature="7449:7472" ph="..." />
+            <marker date="1518069304612" expanded="true" signature="7449:7472" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
           <folding>
-            <marker date="1518069229090" expanded="true" signature="6356:6410" ph="..." />
-            <marker date="1518069229090" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
-            <marker date="1518069229090" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
-            <marker date="1518069229090" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
+            <marker date="1518069314250" expanded="true" signature="6356:6410" ph="..." />
+            <marker date="1518069314250" expanded="true" signature="6569:6701" ph="SELECT * FRO... favorite" />
+            <marker date="1518069314250" expanded="true" signature="6753:6885" ph="SELECT * FRO... favorite" />
+            <marker date="1518069314250" expanded="true" signature="6936:6987" ph="SELECT * FRO... pages" />
           </folding>
         </state>
       </provider>

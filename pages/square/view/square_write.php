@@ -234,6 +234,7 @@
         $(cardadd + editor).insertBefore('#squarecard');
         setEditor();
         hideEditor(active_card);
+        active_card = cardcount;
 
     }
 
