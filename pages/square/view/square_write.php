@@ -44,7 +44,7 @@
             <div class="btn-group btn-group" role="group" aria-label="Second group">
                 <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-text"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-bold"></span></button>
-                <button type="button" class="btn btn btn-outline-secondaryy"><span class="oi oi-italic"></span></button>
+                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-italic"></span></button>
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Third group">
                 <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-justify-left"></span>
