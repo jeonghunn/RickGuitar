@@ -52,6 +52,14 @@
                 <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-justify-center"></span>
                 </button>
             </div>
+
+            <div class="btn-group btn-group" role="group" aria-label="4 group">
+                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>
+                </button>
+                <button type="button" class="btn btn btn-outline-secondary"><span
+                            class="oi oi-caret-bottom"></span></span>
+                </button>
+            </div>
         </div>
 
 </div>
