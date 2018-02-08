@@ -35,17 +35,17 @@
         <br>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
              style=" display: inline-block;">
-            <div class="btn-group btn-group-lg" role="group" aria-label="First group">
+            <div class="btn-group btn-group" role="group" aria-label="First group">
                 <button type="button" class="btn btn-secondary"><span class="oi oi-camera-slr" title="icon name"
                                                                       aria-hidden="true"></span></button>
                 <button type="button" class="btn btn-secondary"><span class="oi oi-file"></span></button>
             </div>
-            <div class="btn-group btn-group-lg" role="group" aria-label="Second group">
+            <div class="btn-group btn-group" role="group" aria-label="Second group">
                 <button type="button" class="btn btn-secondary"><span class="oi oi-text"></span></button>
                 <button type="button" class="btn btn-secondary"><span class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn-secondary"><span class="oi oi-italic"></span></button>
             </div>
-            <div class="btn-group btn-group-lg" role="group" aria-label="Third group">
+            <div class="btn-group btn-group" role="group" aria-label="Third group">
                 <button type="button" class="btn btn-secondary"><span class="oi oi-justify-left"></span></button>
                 <button type="button" class="btn btn-secondary"><span class="oi oi-justify-center"></span></button>
             </div>
