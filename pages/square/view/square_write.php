@@ -174,21 +174,29 @@
 
         if (activeCard != cardnum) {
             //old card editor disable
-
+            hideEditor(activeCard);
+//activeCardChange
+            activeCard = cardnum;
+            //showcard
+            showEditor(activeCard);
 
         }
 
     }
 
 
-    function hideEditor() {
+    function hideEditor(num) {
+        document.getElementById("edit_" + num).style = 'display:none;';
+    }
 
+    function showEditor() {
+        document.getElementById("edit_" + num).style = '';
     }
 
     function addCard() {
 
         cardcount = cardcount + 1;
-        var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" contentEditable="true"></div></div><div><br>';
+        var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div></div><div><br>';
         var editor = '<div id="edit_' + cardcount + '">\n' +
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
