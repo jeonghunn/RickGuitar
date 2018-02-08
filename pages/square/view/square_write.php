@@ -201,7 +201,7 @@
         var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div></div><div><br>';
         var editor = '<div id="edit_' + cardcount + '">\n' +
             '        <br>\n' +
-            '        <div class="btn-toolbar animated filpInX" role="toolbar" aria-label="Toolbar with button groups"\n' +
+            '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
             '             style=" display: inline-block;">\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="First group">\n' +
             '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
@@ -233,6 +233,7 @@
             '</div>'
         $(cardadd + editor).insertBefore('#squarecard');
         setEditor();
+        activeCard(cardcount);
 
     }
 
