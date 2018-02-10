@@ -52,7 +52,8 @@
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('JustifyLeft')">
                     <span class="oi oi-justify-left"></span>
                 </button>
-                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-justify-center"></span>
+                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('JustifyCenter')">
+                    <span class="oi oi-justify-center"></span>
                 </button>
             </div>
 
@@ -220,13 +221,13 @@
             '            </div>\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="Second group">\n' +
             '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-text"></span></button>\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'bold\', \'content_1\')"><span class="oi oi-bold"></span></button>\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-italic"></span></button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'bold\')"><span class="oi oi-bold"></span></button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'italic\')"><span class="oi oi-italic"></span></button>\n' +
             '            </div>\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="Third group">\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-justify-left"></span>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'JustifyLeft\')"><span class="oi oi-justify-left"></span>\n' +
             '                </button>\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-justify-center"></span>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'JustifyCenter\')"><span class="oi oi-justify-center"></span>\n' +
             '                </button>\n' +
             '            </div>\n' +
             '\n' +
