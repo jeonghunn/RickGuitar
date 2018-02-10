@@ -43,7 +43,8 @@
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
                 <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-text"></span></button>
-                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-bold"></span></button>
+                <button type="button" class="btn btn btn-outline-secondary"
+                        onclick="setEditorAction('bold', 'content_1')"><span class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-italic"></span></button>
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Third group">
@@ -183,6 +184,13 @@
         }
 
     }
+
+
+    function setEditorAction(action, target) {
+        document.execCommand(action);
+        document.getElementById(target).innerHTML;
+    }
+
 
 
     function hideEditor(num) {
