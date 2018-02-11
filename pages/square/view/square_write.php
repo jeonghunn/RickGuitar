@@ -70,8 +70,8 @@
             <!--     Size, Font       -->
             <div class="collapse" id="fontcontrol">
                 <br>
-                <div class="card card-body">
-                    크기 <select name="font_size" id="font_size">
+
+                크기 <select name="font_size" id="font_size">
                         <option value="9">9</option>
                         <option value="9">10</option>
                         <option value="9">11</option>
@@ -90,7 +90,7 @@
                     </select>
                     글씨체
                     색상
-                </div>
+
             </div>
 </div>
 
