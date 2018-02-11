@@ -88,8 +88,20 @@
                         <option value="9">144</option>
 
                     </select>
-                    글씨체
-                    색상
+                글씨체 <select name="font" id="font">
+                    <option value="9">기본</option>
+                    <option value="9">나눔고딕</option>
+                    <option value="9">나눔스퀘어</option>
+
+
+                </select>
+                색상 <select name="font" id="font">
+                    <option value="9">빨강</option>
+                    <option value="9">주황</option>
+                    <option value="9">노랑</option>
+
+
+                </select>
 
             </div>
 </div>
