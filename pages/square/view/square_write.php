@@ -71,8 +71,25 @@
             <div class="collapse" id="fontcontrol">
                 <br>
                 <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    크기 <select name="font_size" id="font_size">
+                        <option value="9">9</option>
+                        <option value="9">10</option>
+                        <option value="9">11</option>
+                        <option value="9">12</option>
+                        <option value="9">14</option>
+                        <option value="9">16</option>
+                        <option value="9">20</option>
+                        <option value="9">28</option>
+                        <option value="9">32</option>
+                        <option value="9">40</option>
+                        <option value="9">48</option>
+                        <option value="9">64</option>
+                        <option value="9">72</option>
+                        <option value="9">144</option>
+
+                    </select>
+                    글씨체
+                    색상
                 </div>
             </div>
 </div>
