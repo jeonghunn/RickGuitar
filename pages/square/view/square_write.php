@@ -42,8 +42,8 @@
                 <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
-                <button type="button" class="btn btn btn-outline-secondary" data-toggle="popover"
-                        title="Popover title" data-content="<h1>test</h1>"><span class="oi oi-text"></span></button>
+                <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse" href="#fontcontrol"
+                "><span class="oi oi-text"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('bold')"><span
                             class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('italic')"><span
@@ -67,6 +67,13 @@
             </div>
         </div>
 
+            <!--     Size, Font       -->
+            <div class="collapse" id="fontcontrol">
+                <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                </div>
+            </div>
 </div>
 
         <br>
