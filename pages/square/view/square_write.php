@@ -71,7 +71,7 @@
             <div class="collapse" id="fontcontrol">
                 <br>
 
-                크기 <select name="font_size" id="font_size">
+                크기 <select name="font_size" id="font_size" onselect="alert(0)">
                         <option value="9">9</option>
                     <option value="9" onselect="alert(0)">10</option>
                         <option value="9">11</option>
