@@ -73,7 +73,7 @@
 
                 크기 <select name="font_size" id="font_size">
                         <option value="9">9</option>
-                    <option value="9" onclick="alert(0)">10</option>
+                    <option value="9" onselect="alert(0)">10</option>
                         <option value="9">11</option>
                         <option value="9">12</option>
                         <option value="9">14</option>
