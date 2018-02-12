@@ -161,6 +161,11 @@
         document.getElementById("contents_1").focus();
     };
 
+    $("#font_size").change(function () {
+
+        alert('Selected value: ' + $(this).val());
+    });
+
     //temp save
     setInterval(function () {
             if (checkWrote()) {
