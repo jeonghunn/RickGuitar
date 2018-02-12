@@ -73,7 +73,7 @@
 
                 크기 <select name="font_size" id="font_size" onselect="alert(0)">
                         <option value="9">9</option>
-                    <option value="9" onselect="alert(0)">10</option>
+                    <option value="9">10</option>
                         <option value="9">11</option>
                         <option value="9">12</option>
                         <option value="9">14</option>
@@ -161,10 +161,7 @@
         document.getElementById("contents_1").focus();
     };
 
-    $("#font_size").change(function () {
 
-        alert('Selected value: ' + $(this).val());
-    });
 
     //temp save
     setInterval(function () {
@@ -195,6 +192,14 @@
         }
 
     }
+
+
+    //Editor font control onchange
+    $("#font_size").change(function () {
+
+        alert(iFrame.document.queryCommandValue("FontSize"));
+        alert('Selected value: ' + $(this).val());
+    });
 
 
     function getTemp() {
