@@ -211,7 +211,9 @@
                 selection = document.selection.createRange();
             }
 
-            selection.toString() !== '' && alert('"' + selection.toString() + '" was selected at ' + e.pageX + '/' + e.pageY);
+            //   if(selection.head)
+
+            //   selection.toString() !== '' && alert('"' + selection.toString() + '" was selected at ' + e.pageX + '/' + e.pageY);
         });
     });
 
