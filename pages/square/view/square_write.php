@@ -72,22 +72,17 @@
                 <br>
 
                 크기 <select name="font_size" id="font_size" onselect="alert(0)">
-                        <option value="9">9</option>
-                    <option value="9">10</option>
-                        <option value="9">11</option>
-                        <option value="9">12</option>
-                        <option value="9">14</option>
-                        <option value="9">16</option>
-                        <option value="9">20</option>
-                        <option value="9">28</option>
-                        <option value="9">32</option>
-                        <option value="9">40</option>
-                        <option value="9">48</option>
-                        <option value="9">64</option>
-                        <option value="9">72</option>
-                        <option value="9">144</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
 
-                    </select>
+
+                </select>
                 글씨체 <select name="font" id="font">
                     <option value="9">기본</option>
                     <option value="9">나눔고딕</option>
@@ -201,6 +196,8 @@
         alert('Selected value: ' + $(this).val());
     });
 
+
+    //Mouse Selection update
     $(function () {
         $(document.body).bind('mouseup', function (e) {
             var selection;
@@ -212,9 +209,11 @@
             }
 
             //   if(selection.head)
-            alert(document.queryCommandValue("FontSize"));
-            alert(document.queryCommandValue("FontColor"));
+            //  alert(document.queryCommandValue("FontSize"));
+            //alert(document.queryCommandValue("FontColor"));
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
+            document.getElementById("font_size").value = document.queryCommandValue("FontSize");
+
         });
     });
 
