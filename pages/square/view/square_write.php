@@ -192,8 +192,9 @@
     //Editor font control onchange
     $("#font_size").change(function () {
 
-        alert(document.queryCommandValue("FontSize"));
-        alert('Selected value: ' + $(this).val());
+        document.execCommand('FontSize', false, $(this).val());
+        // alert(document.queryCommandValue("FontSize"));
+        // alert('Selected value: ' + $(this).val());
     });
 
 
