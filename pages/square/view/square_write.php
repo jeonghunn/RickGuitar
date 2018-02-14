@@ -213,6 +213,7 @@
 
             //   if(selection.head)
             alert(document.queryCommandValue("FontSize"));
+            alert(document.queryCommandValue("FontColor"));
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
         });
     });
