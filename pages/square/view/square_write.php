@@ -212,8 +212,8 @@
             }
 
             //   if(selection.head)
-
-            //   selection.toString() !== '' && alert('"' + selection.toString() + '" was selected at ' + e.pageX + '/' + e.pageY);
+            alert(document.queryCommandValue("FontSize"));
+            // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
         });
     });
 
