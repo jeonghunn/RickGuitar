@@ -82,9 +82,9 @@
 
 
                 </select>
-                글씨체 <select name="font" id="font">
-                    <option value="9">기본</option>
-                    <option value="9">나눔고딕</option>
+                글씨체 <select name="font_name" id="font_name">
+                    <option value="Roboto, Noto, sans-serif">기본</option>
+                    <option value="sans-serif">고딕체</option>
                     <option value="9">나눔스퀘어</option>
 
 
@@ -213,7 +213,8 @@
             //alert(document.queryCommandValue("FontColor"));
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
             document.getElementById("font_size").value = document.queryCommandValue("FontSize");
-            alert(document.queryCommandValue("FontName"));
+            document.getElementById("font_name").value = document.queryCommandValue("FontName");
+
         });
     });
 
