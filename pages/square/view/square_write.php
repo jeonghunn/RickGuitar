@@ -79,7 +79,6 @@
                     <option value="5">5</option>
                     <option value="6">6</option>
                     <option value="7">7</option>
-                    <option value="8">8</option>
 
 
                 </select>
@@ -214,7 +213,7 @@
             //alert(document.queryCommandValue("FontColor"));
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
             document.getElementById("font_size").value = document.queryCommandValue("FontSize");
-
+            alert(document.queryCommandValue("FontName"));
         });
     });
 
