@@ -214,6 +214,7 @@
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
             document.getElementById("font_size").value = document.queryCommandValue("FontSize");
             document.getElementById("font_name").value = document.queryCommandValue("FontName");
+            alert(document.queryCommandValue("FontSize"));
 
         });
     });
