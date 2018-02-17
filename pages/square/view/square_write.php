@@ -191,7 +191,7 @@
     //Editor font control onchange
     $("#font_size").change(function () {
 
-        document.execCommand('FontSize', true, "7");
+        document.execCommand('FontSize', false, $(this).val());
         // alert(document.queryCommandValue("FontSize"));
         // alert('Selected value: ' + $(this).val());
     });
@@ -214,7 +214,6 @@
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
             document.getElementById("font_size").value = document.queryCommandValue("FontSize");
             document.getElementById("font_name").value = document.queryCommandValue("FontName");
-            // alert(document.queryCommandValue("FontSize"));
 
         });
     });
