@@ -36,14 +36,14 @@
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
              style=" display: inline-block;">
             <div class="btn-group btn-group" role="group" aria-label="First group">
-                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"
-                                                                                  title="icon name"
-                                                                                  aria-hidden="true"></span></button>
-                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>
+                <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"-->
+                <!--                                                                                  title="icon name"-->
+                <!--                                                                                  aria-hidden="true"></span></button>-->
+                <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>-->
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
-                <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse" href="#fontcontrol"
-                "><span class="oi oi-text"></span></button>
+                <!--                <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse" href="#fontcontrol"-->
+                <!--                "><span class="oi oi-text"></span></button>-->
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('bold')"><span
                             class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('italic')"><span
@@ -59,10 +59,10 @@
             </div>
 
             <div class="btn-group btn-group" role="group" aria-label="4 group">
-                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>
-                </button>
-                <button type="button" class="btn btn btn-outline-secondary"><span
-                            class="oi oi-caret-bottom"></span></span>
+                <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>-->
+                <!--                </button>-->
+                <!--                <button type="button" class="btn btn btn-outline-secondary"><span-->
+                <!--                            class="oi oi-caret-bottom"></span></span>-->
                 </button>
             </div>
         </div>
@@ -279,13 +279,13 @@
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
             '             style=" display: inline-block;">\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="First group">\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
-            '                                                                                  title="icon name"\n' +
-            '                                                                                  aria-hidden="true"></span></button>\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>\n' +
+            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
+            // '                                                                                  title="icon name"\n' +
+            // '                                                                                  aria-hidden="true"></span></button>\n' +
+            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>\n' +
             '            </div>\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="Second group">\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-text"></span></button>\n' +
+            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-text"></span></button>\n' +
             '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'bold\')"><span class="oi oi-bold"></span></button>\n' +
             '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'italic\')"><span class="oi oi-italic"></span></button>\n' +
             '            </div>\n' +
@@ -297,11 +297,11 @@
             '            </div>\n' +
             '\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>\n' +
-            '                </button>\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span\n' +
-            '                            class="oi oi-caret-bottom"></span></span>\n' +
-            '                </button>\n' +
+            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>\n' +
+            // '                </button>\n' +
+            // '                <button type="button" class="btn btn btn-outline-secondary"><span\n' +
+            // '                            class="oi oi-caret-bottom"></span></span>\n' +
+            // '                </button>\n' +
             '            </div>\n' +
             '        </div>\n' +
             '\n' +
