@@ -239,11 +239,11 @@ class SquareClass
 
         $result = null;
 
-        $top_items = array(array("square_key" => "w8UkEWEiFGzi", "title" => "아직 개발중이라 할 말이 없군요."), array("square_key" => "w8UkEWEiFGzi", "title" => "여백을 채우고 있습니다."), array("square_key" => "w8UkEWEiFGzi", "title" => "Square 3.8"));
-        $new_collection = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, "new", 0, 4, $square_info, $attach_info);
+        $top_items = array(array("square_key" => "birthday", "title" => "생일 축하 카드 만들기"), array("square_key" => "w8UkEWEiFGzi", "title" => "여백을 채우고 있습니다."), array("square_key" => "w8UkEWEiFGzi", "title" => "Square 3.8"));
+        //   $new_collection = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, "new", 0, 4, $square_info, $attach_info);
 
 
-        $result = array('top' => $top_items, 'new' => $new_collection);
+        $result = array('top' => $top_items);
 
 
         return $result;
