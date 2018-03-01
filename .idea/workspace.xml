@@ -42,14 +42,14 @@
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="278">
-              <caret line="241" column="209" lean-forward="false" selection-start-line="241" selection-start-column="209" selection-end-line="241" selection-end-column="209" />
+              <caret line="241" column="168" lean-forward="false" selection-start-line="241" selection-start-column="168" selection-end-line="241" selection-end-column="168" />
               <folding>
-                <marker date="1519897640590" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
-                <marker date="1519897640590" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
-                <marker date="1519897640590" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
-                <marker date="1519897640590" expanded="true" signature="6613:6705" ph="UPDATE `pages`... " />
-                <marker date="1519897640590" expanded="true" signature="9860:10007" ph="SELECT * FRO... documents" />
-                <marker date="1519897640590" expanded="true" signature="10552:10715" ph="SELECT * FRO... documents" />
+                <marker date="1519897673742" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
+                <marker date="1519897673742" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
+                <marker date="1519897673742" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
+                <marker date="1519897673742" expanded="true" signature="6613:6705" ph="UPDATE `pages`... " />
+                <marker date="1519897673742" expanded="true" signature="9859:10006" ph="SELECT * FRO... documents" />
+                <marker date="1519897673742" expanded="true" signature="10551:10714" ph="SELECT * FRO... documents" />
               </folding>
             </state>
           </provider>
@@ -1325,14 +1325,7 @@
       <workItem from="1518512534519" duration="2415000" />
       <workItem from="1518669848817" duration="610000" />
       <workItem from="1518871687012" duration="1065000" />
-      <workItem from="1519896583659" duration="958000" />
-    </task>
-    <task id="LOCAL-01488" summary="iconic added">
-      <created>1518062092431</created>
-      <option name="number" value="01488" />
-      <option name="presentableId" value="LOCAL-01488" />
-      <option name="project" value="LOCAL" />
-      <updated>1518062092431</updated>
+      <workItem from="1519896583659" duration="988000" />
     </task>
     <task id="LOCAL-01489" summary="iconic added">
       <created>1518062292326</created>
@@ -1670,11 +1663,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519897534802</updated>
     </task>
-    <option name="localTasksCounter" value="1537" />
+    <task id="LOCAL-01537" summary="update">
+      <created>1519897652478</created>
+      <option name="number" value="01537" />
+      <option name="presentableId" value="LOCAL-01537" />
+      <option name="project" value="LOCAL" />
+      <updated>1519897652478</updated>
+    </task>
+    <option name="localTasksCounter" value="1538" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1191844000" />
+    <option name="totallyTimeSpent" value="1191874000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1783,7 +1783,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="kakao disable feature added" />
     <MESSAGE value="square_main added" />
     <MESSAGE value="square_main front" />
     <MESSAGE value="temp save added" />
@@ -1808,7 +1807,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="new update fixed" />
     <MESSAGE value="editor useless removed brief" />
-    <option name="LAST_COMMIT_MESSAGE" value="editor useless removed brief" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2197,14 +2197,14 @@
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
-          <caret line="241" column="209" lean-forward="false" selection-start-line="241" selection-start-column="209" selection-end-line="241" selection-end-column="209" />
+          <caret line="241" column="168" lean-forward="false" selection-start-line="241" selection-start-column="168" selection-end-line="241" selection-end-column="168" />
           <folding>
-            <marker date="1519897640590" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
-            <marker date="1519897640590" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
-            <marker date="1519897640590" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
-            <marker date="1519897640590" expanded="true" signature="6613:6705" ph="UPDATE `pages`... " />
-            <marker date="1519897640590" expanded="true" signature="9860:10007" ph="SELECT * FRO... documents" />
-            <marker date="1519897640590" expanded="true" signature="10552:10715" ph="SELECT * FRO... documents" />
+            <marker date="1519897673742" expanded="true" signature="2067:2108" ph="SELECT * FRO... documents" />
+            <marker date="1519897673742" expanded="true" signature="2641:2728" ph="UPDATE `documents`... " />
+            <marker date="1519897673742" expanded="true" signature="3261:3543" ph="INSERT INTO `documents`... " />
+            <marker date="1519897673742" expanded="true" signature="6613:6705" ph="UPDATE `pages`... " />
+            <marker date="1519897673742" expanded="true" signature="9859:10006" ph="SELECT * FRO... documents" />
+            <marker date="1519897673742" expanded="true" signature="10551:10714" ph="SELECT * FRO... documents" />
           </folding>
         </state>
       </provider>
