@@ -42,8 +42,8 @@
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>-->
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
-                <!--                <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse" href="#fontcontrol"-->
-                <!--                "><span class="oi oi-text"></span></button>-->
+                <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse" href="#fontcontrol"
+                "><span class="oi oi-text"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('bold')"><span
                             class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('italic')"><span
