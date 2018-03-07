@@ -198,7 +198,7 @@
 
     $("#font_name").change(function () {
 
-        document.execCommand('FontName', false, $(this).val().replace(/"([^"]+(?="))"/g, '$1'));
+        document.execCommand('FontName', false, $(this).val());
         // alert(document.queryCommandValue("FontSize"));
         // alert('Selected value: ' + $(this).val());
     });
@@ -220,7 +220,7 @@
             //alert(document.queryCommandValue("FontColor"));
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
             document.getElementById("font_size").value = document.queryCommandValue("FontSize");
-            document.getElementById("font_name").value = document.queryCommandValue("FontName");
+            document.getElementById("font_name").value = document.queryCommandValue("FontName").replace(/"([^"]+(?="))"/g, '$1');
             //  alert(document.queryCommandValue("FontName"));
 
         });
