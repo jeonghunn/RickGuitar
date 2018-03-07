@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="font test">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" />
     </list>
@@ -98,10 +98,10 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="223" column="14" lean-forward="false" selection-start-line="223" selection-start-column="14" selection-end-line="223" selection-end-column="14" />
+            <state relative-caret-position="146">
+              <caret line="200" column="61" lean-forward="false" selection-start-line="200" selection-start-column="61" selection-end-line="200" selection-end-column="61" />
               <folding>
-                <marker date="1520406935376" expanded="true" signature="10531:10554" ph="..." />
+                <marker date="1520407061965" expanded="true" signature="10553:10576" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1326,14 +1326,7 @@
       <workItem from="1519896583659" duration="988000" />
       <workItem from="1520174563604" duration="127000" />
       <workItem from="1520309878251" duration="577000" />
-      <workItem from="1520406065430" duration="871000" />
-    </task>
-    <task id="LOCAL-01494" summary="editor updated">
-      <created>1518063012898</created>
-      <option name="number" value="01494" />
-      <option name="presentableId" value="LOCAL-01494" />
-      <option name="project" value="LOCAL" />
-      <updated>1518063012898</updated>
+      <workItem from="1520406065430" duration="993000" />
     </task>
     <task id="LOCAL-01495" summary="editor updated">
       <created>1518063049027</created>
@@ -1671,11 +1664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520406823655</updated>
     </task>
-    <option name="localTasksCounter" value="1543" />
+    <task id="LOCAL-01543" summary="font test">
+      <created>1520406947025</created>
+      <option name="number" value="01543" />
+      <option name="presentableId" value="LOCAL-01543" />
+      <option name="project" value="LOCAL" />
+      <updated>1520406947025</updated>
+    </task>
+    <option name="localTasksCounter" value="1544" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1193449000" />
+    <option name="totallyTimeSpent" value="1193571000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2199,10 +2199,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="223" column="14" lean-forward="false" selection-start-line="223" selection-start-column="14" selection-end-line="223" selection-end-column="14" />
+        <state relative-caret-position="146">
+          <caret line="200" column="61" lean-forward="false" selection-start-line="200" selection-start-column="61" selection-end-line="200" selection-end-column="61" />
           <folding>
-            <marker date="1520406935376" expanded="true" signature="10531:10554" ph="..." />
+            <marker date="1520407061965" expanded="true" signature="10553:10576" ph="..." />
           </folding>
         </state>
       </provider>
