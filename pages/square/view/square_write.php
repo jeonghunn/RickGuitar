@@ -85,7 +85,7 @@
                 글씨체 <select name="font_name" id="font_name">
                     <option value="Roboto, Noto, sans-serif">기본</option>
                     <option value="sans-serif">고딕체</option>
-                    <option value="NanumSquare">나눔스퀘어</option>
+                    <option value="Nanum Square">나눔스퀘어</option>
 
 
                 </select>
