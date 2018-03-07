@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "3.9.306";
+    return "3.9.307";
 }
 
 //Basic Info
