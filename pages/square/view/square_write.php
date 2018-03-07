@@ -196,6 +196,13 @@
         // alert('Selected value: ' + $(this).val());
     });
 
+    $("#font_name").change(function () {
+
+        document.execCommand('FontName', false, $(this).val());
+        // alert(document.queryCommandValue("FontSize"));
+        // alert('Selected value: ' + $(this).val());
+    });
+
 
     //Mouse Selection update
     $(function () {

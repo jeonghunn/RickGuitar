@@ -98,10 +98,10 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+            <state relative-caret-position="322">
+              <caret line="200" column="38" lean-forward="false" selection-start-line="200" selection-start-column="38" selection-end-line="200" selection-end-column="38" />
               <folding>
-                <marker date="1520406394982" expanded="true" signature="10241:10264" ph="..." />
+                <marker date="1520406650598" expanded="true" signature="10468:10491" ph="..." />
               </folding>
             </state>
           </provider>
@@ -148,7 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>family</find>
       <find>squarecard</find>
       <find>addcard</find>
       <find>setStatus</find>
@@ -178,6 +177,7 @@
       <find>nanum</find>
       <find>나눔</find>
       <find>square</find>
+      <find>font_name</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -1326,14 +1326,7 @@
       <workItem from="1519896583659" duration="988000" />
       <workItem from="1520174563604" duration="127000" />
       <workItem from="1520309878251" duration="577000" />
-      <workItem from="1520406065430" duration="331000" />
-    </task>
-    <task id="LOCAL-01491" summary="iconic added">
-      <created>1518062376229</created>
-      <option name="number" value="01491" />
-      <option name="presentableId" value="LOCAL-01491" />
-      <option name="project" value="LOCAL" />
-      <updated>1518062376229</updated>
+      <workItem from="1520406065430" duration="583000" />
     </task>
     <task id="LOCAL-01492" summary="editor icon updated">
       <created>1518062760141</created>
@@ -1671,11 +1664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520406351519</updated>
     </task>
-    <option name="localTasksCounter" value="1540" />
+    <task id="LOCAL-01540" summary="font test">
+      <created>1520406404136</created>
+      <option name="number" value="01540" />
+      <option name="presentableId" value="LOCAL-01540" />
+      <option name="project" value="LOCAL" />
+      <updated>1520406404136</updated>
+    </task>
+    <option name="localTasksCounter" value="1541" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1192909000" />
+    <option name="totallyTimeSpent" value="1193161000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2199,10 +2199,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+        <state relative-caret-position="322">
+          <caret line="200" column="38" lean-forward="false" selection-start-line="200" selection-start-column="38" selection-end-line="200" selection-end-column="38" />
           <folding>
-            <marker date="1520406394982" expanded="true" signature="10241:10264" ph="..." />
+            <marker date="1520406650598" expanded="true" signature="10468:10491" ph="..." />
           </folding>
         </state>
       </provider>
