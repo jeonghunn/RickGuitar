@@ -198,7 +198,7 @@
 
     $("#font_name").change(function () {
 
-        document.execCommand('FontName', false, $(this).val().replace(/['"]+/g, ''));
+        document.execCommand('FontName', false, $(this).val().replace(/"([^"]+(?="))"/g, '$1'));
         // alert(document.queryCommandValue("FontSize"));
         // alert('Selected value: ' + $(this).val());
     });

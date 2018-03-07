@@ -98,10 +98,10 @@
       <file leaf-file-name="square_write.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="200" column="61" lean-forward="false" selection-start-line="200" selection-start-column="61" selection-end-line="200" selection-end-column="61" />
+            <state relative-caret-position="86">
+              <caret line="196" column="7" lean-forward="true" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
               <folding>
-                <marker date="1520407061965" expanded="true" signature="10553:10576" ph="..." />
+                <marker date="1520407244323" expanded="true" signature="10564:10587" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1326,14 +1326,7 @@
       <workItem from="1519896583659" duration="988000" />
       <workItem from="1520174563604" duration="127000" />
       <workItem from="1520309878251" duration="577000" />
-      <workItem from="1520406065430" duration="993000" />
-    </task>
-    <task id="LOCAL-01495" summary="editor updated">
-      <created>1518063049027</created>
-      <option name="number" value="01495" />
-      <option name="presentableId" value="LOCAL-01495" />
-      <option name="project" value="LOCAL" />
-      <updated>1518063049027</updated>
+      <workItem from="1520406065430" duration="1155000" />
     </task>
     <task id="LOCAL-01496" summary="editor updated">
       <created>1518063280191</created>
@@ -1671,11 +1664,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520406947025</updated>
     </task>
-    <option name="localTasksCounter" value="1544" />
+    <task id="LOCAL-01544" summary="font status bug fixed">
+      <created>1520407078044</created>
+      <option name="number" value="01544" />
+      <option name="presentableId" value="LOCAL-01544" />
+      <option name="project" value="LOCAL" />
+      <updated>1520407078044</updated>
+    </task>
+    <option name="localTasksCounter" value="1545" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1193571000" />
+    <option name="totallyTimeSpent" value="1193733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1784,7 +1784,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="temp save added" />
     <MESSAGE value="temp save bug fixe" />
     <MESSAGE value="temp save status message updated" />
     <MESSAGE value="temp save updated" />
@@ -1809,7 +1808,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="google analytics added" />
     <MESSAGE value="font test" />
-    <option name="LAST_COMMIT_MESSAGE" value="font test" />
+    <MESSAGE value="font status bug fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="font status bug fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -2199,10 +2199,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="200" column="61" lean-forward="false" selection-start-line="200" selection-start-column="61" selection-end-line="200" selection-end-column="61" />
+        <state relative-caret-position="86">
+          <caret line="196" column="7" lean-forward="true" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
           <folding>
-            <marker date="1520407061965" expanded="true" signature="10553:10576" ph="..." />
+            <marker date="1520407244323" expanded="true" signature="10564:10587" ph="..." />
           </folding>
         </state>
       </provider>
