@@ -131,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
-              <caret line="92" column="71" lean-forward="false" selection-start-line="92" selection-start-column="71" selection-end-line="92" selection-end-column="71" />
+              <caret line="92" column="36" lean-forward="false" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -1327,14 +1327,7 @@
       <workItem from="1520174563604" duration="127000" />
       <workItem from="1520309878251" duration="577000" />
       <workItem from="1520406065430" duration="1602000" />
-      <workItem from="1520485178548" duration="628000" />
-    </task>
-    <task id="LOCAL-01500" summary="editor active updated">
-      <created>1518067369657</created>
-      <option name="number" value="01500" />
-      <option name="presentableId" value="LOCAL-01500" />
-      <option name="project" value="LOCAL" />
-      <updated>1518067369657</updated>
+      <workItem from="1520485178548" duration="662000" />
     </task>
     <task id="LOCAL-01501" summary="test">
       <created>1518067633864</created>
@@ -1672,11 +1665,18 @@
       <option name="project" value="LOCAL" />
       <updated>1520485721639</updated>
     </task>
-    <option name="localTasksCounter" value="1549" />
+    <task id="LOCAL-01549" summary="square view write birthday bug fixed">
+      <created>1520485820928</created>
+      <option name="number" value="01549" />
+      <option name="presentableId" value="LOCAL-01549" />
+      <option name="project" value="LOCAL" />
+      <updated>1520485820928</updated>
+    </task>
+    <option name="localTasksCounter" value="1550" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1194808000" />
+    <option name="totallyTimeSpent" value="1194842000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2203,7 +2203,7 @@
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="92" column="71" lean-forward="false" selection-start-line="92" selection-start-column="71" selection-end-line="92" selection-end-column="71" />
+          <caret line="92" column="36" lean-forward="false" selection-start-line="92" selection-start-column="36" selection-end-line="92" selection-end-column="36" />
           <folding />
         </state>
       </provider>
