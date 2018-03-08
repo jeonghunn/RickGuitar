@@ -89,7 +89,8 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
 
 
     <br><br>
-    <button type="button" class="btn btn-dark btn-lg" onclick="location.href='write'">
+    <button type="button" class="btn btn-dark btn-lg"
+            onclick="location.href= <?php echo $square_result['type']; ?> ==  'square' ? 'write' : <?php echo $square_result['type'] ?>">
         나도 이런거 만들어보기
     </button>
     <br><br>
