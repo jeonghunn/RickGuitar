@@ -88,8 +88,7 @@
                     <option value="Nanum Square">나눔스퀘어</option>
                     <option value="Nanum Gothic">나눔고딕</option>
                     <option value="Nanum Myeongj">나눔명조</option>
-                    <option value="Nanum Pen Script">나눔펜글씨</option>
-                    <option value="Nanum Brush Script">나눔브러쉬</option>
+                    <option value="Nanum Brush Script">나눔손글씨체</option>
 
 
                 </select>
