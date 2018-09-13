@@ -114,8 +114,9 @@
                 <?php S('write_public') ?>
             </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" onclick="setStatus('0')"><?php S('write_public') ?></a>
+
                 <a class="dropdown-item" onclick="setStatus('unregistered')"><?php S('write_private_des') ?></a>
+                <a class="dropdown-item" onclick="setStatus('0')"><?php S('write_public') ?></a>
             </div>
         </div>
 
