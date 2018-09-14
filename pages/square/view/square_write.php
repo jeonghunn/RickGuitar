@@ -135,8 +135,12 @@
     <br><br><br>
     </div> <!-- /container -->
 
+
+<!--Editor-->
 <script src="pages/js/medium-editor.js"></script>
 
+<!--Color Picker-->
+<script src="pages/js/Colorpicker.js"></script>
 
 
 <script>
