@@ -140,7 +140,7 @@
 <script src="pages/js/medium-editor.js"></script>
 
 <!--Color Picker-->
-<script src="pages/js/Colorpicker.js"></script>
+<script src="pages/js/ColorPicker/Colorpicker.js"></script>
 
 
 <script>
