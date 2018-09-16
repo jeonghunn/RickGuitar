@@ -5,24 +5,7 @@
       <change afterPath="$PROJECT_DIR$/pages/js/bootstrap.bundle.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/AddonHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/ColorHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/ColorItem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/Colorpicker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/Extension.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/InputHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/PickerHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/PopupHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/SliderHandler.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/extensions/Debugger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/extensions/Palette.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/extensions/Preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/extensions/Swatches.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/extensions/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/plugin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/js/jquery.js" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,14 +42,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="115" />
-          <entry key="txt" value="171" />
+          <entry key="php" value="117" />
+          <entry key="txt" value="186" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="115" />
-          <entry key="PLAIN_TEXT" value="171" />
+          <entry key="PHP" value="117" />
+          <entry key="PLAIN_TEXT" value="186" />
         </counts>
       </usages-collector>
     </session>
@@ -86,9 +69,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="152" column="43" selection-start-line="152" selection-start-column="43" selection-end-line="152" selection-end-column="43" />
+            <state relative-caret-position="-950">
+              <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
               <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -112,7 +96,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
+            <state relative-caret-position="450">
               <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
             </state>
           </provider>
@@ -255,8 +239,8 @@
         <option value="$PROJECT_DIR$/pages/square/view/square_main.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
@@ -1088,28 +1072,7 @@
       <workItem from="1520867203360" duration="5000" />
       <workItem from="1536796725785" duration="18000" />
       <workItem from="1536796759660" duration="356000" />
-      <workItem from="1536803237988" duration="3652000" />
-    </task>
-    <task id="LOCAL-01511" summary="test">
-      <created>1518278741162</created>
-      <option name="number" value="01511" />
-      <option name="presentableId" value="LOCAL-01511" />
-      <option name="project" value="LOCAL" />
-      <updated>1518278741162</updated>
-    </task>
-    <task id="LOCAL-01512" summary="fontcontroll test">
-      <created>1518341996681</created>
-      <option name="number" value="01512" />
-      <option name="presentableId" value="LOCAL-01512" />
-      <option name="project" value="LOCAL" />
-      <updated>1518341996681</updated>
-    </task>
-    <task id="LOCAL-01513" summary="fontcontroll test">
-      <created>1518342079077</created>
-      <option name="number" value="01513" />
-      <option name="presentableId" value="LOCAL-01513" />
-      <option name="project" value="LOCAL" />
-      <updated>1518342079077</updated>
+      <workItem from="1536803237988" duration="4132000" />
     </task>
     <task id="LOCAL-01514" summary="fontcontroll test">
       <created>1518342517498</created>
@@ -1433,11 +1396,32 @@
       <option name="project" value="LOCAL" />
       <updated>1537140023641</updated>
     </task>
-    <option name="localTasksCounter" value="1560" />
+    <task id="LOCAL-01560" summary="color picker updated">
+      <created>1537140632925</created>
+      <option name="number" value="01560" />
+      <option name="presentableId" value="LOCAL-01560" />
+      <option name="project" value="LOCAL" />
+      <updated>1537140632925</updated>
+    </task>
+    <task id="LOCAL-01561" summary="color picker input was added">
+      <created>1537140707854</created>
+      <option name="number" value="01561" />
+      <option name="presentableId" value="LOCAL-01561" />
+      <option name="project" value="LOCAL" />
+      <updated>1537140707854</updated>
+    </task>
+    <task id="LOCAL-01562" summary="color picker input was updated">
+      <created>1537140902926</created>
+      <option name="number" value="01562" />
+      <option name="presentableId" value="LOCAL-01562" />
+      <option name="project" value="LOCAL" />
+      <updated>1537140902926</updated>
+    </task>
+    <option name="localTasksCounter" value="1563" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1201478000" />
+    <option name="totallyTimeSpent" value="1201958000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1547,8 +1531,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="activeEditor bug fixed" />
-    <MESSAGE value="editor animation updated" />
     <MESSAGE value="editor cardadd editor display updated" />
     <MESSAGE value="editor active card bug fixed" />
     <MESSAGE value="editor test" />
@@ -1571,8 +1553,10 @@
     <MESSAGE value="Color Picker js was added" />
     <MESSAGE value="Color Picker js was updated" />
     <MESSAGE value="bug fixed" />
+    <MESSAGE value="color picker updated" />
     <MESSAGE value="color picker input was added" />
-    <option name="LAST_COMMIT_MESSAGE" value="color picker input was added" />
+    <MESSAGE value="color picker input was updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="color picker input was updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1608,9 +1592,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="152" column="43" selection-start-line="152" selection-start-column="43" selection-end-line="152" selection-end-column="43" />
+        <state relative-caret-position="-950">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
           <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -1618,7 +1603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
+        <state relative-caret-position="450">
           <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
