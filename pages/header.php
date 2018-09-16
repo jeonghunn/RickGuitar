@@ -89,6 +89,10 @@
       <link rel="stylesheet" href="pages/css/beagle.css">
       <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
 
+
+      <!--     Bootstrap ColorPicker -->
+      <link href="pages/css/bootstrap-colorpicker.css" rel="stylesheet">
+
       <!--     egjs -->
       <script src="pages/js/hammer.min.js"></script>
       <script src="pages/js/eg.min.js"></script>
