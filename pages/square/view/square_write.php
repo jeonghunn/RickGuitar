@@ -100,13 +100,14 @@
 
                 </select>
 
-            </div>
 
-            <div id="cp5a" class="input-group" title="Using format option">
-                <input type="text" class="form-control input-lg" value="#305AA2"/>
-                <span class="input-group-append">
+                <div id="cp5a" class="input-group" title="Using format option">
+                    <input type="text" class="form-control input-lg" value="#305AA2"/>
+                    <span class="input-group-append">
     <span class="input-group-text colorpicker-input-addon"><i></i></span>
   </span>
+                </div>
+
             </div>
 
 
