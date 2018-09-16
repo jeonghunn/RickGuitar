@@ -101,11 +101,8 @@
                 </select>
 
 
-                <div id="cp5a" class="input-group" title="Using format option">
-                    <input type="text" class="form-control input-lg" value="#305AA2"/>
-                    <span class="input-group-append">
-    <span class="input-group-text colorpicker-input-addon"><i></i></span>
-  </span>
+                <div id="cp1" data-color="#6D2781">
+                    <input type="text" class="form-control" style="width:auto"/> <br>
                 </div>
 
             </div>
@@ -176,12 +173,40 @@
 
     //ColorPicker
     $(function () {
-        $('#cp5a').colorpicker({
-            format: 'auto'
-        });
-        $('#cp5b').colorpicker({
-            format: null
-        });
+        $('#cp1')
+            .colorpicker({
+                inline: true,
+                container: true,
+                extensions: [
+                    {
+                        name: 'swatches',
+                        options: {
+                            colors: {
+                                'tetrad1': '#000',
+                                'tetrad2': '#000',
+                                'tetrad3': '#000',
+                                'tetrad4': '#000'
+                            },
+                            namesAsValues: false
+                        }
+                    }
+                ]
+            })
+            .on('colorpickerChange colorpickerCreate', function (e) {
+                var colors = e.color.generate('tetrad');
+
+                colors.forEach(function (color, i) {
+                    var colorStr = color.string(),
+                        swatch = e.colorpicker.picker
+                            .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
+
+                    swatch
+                        .attr('data-value', colorStr)
+                        .attr('title', colorStr)
+                        .find('> i')
+                        .css('background-color', colorStr);
+                });
+            });
     });
 
 
