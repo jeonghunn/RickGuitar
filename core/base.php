@@ -2,16 +2,16 @@
 
 
 function getCoreVersion(){
-    return "3.9.917.8.38";
+    return "3.9.1012";
 }
 
 //Basic Info
 function getSiteAddress(){
-    return "http://tarks.net/square/";
+    return "http://unopenedbox.com/square/";
 }
 
 function getAPIAddress(){
-    return "http://tarks.net/square/api.php";
+    return "http://unopenedbox.com/square/api.php";
 }
 
 function getIPAddr(){
