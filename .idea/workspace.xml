@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="Main Write Button align center">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="Main design update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_main.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -21,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -30,13 +31,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="165">
+              <caret line="21" column="110" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="110" />
               <folding>
-                <element signature="e#387#414#0#HTML" expanded="true" />
+                <element signature="e#391#418#0#HTML" expanded="true" />
                 <element signature="e#570#660#0#HTML" expanded="true" />
               </folding>
             </state>
@@ -912,28 +913,7 @@
       <workItem from="1539317263389" duration="107000" />
       <workItem from="1542846847623" duration="1000" />
       <workItem from="1542847310099" duration="218000" />
-      <workItem from="1543551122397" duration="1418000" />
-    </task>
-    <task id="LOCAL-01521" summary="test">
-      <created>1518431156022</created>
-      <option name="number" value="01521" />
-      <option name="presentableId" value="LOCAL-01521" />
-      <option name="project" value="LOCAL" />
-      <updated>1518431156022</updated>
-    </task>
-    <task id="LOCAL-01522" summary="test">
-      <created>1518431271381</created>
-      <option name="number" value="01522" />
-      <option name="presentableId" value="LOCAL-01522" />
-      <option name="project" value="LOCAL" />
-      <updated>1518431271381</updated>
-    </task>
-    <task id="LOCAL-01523" summary="test">
-      <created>1518431564654</created>
-      <option name="number" value="01523" />
-      <option name="presentableId" value="LOCAL-01523" />
-      <option name="project" value="LOCAL" />
-      <updated>1518431564654</updated>
+      <workItem from="1543551122397" duration="2217000" />
     </task>
     <task id="LOCAL-01524" summary="test">
       <created>1518602622483</created>
@@ -1257,11 +1237,32 @@
       <option name="project" value="LOCAL" />
       <updated>1543552491251</updated>
     </task>
-    <option name="localTasksCounter" value="1570" />
+    <task id="LOCAL-01570" summary="Main Write Button align center">
+      <created>1543552555089</created>
+      <option name="number" value="01570" />
+      <option name="presentableId" value="LOCAL-01570" />
+      <option name="project" value="LOCAL" />
+      <updated>1543552555090</updated>
+    </task>
+    <task id="LOCAL-01571" summary="Main div bug fix">
+      <created>1543552592807</created>
+      <option name="number" value="01571" />
+      <option name="presentableId" value="LOCAL-01571" />
+      <option name="project" value="LOCAL" />
+      <updated>1543552592808</updated>
+    </task>
+    <task id="LOCAL-01572" summary="Main design update">
+      <created>1543552646013</created>
+      <option name="number" value="01572" />
+      <option name="presentableId" value="LOCAL-01572" />
+      <option name="project" value="LOCAL" />
+      <updated>1543552646013</updated>
+    </task>
+    <option name="localTasksCounter" value="1573" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1204210000" />
+    <option name="totallyTimeSpent" value="1205009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1278,14 +1279,14 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.1137339" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.1137339" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="0" sideWeight="0.6802575" side_tool="true" visible="true" weight="0.31062672" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.6802575" side_tool="true" visible="true" weight="0.31062672" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1370,8 +1371,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fontcontroll updated" />
-    <MESSAGE value="font size control updated" />
     <MESSAGE value="test" />
     <MESSAGE value="new update fixed" />
     <MESSAGE value="editor useless removed brief" />
@@ -1395,7 +1394,9 @@
     <MESSAGE value="Main Write Button style update" />
     <MESSAGE value="Main Write Button style fontsize update" />
     <MESSAGE value="Main Write Button align center" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Write Button align center" />
+    <MESSAGE value="Main div bug fix" />
+    <MESSAGE value="Main design update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main design update" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1461,21 +1462,21 @@
     <entry file="file://$PROJECT_DIR$/modules/account/controller/member.class.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="21" column="110" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="110" />
+          <folding>
+            <element signature="e#391#418#0#HTML" expanded="true" />
+            <element signature="e#570#660#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding>
-            <element signature="e#387#414#0#HTML" expanded="true" />
-            <element signature="e#570#660#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
