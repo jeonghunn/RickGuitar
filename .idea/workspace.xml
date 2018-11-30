@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="Main Write Button style update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="Main Write Button align center">
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_main.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_main.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -34,9 +33,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="20" column="104" lean-forward="true" selection-start-line="20" selection-start-column="104" selection-end-line="20" selection-end-column="104" />
+            <state relative-caret-position="225">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
               <folding>
+                <element signature="e#387#414#0#HTML" expanded="true" />
                 <element signature="e#570#660#0#HTML" expanded="true" />
               </folding>
             </state>
@@ -912,21 +912,7 @@
       <workItem from="1539317263389" duration="107000" />
       <workItem from="1542846847623" duration="1000" />
       <workItem from="1542847310099" duration="218000" />
-      <workItem from="1543551122397" duration="1269000" />
-    </task>
-    <task id="LOCAL-01519" summary="test">
-      <created>1518430449103</created>
-      <option name="number" value="01519" />
-      <option name="presentableId" value="LOCAL-01519" />
-      <option name="project" value="LOCAL" />
-      <updated>1518430449103</updated>
-    </task>
-    <task id="LOCAL-01520" summary="test">
-      <created>1518430614804</created>
-      <option name="number" value="01520" />
-      <option name="presentableId" value="LOCAL-01520" />
-      <option name="project" value="LOCAL" />
-      <updated>1518430614804</updated>
+      <workItem from="1543551122397" duration="1418000" />
     </task>
     <task id="LOCAL-01521" summary="test">
       <created>1518431156022</created>
@@ -1257,11 +1243,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543552346727</updated>
     </task>
-    <option name="localTasksCounter" value="1568" />
+    <task id="LOCAL-01568" summary="Main Write Button style fontsize update">
+      <created>1543552410065</created>
+      <option name="number" value="01568" />
+      <option name="presentableId" value="LOCAL-01568" />
+      <option name="project" value="LOCAL" />
+      <updated>1543552410065</updated>
+    </task>
+    <task id="LOCAL-01569" summary="Main Write Button align center">
+      <created>1543552491251</created>
+      <option name="number" value="01569" />
+      <option name="presentableId" value="LOCAL-01569" />
+      <option name="project" value="LOCAL" />
+      <updated>1543552491251</updated>
+    </task>
+    <option name="localTasksCounter" value="1570" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1204061000" />
+    <option name="totallyTimeSpent" value="1204210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1370,8 +1370,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="editor updated" />
-    <MESSAGE value="fontcontroll test" />
     <MESSAGE value="fontcontroll updated" />
     <MESSAGE value="font size control updated" />
     <MESSAGE value="test" />
@@ -1395,7 +1393,9 @@
     <MESSAGE value="jquery js was updated" />
     <MESSAGE value="Main Write Button update" />
     <MESSAGE value="Main Write Button style update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Write Button style update" />
+    <MESSAGE value="Main Write Button style fontsize update" />
+    <MESSAGE value="Main Write Button align center" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main Write Button align center" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1470,9 +1470,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" column="104" lean-forward="true" selection-start-line="20" selection-start-column="104" selection-end-line="20" selection-end-column="104" />
+        <state relative-caret-position="225">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
           <folding>
+            <element signature="e#387#414#0#HTML" expanded="true" />
             <element signature="e#570#660#0#HTML" expanded="true" />
           </folding>
         </state>
