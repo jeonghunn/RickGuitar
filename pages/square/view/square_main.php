@@ -18,7 +18,7 @@ importHeader(null);
 
     <!--    <div class="squarecardw" onclick="location.href='write'; " contenteditable="true">새로운 카드 만들기</div>-->
     <button type="button" class="btn btn-dark btn-lg"
-            style=" border-radius: 50%; width: 72px; height: 72px; text-align: center; size">+
+            style=" border-radius: 50%; width: 64px; height: 64px; text-align: center; font-size:24px">+
     </button>
     <br><br>
 
