@@ -16,7 +16,8 @@ importHeader(null);
 <div class="container">
 
 
-    <div class="squarecardw" onclick="location.href='write'; " contenteditable="true">새로운 카드 만들기</div>
+    <!--    <div class="squarecardw" onclick="location.href='write'; " contenteditable="true">새로운 카드 만들기</div>-->
+    <button type="button" class="btn btn-primary btn-lg" style="border-radius: 15px">+</button>
     <br>
 
 
