@@ -22,7 +22,7 @@ require_once 'pages/header.php'; ?>
             </div>
             <br>
             <select name="year" id="year">
-                <?php for ($a = 2017; $a >= 1940; $a--) {
+                <?php for ($a = date("Y"); $a >= 1940; $a--) {
 
                     echo "<option value=\"$a\">$a</option>";
                 } ?>
