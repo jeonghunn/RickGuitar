@@ -103,7 +103,7 @@ class SquareCardClass
 
 //require attach_class.php
 
-    function Write($ATTACH_CLASS, $PUSH_CLASS, $square_srl, $parent_card_srl, $page_srl, $user_srl, $content, $align, $permission, $status, $privacy)
+    function Write($ATTACH_CLASS, $PUSH_CLASS, $square_srl, $parent_card_srl, $page_srl, $user_srl, $content, $align, $style, $permission, $status, $privacy)
     {
 
         //  security_value_check($content);
@@ -112,7 +112,7 @@ class SquareCardClass
         $last_number = $this->getLastNumber();
         if ($content != "") {
             $attach_result = $ATTACH_CLASS->attach_file("square_card", $page_srl, $last_number, $user_srl, $status);
-            $result = Model_SquareCards_Write($page_srl, $user_srl, $square_srl, $parent_card_srl, null, $content, $align, $permission, $status, $privacy, $attach_result);
+            $result = Model_SquareCards_Write($page_srl, $user_srl, $square_srl, $parent_card_srl, null, $content, $align, $style, $permission, $status, $privacy, $attach_result);
 
         }
 //echo mysqli_error();
