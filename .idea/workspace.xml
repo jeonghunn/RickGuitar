@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="squarecard_mainbig has been updated">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="squarecard_mainbig has been updated : margin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/css/main.css" afterDir="false" />
     </list>
@@ -53,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/pages/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="370">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -1001,21 +1001,7 @@
       <workItem from="1544494513502" duration="10000" />
       <workItem from="1548157581096" duration="963000" />
       <workItem from="1548299133237" duration="99000" />
-      <workItem from="1548299236278" duration="5935000" />
-    </task>
-    <task id="LOCAL-01540" summary="font test">
-      <created>1520406404136</created>
-      <option name="number" value="01540" />
-      <option name="presentableId" value="LOCAL-01540" />
-      <option name="project" value="LOCAL" />
-      <updated>1520406404136</updated>
-    </task>
-    <task id="LOCAL-01541" summary="font test">
-      <created>1520406660482</created>
-      <option name="number" value="01541" />
-      <option name="presentableId" value="LOCAL-01541" />
-      <option name="project" value="LOCAL" />
-      <updated>1520406660482</updated>
+      <workItem from="1548299236278" duration="6020000" />
     </task>
     <task id="LOCAL-01542" summary="font test">
       <created>1520406823655</created>
@@ -1346,11 +1332,25 @@
       <option name="project" value="LOCAL" />
       <updated>1548327462331</updated>
     </task>
-    <option name="localTasksCounter" value="1589" />
+    <task id="LOCAL-01589" summary="squarecard_mainbig has been updated : margin">
+      <created>1548327552485</created>
+      <option name="number" value="01589" />
+      <option name="presentableId" value="LOCAL-01589" />
+      <option name="project" value="LOCAL" />
+      <updated>1548327552485</updated>
+    </task>
+    <task id="LOCAL-01590" summary="squarecard_mainbig has been updated : margin">
+      <created>1548327604090</created>
+      <option name="number" value="01590" />
+      <option name="presentableId" value="LOCAL-01590" />
+      <option name="project" value="LOCAL" />
+      <updated>1548327604090</updated>
+    </task>
+    <option name="localTasksCounter" value="1591" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1215194000" />
+    <option name="totallyTimeSpent" value="1215279000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1459,7 +1459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Color Picker js was updated" />
     <MESSAGE value="bug fixed" />
     <MESSAGE value="color picker updated" />
     <MESSAGE value="color picker input was added" />
@@ -1484,7 +1483,8 @@
     <MESSAGE value="KakaoLink has been updated : Calling bug" />
     <MESSAGE value="KakaoLink has been updated :" />
     <MESSAGE value="squarecard_mainbig has been updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="squarecard_mainbig has been updated" />
+    <MESSAGE value="squarecard_mainbig has been updated : margin" />
+    <option name="LAST_COMMIT_MESSAGE" value="squarecard_mainbig has been updated : margin" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1604,7 +1604,7 @@
     <entry file="file://$PROJECT_DIR$/pages/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="370">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
