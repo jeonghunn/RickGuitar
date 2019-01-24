@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="KakaoLink has been updated : image null">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="KakaoLink has been updated : Calling bug">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_view.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="15">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="140" column="23" lean-forward="true" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
+            <state relative-caret-position="262">
+              <caret line="139" column="105" selection-start-line="139" selection-start-column="105" selection-end-line="139" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -53,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
+            <state relative-caret-position="219">
               <caret line="47" column="20" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="20" />
             </state>
           </provider>
@@ -224,8 +223,8 @@
         <option value="$PROJECT_DIR$/pages/footer.php" />
         <option value="$PROJECT_DIR$/pages/birthday/view/birthday_write.php" />
         <option value="$PROJECT_DIR$/pages/info/view/info.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
       </list>
     </option>
   </component>
@@ -243,7 +242,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="730" />
     <option name="width" value="710" />
     <option name="height" value="900" />
@@ -1002,35 +1001,7 @@
       <workItem from="1544494513502" duration="10000" />
       <workItem from="1548157581096" duration="963000" />
       <workItem from="1548299133237" duration="99000" />
-      <workItem from="1548299236278" duration="4579000" />
-    </task>
-    <task id="LOCAL-01534" summary="test">
-      <created>1519896881961</created>
-      <option name="number" value="01534" />
-      <option name="presentableId" value="LOCAL-01534" />
-      <option name="project" value="LOCAL" />
-      <updated>1519896881961</updated>
-    </task>
-    <task id="LOCAL-01535" summary="new update fixed">
-      <created>1519897055316</created>
-      <option name="number" value="01535" />
-      <option name="presentableId" value="LOCAL-01535" />
-      <option name="project" value="LOCAL" />
-      <updated>1519897055316</updated>
-    </task>
-    <task id="LOCAL-01536" summary="editor useless removed brief">
-      <created>1519897534801</created>
-      <option name="number" value="01536" />
-      <option name="presentableId" value="LOCAL-01536" />
-      <option name="project" value="LOCAL" />
-      <updated>1519897534802</updated>
-    </task>
-    <task id="LOCAL-01537" summary="update">
-      <created>1519897652478</created>
-      <option name="number" value="01537" />
-      <option name="presentableId" value="LOCAL-01537" />
-      <option name="project" value="LOCAL" />
-      <updated>1519897652478</updated>
+      <workItem from="1548299236278" duration="4996000" />
     </task>
     <task id="LOCAL-01538" summary="google analytics added">
       <created>1520309950736</created>
@@ -1347,11 +1318,39 @@
       <option name="project" value="LOCAL" />
       <updated>1548323468322</updated>
     </task>
-    <option name="localTasksCounter" value="1583" />
+    <task id="LOCAL-01583" summary="KakaoLink has been updated : image url">
+      <created>1548323837381</created>
+      <option name="number" value="01583" />
+      <option name="presentableId" value="LOCAL-01583" />
+      <option name="project" value="LOCAL" />
+      <updated>1548323837381</updated>
+    </task>
+    <task id="LOCAL-01584" summary="KakaoLink has been updated : image url bug">
+      <created>1548323901941</created>
+      <option name="number" value="01584" />
+      <option name="presentableId" value="LOCAL-01584" />
+      <option name="project" value="LOCAL" />
+      <updated>1548323901941</updated>
+    </task>
+    <task id="LOCAL-01585" summary="KakaoLink has been updated : image url bug">
+      <created>1548324002480</created>
+      <option name="number" value="01585" />
+      <option name="presentableId" value="LOCAL-01585" />
+      <option name="project" value="LOCAL" />
+      <updated>1548324002480</updated>
+    </task>
+    <task id="LOCAL-01586" summary="KakaoLink has been updated : Calling bug">
+      <created>1548324175893</created>
+      <option name="number" value="01586" />
+      <option name="presentableId" value="LOCAL-01586" />
+      <option name="project" value="LOCAL" />
+      <updated>1548324175893</updated>
+    </task>
+    <option name="localTasksCounter" value="1587" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1213838000" />
+    <option name="totallyTimeSpent" value="1214255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1363,18 +1362,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="730" y="0" width="710" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.26197603" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.12517883" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5958084" side_tool="true" visible="true" weight="0.27349398" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.68168813" side_tool="true" visible="true" weight="0.27349398" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1387,7 +1386,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.4041916" visible="true" weight="0.27349398" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.31831187" visible="true" weight="0.27349398" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4923611" visible="true" weight="0.32536522" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1460,9 +1459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="square view write birthday bug fixed" />
-    <MESSAGE value="font menu updated" />
-    <MESSAGE value="default wrtie policy updated" />
     <MESSAGE value="bootstrap 4.1 updated" />
     <MESSAGE value="Color Picker js was added" />
     <MESSAGE value="Color Picker js was updated" />
@@ -1485,7 +1481,10 @@
     <MESSAGE value="Bootstrap has been updated to 4.2.1" />
     <MESSAGE value="KakaoLink has been updated" />
     <MESSAGE value="KakaoLink has been updated : image null" />
-    <option name="LAST_COMMIT_MESSAGE" value="KakaoLink has been updated : image null" />
+    <MESSAGE value="KakaoLink has been updated : image url" />
+    <MESSAGE value="KakaoLink has been updated : image url bug" />
+    <MESSAGE value="KakaoLink has been updated : Calling bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="KakaoLink has been updated : Calling bug" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1564,13 +1563,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+    <entry file="file://$PROJECT_DIR$/pages/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4541">
-          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="219">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1581,24 +1584,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base.php">
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="20" />
+        <state relative-caret-position="-4541">
+          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="140" column="23" lean-forward="true" selection-start-line="140" selection-start-column="23" selection-end-line="140" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="262">
+          <caret line="139" column="105" selection-start-line="139" selection-start-column="105" selection-end-line="139" selection-end-column="105" />
         </state>
       </provider>
     </entry>
