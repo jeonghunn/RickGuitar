@@ -78,8 +78,8 @@
                     <h3>Information</h3>
                     <a href="http://unopenedbox.com/index.php?mid=updates&category=228319" class="btn btn-outline-dark"
                        role="button">Changelog</a>
-                    <a href="http://tarks.net/fsquare_notice" class="btn btn-outline-dark" role="button">Notice</a>
-                    <a href="http://tarks.net/fsquare_feedback" class="btn btn-outline-dark" role="button">FeedBack</a>
+                    <a href="http://unopenedbox.com/notice" class="btn btn-outline-dark" role="button">Notice</a>
+                    <a href="http://unopenedbox.com/fsquare_feedback" class="btn btn-outline-dark" role="button">FeedBack</a>
                     <a href="license" class="btn btn-outline-dark" role="button">Open Source License</a>
 
 
