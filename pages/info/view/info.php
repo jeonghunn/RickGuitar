@@ -60,13 +60,10 @@
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
         <div class="btn-group" role="group">
-            <a href="http://tarks.net/fsquare" class="btn btn-dark" role="button">Square Forum</a>
+            <a href="http://unopenedbox.net/develop/square" class="btn btn-dark" role="button">Square Development</a>
         </div>
         <div class="btn-group" role="group">
-            <a href="http://tarks.net/develop/square" class="btn btn-dark" role="button">Square Development</a>
-        </div>
-        <div class="btn-group" role="group">
-            <a href="http://tarks.net/" class="btn btn-dark" role="button">Tarks.net</a>
+            <a href="http://unopenedbox.com/" class="btn btn-dark" role="button">UnopenedBox</a>
         </div>
     </div>
 
@@ -79,7 +76,7 @@
                 <!--       <img src="..." alt="..."> -->
                 <div class="caption">
                     <h3>Information</h3>
-                    <a href="http://tarks.net/fsquare_changelog" class="btn btn-outline-dark"
+                    <a href="http://unopenedbox.com/index.pfhp?mid=updates&category=228319" class="btn btn-outline-dark"
                        role="button">Changelog</a>
                     <a href="http://tarks.net/fsquare_notice" class="btn btn-outline-dark" role="button">Notice</a>
                     <a href="http://tarks.net/fsquare_feedback" class="btn btn-outline-dark" role="button">FeedBack</a>
