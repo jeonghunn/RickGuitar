@@ -108,7 +108,6 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
 
 </div> <!-- /container -->
 
-
 <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 <script>
 
