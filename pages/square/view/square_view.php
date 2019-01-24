@@ -101,7 +101,8 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
             onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebook-share-dialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
         페이스북으로 공유
     </button>
-    <button type="button" class="btn btn-outline-warning btn-lg kakao" id="kakao-link-btn" onclick="sendLink()">
+    <button type="button" class="btn btn-outline-warning btn-lg kakao" id="kakao-link-btn"
+            onclick="location.href='javascript:;'">
         카카오톡으로 공유
     </button>
 
@@ -127,9 +128,9 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
         var firstImgRatio = 1
     }
 
+    //KAKAOLINK
     Kakao.init('4c0bd2702cc62066b3e51409f6da1d0c');   // 사용할 앱의 JavaScript 키를 설정해 주세요.
 
-    function sendLink() {
 
         Kakao.Link.createDefaultButton({
             container: '#kakao-link-btn',
@@ -152,8 +153,6 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
                 }
             ]
         });
-
-    }
 
 
 </script>
