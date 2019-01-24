@@ -102,7 +102,7 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
         페이스북으로 공유
     </button>
     <button type="button" class="btn btn-outline-warning btn-lg kakao" id="kakao-link-btn"
-            onclick="location.href='javascript:;'">
+            onclick="sendKakaoLink()">
         카카오톡으로 공유
     </button>
 
@@ -131,7 +131,7 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
     //KAKAOLINK
     Kakao.init('4c0bd2702cc62066b3e51409f6da1d0c');   // 사용할 앱의 JavaScript 키를 설정해 주세요.
 
-
+    function sendKakaoLink() {
         Kakao.Link.createDefaultButton({
             container: '#kakao-link-btn',
             objectType: 'feed',
@@ -155,6 +155,7 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
             ]
         });
 
+    }
 
 </script>
 
