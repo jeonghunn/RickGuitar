@@ -135,7 +135,7 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
         Kakao.Link.createDefaultButton({
             container: '#kakao-link-btn',
             objectType: 'feed',
-            imageUrl: '<?php echo getCorePUrl() + "pages/images/birthday_image.jpg" ?>',
+            imageUrl: '<?php echo getCorePUrl() . "pages/images/birthday_image.jpg" ?>',
             content: {
                 title: '<?php echo $html_title ?>',
                 link: {
