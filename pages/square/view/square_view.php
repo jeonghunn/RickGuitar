@@ -130,19 +130,29 @@ if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"p
     Kakao.init('4c0bd2702cc62066b3e51409f6da1d0c');   // 사용할 앱의 JavaScript 키를 설정해 주세요.
 
     function sendLink() {
-        Kakao.Link.sendTalkLink({
-            label: '<?php echo $html_title ?>', // 공유할 메세지의 제목을 설정
-            image: {
-                src: firstImgSrc,
-                width: '300',
-                height: parseInt(300 * firstImgRatio)
-            } // 이건 썸네일을 설정 하는 겁니다.
-            ,
-            webButton: {
-                text: '보기',
-                url: document.URL // 각각의 포스팅 본문의 링크를 거는 코드입니다.
-            }
+
+        Kakao.Link.createDefaultButton({
+            container: '#kakao-link-btn',
+            objectType: 'feed',
+            content: {
+                title: '<?php echo $html_title ?>',
+                link: {
+                    mobileWebUrl: document.URL,
+                    webUrl: document.URL
+                }
+            },
+
+            buttons: [
+                {
+                    title: 'Square에서 보기',
+                    link: {
+                        mobileWebUrl: document.URL,
+                        webUrl: document.URL
+                    }
+                }
+            ]
         });
+
     }
 
 
