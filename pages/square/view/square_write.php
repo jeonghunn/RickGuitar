@@ -26,7 +26,8 @@
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
                 <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse" href="#fontcontrol"
-                "><span class="oi oi-text" style="display: none;"></span></button>
+                        style="display: none;"
+                "><span class="oi oi-text"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('bold')"><span
                             class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('italic')"><span
