@@ -1,8 +1,8 @@
 <?php
 
 //Service Name
-$L['app_name'] = 'Square';
-$L['app_full_name'] = 'Square';
+$L['app_name'] = 's9uare';
+$L['app_full_name'] = 's9uare';
 
 
 //Site Menu
