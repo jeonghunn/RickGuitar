@@ -13,23 +13,6 @@
                 </div>
             </div>
 
-        <!--                        <textarea class="cardtextarea" placeholder="내용을 입력해주세요."-->
-        <!--                                  style=" display:inline-block;   vertical-align:middle; text-align: center;"></textarea>-->
-
-
-        <!--                        <label class="radio-inline">-->
-        <!--                            <input type="radio" name="align_radio_1" id="inlineRadio_left_1" value="left"> 왼쪽 정렬-->
-        <!--                        </label>-->
-        <!--                        <label class="radio-inline">-->
-        <!--                            <input type="radio" name="align_radio_1" id="alignradio_center_1" value="center-center"-->
-        <!--                                   checked>-->
-        <!--                            가운데-->
-        <!--                            정렬-->
-        <!--                        </label>-->
-            <!--            버튼 툴바-->
-        <!--        <div>-->
-        <!--            <br>-->
-        <!---->
 
         <div id="edit_1">
         <br>
@@ -43,7 +26,7 @@
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
                 <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse" href="#fontcontrol"
-                "><span class="oi oi-text"></span></button>
+                "><span class="oi oi-text" style="display: none;"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('bold')"><span
                             class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('italic')"><span
