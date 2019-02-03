@@ -2,16 +2,16 @@
 
 
 function getCoreVersion(){
-    return "3.10.124.20";
+    return "3.10.204";
 }
 
 //Basic Info
 function getSiteAddress(){
-    return "http://unopenedbox.com/square/";
+    return "http://s9uare.com/";
 }
 
 function getAPIAddress(){
-    return "http://unopenedbox.com/square/api.php";
+    return "http://s9uare.com/api.php";
 }
 
 function getIPAddr(){

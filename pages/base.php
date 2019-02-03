@@ -46,7 +46,7 @@ function importHeader($html_title)
 }
 
 function getCorePUrl(){
-    return isDevelopmentServer() ? "unopenedbox.com/develop/square/" : "unopenedbox.com/square/";
+    return isDevelopmentServer() ? "unopenedbox.com/develop/square/" : "s9uare.com/";
 }
 
 function getCoreUrl($s){
