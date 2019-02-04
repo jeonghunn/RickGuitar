@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "3.10.204";
+    return "3.10.205";
 }
 
 //Basic Info
