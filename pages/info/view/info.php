@@ -60,7 +60,7 @@
 
     <div class="btn-group btn-group-justified" role="group" aria-label="...">
         <div class="btn-group" role="group">
-            <a href="http://unopenedbox.net/develop/square" class="btn btn-dark" role="button">Square Development</a>
+            <a href="http://unopenedbox.com/develop/" class="btn btn-dark" role="button">Square Development</a>
         </div>
         <div class="btn-group" role="group">
             <a href="http://unopenedbox.com/" class="btn btn-dark" role="button">UnopenedBox</a>
