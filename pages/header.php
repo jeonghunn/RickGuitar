@@ -78,7 +78,7 @@
 
       <!--     font -->
       <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
-      <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 
       <!--      Icons-->
@@ -87,7 +87,7 @@
       <!--     Medium Editor -->
       <link rel="stylesheet" href="pages/css/medium-editor.css">
       <link rel="stylesheet" href="pages/css/beagle.css">
-      <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
 
 
       <!--     Bootstrap ColorPicker -->
@@ -109,9 +109,9 @@
       <style>
 
           /*font*/
-          @import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
-          @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-          @import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+          @import url(https://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+          @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+          @import url(https://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 
 
          body {
