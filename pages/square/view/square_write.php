@@ -97,6 +97,10 @@
         <br>
             <div id="squarecard"></div>
         <br> <br>
+        <button type="button" class="btn btn-outline-dark btn-lg" onclick="addCard()"
+                style=" border-radius: 50%; width: 64px; height: 64px; text-align: center; font-size:24px"
+        >+
+        </button>
 
         <p id="status_message"></p><br>
         <div class="dropdown">
@@ -113,9 +117,7 @@
 
 
         <br>
-        <button type="button" class="btn btn-outline-dark btn-lg" onclick="addCard()">
-            <?php S('write_add_card') ?>
-        </button>
+
 
         <button type="button" class="btn btn-dark btn-lg" onclick="writeAct()">
             <?php S('write_post') ?>
