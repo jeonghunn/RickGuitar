@@ -24,7 +24,7 @@
 
         <button type="nav-button" class="btn btn-dark btn-lg"
 
-                onclick="location.href='write'; ">+
+                onclick="location.href='write';  " style=" border-radius: 50%;">+
         </button>
     </div>
 </nav>
