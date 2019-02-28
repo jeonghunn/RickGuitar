@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="navbar write button updated.">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="squarecard image maxwidth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="149" selection-start-line="149" selection-end-line="149" />
+            <state relative-caret-position="135">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -36,15 +36,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
               <caret line="189" column="24" lean-forward="true" selection-start-line="189" selection-start-column="24" selection-end-line="189" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -79,13 +70,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="788">
-              <caret line="230" column="32" selection-start-line="230" selection-start-column="32" selection-end-line="230" selection-end-column="32" />
+            <state relative-caret-position="2641">
+              <caret line="233" column="26" lean-forward="true" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/profile.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -227,11 +223,11 @@
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/info/view/info.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/base.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/navbar.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
   </component>
@@ -982,21 +978,7 @@
       <workItem from="1549210656600" duration="1071000" />
       <workItem from="1549285192608" duration="1505000" />
       <workItem from="1551269079468" duration="1123000" />
-      <workItem from="1551364116034" duration="4042000" />
-    </task>
-    <task id="LOCAL-01575" summary="Birthday 2017 bug has been fixed.">
-      <created>1548158164346</created>
-      <option name="number" value="01575" />
-      <option name="presentableId" value="LOCAL-01575" />
-      <option name="project" value="LOCAL" />
-      <updated>1548158164347</updated>
-    </task>
-    <task id="LOCAL-01576" summary="info has been updated">
-      <created>1548299269095</created>
-      <option name="number" value="01576" />
-      <option name="presentableId" value="LOCAL-01576" />
-      <option name="project" value="LOCAL" />
-      <updated>1548299269095</updated>
+      <workItem from="1551364116034" duration="5744000" />
     </task>
     <task id="LOCAL-01577" summary="url has been updated">
       <created>1548299305421</created>
@@ -1327,11 +1309,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551368446333</updated>
     </task>
-    <option name="localTasksCounter" value="1624" />
+    <task id="LOCAL-01624" summary="squarecard maxwidth">
+      <created>1551370318009</created>
+      <option name="number" value="01624" />
+      <option name="presentableId" value="LOCAL-01624" />
+      <option name="project" value="LOCAL" />
+      <updated>1551370318009</updated>
+    </task>
+    <task id="LOCAL-01625" summary="squarecard image maxwidth">
+      <created>1551370438331</created>
+      <option name="number" value="01625" />
+      <option name="presentableId" value="LOCAL-01625" />
+      <option name="project" value="LOCAL" />
+      <updated>1551370438331</updated>
+    </task>
+    <option name="localTasksCounter" value="1626" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1224311000" />
+    <option name="totallyTimeSpent" value="1226013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1440,8 +1436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="info has been updated" />
-    <MESSAGE value="url has been updated" />
     <MESSAGE value="Bootstrap has been updated to 4.2.1" />
     <MESSAGE value="KakaoLink has been updated" />
     <MESSAGE value="KakaoLink has been updated : image null" />
@@ -1465,7 +1459,9 @@
     <MESSAGE value="write button on navbar : update" />
     <MESSAGE value="actparameter function bug has been fixed." />
     <MESSAGE value="navbar write button updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar write button updated." />
+    <MESSAGE value="squarecard maxwidth" />
+    <MESSAGE value="squarecard image maxwidth" />
+    <option name="LAST_COMMIT_MESSAGE" value="squarecard image maxwidth" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1579,13 +1575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -1641,10 +1630,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/profile.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="230" column="32" selection-start-line="230" selection-start-column="32" selection-end-line="230" selection-end-column="32" />
+        <state relative-caret-position="2641">
+          <caret line="233" column="26" lean-forward="true" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
