@@ -147,12 +147,6 @@ function getSqlLastNumber($table)
 //}
 
 
-function getActParameter()
-{
-    global $act_parameter;
-    return $act_parameter;
-}
-
 function P($str){
   echo htmlspecialchars($str);
 }

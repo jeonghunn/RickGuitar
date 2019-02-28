@@ -206,6 +206,12 @@ function PostAct($url, $arrayvars){
 
 }
 
+    function getActParameter()
+    {
+        global $act_parameter;
+        return $act_parameter;
+    }
+
 
 
 //$myvars = 'myvar1=' . $myvar1 . '&myvar2=' . $myvar2;
