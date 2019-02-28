@@ -19,7 +19,7 @@
         </ul>
         <ul class="navbar-nav">
             <button type="nav-button" class="btn btn-dark btn-lg"
-                    style=" border-radius: 50%; width: 24px; height: 24px; text-align: center; font-size:24px"
+                    style=" border-radius: 50%; width: 32px; height: 32px; text-align: center; font-size:24px"
                     onclick="location.href='write'; ">+
             </button>
         <?php if (isDevelopmentServer()) echo "<li class=\"nav-item\"><a  class=\"nav-link\" href=\"info\">Development Server</a></li>" ?>
