@@ -215,7 +215,7 @@
              .squarecard {
 
                  width:100%;
-
+                 max-width: 100%
              }
 
              .outer {
@@ -228,7 +228,7 @@
          /*작은 모바일*/
          @media screen and (max-width: 350px){
              .squarecard {
-
+                 max-width: 100%
                  width: 100%;
 
              }
