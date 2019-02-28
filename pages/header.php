@@ -161,6 +161,8 @@
              word-break: break-all;
              display: table-cell;
 
+             vertical-align: middle; /* fixed with a valid value*/
+
          }
 
          /* On mouse-over, add a deeper shadow */
