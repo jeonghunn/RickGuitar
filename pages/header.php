@@ -150,7 +150,7 @@
              background-color: #FFFFFF;
              transition: 0.3s;
              /*   border-radius: 16px; 5px rounded corners */
-             width:440px;
+             width: 440px;
              height: 440px;
              padding-left: 24px;
              padding-right: 24px;
@@ -165,7 +165,8 @@
 
          }
 
-         /* On mouse-over, add a deeper shadow */
+
+          /* On mouse-over, add a deeper shadow */
          .squarecard:hover {
              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
          }
