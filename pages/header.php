@@ -222,6 +222,10 @@
                  width: 100%;
              }
 
+             img {
+                 max-width: 100%
+             }
+
 
          }
 
@@ -236,6 +240,11 @@
              .outer {
                  width: 100%;
              }
+
+             img {
+                 max-width: 100%
+             }
+
 
          }
 
