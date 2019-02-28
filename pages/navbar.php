@@ -21,11 +21,7 @@
 
         <?php if (isDevelopmentServer()) echo "<li class=\"nav-item\"><a  class=\"nav-link\" href=\"info\">Development Server</a></li>" ?>
 
-        <?php if (getActParameter() != "write") echo "
-            <button type=\"nav-button\" class=\"btn btn-dark btn-lg\"
-
-                    onclick=\"location.href='write';  \">+
-            </button>" ?>
+        <?php if (getActParameter() != "write") echo "<button type=\"nav-button\" class=\"btn btn-dark btn-lg\" onclick=\"location.href='write';  \">+</button>" ?>
 
         </ul>
 
