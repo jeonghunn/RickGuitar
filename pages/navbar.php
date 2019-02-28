@@ -10,6 +10,12 @@
         <ul class="navbar-nav mr-auto">
 
             <li class="nav-item">
+                <button type="button" class="btn btn-dark btn-lg"
+                        style=" border-radius: 50%; width: 64px; height: 64px; text-align: center; font-size:24px"
+                        onclick="location.href='write'; ">+
+                </button>
+
+
                 <a class="nav-link" href="birthday"><?php S('birthday') ?></a>
             </li>
 
