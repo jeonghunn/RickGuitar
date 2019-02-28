@@ -20,11 +20,14 @@
         <ul class="navbar-nav">
 
         <?php if (isDevelopmentServer()) echo "<li class=\"nav-item\"><a  class=\"nav-link\" href=\"info\">Development Server</a></li>" ?>
+
+
+            <button type="nav-button" class="btn btn-dark btn-lg"
+
+                    onclick="location.href='write';  " style=" border-radius: 50%;">+
+            </button>
+
         </ul>
 
-        <button type="nav-button" class="btn btn-dark btn-lg"
-
-                onclick="location.href='write';  " style=" border-radius: 50%;">+
-        </button>
     </div>
 </nav>
