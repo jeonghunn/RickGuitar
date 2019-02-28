@@ -10,7 +10,7 @@
         <ul class="navbar-nav mr-auto">
 
             <li class="nav-item">
-                <button type="button" class="btn btn-dark btn-lg"
+                <button type="nav-button" class="btn btn-dark btn-lg"
                         style=" border-radius: 50%; width: 24px; height: 24px; text-align: center; font-size:24px"
                         onclick="location.href='write'; ">+
                 </button>
