@@ -321,7 +321,7 @@
     function addCard() {
 
         cardcount = cardcount + 1;
-        var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div></div><div><br>';
+        var cardadd = '<div class="outer" id="card_' + cardcount + '"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div></div><div><br>';
         var editor = '<div id="edit_' + cardcount + '">\n' +
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
@@ -355,7 +355,7 @@
             '            </div>\n' +
             '        </div>\n' +
             '\n' +
-            '</div>'
+            '</div></div>'
         $(cardadd + editor).insertBefore('#squarecard');
         setEditor();
         hideEditor(active_card);
@@ -376,8 +376,7 @@
     }
 
     function removeCard(num) {
-        document.getElementById("contents_" + num).remove();
-        document.getElementById("edit_" + num).remove();
+        document.getElementById("card_" + num).remove();
     }
 
 
