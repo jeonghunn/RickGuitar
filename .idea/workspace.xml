@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="write x button">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="write x button onclick">
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -43,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="379" column="5" lean-forward="true" selection-start-line="379" selection-start-column="5" selection-end-line="379" selection-end-column="5" />
+            <state relative-caret-position="527">
+              <caret line="354" column="180" selection-start-line="354" selection-start-column="180" selection-end-line="354" selection-end-column="180" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -119,7 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getColl</find>
       <find>getMain</find>
       <find>ConvertForWrite</find>
       <find>checkWrote</find>
@@ -149,6 +147,7 @@
       <find>oi</find>
       <find>네모</find>
       <find>icon</find>
+      <find>cardcount</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -966,14 +965,7 @@
       <workItem from="1549285192608" duration="1505000" />
       <workItem from="1551269079468" duration="1123000" />
       <workItem from="1551364116034" duration="6981000" />
-      <workItem from="1551456711189" duration="3456000" />
-    </task>
-    <task id="LOCAL-01584" summary="KakaoLink has been updated : image url bug">
-      <created>1548323901941</created>
-      <option name="number" value="01584" />
-      <option name="presentableId" value="LOCAL-01584" />
-      <option name="project" value="LOCAL" />
-      <updated>1548323901941</updated>
+      <workItem from="1551456711189" duration="4148000" />
     </task>
     <task id="LOCAL-01585" summary="KakaoLink has been updated : image url bug">
       <created>1548324002480</created>
@@ -1311,11 +1303,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551467000188</updated>
     </task>
-    <option name="localTasksCounter" value="1633" />
+    <task id="LOCAL-01633" summary="write x button onclick">
+      <created>1551467095297</created>
+      <option name="number" value="01633" />
+      <option name="presentableId" value="LOCAL-01633" />
+      <option name="project" value="LOCAL" />
+      <updated>1551467095297</updated>
+    </task>
+    <option name="localTasksCounter" value="1634" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1230706000" />
+    <option name="totallyTimeSpent" value="1231398000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1424,7 +1423,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="KakaoLink has been updated : image url bug" />
     <MESSAGE value="KakaoLink has been updated : Calling bug" />
     <MESSAGE value="KakaoLink has been updated :" />
     <MESSAGE value="squarecard_mainbig has been updated" />
@@ -1449,7 +1447,8 @@
     <MESSAGE value="write animate" />
     <MESSAGE value="write animate delay has been updated." />
     <MESSAGE value="write x button" />
-    <option name="LAST_COMMIT_MESSAGE" value="write x button" />
+    <MESSAGE value="write x button onclick" />
+    <option name="LAST_COMMIT_MESSAGE" value="write x button onclick" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1624,8 +1623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="379" column="5" lean-forward="true" selection-start-line="379" selection-start-column="5" selection-end-line="379" selection-end-column="5" />
+        <state relative-caret-position="527">
+          <caret line="354" column="180" selection-start-line="354" selection-start-column="180" selection-end-line="354" selection-end-column="180" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
