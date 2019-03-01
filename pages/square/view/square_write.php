@@ -387,6 +387,7 @@
 
 
         for (var i = 1; i <= cardcount; i++) {
+            if (document.getElementById("contents_" + i) == null) continue;
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).innerHTML);
             //   var alignbool = document.getElementsByName("align_radio_" + i)[0].checked;
             var align_value = "center-center";

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="write cardcount write button">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="write removeCard has been updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="242">
+              <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="342" column="66" selection-start-line="342" selection-start-column="66" selection-end-line="342" selection-end-column="66" />
+            <state relative-caret-position="200">
+              <caret line="389" column="74" selection-start-line="389" selection-start-column="74" selection-end-line="389" selection-end-column="74" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -119,7 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getMain</find>
       <find>ConvertForWrite</find>
       <find>checkWrote</find>
       <find>focus</find>
@@ -148,6 +147,7 @@
       <find>oi</find>
       <find>네모</find>
       <find>icon</find>
+      <find>removeCard</find>
       <find>cardcount</find>
     </findStrings>
     <replaceStrings>
@@ -966,21 +966,7 @@
       <workItem from="1549285192608" duration="1505000" />
       <workItem from="1551269079468" duration="1123000" />
       <workItem from="1551364116034" duration="6981000" />
-      <workItem from="1551456711189" duration="4458000" />
-    </task>
-    <task id="LOCAL-01587" summary="KakaoLink has been updated :">
-      <created>1548324259427</created>
-      <option name="number" value="01587" />
-      <option name="presentableId" value="LOCAL-01587" />
-      <option name="project" value="LOCAL" />
-      <updated>1548324259427</updated>
-    </task>
-    <task id="LOCAL-01588" summary="squarecard_mainbig has been updated">
-      <created>1548327462331</created>
-      <option name="number" value="01588" />
-      <option name="presentableId" value="LOCAL-01588" />
-      <option name="project" value="LOCAL" />
-      <updated>1548327462331</updated>
+      <workItem from="1551456711189" duration="4657000" />
     </task>
     <task id="LOCAL-01589" summary="squarecard_mainbig has been updated : margin">
       <created>1548327552485</created>
@@ -1311,11 +1297,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551468032691</updated>
     </task>
-    <option name="localTasksCounter" value="1636" />
+    <task id="LOCAL-01636" summary="write removeCard has been updated">
+      <created>1551468133987</created>
+      <option name="number" value="01636" />
+      <option name="presentableId" value="LOCAL-01636" />
+      <option name="project" value="LOCAL" />
+      <updated>1551468133987</updated>
+    </task>
+    <task id="LOCAL-01637" summary="write removeCard has been updated">
+      <created>1551468230453</created>
+      <option name="number" value="01637" />
+      <option name="presentableId" value="LOCAL-01637" />
+      <option name="project" value="LOCAL" />
+      <updated>1551468230454</updated>
+    </task>
+    <option name="localTasksCounter" value="1638" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1231708000" />
+    <option name="totallyTimeSpent" value="1231907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1332,13 +1332,13 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.22630458" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22630458" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="0" sideWeight="0.68370605" side_tool="true" visible="true" weight="0.27170238" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.68370605" side_tool="true" visible="true" weight="0.27170238" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1424,7 +1424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="squarecard_mainbig has been updated" />
     <MESSAGE value="squarecard_mainbig has been updated : margin" />
     <MESSAGE value="square_cards align bug has been fixed" />
     <MESSAGE value="square_cards style bug has been fixed" />
@@ -1449,7 +1448,8 @@
     <MESSAGE value="write x button onclick" />
     <MESSAGE value="write cardnum" />
     <MESSAGE value="write cardcount write button" />
-    <option name="LAST_COMMIT_MESSAGE" value="write cardcount write button" />
+    <MESSAGE value="write removeCard has been updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="write removeCard has been updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1601,13 +1601,6 @@
     <entry file="file://$PROJECT_DIR$/core/db.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1622,10 +1615,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="342" column="66" selection-start-line="342" selection-start-column="66" selection-end-line="342" selection-end-column="66" />
+        <state relative-caret-position="200">
+          <caret line="389" column="74" selection-start-line="389" selection-start-column="74" selection-end-line="389" selection-end-column="74" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
