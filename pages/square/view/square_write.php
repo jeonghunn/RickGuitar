@@ -3,7 +3,7 @@
 <!-- html -->
 <div class="container">
 
-        <h1 style="text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
+    <h1 style="text-align: center;color: <?php getTitleColor() ?>;" class="animated fadeOutUp">네모 안에 생각을 담아보세요.</h1>
 
     <br></br>
     <center>

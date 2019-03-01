@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="squarecard image maxwidth">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="version down">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="210">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -34,18 +34,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="189" column="24" lean-forward="true" selection-start-line="189" selection-start-column="24" selection-end-line="189" selection-end-column="24" />
+            <state relative-caret-position="197">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="48" lean-forward="true" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
+            <state relative-caret-position="75">
+              <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
               <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -55,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-685">
+            <state relative-caret-position="315">
               <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
             </state>
           </provider>
@@ -64,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            <state relative-caret-position="375">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -73,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2641">
-              <caret line="233" column="26" lean-forward="true" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
+            <state relative-caret-position="3495">
+              <caret line="233" column="26" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -88,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/pages/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -96,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="65">
-              <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+            <state relative-caret-position="1515">
+              <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -105,11 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="315">
               <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="102" />
-              <folding>
-                <element signature="e#603#693#0#HTML" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -150,11 +148,11 @@
       <find>Write</find>
       <find>setEditorAction</find>
       <find>add</find>
-      <find>actp</find>
       <find>getAct</find>
       <find>getACt</find>
       <find>main</find>
       <find>squarecard</find>
+      <find>actp</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -221,13 +219,13 @@
         <option value="$PROJECT_DIR$/pages/lang/ko.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/info/view/info.php" />
-        <option value="$PROJECT_DIR$/pages/base.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/navbar.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/base.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
   </component>
@@ -245,10 +243,10 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="824" />
+    <option name="width" value="1920" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -271,38 +269,13 @@
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="info" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="square" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="square" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
@@ -978,14 +951,8 @@
       <workItem from="1549210656600" duration="1071000" />
       <workItem from="1549285192608" duration="1505000" />
       <workItem from="1551269079468" duration="1123000" />
-      <workItem from="1551364116034" duration="5744000" />
-    </task>
-    <task id="LOCAL-01577" summary="url has been updated">
-      <created>1548299305421</created>
-      <option name="number" value="01577" />
-      <option name="presentableId" value="LOCAL-01577" />
-      <option name="project" value="LOCAL" />
-      <updated>1548299305421</updated>
+      <workItem from="1551364116034" duration="6981000" />
+      <workItem from="1551456711189" duration="98000" />
     </task>
     <task id="LOCAL-01578" summary="url has been updated">
       <created>1548299637700</created>
@@ -1323,11 +1290,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551370438331</updated>
     </task>
-    <option name="localTasksCounter" value="1626" />
+    <task id="LOCAL-01626" summary="version down">
+      <created>1551374252564</created>
+      <option name="number" value="01626" />
+      <option name="presentableId" value="LOCAL-01626" />
+      <option name="project" value="LOCAL" />
+      <updated>1551374252564</updated>
+    </task>
+    <option name="localTasksCounter" value="1627" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1226013000" />
+    <option name="totallyTimeSpent" value="1227348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1344,7 +1318,7 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22417465" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22630458" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
@@ -1436,7 +1410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bootstrap has been updated to 4.2.1" />
     <MESSAGE value="KakaoLink has been updated" />
     <MESSAGE value="KakaoLink has been updated : image null" />
     <MESSAGE value="KakaoLink has been updated : image url" />
@@ -1461,7 +1434,8 @@
     <MESSAGE value="navbar write button updated." />
     <MESSAGE value="squarecard maxwidth" />
     <MESSAGE value="squarecard image maxwidth" />
-    <option name="LAST_COMMIT_MESSAGE" value="squarecard image maxwidth" />
+    <MESSAGE value="version down" />
+    <option name="LAST_COMMIT_MESSAGE" value="version down" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1575,75 +1549,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base.php">
+    <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="189" column="24" lean-forward="true" selection-start-line="189" selection-start-column="24" selection-end-line="189" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="102" />
-          <folding>
-            <element signature="e#603#693#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="25" column="25" lean-forward="true" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
+        <state relative-caret-position="315">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="61" column="48" lean-forward="true" selection-start-line="61" selection-start-column="48" selection-end-line="61" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3495">
+          <caret line="233" column="26" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/profile.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
+    <entry file="file://$PROJECT_DIR$/pages/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2641">
-          <caret line="233" column="26" lean-forward="true" selection-start-line="233" selection-start-column="26" selection-end-line="233" selection-end-column="26" />
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="1515">
+          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="95" selection-start-line="5" selection-start-column="95" selection-end-line="5" selection-end-column="95" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
