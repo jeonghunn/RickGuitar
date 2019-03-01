@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="write animate delay has been updated.">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="write x button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
+            <state relative-caret-position="186">
+              <caret line="379" column="5" lean-forward="true" selection-start-line="379" selection-start-column="5" selection-end-line="379" selection-end-column="5" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -65,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="101" column="74" selection-start-line="101" selection-start-column="74" selection-end-line="101" selection-end-column="74" />
+            <state relative-caret-position="325">
+              <caret line="92" column="40" lean-forward="true" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -102,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="167">
               <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="102" />
             </state>
           </provider>
@@ -119,8 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>isProcessing(</find>
-      <find>sendLink</find>
       <find>getColl</find>
       <find>getMain</find>
       <find>ConvertForWrite</find>
@@ -147,8 +145,10 @@
       <find>main</find>
       <find>squarecard</find>
       <find>actp</find>
-      <find>네모</find>
       <find>animate</find>
+      <find>oi</find>
+      <find>네모</find>
+      <find>icon</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -966,21 +966,7 @@
       <workItem from="1549285192608" duration="1505000" />
       <workItem from="1551269079468" duration="1123000" />
       <workItem from="1551364116034" duration="6981000" />
-      <workItem from="1551456711189" duration="416000" />
-    </task>
-    <task id="LOCAL-01582" summary="KakaoLink has been updated : image null">
-      <created>1548323468322</created>
-      <option name="number" value="01582" />
-      <option name="presentableId" value="LOCAL-01582" />
-      <option name="project" value="LOCAL" />
-      <updated>1548323468322</updated>
-    </task>
-    <task id="LOCAL-01583" summary="KakaoLink has been updated : image url">
-      <created>1548323837381</created>
-      <option name="number" value="01583" />
-      <option name="presentableId" value="LOCAL-01583" />
-      <option name="project" value="LOCAL" />
-      <updated>1548323837381</updated>
+      <workItem from="1551456711189" duration="3456000" />
     </task>
     <task id="LOCAL-01584" summary="KakaoLink has been updated : image url bug">
       <created>1548323901941</created>
@@ -1311,11 +1297,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551457053386</updated>
     </task>
-    <option name="localTasksCounter" value="1631" />
+    <task id="LOCAL-01631" summary="write animate delay has been updated.">
+      <created>1551457140016</created>
+      <option name="number" value="01631" />
+      <option name="presentableId" value="LOCAL-01631" />
+      <option name="project" value="LOCAL" />
+      <updated>1551457140016</updated>
+    </task>
+    <task id="LOCAL-01632" summary="write x button">
+      <created>1551467000188</created>
+      <option name="number" value="01632" />
+      <option name="presentableId" value="LOCAL-01632" />
+      <option name="project" value="LOCAL" />
+      <updated>1551467000188</updated>
+    </task>
+    <option name="localTasksCounter" value="1633" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1227666000" />
+    <option name="totallyTimeSpent" value="1230706000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1332,13 +1332,13 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22630458" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.22630458" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.68370605" side_tool="true" visible="true" weight="0.27170238" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="0" sideWeight="0.68370605" side_tool="true" visible="true" weight="0.27170238" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1424,7 +1424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="KakaoLink has been updated : image url" />
     <MESSAGE value="KakaoLink has been updated : image url bug" />
     <MESSAGE value="KakaoLink has been updated : Calling bug" />
     <MESSAGE value="KakaoLink has been updated :" />
@@ -1449,7 +1448,8 @@
     <MESSAGE value="version down" />
     <MESSAGE value="write animate" />
     <MESSAGE value="write animate delay has been updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="write animate delay has been updated." />
+    <MESSAGE value="write x button" />
+    <option name="LAST_COMMIT_MESSAGE" value="write x button" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1591,24 +1591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="101" column="74" selection-start-line="101" selection-start-column="74" selection-end-line="101" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1622,10 +1608,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="92" column="40" lean-forward="true" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="99" selection-start-line="5" selection-start-column="99" selection-end-line="5" selection-end-column="99" />
+        <state relative-caret-position="186">
+          <caret line="379" column="5" lean-forward="true" selection-start-line="379" selection-start-column="5" selection-end-line="379" selection-end-column="5" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
