@@ -351,6 +351,8 @@
             // '                            class="oi oi-caret-bottom"></span></span>\n' +
             // '                </button>\n' +
             '            </div>\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="4 group"> <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-x"></span></button>\n' +
+            '            </div>\n' +
             '        </div>\n' +
             '\n' +
             '</div>'
@@ -371,6 +373,10 @@
                 targetCheckbox: true
             }
         });
+    }
+
+    function removeCard(num) {
+        document.getElementById("contents_" + num).remove();
     }
 
 
