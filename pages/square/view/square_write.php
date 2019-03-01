@@ -310,7 +310,7 @@
 
     function hideEditor(num) {
         var editorid = "edit_" + num;
-        if (num != 0) document.getElementById(editorid).style = 'display:none;';
+        if (document.getElementById(editorid) != null && num != 0) document.getElementById(editorid).style = 'display:none;';
     }
 
     function showEditor(num) {
