@@ -377,6 +377,7 @@
 
     function removeCard(num) {
         document.getElementById("contents_" + num).remove();
+        document.getElementById("edit_" + num).remove();
     }
 
 
