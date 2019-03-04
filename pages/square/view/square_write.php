@@ -26,7 +26,7 @@
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>-->
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
-                <select name="font_name" id="font_name">
+                <select name="font_name" id="font_name" style="height: 24px">
                     <option value="Roboto, Noto, sans-serif">기본</option>
                     <option value="sans-serif">고딕체</option>
                     <option value="Nanum Square">나눔스퀘어</option>
