@@ -26,7 +26,7 @@
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>-->
 
                 <select name="font_name" id="font_name"
-                        class="custom-select custom-select-md mb-3">
+                        class="custom-select custom-select-md">
                     <option value="Roboto, Noto, sans-serif">기본</option>
                     <option value="sans-serif">고딕체</option>
                     <option value="Nanum Square">나눔스퀘어</option>
