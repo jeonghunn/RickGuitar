@@ -26,7 +26,8 @@
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>-->
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
-                <select name="font_name" id="font_name" class="custom-select custom-select-lg mb-3">
+                <button type="button" class="btn btn btn-outline-secondary"><select name="font_name" id="font_name"
+                                                                                    class="custom-select custom-select-lg mb-3">
                     <option value="Roboto, Noto, sans-serif">기본</option>
                     <option value="sans-serif">고딕체</option>
                     <option value="Nanum Square">나눔스퀘어</option>
@@ -35,7 +36,7 @@
                     <option value="Nanum Brush Script">나눔손글씨체</option>
 
 
-                </select>
+                    </select></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('bold')"><span
                             class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('italic')"><span
