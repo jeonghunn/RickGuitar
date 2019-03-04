@@ -31,7 +31,7 @@
                     <option value="sans-serif">고딕체</option>
                     <option value="Nanum Square">나눔스퀘어</option>
                     <option value="Nanum Gothic">나눔고딕</option>
-                    <option value="Nanum Myeongj">나눔명조</option>
+                    <option value="Nanum Myeongjo">나눔명조</option>
                     <option value="Nanum Brush Script">나눔손글씨체</option>
 
 
