@@ -250,7 +250,11 @@ require_once 'pages/header.php'; ?>
     //Editor font control onchange
     $("#font_size").change(function () {
 
-        document.execCommand('FontSize', false, $(this).val());
+        var spanString = $('<span/>', {
+            'text': document.getSelection()
+        }).css('font-size', $(this).val() + 'px').prop('outerHTML');
+
+        document.execCommand('insertHTML', false, spanString);
         // alert(document.queryCommandValue("FontSize"));
         // alert('Selected value: ' + $(this).val());
     });
