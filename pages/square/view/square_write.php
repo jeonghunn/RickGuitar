@@ -329,7 +329,7 @@ require_once 'pages/header.php'; ?>
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
             '             style=" display: inline-block;">\n' +
-            '            <div class="btn-group btn-group" role="group" aria-label="First group"><?php htmlspecialchars($SQUARE_CLASS->PrintFontSelect()); ?> \n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="First group"><?php $SQUARE_CLASS->PrintFontSelect(); ?> \n' +
             // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
             // '                                                                                  title="icon name"\n' +
             // '                                                                                  aria-hidden="true"></span></button>\n' +
