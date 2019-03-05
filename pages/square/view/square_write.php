@@ -255,7 +255,7 @@ require_once 'pages/header.php'; ?>
 
         var spanString = $('<span/>', {
             'text': document.getSelection()
-        }).css('font-family', $(this).val()).prop('outerHTML');
+        }).css('font-family', $(this).val()).css('font-size', $("#font_size").val() + 'px').prop('outerHTML');
 
         document.execCommand('insertHTML', false, spanString);
         // document.execCommand('FontName', false, $(this).val());
