@@ -25,18 +25,7 @@
                 <!--                                                                                  aria-hidden="true"></span></button>-->
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>-->
 
-                <select name="font_name" id="font_name"
-                        class="custom-select custom-select-md">
-                    <option value="Roboto, Noto, sans-serif">기본</option>
-                    <option value="sans-serif">고딕체</option>
-                    <option value="Nanum Square">나눔스퀘어</option>
-                    <option value="Nanum Gothic">나눔고딕</option>
-                    <option value="Nanum Myeongjo">나눔명조</option>
-                    <option value="Nanum Brush Script">나눔손글씨체</option>
-
-
-                </select>
-
+                <?php $SQUARE_CLASS->PrintFontSelect() ?>
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
 
@@ -338,7 +327,7 @@
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
             '             style=" display: inline-block;">\n' +
-            '            <div class="btn-group btn-group" role="group" aria-label="First group">\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="First group">  <?php $SQUARE_CLASS->PrintFontSelect() ?>\n' +
             // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
             // '                                                                                  title="icon name"\n' +
             // '                                                                                  aria-hidden="true"></span></button>\n' +
