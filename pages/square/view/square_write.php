@@ -30,10 +30,7 @@ require_once 'pages/header.php'; ?>
                     <?php $SQUARE_CLASS->PrintFontSelectOptions(); ?>
                 </select>
 
-                <select name="font_size" id="font_size" class="custom-select custom-select-md" onselect="alert(0)">
-                    <?php $SQUARE_CLASS->PrintFontSizeOptions(); ?>
 
-                </select>
 
 
             </div>
