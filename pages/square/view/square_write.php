@@ -26,8 +26,9 @@ require_once 'pages/header.php'; ?>
                 <!--                                                                                  title="icon name"-->
                 <!--                                                                                  aria-hidden="true"></span></button>-->
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>-->
-
-                <?php $SQUARE_CLASS->PrintFontSelect(); ?>
+                <select name="font_name" id="font_name" class="custom-select custom-select-md">
+                    <?php $SQUARE_CLASS->PrintFontSelectOptions(); ?>
+                </select>
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
 
@@ -329,7 +330,7 @@ require_once 'pages/header.php'; ?>
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
             '             style=" display: inline-block;">\n' +
-            '            <div class="btn-group btn-group" role="group" aria-label="First group"><?php $SQUARE_CLASS->PrintFontSelect(); ?> \n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="First group">   <select name="font_name_' + cardcount + '" id="font_name_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSelectOptions(); ?> </select>\n' +
             // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
             // '                                                                                  title="icon name"\n' +
             // '                                                                                  aria-hidden="true"></span></button>\n' +
@@ -363,6 +364,15 @@ require_once 'pages/header.php'; ?>
         setEditor();
         hideEditor(active_card);
         active_card = cardcount;
+
+
+        $("#font_name_" + cardcount).change(function () {
+
+            document.execCommand('FontName', false, $(this).val());
+            // alert(document.queryCommandValue("FontSize"));
+            // alert('Selected value: ' + $(this).val());
+        });
+
 
     }
 

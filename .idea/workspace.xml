@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="add card fontselect htmlspecialchars" />
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="PrintFontSelect fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/square/controller/square.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
+    </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -72,7 +76,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="-1890">
               <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="46" />
             </state>
           </provider>
@@ -81,8 +85,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="331" column="118" selection-start-line="331" selection-start-column="102" selection-end-line="331" selection-end-column="118" />
+            <state relative-caret-position="159">
+              <caret line="332" column="169" selection-start-line="332" selection-start-column="169" selection-end-line="332" selection-end-column="169" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="435">
+              <caret line="84" column="296" selection-start-line="84" selection-start-column="296" selection-end-line="84" selection-end-column="296" />
             </state>
           </provider>
         </entry>
@@ -118,7 +125,6 @@
     <findStrings>
       <find>나눔</find>
       <find>square</find>
-      <find>font_name</find>
       <find>birthday</find>
       <find>나도 한</find>
       <find>nanum</find>
@@ -146,6 +152,7 @@
       <find>kakao</find>
       <find>private</find>
       <find>PrintFontSelect</find>
+      <find>font_name</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -237,8 +244,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1855" />
-    <option name="y" value="114" />
+    <option name="x" value="-1920" />
+    <option name="y" value="23" />
     <option name="width" value="1920" />
     <option name="height" value="1002" />
   </component>
@@ -981,28 +988,7 @@
       <workItem from="1551537982747" duration="1311000" />
       <workItem from="1551717499853" duration="2897000" />
       <workItem from="1551794959394" duration="979000" />
-      <workItem from="1551800117783" duration="720000" />
-    </task>
-    <task id="LOCAL-01612" summary="write button on navbar : update">
-      <created>1551367374745</created>
-      <option name="number" value="01612" />
-      <option name="presentableId" value="LOCAL-01612" />
-      <option name="project" value="LOCAL" />
-      <updated>1551367374745</updated>
-    </task>
-    <task id="LOCAL-01613" summary="write button on navbar : update">
-      <created>1551367444665</created>
-      <option name="number" value="01613" />
-      <option name="presentableId" value="LOCAL-01613" />
-      <option name="project" value="LOCAL" />
-      <updated>1551367444666</updated>
-    </task>
-    <task id="LOCAL-01614" summary="write button on navbar : update">
-      <created>1551367505759</created>
-      <option name="number" value="01614" />
-      <option name="presentableId" value="LOCAL-01614" />
-      <option name="project" value="LOCAL" />
-      <updated>1551367505759</updated>
+      <workItem from="1551800117783" duration="1375000" />
     </task>
     <task id="LOCAL-01615" summary="write button on navbar : update">
       <created>1551367685252</created>
@@ -1326,11 +1312,32 @@
       <option name="project" value="LOCAL" />
       <updated>1551800800887</updated>
     </task>
-    <option name="localTasksCounter" value="1661" />
+    <task id="LOCAL-01661" summary="PrintFontSelect n bug fix">
+      <created>1551800906618</created>
+      <option name="number" value="01661" />
+      <option name="presentableId" value="LOCAL-01661" />
+      <option name="project" value="LOCAL" />
+      <updated>1551800906618</updated>
+    </task>
+    <task id="LOCAL-01662" summary="PrintFontSelect fix">
+      <created>1551801005023</created>
+      <option name="number" value="01662" />
+      <option name="presentableId" value="LOCAL-01662" />
+      <option name="project" value="LOCAL" />
+      <updated>1551801005023</updated>
+    </task>
+    <task id="LOCAL-01663" summary="PrintFontSelect fix">
+      <created>1551801054585</created>
+      <option name="number" value="01663" />
+      <option name="presentableId" value="LOCAL-01663" />
+      <option name="project" value="LOCAL" />
+      <updated>1551801054585</updated>
+    </task>
+    <option name="localTasksCounter" value="1664" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1240214000" />
+    <option name="totallyTimeSpent" value="1240869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1342,7 +1349,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1855" y="114" width="1920" height="1002" extended-state="0" />
+    <frame x="-1920" y="23" width="1920" height="1002" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
@@ -1439,8 +1446,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="write button on navbar : update" />
-    <MESSAGE value="actparameter function bug has been fixed." />
     <MESSAGE value="navbar write button updated." />
     <MESSAGE value="squarecard maxwidth" />
     <MESSAGE value="squarecard image maxwidth" />
@@ -1464,7 +1469,9 @@
     <MESSAGE value="square log bug has been fixed." />
     <MESSAGE value="add card fontselect" />
     <MESSAGE value="add card fontselect htmlspecialchars" />
-    <option name="LAST_COMMIT_MESSAGE" value="add card fontselect htmlspecialchars" />
+    <MESSAGE value="PrintFontSelect n bug fix" />
+    <MESSAGE value="PrintFontSelect fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="PrintFontSelect fix" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1616,10 +1623,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="46" />
+        <state relative-caret-position="375">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1630,24 +1637,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        <state relative-caret-position="-1890">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="435">
+          <caret line="84" column="296" selection-start-line="84" selection-start-column="296" selection-end-line="84" selection-end-column="296" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="331" column="118" selection-start-line="331" selection-start-column="102" selection-end-line="331" selection-end-column="118" />
+        <state relative-caret-position="159">
+          <caret line="332" column="169" selection-start-line="332" selection-start-column="169" selection-end-line="332" selection-end-column="169" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
