@@ -82,7 +82,7 @@ class SquareClass
 
     function PrintFontSelect()
     {
-        echo "  <select name=\"font_name\" id=\"font_name\"
+        echo "<select name=\"font_name\" id=\"font_name\"
                         class=\"custom-select custom-select-md\">
                     <option value=\"Roboto, Noto, sans-serif\">기본</option>
                     <option value=\"sans-serif\">고딕체</option>
@@ -95,5 +95,6 @@ class SquareClass
                 </select>
 ";
     }
+
 
 }
