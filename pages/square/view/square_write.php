@@ -31,15 +31,7 @@ require_once 'pages/header.php'; ?>
                 </select>
 
                 <select name="font_size" id="font_size" class="custom-select custom-select-md" onselect="alert(0)">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="100">15</option>
+                    <?php $SQUARE_CLASS->PrintFontSizeOptions(); ?>
 
                 </select>
 
