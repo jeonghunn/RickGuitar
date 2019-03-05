@@ -404,7 +404,7 @@ require_once 'pages/header.php'; ?>
                 //   alert(document.querySelectorAll());
                 //alert(document.queryCommandValue("FontColor"));
                 // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
-                document.getElementById("font_size_" + cardcount).value = document.queryCommandValue("FontSize");
+                //     document.getElementById("font_size_" + cardcount).value = document.queryCommandValue("FontSize");
                 document.getElementById("font_name_" + cardcount).value = document.queryCommandValue("FontName").replace(/"([^"]+(?="))"/g, '$1');
                 //  alert(document.queryCommandValue("FontName"));
 
