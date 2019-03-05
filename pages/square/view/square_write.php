@@ -276,7 +276,7 @@ require_once 'pages/header.php'; ?>
             }
 
             //   if(selection.head)
-            alert(document.querySelectorAll());
+            //   alert(document.querySelectorAll());
             //alert(document.queryCommandValue("FontColor"));
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
             document.getElementById("font_size").value = document.queryCommandValue("FontSize");
@@ -389,6 +389,27 @@ require_once 'pages/header.php'; ?>
             // alert('Selected value: ' + $(this).val());
         });
 
+        //Mouse Selection update
+        $(function () {
+            $(document.body).bind('mouseup', function (e) {
+                var selection;
+
+                if (window.getSelection) {
+                    selection = window.getSelection();
+                } else if (document.selection) {
+                    selection = document.selection.createRange();
+                }
+
+                //   if(selection.head)
+                //   alert(document.querySelectorAll());
+                //alert(document.queryCommandValue("FontColor"));
+                // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
+                document.getElementById("font_size_" + cardcount).value = document.queryCommandValue("FontSize");
+                document.getElementById("font_name_" + cardcount).value = document.queryCommandValue("FontName").replace(/"([^"]+(?="))"/g, '$1');
+                //  alert(document.queryCommandValue("FontName"));
+
+            });
+        });
 
     }
 
