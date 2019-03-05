@@ -276,7 +276,7 @@ require_once 'pages/header.php'; ?>
             }
 
             //   if(selection.head)
-            //  alert(document.queryCommandValue("FontSize"));
+            alert(document.queryCommandValue("style"));
             //alert(document.queryCommandValue("FontColor"));
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
             document.getElementById("font_size").value = document.queryCommandValue("FontSize");
