@@ -250,12 +250,12 @@ require_once 'pages/header.php'; ?>
 
     $("#font_name").change(function () {
 
-        var spanString = $('<span/>', {
-            'text': document.getSelection()
-        }).css('font-family', $(this).val()).css('font-size', $("#font_size").val() + 'px').prop('outerHTML');
-
-        document.execCommand('insertHTML', false, spanString);
-        // document.execCommand('FontName', false, $(this).val());
+        // var spanString = $('<span/>', {
+        //     'text': document.getSelection()
+        // }).css('font-family', $(this).val()).css('font-size', $("#font_size").val() + 'px').prop('outerHTML');
+        //
+        // document.execCommand('insertHTML', false, spanString);
+        document.execCommand('FontName', false, $(this).val());
         // alert(document.queryCommandValue("FontSize"));
         // alert('Selected value: ' + $(this).val());
     });
