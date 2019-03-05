@@ -243,7 +243,7 @@ require_once 'pages/header.php'; ?>
     $("#font_size").change(function () {
 
         var spanString = $('<span/>', {
-            document.getSelection()
+            'text': document.getSelection()
         }).css('font-size', $(this).val() + 'px').prop('outerHTML');
 
         document.execCommand('insertHTML', false, spanString);
@@ -253,7 +253,12 @@ require_once 'pages/header.php'; ?>
 
     $("#font_name").change(function () {
 
-        document.execCommand('FontName', false, $(this).val());
+        var spanString = $('<span/>', {
+            'text': document.getSelection()
+        }).css('font-family', $(this).val()).prop('outerHTML');
+
+        document.execCommand('insertHTML', false, spanString);
+        // document.execCommand('FontName', false, $(this).val());
         // alert(document.queryCommandValue("FontSize"));
         // alert('Selected value: ' + $(this).val());
     });
