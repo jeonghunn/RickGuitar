@@ -243,7 +243,7 @@ require_once 'pages/header.php'; ?>
     $("#font_size").change(function () {
 
         var spanString = $('<span/>', {
-            'innerHTML': document.getSelection()
+            document.getSelection()
         }).css('font-size', $(this).val() + 'px').prop('outerHTML');
 
         document.execCommand('insertHTML', false, spanString);
