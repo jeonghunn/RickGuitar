@@ -86,9 +86,19 @@ class SquareClass
     }
 
 
-    function PrintFontSizeOptions()
+    function PrintFontSizeOptionsPx()
     {
         $sizearray = array(8, 9, 10, 11, 12, 13, 14, 16, 18, 20, 22, 24, 26, 28, 36, 40, 48, 56, 64, 72, 96, 128, 152, 256);
+        foreach ($sizearray as $key => $val) {
+            echo "<option value=\"" . $val . "\">" . $val . "</option>";
+        }
+
+
+    }
+
+    function PrintFontSizeOptions()
+    {
+        $sizearray = array(1, 2, 3, 4, 5, 6, 7);
         foreach ($sizearray as $key => $val) {
             echo "<option value=\"" . $val . "\">" . $val . "</option>";
         }

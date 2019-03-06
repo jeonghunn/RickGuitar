@@ -29,7 +29,9 @@ require_once 'pages/header.php'; ?>
                 <select name="font_name" id="font_name" class="custom-select custom-select-md">
                     <?php $SQUARE_CLASS->PrintFontSelectOptions(); ?>
                 </select>
-
+                <select name="font_size" id="font_size" class="custom-select custom-select-md">
+                    <?php $SQUARE_CLASS->PrintFontSizeOptions(); ?>
+                </select>
 
 
 
@@ -239,11 +241,12 @@ require_once 'pages/header.php'; ?>
     //Editor font control onchange
     $("#font_size").change(function () {
 
-        var spanString = $('<span/>', {
-            'text': document.getSelection()
-        }).css('font-size', $(this).val() + 'px').prop('outerHTML');
-
-        document.execCommand('insertHTML', false, spanString);
+        // var spanString = $('<span/>', {
+        //     'text': document.getSelection()
+        // }).css('font-size', $(this).val() + 'px').prop('outerHTML');
+        //
+        // document.execCommand('insertHTML', false, spanString);
+        document.execCommand('FontSize', false, $(this).val());
         // alert(document.queryCommandValue("FontSize"));
         // alert('Selected value: ' + $(this).val());
     });
@@ -343,7 +346,7 @@ require_once 'pages/header.php'; ?>
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
             '             style=" display: inline-block;">\n' +
-            '            <div class="btn-group btn-group" role="group" aria-label="First group">   <select name="font_name_' + cardcount + '" id="font_name_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSelectOptions(); ?> </select>\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="First group">   <select name="font_name_' + cardcount + '" id="font_name_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSelectOptions(); ?> </select> <select name="font_size_' + cardcount + '" id="font_size_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSizeOptions(); ?> </select>\n' +
             // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
             // '                                                                                  title="icon name"\n' +
             // '                                                                                  aria-hidden="true"></span></button>\n' +
@@ -386,6 +389,21 @@ require_once 'pages/header.php'; ?>
             // alert('Selected value: ' + $(this).val());
         });
 
+
+        //Editor font control onchange
+        $("#font_size_" + cardcount).change(function () {
+
+            // var spanString = $('<span/>', {
+            //     'text': document.getSelection()
+            // }).css('font-size', $(this).val() + 'px').prop('outerHTML');
+            //
+            // document.execCommand('insertHTML', false, spanString);
+            document.execCommand('FontSize', false, $(this).val());
+            // alert(document.queryCommandValue("FontSize"));
+            // alert('Selected value: ' + $(this).val());
+        });
+
+
         //Mouse Selection update
         $(function () {
             $(document.body).bind('mouseup', function (e) {
@@ -401,12 +419,13 @@ require_once 'pages/header.php'; ?>
                 //   alert(document.querySelectorAll());
                 //alert(document.queryCommandValue("FontColor"));
                 // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
-                //     document.getElementById("font_size_" + cardcount).value = document.queryCommandValue("FontSize");
+                document.getElementById("font_size_" + cardcount).value = document.queryCommandValue("FontSize");
                 document.getElementById("font_name_" + cardcount).value = document.queryCommandValue("FontName").replace(/"([^"]+(?="))"/g, '$1');
                 //  alert(document.queryCommandValue("FontName"));
 
             });
         });
+
 
     }
 
