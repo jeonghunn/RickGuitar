@@ -29,10 +29,14 @@ require_once 'pages/header.php'; ?>
                 <select name="font_name" id="font_name" class="custom-select custom-select-md">
                     <?php $SQUARE_CLASS->PrintFontSelectOptions(); ?>
                 </select>
+
+
+            </div>
+            <div class="btn-group btn-group" role="group" aria-label="First group">
+
                 <select name="font_size" id="font_size" class="custom-select custom-select-md">
                     <?php $SQUARE_CLASS->PrintFontSizeOptions(); ?>
                 </select>
-
 
 
             </div>
