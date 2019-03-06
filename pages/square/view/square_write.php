@@ -351,10 +351,8 @@ require_once 'pages/header.php'; ?>
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
             '             style=" display: inline-block;">\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="First group">   <select name="font_name_' + cardcount + '" id="font_name_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSelectOptions(); ?> </select> <select name="font_size_' + cardcount + '" id="font_size_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSizeOptions(); ?> </select>\n' +
-            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
-            // '                                                                                  title="icon name"\n' +
-            // '                                                                                  aria-hidden="true"></span></button>\n' +
-            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>\n' +
+            '            </div>\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="First group">   <select name="font_size_' + cardcount + '" id="font_size_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSizeOptions(); ?> </select>\n' +
             '            </div>\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="Second group">\n' +
             // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-text"></span></button>\n' +
