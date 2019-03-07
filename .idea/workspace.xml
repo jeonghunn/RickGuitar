@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="justifyright">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="line test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -91,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+            <state relative-caret-position="174">
+              <caret line="354" column="70" selection-start-line="354" selection-start-column="70" selection-end-line="354" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -996,28 +997,7 @@
       <workItem from="1551794959394" duration="979000" />
       <workItem from="1551800117783" duration="6040000" />
       <workItem from="1551888642501" duration="1936000" />
-      <workItem from="1551969757770" duration="2603000" />
-    </task>
-    <task id="LOCAL-01641" summary="allow share kakaotalk for desktop">
-      <created>1551538308445</created>
-      <option name="number" value="01641" />
-      <option name="presentableId" value="LOCAL-01641" />
-      <option name="project" value="LOCAL" />
-      <updated>1551538308446</updated>
-    </task>
-    <task id="LOCAL-01642" summary="version">
-      <created>1551538860975</created>
-      <option name="number" value="01642" />
-      <option name="presentableId" value="LOCAL-01642" />
-      <option name="project" value="LOCAL" />
-      <updated>1551538860975</updated>
-    </task>
-    <task id="LOCAL-01643" summary="fontselect">
-      <created>1551717629976</created>
-      <option name="number" value="01643" />
-      <option name="presentableId" value="LOCAL-01643" />
-      <option name="project" value="LOCAL" />
-      <updated>1551717629976</updated>
+      <workItem from="1551969757770" duration="2816000" />
     </task>
     <task id="LOCAL-01644" summary="fontselect">
       <created>1551718352865</created>
@@ -1341,11 +1321,32 @@
       <option name="project" value="LOCAL" />
       <updated>1551976513268</updated>
     </task>
-    <option name="localTasksCounter" value="1690" />
+    <task id="LOCAL-01690" summary="line test">
+      <created>1551978261041</created>
+      <option name="number" value="01690" />
+      <option name="presentableId" value="LOCAL-01690" />
+      <option name="project" value="LOCAL" />
+      <updated>1551978261041</updated>
+    </task>
+    <task id="LOCAL-01691" summary="line test">
+      <created>1551978363252</created>
+      <option name="number" value="01691" />
+      <option name="presentableId" value="LOCAL-01691" />
+      <option name="project" value="LOCAL" />
+      <updated>1551978363252</updated>
+    </task>
+    <task id="LOCAL-01692" summary="line test">
+      <created>1551978414133</created>
+      <option name="number" value="01692" />
+      <option name="presentableId" value="LOCAL-01692" />
+      <option name="project" value="LOCAL" />
+      <updated>1551978414133</updated>
+    </task>
+    <option name="localTasksCounter" value="1693" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1250073000" />
+    <option name="totallyTimeSpent" value="1250286000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1454,7 +1455,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="write writeact has been updated" />
     <MESSAGE value="write hideEditor bug has been fixed." />
     <MESSAGE value="allow share kakaotalk for desktop" />
     <MESSAGE value="fontselect" />
@@ -1479,7 +1479,8 @@
     <MESSAGE value="group test" />
     <MESSAGE value="group update" />
     <MESSAGE value="justifyright" />
-    <option name="LAST_COMMIT_MESSAGE" value="justifyright" />
+    <MESSAGE value="line test" />
+    <option name="LAST_COMMIT_MESSAGE" value="line test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1665,8 +1666,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+        <state relative-caret-position="174">
+          <caret line="354" column="70" selection-start-line="354" selection-start-column="70" selection-end-line="354" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
           </folding>
