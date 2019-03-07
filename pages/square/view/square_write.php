@@ -352,7 +352,7 @@ require_once 'pages/header.php'; ?>
         var editor = '<div id="edit_' + cardcount + '">\n' +
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
-            '             style=" display: inline-block; line-height:8px">\n' +
+            '             style=" display: inline-block; line-height:2.8em">\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="First group">   <select name="font_name_' + cardcount + '" id="font_name_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSelectOptions(); ?> </select> \n' +
             '            </div>\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="First group">   <select name="font_size_' + cardcount + '" id="font_size_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSizeOptions(); ?> </select>\n' +
