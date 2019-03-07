@@ -20,7 +20,7 @@ require_once 'pages/header.php'; ?>
         <div id="edit_1">
         <br>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
-             style=" display: inline-block; line-height:2.3em">
+             style=" display: inline-block; line-height:2.8em">
             <div class="btn-group btn-group" role="group" aria-label="First group">
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"-->
                 <!--                                                                                  title="icon name"-->
