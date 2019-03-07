@@ -55,6 +55,9 @@ require_once 'pages/header.php'; ?>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('JustifyCenter')">
                     <span class="oi oi-justify-center"></span>
                 </button>
+                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('JustifyRight')">
+                    <span class="oi oi-justify-right"></span>
+                </button>
             </div>
 
             <div class="btn-group btn-group" role="group" aria-label="4 group">
@@ -363,6 +366,8 @@ require_once 'pages/header.php'; ?>
             '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'JustifyLeft\')"><span class="oi oi-justify-left"></span>\n' +
             '                </button>\n' +
             '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'JustifyCenter\')"><span class="oi oi-justify-center"></span>\n' +
+            '                </button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'JustifyRight\')"><span class="oi oi-justify-right"></span>\n' +
             '                </button>\n' +
             '            </div>\n' +
             '\n' +
