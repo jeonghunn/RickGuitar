@@ -197,7 +197,7 @@ require_once 'pages/header.php'; ?>
             </div>
             <div class="modal-body">
                 <div id="cp1" data-color="#6D2781">
-                    <input type="text" class="form-control input-lg" value="#305AA2"/>
+                    <input type="text" class="form-control" style="width:auto"/> <br>
 
                 </div>
                 <script>
