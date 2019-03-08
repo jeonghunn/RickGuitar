@@ -28,6 +28,7 @@ $L['acrostic'] = 'Acrostic';
 
 //Write
 $L['write_choose_color'] = 'Choose Color';
+$L['write_choose_card_background_color'] = 'Choose Card background color';
 
 //info
 $L['show_all_contributors'] = 'Show All Contributors';

@@ -27,6 +27,7 @@ $L['acrostic'] = '삼행시';
 
 //Write
 $L['write_choose_color'] = '색 선택';
+$L['write_choose_card_background_color'] = '카드 배경색 선택';
 
 //info
 $L['show_all_contributors'] = '모든 기여자 목록 보기';

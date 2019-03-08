@@ -51,6 +51,7 @@ require_once 'pages/header.php'; ?>
             <div class="outer">
                 <div class="tablerow">
                     <div class="squarecard" id="contents_1" contentEditable="true" onclick="activeCard(1)"></div>
+                    <input type="hidden" id="background_1" name="background_1" value=""/>
                 </div>
             </div>
 
@@ -260,7 +261,7 @@ require_once 'pages/header.php'; ?>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal"><?php S('close') ?></button>
                 <button type="button" class="btn btn-primary"
-                        onclick="alert(document.getElementById('selected_color').value)"><?php S('select') ?></button>
+                        onclick="setCardBackgroundColor(active_card ,document.getElementById('selected_color').value)"><?php S('select') ?></button>
             </div>
         </div>
     </div>
@@ -390,6 +391,15 @@ require_once 'pages/header.php'; ?>
         }
     }
 
+    function setCardBackgroundColor(cardnum, color) {
+        document.getElementById("contents_" + cardnum).style = "background-color : " + color;
+        document.getElementById("background_"
+        _
+        cardnum
+    ).
+        value = color;
+    }
+
     function activeCard(cardnum) {
 
 
@@ -426,7 +436,7 @@ require_once 'pages/header.php'; ?>
     function addCard() {
 
         cardcount = cardcount + 1;
-        var cardadd = '<div class="outer" id="card_' + cardcount + '"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div></div><div><br>';
+        var cardadd = '<div class="outer" id="card_' + cardcount + '"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div>   <input type="hidden" id="background_1" name="background_' + cardcount + '" value=""/></div><div><br>';
         var editor = '<div id="edit_' + cardcount + '">\n' +
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
@@ -531,6 +541,7 @@ require_once 'pages/header.php'; ?>
     }
 
 
+
     function writeAct() {
         setProcessing(true);
 
@@ -544,7 +555,7 @@ require_once 'pages/header.php'; ?>
             var align_value = "center-center";
 
 
-            square_cards_array.push({align: align_value, content: cardvalue});
+            square_cards_array.push({align: align_value, content: cardvalue, background:});
 
         }
 
