@@ -344,11 +344,11 @@
             '            </div>\n' +
             '\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
-            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>\n' +
-            // '                </button>\n' +
-            // '                <button type="button" class="btn btn btn-outline-secondary"><span\n' +
-            // '                            class="oi oi-caret-bottom"></span></span>\n' +
-            // '                </button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>\n' +
+            '                </button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary"><span\n' +
+            '                            class="oi oi-caret-bottom"></span></span>\n' +
+            '                </button>\n' +
             '            </div>\n' +
             '        </div>\n' +
             '\n' +
