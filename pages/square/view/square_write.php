@@ -185,10 +185,6 @@ require_once 'pages/header.php'; ?>
     <br><br><br>
     </div> <!-- /container -->
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-    Launch demo modal
-</button>
 
 <!-- ColorPicker Modal -->
 <div class="modal fade" id="ColorPickerModal" tabindex="-1" role="dialog" aria-labelledby="ColorPickerModal"
