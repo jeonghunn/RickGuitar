@@ -223,8 +223,8 @@ require_once 'pages/header.php'; ?>
                 </script>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"><?php S('close') ?></button>
+                <button type="button" class="btn btn-primary"><?php S('select') ?></button>
             </div>
         </div>
     </div>

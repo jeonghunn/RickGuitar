@@ -19,6 +19,8 @@ $L['error_des'] = 'An error occurred while processing your request. Please try a
 $L['contributors'] = 'Contributors';
 $L['update_info'] = 'Update Info';
 $L['haru_point'] = 'p';
+$L['close'] = 'Close';
+$L['select'] = 'Select';
 
 //Menu
 $L['birthday'] = 'Birthday';
