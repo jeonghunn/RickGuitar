@@ -369,7 +369,7 @@ require_once 'pages/header.php'; ?>
             var selection;
             var oDiv = document.getElementById('contents_1');
             if (oDiv.selection && oDiv.selection.createRange) {
-                document.getElementById('lolz').sel
+                // document.getElementById('lolz').sel
                 alert("DFDFdf");
             }
             if (window.getSelection().baseNode.parentNode.id.startsWith("contents")) selRange = saveSelection();
