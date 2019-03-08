@@ -61,8 +61,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="126" column="46" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="46" />
+            <state relative-caret-position="448">
+              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -250,6 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,7 +315,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -984,14 +987,8 @@
       <workItem from="1551969757770" duration="2946000" />
       <workItem from="1552063715930" duration="10503000" />
       <workItem from="1552075298306" duration="2161000" />
-      <workItem from="1552077533072" duration="16000" />
-    </task>
-    <task id="LOCAL-01720" summary="colorpicker style test">
-      <created>1552069322824</created>
-      <option name="number" value="01720" />
-      <option name="presentableId" value="LOCAL-01720" />
-      <option name="project" value="LOCAL" />
-      <updated>1552069322824</updated>
+      <workItem from="1552077533072" duration="171000" />
+      <workItem from="1552077709100" duration="10000" />
     </task>
     <task id="LOCAL-01721" summary="stylesheet bug has been fixed">
       <created>1552069562014</created>
@@ -1329,11 +1326,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552077269370</updated>
     </task>
-    <option name="localTasksCounter" value="1769" />
+    <task id="LOCAL-01769" summary="bug fix">
+      <created>1552077564389</created>
+      <option name="number" value="01769" />
+      <option name="presentableId" value="LOCAL-01769" />
+      <option name="project" value="LOCAL" />
+      <updated>1552077564389</updated>
+    </task>
+    <option name="localTasksCounter" value="1770" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1263096000" />
+    <option name="totallyTimeSpent" value="1263261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1345,18 +1349,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="826" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19527897" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.1981402" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24964234" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.3962804" side_tool="true" visible="true" weight="0.28610355" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.3969957" side_tool="true" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1369,8 +1373,8 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.6037196" visible="true" weight="0.28610355" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" visible="true" weight="0.32469305" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.6030043" visible="true" weight="0.28610355" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" weight="0.32469305" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
@@ -1653,8 +1657,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="126" column="46" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="46" />
+        <state relative-caret-position="448">
+          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
