@@ -197,27 +197,45 @@ require_once 'pages/header.php'; ?>
             </div>
             <div class="modal-body">
                 <div id="cp1" data-color="#6D2781">
+                    <input type="text" class="form-control input-lg" value="#305AA2"/>
 
                 </div>
                 <script>
                     $(function () {
                         $('#cp1').colorpicker({
-                            format: 'auto',
                             inline: true,
                             container: true,
-                            customClass: 'colorpicker-2x',
-                            sliders: {
-                                saturation: {
-                                    maxLeft: 200,
-                                    maxTop: 200
-                                },
+                            extensions: [
+                                {
+                                    name: 'swatches',
+                                    options: {
+                                        colors: {
+                                            'tetrad1': '#000',
+                                            'tetrad2': '#000',
+                                            'tetrad3': '#000',
+                                            'tetrad4': '#000'
+                                        },
+                                        namesAsValues: false
+                                    }
+                                }
+                            ]
+                        })
+                            .on('colorpickerChange colorpickerCreate', function (e) {
+                                var colors = e.color.generate('tetrad');
 
-                                // alpha: {
-                                //     maxTop: 200
-                                // }
-                            }
-                        });
-                    });
+                                colors.forEach(function (color, i) {
+                                    var colorStr = color.string(),
+                                        swatch = e.colorpicker.picker
+                                            .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
+
+                                    swatch
+                                        .attr('data-value', colorStr)
+                                        .attr('title', colorStr)
+                                        .find('> i')
+                                        .css('background-color', colorStr);
+                                });
+                            });
+
 
                 </script>
             </div>
