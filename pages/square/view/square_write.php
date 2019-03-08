@@ -111,49 +111,61 @@ require_once 'pages/header.php'; ?>
 
             <!--     Size, Font       -->
 
-            <div class="modal-body">
-
-                <div id="colorpicker" data-color="#6D2781">
-                    <input type="text" id="selected_colo" class="form-control" style="width:auto"/> <br>
-
-                </div>
-                <script>
-
-                    var selRange;
-                    $(function () {
-                        $('#colorpicker')
-                            .colorpicker({
-                                format: 'auto',
-                                inline: true,
-
-                            })
-                            .on('colorpickerChange colorpickerCreate', function (e) {
-
-
-                                var colors = e.color.generate('tetrad');
-
-                                colors.forEach(function (color, i) {
-                                    var colorStr = color.string(),
-                                        swatch = e.colorpicker.picker
-                                            .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
-
-                                    swatch
-                                        .attr('data-value', colorStr)
-                                        .attr('title', colorStr)
-                                        .find('> i')
-                                        .css('background-color', colorStr);
-                                });
-
-                                restoreSelection(selRange);
-                                document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
-                            });
-                    });
-
-
-                </script>
-
+            <div id="colorpicker" data-color="#6D2781">
+                <input type="text" id="selected_colo" class="form-control" style="width:auto"/> <br>
 
             </div>
+            <script>
+                $(function () {
+                    $('#colorpicker')
+                        .colorpicker({
+                            format: 'auto',
+                            inline: true,
+                            container: true,
+                            extensions: [
+                                {
+                                    name: 'swatches',
+                                    options: {
+                                        colors: {
+                                            'tetrad1': '#000',
+                                            'tetrad2': '#000',
+                                            'tetrad3': '#000',
+                                            'tetrad4': '#000'
+                                        },
+                                        namesAsValues: false
+                                    }
+                                }
+                            ]
+                        })
+                        .on('colorpickerChange colorpickerCreate', function (e) {
+                            var colors = e.color.generate('tetrad');
+
+                            colors.forEach(function (color, i) {
+                                var colorStr = color.string(),
+                                    swatch = e.colorpicker.picker
+                                        .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
+
+                                swatch
+                                    .attr('data-value', colorStr)
+                                    .attr('title', colorStr)
+                                    .find('> i')
+                                    .css('background-color', colorStr);
+                            });
+
+                            protect: function (e) {
+                                e.preventDefault()
+                                return setTimeout(300)
+                            }
+
+                            document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
+                        });
+                });
+
+
+            </script>
+
+
+        </div>
 
         <br>
             <div id="squarecard"></div>
@@ -207,8 +219,6 @@ require_once 'pages/header.php'; ?>
 
                 </div>
                 <script>
-
-
                     $(function () {
                         $('#cp1')
                             .colorpicker({
@@ -231,8 +241,6 @@ require_once 'pages/header.php'; ?>
                                 ]
                             })
                             .on('colorpickerChange colorpickerCreate', function (e) {
-
-
                                 var colors = e.color.generate('tetrad');
 
                                 colors.forEach(function (color, i) {
@@ -245,14 +253,8 @@ require_once 'pages/header.php'; ?>
                                         .attr('title', colorStr)
                                         .find('> i')
                                         .css('background-color', colorStr);
-
-
                                 });
-
-
                             });
-
-
                     });
 
 
@@ -353,7 +355,6 @@ require_once 'pages/header.php'; ?>
     $(function () {
         $(document.body).bind('mouseup', function (e) {
             var selection;
-
 
             if (window.getSelection) {
                 selection = window.getSelection();
@@ -495,7 +496,7 @@ require_once 'pages/header.php'; ?>
         $(function () {
             $(document.body).bind('mouseup', function (e) {
                 var selection;
-                selRange = saveSelection();
+
                 if (window.getSelection) {
                     selection = window.getSelection();
                 } else if (document.selection) {
@@ -601,30 +602,6 @@ require_once 'pages/header.php'; ?>
         });
 
 
-    }
-
-    function saveSelection() {
-        if (window.getSelection) {
-            sel = window.getSelection();
-            if (sel.getRangeAt && sel.rangeCount) {
-                return sel.getRangeAt(0);
-            }
-        } else if (document.selection && document.selection.createRange) {
-            return document.selection.createRange();
-        }
-        return null;
-    }
-
-    function restoreSelection(range) {
-        if (range) {
-            if (window.getSelection) {
-                sel = window.getSelection();
-                sel.removeAllRanges();
-                sel.addRange(range);
-            } else if (document.selection && range.select) {
-                range.select();
-            }
-        }
     }
 
     function checkPreventClose() {
