@@ -152,10 +152,6 @@ require_once 'pages/header.php'; ?>
                                     .css('background-color', colorStr);
                             });
 
-                            protect: function (e) {
-                                e.preventDefault()
-                                return setTimeout(300)
-                            }
 
                             document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
                         });
