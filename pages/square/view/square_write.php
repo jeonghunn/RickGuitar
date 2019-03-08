@@ -202,7 +202,8 @@ require_once 'pages/header.php'; ?>
                 <div id="cp1" data-color="#6D2781">
 
                 </div>
-                <script>    $('#cp1').colorpicker({
+                <script>
+                    $('#cp1').colorpicker({
                         inline: true,
                         container: true,
                         customClass: 'colorpicker-2x',
@@ -218,7 +219,8 @@ require_once 'pages/header.php'; ?>
                                 maxTop: 200
                             }
                         }
-                    });</script>
+                    });
+                </script>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
