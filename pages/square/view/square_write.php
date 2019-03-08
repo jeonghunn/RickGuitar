@@ -61,14 +61,16 @@ require_once 'pages/header.php'; ?>
             </div>
 
             <div class="btn-group btn-group" role="group" aria-label="4 group">
-                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>
-                </button>
+                <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>-->
+                <!--                </button>-->
                 <button type="button" class="btn btn btn-outline-secondary"><span
                             class="oi oi-caret-bottom"></span></span>
                 </button>
             </div>
         </div>
-
+            <div id="cp1" data-color="#6D2781">
+                <input type="text" class="form-control" style="width:auto"/> <br>
+            </div>
 
             <!--     Size, Font       -->
             <div class="collapse" id="fontcontrol">
