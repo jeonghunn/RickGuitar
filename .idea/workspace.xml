@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="bug fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -60,11 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="157" column="28" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="247">
+              <caret line="126" column="46" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -241,7 +239,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -252,8 +250,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -290,10 +286,32 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="square" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="square" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="square" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -965,28 +983,8 @@
       <workItem from="1551888642501" duration="1936000" />
       <workItem from="1551969757770" duration="2946000" />
       <workItem from="1552063715930" duration="10503000" />
-      <workItem from="1552075298306" duration="1773000" />
-    </task>
-    <task id="LOCAL-01717" summary="colorpicker script test">
-      <created>1552068952757</created>
-      <option name="number" value="01717" />
-      <option name="presentableId" value="LOCAL-01717" />
-      <option name="project" value="LOCAL" />
-      <updated>1552068952757</updated>
-    </task>
-    <task id="LOCAL-01718" summary="colorpicker script test">
-      <created>1552069053074</created>
-      <option name="number" value="01718" />
-      <option name="presentableId" value="LOCAL-01718" />
-      <option name="project" value="LOCAL" />
-      <updated>1552069053074</updated>
-    </task>
-    <task id="LOCAL-01719" summary="colorpicker style test">
-      <created>1552069267524</created>
-      <option name="number" value="01719" />
-      <option name="presentableId" value="LOCAL-01719" />
-      <option name="project" value="LOCAL" />
-      <updated>1552069267524</updated>
+      <workItem from="1552075298306" duration="2161000" />
+      <workItem from="1552077533072" duration="16000" />
     </task>
     <task id="LOCAL-01720" summary="colorpicker style test">
       <created>1552069322824</created>
@@ -1310,11 +1308,32 @@
       <option name="project" value="LOCAL" />
       <updated>1552077062905</updated>
     </task>
-    <option name="localTasksCounter" value="1766" />
+    <task id="LOCAL-01766" summary="bug fix">
+      <created>1552077096972</created>
+      <option name="number" value="01766" />
+      <option name="presentableId" value="LOCAL-01766" />
+      <option name="project" value="LOCAL" />
+      <updated>1552077096973</updated>
+    </task>
+    <task id="LOCAL-01767" summary="bug fix">
+      <created>1552077229509</created>
+      <option name="number" value="01767" />
+      <option name="presentableId" value="LOCAL-01767" />
+      <option name="project" value="LOCAL" />
+      <updated>1552077229509</updated>
+    </task>
+    <task id="LOCAL-01768" summary="bug fix">
+      <created>1552077269370</created>
+      <option name="number" value="01768" />
+      <option name="presentableId" value="LOCAL-01768" />
+      <option name="project" value="LOCAL" />
+      <updated>1552077269370</updated>
+    </task>
+    <option name="localTasksCounter" value="1769" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1262692000" />
+    <option name="totallyTimeSpent" value="1263096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1326,17 +1345,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="826" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="826" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" weight="0.19241774" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19527897" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info active="true" id="Structure" order="7" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="7" weight="0.24964234" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.3962804" side_tool="true" visible="true" weight="0.28610355" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
@@ -1634,11 +1653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="157" column="28" selection-start-line="157" selection-start-column="28" selection-end-line="157" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="126" column="46" selection-start-line="126" selection-start-column="46" selection-end-line="126" selection-end-column="46" />
         </state>
       </provider>
     </entry>

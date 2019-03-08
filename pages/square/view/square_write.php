@@ -123,7 +123,9 @@ require_once 'pages/header.php'; ?>
                         $('#colorpicker').colorpicker({
                             format: 'auto'
                         }).on('colorpickerChange colorpickerCreate', function (e) {
-
+                            setTimeout(function () {
+                                $("#contents_1").focus();
+                            }, 0);
                             document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
                         });
                     });
