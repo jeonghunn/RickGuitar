@@ -124,8 +124,6 @@ require_once 'pages/header.php'; ?>
                         $('#colorpicker')
                             .colorpicker({
                                 format: 'auto',
-                                inline: true,
-                                container: true,
                                 extensions: [
                                     {
                                         name: 'swatches',
