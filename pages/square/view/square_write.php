@@ -102,13 +102,11 @@ require_once 'pages/header.php'; ?>
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>-->
                 <!--                </button>-->
                 <button type="button" class="btn btn btn-outline-secondary"><span
-                            class="oi oi-caret-bottom"></span></span>
+                            class="oi oi-caret-bottom" data-target="#ColorPickerModal"></span></span>
                 </button>
             </div>
         </div>
-            <div id="cp1" data-color="#6D2781">
 
-            </div>
 
             <!--     Size, Font       -->
             <div class="collapse" id="fontcontrol">
@@ -187,6 +185,34 @@ require_once 'pages/header.php'; ?>
     <br><br><br>
     </div> <!-- /container -->
 
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+</button>
+
+<!-- ColorPicker Modal -->
+<div class="modal fade" id="ColorPickerModal" tabindex="-1" role="dialog" aria-labelledby="ColorPickerModal"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="cp1" data-color="#6D2781">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--Editor-->
 <script src="pages/js/medium-editor.js"></script>
