@@ -367,8 +367,12 @@ require_once 'pages/header.php'; ?>
     $(function () {
         $(document.body).bind('mouseup', function (e) {
             var selection;
-            alert(document.getSelection().baseNode);
-            if (document.getSelection().baseNode.contains("Text")) selRange = saveSelection();
+
+            if (document.getSelection().baseNode.contains("Text")) {
+                alert(document.getSelection().baseNode);
+                selRange = saveSelection();
+            }
+
             if (window.getSelection) {
                 selection = window.getSelection();
             } else if (document.selection) {
