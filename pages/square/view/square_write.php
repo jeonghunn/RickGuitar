@@ -217,7 +217,6 @@ require_once 'pages/header.php'; ?>
   </span>
                 </div>
                 <script>
-
                     $(function () {
                         $('#colorpicker').colorpicker({
                             format: 'auto'
