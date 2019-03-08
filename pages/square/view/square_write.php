@@ -367,7 +367,7 @@ require_once 'pages/header.php'; ?>
     $(function () {
         $(document.body).bind('mouseup', function (e) {
             var selection;
-            selRange = saveSelection();
+            if (saveSelection() != null && saveSelection() != "") selRange = saveSelection();
             if (window.getSelection) {
                 selection = window.getSelection();
             } else if (document.selection) {
