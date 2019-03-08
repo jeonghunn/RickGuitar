@@ -367,12 +367,8 @@ require_once 'pages/header.php'; ?>
     $(function () {
         $(document.body).bind('mouseup', function (e) {
             var selection;
-            var oDiv = document.getElementById('contents_1');
-            if (oDiv.selection && oDiv.selection.createRange) {
-                // document.getElementById('lolz').sel
-                alert("DFDFdf");
-            }
-            if (window.getSelection().baseNode.parentNode.id.startsWith("contents")) selRange = saveSelection();
+            alert(document.getSelection().baseNode);
+            if (document.getSelection().baseNode.startsWith("contents")) selRange = saveSelection();
             if (window.getSelection) {
                 selection = window.getSelection();
             } else if (document.selection) {
