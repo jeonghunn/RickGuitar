@@ -157,7 +157,7 @@ require_once 'pages/header.php'; ?>
                         });
                 });
 
-                $('colorpicker').click(function () {
+                $('#colorpicker').click(function () {
                     $("#contents_1").focus();
                 });
             </script>
