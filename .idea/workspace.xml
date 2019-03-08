@@ -61,12 +61,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="122" column="40" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
+            <state relative-caret-position="277">
+              <caret line="113" column="53" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#8500#8507#1#HTML" expanded="true" />
+                <element signature="e#8358#8365#1#HTML" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -125,7 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>add</find>
       <find>getAct</find>
       <find>getACt</find>
       <find>main</find>
@@ -155,6 +154,7 @@
       <find>control</find>
       <find>focus</find>
       <find>contents_1</find>
+      <find>span</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -994,20 +994,6 @@
       <workItem from="1552077709100" duration="531000" />
       <workItem from="1552078271169" duration="2380000" />
     </task>
-    <task id="LOCAL-01741" summary="id bug has been fixed">
-      <created>1552072317943</created>
-      <option name="number" value="01741" />
-      <option name="presentableId" value="LOCAL-01741" />
-      <option name="project" value="LOCAL" />
-      <updated>1552072317943</updated>
-    </task>
-    <task id="LOCAL-01742" summary="color picker has been updated">
-      <created>1552072626889</created>
-      <option name="number" value="01742" />
-      <option name="presentableId" value="LOCAL-01742" />
-      <option name="project" value="LOCAL" />
-      <updated>1552072626889</updated>
-    </task>
     <task id="LOCAL-01743" summary="color picker has been updated">
       <created>1552072686191</created>
       <option name="number" value="01743" />
@@ -1337,11 +1323,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552081257080</updated>
     </task>
-    <option name="localTasksCounter" value="1790" />
+    <task id="LOCAL-01790" summary="test">
+      <created>1552081351710</created>
+      <option name="number" value="01790" />
+      <option name="presentableId" value="LOCAL-01790" />
+      <option name="project" value="LOCAL" />
+      <updated>1552081351711</updated>
+    </task>
+    <task id="LOCAL-01791" summary="test">
+      <created>1552082538731</created>
+      <option name="number" value="01791" />
+      <option name="presentableId" value="LOCAL-01791" />
+      <option name="project" value="LOCAL" />
+      <updated>1552082538731</updated>
+    </task>
+    <option name="localTasksCounter" value="1792" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1266317000" />
+    <option name="totallyTimeSpent" value="1267528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1377,7 +1377,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.6015737" visible="true" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.6015737" visible="true" weight="0.2857143" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" weight="0.32469305" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1661,12 +1661,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="122" column="40" selection-start-line="122" selection-start-column="40" selection-end-line="122" selection-end-column="40" />
+        <state relative-caret-position="277">
+          <caret line="113" column="53" selection-start-line="113" selection-start-column="53" selection-end-line="113" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#8500#8507#1#HTML" expanded="true" />
+            <element signature="e#8358#8365#1#HTML" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>

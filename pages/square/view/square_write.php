@@ -111,7 +111,7 @@ require_once 'pages/header.php'; ?>
 
             <!--     Size, Font       -->
 
-            <div id="colorpicker" data-color="#6D2781">
+            <div id="colorpicker" class="collapse" data-color="#6D2781">
                 <input type="text" id="selected_colo" class="form-control" style="width:auto"/> <br>
 
             </div>
