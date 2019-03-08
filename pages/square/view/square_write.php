@@ -154,13 +154,15 @@ require_once 'pages/header.php'; ?>
                                     .css('background-color', colorStr);
                             });
 
+                            document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
+
                             var foo = $('#contents_1').html();
 
                             foo = foo.replace(oldColorStr, e.color);
                             $('#contents_1').html(foo);
                             oldColorStr = e.color;
 
-                            document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
+
                         });
                 });
 
