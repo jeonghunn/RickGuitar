@@ -187,7 +187,7 @@ require_once 'pages/header.php'; ?>
 
 
 <!-- ColorPicker Modal -->
-<div class="modal fade" id="ColorPickerModal" tabindex="-1" role="dialog" aria-labelledby="ColorPickerModal"
+<div class="modal fade" id="ColorPickerModal" tabindex="5000" role="dialog" aria-labelledby="ColorPickerModal"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
