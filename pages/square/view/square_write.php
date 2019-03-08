@@ -232,8 +232,7 @@ require_once 'pages/header.php'; ?>
             }
         }
     });
-    })
-    ;
+
 
     //temp save
     setInterval(function () {
