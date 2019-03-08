@@ -76,6 +76,8 @@
       <script type="text/javascript" src="pages/js/jquery.js"></script>
       <script src="pages/js/popper.min.js"></script>
       <script src="pages/js/bootstrap.bundle.js"></script>
+      <!--     Bootstrap ColorPicker -->
+      <script type="text/javascript" src="pages/js/ColorPicker/Colorpicker.js"></script>
       <!--     font -->
       <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -89,9 +91,6 @@
       <link rel="stylesheet" href="pages/css/beagle.css">
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
 
-
-      <!--     Bootstrap ColorPicker -->
-      <script src="pages/js/ColorPicker/Colorpicker.js"></script>
 
       <!--     egjs -->
       <script src="pages/js/hammer.min.js"></script>
