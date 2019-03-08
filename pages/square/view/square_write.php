@@ -69,6 +69,7 @@ require_once 'pages/header.php'; ?>
             </div>
         </div>
 
+
             <!--     Size, Font       -->
             <div class="collapse" id="fontcontrol">
                 <br>
