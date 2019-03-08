@@ -549,9 +549,9 @@ require_once 'pages/header.php'; ?>
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).innerHTML);
             //   var alignbool = document.getElementsByName("align_radio_" + i)[0].checked;
             var align_value = "center-center";
+            var background = document.getElementById("background_" + i).innerText;
 
-
-            square_cards_array.push({align: align_value, content: cardvalue, background:});
+            square_cards_array.push({align: align_value, content: cardvalue, background: background});
 
         }
 
