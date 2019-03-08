@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+            <state relative-caret-position="333">
+              <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -963,21 +963,7 @@
       <workItem from="1551888642501" duration="1936000" />
       <workItem from="1551969757770" duration="2946000" />
       <workItem from="1552063715930" duration="10503000" />
-      <workItem from="1552075298306" duration="4000" />
-    </task>
-    <task id="LOCAL-01707" summary="colorpicker getting advanced.">
-      <created>1552067801453</created>
-      <option name="number" value="01707" />
-      <option name="presentableId" value="LOCAL-01707" />
-      <option name="project" value="LOCAL" />
-      <updated>1552067801453</updated>
-    </task>
-    <task id="LOCAL-01708" summary="parse error has been fixed">
-      <created>1552067861259</created>
-      <option name="number" value="01708" />
-      <option name="presentableId" value="LOCAL-01708" />
-      <option name="project" value="LOCAL" />
-      <updated>1552067861259</updated>
+      <workItem from="1552075298306" duration="351000" />
     </task>
     <task id="LOCAL-01709" summary="ColorPicker Modal">
       <created>1552068342063</created>
@@ -1308,11 +1294,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552075040262</updated>
     </task>
-    <option name="localTasksCounter" value="1756" />
+    <task id="LOCAL-01756" summary="focustest">
+      <created>1552075308492</created>
+      <option name="number" value="01756" />
+      <option name="presentableId" value="LOCAL-01756" />
+      <option name="project" value="LOCAL" />
+      <updated>1552075308492</updated>
+    </task>
+    <task id="LOCAL-01757" summary="focustest">
+      <created>1552075421269</created>
+      <option name="number" value="01757" />
+      <option name="presentableId" value="LOCAL-01757" />
+      <option name="project" value="LOCAL" />
+      <updated>1552075421270</updated>
+    </task>
+    <option name="localTasksCounter" value="1758" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1260923000" />
+    <option name="totallyTimeSpent" value="1261270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1335,7 +1335,7 @@
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50858366" side_tool="true" visible="true" weight="0.32425067" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.6874106" side_tool="true" visible="true" weight="0.28610355" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1348,7 +1348,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.31330472" weight="0.28649387" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.3125894" visible="true" weight="0.28610355" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" visible="true" weight="0.32469305" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1632,8 +1632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+        <state relative-caret-position="333">
+          <caret line="149" column="29" selection-start-line="149" selection-start-column="29" selection-end-line="149" selection-end-column="29" />
         </state>
       </provider>
     </entry>
