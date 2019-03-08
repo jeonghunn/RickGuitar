@@ -202,6 +202,23 @@ require_once 'pages/header.php'; ?>
                 <div id="cp1" data-color="#6D2781">
 
                 </div>
+                <script>    $('#cp1').colorpicker({
+                        inline: true,
+                        container: true,
+                        customClass: 'colorpicker-2x',
+                        sliders: {
+                            saturation: {
+                                maxLeft: 200,
+                                maxTop: 200
+                            },
+                            hue: {
+                                maxTop: 200
+                            },
+                            alpha: {
+                                maxTop: 200
+                            }
+                        }
+                    });</script>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -237,24 +254,6 @@ require_once 'pages/header.php'; ?>
 
         document.getElementById("contents_1").focus();
     };
-
-    $('#cp1').colorpicker({
-        inline: true,
-        container: true,
-        customClass: 'colorpicker-2x',
-        sliders: {
-            saturation: {
-                maxLeft: 200,
-                maxTop: 200
-            },
-            hue: {
-                maxTop: 200
-            },
-            alpha: {
-                maxTop: 200
-            }
-        }
-    });
 
 
     //temp save
