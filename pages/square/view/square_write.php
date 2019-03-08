@@ -393,11 +393,7 @@ require_once 'pages/header.php'; ?>
 
     function setCardBackgroundColor(cardnum, color) {
         document.getElementById("contents_" + cardnum).style = "background-color : " + color;
-        document.getElementById("background_"
-        _
-        cardnum
-    ).
-        value = color;
+        document.getElementById("background_" + cardnum).value = color;
     }
 
     function activeCard(cardnum) {
