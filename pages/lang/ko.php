@@ -23,6 +23,9 @@ $L['haru_point'] = '점';
 $L['birthday'] = '생일';
 $L['acrostic'] = '삼행시';
 
+//Write
+$L['write_choose_color'] = '색 선택';
+
 //info
 $L['show_all_contributors'] = '모든 기여자 목록 보기';
 

@@ -24,6 +24,9 @@ $L['haru_point'] = 'p';
 $L['birthday'] = 'Birthday';
 $L['acrostic'] = 'Acrostic';
 
+//Write
+$L['write_choose_color'] = 'Choose Color';
+
 //info
 $L['show_all_contributors'] = 'Show All Contributors';
 
