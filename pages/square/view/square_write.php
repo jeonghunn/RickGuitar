@@ -116,6 +116,8 @@ require_once 'pages/header.php'; ?>
 
             </div>
             <script>
+
+                var oldColorStr = '';
                 $(function () {
                     $('#colorpicker')
                         .colorpicker({
@@ -154,9 +156,9 @@ require_once 'pages/header.php'; ?>
 
                             var foo = $('#contents_1').html();
 
-                            foo = foo.replace(oldColorStr, colorStr);
+                            foo = foo.replace(oldColorStr, e.color);
                             $('#contents_1').html(foo);
-                            oldColorStr = colorStr;
+                            oldColorStr = e.color;
 
                             document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
                         });
