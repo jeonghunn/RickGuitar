@@ -252,12 +252,14 @@ require_once 'pages/header.php'; ?>
                                         .find('> i')
                                         .css('background-color', colorStr);
 
-                                    var foo = $('#contents_1').html();
 
-                                    foo = foo.replace(oldColorStr, colorStr);
-                                    $('#contents_1').html(foo);
-                                    oldColorStr = colorStr;
                                 });
+                                var foo = $('#contents_1').html();
+
+                                foo = foo.replace(oldColorStr, colorStr);
+                                $('#contents_1').html(foo);
+                                oldColorStr = colorStr;
+
                             });
                     });
 
