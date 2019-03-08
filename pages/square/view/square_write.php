@@ -233,9 +233,6 @@ require_once 'pages/header.php'; ?>
 <!--Editor-->
 <script src="pages/js/medium-editor.js"></script>
 
-<!--Color Picker-->
-<script src="pages/js/bootstrap-colorpicker.js"></script>
-
 
 <script>
 
