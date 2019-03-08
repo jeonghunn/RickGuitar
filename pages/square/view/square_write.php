@@ -222,6 +222,7 @@ require_once 'pages/header.php'; ?>
                             }
                         });
                     });
+
                 </script>
             </div>
             <div class="modal-footer">
