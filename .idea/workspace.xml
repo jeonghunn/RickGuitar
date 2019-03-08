@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="write page has been updated">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="line test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -23,68 +23,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
+        <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+            <state relative-caret-position="375">
+              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/db.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
+        <entry file="file://$PROJECT_DIR$/pages/lang/en.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1605">
-              <caret line="107" column="154" selection-start-line="107" selection-start-column="154" selection-end-line="107" selection-end-column="154" />
+            <state relative-caret-position="690">
+              <caret line="46" column="99" selection-start-line="46" selection-start-column="99" selection-end-line="46" selection-end-column="99" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
+        <entry file="file://$PROJECT_DIR$/pages/navbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="114" column="129" selection-start-line="114" selection-start-column="129" selection-end-line="114" selection-end-column="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="353" column="18" lean-forward="true" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/attach/attach.api.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+            <state relative-caret-position="1515">
+              <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -92,8 +61,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="13" selection-start-line="21" selection-start-column="9" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="-654">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding>
+                <element signature="e#391#418#0#HTML" expanded="true" />
+                <element signature="e#603#693#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -102,7 +102,16 @@
         <entry file="file://$PROJECT_DIR$/pages/square/square.loader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+              <caret line="14" column="13" selection-start-line="14" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="100" column="46" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -118,25 +127,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>EncodeJsonEncodeJson</find>
-      <find>importHeader</find>
-      <find>squarecard_grid</find>
-      <find>htmlspecialchars</find>
-      <find>setbuttonstatus</find>
-      <find>isProcessing(</find>
-      <find>sendLink</find>
-      <find>getColl</find>
-      <find>getMain</find>
-      <find>ConvertForWrite</find>
-      <find>checkWrote</find>
-      <find>focus</find>
-      <find>type</find>
-      <find>activeCard</find>
-      <find>execCommand</find>
-      <find>나눔</find>
-      <find>square</find>
-      <find>font_name</find>
-      <find>birthday</find>
       <find>나도 한</find>
       <find>nanum</find>
       <find>squarecard_mainbig</find>
@@ -145,9 +135,28 @@
       <find>title</find>
       <find>Write</find>
       <find>setEditorAction</find>
+      <find>add</find>
+      <find>getAct</find>
+      <find>getACt</find>
       <find>main</find>
-      <find>add</find>
-      <find>add</find>
+      <find>squarecard</find>
+      <find>actp</find>
+      <find>animate</find>
+      <find>oi</find>
+      <find>네모</find>
+      <find>icon</find>
+      <find>cardcount</find>
+      <find>card_</find>
+      <find>hideEditor</find>
+      <find>removeCard</find>
+      <find>4c0bd2702cc62066b3e51409f6da1d0c</find>
+      <find>kakao</find>
+      <find>private</find>
+      <find>PrintFontSelect</find>
+      <find>font_name</find>
+      <find>alert</find>
+      <find>selection</find>
+      <find>cardadd</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -199,26 +208,26 @@
         <option value="$PROJECT_DIR$/pages/js/medium-editor.js" />
         <option value="$PROJECT_DIR$/pages/css/beagle.css" />
         <option value="$PROJECT_DIR$/pages/lib/lib.loader.php" />
-        <option value="$PROJECT_DIR$/pages/navbar.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/info/view/license.php" />
         <option value="$PROJECT_DIR$/modules/square/model/square.model.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_collection.php" />
         <option value="$PROJECT_DIR$/modules/square/square.api.php" />
         <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
-        <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_main.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
         <option value="$PROJECT_DIR$/pages/birthday/view/birthday_write.php" />
         <option value="$PROJECT_DIR$/pages/css/main.css" />
         <option value="$PROJECT_DIR$/modules/square/controller/square_card.class.php" />
-        <option value="$PROJECT_DIR$/pages/lang/en.php" />
         <option value="$PROJECT_DIR$/pages/lang/ko.php" />
-        <option value="$PROJECT_DIR$/pages/info/view/info.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
-        <option value="$PROJECT_DIR$/pages/base.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
+        <option value="$PROJECT_DIR$/pages/info/view/info.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/pages/navbar.php" />
+        <option value="$PROJECT_DIR$/pages/header.php" />
+        <option value="$PROJECT_DIR$/pages/base.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
+        <option value="$PROJECT_DIR$/pages/lang/en.php" />
+        <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
@@ -239,9 +248,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="28" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="824" />
+    <option name="width" value="1920" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -253,45 +263,58 @@
           <expand>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="attach" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="attach" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="elements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="square" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="square" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="square" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
@@ -963,358 +986,364 @@
       <workItem from="1548299236278" duration="7311000" />
       <workItem from="1549210656600" duration="1071000" />
       <workItem from="1549285192608" duration="1505000" />
-      <workItem from="1551269079468" duration="1739000" />
-      <workItem from="1552056463845" duration="221000" />
-      <workItem from="1552056764857" duration="2007000" />
+      <workItem from="1551269079468" duration="1123000" />
+      <workItem from="1551364116034" duration="6981000" />
+      <workItem from="1551456711189" duration="7057000" />
+      <workItem from="1551537982747" duration="1311000" />
+      <workItem from="1551717499853" duration="2897000" />
+      <workItem from="1551794959394" duration="979000" />
+      <workItem from="1551800117783" duration="6040000" />
+      <workItem from="1551888642501" duration="1936000" />
+      <workItem from="1551969757770" duration="2946000" />
     </task>
-    <task id="LOCAL-01556" summary="Color Picker js was added">
-      <created>1536934437707</created>
-      <option name="number" value="01556" />
-      <option name="presentableId" value="LOCAL-01556" />
+    <task id="LOCAL-01646" summary="fontselect">
+      <created>1551718595434</created>
+      <option name="number" value="01646" />
+      <option name="presentableId" value="LOCAL-01646" />
       <option name="project" value="LOCAL" />
-      <updated>1536934437707</updated>
+      <updated>1551718595434</updated>
     </task>
-    <task id="LOCAL-01557" summary="Color Picker js was updated">
-      <created>1536934682424</created>
-      <option name="number" value="01557" />
-      <option name="presentableId" value="LOCAL-01557" />
+    <task id="LOCAL-01647" summary="fontselect">
+      <created>1551718664793</created>
+      <option name="number" value="01647" />
+      <option name="presentableId" value="LOCAL-01647" />
       <option name="project" value="LOCAL" />
-      <updated>1536934682424</updated>
+      <updated>1551718664793</updated>
     </task>
-    <task id="LOCAL-01558" summary="color picker input was added">
-      <created>1537139942762</created>
-      <option name="number" value="01558" />
-      <option name="presentableId" value="LOCAL-01558" />
+    <task id="LOCAL-01648" summary="fontselect">
+      <created>1551718731116</created>
+      <option name="number" value="01648" />
+      <option name="presentableId" value="LOCAL-01648" />
       <option name="project" value="LOCAL" />
-      <updated>1537139942762</updated>
+      <updated>1551718731116</updated>
     </task>
-    <task id="LOCAL-01559" summary="color picker input was added">
-      <created>1537140023641</created>
-      <option name="number" value="01559" />
-      <option name="presentableId" value="LOCAL-01559" />
+    <task id="LOCAL-01649" summary="fontselect">
+      <created>1551718768240</created>
+      <option name="number" value="01649" />
+      <option name="presentableId" value="LOCAL-01649" />
       <option name="project" value="LOCAL" />
-      <updated>1537140023641</updated>
+      <updated>1551718768240</updated>
     </task>
-    <task id="LOCAL-01560" summary="color picker updated">
-      <created>1537140632925</created>
-      <option name="number" value="01560" />
-      <option name="presentableId" value="LOCAL-01560" />
+    <task id="LOCAL-01650" summary="fontselect">
+      <created>1551718790764</created>
+      <option name="number" value="01650" />
+      <option name="presentableId" value="LOCAL-01650" />
       <option name="project" value="LOCAL" />
-      <updated>1537140632925</updated>
+      <updated>1551718790764</updated>
     </task>
-    <task id="LOCAL-01561" summary="color picker input was added">
-      <created>1537140707854</created>
-      <option name="number" value="01561" />
-      <option name="presentableId" value="LOCAL-01561" />
+    <task id="LOCAL-01651" summary="fontselect">
+      <created>1551718817298</created>
+      <option name="number" value="01651" />
+      <option name="presentableId" value="LOCAL-01651" />
       <option name="project" value="LOCAL" />
-      <updated>1537140707854</updated>
+      <updated>1551718817298</updated>
     </task>
-    <task id="LOCAL-01562" summary="color picker input was updated">
-      <created>1537140902926</created>
-      <option name="number" value="01562" />
-      <option name="presentableId" value="LOCAL-01562" />
+    <task id="LOCAL-01652" summary="fontselect style has been updated">
+      <created>1551718898080</created>
+      <option name="number" value="01652" />
+      <option name="presentableId" value="LOCAL-01652" />
       <option name="project" value="LOCAL" />
-      <updated>1537140902926</updated>
+      <updated>1551718898080</updated>
     </task>
-    <task id="LOCAL-01563" summary="jquery js was updated">
-      <created>1537141170011</created>
-      <option name="number" value="01563" />
-      <option name="presentableId" value="LOCAL-01563" />
+    <task id="LOCAL-01653" summary="font name bug fix">
+      <created>1551719357673</created>
+      <option name="number" value="01653" />
+      <option name="presentableId" value="LOCAL-01653" />
       <option name="project" value="LOCAL" />
-      <updated>1537141170011</updated>
+      <updated>1551719357673</updated>
     </task>
-    <task id="LOCAL-01564" summary="Main Write Button update">
-      <created>1543551683301</created>
-      <option name="number" value="01564" />
-      <option name="presentableId" value="LOCAL-01564" />
+    <task id="LOCAL-01654" summary="translation fix">
+      <created>1551719704626</created>
+      <option name="number" value="01654" />
+      <option name="presentableId" value="LOCAL-01654" />
       <option name="project" value="LOCAL" />
-      <updated>1543551683301</updated>
+      <updated>1551719704626</updated>
     </task>
-    <task id="LOCAL-01565" summary="Main Write Button style update">
-      <created>1543551757000</created>
-      <option name="number" value="01565" />
-      <option name="presentableId" value="LOCAL-01565" />
+    <task id="LOCAL-01655" summary="font select bug has been fixed.">
+      <created>1551800308547</created>
+      <option name="number" value="01655" />
+      <option name="presentableId" value="LOCAL-01655" />
       <option name="project" value="LOCAL" />
-      <updated>1543551757001</updated>
+      <updated>1551800308548</updated>
     </task>
-    <task id="LOCAL-01566" summary="Main Write Button style update">
-      <created>1543551954177</created>
-      <option name="number" value="01566" />
-      <option name="presentableId" value="LOCAL-01566" />
+    <task id="LOCAL-01656" summary="font select bug has been fixed.">
+      <created>1551800464962</created>
+      <option name="number" value="01656" />
+      <option name="presentableId" value="LOCAL-01656" />
       <option name="project" value="LOCAL" />
-      <updated>1543551954177</updated>
+      <updated>1551800464962</updated>
     </task>
-    <task id="LOCAL-01567" summary="Main Write Button style update">
-      <created>1543552346727</created>
-      <option name="number" value="01567" />
-      <option name="presentableId" value="LOCAL-01567" />
+    <task id="LOCAL-01657" summary="square log bug has been fixed.">
+      <created>1551800596455</created>
+      <option name="number" value="01657" />
+      <option name="presentableId" value="LOCAL-01657" />
       <option name="project" value="LOCAL" />
-      <updated>1543552346727</updated>
+      <updated>1551800596455</updated>
     </task>
-    <task id="LOCAL-01568" summary="Main Write Button style fontsize update">
-      <created>1543552410065</created>
-      <option name="number" value="01568" />
-      <option name="presentableId" value="LOCAL-01568" />
+    <task id="LOCAL-01658" summary="add card fontselect">
+      <created>1551800659096</created>
+      <option name="number" value="01658" />
+      <option name="presentableId" value="LOCAL-01658" />
       <option name="project" value="LOCAL" />
-      <updated>1543552410065</updated>
+      <updated>1551800659096</updated>
     </task>
-    <task id="LOCAL-01569" summary="Main Write Button align center">
-      <created>1543552491251</created>
-      <option name="number" value="01569" />
-      <option name="presentableId" value="LOCAL-01569" />
+    <task id="LOCAL-01659" summary="add card fontselect">
+      <created>1551800705331</created>
+      <option name="number" value="01659" />
+      <option name="presentableId" value="LOCAL-01659" />
       <option name="project" value="LOCAL" />
-      <updated>1543552491251</updated>
+      <updated>1551800705331</updated>
     </task>
-    <task id="LOCAL-01570" summary="Main Write Button align center">
-      <created>1543552555089</created>
-      <option name="number" value="01570" />
-      <option name="presentableId" value="LOCAL-01570" />
+    <task id="LOCAL-01660" summary="add card fontselect htmlspecialchars">
+      <created>1551800800887</created>
+      <option name="number" value="01660" />
+      <option name="presentableId" value="LOCAL-01660" />
       <option name="project" value="LOCAL" />
-      <updated>1543552555090</updated>
+      <updated>1551800800887</updated>
     </task>
-    <task id="LOCAL-01571" summary="Main div bug fix">
-      <created>1543552592807</created>
-      <option name="number" value="01571" />
-      <option name="presentableId" value="LOCAL-01571" />
+    <task id="LOCAL-01661" summary="PrintFontSelect n bug fix">
+      <created>1551800906618</created>
+      <option name="number" value="01661" />
+      <option name="presentableId" value="LOCAL-01661" />
       <option name="project" value="LOCAL" />
-      <updated>1543552592808</updated>
+      <updated>1551800906618</updated>
     </task>
-    <task id="LOCAL-01572" summary="Main design update">
-      <created>1543552646013</created>
-      <option name="number" value="01572" />
-      <option name="presentableId" value="LOCAL-01572" />
+    <task id="LOCAL-01662" summary="PrintFontSelect fix">
+      <created>1551801005023</created>
+      <option name="number" value="01662" />
+      <option name="presentableId" value="LOCAL-01662" />
       <option name="project" value="LOCAL" />
-      <updated>1543552646013</updated>
+      <updated>1551801005023</updated>
     </task>
-    <task id="LOCAL-01573" summary="Main write button onclick add">
-      <created>1543553587196</created>
-      <option name="number" value="01573" />
-      <option name="presentableId" value="LOCAL-01573" />
+    <task id="LOCAL-01663" summary="PrintFontSelect fix">
+      <created>1551801054585</created>
+      <option name="number" value="01663" />
+      <option name="presentableId" value="LOCAL-01663" />
       <option name="project" value="LOCAL" />
-      <updated>1543553587197</updated>
+      <updated>1551801054585</updated>
     </task>
-    <task id="LOCAL-01574" summary="Copyright has been updated.">
-      <created>1548157803085</created>
-      <option name="number" value="01574" />
-      <option name="presentableId" value="LOCAL-01574" />
+    <task id="LOCAL-01664" summary="PrintFontSelect fix">
+      <created>1551801572915</created>
+      <option name="number" value="01664" />
+      <option name="presentableId" value="LOCAL-01664" />
       <option name="project" value="LOCAL" />
-      <updated>1548157803088</updated>
+      <updated>1551801572915</updated>
     </task>
-    <task id="LOCAL-01575" summary="Birthday 2017 bug has been fixed.">
-      <created>1548158164346</created>
-      <option name="number" value="01575" />
-      <option name="presentableId" value="LOCAL-01575" />
+    <task id="LOCAL-01665" summary="font size test">
+      <created>1551801880054</created>
+      <option name="number" value="01665" />
+      <option name="presentableId" value="LOCAL-01665" />
       <option name="project" value="LOCAL" />
-      <updated>1548158164347</updated>
+      <updated>1551801880054</updated>
     </task>
-    <task id="LOCAL-01576" summary="info has been updated">
-      <created>1548299269095</created>
-      <option name="number" value="01576" />
-      <option name="presentableId" value="LOCAL-01576" />
+    <task id="LOCAL-01666" summary="font size test">
+      <created>1551801950770</created>
+      <option name="number" value="01666" />
+      <option name="presentableId" value="LOCAL-01666" />
       <option name="project" value="LOCAL" />
-      <updated>1548299269095</updated>
+      <updated>1551801950770</updated>
     </task>
-    <task id="LOCAL-01577" summary="url has been updated">
-      <created>1548299305421</created>
-      <option name="number" value="01577" />
-      <option name="presentableId" value="LOCAL-01577" />
+    <task id="LOCAL-01667" summary="font size test">
+      <created>1551801978575</created>
+      <option name="number" value="01667" />
+      <option name="presentableId" value="LOCAL-01667" />
       <option name="project" value="LOCAL" />
-      <updated>1548299305421</updated>
+      <updated>1551801978575</updated>
     </task>
-    <task id="LOCAL-01578" summary="url has been updated">
-      <created>1548299637700</created>
-      <option name="number" value="01578" />
-      <option name="presentableId" value="LOCAL-01578" />
+    <task id="LOCAL-01668" summary="font size test">
+      <created>1551802289190</created>
+      <option name="number" value="01668" />
+      <option name="presentableId" value="LOCAL-01668" />
       <option name="project" value="LOCAL" />
-      <updated>1548299637700</updated>
+      <updated>1551802289190</updated>
     </task>
-    <task id="LOCAL-01579" summary="Bootstrap has been updated to 4.2.1">
-      <created>1548301525439</created>
-      <option name="number" value="01579" />
-      <option name="presentableId" value="LOCAL-01579" />
+    <task id="LOCAL-01669" summary="font size test">
+      <created>1551802325697</created>
+      <option name="number" value="01669" />
+      <option name="presentableId" value="LOCAL-01669" />
       <option name="project" value="LOCAL" />
-      <updated>1548301525439</updated>
+      <updated>1551802325697</updated>
     </task>
-    <task id="LOCAL-01580" summary="KakaoLink has been updated">
-      <created>1548322694384</created>
-      <option name="number" value="01580" />
-      <option name="presentableId" value="LOCAL-01580" />
+    <task id="LOCAL-01670" summary="New function : printfontsizeoptions">
+      <created>1551802924773</created>
+      <option name="number" value="01670" />
+      <option name="presentableId" value="LOCAL-01670" />
       <option name="project" value="LOCAL" />
-      <updated>1548322694384</updated>
+      <updated>1551802924773</updated>
     </task>
-    <task id="LOCAL-01581" summary="KakaoLink has been updated">
-      <created>1548323034027</created>
-      <option name="number" value="01581" />
-      <option name="presentableId" value="LOCAL-01581" />
+    <task id="LOCAL-01671" summary="font test">
+      <created>1551803202195</created>
+      <option name="number" value="01671" />
+      <option name="presentableId" value="LOCAL-01671" />
       <option name="project" value="LOCAL" />
-      <updated>1548323034027</updated>
+      <updated>1551803202195</updated>
     </task>
-    <task id="LOCAL-01582" summary="KakaoLink has been updated : image null">
-      <created>1548323468322</created>
-      <option name="number" value="01582" />
-      <option name="presentableId" value="LOCAL-01582" />
+    <task id="LOCAL-01672" summary="font test">
+      <created>1551803271996</created>
+      <option name="number" value="01672" />
+      <option name="presentableId" value="LOCAL-01672" />
       <option name="project" value="LOCAL" />
-      <updated>1548323468322</updated>
+      <updated>1551803271996</updated>
     </task>
-    <task id="LOCAL-01583" summary="KakaoLink has been updated : image url">
-      <created>1548323837381</created>
-      <option name="number" value="01583" />
-      <option name="presentableId" value="LOCAL-01583" />
+    <task id="LOCAL-01673" summary="font name test">
+      <created>1551803597769</created>
+      <option name="number" value="01673" />
+      <option name="presentableId" value="LOCAL-01673" />
       <option name="project" value="LOCAL" />
-      <updated>1548323837381</updated>
+      <updated>1551803597769</updated>
     </task>
-    <task id="LOCAL-01584" summary="KakaoLink has been updated : image url bug">
-      <created>1548323901941</created>
-      <option name="number" value="01584" />
-      <option name="presentableId" value="LOCAL-01584" />
+    <task id="LOCAL-01674" summary="font name test">
+      <created>1551803802718</created>
+      <option name="number" value="01674" />
+      <option name="presentableId" value="LOCAL-01674" />
       <option name="project" value="LOCAL" />
-      <updated>1548323901941</updated>
+      <updated>1551803802718</updated>
     </task>
-    <task id="LOCAL-01585" summary="KakaoLink has been updated : image url bug">
-      <created>1548324002480</created>
-      <option name="number" value="01585" />
-      <option name="presentableId" value="LOCAL-01585" />
+    <task id="LOCAL-01675" summary="style test">
+      <created>1551804011851</created>
+      <option name="number" value="01675" />
+      <option name="presentableId" value="LOCAL-01675" />
       <option name="project" value="LOCAL" />
-      <updated>1548324002480</updated>
+      <updated>1551804011852</updated>
     </task>
-    <task id="LOCAL-01586" summary="KakaoLink has been updated : Calling bug">
-      <created>1548324175893</created>
-      <option name="number" value="01586" />
-      <option name="presentableId" value="LOCAL-01586" />
+    <task id="LOCAL-01676" summary="style test">
+      <created>1551804217406</created>
+      <option name="number" value="01676" />
+      <option name="presentableId" value="LOCAL-01676" />
       <option name="project" value="LOCAL" />
-      <updated>1548324175893</updated>
+      <updated>1551804217406</updated>
     </task>
-    <task id="LOCAL-01587" summary="KakaoLink has been updated :">
-      <created>1548324259427</created>
-      <option name="number" value="01587" />
-      <option name="presentableId" value="LOCAL-01587" />
+    <task id="LOCAL-01677" summary="style test">
+      <created>1551804239286</created>
+      <option name="number" value="01677" />
+      <option name="presentableId" value="LOCAL-01677" />
       <option name="project" value="LOCAL" />
-      <updated>1548324259427</updated>
+      <updated>1551804239286</updated>
     </task>
-    <task id="LOCAL-01588" summary="squarecard_mainbig has been updated">
-      <created>1548327462331</created>
-      <option name="number" value="01588" />
-      <option name="presentableId" value="LOCAL-01588" />
+    <task id="LOCAL-01678" summary="style test">
+      <created>1551804312016</created>
+      <option name="number" value="01678" />
+      <option name="presentableId" value="LOCAL-01678" />
       <option name="project" value="LOCAL" />
-      <updated>1548327462331</updated>
+      <updated>1551804312016</updated>
     </task>
-    <task id="LOCAL-01589" summary="squarecard_mainbig has been updated : margin">
-      <created>1548327552485</created>
-      <option name="number" value="01589" />
-      <option name="presentableId" value="LOCAL-01589" />
+    <task id="LOCAL-01679" summary="style test">
+      <created>1551804403659</created>
+      <option name="number" value="01679" />
+      <option name="presentableId" value="LOCAL-01679" />
       <option name="project" value="LOCAL" />
-      <updated>1548327552485</updated>
+      <updated>1551804403659</updated>
     </task>
-    <task id="LOCAL-01590" summary="squarecard_mainbig has been updated : margin">
-      <created>1548327604090</created>
-      <option name="number" value="01590" />
-      <option name="presentableId" value="LOCAL-01590" />
+    <task id="LOCAL-01680" summary="bug fix">
+      <created>1551804636530</created>
+      <option name="number" value="01680" />
+      <option name="presentableId" value="LOCAL-01680" />
       <option name="project" value="LOCAL" />
-      <updated>1548327604090</updated>
+      <updated>1551804636530</updated>
     </task>
-    <task id="LOCAL-01591" summary="squarecard_mainbig has been updated : margin">
-      <created>1548327631983</created>
-      <option name="number" value="01591" />
-      <option name="presentableId" value="LOCAL-01591" />
+    <task id="LOCAL-01681" summary="bug fix">
+      <created>1551804753832</created>
+      <option name="number" value="01681" />
+      <option name="presentableId" value="LOCAL-01681" />
       <option name="project" value="LOCAL" />
-      <updated>1548327631983</updated>
+      <updated>1551804753832</updated>
     </task>
-    <task id="LOCAL-01592" summary="squarecard_mainbig has been updated : margin">
-      <created>1548327708820</created>
-      <option name="number" value="01592" />
-      <option name="presentableId" value="LOCAL-01592" />
+    <task id="LOCAL-01682" summary="version">
+      <created>1551805477528</created>
+      <option name="number" value="01682" />
+      <option name="presentableId" value="LOCAL-01682" />
       <option name="project" value="LOCAL" />
-      <updated>1548327708820</updated>
+      <updated>1551805477528</updated>
     </task>
-    <task id="LOCAL-01593" summary="squarecard_mainbig has been updated : margin">
-      <created>1548327730787</created>
-      <option name="number" value="01593" />
-      <option name="presentableId" value="LOCAL-01593" />
+    <task id="LOCAL-01683" summary="font size must to be disabled.">
+      <created>1551805679571</created>
+      <option name="number" value="01683" />
+      <option name="presentableId" value="LOCAL-01683" />
       <option name="project" value="LOCAL" />
-      <updated>1548327730787</updated>
+      <updated>1551805679571</updated>
     </task>
-    <task id="LOCAL-01594" summary="square_cards align bug has been fixed">
-      <created>1548331196940</created>
-      <option name="number" value="01594" />
-      <option name="presentableId" value="LOCAL-01594" />
+    <task id="LOCAL-01684" summary="font size must to be disabled.">
+      <created>1551805790067</created>
+      <option name="number" value="01684" />
+      <option name="presentableId" value="LOCAL-01684" />
       <option name="project" value="LOCAL" />
-      <updated>1548331196941</updated>
+      <updated>1551805790067</updated>
     </task>
-    <task id="LOCAL-01595" summary="square_cards align bug has been fixed">
-      <created>1548331376326</created>
-      <option name="number" value="01595" />
-      <option name="presentableId" value="LOCAL-01595" />
+    <task id="LOCAL-01685" summary="font size">
+      <created>1551889925800</created>
+      <option name="number" value="01685" />
+      <option name="presentableId" value="LOCAL-01685" />
       <option name="project" value="LOCAL" />
-      <updated>1548331376326</updated>
+      <updated>1551889925801</updated>
     </task>
-    <task id="LOCAL-01596" summary="square_cards style bug has been fixed">
-      <created>1548331413866</created>
-      <option name="number" value="01596" />
-      <option name="presentableId" value="LOCAL-01596" />
+    <task id="LOCAL-01686" summary="group test">
+      <created>1551890133385</created>
+      <option name="number" value="01686" />
+      <option name="presentableId" value="LOCAL-01686" />
       <option name="project" value="LOCAL" />
-      <updated>1548331413866</updated>
+      <updated>1551890133385</updated>
     </task>
-    <task id="LOCAL-01597" summary="square cards method call bug has been fixed">
-      <created>1548331605003</created>
-      <option name="number" value="01597" />
-      <option name="presentableId" value="LOCAL-01597" />
+    <task id="LOCAL-01687" summary="group test">
+      <created>1551890228138</created>
+      <option name="number" value="01687" />
+      <option name="presentableId" value="LOCAL-01687" />
       <option name="project" value="LOCAL" />
-      <updated>1548331605003</updated>
+      <updated>1551890228138</updated>
     </task>
-    <task id="LOCAL-01598" summary="updated to new domain : s9uare.com">
-      <created>1549210758839</created>
-      <option name="number" value="01598" />
-      <option name="presentableId" value="LOCAL-01598" />
+    <task id="LOCAL-01688" summary="group update">
+      <created>1551890407533</created>
+      <option name="number" value="01688" />
+      <option name="presentableId" value="LOCAL-01688" />
       <option name="project" value="LOCAL" />
-      <updated>1549210758839</updated>
+      <updated>1551890407533</updated>
     </task>
-    <task id="LOCAL-01599" summary="new app name : s9uare">
-      <created>1549210923994</created>
-      <option name="number" value="01599" />
-      <option name="presentableId" value="LOCAL-01599" />
+    <task id="LOCAL-01689" summary="justifyright">
+      <created>1551976513268</created>
+      <option name="number" value="01689" />
+      <option name="presentableId" value="LOCAL-01689" />
       <option name="project" value="LOCAL" />
-      <updated>1549210923994</updated>
+      <updated>1551976513268</updated>
     </task>
-    <task id="LOCAL-01600" summary="hide additional editor">
-      <created>1549211176695</created>
-      <option name="number" value="01600" />
-      <option name="presentableId" value="LOCAL-01600" />
+    <task id="LOCAL-01690" summary="line test">
+      <created>1551978261041</created>
+      <option name="number" value="01690" />
+      <option name="presentableId" value="LOCAL-01690" />
       <option name="project" value="LOCAL" />
-      <updated>1549211176695</updated>
+      <updated>1551978261041</updated>
     </task>
-    <task id="LOCAL-01601" summary="hide additional editor">
-      <created>1549211208237</created>
-      <option name="number" value="01601" />
-      <option name="presentableId" value="LOCAL-01601" />
+    <task id="LOCAL-01691" summary="line test">
+      <created>1551978363252</created>
+      <option name="number" value="01691" />
+      <option name="presentableId" value="LOCAL-01691" />
       <option name="project" value="LOCAL" />
-      <updated>1549211208237</updated>
+      <updated>1551978363252</updated>
     </task>
-    <task id="LOCAL-01602" summary="square development link has been fixed">
-      <created>1549291828917</created>
-      <option name="number" value="01602" />
-      <option name="presentableId" value="LOCAL-01602" />
+    <task id="LOCAL-01692" summary="line test">
+      <created>1551978414133</created>
+      <option name="number" value="01692" />
+      <option name="presentableId" value="LOCAL-01692" />
       <option name="project" value="LOCAL" />
-      <updated>1549291828918</updated>
+      <updated>1551978414133</updated>
     </task>
-    <task id="LOCAL-01603" summary="development mode on">
-      <created>1549291916753</created>
-      <option name="number" value="01603" />
-      <option name="presentableId" value="LOCAL-01603" />
+    <task id="LOCAL-01693" summary="line test">
+      <created>1551978471031</created>
+      <option name="number" value="01693" />
+      <option name="presentableId" value="LOCAL-01693" />
       <option name="project" value="LOCAL" />
-      <updated>1549291916753</updated>
+      <updated>1551978471031</updated>
     </task>
-    <task id="LOCAL-01604" summary="write page has been updated">
-      <created>1551275966422</created>
-      <option name="number" value="01604" />
-      <option name="presentableId" value="LOCAL-01604" />
+    <task id="LOCAL-01694" summary="line test">
+      <created>1551978544835</created>
+      <option name="number" value="01694" />
+      <option name="presentableId" value="LOCAL-01694" />
       <option name="project" value="LOCAL" />
-      <updated>1551275966422</updated>
+      <updated>1551978544835</updated>
     </task>
-    <option name="localTasksCounter" value="1605" />
+    <option name="localTasksCounter" value="1695" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1223113000" />
+    <option name="totallyTimeSpent" value="1250416000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1326,18 +1355,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="0" />
+    <frame x="28" y="23" width="1920" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.13161659" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.23908414" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.68311876" side_tool="true" visible="true" weight="0.2704918" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.68636847" side_tool="true" visible="true" weight="0.2874859" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1350,7 +1379,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.31688127" visible="true" weight="0.2704918" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.31363153" visible="true" weight="0.2874859" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4923611" visible="true" weight="0.32536522" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1423,32 +1452,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Main div bug fix" />
-    <MESSAGE value="Main design update" />
-    <MESSAGE value="Main write button onclick add" />
-    <MESSAGE value="Copyright has been updated." />
-    <MESSAGE value="Birthday 2017 bug has been fixed." />
-    <MESSAGE value="info has been updated" />
-    <MESSAGE value="url has been updated" />
-    <MESSAGE value="Bootstrap has been updated to 4.2.1" />
-    <MESSAGE value="KakaoLink has been updated" />
-    <MESSAGE value="KakaoLink has been updated : image null" />
-    <MESSAGE value="KakaoLink has been updated : image url" />
-    <MESSAGE value="KakaoLink has been updated : image url bug" />
-    <MESSAGE value="KakaoLink has been updated : Calling bug" />
-    <MESSAGE value="KakaoLink has been updated :" />
-    <MESSAGE value="squarecard_mainbig has been updated" />
-    <MESSAGE value="squarecard_mainbig has been updated : margin" />
-    <MESSAGE value="square_cards align bug has been fixed" />
-    <MESSAGE value="square_cards style bug has been fixed" />
-    <MESSAGE value="square cards method call bug has been fixed" />
-    <MESSAGE value="updated to new domain : s9uare.com" />
-    <MESSAGE value="new app name : s9uare" />
-    <MESSAGE value="hide additional editor" />
-    <MESSAGE value="square development link has been fixed" />
-    <MESSAGE value="development mode on" />
-    <MESSAGE value="write page has been updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="write page has been updated" />
+    <MESSAGE value="write hideEditor bug has been fixed." />
+    <MESSAGE value="allow share kakaotalk for desktop" />
+    <MESSAGE value="fontselect" />
+    <MESSAGE value="fontselect style has been updated" />
+    <MESSAGE value="font name bug fix" />
+    <MESSAGE value="translation fix" />
+    <MESSAGE value="font select bug has been fixed." />
+    <MESSAGE value="square log bug has been fixed." />
+    <MESSAGE value="add card fontselect" />
+    <MESSAGE value="add card fontselect htmlspecialchars" />
+    <MESSAGE value="PrintFontSelect n bug fix" />
+    <MESSAGE value="PrintFontSelect fix" />
+    <MESSAGE value="font size test" />
+    <MESSAGE value="New function : printfontsizeoptions" />
+    <MESSAGE value="font test" />
+    <MESSAGE value="font name test" />
+    <MESSAGE value="style test" />
+    <MESSAGE value="bug fix" />
+    <MESSAGE value="version" />
+    <MESSAGE value="font size must to be disabled." />
+    <MESSAGE value="font size" />
+    <MESSAGE value="group test" />
+    <MESSAGE value="group update" />
+    <MESSAGE value="justifyright" />
+    <MESSAGE value="line test" />
+    <option name="LAST_COMMIT_MESSAGE" value="line test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1511,50 +1540,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/lang/en.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/db.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1570,44 +1561,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+    <entry file="file://$PROJECT_DIR$/pages/info/view/license.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="13" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
+    <entry file="file://$PROJECT_DIR$/pages/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="13" selection-start-line="21" selection-start-column="9" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="165">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/logger.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/db.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/profile.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lang/en.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="99" selection-start-line="46" selection-start-column="99" selection-end-line="46" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="101" column="24" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/square.loader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" column="13" selection-start-line="14" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/attach/attach.api.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
+    <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="1500">
+          <caret line="100" column="46" selection-start-line="100" selection-start-column="46" selection-end-line="100" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-654">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding>
+            <element signature="e#391#418#0#HTML" expanded="true" />
+            <element signature="e#603#693#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="353" column="18" lean-forward="true" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="22" column="59" selection-start-line="22" selection-start-column="59" selection-end-line="22" selection-end-column="59" />
         </state>
       </provider>
     </entry>

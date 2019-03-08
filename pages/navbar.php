@@ -10,12 +10,21 @@
         <ul class="navbar-nav mr-auto">
 
             <li class="nav-item">
+
+
+
                 <a class="nav-link" href="birthday"><?php S('birthday') ?></a>
             </li>
 
         </ul>
         <ul class="navbar-nav">
+
         <?php if (isDevelopmentServer()) echo "<li class=\"nav-item\"><a  class=\"nav-link\" href=\"info\">Development Server</a></li>" ?>
+
+
+
         </ul>
+
+        <?php if (getActParameter() != "write" && getActParameter() != "home") echo "<button type=\"nav-button\" class=\"btn btn-dark btn-lg\" onclick=\"location.href='write';  \">+</button>" ?>
     </div>
 </nav>

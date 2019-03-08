@@ -79,4 +79,31 @@ class SquareClass
         return $style_result;
     }
 
+
+    function PrintFontSelectOptions()
+    {
+        echo "<option value=\"Roboto, Noto, sans-serif\">기본</option><option value=\"sans-serif\">고딕체</option><option value=\"Nanum Square\">나눔스퀘어</option><option value=\"Nanum Gothic\">나눔고딕</option><option value=\"Nanum Myeongjo\">나눔명조</option><option value=\"Nanum Brush Script\">나눔손글씨체</option>";
+    }
+
+
+    function PrintFontSizeOptionsPx()
+    {
+        $sizearray = array(8, 9, 10, 11, 12, 13, 14, 16, 18, 20, 22, 24, 26, 28, 36, 40, 48, 56, 64, 72, 96, 128, 152, 256);
+        foreach ($sizearray as $key => $val) {
+            echo "<option value=\"" . $val . "\">" . $val . "</option>";
+        }
+
+
+    }
+
+    function PrintFontSizeOptions()
+    {
+        $sizearray = array(1, 2, 3, 4, 5, 6, 7);
+        foreach ($sizearray as $key => $val) {
+            echo "<option value=\"" . $val . "\">" . $val . "</option>";
+        }
+
+
+    }
+
 }

@@ -99,7 +99,7 @@
 
       <!--     Animation -->
       <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -150,7 +150,7 @@
              background-color: #FFFFFF;
              transition: 0.3s;
              /*   border-radius: 16px; 5px rounded corners */
-             width:440px;
+             width: 440px;
              height: 440px;
              padding-left: 24px;
              padding-right: 24px;
@@ -161,9 +161,12 @@
              word-break: break-all;
              display: table-cell;
 
+             vertical-align: middle; /* fixed with a valid value*/
+
          }
 
-         /* On mouse-over, add a deeper shadow */
+
+          /* On mouse-over, add a deeper shadow */
          .squarecard:hover {
              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
          }
@@ -212,11 +215,15 @@
              .squarecard {
 
                  width:100%;
-
+                 max-width: 100%
              }
 
              .outer {
                  width: 100%;
+             }
+
+             img {
+                 max-width: 100%
              }
 
 
@@ -225,7 +232,7 @@
          /*작은 모바일*/
          @media screen and (max-width: 350px){
              .squarecard {
-
+                 max-width: 100%
                  width: 100%;
 
              }
@@ -233,6 +240,11 @@
              .outer {
                  width: 100%;
              }
+
+             img {
+                 max-width: 100%
+             }
+
 
          }
 

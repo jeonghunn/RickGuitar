@@ -190,6 +190,13 @@ function POST($value){
   return $_POST[$value];
 }
 
+
+function getActParameter()
+{
+    global $act_parameter;
+    return $act_parameter;
+}
+
 function PostAct($url, $arrayvars){
 
     $vars = null;
@@ -205,6 +212,7 @@ function PostAct($url, $arrayvars){
   }
 
 }
+
 
 
 

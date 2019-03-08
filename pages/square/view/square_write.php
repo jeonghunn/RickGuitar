@@ -1,9 +1,12 @@
-<?php require_once 'pages/header.php'; ?>
+<?php
+require_once 'pages/square/square.loader.php';
+require_once 'pages/header.php'; ?>
 
 <!-- html -->
 <div class="container">
 
-        <h1 style="text-align: center;color: <?php getTitleColor() ?>;">네모 안에 생각을 담아보세요.</h1>
+    <h1 style="text-align: center;color: <?php getTitleColor() ?>;" class="animated fadeOut delay-2s">네모 안에 생각을
+        담아보세요.</h1>
 
     <br></br>
     <center>
@@ -17,17 +20,29 @@
         <div id="edit_1">
         <br>
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"
-             style=" display: inline-block;">
+             style=" display: inline-block; line-height:2.8em">
             <div class="btn-group btn-group" role="group" aria-label="First group">
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"-->
                 <!--                                                                                  title="icon name"-->
                 <!--                                                                                  aria-hidden="true"></span></button>-->
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>-->
+                <select name="font_name" id="font_name" class="custom-select custom-select-md">
+                    <?php $SQUARE_CLASS->PrintFontSelectOptions(); ?>
+                </select>
+
+
+            </div>
+            <div class="btn-group btn-group" role="group" aria-label="First group">
+
+                <select name="font_size" id="font_size" class="custom-select custom-select-md">
+                    <?php $SQUARE_CLASS->PrintFontSizeOptions(); ?>
+                </select>
+
+
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Second group">
-                <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse" href="#fontcontrol"
-                        style="display: none;"
-                "><span class="oi oi-text"></span></button>
+
+
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('bold')"><span
                             class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('italic')"><span
@@ -39,6 +54,9 @@
                 </button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('JustifyCenter')">
                     <span class="oi oi-justify-center"></span>
+                </button>
+                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('JustifyRight')">
+                    <span class="oi oi-justify-right"></span>
                 </button>
             </div>
 
@@ -230,6 +248,11 @@
     //Editor font control onchange
     $("#font_size").change(function () {
 
+        // var spanString = $('<span/>', {
+        //     'text': document.getSelection()
+        // }).css('font-size', $(this).val() + 'px').prop('outerHTML');
+        //
+        // document.execCommand('insertHTML', false, spanString);
         document.execCommand('FontSize', false, $(this).val());
         // alert(document.queryCommandValue("FontSize"));
         // alert('Selected value: ' + $(this).val());
@@ -237,6 +260,11 @@
 
     $("#font_name").change(function () {
 
+        // var spanString = $('<span/>', {
+        //     'text': document.getSelection()
+        // }).css('font-family', $(this).val()).css('font-size', $("#font_size").val() + 'px').prop('outerHTML');
+        //
+        // document.execCommand('insertHTML', false, spanString);
         document.execCommand('FontName', false, $(this).val());
         // alert(document.queryCommandValue("FontSize"));
         // alert('Selected value: ' + $(this).val());
@@ -255,7 +283,7 @@
             }
 
             //   if(selection.head)
-            //  alert(document.queryCommandValue("FontSize"));
+            //   alert(document.querySelectorAll());
             //alert(document.queryCommandValue("FontColor"));
             // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
             document.getElementById("font_size").value = document.queryCommandValue("FontSize");
@@ -309,7 +337,7 @@
 
     function hideEditor(num) {
         var editorid = "edit_" + num;
-        if (num != 0) document.getElementById(editorid).style = 'display:none;';
+        if (document.getElementById(editorid) != null && num != 0) document.getElementById(editorid).style = 'display:none;';
     }
 
     function showEditor(num) {
@@ -320,16 +348,14 @@
     function addCard() {
 
         cardcount = cardcount + 1;
-        var cardadd = '<div class="outer"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div></div><div><br>';
+        var cardadd = '<div class="outer" id="card_' + cardcount + '"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div></div><div><br>';
         var editor = '<div id="edit_' + cardcount + '">\n' +
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
-            '             style=" display: inline-block;">\n' +
-            '            <div class="btn-group btn-group" role="group" aria-label="First group">\n' +
-            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-camera-slr"\n' +
-            // '                                                                                  title="icon name"\n' +
-            // '                                                                                  aria-hidden="true"></span></button>\n' +
-            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-file"></span></button>\n' +
+            '             style=" display: inline-block; line-height:2.8em">\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="First group">   <select name="font_name_' + cardcount + '" id="font_name_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSelectOptions(); ?> </select> \n' +
+            '            </div>\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="First group">   <select name="font_size_' + cardcount + '" id="font_size_' + cardcount + '" class="custom-select custom-select-md"><?php $SQUARE_CLASS->PrintFontSizeOptions(); ?> </select>\n' +
             '            </div>\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="Second group">\n' +
             // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-text"></span></button>\n' +
@@ -341,6 +367,8 @@
             '                </button>\n' +
             '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'JustifyCenter\')"><span class="oi oi-justify-center"></span>\n' +
             '                </button>\n' +
+            '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'JustifyRight\')"><span class="oi oi-justify-right"></span>\n' +
+            '                </button>\n' +
             '            </div>\n' +
             '\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
@@ -350,13 +378,61 @@
             '                            class="oi oi-caret-bottom"></span></span>\n' +
             '                </button>\n' +
             '            </div>\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="4 group"> <button type="button" class="btn btn btn-outline-secondary" onclick="removeCard(' + cardcount + ')"><span class="oi oi-x"></span></button>\n' +
+            '            </div>\n' +
             '        </div>\n' +
             '\n' +
-            '</div>'
+            '</div></div>'
         $(cardadd + editor).insertBefore('#squarecard');
         setEditor();
         hideEditor(active_card);
         active_card = cardcount;
+
+
+        $("#font_name_" + cardcount).change(function () {
+
+            document.execCommand('FontName', false, $(this).val());
+            // alert(document.queryCommandValue("FontSize"));
+            // alert('Selected value: ' + $(this).val());
+        });
+
+
+        //Editor font control onchange
+        $("#font_size_" + cardcount).change(function () {
+
+            // var spanString = $('<span/>', {
+            //     'text': document.getSelection()
+            // }).css('font-size', $(this).val() + 'px').prop('outerHTML');
+            //
+            // document.execCommand('insertHTML', false, spanString);
+            document.execCommand('FontSize', false, $(this).val());
+            // alert(document.queryCommandValue("FontSize"));
+            // alert('Selected value: ' + $(this).val());
+        });
+
+
+        //Mouse Selection update
+        $(function () {
+            $(document.body).bind('mouseup', function (e) {
+                var selection;
+
+                if (window.getSelection) {
+                    selection = window.getSelection();
+                } else if (document.selection) {
+                    selection = document.selection.createRange();
+                }
+
+                //   if(selection.head)
+                //   alert(document.querySelectorAll());
+                //alert(document.queryCommandValue("FontColor"));
+                // selection.toString() !== '' && alert('"' + selection. + '" was selected at ' + e.pageX + '/' + e.pageY);
+                document.getElementById("font_size_" + cardcount).value = document.queryCommandValue("FontSize");
+                document.getElementById("font_name_" + cardcount).value = document.queryCommandValue("FontName").replace(/"([^"]+(?="))"/g, '$1');
+                //  alert(document.queryCommandValue("FontName"));
+
+            });
+        });
+
 
     }
 
@@ -372,6 +448,10 @@
         });
     }
 
+    function removeCard(num) {
+        document.getElementById("card_" + num).remove();
+    }
+
 
     function writeAct() {
         setProcessing(true);
@@ -380,6 +460,7 @@
 
 
         for (var i = 1; i <= cardcount; i++) {
+            if (document.getElementById("contents_" + i) == null) continue;
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).innerHTML);
             //   var alignbool = document.getElementsByName("align_radio_" + i)[0].checked;
             var align_value = "center-center";

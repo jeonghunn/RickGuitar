@@ -107,7 +107,7 @@ setLoaded(true);
 }
 
 //Guest, User all can
-LoadPages("", "square/view/square_main", false);
+if (getActParameter() == "") $act_parameter = "home";
 LoadPages("home", "square/view/square_main", false);
 LoadPages("error", "error", false);
 LoadPages("info", "info/view/info", false);
