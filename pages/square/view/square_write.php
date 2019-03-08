@@ -119,7 +119,7 @@ require_once 'pages/header.php'; ?>
                 </div>
                 <script>
 
-                    var selRange = null;
+                    var selRange;
                     $(function () {
                         $('#colorpicker')
                             .colorpicker({
@@ -142,7 +142,7 @@ require_once 'pages/header.php'; ?>
                                 ]
                             })
                             .on('colorpickerChange colorpickerCreate', function (e) {
-                                selRange = saveSelection();
+
 
                                 var colors = e.color.generate('tetrad');
 
@@ -508,7 +508,7 @@ require_once 'pages/header.php'; ?>
         $(function () {
             $(document.body).bind('mouseup', function (e) {
                 var selection;
-
+                selRange = saveSelection();
                 if (window.getSelection) {
                     selection = window.getSelection();
                 } else if (document.selection) {
