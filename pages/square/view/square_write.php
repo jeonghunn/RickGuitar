@@ -297,7 +297,7 @@ require_once 'pages/header.php'; ?>
             if (checkWrote()) {
                 var editables = document.querySelectorAll('.squarecard');
                 localStorage.setItem('temp_card_count', editables.length);
-            document.getElementById("status_message").innerHTML = "임시 저장되었습니다. " + new Date().toLocaleString();
+                document.getElementById("status_message").innerHTML = "<?php S('write_temp_saved') ?> " + new Date().toLocaleString();
                 for (var i = 0; i < editables.length; i++) {
                     localStorage.setItem(editables[i].getAttribute('id'), editables[i].innerHTML);
 
