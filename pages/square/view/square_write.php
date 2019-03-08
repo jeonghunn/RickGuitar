@@ -116,6 +116,8 @@ require_once 'pages/header.php'; ?>
 
             </div>
             <script>
+
+                var oldcolor;
                 $(function () {
                     $('#colorpicker')
                         .colorpicker({
@@ -123,6 +125,7 @@ require_once 'pages/header.php'; ?>
                             inline: true
                         })
                         .on('colorpickerChange colorpickerCreate', function (e) {
+
                             var colors = e.color.generate('tetrad');
 
                             colors.forEach(function (color, i) {
@@ -137,8 +140,21 @@ require_once 'pages/header.php'; ?>
                                     .css('background-color', colorStr);
                             });
 
+                            oldcolor = document.getElementById('selected_colo').value;
 
-                            document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
+                            var selection;
+
+                            if (window.getSelection) {
+                                selection = window.getSelection();
+                            } else if (document.selection) {
+                                selection = document.selection.createRange();
+                            }
+
+                            if (selection.length >= 1) {
+                                document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
+                            } else {
+                                document.getElementById("contents_1").innerHTML = document.getElementById("contents_1").innerHTML + "<font color='" + document.getElementById('selected_colo').value + "'></font>";
+                            }
                         });
                 });
 
