@@ -1,6 +1,6 @@
 'use strict';
 
-import Extension from 'pages/js/ColorPicker/Extension';
+import Extension from './Extension';
 import defaults from './options';
 import coreExtensions from 'extensions';
 import $ from 'jquery';
