@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="bootstrap bundle import">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="popper js">
       <change beforePath="$PROJECT_DIR$/pages/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/js/bootstrap-colorpicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/js/bootstrap-colorpicker.min.js" beforeDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,20 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+            <state relative-caret-position="327">
+              <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -223,7 +225,6 @@
         <option value="$PROJECT_DIR$/pages/info/view/info.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/navbar.php" />
-        <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/base.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
@@ -231,6 +232,7 @@
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
+        <option value="$PROJECT_DIR$/pages/header.php" />
       </list>
     </option>
   </component>
@@ -958,21 +960,7 @@
       <workItem from="1551800117783" duration="6040000" />
       <workItem from="1551888642501" duration="1936000" />
       <workItem from="1551969757770" duration="2946000" />
-      <workItem from="1552063715930" duration="2368000" />
-    </task>
-    <task id="LOCAL-01651" summary="fontselect">
-      <created>1551718817298</created>
-      <option name="number" value="01651" />
-      <option name="presentableId" value="LOCAL-01651" />
-      <option name="project" value="LOCAL" />
-      <updated>1551718817298</updated>
-    </task>
-    <task id="LOCAL-01652" summary="fontselect style has been updated">
-      <created>1551718898080</created>
-      <option name="number" value="01652" />
-      <option name="presentableId" value="LOCAL-01652" />
-      <option name="project" value="LOCAL" />
-      <updated>1551718898080</updated>
+      <workItem from="1552063715930" duration="2832000" />
     </task>
     <task id="LOCAL-01653" summary="font name bug fix">
       <created>1551719357673</created>
@@ -1303,11 +1291,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552066666851</updated>
     </task>
-    <option name="localTasksCounter" value="1700" />
+    <task id="LOCAL-01700" summary="removed unused jquery">
+      <created>1552066819117</created>
+      <option name="number" value="01700" />
+      <option name="presentableId" value="LOCAL-01700" />
+      <option name="project" value="LOCAL" />
+      <updated>1552066819117</updated>
+    </task>
+    <task id="LOCAL-01701" summary="popper js">
+      <created>1552066892238</created>
+      <option name="number" value="01701" />
+      <option name="presentableId" value="LOCAL-01701" />
+      <option name="project" value="LOCAL" />
+      <updated>1552066892239</updated>
+    </task>
+    <option name="localTasksCounter" value="1702" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1252784000" />
+    <option name="totallyTimeSpent" value="1253248000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1324,13 +1326,13 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19027181" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19027181" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.6866953" side_tool="true" visible="true" weight="0.28649387" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="0" sideWeight="0.6866953" side_tool="true" visible="true" weight="0.28649387" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1416,8 +1418,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="translation fix" />
-    <MESSAGE value="font select bug has been fixed." />
     <MESSAGE value="square log bug has been fixed." />
     <MESSAGE value="add card fontselect" />
     <MESSAGE value="add card fontselect htmlspecialchars" />
@@ -1441,7 +1441,9 @@
     <MESSAGE value="test" />
     <MESSAGE value="colorpicker test" />
     <MESSAGE value="bootstrap bundle import" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap bundle import" />
+    <MESSAGE value="removed unused jquery" />
+    <MESSAGE value="popper js" />
+    <option name="LAST_COMMIT_MESSAGE" value="popper js" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1619,17 +1621,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
+    <entry file="file://$PROJECT_DIR$/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/footer.php">
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="327">
+          <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
         </state>
       </provider>
     </entry>
