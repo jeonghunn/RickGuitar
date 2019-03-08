@@ -157,9 +157,10 @@ require_once 'pages/header.php'; ?>
                         });
                 });
 
-                $('#colorpicker').click(function () {
-                    $("#contents_1").focus();
+                document.getElementById('contents_1').addEventListener('blur', e => {
+                    e.target.focus();
                 });
+
             </script>
 
 
