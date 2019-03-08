@@ -215,6 +215,8 @@ require_once 'pages/header.php'; ?>
 
                 </div>
                 <script>
+
+                    var oldColorStr = null;
                     $(function () {
                         $('#cp1')
                             .colorpicker({
@@ -249,6 +251,12 @@ require_once 'pages/header.php'; ?>
                                         .attr('title', colorStr)
                                         .find('> i')
                                         .css('background-color', colorStr);
+
+                                    var foo = $('#contents_1').html();
+
+                                    foo = foo.replace(oldColorStr, colorStr);
+                                    $('#contents_1').html(foo);
+                                    oldColorStr = colorStr;
                                 });
                             });
                     });
