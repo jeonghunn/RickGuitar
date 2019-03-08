@@ -91,7 +91,7 @@
 
 
       <!--     Bootstrap ColorPicker -->
-      <link href="pages/js/ColorPicker/Colorpicker.js" rel="stylesheet">
+      <script src="pages/js/ColorPicker/Colorpicker.js"></script>
 
       <!--     egjs -->
       <script src="pages/js/hammer.min.js"></script>
