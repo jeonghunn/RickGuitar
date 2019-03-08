@@ -204,6 +204,7 @@ require_once 'pages/header.php'; ?>
                     $(function () {
                         $('#cp1')
                             .colorpicker({
+                                format: 'auto',
                                 inline: true,
                                 container: true,
                                 extensions: [
