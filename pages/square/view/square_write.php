@@ -2,6 +2,44 @@
 require_once 'pages/square/square.loader.php';
 require_once 'pages/header.php'; ?>
 
+<!--ColorPicker Style-->
+<style>
+    .colorpicker-2x.colorpicker-with-alpha {
+        width: 272px;
+    }
+
+    .colorpicker-2x .colorpicker-saturation {
+        width: 200px;
+        height: 200px;
+    }
+
+    .colorpicker-2x .colorpicker-hue,
+    .colorpicker-2x .colorpicker-alpha {
+        width: 30px;
+        height: 200px;
+    }
+
+    .colorpicker-2x .colorpicker-alpha,
+    .colorpicker-2x .colorpicker-preview {
+        background-size: 20px 20px;
+        background-position: 0 0, 10px 10px;
+    }
+
+    .colorpicker-2x .colorpicker-preview,
+    .colorpicker-2x .colorpicker-preview div {
+        height: 30px;
+        font-size: 16px;
+        line-height: 160%;
+    }
+
+    .colorpicker-saturation .colorpicker-guide {
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+        margin: -5px 0 0 -5px;
+    }
+</style>
+
 <!-- html -->
 <div class="container">
 
@@ -180,36 +218,22 @@ require_once 'pages/header.php'; ?>
     $('#cp1').colorpicker({
         inline: true,
         container: true,
-        extensions: [
-            {
-                name: 'swatches',
-                options: {
-                    colors: {
-                        'tetrad1': '#000',
-                        'tetrad2': '#000',
-                        'tetrad3': '#000',
-                        'tetrad4': '#000'
-                    },
-                    namesAsValues: false
-                }
+        customClass: 'colorpicker-2x',
+        sliders: {
+            saturation: {
+                maxLeft: 200,
+                maxTop: 200
+            },
+            hue: {
+                maxTop: 200
+            },
+            alpha: {
+                maxTop: 200
             }
-        ]
+        }
+    });
     })
-        .on('colorpickerChange colorpickerCreate', function (e) {
-            var colors = e.color.generate('tetrad');
-
-            colors.forEach(function (color, i) {
-                var colorStr = color.string(),
-                    swatch = e.colorpicker.picker
-                        .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
-
-                swatch
-                    .attr('data-value', colorStr)
-                    .attr('title', colorStr)
-                    .find('> i')
-                    .css('background-color', colorStr);
-            });
-        });
+    ;
 
     //temp save
     setInterval(function () {
