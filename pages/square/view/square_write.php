@@ -214,9 +214,9 @@ require_once 'pages/header.php'; ?>
                                 hue: {
                                     maxTop: 200
                                 },
-                                alpha: {
-                                    maxTop: 200
-                                }
+                                // alpha: {
+                                //     maxTop: 200
+                                // }
                             }
                         });
                     });
