@@ -118,6 +118,8 @@ require_once 'pages/header.php'; ?>
 
                 </div>
                 <script>
+
+                    var selRange = null;
                     $(function () {
                         $('#colorpicker')
                             .colorpicker({
@@ -140,6 +142,8 @@ require_once 'pages/header.php'; ?>
                                 ]
                             })
                             .on('colorpickerChange colorpickerCreate', function (e) {
+                                selRange = saveSelection();
+
                                 var colors = e.color.generate('tetrad');
 
                                 colors.forEach(function (color, i) {
@@ -154,7 +158,7 @@ require_once 'pages/header.php'; ?>
                                         .css('background-color', colorStr);
                                 });
 
-
+                                restoreSelection(selRange);
                                 document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
                             });
                     });
@@ -220,7 +224,7 @@ require_once 'pages/header.php'; ?>
                 </div>
                 <script>
 
-                    var oldColorStr = null;
+
                     $(function () {
                         $('#cp1')
                             .colorpicker({
@@ -243,6 +247,8 @@ require_once 'pages/header.php'; ?>
                                 ]
                             })
                             .on('colorpickerChange colorpickerCreate', function (e) {
+
+
                                 var colors = e.color.generate('tetrad');
 
                                 colors.forEach(function (color, i) {
@@ -258,7 +264,11 @@ require_once 'pages/header.php'; ?>
 
 
                                 });
+
+
                             });
+
+
                     });
 
 
@@ -606,6 +616,30 @@ require_once 'pages/header.php'; ?>
         });
 
 
+    }
+
+    function saveSelection() {
+        if (window.getSelection) {
+            sel = window.getSelection();
+            if (sel.getRangeAt && sel.rangeCount) {
+                return sel.getRangeAt(0);
+            }
+        } else if (document.selection && document.selection.createRange) {
+            return document.selection.createRange();
+        }
+        return null;
+    }
+
+    function restoreSelection(range) {
+        if (range) {
+            if (window.getSelection) {
+                sel = window.getSelection();
+                sel.removeAllRanges();
+                sel.addRange(range);
+            } else if (document.selection && range.select) {
+                range.select();
+            }
+        }
     }
 
     function checkPreventClose() {
