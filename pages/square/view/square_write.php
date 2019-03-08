@@ -102,10 +102,10 @@ require_once 'pages/header.php'; ?>
             <div class="btn-group btn-group" role="group" aria-label="4 group">
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>-->
                 <!--                </button>-->
-                <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"
-                        data-target="#ColorPickerModal"><span
-                            class="oi oi-caret-bottom"></span></span>
-                </button>
+                <!--                <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"-->
+                <!--                        data-target="#ColorPickerModal"><span-->
+                <!--                            class="oi oi-caret-bottom"></span></span>-->
+                <!--                </button>-->
             </div>
         </div>
 
@@ -172,7 +172,7 @@ require_once 'pages/header.php'; ?>
                 style=" border-radius: 50%; width: 64px; height: 64px; text-align: center; font-size:24px"
         >+
         </button>
-
+        <br>
         <p id="status_message"></p><br>
         <div class="dropdown">
             <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -456,12 +456,12 @@ require_once 'pages/header.php'; ?>
             '            </div>\n' +
             '\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>\n' +
-            '                </button>\n' +
-            '                <button type="button" class="btn btn btn-outline-secondary"><span\n' +
-            '                            class="oi oi-caret-bottom"></span></span>\n' +
-            '                </button>\n' +
-            '            </div>\n' +
+            // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>\n' +
+            // '                </button>\n' +
+            // '                <button type="button" class="btn btn btn-outline-secondary"><span\n' +
+            // '                            class="oi oi-caret-bottom"></span></span>\n' +
+            // '                </button>\n' +
+            // '            </div>\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="4 group"> <button type="button" class="btn btn btn-outline-secondary" onclick="removeCard(' + cardcount + ')"><span class="oi oi-x"></span></button>\n' +
             '            </div>\n' +
             '        </div>\n' +
@@ -549,9 +549,9 @@ require_once 'pages/header.php'; ?>
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).innerHTML);
             //   var alignbool = document.getElementsByName("align_radio_" + i)[0].checked;
             var align_value = "center-center";
-            var background = document.getElementById("background_" + i).innerText;
+            //  var background = document.getElementById("background_" + i).innerText;
 
-            square_cards_array.push({align: align_value, content: cardvalue, background: background});
+            square_cards_array.push({align: align_value, content: cardvalue});
 
         }
 
