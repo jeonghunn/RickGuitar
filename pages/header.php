@@ -78,6 +78,7 @@
       <script src="pages/js/bootstrap.bundle.js"></script>
       <!--     Bootstrap ColorPicker -->
       <script src="pages/js/ColorPicker/bootstrap-colorpicker.js"></script>
+      <link rel="stylesheet" href="pages/css/bootstrap-colorpicker.css">
       <!--     font -->
       <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
