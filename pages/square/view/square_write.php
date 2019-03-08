@@ -245,7 +245,7 @@ require_once 'pages/header.php'; ?>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal"><?php S('close') ?></button>
                 <button type="button" class="btn btn-primary"
-                        onclick=" document.execCommand('FontColor', false, document.getElementById('selected_color').value)"><?php S('select') ?></button>
+                        onclick="document.execCommand('forecolor', false, document.getElementById('selected_color').value)"><?php S('select') ?></button>
             </div>
         </div>
     </div>
