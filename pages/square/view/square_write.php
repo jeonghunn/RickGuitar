@@ -158,9 +158,9 @@ require_once 'pages/header.php'; ?>
                                 document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
                             });
                     });
-                    $("#contents_1").blur(function () {
-                        $(this).focus();
-                    });
+                    p.addEventListener('mouseup', () => {
+                        highlight(select()); // save the selection
+                    })
 
                 </script>
 
