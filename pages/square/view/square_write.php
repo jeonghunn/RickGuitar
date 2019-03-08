@@ -128,9 +128,6 @@ require_once 'pages/header.php'; ?>
                         });
                     });
 
-                    })
-                    ;
-
 
                 </script>
 
