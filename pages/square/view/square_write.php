@@ -367,6 +367,7 @@ require_once 'pages/header.php'; ?>
     $(function () {
         $(document.body).bind('mouseup', function (e) {
             var selection;
+            alert(window.getSelection().baseNode.parentNode.id);
             if (window.getSelection().baseNode.parentNode.id.startsWith("contents")) selRange = saveSelection();
             if (window.getSelection) {
                 selection = window.getSelection();

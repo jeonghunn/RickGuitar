@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="369" column="59" selection-start-line="369" selection-start-column="59" selection-end-line="369" selection-end-column="59" />
+            <state relative-caret-position="120">
+              <caret line="369" column="64" selection-start-line="369" selection-start-column="64" selection-end-line="369" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -986,21 +986,7 @@
       <workItem from="1552075298306" duration="2161000" />
       <workItem from="1552077533072" duration="171000" />
       <workItem from="1552077709100" duration="531000" />
-      <workItem from="1552078271169" duration="1046000" />
-    </task>
-    <task id="LOCAL-01728" summary="script type has been changed to module. Colorpicker">
-      <created>1552070444495</created>
-      <option name="number" value="01728" />
-      <option name="presentableId" value="LOCAL-01728" />
-      <option name="project" value="LOCAL" />
-      <updated>1552070444495</updated>
-    </task>
-    <task id="LOCAL-01729" summary="bug fix">
-      <created>1552070510689</created>
-      <option name="number" value="01729" />
-      <option name="presentableId" value="LOCAL-01729" />
-      <option name="project" value="LOCAL" />
-      <updated>1552070510690</updated>
+      <workItem from="1552078271169" duration="1367000" />
     </task>
     <task id="LOCAL-01730" summary="type removed">
       <created>1552070656621</created>
@@ -1331,11 +1317,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552079227676</updated>
     </task>
-    <option name="localTasksCounter" value="1777" />
+    <task id="LOCAL-01777" summary="test">
+      <created>1552079398869</created>
+      <option name="number" value="01777" />
+      <option name="presentableId" value="LOCAL-01777" />
+      <option name="project" value="LOCAL" />
+      <updated>1552079398869</updated>
+    </task>
+    <task id="LOCAL-01778" summary="test">
+      <created>1552079610922</created>
+      <option name="number" value="01778" />
+      <option name="presentableId" value="LOCAL-01778" />
+      <option name="project" value="LOCAL" />
+      <updated>1552079610922</updated>
+    </task>
+    <option name="localTasksCounter" value="1779" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1264828000" />
+    <option name="totallyTimeSpent" value="1265149000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1347,7 +1347,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
+    <frame x="-1" y="23" width="1440" height="827" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
@@ -1655,8 +1655,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="369" column="59" selection-start-line="369" selection-start-column="59" selection-end-line="369" selection-end-column="59" />
+        <state relative-caret-position="120">
+          <caret line="369" column="64" selection-start-line="369" selection-start-column="64" selection-end-line="369" selection-end-column="64" />
         </state>
       </provider>
     </entry>
