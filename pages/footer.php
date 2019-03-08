@@ -17,7 +17,6 @@
 <script src="pages/js/bootstrap.min.js"></script>
 <script src="pages/js/bootstrap.bundle.js"></script>
 
-
 </body>
 </html>
 
