@@ -75,7 +75,7 @@
 
       <script type="text/javascript" src="pages/js/jquery.js"></script>
       <script src="pages/js/popper.min.js"></script>
-
+      <script src="pages/js/bootstrap.bundle.js"></script>
       <!--     font -->
       <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
@@ -91,7 +91,7 @@
 
 
       <!--     Bootstrap ColorPicker -->
-      <link href="pages/js/ColorPicker/ColorPicker.js" rel="stylesheet">
+      <link href="pages/js/ColorPicker/Colorpicker.js" rel="stylesheet">
 
       <!--     egjs -->
       <script src="pages/js/hammer.min.js"></script>
