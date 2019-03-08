@@ -101,8 +101,8 @@ require_once 'pages/header.php'; ?>
             <div class="btn-group btn-group" role="group" aria-label="4 group">
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>-->
                 <!--                </button>-->
-                <button type="button" class="btn btn btn-outline-secondary"><span
-                            class="oi oi-caret-bottom" data-target="#ColorPickerModal"></span></span>
+                <button type="button" class="btn btn btn-outline-secondary" data-target="#ColorPickerModal"><span
+                            class="oi oi-caret-bottom"></span></span>
                 </button>
             </div>
         </div>
@@ -187,7 +187,7 @@ require_once 'pages/header.php'; ?>
 
 
 <!-- ColorPicker Modal -->
-<div class="modal fade" id="ColorPickerModal" tabindex="5000" role="dialog" aria-labelledby="ColorPickerModal"
+<div class="modal fade" id="ColorPickerModal" tabindex="-1" role="dialog" aria-labelledby="ColorPickerModal"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
