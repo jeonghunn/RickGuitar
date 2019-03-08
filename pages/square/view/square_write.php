@@ -124,7 +124,7 @@ require_once 'pages/header.php'; ?>
                         $('#colorpicker')
                             .colorpicker({
                                 format: 'auto',
-                                container: true,
+                                inline: true,
                                 extensions: [
                                     {
                                         name: 'swatches',
@@ -367,10 +367,6 @@ require_once 'pages/header.php'; ?>
         $(document.body).bind('mouseup', function (e) {
             var selection;
 
-            if (document.getSelection().baseNode.contains("Text")) {
-                alert(document.getSelection().baseNode);
-                selRange = saveSelection();
-            }
 
             if (window.getSelection) {
                 selection = window.getSelection();
