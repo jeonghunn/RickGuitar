@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="editor update">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -87,10 +88,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+            <state relative-caret-position="120">
+              <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -929,21 +932,7 @@
       <workItem from="1551800117783" duration="6040000" />
       <workItem from="1551888642501" duration="1936000" />
       <workItem from="1551969757770" duration="2946000" />
-      <workItem from="1552063715930" duration="813000" />
-    </task>
-    <task id="LOCAL-01647" summary="fontselect">
-      <created>1551718664793</created>
-      <option name="number" value="01647" />
-      <option name="presentableId" value="LOCAL-01647" />
-      <option name="project" value="LOCAL" />
-      <updated>1551718664793</updated>
-    </task>
-    <task id="LOCAL-01648" summary="fontselect">
-      <created>1551718731116</created>
-      <option name="number" value="01648" />
-      <option name="presentableId" value="LOCAL-01648" />
-      <option name="project" value="LOCAL" />
-      <updated>1551718731116</updated>
+      <workItem from="1552063715930" duration="2062000" />
     </task>
     <task id="LOCAL-01649" summary="fontselect">
       <created>1551718768240</created>
@@ -1274,11 +1263,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552064997168</updated>
     </task>
-    <option name="localTasksCounter" value="1696" />
+    <task id="LOCAL-01696" summary="editor update">
+      <created>1552065040907</created>
+      <option name="number" value="01696" />
+      <option name="presentableId" value="LOCAL-01696" />
+      <option name="project" value="LOCAL" />
+      <updated>1552065040907</updated>
+    </task>
+    <task id="LOCAL-01697" summary="test">
+      <created>1552066341339</created>
+      <option name="number" value="01697" />
+      <option name="presentableId" value="LOCAL-01697" />
+      <option name="project" value="LOCAL" />
+      <updated>1552066341339</updated>
+    </task>
+    <option name="localTasksCounter" value="1698" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1251229000" />
+    <option name="totallyTimeSpent" value="1252478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1387,7 +1390,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fontselect" />
     <MESSAGE value="fontselect style has been updated" />
     <MESSAGE value="font name bug fix" />
     <MESSAGE value="translation fix" />
@@ -1412,7 +1414,8 @@
     <MESSAGE value="line test" />
     <MESSAGE value="editor icon test" />
     <MESSAGE value="editor update" />
-    <option name="LAST_COMMIT_MESSAGE" value="editor update" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1594,10 +1597,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="68" column="18" lean-forward="true" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="179" column="11" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

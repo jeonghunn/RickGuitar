@@ -177,45 +177,7 @@ require_once 'pages/header.php'; ?>
         document.getElementById("contents_1").focus();
     };
 
-
-    //ColorPicker
-    $(function () {
-        $('#cp1')
-            .colorpicker({
-                inline: true,
-                container: true,
-                extensions: [
-                    {
-                        name: 'swatches',
-                        options: {
-                            colors: {
-                                'tetrad1': '#000',
-                                'tetrad2': '#000',
-                                'tetrad3': '#000',
-                                'tetrad4': '#000'
-                            },
-                            namesAsValues: false
-                        }
-                    }
-                ]
-            })
-            .on('colorpickerChange colorpickerCreate', function (e) {
-                var colors = e.color.generate('tetrad');
-
-                colors.forEach(function (color, i) {
-                    var colorStr = color.string(),
-                        swatch = e.colorpicker.picker
-                            .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
-
-                    swatch
-                        .attr('data-value', colorStr)
-                        .attr('title', colorStr)
-                        .find('> i')
-                        .css('background-color', colorStr);
-                });
-            });
-    });
-
+    $('#cp1').colorpicker();
 
     //temp save
     setInterval(function () {
