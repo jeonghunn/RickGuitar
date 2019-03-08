@@ -143,9 +143,6 @@ require_once 'pages/header.php'; ?>
                 </select>
 
 
-                <div id="cp1" data-color="#6D2781">
-                    <input type="text" class="form-control" style="width:auto"/> <br>
-                </div>
 
             </div>
 
