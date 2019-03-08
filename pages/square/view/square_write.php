@@ -152,12 +152,14 @@ require_once 'pages/header.php'; ?>
                                     .css('background-color', colorStr);
                             });
 
-                            $("#contents_1").focus();
+
                             document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
                         });
                 });
 
-
+                $('colorpicker').click(function () {
+                    $("#contents_1").focus();
+                });
             </script>
 
 
