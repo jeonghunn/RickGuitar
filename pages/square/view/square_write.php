@@ -101,7 +101,8 @@ require_once 'pages/header.php'; ?>
             <div class="btn-group btn-group" role="group" aria-label="4 group">
                 <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>-->
                 <!--                </button>-->
-                <button type="button" class="btn btn btn-outline-secondary" data-target="#ColorPickerModal"><span
+                <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"
+                        data-target="#ColorPickerModal"><span
                             class="oi oi-caret-bottom"></span></span>
                 </button>
             </div>
