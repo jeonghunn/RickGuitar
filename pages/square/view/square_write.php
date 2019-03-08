@@ -202,7 +202,7 @@ require_once 'pages/header.php'; ?>
                 <script>
                     $(function () {
                         $('#cp1').colorpicker({
-                            format: 'auto'
+                            format: 'auto',
                             inline: true,
                             container: true,
                             customClass: 'colorpicker-2x',
