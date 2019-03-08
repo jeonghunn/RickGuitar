@@ -125,20 +125,7 @@ require_once 'pages/header.php'; ?>
                             .colorpicker({
                                 format: 'auto',
                                 inline: true,
-                                extensions: [
-                                    {
-                                        name: 'swatches',
-                                        options: {
-                                            colors: {
-                                                'tetrad1': '#000',
-                                                'tetrad2': '#000',
-                                                'tetrad3': '#000',
-                                                'tetrad4': '#000'
-                                            },
-                                            namesAsValues: false
-                                        }
-                                    }
-                                ]
+
                             })
                             .on('colorpickerChange colorpickerCreate', function (e) {
 
