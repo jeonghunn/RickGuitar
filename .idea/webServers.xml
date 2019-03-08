@@ -10,8 +10,8 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
-      <webServer id="7fabfe55-ba22-4522-a093-9a58548f1810" name="SquareDevelopServer" url="http://unopenedbox.com">
-        <fileTransfer host="unopenedbox.com" port="6273" privateKey="$PROJECT_DIR$/../tark/tarks.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true" username="ubuntu">
+      <webServer id="7fabfe55-ba22-4522-a093-9a58548f1810" name="SquareDevelopServer" url="http://tarks.net">
+        <fileTransfer host="tarks.net" port="6273" privateKey="$PROJECT_DIR$/../tark/tarks.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true" username="ubuntu">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
