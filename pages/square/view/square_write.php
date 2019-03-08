@@ -155,7 +155,7 @@ require_once 'pages/header.php'; ?>
                             $('#contents_1').blur(function (event) {
                                 setTimeout(function () {
                                     $("#contents_1").focus();
-                                }, 20);
+                                }, 10);
                             });
                             document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
                         });

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="colorpickertest">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="focustest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="154" column="28" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
+            <state relative-caret-position="170">
+              <caret line="157" column="36" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="36" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
@@ -968,21 +968,7 @@
       <workItem from="1551800117783" duration="6040000" />
       <workItem from="1551888642501" duration="1936000" />
       <workItem from="1551969757770" duration="2946000" />
-      <workItem from="1552063715930" duration="9779000" />
-    </task>
-    <task id="LOCAL-01702" summary="colorpicker import">
-      <created>1552067290933</created>
-      <option name="number" value="01702" />
-      <option name="presentableId" value="LOCAL-01702" />
-      <option name="project" value="LOCAL" />
-      <updated>1552067290934</updated>
-    </task>
-    <task id="LOCAL-01703" summary="colorpicker import">
-      <created>1552067344114</created>
-      <option name="number" value="01703" />
-      <option name="presentableId" value="LOCAL-01703" />
-      <option name="project" value="LOCAL" />
-      <updated>1552067344114</updated>
+      <workItem from="1552063715930" duration="10017000" />
     </task>
     <task id="LOCAL-01704" summary="colorpicker import fix">
       <created>1552067452010</created>
@@ -1313,11 +1299,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552074244157</updated>
     </task>
-    <option name="localTasksCounter" value="1751" />
+    <task id="LOCAL-01751" summary="colorpickertest">
+      <created>1552074532773</created>
+      <option name="number" value="01751" />
+      <option name="presentableId" value="LOCAL-01751" />
+      <option name="project" value="LOCAL" />
+      <updated>1552074532773</updated>
+    </task>
+    <task id="LOCAL-01752" summary="focustest">
+      <created>1552074618978</created>
+      <option name="number" value="01752" />
+      <option name="presentableId" value="LOCAL-01752" />
+      <option name="project" value="LOCAL" />
+      <updated>1552074618978</updated>
+    </task>
+    <option name="localTasksCounter" value="1753" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1260195000" />
+    <option name="totallyTimeSpent" value="1260433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1426,7 +1426,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="button remove" />
     <MESSAGE value="modal tabindex value has been increased." />
     <MESSAGE value="data target has been fixed" />
     <MESSAGE value="data toogle modal" />
@@ -1451,7 +1450,8 @@
     <MESSAGE value="selectedcolor" />
     <MESSAGE value="test" />
     <MESSAGE value="colorpickertest" />
-    <option name="LAST_COMMIT_MESSAGE" value="colorpickertest" />
+    <MESSAGE value="focustest" />
+    <option name="LAST_COMMIT_MESSAGE" value="focustest" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1646,8 +1646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="154" column="28" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
+        <state relative-caret-position="170">
+          <caret line="157" column="36" selection-start-line="157" selection-start-column="36" selection-end-line="157" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
