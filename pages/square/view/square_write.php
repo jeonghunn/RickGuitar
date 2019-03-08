@@ -110,41 +110,53 @@ require_once 'pages/header.php'; ?>
 
 
             <!--     Size, Font       -->
-            <div class="collapse" id="fontcontrol">
-                <br>
 
-                크기 <select name="font_size" id="font_size" onselect="alert(0)">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-
-
-                </select>
-                글씨체 <select name="font_name" id="font_name">
-                    <option value="Roboto, Noto, sans-serif">기본</option>
-                    <option value="sans-serif">고딕체</option>
-                    <option value="Nanum Square">나눔스퀘어</option>
-                    <option value="Nanum Gothic">나눔고딕</option>
-                    <option value="Nanum Myeongj">나눔명조</option>
-                    <option value="Nanum Brush Script">나눔손글씨체</option>
-
-
-                </select>
-                색상 <select name="font" id="font">
-                    <option value="9">빨강</option>
-                    <option value="9">주황</option>
-                    <option value="9">노랑</option>
-
-
-                </select>
-
-
+            <div id="colorpicker" data-color="#6D2781">
+                <input type="text" id="selected_colo" class="form-control" style="width:auto"/> <br>
 
             </div>
+            <script>
+                $(function () {
+                    $('#colorpicker')
+                        .colorpicker({
+                            format: 'auto',
+                            inline: true,
+                            container: true,
+                            extensions: [
+                                {
+                                    name: 'swatches',
+                                    options: {
+                                        colors: {
+                                            'tetrad1': '#000',
+                                            'tetrad2': '#000',
+                                            'tetrad3': '#000',
+                                            'tetrad4': '#000'
+                                        },
+                                        namesAsValues: false
+                                    }
+                                }
+                            ]
+                        })
+                        .on('colorpickerChange colorpickerCreate', function (e) {
+                            var colors = e.color.generate('tetrad');
+
+                            colors.forEach(function (color, i) {
+                                var colorStr = color.string(),
+                                    swatch = e.colorpicker.picker
+                                        .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
+
+                                swatch
+                                    .attr('data-value', colorStr)
+                                    .attr('title', colorStr)
+                                    .find('> i')
+                                    .css('background-color', colorStr);
+                            });
+                            document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
+                        });
+                });
+
+
+            </script>
 
 
         </div>
@@ -406,6 +418,7 @@ require_once 'pages/header.php'; ?>
         var editorid = "edit_" + num;
         if (num != 0) document.getElementById(editorid).style = '';
     }
+
 
     function addCard() {
 
