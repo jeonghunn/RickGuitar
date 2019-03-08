@@ -202,24 +202,25 @@ require_once 'pages/header.php'; ?>
                 </div>
                 <script>
                     $(function () {
-                        $('#cp1').colorpicker({
-                            inline: true,
-                            container: true,
-                            extensions: [
-                                {
-                                    name: 'swatches',
-                                    options: {
-                                        colors: {
-                                            'tetrad1': '#000',
-                                            'tetrad2': '#000',
-                                            'tetrad3': '#000',
-                                            'tetrad4': '#000'
-                                        },
-                                        namesAsValues: false
+                        $('#cp1')
+                            .colorpicker({
+                                inline: true,
+                                container: true,
+                                extensions: [
+                                    {
+                                        name: 'swatches',
+                                        options: {
+                                            colors: {
+                                                'tetrad1': '#000',
+                                                'tetrad2': '#000',
+                                                'tetrad3': '#000',
+                                                'tetrad4': '#000'
+                                            },
+                                            namesAsValues: false
+                                        }
                                     }
-                                }
-                            ]
-                        })
+                                ]
+                            })
                             .on('colorpickerChange colorpickerCreate', function (e) {
                                 var colors = e.color.generate('tetrad');
 
@@ -235,6 +236,7 @@ require_once 'pages/header.php'; ?>
                                         .css('background-color', colorStr);
                                 });
                             });
+                    });
 
 
                 </script>
