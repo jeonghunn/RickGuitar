@@ -120,22 +120,7 @@ require_once 'pages/header.php'; ?>
                     $('#colorpicker')
                         .colorpicker({
                             format: 'auto',
-                            inline: true,
-                            container: true,
-                            extensions: [
-                                {
-                                    name: 'swatches',
-                                    options: {
-                                        colors: {
-                                            'tetrad1': '#000',
-                                            'tetrad2': '#000',
-                                            'tetrad3': '#000',
-                                            'tetrad4': '#000'
-                                        },
-                                        namesAsValues: false
-                                    }
-                                }
-                            ]
+                            inline: true
                         })
                         .on('colorpickerChange colorpickerCreate', function (e) {
                             var colors = e.color.generate('tetrad');
@@ -152,10 +137,6 @@ require_once 'pages/header.php'; ?>
                                     .css('background-color', colorStr);
                             });
 
-                            protect: function (e) {
-                                e.preventDefault()
-                                return setTimeout(300)
-                            }
 
                             document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
                         });
