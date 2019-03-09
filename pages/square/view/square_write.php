@@ -466,7 +466,6 @@ require_once 'pages/header.php'; ?>
 
             '            </div>\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
-            '              <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"  data-target="#ColorPickerModal"><span class="oi oi-image"></span></button>' +
 
 
             '            <div class="btn-group btn-group" role="group" aria-label="5 group"> <button type="button" class="btn btn btn-outline-secondary" onclick="removeCard(' + cardcount + ')"><span class="oi oi-x"></span></button>\n' +
