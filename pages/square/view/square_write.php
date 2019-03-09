@@ -100,12 +100,12 @@ require_once 'pages/header.php'; ?>
             </div>
 
             <div class="btn-group btn-group" role="group" aria-label="4 group">
-                <!--                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>-->
-                <!--                </button>-->
-                <!--                <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"-->
-                <!--                        data-target="#ColorPickerModal"><span-->
-                <!--                            class="oi oi-caret-bottom"></span></span>-->
-                <!--                </button>-->
+                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-image"></span>
+                </button>
+                <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"
+                        data-target="#ColorPickerModal"><span
+                            class="oi oi-caret-bottom"></span></span>
+                </button>
             </div>
         </div>
 
@@ -549,9 +549,9 @@ require_once 'pages/header.php'; ?>
             var cardvalue = ConvertForWrite(document.getElementById("contents_" + i).innerHTML);
             //   var alignbool = document.getElementsByName("align_radio_" + i)[0].checked;
             var align_value = "center-center";
-            //  var background = document.getElementById("background_" + i).innerText;
+            var background = document.getElementById("background_" + i).innerText;
 
-            square_cards_array.push({align: align_value, content: cardvalue});
+            square_cards_array.push({align: align_value, content: cardvalue, background: background});
 
         }
 
