@@ -392,8 +392,14 @@ require_once 'pages/header.php'; ?>
     }
 
     function setCardBackgroundColor(cardnum, color) {
+        closeColorPickerModal();
         document.getElementById("contents_" + cardnum).style = "background-color : " + color;
         document.getElementById("background_" + cardnum).value = color;
+
+    }
+
+    function closeColorPickerModal() {
+        $('#ColorPickerModal').modal('hide');
     }
 
     function activeCard(cardnum) {
