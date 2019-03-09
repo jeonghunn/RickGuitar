@@ -104,7 +104,7 @@ require_once 'pages/header.php'; ?>
                 <!--                </button>-->
                 <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"
                         data-target="#ColorPickerModal"><span
-                            class="oi oi-image"></span></span>
+                            class="oi oi-image"></span>
                 </button>
             </div>
         </div>
