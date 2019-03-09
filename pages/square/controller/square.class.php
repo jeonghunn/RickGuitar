@@ -75,7 +75,7 @@ class SquareClass
         }
 
         if (startsWith($background, "#")) {
-            $customstyle = $customstyle . "background-color : " . $background;
+            $customstyle = $customstyle . " background-color : " . $background . ";";
         }
 
         $style_result = 'style="' . $customstyle . '" class="' . $class_result . '"';
