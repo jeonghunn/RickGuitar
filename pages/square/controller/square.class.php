@@ -55,7 +55,7 @@ class SquareClass
     }
 
 
-    function getStyle($customstyle, $align)
+    function getStyle($customstyle, $align, $background)
     {
 
         $class_result = "";
@@ -72,6 +72,10 @@ class SquareClass
 
         if ($align == "center-center" || $align == "") {
             $customstyle = $customstyle . " vertical-align: middle;";
+        }
+
+        if (startsWith($background, "#")) {
+            $customstyle = $customstyle . "background-color : " . $background;
         }
 
         $style_result = 'style="' . $customstyle . '" class="' . $class_result . '"';

@@ -17,6 +17,7 @@ function isDevelopmentMode()
     return true;
 }
 
+
 function isDevelopmentServer()
 {
 
@@ -143,6 +144,18 @@ echo '<div class="jumbotron"><h1>'.T('error_'.$msg).'</h1><p>'.T('error_'.$msg.'
     require_once 'core/footer.php';
 
     exit();
+}
+
+function startsWith($haystack, $needle)
+{
+    // search backwards starting from haystack length characters from the end
+    return $needle === "" || strrpos($haystack, $needle, -strlen($haystack)) !== false;
+}
+
+function endsWith($haystack, $needle)
+{
+    // search forward starting from end minus needle length characters
+    return $needle === "" || (($temp = strlen($haystack) - strlen($needle)) >= 0 && strpos($haystack, $needle, $temp) !== false);
 }
 
 function FatalError(){
