@@ -51,7 +51,7 @@ require_once 'pages/header.php'; ?>
             <div class="outer">
                 <div class="tablerow">
                     <div class="squarecard" id="contents_1" contentEditable="true" onclick="activeCard(1)"></div>
-                    <input type="hidden" id="background_1" name="background_1" value=""/>
+                    <input type="hidden" id="background_1" name="background_1" value="">
                 </div>
             </div>
 
