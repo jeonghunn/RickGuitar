@@ -151,11 +151,11 @@ require_once 'pages/header.php'; ?>
                                 selection = document.selection.createRange();
                             }
 
-                            if (selection.length >= 1) {
-                                document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
-                            } else {
-                                document.getElementById("contents_1").innerHTML = document.getElementById("contents_1").innerHTML + "<font color='" + document.getElementById('selected_colo').value + "'></font>";
-                            }
+                            // if (selection.length >= 1) {
+                            //     document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
+                            // } else {
+                            //     document.getElementById("contents_1").innerHTML = document.getElementById("contents_1").innerHTML + "<font color='" + document.getElementById('selected_colo').value + "'></font>";
+                            // }
                         });
                 });
 

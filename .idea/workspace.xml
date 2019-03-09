@@ -43,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="106" column="55" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="55" />
+            <state relative-caret-position="189">
+              <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="157" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
@@ -143,7 +143,6 @@
       <find>fontcontrol</find>
       <find>control</find>
       <find>focus</find>
-      <find>contents_1</find>
       <find>span</find>
       <find>window.getse</find>
       <find>show</find>
@@ -161,6 +160,7 @@
       <find>getStyle</find>
       <find>justify</find>
       <find>setEditorAction</find>
+      <find>contents_1</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -251,11 +251,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="826" />
+    <option name="width" value="720" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -1032,20 +1032,6 @@
       <workItem from="1552077709100" duration="531000" />
       <workItem from="1552078271169" duration="2380000" />
     </task>
-    <task id="LOCAL-01761" summary="bug fix">
-      <created>1552076445057</created>
-      <option name="number" value="01761" />
-      <option name="presentableId" value="LOCAL-01761" />
-      <option name="project" value="LOCAL" />
-      <updated>1552076445057</updated>
-    </task>
-    <task id="LOCAL-01762" summary="bug fix">
-      <created>1552076807011</created>
-      <option name="number" value="01762" />
-      <option name="presentableId" value="LOCAL-01762" />
-      <option name="project" value="LOCAL" />
-      <updated>1552076807012</updated>
-    </task>
     <task id="LOCAL-01763" summary="bug fix">
       <created>1552076895224</created>
       <option name="number" value="01763" />
@@ -1375,11 +1361,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552150375389</updated>
     </task>
-    <option name="localTasksCounter" value="1810" />
+    <task id="LOCAL-01810" summary="bug fix">
+      <created>1552151539989</created>
+      <option name="number" value="01810" />
+      <option name="presentableId" value="LOCAL-01810" />
+      <option name="project" value="LOCAL" />
+      <updated>1552151539990</updated>
+    </task>
+    <task id="LOCAL-01811" summary="bug fix">
+      <created>1552152069777</created>
+      <option name="number" value="01811" />
+      <option name="presentableId" value="LOCAL-01811" />
+      <option name="project" value="LOCAL" />
+      <updated>1552152069777</updated>
+    </task>
+    <option name="localTasksCounter" value="1812" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1276995000" />
+    <option name="totallyTimeSpent" value="1278013000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1391,18 +1391,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="23" width="1440" height="826" extended-state="6" />
+    <frame x="720" y="23" width="720" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
-      <window_info id="Favorites" order="1" sideWeight="0.5019084" side_tool="true" visible="true" weight="0.20100144" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4980916" visible="true" weight="0.20100144" />
+      <window_info id="Favorites" order="1" sideWeight="0.50190115" side_tool="true" weight="0.41445428" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49809885" weight="0.41445428" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24964234" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.39842632" side_tool="true" visible="true" weight="0.28610355" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.39970502" side_tool="true" visible="true" weight="0.2853261" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1415,13 +1415,13 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.6015737" visible="true" weight="0.28610355" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.600295" visible="true" weight="0.2853261" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" weight="0.32469305" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Remote Host" order="1" visible="true" weight="0.18597998" />
+      <window_info anchor="right" id="Remote Host" order="1" weight="0.38348082" />
       <window_info anchor="right" id="IDEtalk" order="2" weight="0.32960597" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -1713,8 +1713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="106" column="55" selection-start-line="106" selection-start-column="55" selection-end-line="106" selection-end-column="55" />
+        <state relative-caret-position="189">
+          <caret line="153" column="23" selection-start-line="153" selection-start-column="23" selection-end-line="157" selection-end-column="32" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
