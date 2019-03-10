@@ -377,7 +377,7 @@ require_once 'pages/header.php'; ?>
     function getTemp() {
 
         if (localStorage.getItem('temp_card_count') != 0 && localStorage.getItem('temp_card_count') != null) {
-            if (confirm("<?php S('write_temp_saved') ?>")) {
+            if (confirm("<?php S('write_temp_open_ask') ?>")) {
                 //add card first
                 var CardCount = localStorage.getItem('temp_card_count');
                 for (var i = 1; i <= CardCount; i++) {
