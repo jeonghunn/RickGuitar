@@ -43,8 +43,8 @@ require_once 'pages/header.php'; ?>
 <!-- html -->
 <div class="container">
 
-    <h1 style="text-align: center;color: <?php getTitleColor() ?>;" class="animated fadeOut delay-2s">네모 안에 생각을
-        담아보세요.</h1>
+    <h1 style="text-align: center;color: <?php getTitleColor() ?>;"
+        class="animated fadeOut delay-2s"><?php S('write_intro') ?></h1>
 
     <br></br>
     <center>
@@ -377,7 +377,7 @@ require_once 'pages/header.php'; ?>
     function getTemp() {
 
         if (localStorage.getItem('temp_card_count') != 0 && localStorage.getItem('temp_card_count') != null) {
-            if (confirm("작성중이던 글이 있습니다. 불러오시겠습니까?")) {
+            if (confirm("<?php S('write_temp_saved') ?>")) {
                 //add card first
                 var CardCount = localStorage.getItem('temp_card_count');
                 for (var i = 1; i <= CardCount; i++) {

@@ -30,6 +30,7 @@ $L['write_choose_color'] = '색 선택';
 $L['write_choose_card_background_color'] = '카드 배경색 선택';
 $L['write_temp_saved'] = '임시 저장되었습니다.';
 $L['write_temp_open_ask'] = '작성중이던 글이 있습니다. 불러오시겠습니까?';
+$L['write_intro'] = '네모 안에 생각을 담아보세요.';
 
 //info
 $L['show_all_contributors'] = '모든 기여자 목록 보기';
