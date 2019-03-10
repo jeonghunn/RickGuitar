@@ -296,11 +296,12 @@ require_once 'pages/header.php'; ?>
     setInterval(function () {
             if (checkWrote()) {
                 var editables = document.querySelectorAll('.squarecard');
+                var editables_background = document.querySelectorAll('.square_background');
                 localStorage.setItem('temp_card_count', editables.length);
                 document.getElementById("status_message").innerHTML = "<?php S('write_temp_saved') ?> " + new Date().toLocaleString();
                 for (var i = 0; i < editables.length; i++) {
                     localStorage.setItem(editables[i].getAttribute('id'), editables[i].innerHTML);
-                    //   localStorage.setItem(editables[i].getAttribute('background'), editables[i].innerHTML);
+                    localStorage.setItem(editables_background[i].getAttribute('id'), editables_background[i].value);
 
                 }
 
@@ -382,6 +383,7 @@ require_once 'pages/header.php'; ?>
                 for (var i = 1; i <= CardCount; i++) {
                     if (i != 1) addCard();
                     document.getElementById("contents_" + i).innerHTML = localStorage.getItem("contents_" + i);
+                    document.getElementById("background_" + i).value = localStorage.getItem("background_" + i);
                 }
 
 
@@ -439,7 +441,7 @@ require_once 'pages/header.php'; ?>
     function addCard() {
 
         cardcount = cardcount + 1;
-        var cardadd = '<div class="outer" id="card_' + cardcount + '"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div>   <input type="hidden" id="background_' + cardcount + '" name="background_' + cardcount + '" value=""/></div><div><br>';
+        var cardadd = '<div class="outer" id="card_' + cardcount + '"> <div class="tablerow"><div class="squarecard  animated fadeInUp" id="contents_' + cardcount + '" onclick="activeCard(' + cardcount + ')" contentEditable="true"></div>   <input type="hidden" class="square_background" id="background_' + cardcount + '" name="background_' + cardcount + '" value=""/></div><div><br>';
         var editor = '<div id="edit_' + cardcount + '">\n' +
             '        <br>\n' +
             '        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"\n' +
