@@ -383,7 +383,7 @@ require_once 'pages/header.php'; ?>
                 for (var i = 1; i <= CardCount; i++) {
                     if (i != 1) addCard();
                     document.getElementById("contents_" + i).innerHTML = localStorage.getItem("contents_" + i);
-                    setCardStyle(i, localStorage.getItem("background_" + i));
+                    setCardStyle(i, null, localStorage.getItem("background_" + i));
                 }
 
 
