@@ -383,7 +383,7 @@ require_once 'pages/header.php'; ?>
                 for (var i = 1; i <= CardCount; i++) {
                     if (i != 1) addCard();
                     document.getElementById("contents_" + i).innerHTML = localStorage.getItem("contents_" + i);
-                    document.getElementById("background_" + i).value = localStorage.getItem("background_" + i);
+                    setCardStyle(i, localStorage.getItem("background_" + i));
                 }
 
 
@@ -403,6 +403,14 @@ require_once 'pages/header.php'; ?>
 
     function closeColorPickerModal() {
         $('#ColorPickerModal').modal('hide');
+    }
+
+    function setCardStyle(num, style, background) {
+
+        if (backgroud.startsWith("#")) {
+            document.getElementById("contents_" + cardnum).style = "background-color : " + color;
+            document.getElementById("background_" + cardnum).value = color;
+        }
     }
 
     function activeCard(cardnum) {
