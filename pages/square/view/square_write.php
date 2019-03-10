@@ -408,8 +408,8 @@ require_once 'pages/header.php'; ?>
     function setCardStyle(num, style, background) {
 
         if (backgroud.startsWith("#")) {
-            document.getElementById("contents_" + cardnum).style = "background-color : " + color;
-            document.getElementById("background_" + cardnum).value = color;
+            document.getElementById("contents_" + num).style = "background-color : " + background;
+            document.getElementById("background_" + num).value = background;
         }
     }
 
