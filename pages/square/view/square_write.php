@@ -51,7 +51,7 @@ require_once 'pages/header.php'; ?>
             <div class="outer">
                 <div class="tablerow">
                     <div class="squarecard" id="contents_1" contentEditable="true" onclick="activeCard(1)"></div>
-                    <input type="hidden" id="background_1" name="background_1" value="">
+                    <input type="hidden" class="square_background" id="background_1" name="background_1" value="">
                 </div>
             </div>
 
@@ -300,6 +300,7 @@ require_once 'pages/header.php'; ?>
                 document.getElementById("status_message").innerHTML = "<?php S('write_temp_saved') ?> " + new Date().toLocaleString();
                 for (var i = 0; i < editables.length; i++) {
                     localStorage.setItem(editables[i].getAttribute('id'), editables[i].innerHTML);
+                    //   localStorage.setItem(editables[i].getAttribute('background'), editables[i].innerHTML);
 
                 }
 
