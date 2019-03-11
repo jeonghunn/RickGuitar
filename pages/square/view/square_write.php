@@ -110,6 +110,119 @@ require_once 'pages/header.php'; ?>
         </div>
 
 
+            <tbody>
+            <tr>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="진한 청록색"
+                       onclick="CKEDITOR.tools.callFunction(129,'#1ABC9C','fore'); return false;"
+                       href="javascript:void('진한 청록색')" data-value="1ABC9C" role="option" aria-posinset="2"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#1ABC9C"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="에메랄드"
+                       onclick="CKEDITOR.tools.callFunction(129,'#2ECC71','fore'); return false;"
+                       href="javascript:void('에메랄드')" data-value="2ECC71" role="option" aria-posinset="3"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#2ECC71"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="밝은 파랑"
+                       onclick="CKEDITOR.tools.callFunction(129,'#3498DB','fore'); return false;"
+                       href="javascript:void('밝은 파랑')" data-value="3498DB" role="option" aria-posinset="4"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#3498DB"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="자수정"
+                       onclick="CKEDITOR.tools.callFunction(129,'#9B59B6','fore'); return false;"
+                       href="javascript:void('자수정')" data-value="9B59B6" role="option" aria-posinset="5"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#9B59B6"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="회청색"
+                       onclick="CKEDITOR.tools.callFunction(129,'#4E5F70','fore'); return false;"
+                       href="javascript:void('회청색')" data-value="4E5F70" role="option" aria-posinset="6"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#4E5F70"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="선명한 노랑"
+                       onclick="CKEDITOR.tools.callFunction(129,'#F1C40F','fore'); return false;"
+                       href="javascript:void('선명한 노랑')" data-value="F1C40F" role="option" aria-posinset="7"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#F1C40F"></span></a></td>
+            </tr>
+            <tr>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="다크 시안"
+                       onclick="CKEDITOR.tools.callFunction(129,'#16A085','fore'); return false;"
+                       href="javascript:void('다크 시안')" data-value="16A085" role="option" aria-posinset="8"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#16A085"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="다크 에메랄드"
+                       onclick="CKEDITOR.tools.callFunction(129,'#27AE60','fore'); return false;"
+                       href="javascript:void('다크 에메랄드')" data-value="27AE60" role="option" aria-posinset="9"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#27AE60"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="진한 파랑"
+                       onclick="CKEDITOR.tools.callFunction(129,'#2980B9','fore'); return false;"
+                       href="javascript:void('진한 파랑')" data-value="2980B9" role="option" aria-posinset="10"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#2980B9"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="다크 바이올렛"
+                       onclick="CKEDITOR.tools.callFunction(129,'#8E44AD','fore'); return false;"
+                       href="javascript:void('다크 바이올렛')" data-value="8E44AD" role="option" aria-posinset="11"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#8E44AD"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="탁한 파랑"
+                       onclick="CKEDITOR.tools.callFunction(129,'#2C3E50','fore'); return false;"
+                       href="javascript:void('탁한 파랑')" data-value="2C3E50" role="option" aria-posinset="12"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#2C3E50"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="주황"
+                       onclick="CKEDITOR.tools.callFunction(129,'#F39C12','fore'); return false;"
+                       href="javascript:void('주황')" data-value="F39C12" role="option" aria-posinset="13"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#F39C12"></span></a></td>
+            </tr>
+            <tr>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="당근"
+                       onclick="CKEDITOR.tools.callFunction(129,'#E67E22','fore'); return false;"
+                       href="javascript:void('당근')" data-value="E67E22" role="option" aria-posinset="14"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#E67E22"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="창백한 빨강"
+                       onclick="CKEDITOR.tools.callFunction(129,'#E74C3C','fore'); return false;"
+                       href="javascript:void('창백한 빨강')" data-value="E74C3C" role="option" aria-posinset="15"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#E74C3C"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="밝은 은색"
+                       onclick="CKEDITOR.tools.callFunction(129,'#ECF0F1','fore'); return false;"
+                       href="javascript:void('밝은 은색')" data-value="ECF0F1" role="option" aria-posinset="16"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#ECF0F1"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="밝은 회청록"
+                       onclick="CKEDITOR.tools.callFunction(129,'#95A5A6','fore'); return false;"
+                       href="javascript:void('밝은 회청록')" data-value="95A5A6" role="option" aria-posinset="17"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#95A5A6"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="밝은 회색"
+                       onclick="CKEDITOR.tools.callFunction(129,'#DDDDDD','fore'); return false;"
+                       href="javascript:void('밝은 회색')" data-value="DDD" role="option" aria-posinset="18"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#DDD"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="흰색"
+                       onclick="CKEDITOR.tools.callFunction(129,'#FFFFFF','fore'); return false;"
+                       href="javascript:void('흰색')" data-value="FFF" role="option" aria-posinset="19" aria-setsize="26"><span
+                                class="cke_colorbox" style="background-color:#FFF"></span></a></td>
+            </tr>
+            <tr>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="호박"
+                       onclick="CKEDITOR.tools.callFunction(129,'#D35400','fore'); return false;"
+                       href="javascript:void('호박')" data-value="D35400" role="option" aria-posinset="20"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#D35400"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="진한 빨강"
+                       onclick="CKEDITOR.tools.callFunction(129,'#C0392B','fore'); return false;"
+                       href="javascript:void('진한 빨강')" data-value="C0392B" role="option" aria-posinset="21"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#C0392B"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="은색"
+                       onclick="CKEDITOR.tools.callFunction(129,'#BDC3C7','fore'); return false;"
+                       href="javascript:void('은색')" data-value="BDC3C7" role="option" aria-posinset="22"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#BDC3C7"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="회청록"
+                       onclick="CKEDITOR.tools.callFunction(129,'#7F8C8D','fore'); return false;"
+                       href="javascript:void('회청록')" data-value="7F8C8D" role="option" aria-posinset="23"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#7F8C8D"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="암회색"
+                       onclick="CKEDITOR.tools.callFunction(129,'#999999','fore'); return false;"
+                       href="javascript:void('암회색')" data-value="999" role="option" aria-posinset="24"
+                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#999"></span></a></td>
+                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="검정"
+                       onclick="CKEDITOR.tools.callFunction(129,'#000000','fore'); return false;"
+                       href="javascript:void('검정')" data-value="000" role="option" aria-posinset="25" aria-setsize="26"><span
+                                class="cke_colorbox" style="background-color:#000"></span></a></td>
+            </tr>
+            <tr>
+                <td colspan="6" align="center"><a class="cke_colormore" _cke_focus="1" hidefocus="true" title="색상 선택..."
+                                                  onclick="CKEDITOR.tools.callFunction(129,'?','fore');return false;"
+                                                  href="javascript:void('색상 선택...')" role="option" aria-posinset="26"
+                                                  aria-setsize="26">색상 선택...</a></td>
+            </tr>
+            </tbody>
+
             <!--     Size, Font       -->
 
             <div id="colorpicker" data-color="#6D2781" tabindex="-1" class=collapse">
