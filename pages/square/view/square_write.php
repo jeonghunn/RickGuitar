@@ -42,7 +42,7 @@ require_once 'pages/header.php'; ?>
     .cke_colorbox {
         width: 20px;
         height: 20px;
-        border: #808080 1px solid;
+
     }
 </style>
 
