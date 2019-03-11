@@ -259,7 +259,8 @@ require_once 'pages/header.php'; ?>
                 </script>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal"><?php S('close') ?></button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                        tabindex="-1"><?php S('close') ?></button>
                 <button type="button" class="btn btn-primary"
                         onclick="setCardBackgroundColor(active_card ,document.getElementById('selected_color').value)"><?php S('select') ?></button>
             </div>
