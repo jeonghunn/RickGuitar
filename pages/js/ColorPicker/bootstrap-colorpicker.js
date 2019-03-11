@@ -4143,7 +4143,7 @@
 
                         // Set the new color
                         cp.setValue(color);
-                        cp.popupHandler.focus();
+                        //   cp.popupHandler.focus();
                     }
 
                     /**

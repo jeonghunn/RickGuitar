@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="translation has been improved">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,19 +23,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/base.php">
+        <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="390">
+              <caret line="262" column="37" selection-start-line="262" selection-start-column="37" selection-end-line="262" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+        <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="261" column="98" selection-start-line="261" selection-start-column="98" selection-end-line="261" selection-end-column="98" />
+            <state relative-caret-position="176">
+              <caret line="4145" column="23" selection-start-line="4145" selection-start-column="23" selection-end-line="4145" selection-end-column="23" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -175,7 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/infodetail.php" />
         <option value="$PROJECT_DIR$/pages/login.php" />
         <option value="$PROJECT_DIR$/modules/square/api/board.api.class.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/documents.class.php" />
@@ -226,6 +228,7 @@
         <option value="$PROJECT_DIR$/pages/lang/ko.php" />
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
+        <option value="$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js" />
       </list>
     </option>
   </component>
@@ -244,8 +247,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="146" />
-    <option name="y" value="23" />
+    <option name="x" value="2044" />
+    <option name="y" value="98" />
     <option name="width" value="1920" />
     <option name="height" value="1002" />
   </component>
@@ -271,6 +274,19 @@
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="ColorPicker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
@@ -342,7 +358,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552316534739" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552316707177" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -985,14 +1001,7 @@
       <workItem from="1552077709100" duration="531000" />
       <workItem from="1552078271169" duration="2380000" />
       <workItem from="1552224034795" duration="9156000" />
-      <workItem from="1552315374339" duration="873000" />
-    </task>
-    <task id="LOCAL-01773" summary="test">
-      <created>1552078375105</created>
-      <option name="number" value="01773" />
-      <option name="presentableId" value="LOCAL-01773" />
-      <option name="project" value="LOCAL" />
-      <updated>1552078375106</updated>
+      <workItem from="1552315374339" duration="1043000" />
     </task>
     <task id="LOCAL-01774" summary="test">
       <created>1552078430615</created>
@@ -1330,11 +1339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552316055690</updated>
     </task>
-    <option name="localTasksCounter" value="1822" />
+    <task id="LOCAL-01822" summary="test">
+      <created>1552316546795</created>
+      <option name="number" value="01822" />
+      <option name="presentableId" value="LOCAL-01822" />
+      <option name="project" value="LOCAL" />
+      <updated>1552316546795</updated>
+    </task>
+    <option name="localTasksCounter" value="1823" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1288042000" />
+    <option name="totallyTimeSpent" value="1288212000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1346,7 +1362,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="146" y="23" width="1920" height="1002" extended-state="0" />
+    <frame x="2044" y="98" width="1920" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
@@ -1453,7 +1469,6 @@
     <MESSAGE value="selectedcolor" />
     <MESSAGE value="colorpickertest" />
     <MESSAGE value="focustest" />
-    <MESSAGE value="test" />
     <MESSAGE value="update" />
     <MESSAGE value="card background" />
     <MESSAGE value="setCardBackgroundColor closeColorPickerModal" />
@@ -1468,7 +1483,8 @@
     <MESSAGE value="setCardStyle" />
     <MESSAGE value="setCardStyle bug fix" />
     <MESSAGE value="translation has been improved" />
-    <option name="LAST_COMMIT_MESSAGE" value="translation has been improved" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1675,8 +1691,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="261" column="98" selection-start-line="261" selection-start-column="98" selection-end-line="261" selection-end-column="98" />
+        <state relative-caret-position="390">
+          <caret line="262" column="37" selection-start-line="262" selection-start-column="37" selection-end-line="262" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="4145" column="23" selection-start-line="4145" selection-start-column="23" selection-end-line="4145" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
