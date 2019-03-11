@@ -4463,7 +4463,7 @@
                             });
 
                             this.addon.on({
-                                'focus.colorpicker': _jquery2.default.proxy(this.show, this)
+                                //  'focus.colorpicker': _jquery2.default.proxy(this.show, this)
                             });
 
                             this.addon.on({
@@ -4475,7 +4475,7 @@
                         if (this.hasInput && !this.hasAddon) {
                             this.input.on({
                                 'mousedown.colorpicker touchstart.colorpicker': _jquery2.default.proxy(this.show, this),
-                                'focus.colorpicker': _jquery2.default.proxy(this.show, this)
+                                //  'focus.colorpicker': _jquery2.default.proxy(this.show, this)
                             });
 
                             this.input.on({
@@ -4497,7 +4497,7 @@
                         if (this.hasInput) {
                             this.input.off({
                                 'mousedown.colorpicker touchstart.colorpicker': _jquery2.default.proxy(this.show, this),
-                                'focus.colorpicker': _jquery2.default.proxy(this.show, this)
+                                //   'focus.colorpicker': _jquery2.default.proxy(this.show, this)
                             });
                             this.input.off({
                                 'focusout.colorpicker': _jquery2.default.proxy(this.hide, this)
@@ -4509,7 +4509,7 @@
                                 'mousedown.colorpicker touchstart.colorpicker': _jquery2.default.proxy(this.toggle, this)
                             });
                             this.addon.off({
-                                'focus.colorpicker': _jquery2.default.proxy(this.show, this)
+                                //      'focus.colorpicker': _jquery2.default.proxy(this.show, this)
                             });
                             this.addon.off({
                                 'focusout.colorpicker': _jquery2.default.proxy(this.hide, this)
@@ -4733,10 +4733,10 @@
                     key: 'focus',
                     value: function focus() {
                         if (this.hasAddon) {
-                            return this.addon.focus();
+                            //      return this.addon.focus();
                         }
                         if (this.hasInput) {
-                            return this.input.focus();
+                            //  return this.input.focus();
                         }
                         return false;
                     }
