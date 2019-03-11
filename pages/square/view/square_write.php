@@ -38,12 +38,6 @@ require_once 'pages/header.php'; ?>
         border-radius: 10px;
         margin: -5px 0 0 -5px;
     }
-
-    .cke_colorbox {
-        width: 20px;
-        height: 20px;
-
-    }
 </style>
 
 <!-- html -->
@@ -115,123 +109,185 @@ require_once 'pages/header.php'; ?>
             </div>
         </div>
 
-            <br>
-            <tbody>
-            <tr>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="진한 청록색"
-                       onclick="CKEDITOR.tools.callFunction(129,'#1ABC9C','fore'); return false;"
-                       href="javascript:void('진한 청록색')" data-value="1ABC9C" role="option" aria-posinset="2"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#1ABC9C"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="에메랄드"
-                       onclick="CKEDITOR.tools.callFunction(129,'#2ECC71','fore'); return false;"
-                       href="javascript:void('에메랄드')" data-value="2ECC71" role="option" aria-posinset="3"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#2ECC71"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="밝은 파랑"
-                       onclick="CKEDITOR.tools.callFunction(129,'#3498DB','fore'); return false;"
-                       href="javascript:void('밝은 파랑')" data-value="3498DB" role="option" aria-posinset="4"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#3498DB"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="자수정"
-                       onclick="CKEDITOR.tools.callFunction(129,'#9B59B6','fore'); return false;"
-                       href="javascript:void('자수정')" data-value="9B59B6" role="option" aria-posinset="5"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#9B59B6"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="회청색"
-                       onclick="CKEDITOR.tools.callFunction(129,'#4E5F70','fore'); return false;"
-                       href="javascript:void('회청색')" data-value="4E5F70" role="option" aria-posinset="6"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#4E5F70"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="선명한 노랑"
-                       onclick="CKEDITOR.tools.callFunction(129,'#F1C40F','fore'); return false;"
-                       href="javascript:void('선명한 노랑')" data-value="F1C40F" role="option" aria-posinset="7"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#F1C40F"></span></a></td>
-            </tr>
-            <tr>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="다크 시안"
-                       onclick="CKEDITOR.tools.callFunction(129,'#16A085','fore'); return false;"
-                       href="javascript:void('다크 시안')" data-value="16A085" role="option" aria-posinset="8"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#16A085"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="다크 에메랄드"
-                       onclick="CKEDITOR.tools.callFunction(129,'#27AE60','fore'); return false;"
-                       href="javascript:void('다크 에메랄드')" data-value="27AE60" role="option" aria-posinset="9"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#27AE60"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="진한 파랑"
-                       onclick="CKEDITOR.tools.callFunction(129,'#2980B9','fore'); return false;"
-                       href="javascript:void('진한 파랑')" data-value="2980B9" role="option" aria-posinset="10"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#2980B9"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="다크 바이올렛"
-                       onclick="CKEDITOR.tools.callFunction(129,'#8E44AD','fore'); return false;"
-                       href="javascript:void('다크 바이올렛')" data-value="8E44AD" role="option" aria-posinset="11"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#8E44AD"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="탁한 파랑"
-                       onclick="CKEDITOR.tools.callFunction(129,'#2C3E50','fore'); return false;"
-                       href="javascript:void('탁한 파랑')" data-value="2C3E50" role="option" aria-posinset="12"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#2C3E50"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="주황"
-                       onclick="CKEDITOR.tools.callFunction(129,'#F39C12','fore'); return false;"
-                       href="javascript:void('주황')" data-value="F39C12" role="option" aria-posinset="13"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#F39C12"></span></a></td>
-            </tr>
-            <tr>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="당근"
-                       onclick="CKEDITOR.tools.callFunction(129,'#E67E22','fore'); return false;"
-                       href="javascript:void('당근')" data-value="E67E22" role="option" aria-posinset="14"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#E67E22"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="창백한 빨강"
-                       onclick="CKEDITOR.tools.callFunction(129,'#E74C3C','fore'); return false;"
-                       href="javascript:void('창백한 빨강')" data-value="E74C3C" role="option" aria-posinset="15"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#E74C3C"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="밝은 은색"
-                       onclick="CKEDITOR.tools.callFunction(129,'#ECF0F1','fore'); return false;"
-                       href="javascript:void('밝은 은색')" data-value="ECF0F1" role="option" aria-posinset="16"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#ECF0F1"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="밝은 회청록"
-                       onclick="CKEDITOR.tools.callFunction(129,'#95A5A6','fore'); return false;"
-                       href="javascript:void('밝은 회청록')" data-value="95A5A6" role="option" aria-posinset="17"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#95A5A6"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="밝은 회색"
-                       onclick="CKEDITOR.tools.callFunction(129,'#DDDDDD','fore'); return false;"
-                       href="javascript:void('밝은 회색')" data-value="DDD" role="option" aria-posinset="18"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#DDD"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="흰색"
-                       onclick="CKEDITOR.tools.callFunction(129,'#FFFFFF','fore'); return false;"
-                       href="javascript:void('흰색')" data-value="FFF" role="option" aria-posinset="19" aria-setsize="26"><span
-                                class="cke_colorbox" style="background-color:#FFF"></span></a></td>
-            </tr>
-            <tr>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="호박"
-                       onclick="CKEDITOR.tools.callFunction(129,'#D35400','fore'); return false;"
-                       href="javascript:void('호박')" data-value="D35400" role="option" aria-posinset="20"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#D35400"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="진한 빨강"
-                       onclick="CKEDITOR.tools.callFunction(129,'#C0392B','fore'); return false;"
-                       href="javascript:void('진한 빨강')" data-value="C0392B" role="option" aria-posinset="21"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#C0392B"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="은색"
-                       onclick="CKEDITOR.tools.callFunction(129,'#BDC3C7','fore'); return false;"
-                       href="javascript:void('은색')" data-value="BDC3C7" role="option" aria-posinset="22"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#BDC3C7"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="회청록"
-                       onclick="CKEDITOR.tools.callFunction(129,'#7F8C8D','fore'); return false;"
-                       href="javascript:void('회청록')" data-value="7F8C8D" role="option" aria-posinset="23"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#7F8C8D"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="암회색"
-                       onclick="CKEDITOR.tools.callFunction(129,'#999999','fore'); return false;"
-                       href="javascript:void('암회색')" data-value="999" role="option" aria-posinset="24"
-                       aria-setsize="26"><span class="cke_colorbox" style="background-color:#999"></span></a></td>
-                <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="검정"
-                       onclick="CKEDITOR.tools.callFunction(129,'#000000','fore'); return false;"
-                       href="javascript:void('검정')" data-value="000" role="option" aria-posinset="25" aria-setsize="26"><span
-                                class="cke_colorbox" style="background-color:#000"></span></a></td>
-            </tr>
-            <tr>
-                <td colspan="6" align="center"><a class="cke_colormore" _cke_focus="1" hidefocus="true" title="색상 선택..."
-                                                  onclick="CKEDITOR.tools.callFunction(129,'?','fore');return false;"
-                                                  href="javascript:void('색상 선택...')" role="option" aria-posinset="26"
-                                                  aria-setsize="26">색상 선택...</a></td>
-            </tr>
-            </tbody>
 
+            <table class="mce-grid mce-grid-border mce-colorbutton-grid" role="list" cellspacing="0">
+                <tbody>
+                <tr>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-0" data-mce-color="#000000" role="option" tabindex="-1"
+                             style="background-color: #000000" title="Black"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-1" data-mce-color="#993300" role="option" tabindex="-1"
+                             style="background-color: #993300" title="Burnt orange"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-2" data-mce-color="#333300" role="option" tabindex="-1"
+                             style="background-color: #333300" title="Dark olive"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-3" data-mce-color="#003300" role="option" tabindex="-1"
+                             style="background-color: #003300" title="Dark green"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-4" data-mce-color="#003366" role="option" tabindex="-1"
+                             style="background-color: #003366" title="Dark azure"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-5" data-mce-color="#000080" role="option" tabindex="-1"
+                             style="background-color: #000080" title="Navy Blue"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-6" data-mce-color="#333399" role="option" tabindex="-1"
+                             style="background-color: #333399" title="Indigo"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-7" data-mce-color="#333333" role="option" tabindex="-1"
+                             style="background-color: #333333" title="Very dark gray"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-8" data-mce-color="#800000" role="option" tabindex="-1"
+                             style="background-color: #800000" title="Maroon"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-9" data-mce-color="#FF6600" role="option" tabindex="-1"
+                             style="background-color: #FF6600" title="Orange"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-10" data-mce-color="#808000" role="option" tabindex="-1"
+                             style="background-color: #808000" title="Olive"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-11" data-mce-color="#008000" role="option" tabindex="-1"
+                             style="background-color: #008000" title="Green"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-12" data-mce-color="#008080" role="option" tabindex="-1"
+                             style="background-color: #008080" title="Teal"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-13" data-mce-color="#0000FF" role="option" tabindex="-1"
+                             style="background-color: #0000FF" title="Blue"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-14" data-mce-color="#666699" role="option" tabindex="-1"
+                             style="background-color: #666699" title="Grayish blue"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-15" data-mce-color="#808080" role="option" tabindex="-1"
+                             style="background-color: #808080" title="Gray"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-16" data-mce-color="#FF0000" role="option" tabindex="-1"
+                             style="background-color: #FF0000" title="Red"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-17" data-mce-color="#FF9900" role="option" tabindex="-1"
+                             style="background-color: #FF9900" title="Amber"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-18" data-mce-color="#99CC00" role="option" tabindex="-1"
+                             style="background-color: #99CC00" title="Yellow green"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-19" data-mce-color="#339966" role="option" tabindex="-1"
+                             style="background-color: #339966" title="Sea green"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-20" data-mce-color="#33CCCC" role="option" tabindex="-1"
+                             style="background-color: #33CCCC" title="Turquoise" aria-selected="true"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-21" data-mce-color="#3366FF" role="option" tabindex="-1"
+                             style="background-color: #3366FF" title="Royal blue"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-22" data-mce-color="#800080" role="option" tabindex="-1"
+                             style="background-color: #800080" title="Purple"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-23" data-mce-color="#999999" role="option" tabindex="-1"
+                             style="background-color: #999999" title="Medium gray"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-24" data-mce-color="#FF00FF" role="option" tabindex="-1"
+                             style="background-color: #FF00FF" title="Magenta"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-25" data-mce-color="#FFCC00" role="option" tabindex="-1"
+                             style="background-color: #FFCC00" title="Gold"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-26" data-mce-color="#FFFF00" role="option" tabindex="-1"
+                             style="background-color: #FFFF00" title="Yellow"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-27" data-mce-color="#00FF00" role="option" tabindex="-1"
+                             style="background-color: #00FF00" title="Lime"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-28" data-mce-color="#00FFFF" role="option" tabindex="-1"
+                             style="background-color: #00FFFF" title="Aqua"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-29" data-mce-color="#00CCFF" role="option" tabindex="-1"
+                             style="background-color: #00CCFF" title="Sky blue"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-30" data-mce-color="#993366" role="option" tabindex="-1"
+                             style="background-color: #993366" title="Red violet"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-31" data-mce-color="#FFFFFF" role="option" tabindex="-1"
+                             style="background-color: #FFFFFF" title="White"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-32" data-mce-color="#FF99CC" role="option" tabindex="-1"
+                             style="background-color: #FF99CC" title="Pink"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-33" data-mce-color="#FFCC99" role="option" tabindex="-1"
+                             style="background-color: #FFCC99" title="Peach"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-34" data-mce-color="#FFFF99" role="option" tabindex="-1"
+                             style="background-color: #FFFF99" title="Light yellow"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-35" data-mce-color="#CCFFCC" role="option" tabindex="-1"
+                             style="background-color: #CCFFCC" title="Pale green"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-36" data-mce-color="#CCFFFF" role="option" tabindex="-1"
+                             style="background-color: #CCFFFF" title="Pale cyan"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-37" data-mce-color="#99CCFF" role="option" tabindex="-1"
+                             style="background-color: #99CCFF" title="Light sky blue"></div>
+                    </td>
+                    <td class="mce-grid-cell">
+                        <div id="mceu_52-38" data-mce-color="#CC99FF" role="option" tabindex="-1"
+                             style="background-color: #CC99FF" title="Plum"></div>
+                    </td>
+                    <td class="mce-grid-cell mce-colorbtn-trans">
+                        <div id="mceu_52-39" data-mce-color="transparent" role="option" tabindex="-1"
+                             style="background-color: transparent" title="No color">×
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
             <!--     Size, Font       -->
 
-            <div id="colorpicker" data-color="#6D2781" tabindex="-1" class="collapse">
+            <div id="colorpicker" data-color="#6D2781" tabindex="-1" class=collapse">
                 <input type="text" id="selected_colo" class="form-control" tabindex="-1" style="width:auto"/> <br>
 
             </div>
