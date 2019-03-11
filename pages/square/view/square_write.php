@@ -40,8 +40,8 @@ require_once 'pages/header.php'; ?>
     }
 
     .cke_colorbox {
-        width: 10px;
-        height: 10px;
+        width: 20px;
+        height: 20px;
         border: #808080 1px solid;
     }
 </style>
