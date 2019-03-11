@@ -115,7 +115,7 @@ require_once 'pages/header.php'; ?>
             </div>
         </div>
 
-
+            <br>
             <tbody>
             <tr>
                 <td><a class="cke_colorbox" _cke_focus="1" hidefocus="true" title="진한 청록색"
