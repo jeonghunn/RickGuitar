@@ -109,182 +109,100 @@ require_once 'pages/header.php'; ?>
             </div>
         </div>
 
-
-            <table class="mce-grid mce-grid-border mce-colorbutton-grid" role="list" cellspacing="0">
-                <tbody>
-                <tr>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-0" data-mce-color="#000000" role="option" tabindex="-1"
-                             style="background-color: #000000" title="Black"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-1" data-mce-color="#993300" role="option" tabindex="-1"
-                             style="background-color: #993300" title="Burnt orange"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-2" data-mce-color="#333300" role="option" tabindex="-1"
-                             style="background-color: #333300" title="Dark olive"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-3" data-mce-color="#003300" role="option" tabindex="-1"
-                             style="background-color: #003300" title="Dark green"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-4" data-mce-color="#003366" role="option" tabindex="-1"
-                             style="background-color: #003366" title="Dark azure"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-5" data-mce-color="#000080" role="option" tabindex="-1"
-                             style="background-color: #000080" title="Navy Blue"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-6" data-mce-color="#333399" role="option" tabindex="-1"
-                             style="background-color: #333399" title="Indigo"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-7" data-mce-color="#333333" role="option" tabindex="-1"
-                             style="background-color: #333333" title="Very dark gray"></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-8" data-mce-color="#800000" role="option" tabindex="-1"
-                             style="background-color: #800000" title="Maroon"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-9" data-mce-color="#FF6600" role="option" tabindex="-1"
-                             style="background-color: #FF6600" title="Orange"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-10" data-mce-color="#808000" role="option" tabindex="-1"
-                             style="background-color: #808000" title="Olive"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-11" data-mce-color="#008000" role="option" tabindex="-1"
-                             style="background-color: #008000" title="Green"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-12" data-mce-color="#008080" role="option" tabindex="-1"
-                             style="background-color: #008080" title="Teal"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-13" data-mce-color="#0000FF" role="option" tabindex="-1"
-                             style="background-color: #0000FF" title="Blue"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-14" data-mce-color="#666699" role="option" tabindex="-1"
-                             style="background-color: #666699" title="Grayish blue"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-15" data-mce-color="#808080" role="option" tabindex="-1"
-                             style="background-color: #808080" title="Gray"></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-16" data-mce-color="#FF0000" role="option" tabindex="-1"
-                             style="background-color: #FF0000" title="Red"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-17" data-mce-color="#FF9900" role="option" tabindex="-1"
-                             style="background-color: #FF9900" title="Amber"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-18" data-mce-color="#99CC00" role="option" tabindex="-1"
-                             style="background-color: #99CC00" title="Yellow green"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-19" data-mce-color="#339966" role="option" tabindex="-1"
-                             style="background-color: #339966" title="Sea green"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-20" data-mce-color="#33CCCC" role="option" tabindex="-1"
-                             style="background-color: #33CCCC" title="Turquoise" aria-selected="true"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-21" data-mce-color="#3366FF" role="option" tabindex="-1"
-                             style="background-color: #3366FF" title="Royal blue"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-22" data-mce-color="#800080" role="option" tabindex="-1"
-                             style="background-color: #800080" title="Purple"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-23" data-mce-color="#999999" role="option" tabindex="-1"
-                             style="background-color: #999999" title="Medium gray"></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-24" data-mce-color="#FF00FF" role="option" tabindex="-1"
-                             style="background-color: #FF00FF" title="Magenta"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-25" data-mce-color="#FFCC00" role="option" tabindex="-1"
-                             style="background-color: #FFCC00" title="Gold"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-26" data-mce-color="#FFFF00" role="option" tabindex="-1"
-                             style="background-color: #FFFF00" title="Yellow"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-27" data-mce-color="#00FF00" role="option" tabindex="-1"
-                             style="background-color: #00FF00" title="Lime"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-28" data-mce-color="#00FFFF" role="option" tabindex="-1"
-                             style="background-color: #00FFFF" title="Aqua"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-29" data-mce-color="#00CCFF" role="option" tabindex="-1"
-                             style="background-color: #00CCFF" title="Sky blue"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-30" data-mce-color="#993366" role="option" tabindex="-1"
-                             style="background-color: #993366" title="Red violet"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-31" data-mce-color="#FFFFFF" role="option" tabindex="-1"
-                             style="background-color: #FFFFFF" title="White"></div>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-32" data-mce-color="#FF99CC" role="option" tabindex="-1"
-                             style="background-color: #FF99CC" title="Pink"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-33" data-mce-color="#FFCC99" role="option" tabindex="-1"
-                             style="background-color: #FFCC99" title="Peach"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-34" data-mce-color="#FFFF99" role="option" tabindex="-1"
-                             style="background-color: #FFFF99" title="Light yellow"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-35" data-mce-color="#CCFFCC" role="option" tabindex="-1"
-                             style="background-color: #CCFFCC" title="Pale green"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-36" data-mce-color="#CCFFFF" role="option" tabindex="-1"
-                             style="background-color: #CCFFFF" title="Pale cyan"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-37" data-mce-color="#99CCFF" role="option" tabindex="-1"
-                             style="background-color: #99CCFF" title="Light sky blue"></div>
-                    </td>
-                    <td class="mce-grid-cell">
-                        <div id="mceu_52-38" data-mce-color="#CC99FF" role="option" tabindex="-1"
-                             style="background-color: #CC99FF" title="Plum"></div>
-                    </td>
-                    <td class="mce-grid-cell mce-colorbtn-trans">
-                        <div id="mceu_52-39" data-mce-color="transparent" role="option" tabindex="-1"
-                             style="background-color: transparent" title="No color">×
+            <div role="menu" class="tox-menu tox-selected-menu"
+                 style="max-height: 700px; overflow-x: hidden; overflow-y: auto;">
+                <div class="tox-swatches">
+                    <div class="tox-swatches__row">
+                        <div style="background-color: #18BC9B" data-mce-color="#18BC9B" title="Turquoise"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #2FCC71" data-mce-color="#2FCC71" title="Green"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #3598DB" data-mce-color="#3598DB" title="Blue"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #9B59B6" data-mce-color="#9B59B6" title="Purple"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #34495E" data-mce-color="#34495E" title="Navy Blue"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                    </div>
+                    <div class="tox-swatches__row">
+                        <div style="background-color: #18A085" data-mce-color="#18A085" title="Dark Turquoise"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #27AE60" data-mce-color="#27AE60" title="Dark Green"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #2880B9" data-mce-color="#2880B9" title="Medium Blue"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #8E44AD" data-mce-color="#8E44AD" title="Medium Purple"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #2B3E50" data-mce-color="#2B3E50" title="Midnight Blue"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                    </div>
+                    <div class="tox-swatches__row">
+                        <div style="background-color: #F1C40F" data-mce-color="#F1C40F" title="Yellow"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #E67E23" data-mce-color="#E67E23" title="Orange"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #E74C3C" data-mce-color="#E74C3C" title="Red"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #ECF0F1" data-mce-color="#ECF0F1" title="Light Gray"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #95A5A6" data-mce-color="#95A5A6" title="Gray"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                    </div>
+                    <div class="tox-swatches__row">
+                        <div style="background-color: #F29D12" data-mce-color="#F29D12" title="Dark Yellow"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #D35400" data-mce-color="#D35400" title="Dark Orange"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #E74C3C" data-mce-color="#E74C3C" title="Dark Red"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #BDC3C7" data-mce-color="#BDC3C7" title="Medium Gray"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #7E8C8D" data-mce-color="#7E8C8D" title="Dark Gray"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                    </div>
+                    <div class="tox-swatches__row">
+                        <div style="background-color: #000000" data-mce-color="#000000" title="Black"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div style="background-color: #ffffff" data-mce-color="#ffffff" title="White"
+                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
+                             aria-checked="false"></div>
+                        <div title="Remove color" role="menuitemcheckbox" aria-haspopup="false" tabindex="-1"
+                             class="tox-swatch tox-swatch--remove tox-collection__item--active" aria-checked="false">
+                            <svg width="24" height="24">
+                                <path stroke="#000" stroke-width="2" d="M21 3L3 21" fill-rule="evenodd"></path>
+                            </svg>
                         </div>
-                    </td>
-                </tr>
-                </tbody>
-            </table>
+                        <button title="Custom color" role="menuitemcheckbox" aria-haspopup="false" tabindex="-1"
+                                class="tox-swatch tox-swatches__picker-btn" aria-checked="false">
+                            <svg width="24" height="24">
+                                <path d="M12 3a9 9 0 0 0 0 18 1.5 1.5 0 0 0 1.1-2.5c-.2-.3-.4-.6-.4-1 0-.8.7-1.5 1.5-1.5H16a5 5 0 0 0 5-5c0-4.4-4-8-9-8zm-5.5 9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm3-4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm3 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
+                                      fill-rule="nonzero"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
             <!--     Size, Font       -->
 
             <div id="colorpicker" data-color="#6D2781" tabindex="-1" class=collapse">
