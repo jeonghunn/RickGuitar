@@ -118,6 +118,10 @@ require_once 'pages/header.php'; ?>
             </div>
             <script>
 
+
+                $(function () {
+                    $('#colorpicker').blur();
+                });
                 var oldcolor;
                 $(function () {
                     $('#colorpicker')
