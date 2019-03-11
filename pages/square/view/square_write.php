@@ -112,12 +112,10 @@ require_once 'pages/header.php'; ?>
 
             <!--     Size, Font       -->
 
-            <button type="button" class="btn btn btn-outline-secondary">
-                <div id="colorpicker" data-color="#6D2781">
+            <div id="colorpicker" data-color="#6D2781" tabindex="-1">
                 <input type="text" id="selected_colo" class="form-control" style="width:auto"/> <br>
 
-                </div>
-            </button>
+            </div>
             <script>
 
                 var oldcolor;
