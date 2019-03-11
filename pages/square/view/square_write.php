@@ -112,12 +112,10 @@ require_once 'pages/header.php'; ?>
 
             <!--     Size, Font       -->
 
-            <a href="#" class="fill-div">
-                <div id="colorpicker" data-color="#6D2781" tabindex="-1">
+            <div id="colorpicker" data-color="#6D2781" tabindex="-1" onclick="">
                 <input type="text" id="selected_colo" class="form-control" tabindex="-1" style="width:auto"/> <br>
 
-                </div>
-            </a>
+            </div>
             <script>
 
 
