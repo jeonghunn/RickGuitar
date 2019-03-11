@@ -112,8 +112,7 @@ require_once 'pages/header.php'; ?>
 
             <!--     Size, Font       -->
 
-            <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"
-                    data-target="#ColorPickerModal">
+            <button type="button" class="btn btn btn-outline-secondary">
                 <div id="colorpicker" data-color="#6D2781">
                 <input type="text" id="selected_colo" class="form-control" style="width:auto"/> <br>
 
