@@ -38,6 +38,12 @@ require_once 'pages/header.php'; ?>
         border-radius: 10px;
         margin: -5px 0 0 -5px;
     }
+
+    .cke_colorbox {
+        width: 10px;
+        height: 10px;
+        border: #808080 1px solid;
+    }
 </style>
 
 <!-- html -->
