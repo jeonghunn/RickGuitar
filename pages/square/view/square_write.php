@@ -120,7 +120,7 @@ require_once 'pages/header.php'; ?>
 
 
                 $(function () {
-                    $('#colorpicker').blur();
+                    $('#selected_colo').blur();
                 });
                 var oldcolor;
                 $(function () {
