@@ -2,6 +2,8 @@ const pickr = new Pickr({
     el: '.color-picker',
     useAsButton: false,
     default: '#42445A',
+    showAlways: true,
+
 
     swatches: [
         'rgba(244, 67, 54, 1)',
