@@ -117,7 +117,7 @@ require_once 'pages/header.php'; ?>
 
 
             <!--     Size, Font       -->
-            <div class="color-picker"></div>
+
 
         </div>
 
