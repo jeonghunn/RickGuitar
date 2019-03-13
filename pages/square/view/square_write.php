@@ -109,100 +109,7 @@ require_once 'pages/header.php'; ?>
             </div>
         </div>
 
-            <div role="menu" class="tox-menu tox-selected-menu"
-                 style="max-height: 700px; overflow-x: hidden; overflow-y: auto;">
-                <div class="tox-swatches">
-                    <div class="tox-swatches__row">
-                        <div style="background-color: #18BC9B" data-mce-color="#18BC9B" title="Turquoise"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #2FCC71" data-mce-color="#2FCC71" title="Green"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #3598DB" data-mce-color="#3598DB" title="Blue"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #9B59B6" data-mce-color="#9B59B6" title="Purple"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #34495E" data-mce-color="#34495E" title="Navy Blue"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                    </div>
-                    <div class="tox-swatches__row">
-                        <div style="background-color: #18A085" data-mce-color="#18A085" title="Dark Turquoise"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #27AE60" data-mce-color="#27AE60" title="Dark Green"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #2880B9" data-mce-color="#2880B9" title="Medium Blue"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #8E44AD" data-mce-color="#8E44AD" title="Medium Purple"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #2B3E50" data-mce-color="#2B3E50" title="Midnight Blue"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                    </div>
-                    <div class="tox-swatches__row">
-                        <div style="background-color: #F1C40F" data-mce-color="#F1C40F" title="Yellow"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #E67E23" data-mce-color="#E67E23" title="Orange"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #E74C3C" data-mce-color="#E74C3C" title="Red"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #ECF0F1" data-mce-color="#ECF0F1" title="Light Gray"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #95A5A6" data-mce-color="#95A5A6" title="Gray"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                    </div>
-                    <div class="tox-swatches__row">
-                        <div style="background-color: #F29D12" data-mce-color="#F29D12" title="Dark Yellow"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #D35400" data-mce-color="#D35400" title="Dark Orange"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #E74C3C" data-mce-color="#E74C3C" title="Dark Red"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #BDC3C7" data-mce-color="#BDC3C7" title="Medium Gray"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #7E8C8D" data-mce-color="#7E8C8D" title="Dark Gray"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                    </div>
-                    <div class="tox-swatches__row">
-                        <div style="background-color: #000000" data-mce-color="#000000" title="Black"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div style="background-color: #ffffff" data-mce-color="#ffffff" title="White"
-                             role="menuitemcheckbox" aria-haspopup="false" tabindex="-1" class="tox-swatch"
-                             aria-checked="false"></div>
-                        <div title="Remove color" role="menuitemcheckbox" aria-haspopup="false" tabindex="-1"
-                             class="tox-swatch tox-swatch--remove tox-collection__item--active" aria-checked="false">
-                            <svg width="24" height="24">
-                                <path stroke="#000" stroke-width="2" d="M21 3L3 21" fill-rule="evenodd"></path>
-                            </svg>
-                        </div>
-                        <button title="Custom color" role="menuitemcheckbox" aria-haspopup="false" tabindex="-1"
-                                class="tox-swatch tox-swatches__picker-btn" aria-checked="false">
-                            <svg width="24" height="24">
-                                <path d="M12 3a9 9 0 0 0 0 18 1.5 1.5 0 0 0 1.1-2.5c-.2-.3-.4-.6-.4-1 0-.8.7-1.5 1.5-1.5H16a5 5 0 0 0 5-5c0-4.4-4-8-9-8zm-5.5 9a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm3-4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm3 4a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"
-                                      fill-rule="nonzero"></path>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-            </div>
+
             <!--     Size, Font       -->
 
             <div id="colorpicker" data-color="#6D2781" tabindex="-1" class=collapse">
@@ -211,48 +118,29 @@ require_once 'pages/header.php'; ?>
             </div>
             <script>
 
+                const pickr = Pickr.create({
+                    el: '.color-picker',
 
-                var oldcolor;
-                $(function () {
-                    $('#colorpicker')
-                        .colorpicker({
-                            format: 'auto',
-                            inline: true
-                        })
-                        .on('colorpickerChange colorpickerCreate', function (e) {
+                    components: {
 
-                            var colors = e.color.generate('tetrad');
+                        // Main components
+                        preview: true,
+                        opacity: true,
+                        hue: true,
 
-                            colors.forEach(function (color, i) {
-                                var colorStr = color.string(),
-                                    swatch = e.colorpicker.picker
-                                        .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
-
-                                swatch
-                                    .attr('data-value', colorStr)
-                                    .attr('title', colorStr)
-                                    .find('> i')
-                                    .css('background-color', colorStr);
-                            });
-
-                            oldcolor = document.getElementById('selected_colo').value;
-
-                            var selection;
-
-                            if (window.getSelection) {
-                                selection = window.getSelection();
-                            } else if (document.selection) {
-                                selection = document.selection.createRange();
-                            }
-
-                            // if (selection.length >= 1) {
-                            //     document.execCommand('forecolor', false, document.getElementById('selected_colo').value);
-                            // } else {
-                            //     document.getElementById("contents_1").innerHTML = document.getElementById("contents_1").innerHTML + "<font color='" + document.getElementById('selected_colo').value + "'></font>";
-                            // }
-                        });
+                        // Input / output Options
+                        interaction: {
+                            hex: true,
+                            rgba: true,
+                            hsla: true,
+                            hsva: true,
+                            cmyk: true,
+                            input: true,
+                            clear: true,
+                            save: true
+                        }
+                    }
                 });
-
 
             </script>
 
