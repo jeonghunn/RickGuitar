@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="170" column="17" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
+            <state relative-caret-position="376">
+              <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -52,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/css/Colorpicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
+            <state relative-caret-position="259">
               <caret line="217" column="47" selection-start-line="217" selection-start-column="47" selection-end-line="217" selection-end-column="47" />
             </state>
           </provider>
@@ -62,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/pages/css/pickr.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="92" lean-forward="true" selection-start-column="92" selection-end-column="92" />
+              <caret column="122" selection-start-column="122" selection-end-column="122" />
               <folding>
                 <element signature="e#362#559#2" expanded="true" />
                 <element signature="e#764#979#1" expanded="true" />
@@ -230,8 +230,8 @@
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/info/view/license.php" />
         <option value="$PROJECT_DIR$/pages/css/Colorpicker.js" />
-        <option value="$PROJECT_DIR$/pages/css/pickr.min.css" />
         <option value="$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js" />
+        <option value="$PROJECT_DIR$/pages/css/pickr.min.css" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
@@ -1026,20 +1026,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01836" summary="test">
-      <created>1552317837439</created>
-      <option name="number" value="01836" />
-      <option name="presentableId" value="LOCAL-01836" />
-      <option name="project" value="LOCAL" />
-      <updated>1552317837439</updated>
-    </task>
-    <task id="LOCAL-01837" summary="test">
-      <created>1552318086481</created>
-      <option name="number" value="01837" />
-      <option name="presentableId" value="LOCAL-01837" />
-      <option name="project" value="LOCAL" />
-      <updated>1552318086481</updated>
-    </task>
     <task id="LOCAL-01838" summary="bug fix">
       <created>1552318122453</created>
       <option name="number" value="01838" />
@@ -1369,11 +1355,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552493478279</updated>
     </task>
-    <option name="localTasksCounter" value="1885" />
+    <task id="LOCAL-01885" summary="colorpicker test">
+      <created>1552493514882</created>
+      <option name="number" value="01885" />
+      <option name="presentableId" value="LOCAL-01885" />
+      <option name="project" value="LOCAL" />
+      <updated>1552493514882</updated>
+    </task>
+    <task id="LOCAL-01886" summary="colorpicker test">
+      <created>1552493657938</created>
+      <option name="number" value="01886" />
+      <option name="presentableId" value="LOCAL-01886" />
+      <option name="project" value="LOCAL" />
+      <updated>1552493657938</updated>
+    </task>
+    <option name="localTasksCounter" value="1887" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1298260000" />
+    <option name="totallyTimeSpent" value="1298573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1729,28 +1729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/pickr.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="92" lean-forward="true" selection-start-column="92" selection-end-column="92" />
-          <folding>
-            <element signature="e#362#559#2" expanded="true" />
-            <element signature="e#764#979#1" expanded="true" />
-            <element signature="e#2437#2634#2" expanded="true" />
-            <element signature="e#4692#4889#2" expanded="true" />
-            <element signature="e#5852#6049#2" expanded="true" />
-            <element signature="e#6733#6930#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/Colorpicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="217" column="47" selection-start-line="217" selection-start-column="47" selection-end-line="217" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.es5.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1768,10 +1746,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/Colorpicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="217" column="47" selection-start-line="217" selection-start-column="47" selection-end-line="217" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/pickr.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="122" selection-start-column="122" selection-end-column="122" />
+          <folding>
+            <element signature="e#362#559#2" expanded="true" />
+            <element signature="e#764#979#1" expanded="true" />
+            <element signature="e#2437#2634#2" expanded="true" />
+            <element signature="e#4692#4889#2" expanded="true" />
+            <element signature="e#5852#6049#2" expanded="true" />
+            <element signature="e#6733#6930#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="170" column="17" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
+        <state relative-caret-position="376">
+          <caret line="125" column="12" selection-start-line="125" selection-start-column="12" selection-end-line="125" selection-end-column="12" />
         </state>
       </provider>
     </entry>
