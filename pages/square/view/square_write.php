@@ -237,8 +237,8 @@ require_once 'pages/header.php'; ?>
 
 <!--Editor-->
 <script src="pages/js/medium-editor.js"></script>
-<script src="pages/js/ColorPicker/pickr.min.js"></script>
-<script src="pages/js/ColorPicker/getColorPicker.js"></script>
+<!--<script src="pages/js/ColorPicker/pickr.min.js"></script>-->
+<!--<script src="pages/js/ColorPicker/getColorPicker.js"></script>-->
 
 <script>
 
