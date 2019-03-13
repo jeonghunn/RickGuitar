@@ -54,6 +54,7 @@ require_once 'pages/header.php'; ?>
 
     <br></br>
     <center>
+        <div class="color-picker"></div>
             <div class="outer">
                 <div class="tablerow">
                     <div class="squarecard" id="contents_1" contentEditable="true" onclick="activeCard(1)"></div>
@@ -116,7 +117,7 @@ require_once 'pages/header.php'; ?>
 
                 <button type="button" class="btn btn btn-outline-secondary"
                         onclick="openColorPicker()">
-                    <div class="color-picker"></div>
+
                 </button>
 
 
