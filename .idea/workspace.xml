@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="translation update">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="picker test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,82 +25,93 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+        <entry file="file://$PROJECT_DIR$/pages/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1596">
-              <caret line="6423" column="43" selection-start-line="6423" selection-start-column="38" selection-end-line="6423" selection-end-column="43" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/lang/en.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="2175">
+              <caret line="148" column="29" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/header.php">
+        <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="82" column="63" selection-start-line="82" selection-start-column="63" selection-end-line="82" selection-end-column="63" />
+            <state relative-caret-position="699">
+              <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#2;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#3;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#4;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#5;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#6;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#7;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#8;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#9;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#10;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#11;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#12;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#13;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#3;n#div#2;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#5;n#div#2;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#16319#16326#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
+        <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="225">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1215">
+              <caret line="81" column="141" selection-start-line="81" selection-start-column="141" selection-end-line="81" selection-end-column="141" />
             </state>
           </provider>
         </entry>
@@ -127,17 +137,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/controller/square_class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="855">
+              <caret line="57" column="21" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -253,9 +254,9 @@
         <option value="$PROJECT_DIR$/pages/lang/ko.php" />
         <option value="$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js" />
         <option value="$PROJECT_DIR$/core/base.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
   </component>
@@ -283,76 +284,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="ColorPicker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="square" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="square" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="square" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
@@ -1030,13 +962,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01798" summary="card background">
-      <created>1552141279568</created>
-      <option name="number" value="01798" />
-      <option name="presentableId" value="LOCAL-01798" />
-      <option name="project" value="LOCAL" />
-      <updated>1552141279568</updated>
-    </task>
     <task id="LOCAL-01799" summary="setCardBackgroundColor closeColorPickerModal">
       <created>1552141796781</created>
       <option name="number" value="01799" />
@@ -1373,11 +1298,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552319962066</updated>
     </task>
-    <option name="localTasksCounter" value="1847" />
+    <task id="LOCAL-01847" summary="picker test">
+      <created>1552439720031</created>
+      <option name="number" value="01847" />
+      <option name="presentableId" value="LOCAL-01847" />
+      <option name="project" value="LOCAL" />
+      <updated>1552439720032</updated>
+    </task>
+    <option name="localTasksCounter" value="1848" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1291867000" />
+    <option name="totallyTimeSpent" value="1292620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1389,7 +1321,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="23" width="1920" height="1057" extended-state="6" />
+    <frame x="31" y="23" width="1409" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
@@ -1400,7 +1332,7 @@
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24964234" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.40095848" side_tool="true" visible="true" weight="0.28450108" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.40160936" side_tool="true" visible="true" weight="0.28435373" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1413,7 +1345,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5990415" visible="true" weight="0.28450108" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.59839064" visible="true" weight="0.28435373" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" weight="0.32469305" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1486,7 +1418,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="color picker has been updated" />
     <MESSAGE value="format" />
     <MESSAGE value="selectedcolor" />
     <MESSAGE value="colorpickertest" />
@@ -1511,7 +1442,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="New ColorPicker Library : pickr" />
     <MESSAGE value="translation update" />
-    <option name="LAST_COMMIT_MESSAGE" value="translation update" />
+    <MESSAGE value="picker test" />
+    <option name="LAST_COMMIT_MESSAGE" value="picker test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1628,7 +1560,7 @@
     <entry file="file://$PROJECT_DIR$/pages/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2175">
-          <caret line="161" column="29" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="29" />
+          <caret line="148" column="29" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1656,7 +1588,7 @@
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1215">
-          <caret line="81" column="154" selection-start-line="81" selection-start-column="154" selection-end-line="81" selection-end-column="154" />
+          <caret line="81" column="141" selection-start-line="81" selection-start-column="141" selection-end-line="81" selection-end-column="141" />
         </state>
       </provider>
     </entry>
@@ -1683,8 +1615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+        <state relative-caret-position="855">
+          <caret line="57" column="21" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1707,40 +1639,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
+        <state relative-caret-position="699">
+          <caret line="160" column="18" selection-start-line="160" selection-start-column="18" selection-end-line="160" selection-end-column="18" />
           <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#2;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#3;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#4;n#div#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#2;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#3;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#4;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#5;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#6;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#7;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#8;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#9;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#10;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#11;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#12;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#13;n#div#1;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#3;n#div#2;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#5;n#div#2;n#div#0;n#div#2;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#16319#16326#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
