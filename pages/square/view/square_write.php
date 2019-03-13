@@ -114,7 +114,8 @@ require_once 'pages/header.php'; ?>
                 </button>
 
 
-                <button type="button" class="btn btn btn-outline-secondary" onclick="pickr.show()">
+                <button type="button" class="btn btn btn-outline-secondary"
+                        onclick="picker.isOpen() ? pickr.hide() : pickr.show()">
                     <div class="color-picker"></div>
                 </button>
 
