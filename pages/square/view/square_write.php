@@ -146,8 +146,14 @@ require_once 'pages/header.php'; ?>
                 <a class="dropdown-item" onclick="setStatus('unregistered')"><?php S('write_private_des') ?></a>
                 <a class="dropdown-item" onclick="setStatus('0')"><?php S('write_public') ?></a>
             </div>
-            <button type="button" class="btn btn btn-outline-secondary"
-                    onclick="setEditorAction('JustifyRight')"><?php S('write_advanced_setting') ?></button>
+            <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse"
+                    data-target="#advanced_setting" aria-expanded="false"
+                    aria-controls="advanced_setting"><?php S('write_advanced_setting') ?></button>
+            <div id="advanced_setting">
+
+                <input type='checkbox' name='keep_square' value='keep_square'/><?php S('write_keep_square') ?>
+
+            </div>
         </div>
 
 

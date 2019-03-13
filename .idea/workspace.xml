@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="main update">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="translation fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/lang/en.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lang/en.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/lang/ko.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/lang/ko.php" afterDir="false" />
@@ -45,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="154" column="79" lean-forward="true" selection-start-line="154" selection-start-column="79" selection-end-line="154" selection-end-column="79" />
+            <state relative-caret-position="215">
+              <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/lang/en.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="427">
+              <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="510">
+              <caret line="34" column="21" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -232,8 +232,8 @@
         <option value="$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
-        <option value="$PROJECT_DIR$/pages/lang/ko.php" />
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
+        <option value="$PROJECT_DIR$/pages/lang/ko.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
@@ -1051,20 +1051,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01844" summary="test">
-      <created>1552319284713</created>
-      <option name="number" value="01844" />
-      <option name="presentableId" value="LOCAL-01844" />
-      <option name="project" value="LOCAL" />
-      <updated>1552319284713</updated>
-    </task>
-    <task id="LOCAL-01845" summary="New ColorPicker Library : pickr">
-      <created>1552319908723</created>
-      <option name="number" value="01845" />
-      <option name="presentableId" value="LOCAL-01845" />
-      <option name="project" value="LOCAL" />
-      <updated>1552319908723</updated>
-    </task>
     <task id="LOCAL-01846" summary="translation update">
       <created>1552319962066</created>
       <option name="number" value="01846" />
@@ -1394,11 +1380,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552496943831</updated>
     </task>
-    <option name="localTasksCounter" value="1893" />
+    <task id="LOCAL-01893" summary="advanced setting on writing page">
+      <created>1552497408242</created>
+      <option name="number" value="01893" />
+      <option name="presentableId" value="LOCAL-01893" />
+      <option name="project" value="LOCAL" />
+      <updated>1552497408242</updated>
+    </task>
+    <task id="LOCAL-01894" summary="translation fix">
+      <created>1552497463590</created>
+      <option name="number" value="01894" />
+      <option name="presentableId" value="LOCAL-01894" />
+      <option name="project" value="LOCAL" />
+      <updated>1552497463590</updated>
+    </task>
+    <option name="localTasksCounter" value="1895" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1302004000" />
+    <option name="totallyTimeSpent" value="1302439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1507,8 +1507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="background update" />
-    <MESSAGE value="squareview background color" />
     <MESSAGE value="squareview api background" />
     <MESSAGE value="square write cardbackground" />
     <MESSAGE value="background input class test" />
@@ -1532,7 +1530,9 @@
     <MESSAGE value="colorpicker showalways" />
     <MESSAGE value="colorpicker test" />
     <MESSAGE value="main update" />
-    <option name="LAST_COMMIT_MESSAGE" value="main update" />
+    <MESSAGE value="advanced setting on writing page" />
+    <MESSAGE value="translation fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="translation fix" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1789,27 +1789,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/lang/ko.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/lang/en.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        <state relative-caret-position="427">
+          <caret line="35" selection-start-line="35" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="154" column="79" lean-forward="true" selection-start-line="154" selection-start-column="79" selection-end-line="154" selection-end-column="79" />
+        <state relative-caret-position="215">
+          <caret line="151" column="52" selection-start-line="151" selection-start-column="52" selection-end-line="151" selection-end-column="52" />
         </state>
       </provider>
     </entry>
