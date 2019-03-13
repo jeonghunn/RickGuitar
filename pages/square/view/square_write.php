@@ -108,6 +108,10 @@ require_once 'pages/header.php'; ?>
                 </button>
 
 
+                <button type="button" class="btn btn btn-outline-secondary color-picker">
+                </button>
+
+
 
             </div>
 
