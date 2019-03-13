@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="button onclick">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="colorpicker showalways">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -25,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+            <state relative-caret-position="232">
+              <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -34,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+            <state relative-caret-position="45">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -229,9 +230,9 @@
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/info/view/license.php" />
-        <option value="$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js" />
         <option value="$PROJECT_DIR$/pages/css/Colorpicker.js" />
         <option value="$PROJECT_DIR$/pages/css/pickr.min.css" />
+        <option value="$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
@@ -1026,20 +1027,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01832" summary="test">
-      <created>1552317595483</created>
-      <option name="number" value="01832" />
-      <option name="presentableId" value="LOCAL-01832" />
-      <option name="project" value="LOCAL" />
-      <updated>1552317595483</updated>
-    </task>
-    <task id="LOCAL-01833" summary="test">
-      <created>1552317637284</created>
-      <option name="number" value="01833" />
-      <option name="presentableId" value="LOCAL-01833" />
-      <option name="project" value="LOCAL" />
-      <updated>1552317637284</updated>
-    </task>
     <task id="LOCAL-01834" summary="test">
       <created>1552317729572</created>
       <option name="number" value="01834" />
@@ -1369,11 +1356,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552492939870</updated>
     </task>
-    <option name="localTasksCounter" value="1881" />
+    <task id="LOCAL-01881" summary="button onclick">
+      <created>1552493101847</created>
+      <option name="number" value="01881" />
+      <option name="presentableId" value="LOCAL-01881" />
+      <option name="project" value="LOCAL" />
+      <updated>1552493101847</updated>
+    </task>
+    <task id="LOCAL-01882" summary="colorpicker showalways">
+      <created>1552493280711</created>
+      <option name="number" value="01882" />
+      <option name="presentableId" value="LOCAL-01882" />
+      <option name="project" value="LOCAL" />
+      <updated>1552493280711</updated>
+    </task>
+    <option name="localTasksCounter" value="1883" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1297843000" />
+    <option name="totallyTimeSpent" value="1298094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1482,7 +1483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="update" />
     <MESSAGE value="card background" />
     <MESSAGE value="setCardBackgroundColor closeColorPickerModal" />
     <MESSAGE value="background update" />
@@ -1507,7 +1507,8 @@
     <MESSAGE value="colorpicker div has been fixed." />
     <MESSAGE value="button test" />
     <MESSAGE value="button onclick" />
-    <option name="LAST_COMMIT_MESSAGE" value="button onclick" />
+    <MESSAGE value="colorpicker showalways" />
+    <option name="LAST_COMMIT_MESSAGE" value="colorpicker showalways" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1719,9 +1720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.es5.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
@@ -1729,27 +1727,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="9" lean-forward="true" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/css/Colorpicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="217" column="47" selection-start-line="217" selection-start-column="47" selection-end-line="217" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10476" selection-start-column="10466" selection-end-column="10476" />
         </state>
       </provider>
     </entry>
@@ -1768,10 +1745,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/css/Colorpicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="217" column="47" selection-start-line="217" selection-start-column="47" selection-end-line="217" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.es5.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10476" selection-start-column="10466" selection-end-column="10476" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
+        <state relative-caret-position="232">
+          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
         </state>
       </provider>
     </entry>
