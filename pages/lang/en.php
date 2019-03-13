@@ -32,7 +32,7 @@ $L['write_choose_card_background_color'] = 'Choose Card background color';
 $L['write_temp_saved'] = 'Temporarily Saved.';
 $L['write_intro'] = 'Put your thoughts on s9uare.';
 $L['write_temp_open_ask'] = 'There are temporarily saved cards. Would you like to open?';
-$L['write_advanced_setting'] = 'Advanced settings';
+$L['write_advanced_setting'] = 'Advanced';
 //info
 $L['show_all_contributors'] = 'Show All Contributors';
 

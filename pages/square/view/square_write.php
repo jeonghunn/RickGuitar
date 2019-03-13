@@ -147,7 +147,7 @@ require_once 'pages/header.php'; ?>
                 <a class="dropdown-item" onclick="setStatus('0')"><?php S('write_public') ?></a>
             </div>
             <button type="button" class="btn btn btn-outline-secondary"
-                    onclick="setEditorAction('JustifyRight')"><?php S('advanced_setting') ?></button>
+                    onclick="setEditorAction('JustifyRight')"><?php S('write_advanced_setting') ?></button>
         </div>
 
 
