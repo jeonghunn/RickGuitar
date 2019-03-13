@@ -112,7 +112,7 @@ require_once 'pages/header.php'; ?>
 
             <!--     Size, Font       -->
 
-            <div id="color-picker" name="color-picker" tabindex="-1">
+            <div id="color-picker" name="color-picker" class="pickr">
 
 
             </div>
