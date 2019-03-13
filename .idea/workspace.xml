@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="picker test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="114" column="69" selection-start-line="114" selection-start-column="69" selection-end-line="114" selection-end-column="69" />
+              <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
@@ -975,20 +974,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01801" summary="background update">
-      <created>1552148075874</created>
-      <option name="number" value="01801" />
-      <option name="presentableId" value="LOCAL-01801" />
-      <option name="project" value="LOCAL" />
-      <updated>1552148075874</updated>
-    </task>
-    <task id="LOCAL-01802" summary="squareview background color">
-      <created>1552148495037</created>
-      <option name="number" value="01802" />
-      <option name="presentableId" value="LOCAL-01802" />
-      <option name="project" value="LOCAL" />
-      <updated>1552148495037</updated>
-    </task>
     <task id="LOCAL-01803" summary="squareview background color">
       <created>1552148627917</created>
       <option name="number" value="01803" />
@@ -1318,11 +1303,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552440634199</updated>
     </task>
-    <option name="localTasksCounter" value="1850" />
+    <task id="LOCAL-01850" summary="picker test">
+      <created>1552440697954</created>
+      <option name="number" value="01850" />
+      <option name="presentableId" value="LOCAL-01850" />
+      <option name="project" value="LOCAL" />
+      <updated>1552440697954</updated>
+    </task>
+    <task id="LOCAL-01851" summary="picker test">
+      <created>1552440794668</created>
+      <option name="number" value="01851" />
+      <option name="presentableId" value="LOCAL-01851" />
+      <option name="project" value="LOCAL" />
+      <updated>1552440794668</updated>
+    </task>
+    <option name="localTasksCounter" value="1852" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1293070000" />
+    <option name="totallyTimeSpent" value="1293182000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1674,7 +1673,7 @@
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="114" column="69" selection-start-line="114" selection-start-column="69" selection-end-line="114" selection-end-column="69" />
+          <caret line="114" column="53" selection-start-line="114" selection-start-column="53" selection-end-line="114" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
