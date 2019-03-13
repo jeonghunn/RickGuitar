@@ -112,75 +112,12 @@ require_once 'pages/header.php'; ?>
 
             <!--     Size, Font       -->
 
-            <div id="colorpicker" data-color="#6D2781" tabindex="-1" class=collapse">
-                <input type="text" id="selected_colo" class="form-control" tabindex="-1" style="width:auto"/> <br>
+            <div id="color-picker" data-color="#6D2781" tabindex="-1"
+            ">
+
 
             </div>
-            <div class="pickr">
 
-                <button class="pcr-button" style="color: rgb(66, 68, 90);"></button>
-
-                <div class="pcr-app"
-                     style="margin-left: 708.984375px; margin-top: 378.171875px; top: 27px; left: -217px;">
-                    <div class="pcr-selection">
-                        <div class="pcr-color-preview">
-                            <button class="pcr-last-color" style="color: rgb(66, 68, 90);"></button>
-                            <div class="pcr-current-color" style="color: rgb(67, 68, 91);"></div>
-                        </div>
-
-                        <div class="pcr-color-palette">
-                            <div class="pcr-picker"
-                                 style="left: calc(26.650104989205335% - 9px); top: calc(64.53302603320935% - 9px); background-color: rgb(67, 68, 91); background-position: initial initial; background-repeat: initial initial;"></div>
-                            <div class="pcr-palette"
-                                 style="background-image: linear-gradient(to top, rgb(0, 0, 0), transparent), linear-gradient(to left, rgb(0, 21, 255), rgb(255, 255, 255)); background-size: initial, initial; background-attachment: initial, initial; background-origin: initial, initial; background-clip: initial, initial; background-position: ; background-repeat: ;"></div>
-                        </div>
-
-                        <div class="pcr-color-chooser">
-                            <div class="pcr-picker"
-                                 style="top: calc(65.1033936875433% - 9px); background-color: rgb(0, 21, 255);"></div>
-                            <div class="pcr-hue pcr-slider"></div>
-                        </div>
-
-                        <div class="pcr-color-opacity">
-                            <div class="pcr-picker"
-                                 style="top: calc(99.73285841495992% - 9px); background-color: rgb(0, 0, 0); background-position: initial initial; background-repeat: initial initial;"></div>
-                            <div class="pcr-opacity pcr-slider"></div>
-                        </div>
-                    </div>
-
-                    <div class="swatches">
-                        <button style="color: rgba(244, 68, 55, 1.0)"></button>
-                        <button style="color: rgba(233, 31, 100, 0.9)"></button>
-                        <button style="color: rgba(157, 39, 176, 0.9)"></button>
-                        <button style="color: rgba(104, 58, 183, 0.8)"></button>
-                        <button style="color: rgba(63, 82, 181, 0.8)"></button>
-                        <button style="color: rgba(33, 150, 243, 0.8)"></button>
-                        <button style="color: rgba(3, 169, 244, 0.7)"></button>
-                        <button style="color: rgba(0, 188, 212, 0.7)"></button>
-                        <button style="color: rgba(0, 150, 137, 0.8)"></button>
-                        <button style="color: rgba(76, 175, 81, 0.8)"></button>
-                        <button style="color: rgba(139, 195, 75, 0.8)"></button>
-                        <button style="color: rgba(205, 220, 57, 0.9)"></button>
-                        <button style="color: rgba(255, 235, 60, 0.9)"></button>
-                        <button style="color: rgba(255, 193, 8, 1.0)"></button>
-                    </div>
-
-                    <div class="pcr-interaction">
-                        <input class="pcr-result" type="text" spellcheck="false">
-
-                        <input class="pcr-type active" data-type="HEX" value="HEX" type="button">
-                        <input class="pcr-type" data-type="RGBA" value="RGBa" type="button">
-                        <input class="pcr-type" data-type="HSLA" value="HSLa" type="button" style="display:none"
-                               hidden="">
-                        <input class="pcr-type" data-type="HSVA" value="HSVa" type="button">
-                        <input class="pcr-type" data-type="CMYK" value="CMYK" type="button" style="display:none"
-                               hidden="">
-
-                        <input class="pcr-save" value="Save" type="button">
-                        <input class="pcr-clear" value="Clear" type="button">
-                    </div>
-                </div>
-            </div>
             <script>
 
                 const pickr = Pickr.create({
