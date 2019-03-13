@@ -38,6 +38,12 @@ require_once 'pages/header.php'; ?>
         border-radius: 10px;
         margin: -5px 0 0 -5px;
     }
+
+
+    .pcr-button {
+
+
+    }
 </style>
 
 <!-- html -->
@@ -108,8 +114,7 @@ require_once 'pages/header.php'; ?>
                 </button>
 
 
-                <button type="button" class="btn btn btn-outline-secondary">
-                    <div class="color-picker"></div>
+                <button type="button" class="color-picker btn btn btn-outline-secondary">
                 </button>
 
 
