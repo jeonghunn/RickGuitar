@@ -108,20 +108,16 @@ require_once 'pages/header.php'; ?>
                 </button>
 
 
-            </div>
-
-
-            <div class="btn-group btn-group" role="group" aria-label="5 group">
-
-
-                <div class="color-picker"></div>
 
             </div>
+
+
+
         </div>
 
 
             <!--     Size, Font       -->
-
+            <div class="color-picker"></div>
 
         </div>
 
