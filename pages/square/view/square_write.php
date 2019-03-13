@@ -148,7 +148,7 @@ require_once 'pages/header.php'; ?>
                     aria-controls="advanced_setting"><?php S('write_advanced_setting') ?></button>
             <div id="advanced_setting" class="collapse">
                 <br>
-                <input type='checkbox' name='keep_square' value='1'/> <?php S('write_keep_square') ?>
+                <input type='checkbox' id='keep_square' name='keep_square' value='1'/> <?php S('write_keep_square') ?>
 
             </div>
         </div>

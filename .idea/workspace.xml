@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="advanced settings must to be collapsed.">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="colorpicker deleted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/square/api/square.api.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/square/api/square.api.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/square/controller/square.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/square/controller/square.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/square/model/square.model.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/square/model/square.model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/controller/square.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -27,10 +22,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
+            <state relative-caret-position="3090">
               <caret line="206" column="6" lean-forward="true" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
             </state>
           </provider>
@@ -45,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="571" column="75" selection-start-line="571" selection-start-column="75" selection-end-line="571" selection-end-column="75" />
+            <state relative-caret-position="182">
+              <caret line="150" column="56" selection-start-line="150" selection-start-column="56" selection-end-line="150" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -57,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
+            <state relative-caret-position="330">
+              <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -124,7 +119,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>status_message</find>
       <find>setCardBackgroundColor</find>
       <find>background</find>
       <find>Model_SquareCards_Write</find>
@@ -152,8 +146,9 @@
       <find>keep</find>
       <find>writeA</find>
       <find>$square_write</find>
-      <find>Write</find>
       <find>Model_Square_Write</find>
+      <find>Write</find>
+      <find>keep_square</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -223,10 +218,10 @@
         <option value="$PROJECT_DIR$/pages/lang/ko.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_view.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
-        <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/modules/square/model/square.model.php" />
+        <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
   </component>
@@ -1057,20 +1052,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01848" summary="picker test">
-      <created>1552440227373</created>
-      <option name="number" value="01848" />
-      <option name="presentableId" value="LOCAL-01848" />
-      <option name="project" value="LOCAL" />
-      <updated>1552440227373</updated>
-    </task>
-    <task id="LOCAL-01849" summary="picker test">
-      <created>1552440634199</created>
-      <option name="number" value="01849" />
-      <option name="presentableId" value="LOCAL-01849" />
-      <option name="project" value="LOCAL" />
-      <updated>1552440634199</updated>
-    </task>
     <task id="LOCAL-01850" summary="picker test">
       <created>1552440697954</created>
       <option name="number" value="01850" />
@@ -1400,11 +1381,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552497957713</updated>
     </task>
-    <option name="localTasksCounter" value="1897" />
+    <task id="LOCAL-01897" summary="new feature : keep square">
+      <created>1552498910820</created>
+      <option name="number" value="01897" />
+      <option name="presentableId" value="LOCAL-01897" />
+      <option name="project" value="LOCAL" />
+      <updated>1552498910820</updated>
+    </task>
+    <task id="LOCAL-01898" summary="colorpicker deleted">
+      <created>1552499003392</created>
+      <option name="number" value="01898" />
+      <option name="presentableId" value="LOCAL-01898" />
+      <option name="project" value="LOCAL" />
+      <updated>1552499003392</updated>
+    </task>
+    <option name="localTasksCounter" value="1899" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1303472000" />
+    <option name="totallyTimeSpent" value="1303653000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1513,8 +1508,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="background input class test" />
-    <MESSAGE value=" temporally saving test : background" />
     <MESSAGE value="gettemp update" />
     <MESSAGE value="setCardStyle" />
     <MESSAGE value="setCardStyle bug fix" />
@@ -1538,7 +1531,9 @@
     <MESSAGE value="translation fix" />
     <MESSAGE value="keep square on advanced settings" />
     <MESSAGE value="advanced settings must to be collapsed." />
-    <option name="LAST_COMMIT_MESSAGE" value="advanced settings must to be collapsed." />
+    <MESSAGE value="new feature : keep square" />
+    <MESSAGE value="colorpicker deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="colorpicker deleted" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1786,15 +1781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="74" selection-start-line="24" selection-start-column="74" selection-end-line="24" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="571" column="75" selection-start-line="571" selection-start-column="75" selection-end-line="571" selection-end-column="75" />
+        <state relative-caret-position="330">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -1814,8 +1802,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
+        <state relative-caret-position="3090">
           <caret line="206" column="6" lean-forward="true" selection-start-line="206" selection-start-column="6" selection-end-line="206" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="150" column="56" selection-start-line="150" selection-start-column="56" selection-end-line="150" selection-end-column="56" />
         </state>
       </provider>
     </entry>
