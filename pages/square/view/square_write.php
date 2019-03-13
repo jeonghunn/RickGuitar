@@ -112,13 +112,8 @@ require_once 'pages/header.php'; ?>
 
             <!--     Size, Font       -->
 
-            <div id="color-picker"></div>
+            <div class="color-picker"></div>
 
-            <script>
-
-
-
-            </script>
 
 
         </div>
