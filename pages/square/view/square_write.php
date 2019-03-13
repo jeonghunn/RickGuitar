@@ -228,8 +228,8 @@ require_once 'pages/header.php'; ?>
 
 <!--Editor-->
 <script src="pages/js/medium-editor.js"></script>
-<script src="dist/pickr.min.js"></script>
-<script src="gh-page/js/script.js"></script>
+<script src="pages/js/ColorPicker/pickr.min.js"></script>
+<script src="pages/js/ColorPicker/getColorPicker.js"></script>
 
 <script>
 

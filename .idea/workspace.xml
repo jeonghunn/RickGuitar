@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="picker test">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="picker script import">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+            <state relative-caret-position="286">
+              <caret line="230" column="33" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -67,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2010">
-              <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
+            <state relative-caret-position="256">
+              <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -1006,20 +1006,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01806" summary="square write cardbackground">
-      <created>1552150185240</created>
-      <option name="number" value="01806" />
-      <option name="presentableId" value="LOCAL-01806" />
-      <option name="project" value="LOCAL" />
-      <updated>1552150185240</updated>
-    </task>
-    <task id="LOCAL-01807" summary="square write cardbackground">
-      <created>1552150280388</created>
-      <option name="number" value="01807" />
-      <option name="presentableId" value="LOCAL-01807" />
-      <option name="project" value="LOCAL" />
-      <updated>1552150280388</updated>
-    </task>
     <task id="LOCAL-01808" summary="square write cardbackground">
       <created>1552150303033</created>
       <option name="number" value="01808" />
@@ -1349,11 +1335,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552488861244</updated>
     </task>
-    <option name="localTasksCounter" value="1855" />
+    <task id="LOCAL-01855" summary="picker test">
+      <created>1552488975606</created>
+      <option name="number" value="01855" />
+      <option name="presentableId" value="LOCAL-01855" />
+      <option name="project" value="LOCAL" />
+      <updated>1552488975606</updated>
+    </task>
+    <task id="LOCAL-01856" summary="picker script import">
+      <created>1552489210222</created>
+      <option name="number" value="01856" />
+      <option name="presentableId" value="LOCAL-01856" />
+      <option name="project" value="LOCAL" />
+      <updated>1552489210222</updated>
+    </task>
+    <option name="localTasksCounter" value="1857" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1293780000" />
+    <option name="totallyTimeSpent" value="1294139000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1462,7 +1462,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="format" />
     <MESSAGE value="selectedcolor" />
     <MESSAGE value="colorpickertest" />
     <MESSAGE value="focustest" />
@@ -1487,7 +1486,8 @@
     <MESSAGE value="New ColorPicker Library : pickr" />
     <MESSAGE value="translation update" />
     <MESSAGE value="picker test" />
-    <option name="LAST_COMMIT_MESSAGE" value="picker test" />
+    <MESSAGE value="picker script import" />
+    <option name="LAST_COMMIT_MESSAGE" value="picker script import" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1688,13 +1688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="134" column="17" selection-start-line="134" selection-start-column="17" selection-end-line="134" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -1705,10 +1698,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="286">
+          <caret line="230" column="33" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
         </state>
       </provider>
     </entry>
