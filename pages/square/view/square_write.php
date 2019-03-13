@@ -149,9 +149,9 @@ require_once 'pages/header.php'; ?>
             <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse"
                     data-target="#advanced_setting" aria-expanded="false"
                     aria-controls="advanced_setting"><?php S('write_advanced_setting') ?></button>
-            <div id="advanced_setting">
-
-                <input type='checkbox' name='keep_square' value='keep_square'/><?php S('write_keep_square') ?>
+            <div id="advanced_setting" class="collapse">
+                <br>
+                <input type='checkbox' name='keep_square' value='keep_square'/> <?php S('write_keep_square') ?>
 
             </div>
         </div>
