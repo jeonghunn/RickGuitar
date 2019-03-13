@@ -112,8 +112,7 @@ require_once 'pages/header.php'; ?>
 
             <!--     Size, Font       -->
 
-            <div id="color-picker" data-color="#6D2781" tabindex="-1"
-            ">
+            <div id="color-picker" data-color="#6D2781" tabindex="-1">
 
 
             </div>
