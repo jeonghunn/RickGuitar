@@ -107,9 +107,15 @@ require_once 'pages/header.php'; ?>
                             class="oi oi-image"></span>
                 </button>
 
-                <button type="button" class="btn btn btn-outline-secondary">
-                    <div class="color-picker" style="width:300px;"></div>
-                </button>
+
+            </div>
+
+
+            <div class="btn-group btn-group" role="group" aria-label="5 group">
+
+
+                <div class="color-picker"></div>
+
             </div>
         </div>
 
