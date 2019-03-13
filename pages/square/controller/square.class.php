@@ -110,4 +110,10 @@ class SquareClass
 
     }
 
+
+    function KeepSquareStyle()
+    {
+        echo "img {max-width: 100%}";
+    }
+
 }

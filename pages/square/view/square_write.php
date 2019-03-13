@@ -40,10 +40,7 @@ require_once 'pages/header.php'; ?>
     }
 
 
-    .pcr-button {
 
-
-    }
 </style>
 
 <!-- html -->
@@ -151,7 +148,7 @@ require_once 'pages/header.php'; ?>
                     aria-controls="advanced_setting"><?php S('write_advanced_setting') ?></button>
             <div id="advanced_setting" class="collapse">
                 <br>
-                <input type='checkbox' name='keep_square' value='keep_square'/> <?php S('write_keep_square') ?>
+                <input type='checkbox' name='keep_square' value='1'/> <?php S('write_keep_square') ?>
 
             </div>
         </div>
@@ -572,6 +569,7 @@ require_once 'pages/header.php'; ?>
                 "api_key": "<?php echo getAPIKey()?>",
                 "auth": "<?php echo getUserAuth()?>",
                 "status": status,
+                "keep_square": document.getElementById("keep_square").value,
                 "type": "square",
                 "square_cards": square_cards
             },
