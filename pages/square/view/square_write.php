@@ -115,18 +115,9 @@ require_once 'pages/header.php'; ?>
                 </button>
 
 
-                <button type="button" class="btn btn btn-outline-secondary"
-                        onclick="openColorPicker()">
-
-                </button>
 
 
-                <button type="button" class="btn btn btn-outline-secondary"
-                        onclick="openColorPicker()">
-
-                </button>
             </div>
-
 
 
         </div>
@@ -165,12 +156,7 @@ require_once 'pages/header.php'; ?>
             <?php S('write_post') ?>
             </button>
 
-        <!--     Size, Font       -->
-        <div class="color-picker"></div>
-        <button type="button" class="btn btn btn-outline-secondary"
-                onclick="openColorPicker()">
-            <div class="color-picker"></div>
-        </button>
+
     </center>
     <br><br><br>
     </div> <!-- /container -->

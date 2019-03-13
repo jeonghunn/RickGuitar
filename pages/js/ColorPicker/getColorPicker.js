@@ -1,4 +1,5 @@
 const pickr = new Pickr({
+    el: '.color-picker',
     useAsButton: false,
     default: '#42445A',
     position: 'middle',
