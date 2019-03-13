@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="button test">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="button onclick">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="116" column="97" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
+            <state relative-caret-position="352">
+              <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -1026,20 +1026,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01830" summary="test">
-      <created>1552317514402</created>
-      <option name="number" value="01830" />
-      <option name="presentableId" value="LOCAL-01830" />
-      <option name="project" value="LOCAL" />
-      <updated>1552317514402</updated>
-    </task>
-    <task id="LOCAL-01831" summary="test">
-      <created>1552317537134</created>
-      <option name="number" value="01831" />
-      <option name="presentableId" value="LOCAL-01831" />
-      <option name="project" value="LOCAL" />
-      <updated>1552317537134</updated>
-    </task>
     <task id="LOCAL-01832" summary="test">
       <created>1552317595483</created>
       <option name="number" value="01832" />
@@ -1369,11 +1355,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552492770995</updated>
     </task>
-    <option name="localTasksCounter" value="1879" />
+    <task id="LOCAL-01879" summary="button test">
+      <created>1552492860369</created>
+      <option name="number" value="01879" />
+      <option name="presentableId" value="LOCAL-01879" />
+      <option name="project" value="LOCAL" />
+      <updated>1552492860369</updated>
+    </task>
+    <task id="LOCAL-01880" summary="button onclick">
+      <created>1552492939870</created>
+      <option name="number" value="01880" />
+      <option name="presentableId" value="LOCAL-01880" />
+      <option name="project" value="LOCAL" />
+      <updated>1552492939870</updated>
+    </task>
+    <option name="localTasksCounter" value="1881" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1297607000" />
+    <option name="totallyTimeSpent" value="1297843000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1482,7 +1482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="focustest" />
     <MESSAGE value="update" />
     <MESSAGE value="card background" />
     <MESSAGE value="setCardBackgroundColor closeColorPickerModal" />
@@ -1507,7 +1506,8 @@
     <MESSAGE value="picker script import" />
     <MESSAGE value="colorpicker div has been fixed." />
     <MESSAGE value="button test" />
-    <option name="LAST_COMMIT_MESSAGE" value="button test" />
+    <MESSAGE value="button onclick" />
+    <option name="LAST_COMMIT_MESSAGE" value="button onclick" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1770,8 +1770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="116" column="97" selection-start-line="116" selection-start-column="97" selection-end-line="116" selection-end-column="97" />
+        <state relative-caret-position="352">
+          <caret line="117" column="50" selection-start-line="117" selection-start-column="50" selection-end-line="117" selection-end-column="50" />
         </state>
       </provider>
     </entry>

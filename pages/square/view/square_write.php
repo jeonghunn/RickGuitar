@@ -115,8 +115,7 @@ require_once 'pages/header.php'; ?>
 
 
                 <button type="button" class="btn btn btn-outline-secondary"
-                        onclick="picker.isOpen() ? pickr.hide() : pickr.show()">
-                    <div class="color-picker"></div>
+                        onclick="openColorPicker()">
                 </button>
 
 
@@ -371,6 +370,13 @@ require_once 'pages/header.php'; ?>
 
     }
 
+    function openColorPicker() {
+        if (pickr.isOpen()) {
+            pickr.hide();
+        } else {
+            pickr.show();
+        }
+    }
     function closeColorPickerModal() {
         $('#ColorPickerModal').modal('hide');
     }
