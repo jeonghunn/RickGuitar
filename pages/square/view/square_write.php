@@ -569,7 +569,7 @@ require_once 'pages/header.php'; ?>
                 "api_key": "<?php echo getAPIKey()?>",
                 "auth": "<?php echo getUserAuth()?>",
                 "status": status,
-                "keep_square": document.getElementById("keep_square").value,
+                "keep_square": document.getElementById("keep_square").checked ? 1 : 0,
                 "type": "square",
                 "square_cards": square_cards
             },
