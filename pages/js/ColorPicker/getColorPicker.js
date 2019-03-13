@@ -2,7 +2,7 @@ const pickr = new Pickr({
     el: '.color-picker',
     useAsButton: false,
     default: '#42445A',
-
+    position: 'middle',
 
     swatches: [
         'rgba(244, 67, 54, 1)',
