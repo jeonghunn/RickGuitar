@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="picker script import">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="colorpicker div has been fixed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/info/view/license.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/info/view/license.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -25,10 +26,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="230" column="33" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
+            <state relative-caret-position="302">
+              <caret line="109" column="108" selection-start-line="109" selection-start-column="108" selection-end-line="109" selection-end-column="108" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -74,19 +80,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
+        <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="23" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="544">
+              <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
+        <entry file="file://$PROJECT_DIR$/pages/info/view/license.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+            <state relative-caret-position="139">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
@@ -94,7 +100,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/square/api/square.api.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
+            <state relative-caret-position="544">
               <caret line="92" column="44" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="44" />
             </state>
           </provider>
@@ -103,17 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
+            <state relative-caret-position="544">
               <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/controller/square_class.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -206,7 +203,6 @@
         <option value="$PROJECT_DIR$/pages/js/medium-editor.js" />
         <option value="$PROJECT_DIR$/pages/css/beagle.css" />
         <option value="$PROJECT_DIR$/pages/lib/lib.loader.php" />
-        <option value="$PROJECT_DIR$/pages/info/view/license.php" />
         <option value="$PROJECT_DIR$/modules/square/model/square.model.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_collection.php" />
         <option value="$PROJECT_DIR$/modules/square/square.api.php" />
@@ -231,6 +227,7 @@
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
+        <option value="$PROJECT_DIR$/pages/info/view/license.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
@@ -277,6 +274,19 @@
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="squarecore" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="squarecore" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="info" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
@@ -1006,27 +1016,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01808" summary="square write cardbackground">
-      <created>1552150303033</created>
-      <option name="number" value="01808" />
-      <option name="presentableId" value="LOCAL-01808" />
-      <option name="project" value="LOCAL" />
-      <updated>1552150303033</updated>
-    </task>
-    <task id="LOCAL-01809" summary="bug fix">
-      <created>1552150375389</created>
-      <option name="number" value="01809" />
-      <option name="presentableId" value="LOCAL-01809" />
-      <option name="project" value="LOCAL" />
-      <updated>1552150375389</updated>
-    </task>
-    <task id="LOCAL-01810" summary="bug fix">
-      <created>1552151539989</created>
-      <option name="number" value="01810" />
-      <option name="presentableId" value="LOCAL-01810" />
-      <option name="project" value="LOCAL" />
-      <updated>1552151539990</updated>
-    </task>
     <task id="LOCAL-01811" summary="bug fix">
       <created>1552152069777</created>
       <option name="number" value="01811" />
@@ -1349,11 +1338,32 @@
       <option name="project" value="LOCAL" />
       <updated>1552489210222</updated>
     </task>
-    <option name="localTasksCounter" value="1857" />
+    <task id="LOCAL-01857" summary="picker script import">
+      <created>1552489347267</created>
+      <option name="number" value="01857" />
+      <option name="presentableId" value="LOCAL-01857" />
+      <option name="project" value="LOCAL" />
+      <updated>1552489347267</updated>
+    </task>
+    <task id="LOCAL-01858" summary="picker script import">
+      <created>1552489398585</created>
+      <option name="number" value="01858" />
+      <option name="presentableId" value="LOCAL-01858" />
+      <option name="project" value="LOCAL" />
+      <updated>1552489398585</updated>
+    </task>
+    <task id="LOCAL-01859" summary="colorpicker div has been fixed.">
+      <created>1552489525838</created>
+      <option name="number" value="01859" />
+      <option name="presentableId" value="LOCAL-01859" />
+      <option name="project" value="LOCAL" />
+      <updated>1552489525838</updated>
+    </task>
+    <option name="localTasksCounter" value="1860" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1294139000" />
+    <option name="totallyTimeSpent" value="1294722000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1462,7 +1472,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="selectedcolor" />
     <MESSAGE value="colorpickertest" />
     <MESSAGE value="focustest" />
     <MESSAGE value="update" />
@@ -1487,7 +1496,8 @@
     <MESSAGE value="translation update" />
     <MESSAGE value="picker test" />
     <MESSAGE value="picker script import" />
-    <option name="LAST_COMMIT_MESSAGE" value="picker script import" />
+    <MESSAGE value="colorpicker div has been fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="colorpicker div has been fixed." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1535,9 +1545,6 @@
           <caret line="26" column="151" selection-start-line="26" selection-start-column="151" selection-end-line="26" selection-end-column="151" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/info/view/license.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/info/view/info.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1636,27 +1643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/api/square.api.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="92" column="44" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_class.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1705,10 +1691,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/api/square.api.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="92" column="44" selection-start-line="92" selection-start-column="39" selection-end-line="92" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/info/view/license.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="230" column="33" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
+        <state relative-caret-position="302">
+          <caret line="109" column="108" selection-start-line="109" selection-start-column="108" selection-end-line="109" selection-end-column="108" />
         </state>
       </provider>
     </entry>

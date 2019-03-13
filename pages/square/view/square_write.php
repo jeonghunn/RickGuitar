@@ -106,14 +106,15 @@ require_once 'pages/header.php'; ?>
                         data-target="#ColorPickerModal"><span
                             class="oi oi-image"></span>
                 </button>
+
+                <button type="button" class="btn btn btn-outline-secondary">
+                    <div class="color-picker"></div>
+                </button>
             </div>
         </div>
 
 
             <!--     Size, Font       -->
-
-            <div class="color-picker"></div>
-
 
 
         </div>
