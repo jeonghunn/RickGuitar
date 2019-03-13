@@ -36,3 +36,4 @@ const pickr = new Pickr({
         }
     }
 });
+
