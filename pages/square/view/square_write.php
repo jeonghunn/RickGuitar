@@ -132,7 +132,10 @@ require_once 'pages/header.php'; ?>
 
 
             <!--     Size, Font       -->
-
+            <button type="button" class="btn btn btn-outline-secondary"
+                    onclick="openColorPicker()">
+                <div class="color-picker"></div>
+            </button>
 
         </div>
 
