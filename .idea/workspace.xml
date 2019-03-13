@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="colorpicker showalways">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="colorpicker test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -26,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+            <state relative-caret-position="367">
+              <caret line="170" column="17" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -1027,20 +1026,6 @@
       <workItem from="1552224034795" duration="9156000" />
       <workItem from="1552315374339" duration="4698000" />
     </task>
-    <task id="LOCAL-01834" summary="test">
-      <created>1552317729572</created>
-      <option name="number" value="01834" />
-      <option name="presentableId" value="LOCAL-01834" />
-      <option name="project" value="LOCAL" />
-      <updated>1552317729572</updated>
-    </task>
-    <task id="LOCAL-01835" summary="test">
-      <created>1552317776969</created>
-      <option name="number" value="01835" />
-      <option name="presentableId" value="LOCAL-01835" />
-      <option name="project" value="LOCAL" />
-      <updated>1552317776969</updated>
-    </task>
     <task id="LOCAL-01836" summary="test">
       <created>1552317837439</created>
       <option name="number" value="01836" />
@@ -1370,11 +1355,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552493280711</updated>
     </task>
-    <option name="localTasksCounter" value="1883" />
+    <task id="LOCAL-01883" summary="colorpicker test">
+      <created>1552493406662</created>
+      <option name="number" value="01883" />
+      <option name="presentableId" value="LOCAL-01883" />
+      <option name="project" value="LOCAL" />
+      <updated>1552493406662</updated>
+    </task>
+    <task id="LOCAL-01884" summary="colorpicker test">
+      <created>1552493478279</created>
+      <option name="number" value="01884" />
+      <option name="presentableId" value="LOCAL-01884" />
+      <option name="project" value="LOCAL" />
+      <updated>1552493478279</updated>
+    </task>
+    <option name="localTasksCounter" value="1885" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1298094000" />
+    <option name="totallyTimeSpent" value="1298260000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1483,7 +1482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="card background" />
     <MESSAGE value="setCardBackgroundColor closeColorPickerModal" />
     <MESSAGE value="background update" />
     <MESSAGE value="squareview background color" />
@@ -1508,7 +1506,8 @@
     <MESSAGE value="button test" />
     <MESSAGE value="button onclick" />
     <MESSAGE value="colorpicker showalways" />
-    <option name="LAST_COMMIT_MESSAGE" value="colorpicker showalways" />
+    <MESSAGE value="colorpicker test" />
+    <option name="LAST_COMMIT_MESSAGE" value="colorpicker test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1771,8 +1770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
+        <state relative-caret-position="367">
+          <caret line="170" column="17" selection-start-line="170" selection-start-column="17" selection-end-line="170" selection-end-column="17" />
         </state>
       </provider>
     </entry>
