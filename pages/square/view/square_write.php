@@ -143,6 +143,8 @@ require_once 'pages/header.php'; ?>
                     }
                 });
 
+                pickr.show();
+
             </script>
 
 
