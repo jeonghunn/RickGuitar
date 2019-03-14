@@ -137,7 +137,7 @@ class SquareClass
 
 //require attach_class.php
 
-    function Write($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $square_cards, $permission, $status, $privacy)
+    function Write($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $keep_square, $square_cards, $permission, $status, $privacy)
     {
 //Check Value security
 //        security_value_check($title);
@@ -199,7 +199,7 @@ class SquareClass
             $attach_result = $ATTACH_CLASS->attach_file("square", $page_srl, $last_number, $user_srl, $status);
 
 
-            $result = Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $content, $type, $data, $permission, $status, $privacy, $attach_result);
+            $result = Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $content, $type, $data, $keep_square, $permission, $status, $privacy, $attach_result);
 
             //  if (getIPAddr() != $page_info['ip_addr']) $PAGE_CLASS -> updatePopularity($user_srl, $page_srl, 1);
 //Set last update
@@ -239,7 +239,7 @@ class SquareClass
 
         $result = null;
 
-        $top_items = array(array("square_key" => "birthday", "title" => "생일 축하 카드 만들기"), array("square_key" => "square310patch", "title" => "s9uare 3.10 변경 사항"));
+        $top_items = array(array("square_key" => "birthday", "title" => "생일 축하 카드 만들기"), array("square_key" => "s9uare0314", "title" => "3월 14일 변경 사항"));
         //   $new_collection = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, "new", 0, 4, $square_info, $attach_info);
 
 

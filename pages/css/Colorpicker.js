@@ -215,7 +215,7 @@ class Colorpicker {
         }
 
         // Register and instantiate extensions
-        this.options.extensions.forEach((ext) = > {
+        this.options.extensions.forEach((ext) => {
             this.registerExtension(Colorpicker.extensions[ext.name.toLowerCase()], ext.options || {});
     })
         ;

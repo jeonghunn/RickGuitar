@@ -38,6 +38,9 @@ require_once 'pages/header.php'; ?>
         border-radius: 10px;
         margin: -5px 0 0 -5px;
     }
+
+
+
 </style>
 
 <!-- html -->
@@ -48,6 +51,7 @@ require_once 'pages/header.php'; ?>
 
     <br></br>
     <center>
+
             <div class="outer">
                 <div class="tablerow">
                     <div class="squarecard" id="contents_1" contentEditable="true" onclick="activeCard(1)"></div>
@@ -106,42 +110,16 @@ require_once 'pages/header.php'; ?>
                         data-target="#ColorPickerModal"><span
                             class="oi oi-image"></span>
                 </button>
+
+
+
+
             </div>
+
+
         </div>
 
 
-            <!--     Size, Font       -->
-
-
-            <script>
-
-                const pickr = Pickr.create({
-                    el: '.color-picker',
-
-                    components: {
-
-                        // Main components
-                        preview: true,
-                        opacity: true,
-                        hue: true,
-
-                        // Input / output Options
-                        interaction: {
-                            hex: true,
-                            rgba: true,
-                            hsla: true,
-                            hsva: true,
-                            cmyk: true,
-                            input: true,
-                            clear: true,
-                            save: true
-                        }
-                    }
-                });
-
-                pickr.show();
-
-            </script>
 
 
         </div>
@@ -164,6 +142,14 @@ require_once 'pages/header.php'; ?>
 
                 <a class="dropdown-item" onclick="setStatus('unregistered')"><?php S('write_private_des') ?></a>
                 <a class="dropdown-item" onclick="setStatus('0')"><?php S('write_public') ?></a>
+            </div>
+            <button type="button" class="btn btn btn-outline-secondary" data-toggle="collapse"
+                    data-target="#advanced_setting" aria-expanded="false"
+                    aria-controls="advanced_setting"><?php S('write_advanced_setting') ?></button>
+            <div id="advanced_setting" class="collapse">
+                <br>
+                <input type='checkbox' id='keep_square' name='keep_square' value='1'/> <?php S('write_keep_square') ?>
+
             </div>
         </div>
 
@@ -251,7 +237,8 @@ require_once 'pages/header.php'; ?>
 
 <!--Editor-->
 <script src="pages/js/medium-editor.js"></script>
-
+<!--<script src="pages/js/ColorPicker/pickr.min.js"></script>-->
+<!--<script src="pages/js/ColorPicker/getColorPicker.js"></script>-->
 
 <script>
 
@@ -383,6 +370,13 @@ require_once 'pages/header.php'; ?>
 
     }
 
+    function openColorPicker() {
+        if (pickr.isOpen()) {
+            pickr.hide();
+        } else {
+            pickr.show();
+        }
+    }
     function closeColorPickerModal() {
         $('#ColorPickerModal').modal('hide');
     }
@@ -575,6 +569,7 @@ require_once 'pages/header.php'; ?>
                 "api_key": "<?php echo getAPIKey()?>",
                 "auth": "<?php echo getUserAuth()?>",
                 "status": status,
+                "keep_square": document.getElementById("keep_square").checked ? 1 : 0,
                 "type": "square",
                 "square_cards": square_cards
             },

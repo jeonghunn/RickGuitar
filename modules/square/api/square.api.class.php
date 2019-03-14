@@ -62,7 +62,7 @@ class SquareApiClass{
         //  $square_i]nfo = REQUEST('doc_info');
         $attach_info = REQUEST('attach_info');
 
-        $square_info = array('square_key', 'page_srl', 'user_srl', 'name', 'title', 'content', 'type', 'data', 'date', 'status', 'attach', 'square_cards');
+        $square_info = array('square_key', 'page_srl', 'user_srl', 'name', 'title', 'content', 'type', 'data', 'keep_square', 'date', 'status', 'attach', 'square_cards');
 
         $square_read = $SQUARE_CLASS->Read($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $user_srl, $square_key, ExplodeInfoValue($attach_info));
         print_info($square_read, $square_info);
@@ -89,8 +89,10 @@ class SquareApiClass{
         $permission = REQUEST('permission');
         $status = REQUEST('status');
         $privacy = REQUEST('privacy');
+        $keep_square = REQUEST('keep_square');
 
-        $square_write = $SQUARE_CLASS->Write($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $square_cards, $permission, $status, $privacy);
+
+        $square_write = $SQUARE_CLASS->Write($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $keep_square, $square_cards, $permission, $status, $privacy);
 
         echo json_encode($square_write);
 

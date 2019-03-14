@@ -80,7 +80,6 @@
       <script src="pages/js/ColorPicker/bootstrap-colorpicker.js"></script>
       <link rel="stylesheet" href="pages/css/bootstrap-colorpicker.css">
       <link rel="stylesheet" href="pages/css/pickr.min.css"/>
-      <script src="pages/js/ColorPicker/pickr.min.js"></script>
       <!--     font -->
       <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>

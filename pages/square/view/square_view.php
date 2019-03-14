@@ -11,12 +11,17 @@ importHeader($html_title);
 
 if ($square_result['type'] == "birthday") echo "<link rel=\"image_src\" href=\"pages/images/birthday_image.jpg\"/>";
 
+
 ?>
 
 <!--Style-->
 
 <style>
 
+    <?php
+    //if keep square
+if($square_result['keep_square'] == 1) $SQUARE_CLASS -> KeepSquareStyle();
+    ?>
 
     /*데스크탑*/
     @media screen and (min-width: 1367px) {

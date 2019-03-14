@@ -63,4 +63,10 @@
     <p>http://naver.github.io/egjs</p>
     <p>egjs is released under the MIT license.</p>
 
+    <br>
+
+    <h2>pickr</h2>
+    <p>https://github.com/Simonwep/pickr</p>
+    <p>MIT License</p>
+
 </div>
