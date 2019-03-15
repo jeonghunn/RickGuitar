@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "3.14.314";
+    return "3.14.315";
 }
 
 //Basic Info
