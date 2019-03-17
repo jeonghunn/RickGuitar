@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="js has been updated">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="623" column="39" selection-start-line="623" selection-start-column="39" selection-end-line="623" selection-end-column="39" />
+            <state relative-caret-position="368">
+              <caret line="528" column="31" selection-start-line="528" selection-start-column="31" selection-end-line="528" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -1057,21 +1056,7 @@
       <workItem from="1552315374339" duration="4698000" />
       <workItem from="1552577266060" duration="478000" />
       <workItem from="1552671511207" duration="2550000" />
-      <workItem from="1552836820641" duration="1986000" />
-    </task>
-    <task id="LOCAL-01862" summary="button test">
-      <created>1552490165457</created>
-      <option name="number" value="01862" />
-      <option name="presentableId" value="LOCAL-01862" />
-      <option name="project" value="LOCAL" />
-      <updated>1552490165457</updated>
-    </task>
-    <task id="LOCAL-01863" summary="button test">
-      <created>1552490176561</created>
-      <option name="number" value="01863" />
-      <option name="presentableId" value="LOCAL-01863" />
-      <option name="project" value="LOCAL" />
-      <updated>1552490176561</updated>
+      <workItem from="1552836820641" duration="2194000" />
     </task>
     <task id="LOCAL-01864" summary="button test">
       <created>1552490270782</created>
@@ -1402,11 +1387,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552838506808</updated>
     </task>
-    <option name="localTasksCounter" value="1911" />
+    <task id="LOCAL-01911" summary="js has been updated">
+      <created>1552838889457</created>
+      <option name="number" value="01911" />
+      <option name="presentableId" value="LOCAL-01911" />
+      <option name="project" value="LOCAL" />
+      <updated>1552838889457</updated>
+    </task>
+    <task id="LOCAL-01912" summary="test">
+      <created>1552838966543</created>
+      <option name="number" value="01912" />
+      <option name="presentableId" value="LOCAL-01912" />
+      <option name="project" value="LOCAL" />
+      <updated>1552838966543</updated>
+    </task>
+    <option name="localTasksCounter" value="1913" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1309708000" />
+    <option name="totallyTimeSpent" value="1309916000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1423,7 +1422,7 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2401491" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2401491" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
@@ -1442,7 +1441,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5969116" visible="true" weight="0.28410372" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.5969116" visible="true" weight="0.28410372" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" weight="0.32469305" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1515,7 +1514,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test" />
     <MESSAGE value="New ColorPicker Library : pickr" />
     <MESSAGE value="translation update" />
     <MESSAGE value="picker test" />
@@ -1540,7 +1538,8 @@
     <MESSAGE value="version" />
     <MESSAGE value="colorpickertest" />
     <MESSAGE value="js has been updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="js has been updated" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1823,8 +1822,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="623" column="39" selection-start-line="623" selection-start-column="39" selection-end-line="623" selection-end-column="39" />
+        <state relative-caret-position="368">
+          <caret line="528" column="31" selection-start-line="528" selection-start-column="31" selection-end-line="528" selection-end-column="31" />
         </state>
       </provider>
     </entry>
