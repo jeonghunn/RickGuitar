@@ -375,11 +375,12 @@ require_once 'pages/header.php'; ?>
 
     }
 
-    function openColorPicker(obj) {
+    function openColorPicker(objt) {
         if (pickr.isOpen()) {
             pickr.hide();
         } else {
-            pickr.show(obj);
+            if (objt == null) alert("hey nulllllll;");
+            pickr.show(objt);
         }
     }
     function closeColorPickerModal() {
