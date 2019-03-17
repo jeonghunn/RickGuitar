@@ -57,12 +57,21 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="241" selection-start-line="241" selection-end-line="242" selection-end-column="62" />
+            <state relative-caret-position="387">
+              <caret line="113" column="80" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="435" column="24" selection-start-line="435" selection-start-column="20" selection-end-line="435" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -103,15 +112,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/lang/ko.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -123,8 +123,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>writeAct</find>
-      <find>startsWith</find>
       <find>local</find>
       <find>$SQUARE_CARD_CLASS</find>
       <find>getStyle</find>
@@ -153,6 +151,8 @@
       <find>write_</find>
       <find>pickr</find>
       <find>color-picker</find>
+      <find>openC</find>
+      <find>show</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -175,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/core/permission.php" />
         <option value="$PROJECT_DIR$/pages/birthday.php" />
         <option value="$PROJECT_DIR$/config.php" />
@@ -225,6 +224,7 @@
         <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
@@ -1056,21 +1056,7 @@
       <workItem from="1552315374339" duration="4698000" />
       <workItem from="1552577266060" duration="478000" />
       <workItem from="1552671511207" duration="2550000" />
-      <workItem from="1552836820641" duration="803000" />
-    </task>
-    <task id="LOCAL-01858" summary="picker script import">
-      <created>1552489398585</created>
-      <option name="number" value="01858" />
-      <option name="presentableId" value="LOCAL-01858" />
-      <option name="project" value="LOCAL" />
-      <updated>1552489398585</updated>
-    </task>
-    <task id="LOCAL-01859" summary="colorpicker div has been fixed.">
-      <created>1552489525838</created>
-      <option name="number" value="01859" />
-      <option name="presentableId" value="LOCAL-01859" />
-      <option name="project" value="LOCAL" />
-      <updated>1552489525838</updated>
+      <workItem from="1552836820641" duration="1203000" />
     </task>
     <task id="LOCAL-01860" summary="button test">
       <created>1552489923592</created>
@@ -1401,11 +1387,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552837613360</updated>
     </task>
-    <option name="localTasksCounter" value="1907" />
+    <task id="LOCAL-01907" summary="colorpickertest">
+      <created>1552837692115</created>
+      <option name="number" value="01907" />
+      <option name="presentableId" value="LOCAL-01907" />
+      <option name="project" value="LOCAL" />
+      <updated>1552837692115</updated>
+    </task>
+    <task id="LOCAL-01908" summary="colorpickertest">
+      <created>1552838050871</created>
+      <option name="number" value="01908" />
+      <option name="presentableId" value="LOCAL-01908" />
+      <option name="project" value="LOCAL" />
+      <updated>1552838050871</updated>
+    </task>
+    <option name="localTasksCounter" value="1909" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1308525000" />
+    <option name="totallyTimeSpent" value="1308925000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1687,13 +1687,6 @@
     <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.es5.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18879" selection-start-column="18871" selection-end-column="18879" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/Colorpicker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2777">
@@ -1816,10 +1809,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="435" column="24" selection-start-line="435" selection-start-column="20" selection-end-line="435" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="241" selection-start-line="241" selection-end-line="242" selection-end-column="62" />
+        <state relative-caret-position="387">
+          <caret line="113" column="80" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
           <folding>
             <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
