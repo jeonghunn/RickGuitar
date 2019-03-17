@@ -262,7 +262,6 @@ require_once 'pages/header.php'; ?>
         getTemp();
 
 
-
         document.getElementById("contents_1").focus();
     };
 
