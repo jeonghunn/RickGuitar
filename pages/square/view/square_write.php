@@ -120,12 +120,12 @@ require_once 'pages/header.php'; ?>
 
             </div>
 
-            <div class="color-picker"></div>
+
 
         </div>
 
 
-
+            <div class="color-picker"></div>
 
         </div>
 
