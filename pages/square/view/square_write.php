@@ -379,7 +379,6 @@ require_once 'pages/header.php'; ?>
         if (pickr.isOpen()) {
             pickr.hide();
         } else {
-            if (objt != null) alert("hey not nulllllll;");
             pickr.show(objt);
         }
     }

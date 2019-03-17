@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -54,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="113" column="83" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="83" />
+            <state relative-caret-position="114">
+              <caret line="372" column="54" selection-start-line="372" selection-start-column="8" selection-end-line="372" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
@@ -67,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
-              <caret line="519" column="27" selection-start-line="519" selection-start-column="23" selection-end-line="519" selection-end-column="27" />
+              <caret line="626" column="122" selection-start-line="626" selection-start-column="122" selection-end-line="626" selection-end-column="122" />
             </state>
           </provider>
         </entry>
@@ -79,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="77">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -123,7 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getStyle</find>
       <find>justify</find>
       <find>setEditorAction</find>
       <find>contents_1</find>
@@ -153,6 +153,7 @@
       <find>openC</find>
       <find>show</find>
       <find>openColorPicker</find>
+      <find>_rePositioningPicker</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -224,8 +225,8 @@
         <option value="$PROJECT_DIR$/modules/square/api/square.api.class.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
-        <option value="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
+        <option value="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" />
       </list>
     </option>
   </component>
@@ -1056,21 +1057,7 @@
       <workItem from="1552315374339" duration="4698000" />
       <workItem from="1552577266060" duration="478000" />
       <workItem from="1552671511207" duration="2550000" />
-      <workItem from="1552836820641" duration="2345000" />
-    </task>
-    <task id="LOCAL-01866" summary="button test">
-      <created>1552490647978</created>
-      <option name="number" value="01866" />
-      <option name="presentableId" value="LOCAL-01866" />
-      <option name="project" value="LOCAL" />
-      <updated>1552490647978</updated>
-    </task>
-    <task id="LOCAL-01867" summary="button test">
-      <created>1552491119957</created>
-      <option name="number" value="01867" />
-      <option name="presentableId" value="LOCAL-01867" />
-      <option name="project" value="LOCAL" />
-      <updated>1552491119957</updated>
+      <workItem from="1552836820641" duration="2865000" />
     </task>
     <task id="LOCAL-01868" summary="button test">
       <created>1552491233716</created>
@@ -1401,11 +1388,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552839188775</updated>
     </task>
-    <option name="localTasksCounter" value="1915" />
+    <task id="LOCAL-01915" summary="test">
+      <created>1552839246996</created>
+      <option name="number" value="01915" />
+      <option name="presentableId" value="LOCAL-01915" />
+      <option name="project" value="LOCAL" />
+      <updated>1552839246996</updated>
+    </task>
+    <task id="LOCAL-01916" summary="test">
+      <created>1552839282006</created>
+      <option name="number" value="01916" />
+      <option name="presentableId" value="LOCAL-01916" />
+      <option name="project" value="LOCAL" />
+      <updated>1552839282006</updated>
+    </task>
+    <option name="localTasksCounter" value="1917" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1310067000" />
+    <option name="totallyTimeSpent" value="1310587000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1422,7 +1423,7 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2401491" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2401491" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
@@ -1441,7 +1442,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.5969116" visible="true" weight="0.28410372" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5969116" visible="true" weight="0.28410372" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" weight="0.32469305" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1774,13 +1775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1503">
@@ -1795,13 +1789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="10" lean-forward="true" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/model/square_card.model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1809,21 +1796,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
+    <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="519" column="27" selection-start-line="519" selection-start-column="23" selection-end-line="519" selection-end-column="27" />
+        <state relative-caret-position="450">
+          <caret line="30" column="2" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="113" column="83" lean-forward="true" selection-start-line="113" selection-start-column="33" selection-end-line="113" selection-end-column="83" />
+        <state relative-caret-position="114">
+          <caret line="372" column="54" selection-start-line="372" selection-start-column="8" selection-end-line="372" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#button#0;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="626" column="122" selection-start-line="626" selection-start-column="122" selection-end-line="626" selection-end-column="122" />
         </state>
       </provider>
     </entry>
