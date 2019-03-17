@@ -110,6 +110,10 @@ require_once 'pages/header.php'; ?>
                         data-target="#ColorPickerModal"><span
                             class="oi oi-image"></span>
                 </button>
+                <button type="button" class="btn btn btn-outline-secondary"
+                        onclick="openColorPicker(document.getElementById('edit_1'))"><span
+                            class="oi oi-image"></span>
+                </button>
 
 
 
@@ -372,11 +376,11 @@ require_once 'pages/header.php'; ?>
 
     }
 
-    function openColorPicker() {
+    function openColorPicker(obj) {
         if (pickr.isOpen()) {
             pickr.hide();
         } else {
-            pickr.show();
+            pickr.show(obj);
         }
     }
     function closeColorPickerModal() {
