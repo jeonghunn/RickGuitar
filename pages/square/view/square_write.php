@@ -379,7 +379,7 @@ require_once 'pages/header.php'; ?>
         if (pickr.isOpen()) {
             pickr.hide();
         } else {
-            pickr.show(objt);
+            pickr.show();
         }
     }
     function closeColorPickerModal() {
