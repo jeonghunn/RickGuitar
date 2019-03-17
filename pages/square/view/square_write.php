@@ -111,7 +111,7 @@ require_once 'pages/header.php'; ?>
                             class="oi oi-image"></span>
                 </button>
                 <button type="button" class="btn btn btn-outline-secondary"
-                        onclick="openColorPicker(document.getElementById('edit_1'))"><span
+                        onclick="openColorPicker()"><span
                             class="oi oi-image"></span>
                 </button>
 
@@ -375,7 +375,7 @@ require_once 'pages/header.php'; ?>
 
     }
 
-    function openColorPicker(objt) {
+    function openColorPicker() {
         if (pickr.isOpen()) {
             pickr.hide();
         } else {
@@ -460,7 +460,10 @@ require_once 'pages/header.php'; ?>
             '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
 
 
-            '            <div class="btn-group btn-group" role="group" aria-label="5 group"> <button type="button" class="btn btn btn-outline-secondary" onclick="removeCard(' + cardcount + ')"><span class="oi oi-x"></span></button>\n' +
+            '            <div class="btn-group btn-group" role="group" aria-label="5 group"> <button type="button" class="btn btn btn-outline-secondary" onclick="removeCard(' + cardcount + ')"><span class="oi oi-x"></span></button>\n <button type="button" class="btn btn btn-outline-secondary"\n' +
+            '                        onclick="openColorPicker()"><span\n' +
+            '                            class="oi oi-image"></span>\n' +
+            '                </button>' +
             '            </div>\n' +
             '        </div>\n' +
             '\n' +
