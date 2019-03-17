@@ -1,5 +1,6 @@
 <?php if(!defined("642979")) exit();
 
+ini_set('memory_limit', '1024M');
     //ip, url, useragent, date
 //$siteaddress = "http://tarks.net/develop/favorite/";
 //$REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];

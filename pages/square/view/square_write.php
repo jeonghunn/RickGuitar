@@ -241,8 +241,8 @@ require_once 'pages/header.php'; ?>
 
 <!--Editor-->
 <script src="pages/js/medium-editor.js"></script>
-<script src="pages/js/ColorPicker/pickr.min.js"></script>
-<script src="pages/js/ColorPicker/getColorPicker.js"></script>
+<!--<script src="pages/js/ColorPicker/pickr.min.js"></script>-->
+<!--<script src="pages/js/ColorPicker/getColorPicker.js"></script>-->
 
 <script>
 
@@ -458,10 +458,7 @@ require_once 'pages/header.php'; ?>
             '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
 
 
-            '            <div class="btn-group btn-group" role="group" aria-label="5 group"> <button type="button" class="btn btn btn-outline-secondary" onclick="removeCard(' + cardcount + ')"><span class="oi oi-x"></span></button>\n <button type="button" class="btn btn btn-outline-secondary"\n' +
-            '                        onclick="openColorPicker()"><span\n' +
-            '                            class="oi oi-image"></span>\n' +
-            '                </button>' +
+            '            <div class="btn-group btn-group" role="group" aria-label="5 group"> <button type="button" class="btn btn btn-outline-secondary" onclick="removeCard(' + cardcount + ')"><span class="oi oi-x"></span></button>\n' +
             '            </div>\n' +
             '        </div>\n' +
             '\n' +
