@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="first card has been updated.">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="pickr js has been updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,13 +57,13 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="144" column="68" selection-start-line="144" selection-start-column="68" selection-end-line="144" selection-end-column="68" />
+            <state relative-caret-position="1086">
+              <caret line="565" column="12" selection-start-line="565" selection-start-column="12" selection-end-line="565" selection-end-column="40" />
               <folding>
-                <marker date="1552924932000" expanded="true" signature="9904:10024" ph="..." />
+                <marker date="1552925259000" expanded="true" signature="9904:10024" ph="..." />
               </folding>
             </state>
           </provider>
@@ -83,11 +83,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="623" column="16" selection-start-line="623" selection-start-column="16" selection-end-line="623" selection-end-column="16" />
+            <state relative-caret-position="142">
+              <caret line="613" column="31" lean-forward="true" selection-start-line="613" selection-start-column="31" selection-end-line="613" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -117,7 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>button</find>
       <find>window</find>
       <find>pcr-button</find>
       <find>Type you</find>
@@ -144,9 +143,10 @@
       <find>openColorPicker</find>
       <find>newPicker</find>
       <find>el</find>
-      <find>newpicker</find>
       <find>setEditor</find>
       <find>isNULL</find>
+      <find>isnull</find>
+      <find>newpicker</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -218,8 +218,8 @@
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js" />
         <option value="$PROJECT_DIR$/pages/css/pickr.min.css" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
   </component>
@@ -404,7 +404,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552924974316" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552925291549" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1051,14 +1051,7 @@
       <workItem from="1552577266060" duration="478000" />
       <workItem from="1552671511207" duration="2550000" />
       <workItem from="1552836820641" duration="3699000" />
-      <workItem from="1552919591982" duration="4990000" />
-    </task>
-    <task id="LOCAL-01895" summary="keep square on advanced settings">
-      <created>1552497856847</created>
-      <option name="number" value="01895" />
-      <option name="presentableId" value="LOCAL-01895" />
-      <option name="project" value="LOCAL" />
-      <updated>1552497856848</updated>
+      <workItem from="1552919591982" duration="5275000" />
     </task>
     <task id="LOCAL-01896" summary="advanced settings must to be collapsed.">
       <created>1552497957713</created>
@@ -1396,11 +1389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552924937831</updated>
     </task>
-    <option name="localTasksCounter" value="1944" />
+    <task id="LOCAL-01944" summary="pickr js has been updated.">
+      <created>1552924993051</created>
+      <option name="number" value="01944" />
+      <option name="presentableId" value="LOCAL-01944" />
+      <option name="project" value="LOCAL" />
+      <updated>1552924993051</updated>
+    </task>
+    <option name="localTasksCounter" value="1945" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1316411000" />
+    <option name="totallyTimeSpent" value="1316696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1417,13 +1417,13 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2428115" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2428115" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24964234" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.40362087" side_tool="true" visible="true" weight="0.27846673" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="0" sideWeight="0.40362087" side_tool="true" visible="true" weight="0.27846673" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1509,7 +1509,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="keep square on advanced settings" />
     <MESSAGE value="advanced settings must to be collapsed." />
     <MESSAGE value="new feature : keep square" />
     <MESSAGE value="colorpicker deleted" />
@@ -1534,7 +1533,8 @@
     <MESSAGE value="color picker style has been updated." />
     <MESSAGE value="new picker has been updated." />
     <MESSAGE value="first card has been updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="first card has been updated." />
+    <MESSAGE value="pickr js has been updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="pickr js has been updated." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1789,23 +1789,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="144" column="68" selection-start-line="144" selection-start-column="68" selection-end-line="144" selection-end-column="68" />
-          <folding>
-            <marker date="1552924932000" expanded="true" signature="9904:10024" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="623" column="16" selection-start-line="623" selection-start-column="16" selection-end-line="623" selection-end-column="16" />
+        <state relative-caret-position="142">
+          <caret line="613" column="31" lean-forward="true" selection-start-line="613" selection-start-column="31" selection-end-line="613" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1086">
+          <caret line="565" column="12" selection-start-line="565" selection-start-column="12" selection-end-line="565" selection-end-column="40" />
+          <folding>
+            <marker date="1552925259000" expanded="true" signature="9904:10024" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
