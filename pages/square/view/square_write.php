@@ -566,7 +566,7 @@ require_once 'pages/header.php'; ?>
 
         picker[index].on('change', (args) => {
             console.log('change', args);
-        }
+        });
     }
 
 
