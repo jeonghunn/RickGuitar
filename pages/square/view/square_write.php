@@ -519,7 +519,6 @@ require_once 'pages/header.php'; ?>
 
     }
 
-    var picker = new Array();
 
 
     function newPicker(index) {
