@@ -111,7 +111,7 @@ require_once 'pages/header.php'; ?>
                             class="oi oi-image"></span>
                 </button>
                 <button type="button" class="btn btn btn-outline-secondary"
-                        onclick="openColorPicker()"><span
+                        onclick="openColorPicker(1)"><span
                             class="oi oi-image"></span>
                 </button>
 
@@ -126,7 +126,7 @@ require_once 'pages/header.php'; ?>
 
 
         </div>
-        <div class="color-picker"></div>
+        <div class="color-picker" id="color_picker_1"></div>
         <br>
             <div id="squarecard"></div>
         <br> <br>
@@ -258,6 +258,7 @@ require_once 'pages/header.php'; ?>
     window.onload = function () {
 
         setEditor();
+        newPicker(1); //picker for firstcard.
         getTemp();
 
 

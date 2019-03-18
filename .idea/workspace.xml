@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="color picker style has been updated.">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="new picker has been updated.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -60,10 +60,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="558" column="31" selection-start-line="558" selection-start-column="31" selection-end-line="558" selection-end-column="31" />
+            <state relative-caret-position="385">
+              <caret line="113" column="50" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
               <folding>
-                <marker date="1552924580000" expanded="true" signature="9882:10002" ph="..." />
+                <marker date="1552924797000" expanded="true" signature="9903:10023" ph="..." />
               </folding>
             </state>
           </provider>
@@ -117,7 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sette</find>
       <find>width</find>
       <find>button</find>
       <find>window</find>
@@ -147,6 +146,7 @@
       <find>newPicker</find>
       <find>el</find>
       <find>newpicker</find>
+      <find>setEditor</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -404,7 +404,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552924580866" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552924797747" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1051,14 +1051,7 @@
       <workItem from="1552577266060" duration="478000" />
       <workItem from="1552671511207" duration="2550000" />
       <workItem from="1552836820641" duration="3699000" />
-      <workItem from="1552919591982" duration="4597000" />
-    </task>
-    <task id="LOCAL-01892" summary="main update">
-      <created>1552496943831</created>
-      <option name="number" value="01892" />
-      <option name="presentableId" value="LOCAL-01892" />
-      <option name="project" value="LOCAL" />
-      <updated>1552496943831</updated>
+      <workItem from="1552919591982" duration="4813000" />
     </task>
     <task id="LOCAL-01893" summary="advanced setting on writing page">
       <created>1552497408242</created>
@@ -1396,11 +1389,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552924551345</updated>
     </task>
-    <option name="localTasksCounter" value="1941" />
+    <task id="LOCAL-01941" summary="new picker has been updated.">
+      <created>1552924598562</created>
+      <option name="number" value="01941" />
+      <option name="presentableId" value="LOCAL-01941" />
+      <option name="project" value="LOCAL" />
+      <updated>1552924598562</updated>
+    </task>
+    <option name="localTasksCounter" value="1942" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1316018000" />
+    <option name="totallyTimeSpent" value="1316234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1417,13 +1417,13 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2428115" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2428115" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24964234" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.40362087" side_tool="true" visible="true" weight="0.27846673" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="0" sideWeight="0.40362087" side_tool="true" visible="true" weight="0.27846673" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1509,7 +1509,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="advanced setting on writing page" />
     <MESSAGE value="translation fix" />
     <MESSAGE value="keep square on advanced settings" />
     <MESSAGE value="advanced settings must to be collapsed." />
@@ -1534,7 +1533,8 @@
     <MESSAGE value="newpicker has been updated" />
     <MESSAGE value="id bug has been fixed." />
     <MESSAGE value="color picker style has been updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="color picker style has been updated." />
+    <MESSAGE value="new picker has been updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="new picker has been updated." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1801,10 +1801,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="558" column="31" selection-start-line="558" selection-start-column="31" selection-end-line="558" selection-end-column="31" />
+        <state relative-caret-position="385">
+          <caret line="113" column="50" selection-start-line="113" selection-start-column="50" selection-end-line="113" selection-end-column="50" />
           <folding>
-            <marker date="1552924580000" expanded="true" signature="9882:10002" ph="..." />
+            <marker date="1552924797000" expanded="true" signature="9903:10023" ph="..." />
           </folding>
         </state>
       </provider>
