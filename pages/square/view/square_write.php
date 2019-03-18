@@ -253,6 +253,7 @@ require_once 'pages/header.php'; ?>
     var status = '0';
     var isProcessing = false;
     var submitted = false;
+    var picker = new Array();
 
     window.onload = function () {
 
