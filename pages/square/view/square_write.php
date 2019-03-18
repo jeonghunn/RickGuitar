@@ -468,7 +468,7 @@ require_once 'pages/header.php'; ?>
             '</div></div>'
         $(cardadd + editor).insertBefore('#squarecard');
         setEditor();
-        //   newPicker(cardcount);
+        newPicker(cardcount);
         hideEditor(active_card);
         active_card = cardcount;
 
