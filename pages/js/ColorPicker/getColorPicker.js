@@ -1,6 +1,9 @@
-function newPicker(element) {
+var picker = new Array();
 
-    new Pickr({
+
+function newPicker(index) {
+
+    picker[index] = new Pickr({
         el: element,
         useAsButton: false,
         default: '#42445A',

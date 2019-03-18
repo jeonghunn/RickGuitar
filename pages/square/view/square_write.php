@@ -373,12 +373,12 @@ require_once 'pages/header.php'; ?>
 
     }
 
-    function openColorPicker() {
-        if (pickr.isOpen()) {
-            pickr.hide();
+    function openColorPicker(index) {
+        if (pickr[index].isOpen()) {
+            pickr[index].hide();
         } else {
 
-            pickr.show();
+            pickr[index].show();
         }
     }
     function closeColorPickerModal() {
@@ -466,7 +466,7 @@ require_once 'pages/header.php'; ?>
             '</div></div>'
         $(cardadd + editor).insertBefore('#squarecard');
         setEditor();
-        newPicker(document.getElementById("edit_" + cardcount));
+        newPicker(cardcount);
         hideEditor(active_card);
         active_card = cardcount;
 
