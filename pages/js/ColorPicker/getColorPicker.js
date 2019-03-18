@@ -1,4 +1,4 @@
-
+var picker = new Array();
 
 
 function newPicker(index) {

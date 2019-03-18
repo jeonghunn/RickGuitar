@@ -253,7 +253,6 @@ require_once 'pages/header.php'; ?>
     var status = '0';
     var isProcessing = false;
     var submitted = false;
-    var picker = new Array();
 
     window.onload = function () {
 
@@ -375,11 +374,11 @@ require_once 'pages/header.php'; ?>
     }
 
     function openColorPicker(index) {
-        if (pickr[index].isOpen()) {
-            pickr[index].hide();
+        if (picker[index].isOpen()) {
+            picker[index].hide();
         } else {
 
-            pickr[index].show();
+            picker[index].show();
         }
     }
     function closeColorPickerModal() {
