@@ -4,7 +4,7 @@ var picker = new Array();
 function newPicker(index) {
 
     picker[index] = new Pickr({
-        el: element,
+        el: document.getElementById("edit_" + index),
         useAsButton: false,
         default: '#42445A',
         position: 'middle',
