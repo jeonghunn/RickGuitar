@@ -90,6 +90,11 @@ require_once 'pages/header.php'; ?>
                             class="oi oi-bold"></span></button>
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('italic')"><span
                             class="oi oi-italic"></span></button>
+                <button type="button" class="btn btn btn-outline-secondary"
+                        onclick="openColorPicker(1)"><span
+                            class="oi oi-droplet"></span>
+                </button>
+
             </div>
             <div class="btn-group btn-group" role="group" aria-label="Third group">
                 <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction('JustifyLeft')">
@@ -110,12 +115,6 @@ require_once 'pages/header.php'; ?>
                         data-target="#ColorPickerModal"><span
                             class="oi oi-image"></span>
                 </button>
-                <button type="button" class="btn btn btn-outline-secondary"
-                        onclick="openColorPicker(1)"><span
-                            class="oi oi-image"></span>
-                </button>
-
-
 
 
             </div>
