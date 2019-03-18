@@ -562,10 +562,7 @@ require_once 'pages/header.php'; ?>
                     save: true
                 }
             }
-        }).on('change', (...args) => {
-            console.log('change', args);
-
-        };
+        });
     }
 
 
