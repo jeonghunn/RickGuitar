@@ -525,7 +525,7 @@ require_once 'pages/header.php'; ?>
     function newPicker(index) {
 
         picker[index] = new Pickr({
-            el: document.getElementById("edit_" + index),
+            el: document.getElementById("color_picker_" + index),
             useAsButton: false,
             default: '#42445A',
             position: 'middle',
