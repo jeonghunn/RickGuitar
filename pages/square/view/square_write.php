@@ -443,6 +443,10 @@ require_once 'pages/header.php'; ?>
             // '                <button type="button" class="btn btn btn-outline-secondary"><span class="oi oi-text"></span></button>\n' +
             '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'bold\')"><span class="oi oi-bold"></span></button>\n' +
             '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'italic\')"><span class="oi oi-italic"></span></button>\n' +
+            ' <button type="button" class="btn btn btn-outline-secondary"\n' +
+            '                        onclick="openColorPicker(' + cardcount + ')"><span\n' +
+            '                            class="oi oi-droplet"></span>\n' +
+            '                </button>' +
             '            </div>\n' +
             '            <div class="btn-group btn-group" role="group" aria-label="Third group">\n' +
             '                <button type="button" class="btn btn btn-outline-secondary" onclick="setEditorAction(\'JustifyLeft\')"><span class="oi oi-justify-left"></span>\n' +
