@@ -377,7 +377,7 @@ require_once 'pages/header.php'; ?>
         if (pickr.isOpen()) {
             pickr.hide();
         } else {
-            pickr._preBuild();
+
             pickr.show();
         }
     }
