@@ -463,7 +463,7 @@ require_once 'pages/header.php'; ?>
             '            <div class="btn-group btn-group" role="group" aria-label="5 group"> <button type="button" class="btn btn btn-outline-secondary" onclick="removeCard(' + cardcount + ')"><span class="oi oi-x"></span></button>\n' +
             '            </div>\n' +
             '        </div>\n' +
-            '<div class="color-picker" id="color_picker_' + cardcount + '></div>' +
+            '<div class="color-picker" id="color_picker_' + cardcount + '"></div>' +
             '\n' +
             '</div></div>'
         $(cardadd + editor).insertBefore('#squarecard');

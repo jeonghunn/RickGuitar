@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="picker has been updated.">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="newpicker has been updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,10 +59,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="465" column="84" selection-start-line="465" selection-start-column="84" selection-end-line="465" selection-end-column="84" />
+            <state relative-caret-position="382">
+              <caret line="465" column="74" selection-start-line="465" selection-start-column="74" selection-end-line="465" selection-end-column="74" />
               <folding>
-                <marker date="1552924101000" expanded="true" signature="9882:10002" ph="..." />
+                <marker date="1552924418000" expanded="true" signature="9882:10002" ph="..." />
               </folding>
             </state>
           </provider>
@@ -145,8 +144,8 @@
       <find>addcard</find>
       <find>openColorPicker</find>
       <find>newPicker</find>
-      <find>el</find>
       <find>newpicker</find>
+      <find>el</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -1051,21 +1050,7 @@
       <workItem from="1552577266060" duration="478000" />
       <workItem from="1552671511207" duration="2550000" />
       <workItem from="1552836820641" duration="3699000" />
-      <workItem from="1552919591982" duration="4119000" />
-    </task>
-    <task id="LOCAL-01888" summary="colorpicker test">
-      <created>1552494042836</created>
-      <option name="number" value="01888" />
-      <option name="presentableId" value="LOCAL-01888" />
-      <option name="project" value="LOCAL" />
-      <updated>1552494042836</updated>
-    </task>
-    <task id="LOCAL-01889" summary="colorpicker test">
-      <created>1552494649695</created>
-      <option name="number" value="01889" />
-      <option name="presentableId" value="LOCAL-01889" />
-      <option name="project" value="LOCAL" />
-      <updated>1552494649696</updated>
+      <workItem from="1552919591982" duration="4436000" />
     </task>
     <task id="LOCAL-01890" summary="colorpicker test">
       <created>1552496167550</created>
@@ -1396,11 +1381,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552923992485</updated>
     </task>
-    <option name="localTasksCounter" value="1937" />
+    <task id="LOCAL-01937" summary="picker has been updated.">
+      <created>1552924110132</created>
+      <option name="number" value="01937" />
+      <option name="presentableId" value="LOCAL-01937" />
+      <option name="project" value="LOCAL" />
+      <updated>1552924110132</updated>
+    </task>
+    <task id="LOCAL-01938" summary="newpicker has been updated">
+      <created>1552924199472</created>
+      <option name="number" value="01938" />
+      <option name="presentableId" value="LOCAL-01938" />
+      <option name="project" value="LOCAL" />
+      <updated>1552924199472</updated>
+    </task>
+    <option name="localTasksCounter" value="1939" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1315540000" />
+    <option name="totallyTimeSpent" value="1315857000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1529,12 +1528,12 @@
     <MESSAGE value="picker prebuild test" />
     <MESSAGE value="getColorPicker update" />
     <MESSAGE value="colorpicker array has been updated" />
-    <MESSAGE value="newpicker has been updated" />
     <MESSAGE value="picker array has been updated." />
     <MESSAGE value="variable bug has been fixed." />
     <MESSAGE value="test" />
     <MESSAGE value="picker has been updated." />
-    <option name="LAST_COMMIT_MESSAGE" value="picker has been updated." />
+    <MESSAGE value="newpicker has been updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="newpicker has been updated" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1797,6 +1796,9 @@
     <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.es5.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/pickr.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1804,15 +1806,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/getColorPicker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="465" column="84" selection-start-line="465" selection-start-column="84" selection-end-line="465" selection-end-column="84" />
+        <state relative-caret-position="382">
+          <caret line="465" column="74" selection-start-line="465" selection-start-column="74" selection-end-line="465" selection-end-column="74" />
           <folding>
-            <marker date="1552924101000" expanded="true" signature="9882:10002" ph="..." />
+            <marker date="1552924418000" expanded="true" signature="9882:10002" ph="..." />
           </folding>
         </state>
       </provider>
