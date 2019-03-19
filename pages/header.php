@@ -153,6 +153,7 @@
              /*   border-radius: 16px; 5px rounded corners */
              width: 440px;
              height: 440px;
+             max-width: 100%;
              padding-left: 24px;
              padding-right: 24px;
              padding-bottom: 24px;
