@@ -151,10 +151,8 @@
              background-color: #FFFFFF;
              transition: 0.3s;
              /*   border-radius: 16px; 5px rounded corners */
-             width: auto;
-             min-width: 440px;
+             width: 440px;
              height: 440px;
-             max-width: 100% !important;
              padding-left: 24px;
              padding-right: 24px;
              padding-bottom: 24px;
@@ -191,6 +189,10 @@
                  width: 60%;
              }
 
+             img {
+                 max-width: 1360px;
+             }
+
          }
 
          /*랩탑*/
@@ -200,17 +202,24 @@
                  width: 60%;
              }
 
-
+             img {
+                 max-width: 1020px;
+             }
          }
 
          /*아이패드 가로*/
          @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
 
+             img {
+                 max-width: 760px;
+             }
          }
 
          /*아이패드 세로*/
          @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
-
+             img {
+                 max-width: 760px;
+             }
          }
 
          /*모바일*/
