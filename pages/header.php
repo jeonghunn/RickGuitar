@@ -190,7 +190,7 @@
              }
 
              img {
-                 max-width: 1360px;
+                 max-width: 1000px;
              }
 
          }
@@ -203,7 +203,7 @@
              }
 
              img {
-                 max-width: 1020px;
+                 max-width: 1000px;
              }
          }
 
