@@ -242,6 +242,9 @@ require_once 'pages/header.php'; ?>
 <script src="pages/js/medium-editor.js"></script>
 <script src="pages/js/ColorPicker/pickr.min.js"></script>
 <script src="pages/js/ColorPicker/getColorPicker.js"></script>
-<script src="pages/square/controller/square_write.js"></script>
-<script src="pages/square/controller/square_editor.js"></script>
+<script>
+    <?php require_once 'pages/square/controller/square_write.js.php'; ?>
+    <?php require_once 'pages/square/controller/square_editor.js..php'; ?>
+</script>
+
 
