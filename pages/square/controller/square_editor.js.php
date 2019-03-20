@@ -1,5 +1,4 @@
-var editor = null;
-var picker = new Array();
+
 
 
 

@@ -243,6 +243,15 @@ require_once 'pages/header.php'; ?>
 <script src="pages/js/ColorPicker/pickr.min.js"></script>
 <script src="pages/js/ColorPicker/getColorPicker.js"></script>
 <script>
+
+    var cardcount = 1;
+    var active_card = 1;
+    var status = '0';
+    var isProcessing = false;
+    var submitted = false;
+    var editor = null;
+    var picker = new Array();
+
     <?php require_once 'pages/square/controller/square_write.js.php'; ?>
     <?php require_once 'pages/square/controller/square_editor.js.php'; ?>
 </script>

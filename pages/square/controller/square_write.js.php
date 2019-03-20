@@ -1,8 +1,4 @@
-var cardcount = 1;
-var active_card = 1;
-var status = '0';
-var isProcessing = false;
-var submitted = false;
+
 
 
 window.onload = function () {
