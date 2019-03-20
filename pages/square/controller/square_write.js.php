@@ -145,9 +145,7 @@ function writeAct() {
 
         error: function (jqXHR) {
             setProcessing(false);
-            alert('<?php S('
-            error_unknown_error
-            ') ?>'
+            alert('<?php S('error_unknown_error') ?>'
             )
             ;
         }
