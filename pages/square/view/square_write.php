@@ -242,6 +242,7 @@ require_once 'pages/header.php'; ?>
 <script src="pages/js/medium-editor.js"></script>
 <script src="pages/js/ColorPicker/pickr.min.js"></script>
 <script src="pages/js/ColorPicker/getColorPicker.js"></script>
+<script src="pages/square/controller/square_write.js"></script>
 
 <script>
 
@@ -254,15 +255,6 @@ require_once 'pages/header.php'; ?>
     var submitted = false;
     var picker = new Array();
 
-    window.onload = function () {
-
-        setEditor();
-        newPicker(1); //picker for firstcard.
-        getTemp();
-
-
-        document.getElementById("contents_1").focus();
-    };
 
 
     //temp save
