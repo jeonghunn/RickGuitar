@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="modularization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/controller/square_editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/controller/square_write.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_write.js.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3225">
-              <caret line="215" selection-start-line="215" selection-end-line="215" />
+            <state relative-caret-position="3195">
+              <caret line="213" selection-start-line="213" selection-end-line="213" />
             </state>
           </provider>
         </entry>
@@ -79,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="245" column="64" selection-start-line="245" selection-start-column="64" selection-end-line="245" selection-end-column="64" />
+            <state relative-caret-position="392">
+              <caret line="246" column="64" selection-start-line="246" selection-start-column="64" selection-end-line="246" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -353,7 +351,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553070954030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553071045040" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1002,14 +1000,7 @@
       <workItem from="1552836820641" duration="3699000" />
       <workItem from="1552919591982" duration="6830000" />
       <workItem from="1553008924836" duration="5269000" />
-      <workItem from="1553062220669" duration="2374000" />
-    </task>
-    <task id="LOCAL-01914" summary="test">
-      <created>1552839188775</created>
-      <option name="number" value="01914" />
-      <option name="presentableId" value="LOCAL-01914" />
-      <option name="project" value="LOCAL" />
-      <updated>1552839188775</updated>
+      <workItem from="1553062220669" duration="2465000" />
     </task>
     <task id="LOCAL-01915" summary="test">
       <created>1552839246996</created>
@@ -1347,11 +1338,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553063097510</updated>
     </task>
-    <option name="localTasksCounter" value="1963" />
+    <task id="LOCAL-01963" summary="modularization">
+      <created>1553070985525</created>
+      <option name="number" value="01963" />
+      <option name="presentableId" value="LOCAL-01963" />
+      <option name="project" value="LOCAL" />
+      <updated>1553070985525</updated>
+    </task>
+    <option name="localTasksCounter" value="1964" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1325894000" />
+    <option name="totallyTimeSpent" value="1325985000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1460,7 +1458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="version" />
     <MESSAGE value="colorpickertest" />
     <MESSAGE value="js has been updated" />
     <MESSAGE value="picker active" />
@@ -1485,7 +1482,8 @@
     <MESSAGE value="square_editor.js" />
     <MESSAGE value="js code has been refactored." />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="modularization" />
+    <option name="LAST_COMMIT_MESSAGE" value="modularization" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1727,8 +1725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3225">
-          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        <state relative-caret-position="3195">
+          <caret line="213" selection-start-line="213" selection-end-line="213" />
         </state>
       </provider>
     </entry>
@@ -1755,8 +1753,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="245" column="64" selection-start-line="245" selection-start-column="64" selection-end-line="245" selection-end-column="64" />
+        <state relative-caret-position="392">
+          <caret line="246" column="64" selection-start-line="246" selection-start-column="64" selection-end-line="246" selection-end-column="64" />
         </state>
       </provider>
     </entry>
