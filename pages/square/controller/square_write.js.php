@@ -135,9 +135,7 @@ function writeAct() {
 
 
             } else {
-                alert('<?php S('
-                error_unknown_error
-                ') ?>'
+                alert('<?php S('error_unknown_error') ?>'
                 )
                 ;
 
