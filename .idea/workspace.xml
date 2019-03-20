@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="square_editor.js">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="js code has been refactored.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/controller/square_editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_editor.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/controller/square_write.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_write.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,20 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="214" selection-start-line="214" selection-end-line="214" />
+            <state relative-caret-position="308">
+              <caret line="156" column="9" lean-forward="true" selection-start-line="156" selection-start-column="9" selection-end-line="156" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+            <state relative-caret-position="317">
+              <caret line="242" column="57" lean-forward="true" selection-start-line="242" selection-start-column="57" selection-end-line="242" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -64,7 +62,7 @@
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1306">
-              <caret line="267" selection-start-line="267" selection-end-line="267" />
+              <caret line="261" selection-start-line="261" selection-end-line="261" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
@@ -221,8 +219,8 @@
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square_editor.js" />
-        <option value="$PROJECT_DIR$/pages/square/controller/square_write.js" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
+        <option value="$PROJECT_DIR$/pages/square/controller/square_write.js" />
       </list>
     </option>
   </component>
@@ -344,7 +342,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553062991536" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553063089629" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -993,14 +991,7 @@
       <workItem from="1552836820641" duration="3699000" />
       <workItem from="1552919591982" duration="6830000" />
       <workItem from="1553008924836" duration="5269000" />
-      <workItem from="1553062220669" duration="769000" />
-    </task>
-    <task id="LOCAL-01912" summary="test">
-      <created>1552838966543</created>
-      <option name="number" value="01912" />
-      <option name="presentableId" value="LOCAL-01912" />
-      <option name="project" value="LOCAL" />
-      <updated>1552838966543</updated>
+      <workItem from="1553062220669" duration="867000" />
     </task>
     <task id="LOCAL-01913" summary="test">
       <created>1552839095044</created>
@@ -1338,11 +1329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553062595556</updated>
     </task>
-    <option name="localTasksCounter" value="1961" />
+    <task id="LOCAL-01961" summary="js code has been refactored.">
+      <created>1553063017179</created>
+      <option name="number" value="01961" />
+      <option name="presentableId" value="LOCAL-01961" />
+      <option name="project" value="LOCAL" />
+      <updated>1553063017179</updated>
+    </task>
+    <option name="localTasksCounter" value="1962" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1324289000" />
+    <option name="totallyTimeSpent" value="1324387000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1451,7 +1449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="checkbox improve" />
     <MESSAGE value="version" />
     <MESSAGE value="colorpickertest" />
     <MESSAGE value="js has been updated" />
@@ -1476,7 +1473,8 @@
     <MESSAGE value="max-width update" />
     <MESSAGE value="square write js test" />
     <MESSAGE value="square_editor.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="square_editor.js" />
+    <MESSAGE value="js code has been refactored." />
+    <option name="LAST_COMMIT_MESSAGE" value="js code has been refactored." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1731,24 +1729,24 @@
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1306">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js">
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        <state relative-caret-position="317">
+          <caret line="242" column="57" lean-forward="true" selection-start-line="242" selection-start-column="57" selection-end-line="242" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+        <state relative-caret-position="308">
+          <caret line="156" column="9" lean-forward="true" selection-start-line="156" selection-start-column="9" selection-end-line="156" selection-end-column="9" />
         </state>
       </provider>
     </entry>
