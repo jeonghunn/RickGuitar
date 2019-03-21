@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="jquery update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -88,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
-              <caret line="75" selection-start-line="75" selection-end-line="75" selection-end-column="48" />
+              <caret line="75" column="83" selection-start-line="75" selection-start-column="83" selection-end-line="75" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -370,7 +369,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168449335" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168475681" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1021,14 +1020,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="6313000" />
-    </task>
-    <task id="LOCAL-01941" summary="new picker has been updated.">
-      <created>1552924598562</created>
-      <option name="number" value="01941" />
-      <option name="presentableId" value="LOCAL-01941" />
-      <option name="project" value="LOCAL" />
-      <updated>1552924598562</updated>
+      <workItem from="1553150051625" duration="6340000" />
     </task>
     <task id="LOCAL-01942" summary="first card has been updated.">
       <created>1552924817089</created>
@@ -1366,11 +1358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553168403003</updated>
     </task>
-    <option name="localTasksCounter" value="1990" />
+    <task id="LOCAL-01990" summary="jquery update">
+      <created>1553168457744</created>
+      <option name="number" value="01990" />
+      <option name="presentableId" value="LOCAL-01990" />
+      <option name="project" value="LOCAL" />
+      <updated>1553168457744</updated>
+    </task>
+    <option name="localTasksCounter" value="1991" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1337811000" />
+    <option name="totallyTimeSpent" value="1337838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1794,7 +1793,7 @@
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
-          <caret line="75" selection-start-line="75" selection-end-line="75" selection-end-column="48" />
+          <caret line="75" column="83" selection-start-line="75" selection-start-column="83" selection-end-line="75" selection-end-column="83" />
         </state>
       </provider>
     </entry>
