@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="jquery update">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="jqeury ui wiget has been added.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="368" column="19" selection-start-line="368" selection-start-column="19" selection-end-line="368" selection-end-column="19" />
+            <state relative-caret-position="289">
+              <caret line="386" column="34" selection-start-line="386" selection-start-column="34" selection-end-line="386" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#7248#7254#1#HTML" expanded="true" />
@@ -257,7 +257,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="720" />
     <option name="height" value="829" />
@@ -373,7 +373,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168926007" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553169005925" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1024,21 +1024,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="6736000" />
-    </task>
-    <task id="LOCAL-01945" summary="picker test">
-      <created>1552925353609</created>
-      <option name="number" value="01945" />
-      <option name="presentableId" value="LOCAL-01945" />
-      <option name="project" value="LOCAL" />
-      <updated>1552925353609</updated>
-    </task>
-    <task id="LOCAL-01946" summary="picker test">
-      <created>1552925407396</created>
-      <option name="number" value="01946" />
-      <option name="presentableId" value="LOCAL-01946" />
-      <option name="project" value="LOCAL" />
-      <updated>1552925407396</updated>
+      <workItem from="1553150051625" duration="6868000" />
     </task>
     <task id="LOCAL-01947" summary="picker test">
       <created>1552925555275</created>
@@ -1369,11 +1355,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553168657497</updated>
     </task>
-    <option name="localTasksCounter" value="1994" />
+    <task id="LOCAL-01994" summary="jqeury ui wiget has been added.">
+      <created>1553168894255</created>
+      <option name="number" value="01994" />
+      <option name="presentableId" value="LOCAL-01994" />
+      <option name="project" value="LOCAL" />
+      <updated>1553168894255</updated>
+    </task>
+    <task id="LOCAL-01995" summary="jqeury ui wiget has been added.">
+      <created>1553168935256</created>
+      <option name="number" value="01995" />
+      <option name="presentableId" value="LOCAL-01995" />
+      <option name="project" value="LOCAL" />
+      <updated>1553168935257</updated>
+    </task>
+    <option name="localTasksCounter" value="1996" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1338234000" />
+    <option name="totallyTimeSpent" value="1338366000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1385,18 +1385,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="720" height="829" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" weight="0.52064896" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.5200286" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24964234" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5103245" side_tool="true" visible="true" weight="0.3229308" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.509299" side_tool="true" visible="true" weight="0.32336956" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1410,7 +1410,7 @@
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
       <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5944206" weight="0.2771739" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.48967552" visible="true" weight="0.3229308" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.490701" visible="true" weight="0.32336956" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
@@ -1482,7 +1482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pickr js has been updated." />
     <MESSAGE value="picker test" />
     <MESSAGE value="color test" />
     <MESSAGE value="card button" />
@@ -1507,7 +1506,8 @@
     <MESSAGE value="fileuploader js" />
     <MESSAGE value="jquery downgrade" />
     <MESSAGE value="jquery update" />
-    <option name="LAST_COMMIT_MESSAGE" value="jquery update" />
+    <MESSAGE value="jqeury ui wiget has been added." />
+    <option name="LAST_COMMIT_MESSAGE" value="jqeury ui wiget has been added." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1796,8 +1796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="368" column="19" selection-start-line="368" selection-start-column="19" selection-end-line="368" selection-end-column="19" />
+        <state relative-caret-position="289">
+          <caret line="386" column="34" selection-start-line="386" selection-start-column="34" selection-end-line="386" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#7248#7254#1#HTML" expanded="true" />

@@ -383,6 +383,8 @@ require_once 'pages/header.php'; ?>
 <script src="pages/js/jquery.fileupload-validate.js"></script>
 <!-- The File Upload user interface plugin -->
 <script src="pages/js/jquery.fileupload-ui.js"></script>
+
+<script src="pages/js/fileuploader.js"></script>
 <script>
 
     var cardcount = 1;
