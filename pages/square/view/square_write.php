@@ -361,7 +361,7 @@ require_once 'pages/header.php'; ?>
         </td>
         <td>
             <button class="btn btn-outline-dark btn-sm delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}>Delete</button>
-           <button class"btn btn-outline-dark btn-sm select" onclick="addAttachToCard('%=file.url%')"><?php S('select') ?></button>
+           <button class="btn btn-outline-dark btn-sm select" onclick="addAttachToCard('%=file.url%')"><?php S('select') ?></button>
             <input type="checkbox" name="delete" value="1" class="toggle">
         </td>
     </tr>
