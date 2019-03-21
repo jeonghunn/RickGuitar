@@ -349,7 +349,7 @@ require_once 'pages/header.php'; ?>
             </span>
         </td>
         <td>
-            <p class="name">
+            <p class="name" style="max-width:100%">
                 <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
             </p>
             {% if (file.error) { %}
