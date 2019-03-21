@@ -272,11 +272,11 @@ require_once 'pages/header.php'; ?>
                             <button type="submit" class="btn btn-dark start">
                                 <span>Start upload</span>
                             </button>
-                            <button type="reset" class="btn btn-warning cancel">
+                            <button type="reset" class="btn btn-dark cancel">
                                 <i class="glyphicon glyphicon-ban-circle"></i>
                                 <span>Cancel upload</span>
                             </button>
-                            <button type="button" class="btn btn-outline-secondary delete">
+                            <button type="button" class="btn btn-outline-dark delete">
                                 <span>Delete</span>
                             </button>
                             <input type="checkbox" class="toggle">
