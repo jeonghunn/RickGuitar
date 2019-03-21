@@ -14,7 +14,7 @@ $all_result = true;
      //   echo "HI::";
        // print_r($_FILES['uploadedfile']);
         for ($i = 0; $i < $this -> getAttachCount(); $i++) {
-            $error = "Unknwon Error";
+            $error = "attach_error";
             $upload_result = false;
 
             if ($_FILES['uploadedfile']['name'][$i] == null) return false;
