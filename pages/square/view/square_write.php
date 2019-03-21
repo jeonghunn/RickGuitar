@@ -4,6 +4,7 @@ require_once 'pages/header.php'; ?>
 
 <!--ColorPicker Style-->
 <link rel="stylesheet" href="pages/css/jquery.fileupload.css">
+<link rel="stylesheet" href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 <style>
     .colorpicker-2x.colorpicker-with-alpha {
         width: 272px;

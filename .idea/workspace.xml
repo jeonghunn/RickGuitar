@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="jqeury ui wiget has been added.">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="fileuploader has been imported.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="386" column="34" selection-start-line="386" selection-start-column="34" selection-end-line="386" selection-end-column="34" />
+            <state relative-caret-position="82">
+              <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#7248#7254#1#HTML" expanded="true" />
@@ -373,7 +373,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553169005925" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553169047824" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1024,14 +1024,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="6868000" />
-    </task>
-    <task id="LOCAL-01947" summary="picker test">
-      <created>1552925555275</created>
-      <option name="number" value="01947" />
-      <option name="presentableId" value="LOCAL-01947" />
-      <option name="project" value="LOCAL" />
-      <updated>1552925555275</updated>
+      <workItem from="1553150051625" duration="6910000" />
     </task>
     <task id="LOCAL-01948" summary="picker test">
       <created>1552925603091</created>
@@ -1369,11 +1362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553168935257</updated>
     </task>
-    <option name="localTasksCounter" value="1996" />
+    <task id="LOCAL-01996" summary="fileuploader has been imported.">
+      <created>1553169016411</created>
+      <option name="number" value="01996" />
+      <option name="presentableId" value="LOCAL-01996" />
+      <option name="project" value="LOCAL" />
+      <updated>1553169016411</updated>
+    </task>
+    <option name="localTasksCounter" value="1997" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1338366000" />
+    <option name="totallyTimeSpent" value="1338408000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1482,7 +1482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="picker test" />
     <MESSAGE value="color test" />
     <MESSAGE value="card button" />
     <MESSAGE value="version code update" />
@@ -1507,7 +1506,8 @@
     <MESSAGE value="jquery downgrade" />
     <MESSAGE value="jquery update" />
     <MESSAGE value="jqeury ui wiget has been added." />
-    <option name="LAST_COMMIT_MESSAGE" value="jqeury ui wiget has been added." />
+    <MESSAGE value="fileuploader has been imported." />
+    <option name="LAST_COMMIT_MESSAGE" value="fileuploader has been imported." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1796,8 +1796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="386" column="34" selection-start-line="386" selection-start-column="34" selection-end-line="386" selection-end-column="34" />
+        <state relative-caret-position="82">
+          <caret line="6" column="92" selection-start-line="6" selection-start-column="92" selection-end-line="6" selection-end-column="92" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#7248#7254#1#HTML" expanded="true" />
