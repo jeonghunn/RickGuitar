@@ -300,7 +300,7 @@ require_once 'pages/header.php'; ?>
 
 <script id="template-upload" type="text/x-tmpl">
 {% for (var i=0, file; file=o.files[i]; i++) { %}
-    <tr class="template-upload animated fade">
+    <tr class="template-upload animated fadeIn">
         <td>
             <span class="preview"></span>
         </td>
@@ -327,7 +327,7 @@ require_once 'pages/header.php'; ?>
 <!-- The template to display files available for download -->
 <script id="template-download" type="text/x-tmpl">
 {% for (var i=0, file; file=o.files[i]; i++) { %}
-    <tr class="template-download animated fade">
+    <tr class="template-download animated fadeIn">
         <td>
             <span class="preview">
                 {% if (file.thumbnailUrl) { %}
