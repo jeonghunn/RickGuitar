@@ -52,6 +52,8 @@ $all_result = true;
                         Array(
                             'savepath' => $thumbnail_file
                         ));
+                } else {
+                    $thumbnail_file = null;
                 }
             }
 
