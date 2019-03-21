@@ -128,6 +128,8 @@ function addCard() {
         '            </div>\n' +
         '\n' +
         '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
+        '  <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"\n' +
+        '                        data-target="#FileUploaderModal"><span class="oi oi-data-transfer-upload"></span></button>' +
         '              <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"  data-target="#ColorPickerModal"><span class="oi oi-image"></span></button>' +
 
         '            </div>\n' +
