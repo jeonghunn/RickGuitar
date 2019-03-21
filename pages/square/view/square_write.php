@@ -347,6 +347,7 @@ require_once 'pages/header.php'; ?>
 <script src="https://blueimp.github.io/JavaScript-Load-Image/js/load-image.all.min.js"></script>
 <!-- The Canvas to Blob plugin is included for image resizing functionality -->
 <script src="https://blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
+<script src="https://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 <script src="pages/js/jquery.iframe-transport.js"></script>
 <!-- The basic File Upload plugin -->
 <script src="pages/js/jquery.fileupload.js"></script>
