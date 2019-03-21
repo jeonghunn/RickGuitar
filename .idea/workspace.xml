@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+            <state relative-caret-position="348">
+              <caret line="384" column="19" selection-start-line="384" selection-start-column="19" selection-end-line="384" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#7248#7254#1#HTML" expanded="true" />
@@ -373,7 +373,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168547116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168652219" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1024,14 +1024,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="6411000" />
-    </task>
-    <task id="LOCAL-01943" summary="first card has been updated.">
-      <created>1552924937831</created>
-      <option name="number" value="01943" />
-      <option name="presentableId" value="LOCAL-01943" />
-      <option name="project" value="LOCAL" />
-      <updated>1552924937831</updated>
+      <workItem from="1553150051625" duration="6516000" />
     </task>
     <task id="LOCAL-01944" summary="pickr js has been updated.">
       <created>1552924993051</created>
@@ -1369,11 +1362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553168481552</updated>
     </task>
-    <option name="localTasksCounter" value="1992" />
+    <task id="LOCAL-01992" summary="jquery update">
+      <created>1553168557282</created>
+      <option name="number" value="01992" />
+      <option name="presentableId" value="LOCAL-01992" />
+      <option name="project" value="LOCAL" />
+      <updated>1553168557282</updated>
+    </task>
+    <option name="localTasksCounter" value="1993" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1337909000" />
+    <option name="totallyTimeSpent" value="1338014000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1796,8 +1796,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+        <state relative-caret-position="348">
+          <caret line="384" column="19" selection-start-line="384" selection-start-column="19" selection-end-line="384" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#7248#7254#1#HTML" expanded="true" />

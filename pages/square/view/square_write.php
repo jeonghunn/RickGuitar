@@ -366,6 +366,9 @@ require_once 'pages/header.php'; ?>
 <script src="https://blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
 <script src="https://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
 <script src="pages/js/jquery.iframe-transport.js"></script>
+
+<!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+<script src="pages/js/jquery.iframe-transport.js"></script>
 <!-- The basic File Upload plugin -->
 <script src="pages/js/jquery.fileupload.js"></script>
 <!-- The File Upload processing plugin -->
@@ -380,7 +383,6 @@ require_once 'pages/header.php'; ?>
 <script src="pages/js/jquery.fileupload-validate.js"></script>
 <!-- The File Upload user interface plugin -->
 <script src="pages/js/jquery.fileupload-ui.js"></script>
-<script src="pages/js/fileuploader.js"></script>
 <script>
 
     var cardcount = 1;
