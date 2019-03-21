@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="252" column="45" lean-forward="true" selection-start-line="252" selection-start-column="45" selection-end-line="252" selection-end-column="45" />
+            <state relative-caret-position="438">
+              <caret line="257" column="19" selection-start-line="257" selection-start-column="19" selection-end-line="257" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -357,7 +357,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553139638587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553140047220" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1009,20 +1009,6 @@
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
     </task>
-    <task id="LOCAL-01919" summary="test">
-      <created>1552840099751</created>
-      <option name="number" value="01919" />
-      <option name="presentableId" value="LOCAL-01919" />
-      <option name="project" value="LOCAL" />
-      <updated>1552840099751</updated>
-    </task>
-    <task id="LOCAL-01920" summary="test">
-      <created>1552840208160</created>
-      <option name="number" value="01920" />
-      <option name="presentableId" value="LOCAL-01920" />
-      <option name="project" value="LOCAL" />
-      <updated>1552840208160</updated>
-    </task>
     <task id="LOCAL-01921" summary="test">
       <created>1552840352131</created>
       <option name="number" value="01921" />
@@ -1352,11 +1338,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553139043146</updated>
     </task>
-    <option name="localTasksCounter" value="1968" />
+    <task id="LOCAL-01968" summary="added jquery upload library">
+      <created>1553139636324</created>
+      <option name="number" value="01968" />
+      <option name="presentableId" value="LOCAL-01968" />
+      <option name="project" value="LOCAL" />
+      <updated>1553139636326</updated>
+    </task>
+    <task id="LOCAL-01969" summary="added jquery upload library">
+      <created>1553139682775</created>
+      <option name="number" value="01969" />
+      <option name="presentableId" value="LOCAL-01969" />
+      <option name="project" value="LOCAL" />
+      <updated>1553139682775</updated>
+    </task>
+    <option name="localTasksCounter" value="1970" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1328193000" />
+    <option name="totallyTimeSpent" value="1328637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1369,6 +1369,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
@@ -1378,7 +1379,7 @@
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24964234" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="0" sideWeight="0.4048641" side_tool="true" visible="true" weight="0.2773224" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.4048641" side_tool="true" visible="true" weight="0.2773224" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1391,7 +1392,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5951359" visible="true" weight="0.2773224" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.5951359" visible="true" weight="0.2773224" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" weight="0.32469305" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1757,8 +1758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="252" column="45" lean-forward="true" selection-start-line="252" selection-start-column="45" selection-end-line="252" selection-end-column="45" />
+        <state relative-caret-position="438">
+          <caret line="257" column="19" selection-start-line="257" selection-start-column="19" selection-end-line="257" selection-end-column="19" />
         </state>
       </provider>
     </entry>
