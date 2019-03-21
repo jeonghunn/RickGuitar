@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="addAttachToCard add">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="file attach select button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -48,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="363" column="93" selection-start-line="363" selection-start-column="93" selection-end-line="363" selection-end-column="93" />
+            <state relative-caret-position="197">
+              <caret line="363" column="59" selection-start-line="363" selection-start-column="59" selection-end-line="363" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
               </folding>
@@ -1038,21 +1038,7 @@
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
       <workItem from="1553150051625" duration="12596000" />
-      <workItem from="1553181676298" duration="4726000" />
-    </task>
-    <task id="LOCAL-01992" summary="jquery update">
-      <created>1553168557282</created>
-      <option name="number" value="01992" />
-      <option name="presentableId" value="LOCAL-01992" />
-      <option name="project" value="LOCAL" />
-      <updated>1553168557282</updated>
-    </task>
-    <task id="LOCAL-01993" summary="jquery update">
-      <created>1553168657497</created>
-      <option name="number" value="01993" />
-      <option name="presentableId" value="LOCAL-01993" />
-      <option name="project" value="LOCAL" />
-      <updated>1553168657497</updated>
+      <workItem from="1553181676298" duration="4846000" />
     </task>
     <task id="LOCAL-01994" summary="jqeury ui wiget has been added.">
       <created>1553168894255</created>
@@ -1383,11 +1369,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553186598190</updated>
     </task>
-    <option name="localTasksCounter" value="2041" />
+    <task id="LOCAL-02041" summary="file attach select button">
+      <created>1553186915407</created>
+      <option name="number" value="02041" />
+      <option name="presentableId" value="LOCAL-02041" />
+      <option name="project" value="LOCAL" />
+      <updated>1553186915407</updated>
+    </task>
+    <task id="LOCAL-02042" summary="file attach select button">
+      <created>1553186956580</created>
+      <option name="number" value="02042" />
+      <option name="presentableId" value="LOCAL-02042" />
+      <option name="project" value="LOCAL" />
+      <updated>1553186956580</updated>
+    </task>
+    <option name="localTasksCounter" value="2043" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1348820000" />
+    <option name="totallyTimeSpent" value="1348940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1496,7 +1496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="js update" />
     <MESSAGE value="gallery test" />
     <MESSAGE value="fileuploader js" />
     <MESSAGE value="jquery downgrade" />
@@ -1521,7 +1520,8 @@
     <MESSAGE value="thumbnail has been improved" />
     <MESSAGE value="style update" />
     <MESSAGE value="addAttachToCard add" />
-    <option name="LAST_COMMIT_MESSAGE" value="addAttachToCard add" />
+    <MESSAGE value="file attach select button" />
+    <option name="LAST_COMMIT_MESSAGE" value="file attach select button" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1841,8 +1841,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="363" column="93" selection-start-line="363" selection-start-column="93" selection-end-line="363" selection-end-column="93" />
+        <state relative-caret-position="197">
+          <caret line="363" column="59" selection-start-line="363" selection-start-column="59" selection-end-line="363" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
           </folding>
