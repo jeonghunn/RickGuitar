@@ -327,10 +327,10 @@ require_once 'pages/header.php'; ?>
         </td>
         <td>
             {% if (!i && !o.options.autoUpload) { %}
-                <button class="start" disabled>Start</button>
+                <button class="btn btn-dark btn-sm start" disabled>Start</button>
             {% } %}
             {% if (!i) { %}
-                <button class="cancel">Cancel</button>
+                <button class="btn btn-outline-dark btn-sm cancel">Cancel</button>
             {% } %}
         </td>
     </tr>
