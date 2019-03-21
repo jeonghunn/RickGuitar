@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="added jquery upload library">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="url fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="257" column="19" selection-start-line="257" selection-start-column="19" selection-end-line="257" selection-end-column="19" />
+            <state relative-caret-position="273">
+              <caret line="246" column="50" selection-start-line="246" selection-start-column="50" selection-end-line="246" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -357,7 +357,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553140047220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553140310184" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1009,13 +1009,6 @@
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
     </task>
-    <task id="LOCAL-01921" summary="test">
-      <created>1552840352131</created>
-      <option name="number" value="01921" />
-      <option name="presentableId" value="LOCAL-01921" />
-      <option name="project" value="LOCAL" />
-      <updated>1552840352131</updated>
-    </task>
     <task id="LOCAL-01922" summary="test">
       <created>1552840392420</created>
       <option name="number" value="01922" />
@@ -1352,11 +1345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553139682775</updated>
     </task>
-    <option name="localTasksCounter" value="1970" />
+    <task id="LOCAL-01970" summary="url fixed">
+      <created>1553140054688</created>
+      <option name="number" value="01970" />
+      <option name="presentableId" value="LOCAL-01970" />
+      <option name="project" value="LOCAL" />
+      <updated>1553140054688</updated>
+    </task>
+    <option name="localTasksCounter" value="1971" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1328637000" />
+    <option name="totallyTimeSpent" value="1328885000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1465,7 +1465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getColorPicker update" />
     <MESSAGE value="colorpicker array has been updated" />
     <MESSAGE value="picker array has been updated." />
     <MESSAGE value="variable bug has been fixed." />
@@ -1490,7 +1489,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="version code" />
     <MESSAGE value="added jquery upload library" />
-    <option name="LAST_COMMIT_MESSAGE" value="added jquery upload library" />
+    <MESSAGE value="url fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="url fixed" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1758,8 +1758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="257" column="19" selection-start-line="257" selection-start-column="19" selection-end-line="257" selection-end-column="19" />
+        <state relative-caret-position="273">
+          <caret line="246" column="50" selection-start-line="246" selection-start-column="50" selection-end-line="246" selection-end-column="50" />
         </state>
       </provider>
     </entry>
