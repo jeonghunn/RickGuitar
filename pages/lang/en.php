@@ -34,7 +34,7 @@ $L['write_intro'] = 'Put your thoughts on s9uare.';
 $L['write_temp_open_ask'] = 'There are temporarily saved cards. Would you like to open?';
 $L['write_advanced_setting'] = 'Advanced';
 $L['write_keep_square'] = 'Keep cards shape';
-$L['wrte_file_uploader'] = 'Image / File Upload';
+$L['write_file_uploader'] = 'Image / File Upload';
 
 //info
 $L['show_all_contributors'] = 'Show All Contributors';
