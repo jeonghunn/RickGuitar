@@ -73,7 +73,7 @@
     <link href="pages/css/bootstrap.css" rel="stylesheet">
 
 
-      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="pages/js/jquery.js"></script>
       <script src="pages/js/popper.min.js"></script>
       <script src="pages/js/bootstrap.bundle.js"></script>
       <!--     Bootstrap ColorPicker -->
