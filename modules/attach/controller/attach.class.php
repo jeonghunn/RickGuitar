@@ -40,7 +40,7 @@ $all_result = true;
 
 
             $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'][$i], $target_path);
-            echo $upload_result . "dfs";
+            if ($upload_result) echo $upload_result . "dfs";
             if ($upload_result) $result = Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension, $filevalue, $size, $status);
         }
 
