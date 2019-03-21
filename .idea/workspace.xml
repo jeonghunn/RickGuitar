@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="css update">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="js update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="349" column="90" selection-start-line="349" selection-start-column="90" selection-end-line="349" selection-end-column="90" />
+            <state relative-caret-position="203">
+              <caret line="283" column="85" selection-start-line="283" selection-start-column="85" selection-end-line="283" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -367,7 +367,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553166042302" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553166233193" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1018,14 +1018,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="4402000" />
-    </task>
-    <task id="LOCAL-01934" summary="picker has been updated.">
-      <created>1552923785292</created>
-      <option name="number" value="01934" />
-      <option name="presentableId" value="LOCAL-01934" />
-      <option name="project" value="LOCAL" />
-      <updated>1552923785292</updated>
+      <workItem from="1553150051625" duration="4589000" />
     </task>
     <task id="LOCAL-01935" summary="picker has been updated.">
       <created>1552923861746</created>
@@ -1363,11 +1356,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553165627753</updated>
     </task>
-    <option name="localTasksCounter" value="1983" />
+    <task id="LOCAL-01983" summary="js update">
+      <created>1553166051916</created>
+      <option name="number" value="01983" />
+      <option name="presentableId" value="LOCAL-01983" />
+      <option name="project" value="LOCAL" />
+      <updated>1553166051916</updated>
+    </task>
+    <option name="localTasksCounter" value="1984" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1335900000" />
+    <option name="totallyTimeSpent" value="1336087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1390,7 +1390,7 @@
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24964234" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.4055794" side_tool="true" visible="true" weight="0.2771739" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.509299" side_tool="true" visible="true" weight="0.32336956" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1403,8 +1403,8 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5944206" visible="true" weight="0.2771739" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" weight="0.32469305" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5944206" weight="0.2771739" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" sideWeight="0.490701" visible="true" weight="0.32336956" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
@@ -1422,7 +1422,7 @@
       <window_info anchor="right" id="Designer" order="11" />
       <window_info anchor="right" id="Data View" order="12" />
       <window_info anchor="right" id="SciView" order="13" weight="0.68955654" />
-      <window_info active="true" anchor="right" id="Maven" order="14" visible="true" weight="0.021459227" />
+      <window_info anchor="right" id="Maven" order="14" visible="true" weight="0.021459227" />
     </layout>
     <layout-to-restore>
       <window_info id="UI Designer" order="0" />
@@ -1476,7 +1476,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="newpicker has been updated" />
     <MESSAGE value="id bug has been fixed." />
     <MESSAGE value="color picker style has been updated." />
     <MESSAGE value="new picker has been updated." />
@@ -1501,7 +1500,8 @@
     <MESSAGE value="file upload test" />
     <MESSAGE value="script update" />
     <MESSAGE value="css update" />
-    <option name="LAST_COMMIT_MESSAGE" value="css update" />
+    <MESSAGE value="js update" />
+    <option name="LAST_COMMIT_MESSAGE" value="js update" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1781,8 +1781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="349" column="90" selection-start-line="349" selection-start-column="90" selection-end-line="349" selection-end-column="90" />
+        <state relative-caret-position="203">
+          <caret line="283" column="85" selection-start-line="283" selection-start-column="85" selection-end-line="283" selection-end-column="85" />
         </state>
       </provider>
     </entry>
