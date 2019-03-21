@@ -14,9 +14,9 @@ $all_result = true;
         echo $this->getAttachCount();
         for ($i = 0; $i < $this -> getAttachCount(); $i++) {
 
-            if ($_FILES['uploadedfile']['name'][$i] == null) return false;
+            if ($_FILES['uploadedfile']['filename'][$i] == null) return false;
 //$img_name = $file_name.".".$tmp_img[1];
-            $file = $_FILES['uploadedfile']['name'][$i];
+            $file = $_FILES['uploadedfile']['filename'][$i];
             $filename = basename($file, strrchr($file, '.'));
             $extension = substr(strrchr($file, '.'), 1);
             $filevalue = getTimeStamp() . '-' . GenerateString(10);
