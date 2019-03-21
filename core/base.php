@@ -5,6 +5,60 @@ function getCoreVersion(){
     return "3.15.322";
 }
 
+function isDevelopmentMode()
+{
+    return true;
+}
+
+
+function isDevelopmentServer()
+{
+
+
+    if (isDevelopmentMode()) {
+        if (strpos($_SERVER['REQUEST_URI'], 'develop') !== false) {
+
+            return true;
+
+        } else {
+            ErrorMessage("DEVELOPMENT_MODE_ERROR");
+        }
+    }
+
+    return false;
+}
+
+function getCorePUrlgetCorePUrl()
+{
+    return isDevelopmentServer() ? "unopenedbox.com/develop/square/" : "s9uare.com/";
+}
+
+function getAPIUrl()
+{
+    return getCoreUrl(false) . "api.php";
+}
+
+//get api url by status http https
+function getAPIUrlS()
+{
+    return getCoreUrl(isSecure()) . "api.php";
+}
+
+function getAPISUrl()
+{
+    return getCoreUrl(true) . "api.php";
+}
+
+function getClientPUrl()
+{
+    return getCorePUrl();
+}
+
+function getClientUrl($s)
+{
+    return $s ? 'https://' . getClientPUrl() : 'http://' . getClientPUrl();
+}
+
 //Basic Info
 function getSiteAddress(){
     return "http://s9uare.com/";
@@ -13,6 +67,12 @@ function getSiteAddress(){
 function getAPIAddress(){
     return "http://s9uare.com/api.php";
 }
+
+function getCorePUrl()
+{
+    return isDevelopmentServer() ? "unopenedbox.com/develop/square/" : "s9uare.com/";
+}
+
 
 function getIPAddr(){
     $ipaddr = $_SERVER["REMOTE_ADDR"];
