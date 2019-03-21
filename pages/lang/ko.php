@@ -33,7 +33,7 @@ $L['write_temp_open_ask'] = '작성중이던 글이 있습니다. 불러오시�
 $L['write_intro'] = '네모 안에 생각을 담아보세요.';
 $L['write_advanced_setting'] = '고급 설정';
 $L['write_keep_square'] = '카드 모양 정사각형으로 유지';
-$L['wrte_file_uploader'] = 'Image / File Upload';
+$L['wrte_file_uploader'] = '사진 / 파일 업로드';
 
 //info
 $L['show_all_contributors'] = '모든 기여자 목록 보기';
