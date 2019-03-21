@@ -259,3 +259,10 @@ function removeCard(num) {
     document.getElementById("card_" + num).remove();
 }
 
+
+function addAttachToCard(attach) {
+    var x = document.createElement('img');
+    x.src = attach;
+    insertNodeOverSelection(x, document.getElementById('content_' + active_card));
+}
+

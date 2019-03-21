@@ -304,8 +304,6 @@ require_once 'pages/header.php'; ?>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal"
                         tabindex="-1"><?php S('close') ?></button>
-                <button type="button" class="btn btn-primary"
-                        onclick="setCardBackgroundColor(active_card ,document.getElementById('selected_color').value)"><?php S('select') ?></button>
             </div>
         </div>
     </div>
@@ -352,7 +350,7 @@ require_once 'pages/header.php'; ?>
         </td>
         <td>
             <p class="name">
-                <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
+                <a onclick="addAttachToCard('%=file.url%')" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
             </p>
             {% if (file.error) { %}
                 <div><span class="error">Error</span> {%=file.error%}</div>
