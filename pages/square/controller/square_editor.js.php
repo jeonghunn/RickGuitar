@@ -265,6 +265,7 @@ function addAttachToCard(attach) {
     x.src = attach;
     document.getElementById('contents_' + active_card).focus();
     insertNodeOverSelection(x, document.getElementById('contents_' + active_card));
+    $('#FileUploaderModal').modal('hide');
 }
 
 function insertNodeOverSelection(node, containerNode) {
