@@ -28,7 +28,7 @@ function isDevelopmentServer()
     return false;
 }
 
-function getCorePUrlgetCorePUrl()
+function getCorePUrl()
 {
     return isDevelopmentServer() ? "unopenedbox.com/develop/square/" : "s9uare.com/";
 }
