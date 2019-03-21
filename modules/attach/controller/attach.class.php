@@ -11,7 +11,7 @@ $all_result = true;
 
      //   echo "HI::";
        // print_r($_FILES['uploadedfile']);
-        echo getAttachCount();
+        echo $this->getAttachCount();
         for ($i = 0; $i < $this -> getAttachCount(); $i++) {
 
             if ($_FILES['uploadedfile']['name'][$i] == null) return false;
