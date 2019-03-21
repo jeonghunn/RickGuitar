@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="function bug has been fixed.">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="thumbnail feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/attach/controller/attach.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/attach/controller/attach.class.php" afterDir="false" />
     </list>
@@ -84,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="61" column="172" selection-start-line="61" selection-start-column="172" selection-end-line="61" selection-end-column="172" />
+            <state relative-caret-position="405">
+              <caret line="64" column="91" selection-start-line="64" selection-start-column="91" selection-end-line="64" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -999,21 +999,7 @@
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
       <workItem from="1553150051625" duration="12596000" />
-      <workItem from="1553181676298" duration="3261000" />
-    </task>
-    <task id="LOCAL-01980" summary="script update">
-      <created>1553165369817</created>
-      <option name="number" value="01980" />
-      <option name="presentableId" value="LOCAL-01980" />
-      <option name="project" value="LOCAL" />
-      <updated>1553165369818</updated>
-    </task>
-    <task id="LOCAL-01981" summary="script update">
-      <created>1553165491282</created>
-      <option name="number" value="01981" />
-      <option name="presentableId" value="LOCAL-01981" />
-      <option name="project" value="LOCAL" />
-      <updated>1553165491282</updated>
+      <workItem from="1553181676298" duration="3453000" />
     </task>
     <task id="LOCAL-01982" summary="css update">
       <created>1553165627753</created>
@@ -1344,11 +1330,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553185061854</updated>
     </task>
-    <option name="localTasksCounter" value="2029" />
+    <task id="LOCAL-02029" summary="thumbnail feature">
+      <created>1553185437446</created>
+      <option name="number" value="02029" />
+      <option name="presentableId" value="LOCAL-02029" />
+      <option name="project" value="LOCAL" />
+      <updated>1553185437446</updated>
+    </task>
+    <task id="LOCAL-02030" summary="thumbnail feature">
+      <created>1553185550099</created>
+      <option name="number" value="02030" />
+      <option name="presentableId" value="LOCAL-02030" />
+      <option name="project" value="LOCAL" />
+      <updated>1553185550099</updated>
+    </task>
+    <option name="localTasksCounter" value="2031" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1347355000" />
+    <option name="totallyTimeSpent" value="1347547000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1457,7 +1457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="blueimp add" />
     <MESSAGE value="file upload test" />
     <MESSAGE value="script update" />
     <MESSAGE value="css update" />
@@ -1482,7 +1481,8 @@
     <MESSAGE value="url call bug has been fixed" />
     <MESSAGE value="development mode" />
     <MESSAGE value="function bug has been fixed." />
-    <option name="LAST_COMMIT_MESSAGE" value="function bug has been fixed." />
+    <MESSAGE value="thumbnail feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="thumbnail feature" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1802,8 +1802,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="61" column="172" selection-start-line="61" selection-start-column="172" selection-end-line="61" selection-end-column="172" />
+        <state relative-caret-position="405">
+          <caret line="64" column="91" selection-start-line="64" selection-start-column="91" selection-end-line="64" selection-end-column="91" />
         </state>
       </provider>
     </entry>

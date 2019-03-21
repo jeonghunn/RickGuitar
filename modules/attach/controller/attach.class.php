@@ -59,10 +59,10 @@ $all_result = true;
             if ($upload_result == true) {
                 $result = Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension, $filevalue, $size, $status);
 
-                array_push($result_array['files'], array("name" => $filename, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getCoreUrl(true) . "$target_path", "deleteType" => "DELETE"));
+                array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getCoreUrl(true) . "$target_path", "deleteType" => "DELETE"));
 
             } else {
-                array_push($result_array['files'], array("name" => $filename, "size" => $size, "error" => $error));
+                array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "error" => $error));
             }
         }
 
