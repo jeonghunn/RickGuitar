@@ -7,6 +7,7 @@ class AttachClass{
     {
         $image_path = "files/images/";
         $binaries_path = "files/binaries/";
+        $thumbnail_path = "files/thumbnail/";
 $all_result = true;
         $result_array = array("files" => array());
 
@@ -42,12 +43,24 @@ $all_result = true;
                 $error = "attach_size_error";
             } else {
                 $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'][$i], $target_path);
+                $thumbnail_file = "";
+                $thumbnail_file = $thumbnail_path . $img_name;
+                if ($kind == "image") {
+                    Thumbnail::create($target_path,
+                        250, 250,
+                        SCALE_EXACT_FIT,
+                        Array(
+                            'savepath' => $thumbnail_file
+                        ));
+                }
             }
 
 
             if ($upload_result == true) {
                 $result = Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension, $filevalue, $size, $status);
-                array_push($result_array['files'], array("name" => $filename, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "deleteUrl" => getCoreUrl(true) . "$target_path", "deleteType" => "DELETE"));
+
+                array_push($result_array['files'], array("name" => $filename, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getCoreUrl(true) . "$target_path", "deleteType" => "DELETE"));
+
             } else {
                 array_push($result_array['files'], array("name" => $filename, "size" => $size, "error" => $error));
             }
