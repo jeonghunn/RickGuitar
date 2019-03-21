@@ -401,7 +401,7 @@ require_once 'pages/header.php'; ?>
 <!-- The File Upload user interface plugin -->
 <script src="pages/js/jquery.fileupload-ui.js"></script>
 
-<script src="pages/js/fileuploader.js"></script>
+
 <script>
 
     var cardcount = 1;
@@ -414,6 +414,7 @@ require_once 'pages/header.php'; ?>
 
     <?php require_once 'pages/square/controller/square_write.js.php'; ?>
     <?php require_once 'pages/square/controller/square_editor.js.php'; ?>
+    <?php require_once 'pages/square/controller/square_uploader.js.php'; ?>
 
 
 </script>
