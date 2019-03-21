@@ -45,7 +45,7 @@ $all_result = true;
                 $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'][$i], $target_path);
                 $thumbnail_file = "";
                 $thumbnail_file = $thumbnail_path . $img_name;
-                if ($kind == "image") {
+                if ($extension == "jpg" || $extension == "jpeg") {
                     Thumbnail::create($target_path,
                         250, 250,
                         SCALE_EXACT_FIT,
