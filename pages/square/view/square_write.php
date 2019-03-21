@@ -264,21 +264,19 @@ require_once 'pages/header.php'; ?>
                     <div class="row fileupload-buttonbar">
                         <div class="col-lg-7">
                             <!-- The fileinput-button span is used to style the file input field as button -->
-                            <span class="btn btn-success fileinput-button">
+                            <span class="btn btn-dark fileinput-button">
                     <i class="glyphicon glyphicon-plus"></i>
                     <span>Add files...</span>
                     <input type="file" name="uploadedfile[]" multiple>
                 </span>
-                            <button type="submit" class="btn btn-primary start">
-                                <i class="glyphicon glyphicon-upload"></i>
+                            <button type="submit" class="btn btn-dark start">
                                 <span>Start upload</span>
                             </button>
                             <button type="reset" class="btn btn-warning cancel">
                                 <i class="glyphicon glyphicon-ban-circle"></i>
                                 <span>Cancel upload</span>
                             </button>
-                            <button type="button" class="btn btn-danger delete">
-                                <i class="glyphicon glyphicon-trash"></i>
+                            <button type="button" class="btn btn-outline-secondary delete">
                                 <span>Delete</span>
                             </button>
                             <input type="checkbox" class="toggle">
