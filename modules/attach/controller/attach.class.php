@@ -47,7 +47,7 @@ $all_result = true;
                 $thumbnail_file = $thumbnail_path . $img_name;
                 if ($extension == "jpg" || $extension == "jpeg") {
                     Thumbnail::create($target_path,
-                        250, 250,
+                        120, 120,
                         SCALE_EXACT_FIT,
                         Array(
                             'savepath' => $thumbnail_file
