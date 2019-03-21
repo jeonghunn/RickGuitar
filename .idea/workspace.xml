@@ -118,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+            <state relative-caret-position="222">
+              <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -260,10 +260,10 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="720" />
-    <option name="height" value="829" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1440" />
+    <option name="height" value="828" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -402,7 +402,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553175350630" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553175564691" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1053,14 +1053,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="12027000" />
-    </task>
-    <task id="LOCAL-01963" summary="modularization">
-      <created>1553070985525</created>
-      <option name="number" value="01963" />
-      <option name="presentableId" value="LOCAL-01963" />
-      <option name="project" value="LOCAL" />
-      <updated>1553070985525</updated>
+      <workItem from="1553150051625" duration="12214000" />
     </task>
     <task id="LOCAL-01964" summary="wrong character has been fixed.">
       <created>1553071060571</created>
@@ -1398,11 +1391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553174611747</updated>
     </task>
-    <option name="localTasksCounter" value="2012" />
+    <task id="LOCAL-02012" summary="attach test">
+      <created>1553175360524</created>
+      <option name="number" value="02012" />
+      <option name="presentableId" value="LOCAL-02012" />
+      <option name="project" value="LOCAL" />
+      <updated>1553175360524</updated>
+    </task>
+    <option name="localTasksCounter" value="2013" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1343525000" />
+    <option name="totallyTimeSpent" value="1343712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1414,7 +1414,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1440" height="828" extended-state="6" />
+    <frame x="0" y="25" width="1440" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
@@ -1860,8 +1860,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        <state relative-caret-position="222">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
         </state>
       </provider>
     </entry>

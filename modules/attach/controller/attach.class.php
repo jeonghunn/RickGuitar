@@ -54,7 +54,7 @@ $all_result = true;
 
 
     function getAttachCount(){
-        return count($_FILES['uploadedfile']['name']);;
+        return count($_FILES['uploadedfile']['filename']);;
     }
 
     function attach_read(  $user_srl, $category ,$doc_srl, $doc_status, $info)
