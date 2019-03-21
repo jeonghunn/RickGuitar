@@ -8,15 +8,15 @@ class AttachClass{
         $image_path = "files/images/";
         $binaries_path = "files/binaries/";
 $all_result = true;
-        print_r($_FILES);
+
      //   echo "HI::";
        // print_r($_FILES['uploadedfile']);
-        echo $this->getAttachCount();
+        echo getAttachCount();
         for ($i = 0; $i < $this -> getAttachCount(); $i++) {
 
-            if ($_FILES['uploadedfile']['filename'][$i] == null) return false;
+            if ($_FILES['uploadedfile']['name'][$i] == null) return false;
 //$img_name = $file_name.".".$tmp_img[1];
-            $file = $_FILES['uploadedfile']['filename'][$i];
+            $file = $_FILES['uploadedfile']['name'][$i];
             $filename = basename($file, strrchr($file, '.'));
             $extension = substr(strrchr($file, '.'), 1);
             $filevalue = getTimeStamp() . '-' . GenerateString(10);
@@ -48,13 +48,13 @@ $all_result = true;
 
             if($all_result && $result == false) $all_result = false; //not perfectly
 
-
+        echo $all_result;
         return $all_result;
     }
 
 
     function getAttachCount(){
-        return count($_FILES['uploadedfile']['filename']);;
+        return count($_FILES['uploadedfile']['name']);;
     }
 
     function attach_read(  $user_srl, $category ,$doc_srl, $doc_status, $info)
