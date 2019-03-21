@@ -8,10 +8,14 @@ class AttachClass{
         $image_path = "files/images/";
         $binaries_path = "files/binaries/";
 $all_result = true;
+        $result_array = array("files" => array());
+
 
      //   echo "HI::";
        // print_r($_FILES['uploadedfile']);
         for ($i = 0; $i < $this -> getAttachCount(); $i++) {
+            $error = "Unknwon Error";
+            $upload_result = false;
 
             if ($_FILES['uploadedfile']['name'][$i] == null) return false;
 //$img_name = $file_name.".".$tmp_img[1];
@@ -34,21 +38,25 @@ $all_result = true;
 
             //파일 사이즈 체크 5M 제한 5M :5242880
             if ($size > 31457280) {
-                ErrorMessage("attach_size_error");
 
+                $error = "attach_size_error";
+            } else {
+                $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'][$i], $target_path);
             }
 
 
-            $upload_result = move_uploaded_file($_FILES['uploadedfile']['tmp_name'][$i], $target_path);
-            if ($upload_result) $result = Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension, $filevalue, $size, $status);
+            if ($upload_result) {
+                $result = Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension, $filevalue, $size, $status);
+                array_push($result_array['files'][0], array("name" => $filename, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "deleteUrl" => getCoreUrl(true) . "$target_path", "deleteType" => "DELETE"));
+            } else {
+                array_push($result_array['files'][0], array("name" => $filename, "size" => $size, "error" => $error));
+            }
         }
 
 
+        return $result_array;
 
-            if($all_result && $result == false) $all_result = false; //not perfectly
 
-        echo $all_result;
-        return $all_result;
     }
 
 

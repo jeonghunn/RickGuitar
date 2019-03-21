@@ -29,7 +29,7 @@ class AttachApiClass{
         $ATTACH_CLASS = new AttachClass();
 
 
-        echo $ATTACH_CLASS->attach_file('square', 0, 0, $user_srl, 0);
+        echo EncodeJson($ATTACH_CLASS->attach_file('square', 0, 0, $user_srl, 0));
 
     }
 
