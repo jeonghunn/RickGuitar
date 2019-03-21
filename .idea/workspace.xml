@@ -84,20 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
-              <caret line="75" selection-start-line="75" selection-end-line="75" />
+              <caret line="75" selection-start-line="75" selection-end-line="75" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -239,8 +239,8 @@
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
-        <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
+        <option value="$PROJECT_DIR$/pages/header.php" />
       </list>
     </option>
   </component>
@@ -370,7 +370,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168394601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168449335" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1021,14 +1021,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="6259000" />
-    </task>
-    <task id="LOCAL-01940" summary="color picker style has been updated.">
-      <created>1552924551345</created>
-      <option name="number" value="01940" />
-      <option name="presentableId" value="LOCAL-01940" />
-      <option name="project" value="LOCAL" />
-      <updated>1552924551345</updated>
+      <workItem from="1553150051625" duration="6313000" />
     </task>
     <task id="LOCAL-01941" summary="new picker has been updated.">
       <created>1552924598562</created>
@@ -1366,11 +1359,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553168349347</updated>
     </task>
-    <option name="localTasksCounter" value="1989" />
+    <task id="LOCAL-01989" summary="jquery update">
+      <created>1553168403003</created>
+      <option name="number" value="01989" />
+      <option name="presentableId" value="LOCAL-01989" />
+      <option name="project" value="LOCAL" />
+      <updated>1553168403003</updated>
+    </task>
+    <option name="localTasksCounter" value="1990" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1337757000" />
+    <option name="totallyTimeSpent" value="1337811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1784,17 +1784,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="75" selection-start-line="75" selection-end-line="75" selection-end-column="48" />
         </state>
       </provider>
     </entry>
