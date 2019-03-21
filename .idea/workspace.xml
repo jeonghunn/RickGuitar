@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="jquery update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,11 +63,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="372" column="28" selection-start-line="372" selection-start-column="22" selection-end-line="372" selection-end-column="28" />
+            <state relative-caret-position="393">
+              <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#7248#7254#1#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="141">
@@ -165,8 +169,8 @@
       <find>setEditor(</find>
       <find>onclick=&quot;setE</find>
       <find>alert('</find>
-      <find>fileupload</find>
       <find>jquery</find>
+      <find>fileupload</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -237,9 +241,9 @@
         <option value="$PROJECT_DIR$/pages/square/controller/square_write.js.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/footer.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
       </list>
     </option>
   </component>
@@ -369,7 +373,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168475681" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553168547116" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1020,14 +1024,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="6340000" />
-    </task>
-    <task id="LOCAL-01942" summary="first card has been updated.">
-      <created>1552924817089</created>
-      <option name="number" value="01942" />
-      <option name="presentableId" value="LOCAL-01942" />
-      <option name="project" value="LOCAL" />
-      <updated>1552924817089</updated>
+      <workItem from="1553150051625" duration="6411000" />
     </task>
     <task id="LOCAL-01943" summary="first card has been updated.">
       <created>1552924937831</created>
@@ -1365,11 +1362,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553168457744</updated>
     </task>
-    <option name="localTasksCounter" value="1991" />
+    <task id="LOCAL-01991" summary="jquery update">
+      <created>1553168481552</created>
+      <option name="number" value="01991" />
+      <option name="presentableId" value="LOCAL-01991" />
+      <option name="project" value="LOCAL" />
+      <updated>1553168481552</updated>
+    </task>
+    <option name="localTasksCounter" value="1992" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1337838000" />
+    <option name="totallyTimeSpent" value="1337909000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1776,13 +1780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="372" column="28" selection-start-line="372" selection-start-column="22" selection-end-line="372" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1794,6 +1791,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="75" column="83" selection-start-line="75" selection-start-column="83" selection-end-line="75" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="164" column="12" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#7248#7254#1#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

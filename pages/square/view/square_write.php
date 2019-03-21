@@ -121,27 +121,30 @@ require_once 'pages/header.php'; ?>
             </div>
             <br>
 
-            <!-- The file upload form used as target for the file upload widget -->
-            <form id="fileupload" action="../server/php/" method="POST" enctype="multipart/form-data">
+            <form id="fileupload" action="https://jquery-file-upload.appspot.com/" method="POST"
+                  enctype="multipart/form-data">
+                <!-- Redirect browsers with JavaScript disabled to the origin page -->
+                <noscript><input type="hidden" name="redirect" value="https://blueimp.github.io/jQuery-File-Upload/">
+                </noscript>
                 <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
                 <div class="row fileupload-buttonbar">
                     <div class="col-lg-7">
                         <!-- The fileinput-button span is used to style the file input field as button -->
                         <span class="btn btn-success fileinput-button">
-                    <i class="icon-plus icon-white"></i>
+                    <i class="glyphicon glyphicon-plus"></i>
                     <span>Add files...</span>
                     <input type="file" name="files[]" multiple>
                 </span>
                         <button type="submit" class="btn btn-primary start">
-                            <i class="icon-upload icon-white"></i>
+                            <i class="glyphicon glyphicon-upload"></i>
                             <span>Start upload</span>
                         </button>
                         <button type="reset" class="btn btn-warning cancel">
-                            <i class="icon-ban-circle icon-white"></i>
+                            <i class="glyphicon glyphicon-ban-circle"></i>
                             <span>Cancel upload</span>
                         </button>
                         <button type="button" class="btn btn-danger delete">
-                            <i class="icon-trash icon-white"></i>
+                            <i class="glyphicon glyphicon-trash"></i>
                             <span>Delete</span>
                         </button>
                         <input type="checkbox" class="toggle">
@@ -149,7 +152,7 @@ require_once 'pages/header.php'; ?>
                         <span class="fileupload-process"></span>
                     </div>
                     <!-- The global progress state -->
-                    <div class="col-lg-5 fileupload-progress">
+                    <div class="col-lg-5 fileupload-progress fade">
                         <!-- The global progress bar -->
                         <div class="progress progress-striped active" role="progressbar" aria-valuemin="0"
                              aria-valuemax="100">
