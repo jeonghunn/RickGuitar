@@ -45,7 +45,7 @@ $all_result = true;
             }
 
 
-            if ($upload_result) {
+            if ($upload_result == true) {
                 $result = Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension, $filevalue, $size, $status);
                 array_push($result_array['files'], array("name" => $filename, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "deleteUrl" => getCoreUrl(true) . "$target_path", "deleteType" => "DELETE"));
             } else {
