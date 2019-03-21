@@ -118,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+            <state relative-caret-position="258">
+              <caret line="41" column="103" selection-start-line="41" selection-start-column="103" selection-end-line="41" selection-end-column="103" />
             </state>
           </provider>
         </entry>
@@ -405,7 +405,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553175876762" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553175948729" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1056,14 +1056,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="12525000" />
-    </task>
-    <task id="LOCAL-01969" summary="added jquery upload library">
-      <created>1553139682775</created>
-      <option name="number" value="01969" />
-      <option name="presentableId" value="LOCAL-01969" />
-      <option name="project" value="LOCAL" />
-      <updated>1553139682775</updated>
+      <workItem from="1553150051625" duration="12596000" />
     </task>
     <task id="LOCAL-01970" summary="url fixed">
       <created>1553140054688</created>
@@ -1401,11 +1394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553175834318</updated>
     </task>
-    <option name="localTasksCounter" value="2018" />
+    <task id="LOCAL-02018" summary="array test">
+      <created>1553175882706</created>
+      <option name="number" value="02018" />
+      <option name="presentableId" value="LOCAL-02018" />
+      <option name="project" value="LOCAL" />
+      <updated>1553175882706</updated>
+    </task>
+    <option name="localTasksCounter" value="2019" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1344023000" />
+    <option name="totallyTimeSpent" value="1344094000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1863,8 +1863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+        <state relative-caret-position="258">
+          <caret line="41" column="103" selection-start-line="41" selection-start-column="103" selection-end-line="41" selection-end-column="103" />
         </state>
       </provider>
     </entry>
