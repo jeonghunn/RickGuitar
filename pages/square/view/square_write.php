@@ -242,6 +242,10 @@ require_once 'pages/header.php'; ?>
 <script src="pages/js/medium-editor.js"></script>
 <script src="pages/js/ColorPicker/pickr.min.js"></script>
 <script src="pages/js/ColorPicker/getColorPicker.js"></script>
+<!-- The Iframe Transport is required for browsers without support for XHR file uploads -->
+<script src="pages/js/jquery.iframe-transport.js"></script>
+<!-- The basic File Upload plugin -->
+<script src="pages/js/jquery.fileupload.js"></script>
 <script>
 
     var cardcount = 1;
