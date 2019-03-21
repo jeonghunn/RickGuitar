@@ -350,7 +350,7 @@ require_once 'pages/header.php'; ?>
         </td>
         <td>
             <p class="name">
-                <a onclick="addAttachToCard('%=file.url%')" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
+                <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
             </p>
             {% if (file.error) { %}
                 <div><span class="error">Error</span> {%=file.error%}</div>
@@ -360,7 +360,8 @@ require_once 'pages/header.php'; ?>
             <span class="size">{%=o.formatFileSize(file.size)%}</span>
         </td>
         <td>
-            <button class="delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}>Delete</button>
+            <button class="btn btn-outline-dark btn-sm delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}>Delete</button>
+           <button class"btn btn-outline-dark btn-sm" onclick="addAttachToCard('%=file.url%')">?php S('select') ?></button>
             <input type="checkbox" name="delete" value="1" class="toggle">
         </td>
     </tr>
