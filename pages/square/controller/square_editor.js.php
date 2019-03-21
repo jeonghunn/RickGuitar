@@ -263,8 +263,8 @@ function removeCard(num) {
 function addAttachToCard(attach) {
     var x = document.createElement('img');
     x.src = attach;
-    document.getElementById('content_' + active_card).focus();
-    insertNodeOverSelection(x, document.getElementById('content_' + active_card));
+    document.getElementById('contents_' + active_card).focus();
+    insertNodeOverSelection(x, document.getElementById('contents_' + active_card));
 }
 
 function insertNodeOverSelection(node, containerNode) {
