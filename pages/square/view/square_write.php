@@ -318,7 +318,7 @@ require_once 'pages/header.php'; ?>
             <span class="preview"></span>
         </td>
         <td>
-            <p class="name">{%=file.name%}</p>
+             <p class="name" style="word-break:break-all;">{%=file.name%}</p>
             <strong class="error"></strong>
         </td>
         <td>
