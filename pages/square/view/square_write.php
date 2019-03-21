@@ -272,7 +272,7 @@ require_once 'pages/header.php'; ?>
                             <button type="submit" class="btn btn-dark start">
                                 <span>Start upload</span>
                             </button>
-                            <button type="reset" class="btn btn-dark cancel">
+                            <button type="reset" class="btn btn-outline-dark cancel">
                                 <i class="glyphicon glyphicon-ban-circle"></i>
                                 <span>Cancel upload</span>
                             </button>

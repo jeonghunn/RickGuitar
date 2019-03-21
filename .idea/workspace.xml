@@ -48,8 +48,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="278" column="77" selection-start-line="278" selection-start-column="77" selection-end-line="278" selection-end-column="77" />
+            <state relative-caret-position="302">
+              <caret line="274" column="76" selection-start-line="274" selection-start-column="76" selection-end-line="274" selection-end-column="76" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1019,21 +1022,7 @@
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
       <workItem from="1553150051625" duration="12596000" />
-      <workItem from="1553181676298" duration="3874000" />
-    </task>
-    <task id="LOCAL-01986" summary="fileuploader js">
-      <created>1553167462678</created>
-      <option name="number" value="01986" />
-      <option name="presentableId" value="LOCAL-01986" />
-      <option name="project" value="LOCAL" />
-      <updated>1553167462678</updated>
-    </task>
-    <task id="LOCAL-01987" summary="jquery downgrade">
-      <created>1553168131047</created>
-      <option name="number" value="01987" />
-      <option name="presentableId" value="LOCAL-01987" />
-      <option name="project" value="LOCAL" />
-      <updated>1553168131047</updated>
+      <workItem from="1553181676298" duration="3961000" />
     </task>
     <task id="LOCAL-01988" summary="jquery update">
       <created>1553168349347</created>
@@ -1364,11 +1353,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553186018418</updated>
     </task>
-    <option name="localTasksCounter" value="2035" />
+    <task id="LOCAL-02035" summary="style update">
+      <created>1553186046882</created>
+      <option name="number" value="02035" />
+      <option name="presentableId" value="LOCAL-02035" />
+      <option name="project" value="LOCAL" />
+      <updated>1553186046882</updated>
+    </task>
+    <task id="LOCAL-02036" summary="style update">
+      <created>1553186106802</created>
+      <option name="number" value="02036" />
+      <option name="presentableId" value="LOCAL-02036" />
+      <option name="project" value="LOCAL" />
+      <updated>1553186106802</updated>
+    </task>
+    <option name="localTasksCounter" value="2037" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1347968000" />
+    <option name="totallyTimeSpent" value="1348055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1822,8 +1825,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="278" column="77" selection-start-line="278" selection-start-column="77" selection-end-line="278" selection-end-column="77" />
+        <state relative-caret-position="302">
+          <caret line="274" column="76" selection-start-line="274" selection-start-column="76" selection-end-line="274" selection-end-column="76" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
