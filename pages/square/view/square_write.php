@@ -259,9 +259,7 @@ require_once 'pages/header.php'; ?>
                 <form id="fileupload" action="https://jquery-file-upload.appspot.com/" method="POST"
                       enctype="multipart/form-data">
                     <!-- Redirect browsers with JavaScript disabled to the origin page -->
-                    <noscript><input type="hidden" name="redirect"
-                                     value="https://blueimp.github.io/jQuery-File-Upload/">
-                    </noscript>
+
                     <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
                     <div class="row fileupload-buttonbar">
                         <div class="col-lg-7">
@@ -269,7 +267,7 @@ require_once 'pages/header.php'; ?>
                             <span class="btn btn-success fileinput-button">
                     <i class="glyphicon glyphicon-plus"></i>
                     <span>Add files...</span>
-                    <input type="file" name="files[]" multiple>
+                    <input type="file" name="uploadedfile[]" multiple>
                 </span>
                             <button type="submit" class="btn btn-primary start">
                                 <i class="glyphicon glyphicon-upload"></i>

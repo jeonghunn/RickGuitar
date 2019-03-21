@@ -22,6 +22,18 @@ class AttachApiClass{
     }
 
 
+    function API_UploadAttach($user_srl)
+    {
+
+        //  $PAGE_CLASS = new PageClass();
+        $ATTACH_CLASS = new AttachClass();
+
+
+        return $ATTACH_CLASS->attach_file('square', 0, 0, $user_srl, 0);
+
+    }
+
+
 
 
 
