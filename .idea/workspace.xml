@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="blueimp add">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="file upload test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
@@ -61,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="120" column="4" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+            <state relative-caret-position="397">
+              <caret line="304" lean-forward="true" selection-start-line="304" selection-end-line="304" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#6991#6997#1#HTML" expanded="true" />
@@ -361,7 +361,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553140524499" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553142209782" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1013,13 +1013,6 @@
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
     </task>
-    <task id="LOCAL-01923" summary="test">
-      <created>1552840472686</created>
-      <option name="number" value="01923" />
-      <option name="presentableId" value="LOCAL-01923" />
-      <option name="project" value="LOCAL" />
-      <updated>1552840472686</updated>
-    </task>
     <task id="LOCAL-01924" summary="test">
       <created>1552840560076</created>
       <option name="number" value="01924" />
@@ -1356,11 +1349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553140318159</updated>
     </task>
-    <option name="localTasksCounter" value="1972" />
+    <task id="LOCAL-01972" summary="file upload test">
+      <created>1553140532202</created>
+      <option name="number" value="01972" />
+      <option name="presentableId" value="LOCAL-01972" />
+      <option name="project" value="LOCAL" />
+      <updated>1553140532202</updated>
+    </task>
+    <option name="localTasksCounter" value="1973" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1329075000" />
+    <option name="totallyTimeSpent" value="1329947000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1469,7 +1469,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="picker array has been updated." />
     <MESSAGE value="variable bug has been fixed." />
     <MESSAGE value="picker has been updated." />
     <MESSAGE value="newpicker has been updated" />
@@ -1494,7 +1493,8 @@
     <MESSAGE value="added jquery upload library" />
     <MESSAGE value="url fixed" />
     <MESSAGE value="blueimp add" />
-    <option name="LAST_COMMIT_MESSAGE" value="blueimp add" />
+    <MESSAGE value="file upload test" />
+    <option name="LAST_COMMIT_MESSAGE" value="file upload test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1762,8 +1762,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="120" column="4" selection-start-line="120" selection-start-column="4" selection-end-line="120" selection-end-column="4" />
+        <state relative-caret-position="397">
+          <caret line="304" lean-forward="true" selection-start-line="304" selection-end-line="304" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#1;n#center#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#6991#6997#1#HTML" expanded="true" />

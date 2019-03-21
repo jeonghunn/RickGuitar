@@ -300,6 +300,7 @@ require_once 'pages/header.php'; ?>
 <script src="pages/js/jquery.fileupload-video.js"></script>
 <!-- The File Upload validation plugin -->
 <script src="pages/js/jquery.fileupload-validate.js"></script>
+<script src="pages/js/upload.js"></script>
 <script>
 
     var cardcount = 1;
