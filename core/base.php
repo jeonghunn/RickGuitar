@@ -59,6 +59,11 @@ function getClientUrl($s)
     return $s ? 'https://' . getClientPUrl() : 'http://' . getClientPUrl();
 }
 
+function getCoreUrl($s)
+{
+    return $s ? 'https://' . getCorePUrl() : 'http://' . getCorePUrl();
+}
+
 //Basic Info
 function getSiteAddress(){
     return "http://s9uare.com/";
