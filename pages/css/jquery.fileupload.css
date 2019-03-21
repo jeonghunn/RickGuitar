@@ -28,6 +28,10 @@
     cursor: pointer;
 }
 
+.template-upload {
+    width: 100%;
+}
+
 /* Fixes for IE < 8 */
 @media screen\9 {
     .fileinput-button input {

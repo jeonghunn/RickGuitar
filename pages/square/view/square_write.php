@@ -257,7 +257,7 @@ require_once 'pages/header.php'; ?>
             <div class="modal-body">
 
                 <form id="fileupload" action="<?php echo getAPIUrlS() . "?a=attach_upload"; ?>" method="POST"
-                      enctype="multipart/form-data">
+                      enctype="multtemplate-uploadipart/form-data">
                     <!-- Redirect browsers with JavaScript disabled to the origin page -->
 
                     <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
