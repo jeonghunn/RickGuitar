@@ -292,3 +292,14 @@ function insertNodeOverSelection(node, containerNode) {
         }
     }
 }
+
+function isOrContainsNode(ancestor, descendant) {
+    var node = descendant;
+    while (node) {
+        if (node === ancestor) {
+            return true;
+        }
+        node = node.parentNode;
+    }
+    return false;
+}
