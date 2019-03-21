@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="square_uploader">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="url bug fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/attach/api/attach.api.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/attach/api/attach.api.class.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_uploader.js.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="117">
@@ -97,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/attach/api/attach.api.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
+            <state relative-caret-position="259">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -243,10 +243,10 @@
         <option value="$PROJECT_DIR$/pages/lang/ko.php" />
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
         <option value="$PROJECT_DIR$/modules/attach/attach.api.php" />
-        <option value="$PROJECT_DIR$/modules/attach/api/attach.api.class.php" />
         <option value="$PROJECT_DIR$/pages/js/fileuploader.js" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" />
+        <option value="$PROJECT_DIR$/modules/attach/api/attach.api.class.php" />
       </list>
     </option>
   </component>
@@ -402,7 +402,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553173998476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553174269681" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1053,14 +1053,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="10702000" />
-    </task>
-    <task id="LOCAL-01959" summary="square write js test">
-      <created>1553062341357</created>
-      <option name="number" value="01959" />
-      <option name="presentableId" value="LOCAL-01959" />
-      <option name="project" value="LOCAL" />
-      <updated>1553062341357</updated>
+      <workItem from="1553150051625" duration="10973000" />
     </task>
     <task id="LOCAL-01960" summary="square_editor.js">
       <created>1553062595556</created>
@@ -1398,11 +1391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553173860908</updated>
     </task>
-    <option name="localTasksCounter" value="2008" />
+    <task id="LOCAL-02008" summary="url bug fix">
+      <created>1553174008920</created>
+      <option name="number" value="02008" />
+      <option name="presentableId" value="LOCAL-02008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553174008920</updated>
+    </task>
+    <option name="localTasksCounter" value="2009" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1342200000" />
+    <option name="totallyTimeSpent" value="1342471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1511,7 +1511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="js code has been refactored." />
     <MESSAGE value="test" />
     <MESSAGE value="modularization" />
     <MESSAGE value="wrong character has been fixed." />
@@ -1536,7 +1535,8 @@
     <MESSAGE value="string bug has been fixed." />
     <MESSAGE value="new api : uploadattach" />
     <MESSAGE value="square_uploader" />
-    <option name="LAST_COMMIT_MESSAGE" value="square_uploader" />
+    <MESSAGE value="url bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="url bug fix" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1809,20 +1809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/attach/attach.api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/attach/api/attach.api.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="31" column="70" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/base.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
@@ -1862,6 +1848,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/attach/attach.api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/attach/api/attach.api.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
