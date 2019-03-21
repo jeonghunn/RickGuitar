@@ -118,19 +118,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="273">
+              <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/lang/en.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="36" column="7" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/modules/attach/model/attach.model.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -172,8 +168,8 @@
       <find>fade</find>
       <find>FileUploaderModal</find>
       <find>api</find>
-      <find>getAttachCount</find>
       <find>write</find>
+      <find>getAttachCount</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -313,6 +309,13 @@
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
               <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="attach" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="square" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -402,7 +405,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553175739109" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553175825746" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1053,14 +1056,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="12388000" />
-    </task>
-    <task id="LOCAL-01967" summary="added jquery upload library">
-      <created>1553139043145</created>
-      <option name="number" value="01967" />
-      <option name="presentableId" value="LOCAL-01967" />
-      <option name="project" value="LOCAL" />
-      <updated>1553139043146</updated>
+      <workItem from="1553150051625" duration="12474000" />
     </task>
     <task id="LOCAL-01968" summary="added jquery upload library">
       <created>1553139636324</created>
@@ -1398,11 +1394,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553175717033</updated>
     </task>
-    <option name="localTasksCounter" value="2016" />
+    <task id="LOCAL-02016" summary="array test">
+      <created>1553175744134</created>
+      <option name="number" value="02016" />
+      <option name="presentableId" value="LOCAL-02016" />
+      <option name="project" value="LOCAL" />
+      <updated>1553175744134</updated>
+    </task>
+    <option name="localTasksCounter" value="2017" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1343886000" />
+    <option name="totallyTimeSpent" value="1343972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1544,9 +1547,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/account/controller/member.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1858,10 +1858,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/attach/model/attach.model.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="273">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
         </state>
       </provider>
     </entry>
