@@ -246,6 +246,16 @@ require_once 'pages/header.php'; ?>
 <script src="pages/js/jquery.iframe-transport.js"></script>
 <!-- The basic File Upload plugin -->
 <script src="pages/js/jquery.fileupload.js"></script>
+<!-- The File Upload processing plugin -->
+<script src="pages/js/jquery.fileupload-process.js"></script>
+<!-- The File Upload image preview & resize plugin -->
+<script src="pages/js/jquery.fileupload-image.js"></script>
+<!-- The File Upload audio preview plugin -->
+<script src="js/jquery.fileupload-audio.js"></script>
+<!-- The File Upload video preview plugin -->
+<script src="js/jquery.fileupload-video.js"></script>
+<!-- The File Upload validation plugin -->
+<script src="js/jquery.fileupload-validate.js"></script>
 <script>
 
     var cardcount = 1;
