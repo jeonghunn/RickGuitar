@@ -8,7 +8,7 @@ class AttachClass{
         $image_path = "files/images/";
         $binaries_path = "files/binaries/";
 $all_result = true;
-
+        print_r($_FILES);
      //   echo "HI::";
        // print_r($_FILES['uploadedfile']);
         echo $this->getAttachCount();
