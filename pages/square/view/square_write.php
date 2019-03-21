@@ -4,7 +4,6 @@ require_once 'pages/header.php'; ?>
 
 <!--ColorPicker Style-->
 <link rel="stylesheet" href="pages/css/jquery.fileupload.css">
-<link rel="stylesheet" href="https://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 <style>
     .colorpicker-2x.colorpicker-with-alpha {
         width: 272px;
@@ -301,7 +300,7 @@ require_once 'pages/header.php'; ?>
 
 <script id="template-upload" type="text/x-tmpl">
 {% for (var i=0, file; file=o.files[i]; i++) { %}
-    <tr class="template-upload fade">
+    <tr class="template-upload animated fade">
         <td>
             <span class="preview"></span>
         </td>
@@ -328,7 +327,7 @@ require_once 'pages/header.php'; ?>
 <!-- The template to display files available for download -->
 <script id="template-download" type="text/x-tmpl">
 {% for (var i=0, file; file=o.files[i]; i++) { %}
-    <tr class="template-download fade">
+    <tr class="template-download animated fade">
         <td>
             <span class="preview">
                 {% if (file.thumbnailUrl) { %}
