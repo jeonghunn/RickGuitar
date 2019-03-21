@@ -256,7 +256,7 @@ require_once 'pages/header.php'; ?>
             </div>
             <div class="modal-body">
 
-                <form id="fileupload" action="https://jquery-file-upload.appspot.com/" method="POST"
+                <form id="fileupload" action="<?php echo getAPIUrlS() . "?a=attach_upload"; ?>" method="POST"
                       enctype="multipart/form-data">
                     <!-- Redirect browsers with JavaScript disabled to the origin page -->
 
