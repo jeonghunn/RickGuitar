@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="new api : uploadattach">
-      <change afterPath="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" afterDir="false" />
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="square_uploader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/js/fileuploader.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/js/fileuploader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="352">
               <caret line="416" column="63" selection-start-line="416" selection-start-column="63" selection-end-line="416" selection-end-column="63" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
@@ -72,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_uploader.js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
+            <state relative-caret-position="117">
+              <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -174,8 +172,8 @@
       <find>openColorPicker</find>
       <find>fade</find>
       <find>FileUploaderModal</find>
-      <find>write</find>
       <find>api</find>
+      <find>write</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -247,8 +245,8 @@
         <option value="$PROJECT_DIR$/modules/attach/attach.api.php" />
         <option value="$PROJECT_DIR$/modules/attach/api/attach.api.class.php" />
         <option value="$PROJECT_DIR$/pages/js/fileuploader.js" />
-        <option value="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
+        <option value="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" />
       </list>
     </option>
   </component>
@@ -404,7 +402,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553173850581" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553173998476" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1055,14 +1053,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="10560000" />
-    </task>
-    <task id="LOCAL-01958" summary="max-width update">
-      <created>1553016033100</created>
-      <option name="number" value="01958" />
-      <option name="presentableId" value="LOCAL-01958" />
-      <option name="project" value="LOCAL" />
-      <updated>1553016033100</updated>
+      <workItem from="1553150051625" duration="10702000" />
     </task>
     <task id="LOCAL-01959" summary="square write js test">
       <created>1553062341357</created>
@@ -1400,11 +1391,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553173594382</updated>
     </task>
-    <option name="localTasksCounter" value="2007" />
+    <task id="LOCAL-02007" summary="square_uploader">
+      <created>1553173860908</created>
+      <option name="number" value="02007" />
+      <option name="presentableId" value="LOCAL-02007" />
+      <option name="project" value="LOCAL" />
+      <updated>1553173860908</updated>
+    </task>
+    <option name="localTasksCounter" value="2008" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1342058000" />
+    <option name="totallyTimeSpent" value="1342200000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1513,7 +1511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="square_editor.js" />
     <MESSAGE value="js code has been refactored." />
     <MESSAGE value="test" />
     <MESSAGE value="modularization" />
@@ -1538,7 +1535,8 @@
     <MESSAGE value="file uploader button" />
     <MESSAGE value="string bug has been fixed." />
     <MESSAGE value="new api : uploadattach" />
-    <option name="LAST_COMMIT_MESSAGE" value="new api : uploadattach" />
+    <MESSAGE value="square_uploader" />
+    <option name="LAST_COMMIT_MESSAGE" value="square_uploader" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1849,21 +1847,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_uploader.js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="63" selection-start-line="48" selection-start-column="63" selection-end-line="48" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="352">
           <caret line="416" column="63" selection-start-line="416" selection-start-column="63" selection-end-line="416" selection-end-column="63" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
             <element signature="e#13254#13260#1#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_uploader.js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="36" column="64" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
         </state>
       </provider>
     </entry>

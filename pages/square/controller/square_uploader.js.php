@@ -34,7 +34,7 @@ $(function () {
 
     // Demo settings:
     $('#fileupload').fileupload('option', {
-        url: '//jquery-file-upload.appspot.com/',
+        url: '<?php echo getAPIUrlS() . "?a=attach_upload"; ?>',
         // Enable image resizing, except for Android and Opera,
         // which actually support image resizing, but fail to
         // send Blob objects via XHR requests:
