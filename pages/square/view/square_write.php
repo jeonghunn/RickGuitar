@@ -3,6 +3,7 @@ require_once 'pages/square/square.loader.php';
 require_once 'pages/header.php'; ?>
 
 <!--ColorPicker Style-->
+<link rel="stylesheet" href="pages/css/jquery.fileupload.css">
 <style>
     .colorpicker-2x.colorpicker-with-alpha {
         width: 272px;

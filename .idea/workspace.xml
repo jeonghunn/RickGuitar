@@ -75,8 +75,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="381" column="84" selection-start-line="381" selection-start-column="84" selection-end-line="381" selection-end-column="84" />
+            <state relative-caret-position="75">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -367,7 +367,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553165482744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553165616825" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1018,14 +1018,7 @@
       <workItem from="1553008924836" duration="5269000" />
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
-      <workItem from="1553150051625" duration="3857000" />
-    </task>
-    <task id="LOCAL-01932" summary="variable bug has been fixed.">
-      <created>1552923630552</created>
-      <option name="number" value="01932" />
-      <option name="presentableId" value="LOCAL-01932" />
-      <option name="project" value="LOCAL" />
-      <updated>1552923630552</updated>
+      <workItem from="1553150051625" duration="3990000" />
     </task>
     <task id="LOCAL-01933" summary="test">
       <created>1552923722574</created>
@@ -1363,11 +1356,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553165369818</updated>
     </task>
-    <option name="localTasksCounter" value="1981" />
+    <task id="LOCAL-01981" summary="script update">
+      <created>1553165491282</created>
+      <option name="number" value="01981" />
+      <option name="presentableId" value="LOCAL-01981" />
+      <option name="project" value="LOCAL" />
+      <updated>1553165491282</updated>
+    </task>
+    <option name="localTasksCounter" value="1982" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1335355000" />
+    <option name="totallyTimeSpent" value="1335488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1403,7 +1403,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.5944206" visible="true" weight="0.2771739" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5944206" visible="true" weight="0.2771739" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4914163" weight="0.32469305" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1421,8 +1421,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
       <window_info anchor="right" id="Designer" order="11" />
       <window_info anchor="right" id="Data View" order="12" />
-      <window_info anchor="right" id="SciView" order="13" weight="0.69011974" />
-      <window_info anchor="right" id="Maven" order="14" visible="true" weight="0.021459227" />
+      <window_info anchor="right" id="SciView" order="13" weight="0.68955654" />
+      <window_info active="true" anchor="right" id="Maven" order="14" visible="true" weight="0.021459227" />
     </layout>
     <layout-to-restore>
       <window_info id="UI Designer" order="0" />
@@ -1781,8 +1781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="381" column="84" selection-start-line="381" selection-start-column="84" selection-end-line="381" selection-end-column="84" />
+        <state relative-caret-position="75">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>
