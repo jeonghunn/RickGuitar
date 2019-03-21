@@ -25,7 +25,7 @@ $all_result = true;
             $filevalue = getTimeStamp() . '-' . GenerateString(10);
             $size = $_FILES['uploadedfile']["size"][$i];
 //Check jpg image
-            if ($extension == "jpg" || $extension == "jpeg") {
+            if ($extension == "jpg" || $extension == "jpeg" || $extension == "png") {
                 $filename = $filevalue;
                 $kind = "image";
                 $img_name = $filename . "." . $extension;
