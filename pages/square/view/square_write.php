@@ -114,7 +114,7 @@ require_once 'pages/header.php'; ?>
                 <!--                </button>-->
 
                 <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"
-                        data-target="#FileUploaderMoal"><span
+                        data-target="#FileUploaderModal"><span
                             class="oi oi-data-transfer-upload"></span>
                 </button>
 
