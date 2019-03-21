@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="url call bug has been fixed">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="function bug has been fixed.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/attach/controller/attach.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/attach/controller/attach.class.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,20 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="49" column="168" selection-start-line="49" selection-start-column="168" selection-end-line="49" selection-end-column="168" />
+            <state relative-caret-position="524">
+              <caret line="49" selection-start-line="49" selection-end-line="50" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="738">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
             </state>
           </provider>
         </entry>
@@ -235,8 +234,8 @@
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" />
         <option value="$PROJECT_DIR$/modules/attach/api/attach.api.class.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/modules/attach/controller/attach.class.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
       </list>
     </option>
   </component>
@@ -994,21 +993,7 @@
       <workItem from="1553062220669" duration="2801000" />
       <workItem from="1553098452736" duration="565000" />
       <workItem from="1553150051625" duration="12596000" />
-      <workItem from="1553181676298" duration="2725000" />
-    </task>
-    <task id="LOCAL-01976" summary="script update">
-      <created>1553157526147</created>
-      <option name="number" value="01976" />
-      <option name="presentableId" value="LOCAL-01976" />
-      <option name="project" value="LOCAL" />
-      <updated>1553157526148</updated>
-    </task>
-    <task id="LOCAL-01977" summary="script update">
-      <created>1553159145083</created>
-      <option name="number" value="01977" />
-      <option name="presentableId" value="LOCAL-01977" />
-      <option name="project" value="LOCAL" />
-      <updated>1553159145084</updated>
+      <workItem from="1553181676298" duration="2845000" />
     </task>
     <task id="LOCAL-01978" summary="script update">
       <created>1553163037332</created>
@@ -1339,11 +1324,25 @@
       <option name="project" value="LOCAL" />
       <updated>1553184596253</updated>
     </task>
-    <option name="localTasksCounter" value="2025" />
+    <task id="LOCAL-02025" summary="development mode">
+      <created>1553184902865</created>
+      <option name="number" value="02025" />
+      <option name="presentableId" value="LOCAL-02025" />
+      <option name="project" value="LOCAL" />
+      <updated>1553184902865</updated>
+    </task>
+    <task id="LOCAL-02026" summary="function bug has been fixed.">
+      <created>1553184946276</created>
+      <option name="number" value="02026" />
+      <option name="presentableId" value="LOCAL-02026" />
+      <option name="project" value="LOCAL" />
+      <updated>1553184946276</updated>
+    </task>
+    <option name="localTasksCounter" value="2027" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1346819000" />
+    <option name="totallyTimeSpent" value="1346939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1452,8 +1451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added jquery upload library" />
-    <MESSAGE value="url fixed" />
     <MESSAGE value="blueimp add" />
     <MESSAGE value="file upload test" />
     <MESSAGE value="script update" />
@@ -1477,7 +1474,9 @@
     <MESSAGE value="attach return" />
     <MESSAGE value="png support" />
     <MESSAGE value="url call bug has been fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="url call bug has been fixed" />
+    <MESSAGE value="development mode" />
+    <MESSAGE value="function bug has been fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="function bug has been fixed." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1788,17 +1787,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
+    <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="524">
+          <caret line="49" selection-start-line="49" selection-end-line="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/attach/controller/attach.class.php">
+    <entry file="file://$PROJECT_DIR$/core/base.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="49" column="168" selection-start-line="49" selection-start-column="168" selection-end-line="49" selection-end-column="168" />
+        <state relative-caret-position="738">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>

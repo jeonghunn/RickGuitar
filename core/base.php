@@ -68,10 +68,6 @@ function getAPIAddress(){
     return "http://s9uare.com/api.php";
 }
 
-function getCorePUrl()
-{
-    return isDevelopmentServer() ? "unopenedbox.com/develop/square/" : "s9uare.com/";
-}
 
 
 function getIPAddr(){
