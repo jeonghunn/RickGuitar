@@ -79,6 +79,21 @@ $all_result = true;
         return count($_FILES['uploadedfile']['name']);;
     }
 
+    function makeDownloadLink($file_category, $name, $filevalue)
+    {
+        $image_path = "files/images/";
+        $binaries_path = "files/binaries/";
+
+
+        if ($file_category == "image") {
+            //Image
+            // return getCoreUrl(true) . "$target_path";
+        } else {
+            //Binary
+
+        }
+    }
+
     function attach_read(  $user_srl, $category ,$doc_srl, $doc_status, $info)
     {
        // $status = $DOCUMENT_CLASS -> getDocStatus($PAGE_CLASS, $user_srl, $doc_srl);

@@ -263,6 +263,8 @@ function removeCard(num) {
 
 
 function addAttachToCard(attach) {
+
+
     var x = document.createElement('img');
     x.src = attach;
     document.getElementById('contents_' + active_card).focus();
