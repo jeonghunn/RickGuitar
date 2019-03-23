@@ -341,6 +341,9 @@ require_once 'pages/header.php'; ?>
 <script id="template-download" type="text/x-tmpl">
 {% for (var i=0, file; file=o.files[i]; i++) { %}
     <tr class="template-download animated fadeIn">
+    <td>
+    <input type="checkbox" name="delete" value="1" class="toggle">
+    </td>
         <td>
             <span class="preview">
                 {% if (file.thumbnailUrl) { %}
@@ -349,7 +352,7 @@ require_once 'pages/header.php'; ?>
             </span>
         </td>
         <td>
-            <input type="checkbox" name="delete" value="1" class="toggle">
+
             <p class="name" style="word-break:break-all;">
                 <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
             </p>
