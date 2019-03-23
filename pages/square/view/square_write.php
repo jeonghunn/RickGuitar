@@ -364,7 +364,7 @@ require_once 'pages/header.php'; ?>
             <span class="size">{%=o.formatFileSize(file.size)%}</span>
         </td>
         <td>
-            <button class="btn btn-outline-dark btn-sm delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":false}'{% } %}>Delete</button>
+            <button class="btn btn-outline-dark btn-sm delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}>Delete</button>
            <button type="button" class="btn btn-dark btn-sm select" onclick="addAttachToCard('{%=file.url%}')"><?php S('select') ?></button>
 
         </td>
