@@ -61,7 +61,7 @@ $all_result = true;
             if ($upload_result == true) {
                 $result = Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension, $filevalue, $size, $status);
 
-                array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getCoreUrl(true) . "$target_path", "deleteType" => "DELETE"));
+                array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getAPIUrlS() . "?a=attach_delete&name=" . $filename . "." . $extension, "deleteType" => "DELETE"));
 
             } else {
                 array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "error" => $error));
@@ -77,6 +77,21 @@ $all_result = true;
 
     function getAttachCount(){
         return count($_FILES['uploadedfile']['name']);;
+    }
+
+    function makeDownloadLink($file_category, $name, $filevalue)
+    {
+        $image_path = "files/images/";
+        $binaries_path = "files/binaries/";
+
+
+        if ($file_category == "image") {
+            //Image
+            // return getCoreUrl(true) . "$target_path";
+        } else {
+            //Binary
+
+        }
     }
 
     function attach_read(  $user_srl, $category ,$doc_srl, $doc_status, $info)
@@ -101,6 +116,12 @@ $all_result = true;
 
 
         return $array;
+    }
+
+    function deleteAttach($name)
+    {
+        $result_array = array("files" => array(array($name => true)));
+        return $result_array;
     }
 
     function getDownloadUrl($kind, $filevalue, $extentsion){

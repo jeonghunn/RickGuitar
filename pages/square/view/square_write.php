@@ -341,6 +341,9 @@ require_once 'pages/header.php'; ?>
 <script id="template-download" type="text/x-tmpl">
 {% for (var i=0, file; file=o.files[i]; i++) { %}
     <tr class="template-download animated fadeIn">
+    <td>
+    <input type="checkbox" name="delete" value="1" class="toggle">
+    </td>
         <td>
             <span class="preview">
                 {% if (file.thumbnailUrl) { %}
@@ -349,6 +352,7 @@ require_once 'pages/header.php'; ?>
             </span>
         </td>
         <td>
+
             <p class="name" style="word-break:break-all;">
                 <a href="{%=file.url%}" title="{%=file.name%}" download="{%=file.name%}" {%=file.thumbnailUrl?'data-gallery':''%}>{%=file.name%}</a>
             </p>
@@ -362,7 +366,7 @@ require_once 'pages/header.php'; ?>
         <td>
             <button class="btn btn-outline-dark btn-sm delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}>Delete</button>
            <button type="button" class="btn btn-dark btn-sm select" onclick="addAttachToCard('{%=file.url%}')"><?php S('select') ?></button>
-            <input type="checkbox" name="delete" value="1" class="toggle">
+
         </td>
     </tr>
 {% } %}

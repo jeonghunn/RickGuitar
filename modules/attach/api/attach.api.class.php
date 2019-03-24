@@ -34,6 +34,15 @@ class AttachApiClass{
     }
 
 
+    function API_DeleteAttach($user_srl)
+    {
+
+        $ATTACH_CLASS = new AttachClass();
+        $name = REQUEST('name');
+
+        echo EncodeJson($ATTACH_CLASS->deleteAttach($name));
+    }
+
 
 
 

@@ -2,12 +2,12 @@
 
 
 function getCoreVersion(){
-    return "3.16.323";
+    return "3.16.324";
 }
 
 function isDevelopmentMode()
 {
-    return true;
+    return false;
 }
 
 
@@ -42,6 +42,13 @@ function getAPIUrl()
 function getAPIUrlS()
 {
     return getCoreUrl(isSecure()) . "api.php";
+}
+
+function isSecure()
+{
+    return
+        (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off')
+        || $_SERVER['SERVER_PORT'] == 443;
 }
 
 function getAPISUrl()
