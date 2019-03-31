@@ -272,7 +272,7 @@ function addAttachToCard(attach, size, name) {
         insertNodeOverSelection(x, document.getElementById('contents_' + active_card));
 
     } else {
-        //   $('#contents_' + active_card).append('<div class="card"><div class="card-body"><h5 class="card-title">Card title</h5><p>size</p><a href="#" class="card-link">Download</a></div></div>');
+        $('#contents_' + active_card).append('<div class="card"><div class="card-body"><h5 class="card-title">Card title</h5><p>size</p><a href="#" class="card-link">Download</a></div></div>');
 
 
         document.getElementById('contents_' + active_card).focus();
