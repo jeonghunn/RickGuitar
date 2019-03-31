@@ -20,6 +20,7 @@ class SquareClass
         $contents = str_replace("]}", ">", $contents);
         $contents = str_replace("{[/", "</", $contents);
         $contents = str_replace("{[br", "<br", $contents);
+        $contents = str_replace("{[div", "<div", $contents);
         $contents = str_replace("{[span", "<span", $contents);
         $contents = str_replace("{[font", "<font", $contents);
         $contents = str_replace("{[h", "<h", $contents);
