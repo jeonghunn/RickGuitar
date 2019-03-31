@@ -61,7 +61,12 @@ $all_result = true;
             if ($upload_result == true) {
                 $result = Model_Attach_addAttch($page_srl, $category, $doc_srl, $user_srl, $kind, $filename, $extension, $filevalue, $size, $status);
 
-                array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getAPIUrlS() . "?a=attach_delete&name=" . $filename . "." . $extension, "deleteType" => "DELETE"));
+                if ($kind == "image") {
+                    array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getAPIUrlS() . "?a=attach_delete&name=" . $filename . "." . $extension, "deleteType" => "DELETE"));
+                } else {
+                    //bin
+                    array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "url" => getCoreUrl(true) . "?a=attach_download&filevalue=" . "$filevalue", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getAPIUrlS() . "?a=attach_delete&name=" . $filename . "." . $extension, "deleteType" => "DELETE"));
+                }
 
             } else {
                 array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "error" => $error));
