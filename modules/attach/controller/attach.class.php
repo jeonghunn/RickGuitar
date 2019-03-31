@@ -65,7 +65,7 @@ $all_result = true;
                     array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "url" => getCoreUrl(true) . "$target_path", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getAPIUrlS() . "?a=attach_delete&name=" . $filename . "." . $extension, "deleteType" => "DELETE"));
                 } else {
                     //bin
-                    array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "url" => getCoreUrl(true) . "?a=attach_download&filevalue=" . "$filevalue", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getAPIUrlS() . "?a=attach_delete&name=" . $filename . "." . $extension, "deleteType" => "DELETE"));
+                    array_push($result_array['files'], array("name" => $filename . "." . $extension, "size" => $size, "url" => getAPISUrl() . "?a=attach_download&filevalue=" . "$filevalue", "thumbnailUrl" => $thumbnail_file, "deleteUrl" => getAPIUrlS() . "?a=attach_delete&name=" . $filename . "." . $extension, "deleteType" => "DELETE"));
                 }
 
             } else {
