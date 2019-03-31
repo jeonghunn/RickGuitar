@@ -4,7 +4,6 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="binary upload test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="367" column="157" selection-start-line="367" selection-start-column="157" selection-end-line="367" selection-end-column="157" />
+            <state relative-caret-position="400">
+              <caret line="368" lean-forward="true" selection-start-line="368" selection-end-line="368" />
             </state>
           </provider>
         </entry>
@@ -64,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="264" column="46" lean-forward="true" selection-start-line="264" selection-start-column="46" selection-end-line="264" selection-end-column="46" />
+            <state relative-caret-position="199">
+              <caret line="267" column="72" selection-start-line="267" selection-start-column="72" selection-end-line="267" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -239,8 +238,8 @@
         <option value="$PROJECT_DIR$/pages/square/controller/square_uploader.js.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/modules/attach/controller/attach.class.php" />
-        <option value="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
+        <option value="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" />
       </list>
     </option>
   </component>
@@ -396,7 +395,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554053013601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554053072506" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1053,14 +1052,7 @@
       <workItem from="1553354344689" duration="38000" />
       <workItem from="1553354981607" duration="3341000" />
       <workItem from="1553524585360" duration="498000" />
-      <workItem from="1554043678446" duration="3431000" />
-    </task>
-    <task id="LOCAL-02026" summary="function bug has been fixed.">
-      <created>1553184946276</created>
-      <option name="number" value="02026" />
-      <option name="presentableId" value="LOCAL-02026" />
-      <option name="project" value="LOCAL" />
-      <updated>1553184946276</updated>
+      <workItem from="1554043678446" duration="3490000" />
     </task>
     <task id="LOCAL-02027" summary="function bug has been fixed.">
       <created>1553185013344</created>
@@ -1398,11 +1390,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554052976125</updated>
     </task>
-    <option name="localTasksCounter" value="2075" />
+    <task id="LOCAL-02075" summary="binary upload test">
+      <created>1554053021327</created>
+      <option name="number" value="02075" />
+      <option name="presentableId" value="LOCAL-02075" />
+      <option name="project" value="LOCAL" />
+      <updated>1554053021327</updated>
+    </task>
+    <option name="localTasksCounter" value="2076" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1360258000" />
+    <option name="totallyTimeSpent" value="1360317000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1840,6 +1839,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="368" lean-forward="true" selection-start-line="368" selection-end-line="368" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-184">
@@ -1849,15 +1855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="264" column="46" lean-forward="true" selection-start-line="264" selection-start-column="46" selection-end-line="264" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="367" column="157" selection-start-line="367" selection-start-column="157" selection-end-line="367" selection-end-column="157" />
+        <state relative-caret-position="199">
+          <caret line="267" column="72" selection-start-line="267" selection-start-column="72" selection-end-line="267" selection-end-column="72" />
         </state>
       </provider>
     </entry>

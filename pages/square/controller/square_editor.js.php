@@ -265,7 +265,7 @@ function removeCard(num) {
 function addAttachToCard(attach, size, name) {
 
 
-    if (name.contains(".jpg") || name.contains(".jpeg") || name.contains(".png")) {
+    if (name.includes(".jpg") || name.includes(".jpeg") || name.includes(".png")) {
         var x = document.createElement('img');
         x.src = attach;
         document.getElementById('contents_' + active_card).focus();
