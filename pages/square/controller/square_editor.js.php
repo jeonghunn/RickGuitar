@@ -262,16 +262,33 @@ function removeCard(num) {
 }
 
 
-function addAttachToCard(attach) {
+function addAttachToCard(attach, size, name) {
 
 
-    var x = document.createElement('img');
-    x.src = attach;
-    document.getElementById('contents_' + active_card).focus();
-    insertNodeOverSelection(x, document.getElementById('contents_' + active_card));
+    if (name.contains(".jpg") || name.contains(".jpeg") || name.contains(".png")) {
+        var x = document.createElement('img');
+        x.src = attach;
+        document.getElementById('contents_' + active_card).focus();
+        insertNodeOverSelection(x, document.getElementById('contents_' + active_card));
+
+    } else {
+        $('#contents_' + active_card).append('<div class="card" style="width: 18rem;">\n' +
+            '  <div class="card-body">\n' +
+            '    <h5 class="card-title">Card title</h5>\n' +
+            '    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>\n' +
+            '    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card\'s content.</p>\n' +
+            '    <a href="#" class="card-link">Card link</a>\n' +
+            '    <a href="#" class="card-link">Another link</a>\n' +
+            '  </div>\n' +
+            '</div>');
+
+
+        document.getElementById('contents_' + active_card).focus();
+
+    }
     $('#FileUploaderModal').modal('hide');
-}
 
+}
 function insertNodeOverSelection(node, containerNode) {
     var sel, range, html, str;
 
