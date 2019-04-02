@@ -79,6 +79,10 @@ class SquareClass
             $customstyle = $customstyle . " background-color : " . $background . ";";
         }
 
+        if (startsWith($background, "http")) {
+            $customstyle = $customstyle . " background-image : url('" . $background . "'); background-size: contain;";
+        }
+
         $style_result = 'style="' . $customstyle . '" class="' . $class_result . '"';
 
         return $style_result;
