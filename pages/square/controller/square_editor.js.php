@@ -75,7 +75,7 @@ function cloadCardBacgroundModal() {
 function setCardStyle(num, style, background) {
 
     if (background.startsWith("#")) {
-        document.getElementById("contents_" + num).style = "background-color : " + background;
+        document.getElementById("contents_" + num).style = "background-color : url('" + background + "')";
         document.getElementById("background_" + num).value = background;
     } else {
         document.getElementById("contents_" + num).style = "background-image : " + background;
