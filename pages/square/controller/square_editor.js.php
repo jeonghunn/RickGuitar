@@ -77,7 +77,13 @@ function setCardStyle(num, style, background) {
     if (background.startsWith("#")) {
         document.getElementById("contents_" + num).style = "background-color : " + background;
         document.getElementById("background_" + num).value = background;
+    } else {
+        document.getElementById("contents_" + num).style = "background-image : " + background;
+        document.getElementById("background_" + num).value = background;
+
     }
+
+
 }
 
 
@@ -283,7 +289,7 @@ function addAttachToCard(attach, size, name) {
     }
 
     if (file_uploader_mode == "card_background") {
-        document.getElementById('background_' + active_card).value = attach;
+        setCardStyle(active_card, null, attach);
         //  document.getElementById('contents_' + active_card)
         document.getElementById('contents_' + active_card).focus();
     }
