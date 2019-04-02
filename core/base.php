@@ -7,7 +7,7 @@ function getCoreVersion(){
 
 function isDevelopmentMode()
 {
-    return false;
+    return true;
 }
 
 
