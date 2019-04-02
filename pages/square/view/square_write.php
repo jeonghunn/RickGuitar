@@ -188,10 +188,14 @@ require_once 'pages/header.php'; ?>
             </div>
             <div class="modal-body">
 
-                <h3>카드 배경을 사진으로 지정</h3>
+                <div class="jumbotron">
+                    <h3 class="display-4">카드 배경을 사진으로 지정</h3>
+                </div>
 
-                <h3>카드 배경을 색상으로 지정</h3>
-                <div id="cp1" data-color="#6D2781">
+                <div class="jumbotron">
+                    <h3 class="display-4">카드 배경을 색상으로 지정</h3>
+
+                    <div id="cp1" data-color="#6D2781">
                     <input type="text" id="selected_color" class="form-control" style="width:auto"/> <br>
 
                 </div>
@@ -236,6 +240,8 @@ require_once 'pages/header.php'; ?>
 
 
                 </script>
+            </div>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal"
