@@ -78,7 +78,7 @@ function setCardStyle(num, style, background) {
         document.getElementById("contents_" + num).style = "background-color : " + background;
         document.getElementById("background_" + num).value = background;
     } else {
-        document.getElementById("contents_" + num).style = "background-image : url('" + background + "')";
+        document.getElementById("contents_" + num).style = "background-image : url('" + background + "'); background-size: contain;";
         document.getElementById("background_" + num).value = background;
 
     }
