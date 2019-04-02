@@ -52,7 +52,7 @@ $(function () {
 
 
 function setCardBackgroundColor(cardnum, color) {
-    closeColorPickerModal();
+    cloadCardBacgroundModal();
     document.getElementById("contents_" + cardnum).style = "background-color : " + color;
     document.getElementById("background_" + cardnum).value = color;
 
@@ -67,8 +67,8 @@ function openColorPicker(index) {
     }
 }
 
-function closeColorPickerModal() {
-    $('#ColorPickerModal').modal('hide');
+function cloadCardBacgroundModal() {
+    $('#CardBackgroundModal').modal('hide');
 }
 
 
@@ -130,7 +130,7 @@ function addCard() {
         '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
         '  <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"\n' +
         '                        data-target="#FileUploaderModal"><span class="oi oi-data-transfer-upload"></span></button>' +
-        '              <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"  data-target="#ColorPickerModal"><span class="oi oi-image"></span></button>' +
+        '              <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"  data-target="#CardBackgroundModal"><span class="oi oi-image"></span></button>' +
 
         '            </div>\n' +
         '            <div class="btn-group btn-group" role="group" aria-label="4 group">\n' +
@@ -264,20 +264,31 @@ function removeCard(num) {
 
 function addAttachToCard(attach, size, name) {
 
+    //Normal Mode
+    if (file_uploader_mode == "0") {
 
-    if (name.includes(".jpg") || name.includes(".jpeg") || name.includes(".png")) {
-        var x = document.createElement('img');
-        x.src = attach;
-        document.getElementById('contents_' + active_card).focus();
-        insertNodeOverSelection(x, document.getElementById('contents_' + active_card));
+        if (name.includes(".jpg") || name.includes(".jpeg") || name.includes(".png")) {
+            var x = document.createElement('img');
+            x.src = attach;
+            document.getElementById('contents_' + active_card).focus();
+            insertNodeOverSelection(x, document.getElementById('contents_' + active_card));
 
-    } else {
-        $('#contents_' + active_card).append('<div class="card"><div class="card-body"><h5 class="card-title">' + name + '</h5><p>' + size + '</p><a href="' + attach + '" class="card-link">Download</a></div></div>');
+        } else {
+            $('#contents_' + active_card).append('<div class="card"><div class="card-body"><h5 class="card-title">' + name + '</h5><p>' + size + '</p><a href="' + attach + '" class="card-link">Download</a></div></div>');
 
 
-        document.getElementById('contents_' + active_card).focus();
+            document.getElementById('contents_' + active_card).focus();
 
+        }
     }
+
+    if (file_uploader_mode == "card_background") {
+        document.getElementById('background' + active_card).value = attach;
+        //  document.getElementById('contents_' + active_card)
+        document.getElementById('contents_' + active_card).focus();
+    }
+
+
     $('#FileUploaderModal').modal('hide');
 
 }
@@ -319,6 +330,7 @@ function isOrContainsNode(ancestor, descendant) {
 }
 
 function openFileUploader(from) {
+    file_uploader_mode = from;
     $('#CardBackgroundModal').modal('hide');
     $('#FileUploaderModal').modal('show');
 }

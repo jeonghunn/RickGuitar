@@ -11,6 +11,12 @@
 
 /* global $, window */
 
+$('#FileUploaderModal').on('hide.bs.modal', function (e) {
+    // do something...
+    file_uploader_mode = "0";
+})
+
+
 $(function () {
     'use strict';
 

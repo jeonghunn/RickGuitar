@@ -190,7 +190,7 @@ require_once 'pages/header.php'; ?>
 
                 <div class="jumbotron">
                     <h3>카드 배경을 사진으로 지정</h3>
-                    <button class="btn btn-dark" onclick="openFileUploader(3)" role="button">사진
+                    <button class="btn btn-dark" onclick="openFileUploader('card_background')" role="button">사진
                         업로드
                     </button>
                 </div>
@@ -425,6 +425,7 @@ require_once 'pages/header.php'; ?>
     var submitted = false;
     var editor = null;
     var picker = new Array();
+    var file_uploader_mode = "0";
 
     <?php require_once 'pages/square/controller/square_write.js.php'; ?>
     <?php require_once 'pages/square/controller/square_editor.js.php'; ?>
