@@ -80,7 +80,7 @@ class SquareClass
         }
 
         if (startsWith($background, "http")) {
-            $customstyle = $customstyle . " background-image : url('" . $background . "'); background-size: contain;";
+            $customstyle = $customstyle . " background-image : url('" . $background . "'); background-size: 100% 100%;";
         }
 
         $style_result = 'style="' . $customstyle . '" class="' . $class_result . '"';
