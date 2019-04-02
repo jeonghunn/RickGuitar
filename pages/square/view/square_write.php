@@ -176,7 +176,7 @@ require_once 'pages/header.php'; ?>
 
 
 <!-- Card Background ColorPicker Modal -->
-<div class="modal fade" id="ColorPickerModal" tabindex="-1" role="dialog" aria-labelledby="ColorPickerModal"
+<div class="modal fade" id="ColorPickerModal" tabindex="100" role="dialog" aria-labelledby="ColorPickerModal"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
