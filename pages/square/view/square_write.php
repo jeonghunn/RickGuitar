@@ -190,6 +190,7 @@ require_once 'pages/header.php'; ?>
 
                 <div class="jumbotron">
                     <h3>카드 배경을 사진으로 지정</h3>
+                    <a class="btn btn-primary" href="#" role="button">사진 업로드</a>
                 </div>
 
                 <div class="jumbotron">
