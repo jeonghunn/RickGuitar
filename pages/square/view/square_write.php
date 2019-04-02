@@ -175,7 +175,7 @@ require_once 'pages/header.php'; ?>
     </div> <!-- /container -->
 
 
-<!-- ColorPicker Modal -->
+<!-- Card Background ColorPicker Modal -->
 <div class="modal fade" id="ColorPickerModal" tabindex="-1" role="dialog" aria-labelledby="ColorPickerModal"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -187,6 +187,10 @@ require_once 'pages/header.php'; ?>
                 </button>
             </div>
             <div class="modal-body">
+
+                <h3>카드 배경을 사진으로 지정</h3>
+
+                <h3>카드 배경을 색상으로 지정</h3>
                 <div id="cp1" data-color="#6D2781">
                     <input type="text" id="selected_color" class="form-control" style="width:auto"/> <br>
 
