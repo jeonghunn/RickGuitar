@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="183" column="93" selection-start-line="183" selection-start-column="93" selection-end-line="183" selection-end-column="93" />
+            <state relative-caret-position="198">
+              <caret line="192" column="76" selection-start-line="192" selection-start-column="76" selection-end-line="192" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -137,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>activeCard</find>
       <find>require</find>
       <find>setEditor(</find>
       <find>onclick=&quot;setE</find>
@@ -167,6 +166,7 @@
       <find>img</find>
       <find>addAttachToCard</find>
       <find>ColorPickerModal</find>
+      <find>#FileUploaderModal</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -1054,21 +1054,7 @@
       <workItem from="1553524585360" duration="498000" />
       <workItem from="1554043678446" duration="5319000" />
       <workItem from="1554133410916" duration="14000" />
-      <workItem from="1554219145277" duration="634000" />
-    </task>
-    <task id="LOCAL-02037" summary="style update">
-      <created>1553186134276</created>
-      <option name="number" value="02037" />
-      <option name="presentableId" value="LOCAL-02037" />
-      <option name="project" value="LOCAL" />
-      <updated>1553186134276</updated>
-    </task>
-    <task id="LOCAL-02038" summary="style update">
-      <created>1553186208296</created>
-      <option name="number" value="02038" />
-      <option name="presentableId" value="LOCAL-02038" />
-      <option name="project" value="LOCAL" />
-      <updated>1553186208296</updated>
+      <workItem from="1554219145277" duration="724000" />
     </task>
     <task id="LOCAL-02039" summary="style update">
       <created>1553186272286</created>
@@ -1399,11 +1385,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554219806628</updated>
     </task>
-    <option name="localTasksCounter" value="2086" />
+    <task id="LOCAL-02086" summary="style update">
+      <created>1554219862196</created>
+      <option name="number" value="02086" />
+      <option name="presentableId" value="LOCAL-02086" />
+      <option name="project" value="LOCAL" />
+      <updated>1554219862196</updated>
+    </task>
+    <task id="LOCAL-02087" summary="style update">
+      <created>1554219872972</created>
+      <option name="number" value="02087" />
+      <option name="presentableId" value="LOCAL-02087" />
+      <option name="project" value="LOCAL" />
+      <updated>1554219872973</updated>
+    </task>
+    <option name="localTasksCounter" value="2088" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1362794000" />
+    <option name="totallyTimeSpent" value="1362884000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1857,8 +1857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="183" column="93" selection-start-line="183" selection-start-column="93" selection-end-line="183" selection-end-column="93" />
+        <state relative-caret-position="198">
+          <caret line="192" column="76" selection-start-line="192" selection-start-column="76" selection-end-line="192" selection-end-column="76" />
         </state>
       </provider>
     </entry>
