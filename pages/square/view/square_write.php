@@ -119,7 +119,7 @@ require_once 'pages/header.php'; ?>
                 </button>
 
                 <button type="button" class="btn btn btn-outline-secondary" data-toggle="modal"
-                        data-target="#ColorPickerModal"><span
+                        data-target="#CardBackgroundModal"><span
                             class="oi oi-image"></span>
                 </button>
 
@@ -176,7 +176,7 @@ require_once 'pages/header.php'; ?>
 
 
 <!-- Card Background ColorPicker Modal -->
-<div class="modal fade" id="ColorPickerModal" tabindex="100" role="dialog" aria-labelledby="ColorPickerModal"
+<div class="modal fade" id="CardBackgroundModal" tabindex="100" role="dialog" aria-labelledby="CardBackgroundModal"
      aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -190,7 +190,7 @@ require_once 'pages/header.php'; ?>
 
                 <div class="jumbotron">
                     <h3>카드 배경을 사진으로 지정</h3>
-                    <button class="btn btn-dark" data-toggle="modal" data-target="#FileUploaderModal" role="button">사진
+                    <button class="btn btn-dark" onclick="openFileUploader(3)" role="button">사진
                         업로드
                     </button>
                 </div>

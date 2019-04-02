@@ -317,3 +317,8 @@ function isOrContainsNode(ancestor, descendant) {
     }
     return false;
 }
+
+function openFileUploader(from) {
+    $('#CardBackgroundModal').modal('hide');
+    $('#FileUploaderModal').modal('show');
+}
