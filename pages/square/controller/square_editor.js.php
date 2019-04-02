@@ -283,7 +283,7 @@ function addAttachToCard(attach, size, name) {
     }
 
     if (file_uploader_mode == "card_background") {
-        document.getElementById('background' + active_card).value = attach;
+        document.getElementById('background_' + active_card).value = attach;
         //  document.getElementById('contents_' + active_card)
         document.getElementById('contents_' + active_card).focus();
     }
