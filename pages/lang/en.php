@@ -37,6 +37,9 @@ $L['write_keep_square'] = 'Keep cards shape';
 $L['write_file_uploader'] = 'Image / File Upload';
 $L['write_card_background'] = 'Card Background';
 $L['write_intro_title_template'] = 'Make a Template';
+$L['write_card_background_picture'] = 'Set Card background as Image';
+$L['write_card_background_color'] = 'Set Card background as Color';
+$L['write_upload_image'] = 'Upload Image';
 
 //info
 $L['show_all_contributors'] = 'Show All Contributors';
