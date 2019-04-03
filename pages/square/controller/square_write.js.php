@@ -133,7 +133,7 @@ function writeAct() {
 
                 //Template mode
                 if ('<?php echo $mode ?>' == "template") {
-                    location.href = 'add_template_2' + Result['square_key'];
+                    location.href = 'add_template_2?key=' + Result['square_key'];
                 }
 
                 //Normal Mode
