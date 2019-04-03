@@ -55,7 +55,7 @@
             만들게 도와주는 페이지입니다.</p>
         <hr class="my-4">
         <p>아이디어만 있으면 간단한 절차를 통해 다른사람들이 사용해 볼 수 있는 생성기를 제작해볼 수 있습니다!</p>
-        <a class="btn btn-dark btn-lg" href="#" role="button">시작하기</a>
+        <a class="btn btn-dark btn-lg" href="add_creator_1" role="button">시작하기</a>
     </div>
 
 </div>
