@@ -1,6 +1,15 @@
 <?php
 require_once 'pages/square/square.loader.php';
-require_once 'pages/header.php'; ?>
+require_once 'pages/header.php';
+
+$mode = REQUEST('mode');
+$intro_title = T('write_intro');
+
+if ($mode == "template") {
+    $intro_title = T('write_intro_title_template');
+}
+
+?>
 
 <!--ColorPicker Style-->
 <link rel="stylesheet" href="pages/css/jquery.fileupload.css">
@@ -48,7 +57,7 @@ require_once 'pages/header.php'; ?>
 <div class="container">
 
     <h1 style="text-align: center;color: <?php getTitleColor() ?>;"
-        class="animated fadeOut delay-2s"><?php S('write_intro') ?></h1>
+        class="animated fadeOut delay-2s"><?php echo $intro_title ?></h1>
 
     <br></br>
     <center>

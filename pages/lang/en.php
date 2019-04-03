@@ -36,6 +36,7 @@ $L['write_advanced_setting'] = 'Advanced';
 $L['write_keep_square'] = 'Keep cards shape';
 $L['write_file_uploader'] = 'Image / File Upload';
 $L['write_card_background'] = 'Card Background';
+$L['write_intro_title_template'] = 'Make a Template';
 
 //info
 $L['show_all_contributors'] = 'Show All Contributors';

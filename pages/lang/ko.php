@@ -35,6 +35,7 @@ $L['write_advanced_setting'] = '고급 설정';
 $L['write_keep_square'] = '카드 모양 정사각형으로 유지';
 $L['write_file_uploader'] = '사진 / 파일 업로드';
 $L['write_card_background'] = '카드 배경 설정';
+$L['write_intro_title_template'] = '카드 템플릿 만들기';
 
 //info
 $L['show_all_contributors'] = '모든 기여자 목록 보기';
