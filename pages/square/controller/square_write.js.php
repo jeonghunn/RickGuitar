@@ -134,10 +134,10 @@ function writeAct() {
                 //Template mode
                 if ('<?php echo $mode ?>'.includes('template')) {
                     location.href = 'add_template_2?key=' + Result['square_key'];
+                } else {
+                    //Normal Mode
+                    location.href = Result['square_key'];
                 }
-
-                //Normal Mode
-                location.href = Result['square_key'];
 
 
             } else {
