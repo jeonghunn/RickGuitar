@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="New Page : add_creator">
-      <change afterPath="$PROJECT_DIR$/pages/square/view/square_add_creator_1.php" afterDir="false" />
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="New Page : add_creator_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/square/view/square_add_creator_1.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_add_creator_1.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -96,19 +95,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
+            <state relative-caret-position="-241">
               <caret line="120" column="60" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
             </state>
           </provider>
@@ -236,8 +235,8 @@
         <option value="$PROJECT_DIR$/pages/lang/en.php" />
         <option value="$PROJECT_DIR$/pages/lang/ko.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_add_creator.php" />
-        <option value="$PROJECT_DIR$/pages/square/view/square_add_creator_1.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/pages/square/view/square_add_creator_1.php" />
       </list>
     </option>
   </component>
@@ -355,7 +354,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554264075778" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554273975202" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1015,14 +1014,7 @@
       <workItem from="1554043678446" duration="5319000" />
       <workItem from="1554133410916" duration="14000" />
       <workItem from="1554219145277" duration="4646000" />
-      <workItem from="1554262809018" duration="1244000" />
-    </task>
-    <task id="LOCAL-02058" summary="card editor update">
-      <created>1553188728726</created>
-      <option name="number" value="02058" />
-      <option name="presentableId" value="LOCAL-02058" />
-      <option name="project" value="LOCAL" />
-      <updated>1553188728726</updated>
+      <workItem from="1554262809018" duration="2058000" />
     </task>
     <task id="LOCAL-02059" summary="notice">
       <created>1553188966712</created>
@@ -1360,11 +1352,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554263644333</updated>
     </task>
-    <option name="localTasksCounter" value="2107" />
+    <task id="LOCAL-02107" summary="New Page : add_creator_1">
+      <created>1554264085829</created>
+      <option name="number" value="02107" />
+      <option name="presentableId" value="LOCAL-02107" />
+      <option name="project" value="LOCAL" />
+      <updated>1554264085829</updated>
+    </task>
+    <option name="localTasksCounter" value="2108" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1368050000" />
+    <option name="totallyTimeSpent" value="1368864000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1381,7 +1380,7 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.23462088" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.23462088" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
@@ -1400,7 +1399,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.59155935" visible="true" weight="0.29098362" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.59155935" visible="true" weight="0.29098362" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.490701" visible="true" weight="0.32336956" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1473,7 +1472,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="card editor update" />
     <MESSAGE value="notice" />
     <MESSAGE value="checkbox update" />
     <MESSAGE value="delete button update" />
@@ -1498,7 +1496,8 @@
     <MESSAGE value="deploy" />
     <MESSAGE value="update" />
     <MESSAGE value="New Page : add_creator" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Page : add_creator" />
+    <MESSAGE value="New Page : add_creator_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Page : add_creator_1" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1815,17 +1814,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_1.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="-241">
+          <caret line="120" column="60" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="120" column="60" selection-start-line="120" selection-start-column="60" selection-end-line="120" selection-end-column="60" />
+        <state relative-caret-position="323">
+          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
         </state>
       </provider>
     </entry>
