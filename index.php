@@ -118,6 +118,7 @@ LoadPages("new", "square/view/square_collection", false);
 LoadPages("write", "square/view/square_write", false);
 LoadPages("birthday", "birthday/view/birthday_write", false);
 LoadPages("add_creator", "square/view/square_add_creator", false);
+LoadPages("add_creator_1", "square/view/square_add_creator_1", false);
 //API
 	    LoadPages("api_main", "api/api_main", false);
 		LoadPages("api_add", "api/api_add", true);
