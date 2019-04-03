@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="138" column="57" selection-start-line="138" selection-start-column="57" selection-end-line="138" selection-end-column="57" />
+            <state relative-caret-position="144">
+              <caret line="135" column="48" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -367,7 +367,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554278696283" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554278730834" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1027,14 +1027,7 @@
       <workItem from="1554043678446" duration="5319000" />
       <workItem from="1554133410916" duration="14000" />
       <workItem from="1554219145277" duration="4646000" />
-      <workItem from="1554262809018" duration="3263000" />
-    </task>
-    <task id="LOCAL-02066" summary="makeDownloadLink wip">
-      <created>1553357599631</created>
-      <option name="number" value="02066" />
-      <option name="presentableId" value="LOCAL-02066" />
-      <option name="project" value="LOCAL" />
-      <updated>1553357599631</updated>
+      <workItem from="1554262809018" duration="3297000" />
     </task>
     <task id="LOCAL-02067" summary="updateCard">
       <created>1553357870759</created>
@@ -1372,11 +1365,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554278673823</updated>
     </task>
-    <option name="localTasksCounter" value="2115" />
+    <task id="LOCAL-02115" summary="javascript fix">
+      <created>1554278702955</created>
+      <option name="number" value="02115" />
+      <option name="presentableId" value="LOCAL-02115" />
+      <option name="project" value="LOCAL" />
+      <updated>1554278702955</updated>
+    </task>
+    <option name="localTasksCounter" value="2116" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1370069000" />
+    <option name="totallyTimeSpent" value="1370103000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1836,8 +1836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="138" column="57" selection-start-line="138" selection-start-column="57" selection-end-line="138" selection-end-column="57" />
+        <state relative-caret-position="144">
+          <caret line="135" column="48" selection-start-line="135" selection-start-column="48" selection-end-line="135" selection-end-column="48" />
         </state>
       </provider>
     </entry>
