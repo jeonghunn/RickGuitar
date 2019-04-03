@@ -199,8 +199,8 @@ if ($mode == "template") {
 
                 <div class="jumbotron">
                     <h3><?php S('write_card_background_picture') ?></h3>
-                    <button class="btn btn-dark" onclick="openFileUploader('card_background')" role="button">사진
-                        업로드
+                    <button class="btn btn-dark" onclick="openFileUploader('card_background')"
+                            role="button"><?php S('write_upload_image') ?>
                     </button>
                 </div>
 
