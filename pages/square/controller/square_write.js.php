@@ -132,7 +132,7 @@ function writeAct() {
                 var Result = JSON.parse(data);
 
                 //Template mode
-                if ('<?php echo $mode ?>' == "template") {
+                if ('<?php echo $mode ?>'.includes("template")) {
                     location.href = 'add_template_2?key=' + Result['square_key'];
                 }
 

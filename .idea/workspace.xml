@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="write_mode">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="template mode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/controller/square_write.js.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_write.js.php" afterDir="false" />
     </list>
@@ -39,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="4521">
               <caret line="376" lean-forward="true" selection-start-line="376" selection-end-line="376" />
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="141" column="16" lean-forward="true" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+            <state relative-caret-position="129">
+              <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -133,7 +133,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>write</find>
       <find>getAttachCount</find>
       <find>siteaddress</find>
       <find>getClientPUrl</find>
@@ -163,6 +162,7 @@
       <find>setCardBackgroundColor</find>
       <find>setCardStyle</find>
       <find>T(</find>
+      <find>writeAct</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -367,7 +367,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554278410268" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554278562406" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -1027,21 +1027,7 @@
       <workItem from="1554043678446" duration="5319000" />
       <workItem from="1554133410916" duration="14000" />
       <workItem from="1554219145277" duration="4646000" />
-      <workItem from="1554262809018" duration="2977000" />
-    </task>
-    <task id="LOCAL-02062" summary="delete button update">
-      <created>1553355509006</created>
-      <option name="number" value="02062" />
-      <option name="presentableId" value="LOCAL-02062" />
-      <option name="project" value="LOCAL" />
-      <updated>1553355509006</updated>
-    </task>
-    <task id="LOCAL-02063" summary="developmentmode on">
-      <created>1553355782011</created>
-      <option name="number" value="02063" />
-      <option name="presentableId" value="LOCAL-02063" />
-      <option name="project" value="LOCAL" />
-      <updated>1553355782012</updated>
+      <workItem from="1554262809018" duration="3129000" />
     </task>
     <task id="LOCAL-02064" summary="New API : Delete Attach">
       <created>1553356381975</created>
@@ -1372,11 +1358,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554278180964</updated>
     </task>
-    <option name="localTasksCounter" value="2111" />
+    <task id="LOCAL-02111" summary="template mode">
+      <created>1554278427929</created>
+      <option name="number" value="02111" />
+      <option name="presentableId" value="LOCAL-02111" />
+      <option name="project" value="LOCAL" />
+      <updated>1554278427929</updated>
+    </task>
+    <task id="LOCAL-02112" summary="template mode">
+      <created>1554278508032</created>
+      <option name="number" value="02112" />
+      <option name="presentableId" value="LOCAL-02112" />
+      <option name="project" value="LOCAL" />
+      <updated>1554278508032</updated>
+    </task>
+    <option name="localTasksCounter" value="2113" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1369783000" />
+    <option name="totallyTimeSpent" value="1369935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1485,7 +1485,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="checkbox update" />
     <MESSAGE value="delete button update" />
     <MESSAGE value="developmentmode on" />
     <MESSAGE value="New API : Delete Attach" />
@@ -1510,7 +1509,8 @@
     <MESSAGE value="New Page : add_creator" />
     <MESSAGE value="New Page : add_creator_1" />
     <MESSAGE value="write_mode" />
-    <option name="LAST_COMMIT_MESSAGE" value="write_mode" />
+    <MESSAGE value="template mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="template mode" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1829,15 +1829,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="4521">
           <caret line="376" lean-forward="true" selection-start-line="376" selection-end-line="376" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="141" column="16" lean-forward="true" selection-start-line="141" selection-start-column="16" selection-end-line="141" selection-end-column="16" />
+        <state relative-caret-position="129">
+          <caret line="134" column="63" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
         </state>
       </provider>
     </entry>
