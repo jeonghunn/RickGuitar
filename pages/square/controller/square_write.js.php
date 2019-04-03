@@ -131,6 +131,12 @@ function writeAct() {
                 submitted = true; //success submit
                 var Result = JSON.parse(data);
 
+                //Template mode
+                if ('<?php echo $mode ?>' == "template") {
+                    location.href = 'add_template_2' + Result['square_key'];
+                }
+
+                //Normal Mode
                 location.href = Result['square_key'];
 
 
