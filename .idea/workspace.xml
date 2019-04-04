@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="square_Add_creator_2 description">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="square_Add_creator_2 button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_add_creator_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_add_creator_2.php" afterDir="false" />
     </list>
@@ -107,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
+            <state relative-caret-position="262">
+              <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -1029,21 +1029,7 @@
       <workItem from="1554219145277" duration="4646000" />
       <workItem from="1554262809018" duration="3600000" />
       <workItem from="1554308664902" duration="1566000" />
-      <workItem from="1554348559899" duration="431000" />
-    </task>
-    <task id="LOCAL-02088" summary="button data target">
-      <created>1554219953174</created>
-      <option name="number" value="02088" />
-      <option name="presentableId" value="LOCAL-02088" />
-      <option name="project" value="LOCAL" />
-      <updated>1554219953175</updated>
-    </task>
-    <task id="LOCAL-02089" summary="button data target">
-      <created>1554219979905</created>
-      <option name="number" value="02089" />
-      <option name="presentableId" value="LOCAL-02089" />
-      <option name="project" value="LOCAL" />
-      <updated>1554219979905</updated>
+      <workItem from="1554348559899" duration="547000" />
     </task>
     <task id="LOCAL-02090" summary="button data target">
       <created>1554220033514</created>
@@ -1374,11 +1360,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554348922630</updated>
     </task>
-    <option name="localTasksCounter" value="2137" />
+    <task id="LOCAL-02137" summary="square_Add_creator_2 description">
+      <created>1554349024708</created>
+      <option name="number" value="02137" />
+      <option name="presentableId" value="LOCAL-02137" />
+      <option name="project" value="LOCAL" />
+      <updated>1554349024708</updated>
+    </task>
+    <task id="LOCAL-02138" summary="square_Add_creator_2 button">
+      <created>1554349102283</created>
+      <option name="number" value="02138" />
+      <option name="presentableId" value="LOCAL-02138" />
+      <option name="project" value="LOCAL" />
+      <updated>1554349102284</updated>
+    </task>
+    <option name="localTasksCounter" value="2139" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1374703000" />
+    <option name="totallyTimeSpent" value="1374819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1487,7 +1487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="development mode" />
     <MESSAGE value="attach download" />
     <MESSAGE value="url bug fix" />
     <MESSAGE value="binary upload test" />
@@ -1512,7 +1511,8 @@
     <MESSAGE value="square_Add_creator_2 card" />
     <MESSAGE value="square_Add_creator_2" />
     <MESSAGE value="square_Add_creator_2 description" />
-    <option name="LAST_COMMIT_MESSAGE" value="square_Add_creator_2 description" />
+    <MESSAGE value="square_Add_creator_2 button" />
+    <option name="LAST_COMMIT_MESSAGE" value="square_Add_creator_2 button" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1846,8 +1846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="97" column="15" selection-start-line="97" selection-start-column="15" selection-end-line="97" selection-end-column="15" />
+        <state relative-caret-position="262">
+          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
         </state>
       </provider>
     </entry>

@@ -90,7 +90,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 align-content-end">
 
 
             <p>- 템플릿 KEY는 템플릿으로 사용할 페이지의 KEY 값을 의미합니다. 입력되어 있으면 변경할 필요 없습니다.</p>
