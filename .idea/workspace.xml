@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="square_Add_creator_2 button">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="square_Add_creator_2 works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_add_creator_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_add_creator_2.php" afterDir="false" />
     </list>
@@ -107,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+            <state relative-caret-position="232">
+              <caret line="119" column="72" selection-start-line="119" selection-start-column="72" selection-end-line="119" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -1029,21 +1029,7 @@
       <workItem from="1554219145277" duration="4646000" />
       <workItem from="1554262809018" duration="3600000" />
       <workItem from="1554308664902" duration="1566000" />
-      <workItem from="1554348559899" duration="547000" />
-    </task>
-    <task id="LOCAL-02090" summary="button data target">
-      <created>1554220033514</created>
-      <option name="number" value="02090" />
-      <option name="presentableId" value="LOCAL-02090" />
-      <option name="project" value="LOCAL" />
-      <updated>1554220033514</updated>
-    </task>
-    <task id="LOCAL-02091" summary="button data target">
-      <created>1554220063094</created>
-      <option name="number" value="02091" />
-      <option name="presentableId" value="LOCAL-02091" />
-      <option name="project" value="LOCAL" />
-      <updated>1554220063094</updated>
+      <workItem from="1554348559899" duration="1571000" />
     </task>
     <task id="LOCAL-02092" summary="openFileUploader">
       <created>1554220417123</created>
@@ -1374,11 +1360,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554349102284</updated>
     </task>
-    <option name="localTasksCounter" value="2139" />
+    <task id="LOCAL-02139" summary="square_Add_creator_2 button">
+      <created>1554349138553</created>
+      <option name="number" value="02139" />
+      <option name="presentableId" value="LOCAL-02139" />
+      <option name="project" value="LOCAL" />
+      <updated>1554349138553</updated>
+    </task>
+    <task id="LOCAL-02140" summary="square_Add_creator_2 works">
+      <created>1554350117047</created>
+      <option name="number" value="02140" />
+      <option name="presentableId" value="LOCAL-02140" />
+      <option name="project" value="LOCAL" />
+      <updated>1554350117047</updated>
+    </task>
+    <option name="localTasksCounter" value="2141" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1374819000" />
+    <option name="totallyTimeSpent" value="1375843000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1395,7 +1395,7 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.23748212" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.23748212" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
@@ -1414,7 +1414,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.59084404" visible="true" weight="0.29098362" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.59084404" visible="true" weight="0.29098362" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.490701" visible="true" weight="0.32336956" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1487,7 +1487,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="attach download" />
     <MESSAGE value="url bug fix" />
     <MESSAGE value="binary upload test" />
     <MESSAGE value="version code" />
@@ -1512,7 +1511,8 @@
     <MESSAGE value="square_Add_creator_2" />
     <MESSAGE value="square_Add_creator_2 description" />
     <MESSAGE value="square_Add_creator_2 button" />
-    <option name="LAST_COMMIT_MESSAGE" value="square_Add_creator_2 button" />
+    <MESSAGE value="square_Add_creator_2 works" />
+    <option name="LAST_COMMIT_MESSAGE" value="square_Add_creator_2 works" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1846,8 +1846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="92" column="46" selection-start-line="92" selection-start-column="46" selection-end-line="92" selection-end-column="46" />
+        <state relative-caret-position="232">
+          <caret line="119" column="72" selection-start-line="119" selection-start-column="72" selection-end-line="119" selection-end-column="72" />
         </state>
       </provider>
     </entry>

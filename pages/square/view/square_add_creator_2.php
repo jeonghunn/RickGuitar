@@ -117,7 +117,7 @@
         var color = document.getElementById("color_input").value;
         var description = document.getElementById("creator_des_textarea").value;
 
-        if (name == null || template_square_key == null || description == null) {
+        if (name == "" || template_square_key == "" || description == "") {
             alert("이름, 템플릿 키, 설명 항목을 입력해야 합니다.");
             return false;
         } else {
