@@ -54,7 +54,7 @@
         <p class="lead">생성할 생성기의 기본 정보를 입력해 주세요.</p>
     </div>
 
-    <div class="card" style="width: 30rem;">
+    <div class="card text-center align-items-center" style="width: 30rem;">
 
         <div class="card-body">
             <div class="input-group input-group-lg">
