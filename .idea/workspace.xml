@@ -107,8 +107,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+            <state relative-caret-position="355">
+              <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1031,27 +1034,6 @@
       <workItem from="1554262809018" duration="3600000" />
       <workItem from="1554308664902" duration="1566000" />
     </task>
-    <task id="LOCAL-02074" summary="binary upload test">
-      <created>1554052976125</created>
-      <option name="number" value="02074" />
-      <option name="presentableId" value="LOCAL-02074" />
-      <option name="project" value="LOCAL" />
-      <updated>1554052976125</updated>
-    </task>
-    <task id="LOCAL-02075" summary="binary upload test">
-      <created>1554053021327</created>
-      <option name="number" value="02075" />
-      <option name="presentableId" value="LOCAL-02075" />
-      <option name="project" value="LOCAL" />
-      <updated>1554053021327</updated>
-    </task>
-    <task id="LOCAL-02076" summary="binary upload test">
-      <created>1554053079866</created>
-      <option name="number" value="02076" />
-      <option name="presentableId" value="LOCAL-02076" />
-      <option name="project" value="LOCAL" />
-      <updated>1554053079866</updated>
-    </task>
     <task id="LOCAL-02077" summary="binary upload test">
       <created>1554053174067</created>
       <option name="number" value="02077" />
@@ -1374,11 +1356,32 @@
       <option name="project" value="LOCAL" />
       <updated>1554341560868</updated>
     </task>
-    <option name="localTasksCounter" value="2123" />
+    <task id="LOCAL-02123" summary="square_Add_creator_2">
+      <created>1554341601478</created>
+      <option name="number" value="02123" />
+      <option name="presentableId" value="LOCAL-02123" />
+      <option name="project" value="LOCAL" />
+      <updated>1554341601478</updated>
+    </task>
+    <task id="LOCAL-02124" summary="square_Add_creator_2">
+      <created>1554341635676</created>
+      <option name="number" value="02124" />
+      <option name="presentableId" value="LOCAL-02124" />
+      <option name="project" value="LOCAL" />
+      <updated>1554341635676</updated>
+    </task>
+    <task id="LOCAL-02125" summary="square_Add_creator_2 card">
+      <created>1554341737033</created>
+      <option name="number" value="02125" />
+      <option name="presentableId" value="LOCAL-02125" />
+      <option name="project" value="LOCAL" />
+      <updated>1554341737033</updated>
+    </task>
+    <option name="localTasksCounter" value="2126" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1372968000" />
+    <option name="totallyTimeSpent" value="1373276000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1395,15 +1398,15 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.23462088" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.23462088" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24920128" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.40844062" side_tool="true" visible="true" weight="0.29098362" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32848233" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="2" sideWeight="0.49928468" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.32949308" />
       <window_info anchor="bottom" id="Changes" order="5" weight="0.32943678" />
@@ -1414,7 +1417,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.59155935" visible="true" weight="0.29098362" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.59155935" weight="0.29098362" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.490701" visible="true" weight="0.32336956" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1487,7 +1490,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updateCard" />
     <MESSAGE value="update uploader" />
     <MESSAGE value="development mode" />
     <MESSAGE value="attach download" />
@@ -1512,7 +1514,8 @@
     <MESSAGE value="javascript fix" />
     <MESSAGE value="translation update" />
     <MESSAGE value="square_Add_creator_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="square_Add_creator_2" />
+    <MESSAGE value="square_Add_creator_2 card" />
+    <option name="LAST_COMMIT_MESSAGE" value="square_Add_creator_2 card" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1846,8 +1849,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_add_creator_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="355">
+          <caret line="76" column="84" selection-start-line="76" selection-start-column="84" selection-end-line="76" selection-end-column="84" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

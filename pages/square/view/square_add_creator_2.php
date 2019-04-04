@@ -72,6 +72,13 @@
                 <input type="text" class="form-control" aria-label="Sizing example input"
                        aria-describedby="inputGroup-sizing-default">
             </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">색상 HEX 코드</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-default">
+            </div>
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">생성기에 대한 설명</label>
                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
