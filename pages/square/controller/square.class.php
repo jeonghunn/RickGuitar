@@ -43,7 +43,7 @@ class SquareClass
     {
 
         if ($title == "" || $title == null) {
-            $title = explode($square_cards[0]['content'], "{[br]}")[0];
+            $title = explode("{[br]}", $square_cards[0]['content'])[0];
             $title = str_replace("{[", "<", $title);
             $title = str_replace("]}", ">", $title);
             $title = strip_tags($title);
