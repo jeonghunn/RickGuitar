@@ -52,12 +52,6 @@
     <div class="jumbotron">
         <h1 class="display-4">Step 2 : 기본정보 입력</h1>
         <p class="lead">생성할 생성기의 기본 정보를 입력해 주세요.</p>
-        <hr class="my-4">
-
-
-
-        <p>사용자마다 다른 값이 나올수 있는 부분은 변수 처리해야합니다. [[gender]] 와 같이 입력하면 추후에 [[gender]] 부분은 다른 값으로 대체하게 됩니다.</p>
-        <a class="btn btn-dark btn-lg" href="write?mode=template" role="button">카드 템플릿 만들기</a>
     </div>
 
     <div class="input-group input-group-lg">
