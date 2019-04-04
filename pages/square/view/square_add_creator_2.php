@@ -88,7 +88,7 @@
     </div>
 
 
-    <div class="card" style="width: 30rem;">
+    <div class="card text-center" style="width: 30rem;">
 
         <div class="card-body">
             <p>- 템플릿 KEY는 템플릿으로 사용할 페이지의 KEY 값을 의미합니다. 입력되어 있으면 변경할 필요 없습니다.</p>
