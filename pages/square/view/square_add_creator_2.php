@@ -54,24 +54,30 @@
         <p class="lead">생성할 생성기의 기본 정보를 입력해 주세요.</p>
     </div>
 
-    <div class="input-group input-group-lg">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-lg">생성기 이름</span>
+    <div class="card" style="width: 30rem;">
+
+        <div class="card-body">
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">생성기 이름</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <br>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">템블릿 KEY</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-default">
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">생성기에 대한 설명</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
         </div>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-               aria-describedby="inputGroup-sizing-lg">
-    </div>
-    <br>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-            <span class="input-group-text" id="inputGroup-sizing-default">템블릿 KEY</span>
-        </div>
-        <input type="text" class="form-control" aria-label="Sizing example input"
-               aria-describedby="inputGroup-sizing-default">
-    </div>
-    <div class="form-group">
-        <label for="exampleFormControlTextarea1">생성기에 대한 설명</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
 
 
