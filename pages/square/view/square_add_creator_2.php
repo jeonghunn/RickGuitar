@@ -1,4 +1,9 @@
-<?php require_once 'pages/header.php'; ?>
+<?php require_once 'pages/header.php';
+
+$square_key = REQUEST('key');
+
+?>
+
 
 <style>
 
@@ -73,7 +78,8 @@
                             <span class="input-group-text" id="inputGroup-sizing-default">템플릿 KEY</span>
                         </div>
                         <input type="text" class="form-control" aria-label="Sizing example input"
-                               aria-describedby="inputGroup-sizing-default" id="template_square_key_input">
+                               aria-describedby="inputGroup-sizing-default" id="template_square_key_input"
+                               value="<?php echo $square_key ?>">
                     </div>
                     <div class="input-group mb-3">
                         <div class="input-group-prepend">
