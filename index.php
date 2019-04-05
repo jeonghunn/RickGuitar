@@ -120,6 +120,7 @@ LoadPages("birthday", "birthday/view/birthday_write", false);
 LoadPages("add_creator", "square/view/square_add_creator", false);
 LoadPages("add_creator_1", "square/view/square_add_creator_1", false);
 LoadPages("add_creator_2", "square/view/square_add_creator_2", false);
+LoadPages("add_creator_3", "square/view/square_add_creator_3", false);
 //API
 	    LoadPages("api_main", "api/api_main", false);
 		LoadPages("api_add", "api/api_add", true);
