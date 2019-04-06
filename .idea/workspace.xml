@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="add_creator_3">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="getSummarizedTitle update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/square/controller/square.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/square/controller/square.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/view/square_add_creator_3.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_add_creator_3.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+            <state relative-caret-position="282">
+              <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -1025,21 +1024,7 @@
       <workItem from="1554430908456" duration="2465000" />
       <workItem from="1554566441573" duration="59000" />
       <workItem from="1554566648601" duration="1026000" />
-      <workItem from="1554578638839" duration="143000" />
-    </task>
-    <task id="LOCAL-02097" summary="background image url">
-      <created>1554222010459</created>
-      <option name="number" value="02097" />
-      <option name="presentableId" value="LOCAL-02097" />
-      <option name="project" value="LOCAL" />
-      <updated>1554222010459</updated>
-    </task>
-    <task id="LOCAL-02098" summary="background image url">
-      <created>1554222084123</created>
-      <option name="number" value="02098" />
-      <option name="presentableId" value="LOCAL-02098" />
-      <option name="project" value="LOCAL" />
-      <updated>1554222084123</updated>
+      <workItem from="1554578638839" duration="289000" />
     </task>
     <task id="LOCAL-02099" summary="background image style fit">
       <created>1554222193947</created>
@@ -1370,11 +1355,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554431489454</updated>
     </task>
-    <option name="localTasksCounter" value="2146" />
+    <task id="LOCAL-02146" summary="getSummarizedTitle update">
+      <created>1554578800661</created>
+      <option name="number" value="02146" />
+      <option name="presentableId" value="LOCAL-02146" />
+      <option name="project" value="LOCAL" />
+      <updated>1554578800661</updated>
+    </task>
+    <task id="LOCAL-02147" summary="getSummarizedTitle update">
+      <created>1554578847375</created>
+      <option name="number" value="02147" />
+      <option name="presentableId" value="LOCAL-02147" />
+      <option name="project" value="LOCAL" />
+      <updated>1554578847375</updated>
+    </task>
+    <option name="localTasksCounter" value="2148" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1382374000" />
+    <option name="totallyTimeSpent" value="1382520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1397,7 +1396,7 @@
       <window_info id="Palette&#9;" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Structure" order="7" weight="0.24920128" />
-      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.41001064" side_tool="true" visible="true" weight="0.27388534" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.41054314" side_tool="true" visible="true" weight="0.28980893" />
       <window_info anchor="bottom" id="IDEtalk Messages" order="1" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4985694" weight="0.32786885" />
       <window_info anchor="bottom" id="Application Servers" order="3" />
@@ -1410,7 +1409,7 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.58998936" visible="true" weight="0.2908681" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.58945686" visible="true" weight="0.28980893" />
       <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.490701" visible="true" weight="0.32336956" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
@@ -1483,7 +1482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="button data target" />
     <MESSAGE value="openFileUploader" />
     <MESSAGE value="card background test" />
     <MESSAGE value="development on" />
@@ -1508,7 +1506,8 @@
     <MESSAGE value="explode bug fix" />
     <MESSAGE value="getSummarizedTitle" />
     <MESSAGE value="add_creator_3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add_creator_3" />
+    <MESSAGE value="getSummarizedTitle update" />
+    <option name="LAST_COMMIT_MESSAGE" value="getSummarizedTitle update" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1779,8 +1778,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+        <state relative-caret-position="282">
+          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
         </state>
       </provider>
     </entry>
