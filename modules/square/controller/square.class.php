@@ -127,7 +127,7 @@ class SquareClass
         $array = explode("<br>", $title);
         $title = $array[0];
         $title = strip_tags($title);
-
+        $title = "asdf";
         if (strlen($title) > 60) $title = mb_substr($title, 0, 60) . "...";
 
 
