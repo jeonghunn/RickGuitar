@@ -121,6 +121,7 @@ class SquareClass
 
     function getSummarizedTitle($title)
     {
+        echo $title;
         $array = explode("{[br]}", $title);
         $title = str_replace("{[", "<", $array[0]);
         $title = str_replace("]}", ">", $title);
