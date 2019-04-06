@@ -55,8 +55,8 @@ $square_key = REQUEST('key');
     <!--      <h1 style="font-size: 36px; center;">HaruCore</h1>-->
     <br><br>
     <div class="jumbotron">
-        <h1 class="display-4">Step 3 : 로직</h1>
-        <p class="lead">변수에 들어가게 될 값의 로직을 JavaScript로 작성해 주세요.</p>
+        <h1 class="display-4">Step 3 : 생성기 메인 화면 만들기</h1>
+        <p class="lead">사용자가 입력해야 하는 값이 있는 경우 필요한 항목을 만들 수 있습니다.</p>
     </div>
     <form action="add_creator_3" method="post" id="creatorform">
 
