@@ -123,6 +123,7 @@ class SquareClass
     {
         echo $title;
         $array = explode("{[br]}", $title);
+        $array = explode("{[/p]}", $array[0]);
         $title = str_replace("{[", "<", $array[0]);
         $title = str_replace("]}", ">", $title);
 
