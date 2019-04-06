@@ -2,7 +2,7 @@
 
 
 function getCoreVersion(){
-    return "3.18.405";
+    return "3.18.407";
 }
 
 function isDevelopmentMode()
