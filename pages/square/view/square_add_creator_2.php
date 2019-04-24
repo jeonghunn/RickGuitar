@@ -70,7 +70,7 @@ $square_key = REQUEST('key');
                             <span class="input-group-text" id="creator_name">생성기 이름</span>
                         </div>
                         <input type="text" class="form-control" aria-label="Sizing example input"
-                               aria-describedby="creator_name" id="creator_name_input">
+                               aria-describedby="creator_name" name="creator_name" id="creator_name_input">
                     </div>
                     <br>
                     <div class="input-group mb-3">
@@ -78,7 +78,8 @@ $square_key = REQUEST('key');
                             <span class="input-group-text" id="inputGroup-sizing-default">템플릿 KEY</span>
                         </div>
                         <input type="text" class="form-control" aria-label="Sizing example input"
-                               aria-describedby="inputGroup-sizing-default" id="template_square_key_input"
+                               aria-describedby="inputGroup-sizing-default" name="template_square_key"
+                               id="template_square_key_input"
                                value="<?php echo $square_key ?>">
                     </div>
                     <div class="input-group mb-3">
@@ -86,7 +87,7 @@ $square_key = REQUEST('key');
                             <span class="input-group-text" id="inputGroup-sizing-default">색상 HEX 코드</span>
                         </div>
                         <input type="text" class="form-control" aria-label="Sizing example input"
-                               aria-describedby="inputGroup-sizing-default" id="color_input">
+                               aria-describedby="inputGroup-sizing-default" name="template_square_key" id="color_input">
                     </div>
                     <div class="form-group">
                         <label for="creator_des_textarea">생성기에 대한 설명</label>
