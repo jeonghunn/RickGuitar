@@ -234,20 +234,25 @@ if ($mode == "template") {
                                 ]
                             })
                             .on('colorpickerChange colorpickerCreate', function (e) {
-                                var colors = e.color.generate('tetrad');
 
-                                colors.forEach(function (color, i) {
-                                    var colorStr = color.string(),
-                                        swatch = e.colorpicker.picker
-                                            .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
+                                if (document.activeElement != document.getElementById("selected_color")) {
+                                    var colors = e.color.generate('tetrad');
 
-                                    swatch
-                                        .attr('data-value', colorStr)
-                                        .attr('title', colorStr)
-                                        .find('> i')
-                                        .css('background-color', colorStr);
+                                    colors.forEach(function (color, i) {
+                                        var colorStr = color.string(),
+                                            swatch = e.colorpicker.picker
+                                                .find('.colorpicker-swatch[data-name="tetrad' + (i + 1) + '"]');
+
+                                        swatch
+                                            .attr('data-value', colorStr)
+                                            .attr('title', colorStr)
+                                            .find('> i')
+                                            .css('background-color', colorStr);
+                                    });
                                 });
-                            });
+
+
+                    ]
                     });
 
 

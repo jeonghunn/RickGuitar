@@ -5112,7 +5112,7 @@
                         }
 
 
-                        if (document.activeElement != this) this.setValue(this.getFormattedColor());
+                        this.setValue(this.getFormattedColor());
                     }
 
                     /**
