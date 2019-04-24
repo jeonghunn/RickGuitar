@@ -5111,7 +5111,8 @@
                             return;
                         }
 
-                        this.setValue(this.getFormattedColor());
+
+                        if (document.activeElement != this) this.setValue(this.getFormattedColor());
                     }
 
                     /**

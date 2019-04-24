@@ -121,11 +121,13 @@ class SquareClass
 
     function getSummarizedTitle($title)
     {
-
-        $title = str_replace("{[", "<", $title);
+        //   echo $title;
+        $array = explode("{[br]}", $title);
+        $array = explode("{[/p]}", $array[0]);
+        $title = str_replace("{[", "<", $array[0]);
         $title = str_replace("]}", ">", $title);
-        $title = strip_tags($title);
 
+        $title = strip_tags($title);
         if (strlen($title) > 60) $title = mb_substr($title, 0, 60) . "...";
 
 
@@ -239,7 +241,7 @@ class SquareClass
 
         $result = null;
 
-        $top_items = array(array("square_key" => "birthday", "title" => "생일 축하 카드 만들기"), array("square_key" => "s9uare0404", "title" => "4월 4일 업데이트"));
+        $top_items = array(array("square_key" => "birthday", "title" => "생일 축하 카드 만들기"), array("square_key" => "s9uare0407", "title" => "4월 7일 업데이트"));
         //   $new_collection = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, "new", 0, 4, $square_info, $attach_info);
 
 
