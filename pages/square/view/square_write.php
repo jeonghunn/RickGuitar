@@ -236,6 +236,7 @@ if ($mode == "template") {
                             .on('colorpickerChange colorpickerCreate', function (e) {
 
                                 if (document.activeElement != document.getElementById("selected_color")) {
+
                                     var colors = e.color.generate('tetrad');
 
                                     colors.forEach(function (color, i) {
@@ -249,10 +250,12 @@ if ($mode == "template") {
                                             .find('> i')
                                             .css('background-color', colorStr);
                                     });
-                                });
+
+                                }
+                            });
 
 
-                    ]
+
                     });
 
 
