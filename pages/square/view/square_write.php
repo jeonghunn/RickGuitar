@@ -236,7 +236,7 @@ if ($mode == "template") {
                             .on('colorpickerChange colorpickerCreate', function (e) {
 
                                 if (document.activeElement != document.getElementById("selected_color")) {
-
+                                    alert('df');
                                     var colors = e.color.generate('tetrad');
 
                                     colors.forEach(function (color, i) {
