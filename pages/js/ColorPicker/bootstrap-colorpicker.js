@@ -5153,7 +5153,7 @@
                         var val = this.getValue();
 
                         if (val !== e.value && document.activeElement != this) {
-                            this.colorpicker.setValue(val);
+                            //   this.colorpicker.setValue(val);
                         }
                     }
                 }]);
