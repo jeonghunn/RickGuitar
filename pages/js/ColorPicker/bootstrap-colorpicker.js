@@ -5152,7 +5152,7 @@
 
                         var val = this.getValue();
 
-                        if (val !== e.value) {
+                        if (val !== e.value && document.activeElement != this) {
                             this.colorpicker.setValue(val);
                         }
                     }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="active element">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/view/square_write.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/view/square_write.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
@@ -58,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="254" column="21" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
+            <state relative-caret-position="277">
+              <caret line="231" column="33" lean-forward="true" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -112,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="5114" column="21" selection-start-line="5114" selection-start-column="21" selection-end-line="5114" selection-end-column="21" />
+            <state relative-caret-position="253">
+              <caret line="5154" column="71" selection-start-line="5154" selection-start-column="71" selection-end-line="5154" selection-end-column="71" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -144,7 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>thumbnail</find>
       <find>template-upload</find>
       <find>select</find>
       <find>hide</find>
@@ -174,6 +174,7 @@
       <find>API_AuthAccount</find>
       <find>SignUpAccount</find>
       <find>activ</find>
+      <find>onkeyup</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -246,8 +247,8 @@
         <option value="$PROJECT_DIR$/pages/square/view/square_add_creator_3.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_add_creator_2.php" />
         <option value="$PROJECT_DIR$/modules/account/controller/account.class.php" />
-        <option value="$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
+        <option value="$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js" />
       </list>
     </option>
   </component>
@@ -1115,21 +1116,7 @@
       <workItem from="1555828102608" duration="513000" />
       <workItem from="1555828984203" duration="135000" />
       <workItem from="1555829247679" duration="375000" />
-      <workItem from="1556105811414" duration="665000" />
-    </task>
-    <task id="LOCAL-02096" summary="development on">
-      <created>1554221593228</created>
-      <option name="number" value="02096" />
-      <option name="presentableId" value="LOCAL-02096" />
-      <option name="project" value="LOCAL" />
-      <updated>1554221593228</updated>
-    </task>
-    <task id="LOCAL-02097" summary="background image url">
-      <created>1554222010459</created>
-      <option name="number" value="02097" />
-      <option name="presentableId" value="LOCAL-02097" />
-      <option name="project" value="LOCAL" />
-      <updated>1554222010459</updated>
+      <workItem from="1556105811414" duration="1049000" />
     </task>
     <task id="LOCAL-02098" summary="background image url">
       <created>1554222084123</created>
@@ -1460,11 +1447,25 @@
       <option name="project" value="LOCAL" />
       <updated>1556106440387</updated>
     </task>
-    <option name="localTasksCounter" value="2145" />
+    <task id="LOCAL-02145" summary="active element">
+      <created>1556106567596</created>
+      <option name="number" value="02145" />
+      <option name="presentableId" value="LOCAL-02145" />
+      <option name="project" value="LOCAL" />
+      <updated>1556106567597</updated>
+    </task>
+    <task id="LOCAL-02146" summary="test">
+      <created>1556106626806</created>
+      <option name="number" value="02146" />
+      <option name="presentableId" value="LOCAL-02146" />
+      <option name="project" value="LOCAL" />
+      <updated>1556106626806</updated>
+    </task>
+    <option name="localTasksCounter" value="2147" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1381337000" />
+    <option name="totallyTimeSpent" value="1381721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1573,7 +1574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="style update" />
     <MESSAGE value="button data target" />
     <MESSAGE value="openFileUploader" />
     <MESSAGE value="card background test" />
@@ -1598,7 +1598,8 @@
     <MESSAGE value="square_Add_creator_2 key" />
     <MESSAGE value="fix color picker bug" />
     <MESSAGE value="active element" />
-    <option name="LAST_COMMIT_MESSAGE" value="active element" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1882,16 +1883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="5114" column="21" selection-start-line="5114" selection-start-column="21" selection-end-line="5114" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/api/square.api.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1943,8 +1934,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_write.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="254" column="21" selection-start-line="254" selection-start-column="21" selection-end-line="254" selection-end-column="21" />
+        <state relative-caret-position="277">
+          <caret line="231" column="33" lean-forward="true" selection-start-line="231" selection-start-column="33" selection-end-line="231" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="5154" column="71" selection-start-line="5154" selection-start-column="71" selection-end-line="5154" selection-end-column="71" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

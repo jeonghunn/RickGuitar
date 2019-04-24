@@ -235,9 +235,8 @@ if ($mode == "template") {
                             })
                             .on('colorpickerChange colorpickerCreate', function (e) {
 
-                                if (document.activeElement != document.getElementById("selected_color")) {
-                                    alert('df');
-                                    var colors = e.color.generate('tetrad');
+
+                                var colors = e.color.generate('tetrad');
 
                                     colors.forEach(function (color, i) {
                                         var colorStr = color.string(),
@@ -251,7 +250,7 @@ if ($mode == "template") {
                                             .css('background-color', colorStr);
                                     });
 
-                                }
+
                             });
 
 
