@@ -1,10 +1,3 @@
-$(function () {
-
-    $('.draggable, .droppable').sortable({
-        connectWith: '.container'
-    });
-
-});
 
 
 window.onload = function () {
