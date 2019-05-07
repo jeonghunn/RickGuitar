@@ -1,4 +1,10 @@
+$(function () {
 
+    $('.draggable, .droppable').sortable({
+        connectWith: '.container'
+    });
+
+});
 
 
 window.onload = function () {
@@ -10,13 +16,6 @@ window.onload = function () {
 
     document.getElementById("contents_1").focus();
 
-    $(function () {
-
-        $('.draggable, .droppable').sortable({
-            connectWith: '.container'
-        });
-
-    });
 
 };
 
