@@ -10,10 +10,13 @@ window.onload = function () {
 
     document.getElementById("contents_1").focus();
 
-    $('.draggable, .droppable').sortable({
-        connectWith: '.container'
-    });
+    $(function () {
 
+        $('.draggable, .droppable').sortable({
+            connectWith: '.container'
+        });
+
+    });
 
 };
 
