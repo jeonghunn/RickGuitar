@@ -54,7 +54,7 @@ if ($mode == "template") {
 </style>
 
 <!-- html -->
-<div class="container">
+<div class="container dropable">
 
     <h1 style="text-align: center;color: <?php getTitleColor() ?>;"
         class="animated fadeOut delay-2s"><?php echo $intro_title ?></h1>
@@ -442,6 +442,8 @@ if ($mode == "template") {
     var editor = null;
     var picker = new Array();
     var file_uploader_mode = "0";
+
+
 
     <?php require_once 'pages/square/controller/square_write.js.php'; ?>
     <?php require_once 'pages/square/controller/square_editor.js.php'; ?>
