@@ -54,7 +54,7 @@ if ($mode == "template") {
 </style>
 
 <!-- html -->
-<div class="container dropable">
+<div class="container">
 
     <h1 style="text-align: center;color: <?php getTitleColor() ?>;"
         class="animated fadeOut delay-2s"><?php echo $intro_title ?></h1>
