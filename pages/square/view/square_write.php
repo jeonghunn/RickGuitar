@@ -165,7 +165,7 @@ if ($mode == "template") {
             <div id="advanced_setting" class="collapse">
                 <br>
                 <label for="keep_square"><input type='checkbox' id='keep_square' name='keep_square'
-                                                value='1'/> <?php S('write_keep_square') ?></label>
+                                                value='1' checked/> <?php S('write_keep_square') ?></label>
 
             </div>
         </div>
