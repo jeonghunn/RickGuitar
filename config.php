@@ -3,7 +3,7 @@
 ini_set('memory_limit', '1024M');
 
 $HELLO_CORE_VERSION = "1.0";
-$CORE_VERSION = "3.18.425";
+$CORE_VERSION = "3.18.514";
 $DEVELOPMENT_SERVER_URL = "unopenedbox.com/develop/square/";
 $SERVER_URL = "s9uare.com/";
 $MAIN_URL = "http://s9uare.com/";
