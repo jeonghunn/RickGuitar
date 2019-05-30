@@ -291,7 +291,7 @@ function addAttachToCard(attach, size, name) {
         if (name.includes(".jpg") || name.includes(".jpeg") || name.includes(".png")) {
             var x = document.createElement('img');
             x.src = attach;
-            x.className = "resize-drag";
+            if ($(window).height() >= 768) x.className = "resize-drag";
             document.getElementById('contents_' + active_card).focus();
             insertNodeOverSelection(x, document.getElementById('contents_' + active_card));
 
