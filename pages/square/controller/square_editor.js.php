@@ -429,8 +429,8 @@ function getSource(source) {
         img.url = images[i].src
         img.x = images[i].dataset.x;
         img.y = images[i].dataset.y;
-        img.h = images[i].height;
-        img.w = images[i].width;
+        img.h = images[i].height > 440 ? 440 : images[i].height;
+        img.w = images[i].width > 440 ? 440 : images[i].width;
 
         data.image.push(img)
     }
@@ -450,8 +450,8 @@ function setSource(target, data) {
         $img.setAttribute('class', 'resize-drag');
         $img.width = d.w;
         $img.height = d.h;
-        $img.dataset.x = d.x > 440 ? 440 : d.x;
-        $img.dataset.y = d.y > 440 ? 440 : d.y;
+        $img.dataset.x = d.x;
+        $img.dataset.y = d.y;
 
 
         var rect = target.getBoundingClientRect();

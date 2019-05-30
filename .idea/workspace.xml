@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="resize view after post bug fix">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="image size improvements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" afterDir="false" />
     </list>
@@ -78,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
+            <state relative-caret-position="1129">
               <caret line="219" column="42" selection-start-line="219" selection-start-column="39" selection-end-line="219" selection-end-column="42" />
             </state>
           </provider>
@@ -105,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="293" column="34" selection-start-line="293" selection-start-column="34" selection-end-line="293" selection-end-column="34" />
+            <state relative-caret-position="91">
+              <caret line="431" column="61" lean-forward="true" selection-start-line="431" selection-start-column="61" selection-end-line="431" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -267,7 +267,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-21" />
+    <option name="x" value="-22" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="824" />
@@ -1138,28 +1138,7 @@
       <workItem from="1556786814094" duration="750000" />
       <workItem from="1557631945974" duration="32000" />
       <workItem from="1557632021190" duration="505000" />
-      <workItem from="1559213812441" duration="6353000" />
-    </task>
-    <task id="LOCAL-02117" summary="translation update">
-      <created>1554310881585</created>
-      <option name="number" value="02117" />
-      <option name="presentableId" value="LOCAL-02117" />
-      <option name="project" value="LOCAL" />
-      <updated>1554310881585</updated>
-    </task>
-    <task id="LOCAL-02118" summary="translation update">
-      <created>1554310924987</created>
-      <option name="number" value="02118" />
-      <option name="presentableId" value="LOCAL-02118" />
-      <option name="project" value="LOCAL" />
-      <updated>1554310924987</updated>
-    </task>
-    <task id="LOCAL-02119" summary="square_Add_creator_2">
-      <created>1554341220290</created>
-      <option name="number" value="02119" />
-      <option name="presentableId" value="LOCAL-02119" />
-      <option name="project" value="LOCAL" />
-      <updated>1554341220290</updated>
+      <workItem from="1559213812441" duration="6974000" />
     </task>
     <task id="LOCAL-02120" summary="square_Add_creator_2">
       <created>1554341499759</created>
@@ -1483,11 +1462,32 @@
       <option name="project" value="LOCAL" />
       <updated>1559237694825</updated>
     </task>
-    <option name="localTasksCounter" value="2166" />
+    <task id="LOCAL-02166" summary="resize view after post bug fix">
+      <created>1559238101627</created>
+      <option name="number" value="02166" />
+      <option name="presentableId" value="LOCAL-02166" />
+      <option name="project" value="LOCAL" />
+      <updated>1559238101627</updated>
+    </task>
+    <task id="LOCAL-02167" summary="image size improvements">
+      <created>1559238355098</created>
+      <option name="number" value="02167" />
+      <option name="presentableId" value="LOCAL-02167" />
+      <option name="project" value="LOCAL" />
+      <updated>1559238355098</updated>
+    </task>
+    <task id="LOCAL-02168" summary="image size improvements">
+      <created>1559238530225</created>
+      <option name="number" value="02168" />
+      <option name="presentableId" value="LOCAL-02168" />
+      <option name="project" value="LOCAL" />
+      <updated>1559238530225</updated>
+    </task>
+    <option name="localTasksCounter" value="2169" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1390825000" />
+    <option name="totallyTimeSpent" value="1391446000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1499,12 +1499,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-21" y="23" width="1440" height="824" extended-state="0" />
+    <frame x="-22" y="23" width="1440" height="824" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2832618" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2832618" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
@@ -1523,8 +1523,8 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5901288" visible="true" weight="0.29098362" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.490701" visible="true" weight="0.32336956" />
+      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5901288" weight="0.29098362" />
+      <window_info active="true" anchor="bottom" id="Messages" order="14" sideWeight="0.490701" visible="true" weight="0.32240438" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
@@ -1596,7 +1596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="write_mode" />
     <MESSAGE value="template mode" />
     <MESSAGE value="javascript fiox" />
     <MESSAGE value="javascript fix" />
@@ -1621,7 +1620,8 @@
     <MESSAGE value="Image Resizeable" />
     <MESSAGE value="Interect Js" />
     <MESSAGE value="resize view after post bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="resize view after post bug fix" />
+    <MESSAGE value="image size improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="image size improvements" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1949,13 +1949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="219" column="42" selection-start-line="219" selection-start-column="39" selection-end-line="219" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1973,10 +1966,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1129">
+          <caret line="219" column="42" selection-start-line="219" selection-start-column="39" selection-end-line="219" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="293" column="34" selection-start-line="293" selection-start-column="34" selection-end-line="293" selection-end-column="34" />
+        <state relative-caret-position="91">
+          <caret line="431" column="61" lean-forward="true" selection-start-line="431" selection-start-column="61" selection-end-line="431" selection-end-column="61" />
         </state>
       </provider>
     </entry>
