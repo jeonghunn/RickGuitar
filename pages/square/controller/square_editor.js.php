@@ -432,7 +432,7 @@ function getSource(source) {
         img.h = images[i].height;
         img.w = images[i].width;
 
-        alert(img.h);
+
         data.image.push(img)
     }
     return data;
@@ -458,6 +458,8 @@ function setSource(target, data) {
         var rect = target.getBoundingClientRect();
         $img.style.left = parseInt(rect.left);
         $img.style.top = parseInt(rect.top);
+        $img.style.height = parseInt(rect.height) > 440 ? 440 : parseInt(rect.height);
+        $img.style.width = parseInt(rect.width) > 440 ? 440 : parseInt(rect.width);
         //transform: translate(82px, 52px)
         $img.style.webkitTransform = $img.style.transform = 'translate(' + $img.dataset.x + 'px,' + $img.dataset.y + 'px)';
         //$img.style.setProperty('-webkit-transform', 'translate('+$img.dataset.x+'px,'+$img.dataset.y+'px)');
