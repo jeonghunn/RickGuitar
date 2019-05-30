@@ -31,7 +31,7 @@ class SquareClass
         $contents = str_replace("{[u", "<u", $contents);
         $contents = str_replace("{[o", "<o", $contents);
         $contents = str_replace("{[t", "<t", $contents);
-        $contents = str_replace('class="resize-drag"', "", $contents);
+        $contents = str_replace('resize-drag', "", $contents);
         $contents = str_replace("&quot;", '"', $contents);
         $contents = str_replace('\"', '"', $contents);
         $contents = str_replace('\'', "''", $contents);
