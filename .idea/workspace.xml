@@ -4,7 +4,6 @@
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="Refactoring Importing Modules">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+            <state relative-caret-position="262">
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -1119,21 +1118,7 @@
       <workItem from="1556786814094" duration="750000" />
       <workItem from="1557631945974" duration="32000" />
       <workItem from="1557632021190" duration="505000" />
-      <workItem from="1559213812441" duration="2528000" />
-    </task>
-    <task id="LOCAL-02105" summary="New Page : add_creator">
-      <created>1554263630877</created>
-      <option name="number" value="02105" />
-      <option name="presentableId" value="LOCAL-02105" />
-      <option name="project" value="LOCAL" />
-      <updated>1554263630877</updated>
-    </task>
-    <task id="LOCAL-02106" summary="New Page : add_creator">
-      <created>1554263644333</created>
-      <option name="number" value="02106" />
-      <option name="presentableId" value="LOCAL-02106" />
-      <option name="project" value="LOCAL" />
-      <updated>1554263644333</updated>
+      <workItem from="1559213812441" duration="2649000" />
     </task>
     <task id="LOCAL-02107" summary="New Page : add_creator_1">
       <created>1554264085829</created>
@@ -1464,11 +1449,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559216175252</updated>
     </task>
-    <option name="localTasksCounter" value="2154" />
+    <task id="LOCAL-02154" summary="Refactoring Importing Modules">
+      <created>1559216507966</created>
+      <option name="number" value="02154" />
+      <option name="presentableId" value="LOCAL-02154" />
+      <option name="project" value="LOCAL" />
+      <updated>1559216507966</updated>
+    </task>
+    <task id="LOCAL-02155" summary="Refactoring Importing Modules">
+      <created>1559216580729</created>
+      <option name="number" value="02155" />
+      <option name="presentableId" value="LOCAL-02155" />
+      <option name="project" value="LOCAL" />
+      <updated>1559216580729</updated>
+    </task>
+    <option name="localTasksCounter" value="2156" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1387000000" />
+    <option name="totallyTimeSpent" value="1387121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1955,8 +1954,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        <state relative-caret-position="262">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
         </state>
       </provider>
     </entry>
