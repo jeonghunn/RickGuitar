@@ -1,6 +1,5 @@
 
 
-
 window.onload = function () {
 
     setEditor();
@@ -9,6 +8,8 @@ window.onload = function () {
 
 
     document.getElementById("contents_1").focus();
+
+
 };
 
 //temp save
