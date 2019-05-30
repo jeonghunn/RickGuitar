@@ -429,9 +429,10 @@ function getSource(source) {
         img.url = images[i].src
         img.x = images[i].dataset.x;
         img.y = images[i].dataset.y;
-        img.h = images[i].height > 440 ? 440 : images[i].height;
-        img.w = images[i].width > 440 ? 440 : images[i].width;
+        img.h = images[i].height;
+        img.w = images[i].width;
 
+        alert(img.h);
         data.image.push(img)
     }
     return data;
