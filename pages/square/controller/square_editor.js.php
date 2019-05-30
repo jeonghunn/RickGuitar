@@ -448,8 +448,8 @@ function setSource(target, data) {
         var $img = document.createElement('img');
         $img.src = d.url;
         $img.setAttribute('class', 'resize-drag');
-        $img.width = d.w;
-        $img.height = d.h;
+        $img.width = d.w > 440 ? 440 : d.w;
+        $img.height = d.h > 440 ? 440 : d.h;
         $img.dataset.x = d.x;
         $img.dataset.y = d.y;
 
