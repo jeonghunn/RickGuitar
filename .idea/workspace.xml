@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="Refactoring Importing Modules">
+      <change afterPath="$PROJECT_DIR$/modules/notification/notification.api.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/base.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,15 +48,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/account/controller/account.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1665">
-              <caret line="115" column="26" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3645">
@@ -66,8 +59,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="452" selection-start-line="452" selection-end-line="452" />
+            <state relative-caret-position="397">
+              <caret line="457" column="7" selection-start-line="457" selection-start-column="7" selection-end-line="457" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/notification/notification.api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -122,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="48" selection-start-line="48" selection-end-line="62" selection-end-column="45" />
+              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -195,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/lib/lib.loader.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_collection.php" />
         <option value="$PROJECT_DIR$/modules/square/square.api.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_main.php" />
@@ -244,8 +245,9 @@
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/core/db.php" />
-        <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/api.php" />
+        <option value="$PROJECT_DIR$/core/base.php" />
+        <option value="$PROJECT_DIR$/modules/notification/notification.api.php" />
       </list>
     </option>
   </component>
@@ -307,6 +309,12 @@
               <item name="modules" type="462c0819:PsiDirectoryNode" />
               <item name="account" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="notification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
@@ -447,7 +455,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554279079676" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/notification" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -460,19 +468,19 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/notification" />
+      <recent name="$PROJECT_DIR$/pages/square/view" />
+      <recent name="$PROJECT_DIR$/pages/square/controller" />
+      <recent name="$PROJECT_DIR$/pages/info/view" />
+      <recent name="$PROJECT_DIR$/pages/css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages/birthday/view" />
       <recent name="$PROJECT_DIR$/pages/birthday" />
       <recent name="$PROJECT_DIR$/modules/notification/controller" />
       <recent name="$PROJECT_DIR$/modules/page/controller" />
       <recent name="$PROJECT_DIR$/modules/page/api" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pages/square/view" />
-      <recent name="$PROJECT_DIR$/pages/square/controller" />
-      <recent name="$PROJECT_DIR$/pages/info/view" />
-      <recent name="$PROJECT_DIR$/pages/css" />
-      <recent name="$PROJECT_DIR$/pages/lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1118,14 +1126,7 @@
       <workItem from="1556786814094" duration="750000" />
       <workItem from="1557631945974" duration="32000" />
       <workItem from="1557632021190" duration="505000" />
-      <workItem from="1559213812441" duration="2774000" />
-    </task>
-    <task id="LOCAL-02109" summary="New Page : add_creator_1">
-      <created>1554274662895</created>
-      <option name="number" value="02109" />
-      <option name="presentableId" value="LOCAL-02109" />
-      <option name="project" value="LOCAL" />
-      <updated>1554274662895</updated>
+      <workItem from="1559213812441" duration="2940000" />
     </task>
     <task id="LOCAL-02110" summary="write_mode">
       <created>1554278180964</created>
@@ -1463,11 +1464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1559216680714</updated>
     </task>
-    <option name="localTasksCounter" value="2158" />
+    <task id="LOCAL-02158" summary="Refactoring Importing Modules">
+      <created>1559216776997</created>
+      <option name="number" value="02158" />
+      <option name="presentableId" value="LOCAL-02158" />
+      <option name="project" value="LOCAL" />
+      <updated>1559216776998</updated>
+    </task>
+    <option name="localTasksCounter" value="2159" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1387246000" />
+    <option name="totallyTimeSpent" value="1387412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1609,15 +1617,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/js/popper.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/js/npm.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1938,13 +1937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="452" selection-start-line="452" selection-end-line="452" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1955,7 +1947,21 @@
     <entry file="file://$PROJECT_DIR$/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="48" selection-start-line="48" selection-end-line="62" selection-end-column="45" />
+          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="457" column="7" selection-start-line="457" selection-start-column="7" selection-end-line="457" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/notification/notification.api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
