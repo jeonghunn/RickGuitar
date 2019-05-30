@@ -181,6 +181,12 @@
              transform: translateY(25%);
          }
 
+          .resize-drag {
+              z-index: 200;
+              position: absolute;
+              border: 2px dashed #ccc;
+          }
+
 
          /*데스크탑*/
          @media screen and (min-width: 1367px){
