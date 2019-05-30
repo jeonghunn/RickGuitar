@@ -38,7 +38,7 @@ interact('.resize-drag')
         }
         restrictSize: {
             min: {width: 10, height: 10},
-            max: {width: 440, height: 440},
+            max: {width: 440, height: 440}
         }
     })
     .resizable({
