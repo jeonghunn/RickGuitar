@@ -2,7 +2,8 @@
 
 
 function getCoreVersion(){
-    return "3.18.425";
+    global $CORE_VERSION;
+    return $CORE_VERSION;
 }
 
 function isDevelopmentMode()
@@ -30,7 +31,8 @@ function isDevelopmentServer()
 
 function getCorePUrl()
 {
-    return isDevelopmentServer() ? "unopenedbox.com/develop/square/" : "s9uare.com/";
+    global $DEVELOPMENT_SERVER_URL, $SERVER_URL;
+    return isDevelopmentServer() ? $DEVELOPMENT_SERVER_URL : $SERVER_URL;
 }
 
 function getAPIUrl()
@@ -73,18 +75,21 @@ function getCoreUrl($s)
 
 //Basic Info
 function getSiteAddress(){
-    return "http://s9uare.com/";
+    global $MAIN_URL;
+    return $MAIN_URL;
 }
 
 function getAPIAddress(){
-    return "http://s9uare.com/api.php";
+    global $MAIN_API_URL;
+    return $MAIN_API_URL;
 }
 
 
 
 function getIPAddr(){
+    global $CLIENT_SERVER_IP_ADDRESS;
     $ipaddr = $_SERVER["REMOTE_ADDR"];
-    if(!strcmp($ipaddr, $_SERVER['SERVER_ADDR']) || !strcmp($ipaddr, "52.78.110.116")){
+    if (!strcmp($ipaddr, $_SERVER['SERVER_ADDR']) || !strcmp($ipaddr, $CLIENT_SERVER_IP_ADDRESS)) {
         $ipaddr = REQUEST("ip_addr");
     }
 

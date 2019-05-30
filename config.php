@@ -1,50 +1,14 @@
 <?php if(!defined("642979")) exit();
 
 ini_set('memory_limit', '1024M');
-    //ip, url, useragent, date
-//$siteaddress = "http://tarks.net/develop/favorite/";
-//$REMOTE_ADDR  = $_SERVER["REMOTE_ADDR"];
-//$nowurl = $_SERVER["REQUEST_URI"];
-//$useragent = $_SERVER['HTTP_USER_AGENT'];
-//$date = strtotime(date('Y-m-d H:i:s'));
-//$CORE_VERSION = "2.34.5.125";
 
-//Language
-//$language = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
-//if($language == null) $language = "en";
-
-// error_reporting(E_ALL);
-// ini_set("display_errors", 1);
-
-//db.php
-//require_once 'core/thread.class.php';
-require_once 'core/auth.php';
-
-//get lang
-
-$user_srl = AuthCheck($page_auth, 'user_srl', false);
-(int) $user_permission_status = 3; // User Permission Default
-if($user_srl == null) $user_srl = 0;
-
-require_once 'core/logger.php';
-require_once 'core/security.php';
-require_once 'core/permission.php';
-
-
-// Client log
-
-//Check IP
-PermissionCheckAct($user_srl);
-$ipmanage = IPManageAct(getIPAddr(), getNowUrl(), getTimeStamp());
-
-
-//Log Client
-if ($ipmanage) {
-    ActLog($user_srl, getIPAddr(), getTimeStamp(), $log_category, $log);
-    ClientAgentLog($user_srl, getIPAddr(), getUserAgent(), getTimeStamp());
-}
-
-
+$HELLO_CORE_VERSION = "1.0";
+$CORE_VERSION = "3.18.425";
+$DEVELOPMENT_SERVER_URL = "unopenedbox.com/develop/square/";
+$SERVER_URL = "s9uare.com/";
+$MAIN_URL = "http://s9uare.com/";
+$MAIN_API_URL = "http://s9uare.com/api.php";
+$CLIENT_SERVER_IP_ADDRESS = "52.78.110.116";
 //set user_Srl
 
 
