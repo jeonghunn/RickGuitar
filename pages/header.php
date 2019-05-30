@@ -98,6 +98,9 @@
       <script src="pages/js/hammer.min.js"></script>
       <script src="pages/js/eg.min.js"></script>
 
+      <!--      Interect-->
+      <script src="http://code.interactjs.io/interact-1.2.4.min.js"></script>
+
       <!--     Animation -->
       <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
