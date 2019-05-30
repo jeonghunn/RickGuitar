@@ -432,6 +432,7 @@ function getSource(source) {
         img.h = images[i].height;
         img.w = images[i].width;
 
+        alert(img.h);
 
         data.image.push(img)
     }
