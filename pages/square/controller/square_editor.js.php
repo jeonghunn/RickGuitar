@@ -36,11 +36,16 @@ interact('.resize-drag')
             endOnly: true,
             elementRect: {top: 0, left: 0, bottom: 1, right: 1}
         }
+        restrictSize: {
+            min: {width: 10, height: 10},
+            max: {width: 440, height: 440},
+        }
     })
     .resizable({
         edges: {left: true, right: true, bottom: true, top: true},
         onmove: resizeMoveListener
     })
+
 
 
 //Mouse Selection update
