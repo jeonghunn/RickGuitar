@@ -451,6 +451,13 @@ function ThreadAct($name, $array){
 }
 
 
+function ImportModules($ModuleArray)
+{
+    foreach ($ModuleArray as $a) {
+        require_once 'modules/' . $a . '/' . $a . '.loader.php'; // loader
+        require_once 'modules/' . $a . '/' . $a . '.api.php'; // api
+    }
+}
 
 
       

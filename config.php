@@ -16,5 +16,8 @@ $DB_SERVER_PATH = "localhost";
 $DB_USERNAME = "root";
 $DB_PASSWORD = "root";
 
+//Import Modules
+$IMPORT_MODULE = array('settings', 'main', 'account', 'board', 'page', 'notification', 'attach', 'square');
+
 
 ?>

@@ -45,22 +45,8 @@ if ($ipmanage) {
 require_once 'core/lib/Thumbnail.class.php';
 
 
-//Import Loader
-require_once 'modules/settings/settings.loader.php';
-require_once 'modules/main/main.loader.php';
-require_once 'modules/account/account.loader.php';
-require_once 'modules/board/board.loader.php';
-require_once 'modules/page/page.loader.php';
-require_once 'modules/notification/notification.loader.php';
-require_once 'modules/attach/attach.loader.php';
-require_once 'modules/square/square.loader.php';
-
-require_once 'modules/main/main.api.php';
-require_once 'modules/account/account.api.php';
-require_once 'modules/board/board.api.php';
-require_once 'modules/page/page.api.php';
-require_once 'modules/attach/attach.api.php';
-require_once 'modules/square/square.api.php';
+//Import Modules
+ImportModules($IMPORT_MODULE);
 
 
 
