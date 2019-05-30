@@ -9,7 +9,12 @@ $SERVER_URL = "s9uare.com/";
 $MAIN_URL = "http://s9uare.com/";
 $MAIN_API_URL = "http://s9uare.com/api.php";
 $CLIENT_SERVER_IP_ADDRESS = "52.78.110.116";
-//set user_Srl
+
+//DATABASE
+$DB_NAME = "square";
+$DB_SERVER_PATH = "localhost";
+$DB_USERNAME = "root";
+$DB_PASSWORD = "root";
 
 
 ?>
