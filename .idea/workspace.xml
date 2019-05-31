@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="restriction test">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="config update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core" beforeDir="false" afterPath="$PROJECT_DIR$/core" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/square/controller/square.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/square/controller/square.class.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,49 +47,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/view/square_main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-              <folding>
-                <element signature="e#391#418#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-284">
-              <caret line="188" column="38" lean-forward="true" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
+              <caret line="188" column="38" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/controller/square.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/square/view/square_collection.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
               <caret line="297" column="41" selection-start-line="297" selection-start-column="38" selection-end-line="297" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/Files which exist inside this folder must be in root folder/config.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -102,40 +87,45 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/square/model/square.model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/account/controller/tarks_account.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-878">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="243" column="122" selection-start-line="243" selection-start-column="122" selection-end-line="243" selection-end-column="122" />
+            <state relative-caret-position="201">
+              <caret line="243" column="147" selection-start-line="243" selection-start-column="147" selection-end-line="243" selection-end-column="147" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
+        <entry file="file://$PROJECT_DIR$/core/base.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
+            <state relative-caret-position="207">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/Files which exist inside this folder must be in root folder/db_config.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -149,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>delete</find>
       <find>$target_path</find>
       <find>addAttachToCard</find>
       <find>#FileUploaderModal</find>
@@ -179,6 +168,7 @@
       <find>resize</find>
       <find>setSource</find>
       <find>dataTransfer</find>
+      <find>768</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -244,15 +234,15 @@
         <option value="$PROJECT_DIR$/modules/account/controller/account.class.php" />
         <option value="$PROJECT_DIR$/pages/square/view/square_write.php" />
         <option value="$PROJECT_DIR$/pages/js/ColorPicker/bootstrap-colorpicker.js" />
-        <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/core/db.php" />
         <option value="$PROJECT_DIR$/modules/notification/notification.api.php" />
         <option value="$PROJECT_DIR$/api.php" />
         <option value="$PROJECT_DIR$/core/base.php" />
-        <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
       </list>
     </option>
   </component>
@@ -289,6 +279,12 @@
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
               <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SquareCore" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="Files which exist inside this folder must be in root folder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SquareCore" type="b2602c69:ProjectViewProjectNode" />
@@ -474,7 +470,7 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554279079676" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/notification" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -488,11 +484,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/modules/notification" />
       <recent name="$PROJECT_DIR$/pages/square/view" />
       <recent name="$PROJECT_DIR$/pages/square/controller" />
       <recent name="$PROJECT_DIR$/pages/info/view" />
-      <recent name="$PROJECT_DIR$/pages/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages/birthday/view" />
@@ -1148,20 +1144,6 @@
       <workItem from="1559213812441" duration="8029000" />
       <workItem from="1559290990833" duration="1725000" />
     </task>
-    <task id="LOCAL-02134" summary="square_Add_creator_2 description">
-      <created>1554348886296</created>
-      <option name="number" value="02134" />
-      <option name="presentableId" value="LOCAL-02134" />
-      <option name="project" value="LOCAL" />
-      <updated>1554348886297</updated>
-    </task>
-    <task id="LOCAL-02135" summary="square_Add_creator_2 description">
-      <created>1554348902898</created>
-      <option name="number" value="02135" />
-      <option name="presentableId" value="LOCAL-02135" />
-      <option name="project" value="LOCAL" />
-      <updated>1554348902898</updated>
-    </task>
     <task id="LOCAL-02136" summary="square_Add_creator_2 description">
       <created>1554348922629</created>
       <option name="number" value="02136" />
@@ -1491,11 +1473,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559301119298</updated>
     </task>
-    <option name="localTasksCounter" value="2183" />
+    <task id="LOCAL-02183" summary="resize feature">
+      <created>1559327104932</created>
+      <option name="number" value="02183" />
+      <option name="presentableId" value="LOCAL-02183" />
+      <option name="project" value="LOCAL" />
+      <updated>1559327104932</updated>
+    </task>
+    <task id="LOCAL-02184" summary="config update">
+      <created>1559327665160</created>
+      <option name="number" value="02184" />
+      <option name="presentableId" value="LOCAL-02184" />
+      <option name="project" value="LOCAL" />
+      <updated>1559327665160</updated>
+    </task>
+    <option name="localTasksCounter" value="2185" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1399375000" />
+    <option name="totallyTimeSpent" value="1400689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1604,8 +1600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="square_Add_creator_2 card" />
-    <MESSAGE value="square_Add_creator_2" />
     <MESSAGE value="square_Add_creator_2 description" />
     <MESSAGE value="square_Add_creator_2 button" />
     <MESSAGE value="square_Add_creator_2 works" />
@@ -1629,7 +1623,9 @@
     <MESSAGE value="comma has been fixed." />
     <MESSAGE value="reversed" />
     <MESSAGE value="restriction test" />
-    <option name="LAST_COMMIT_MESSAGE" value="restriction test" />
+    <MESSAGE value="resize feature" />
+    <MESSAGE value="config update" />
+    <option name="LAST_COMMIT_MESSAGE" value="config update" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1637,26 +1633,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/js/jquery.fileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1229">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/js/fileuploader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="51" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/attach/model/attach.model.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1840,20 +1816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1621">
-          <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/notification/notification.api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1882,20 +1844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/base.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-489">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -1944,13 +1892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="243" column="122" selection-start-line="243" selection-start-column="122" selection-end-line="243" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square_card.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
@@ -1975,7 +1916,7 @@
     <entry file="file://$PROJECT_DIR$/pages/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-284">
-          <caret line="188" column="38" lean-forward="true" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
+          <caret line="188" column="38" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1983,6 +1924,47 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
           <caret line="297" column="41" selection-start-line="297" selection-start-column="38" selection-end-line="297" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Files which exist inside this folder must be in root folder/db_config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/Files which exist inside this folder must be in root folder/config.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="121" column="60" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="243" column="147" selection-start-line="243" selection-start-column="147" selection-end-line="243" selection-end-column="147" />
         </state>
       </provider>
     </entry>

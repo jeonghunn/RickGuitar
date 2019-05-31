@@ -241,7 +241,7 @@ class SquareClass
 
         $result = null;
 
-        $top_items = array(array("square_key" => "birthday", "title" => "생일 축하 카드 만들기"), array("square_key" => "s9uare0514", "title" => "5월 14일 업데이트"));
+        $top_items = array(array("square_key" => "birthday", "title" => "생일 축하 카드 만들기"), array("square_key" => "s9uare0601", "title" => "6월 1일 업데이트"));
         //   $new_collection = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, "new", 0, 4, $square_info, $attach_info);
 
 
