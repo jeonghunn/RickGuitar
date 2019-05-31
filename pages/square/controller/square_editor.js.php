@@ -35,8 +35,7 @@ interact('.resize-drag')
             restriction: "parent",
             endOnly: true,
             elementRect: {top: 0, left: 0, bottom: 1, right: 1},
-            width: 440,
-            height: 440
+
         },
 
     })
@@ -369,8 +368,8 @@ function resizeMoveListener(event) {
         y = (parseFloat(target.dataset.y) || 0);
 
     // update the element's style
-    target.style.width = event.rect.width + 'px';
-    target.style.height = event.rect.height + 'px';
+    target.style.width = (event.rect.width > 440 ? 440 : event.rect.width) + 'px';
+    target.style.height = (event.rect.height > 440 ? 440 : event.rect.height) + 'px';
 
     // translate when resizing from top or left edges
     x += event.deltaRect.left;
@@ -437,7 +436,7 @@ function getSource(source) {
         img.h = images[i].height;
         img.w = images[i].width;
 
-        alert(img.h);
+
 
         data.image.push(img)
     }
@@ -455,8 +454,8 @@ function setSource(target, data) {
         var $img = document.createElement('img');
         $img.src = d.url;
         $img.setAttribute('class', 'resize-drag');
-        $img.width = d.w;
-        $img.height = d.h;
+        $img.width = 100;
+        $img.height = 100;
         $img.dataset.x = d.x;
         $img.dataset.y = d.y;
 
@@ -464,8 +463,8 @@ function setSource(target, data) {
         var rect = target.getBoundingClientRect();
         $img.style.left = parseInt(rect.left);
         $img.style.top = parseInt(rect.top);
-        $img.style.height = parseInt(rect.height) > 440 ? 440 : parseInt(rect.height);
-        $img.style.width = parseInt(rect.width) > 440 ? 440 : parseInt(rect.width);
+        $img.style.height = parseInt(rect.height);
+        $img.style.width = parseInt(rect.width);
         //transform: translate(82px, 52px)
         $img.style.webkitTransform = $img.style.transform = 'translate(' + $img.dataset.x + 'px,' + $img.dataset.y + 'px) width:' + $img.style.width + 'px, ' + $img.style.height + 'px;';
         //$img.style.setProperty('-webkit-transform', 'translate('+$img.dataset.x+'px,'+$img.dataset.y+'px)');

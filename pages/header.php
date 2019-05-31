@@ -186,8 +186,9 @@
 
           .resize-drag {
               z-index: 200;
-              position: absolute;
               border: 2px dashed #ccc;
+              max-height: 440px;
+              max-width: 440px;
           }
 
 
