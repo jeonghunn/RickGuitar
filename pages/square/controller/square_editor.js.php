@@ -41,12 +41,11 @@ interact('.resize-drag')
     .resizable({
         edges: {left: true, right: true, bottom: true, top: true},
         onmove: resizeMoveListener,
-        modifiers: [
-            interact.modifiers.restrictSize({
+        modifiers.restrictSize({
                 min: {width: 1, height: 1},
                 max: {width: 440, height: 440},
             })
-        ]
+
     })
 
 
