@@ -32,8 +32,7 @@
     <select />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="favoritecore" />
@@ -97,8 +96,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="464">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -991,21 +990,7 @@
       <workItem from="1557631945974" duration="32000" />
       <workItem from="1557632021190" duration="505000" />
       <workItem from="1559213812441" duration="8029000" />
-      <workItem from="1559290990833" duration="1080000" />
-    </task>
-    <task id="LOCAL-02127" summary="square_Add_creator_2 description">
-      <created>1554342067768</created>
-      <option name="number" value="02127" />
-      <option name="presentableId" value="LOCAL-02127" />
-      <option name="project" value="LOCAL" />
-      <updated>1554342067768</updated>
-    </task>
-    <task id="LOCAL-02128" summary="square_Add_creator_2 description">
-      <created>1554342106433</created>
-      <option name="number" value="02128" />
-      <option name="presentableId" value="LOCAL-02128" />
-      <option name="project" value="LOCAL" />
-      <updated>1554342106433</updated>
+      <workItem from="1559290990833" duration="1396000" />
     </task>
     <task id="LOCAL-02129" summary="square_Add_creator_2 description">
       <created>1554348707111</created>
@@ -1336,11 +1321,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559291430367</updated>
     </task>
-    <option name="localTasksCounter" value="2176" />
+    <task id="LOCAL-02176" summary="restrictSize test">
+      <created>1559292381807</created>
+      <option name="number" value="02176" />
+      <option name="presentableId" value="LOCAL-02176" />
+      <option name="project" value="LOCAL" />
+      <updated>1559292381807</updated>
+    </task>
+    <task id="LOCAL-02177" summary="restrictSize test">
+      <created>1559292629404</created>
+      <option name="number" value="02177" />
+      <option name="presentableId" value="LOCAL-02177" />
+      <option name="project" value="LOCAL" />
+      <updated>1559292629404</updated>
+    </task>
+    <option name="localTasksCounter" value="2178" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1393581000" />
+    <option name="totallyTimeSpent" value="1393897000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1825,8 +1824,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="464">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>

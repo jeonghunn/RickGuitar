@@ -34,14 +34,19 @@ interact('.resize-drag')
         restrict: {
             restriction: "parent",
             endOnly: true,
-            elementRect: {top: 0, left: 0, bottom: 0.75, right: 0.75}
+            elementRect: {top: 0, left: 0, bottom: 1, right: 1}
         },
 
     })
     .resizable({
         edges: {left: true, right: true, bottom: true, top: true},
         onmove: resizeMoveListener,
-
+        modifiers: [
+            interact.modifiers.restrictSize({
+                min: {width: 100, height: 100},
+                max: {width: 500, height: 500},
+            })
+        ]
     })
 
 
