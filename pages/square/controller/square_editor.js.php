@@ -35,7 +35,7 @@ interact('.resize-drag')
             restriction: "parent",
             endOnly: true,
             elementRect: {top: 0, left: 0, bottom: 1, right: 1}
-        }
+        },
         restrictSize: {
             min: {width: 10, height: 10},
             max: {width: 440, height: 440}
