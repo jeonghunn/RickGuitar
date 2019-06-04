@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="config update">
+    <list default="true" id="b9f34d3c-a45f-4aea-aaf3-7f3f29a24c0a" name="Default" comment="window size bug fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core" beforeDir="false" afterPath="$PROJECT_DIR$/core" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/square/controller/square.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/square/controller/square.class.php" afterDir="false" />
     </list>
     <ignored path="favoritecore.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,17 +46,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-284">
-              <caret line="188" column="38" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
+            <state relative-caret-position="150">
+              <caret line="186" column="22" lean-forward="true" selection-start-line="186" selection-start-column="11" selection-end-line="186" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="297" column="41" selection-start-line="297" selection-start-column="38" selection-end-line="297" selection-end-column="41" />
+            <state relative-caret-position="351">
+              <caret line="209" column="35" lean-forward="true" selection-start-line="209" selection-start-column="35" selection-end-line="209" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -79,18 +85,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/base.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="122" column="11" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
+            <state relative-caret-position="168">
               <caret line="243" column="147" selection-start-line="243" selection-start-column="147" selection-end-line="243" selection-end-column="147" />
             </state>
           </provider>
@@ -139,7 +136,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$target_path</find>
       <find>addAttachToCard</find>
       <find>#FileUploaderModal</find>
       <find>ColorPickerModal</find>
@@ -169,6 +165,7 @@
       <find>setSource</find>
       <find>dataTransfer</find>
       <find>768</find>
+      <find>resiz</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;?php</replace>
@@ -240,9 +237,9 @@
         <option value="$PROJECT_DIR$/core/base.php" />
         <option value="$PROJECT_DIR$/pages/square/controller/square.class.php" />
         <option value="$PROJECT_DIR$/pages/header.php" />
-        <option value="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" />
         <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/modules/square/controller/square.class.php" />
+        <option value="$PROJECT_DIR$/pages/square/controller/square_editor.js.php" />
       </list>
     </option>
   </component>
@@ -1144,20 +1141,6 @@
       <workItem from="1559213812441" duration="8029000" />
       <workItem from="1559290990833" duration="1725000" />
     </task>
-    <task id="LOCAL-02136" summary="square_Add_creator_2 description">
-      <created>1554348922629</created>
-      <option name="number" value="02136" />
-      <option name="presentableId" value="LOCAL-02136" />
-      <option name="project" value="LOCAL" />
-      <updated>1554348922630</updated>
-    </task>
-    <task id="LOCAL-02137" summary="square_Add_creator_2 description">
-      <created>1554349024708</created>
-      <option name="number" value="02137" />
-      <option name="presentableId" value="LOCAL-02137" />
-      <option name="project" value="LOCAL" />
-      <updated>1554349024708</updated>
-    </task>
     <task id="LOCAL-02138" summary="square_Add_creator_2 button">
       <created>1554349102283</created>
       <option name="number" value="02138" />
@@ -1487,11 +1470,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559327665160</updated>
     </task>
-    <option name="localTasksCounter" value="2185" />
+    <task id="LOCAL-02185" summary="notice update">
+      <created>1559328635651</created>
+      <option name="number" value="02185" />
+      <option name="presentableId" value="LOCAL-02185" />
+      <option name="project" value="LOCAL" />
+      <updated>1559328635651</updated>
+    </task>
+    <task id="LOCAL-02186" summary="window size bug fix">
+      <created>1559330110534</created>
+      <option name="number" value="02186" />
+      <option name="presentableId" value="LOCAL-02186" />
+      <option name="project" value="LOCAL" />
+      <updated>1559330110535</updated>
+    </task>
+    <option name="localTasksCounter" value="2187" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1400689000" />
+    <option name="totallyTimeSpent" value="1402690000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1508,7 +1505,7 @@
     <layout>
       <window_info id="UI Designer" order="0" />
       <window_info id="Favorites" order="1" sideWeight="0.24409449" side_tool="true" weight="0.23375931" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2832618" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.7559055" visible="true" weight="0.2832618" />
       <window_info id="Nl-Palette" order="3" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Palette&#9;" order="5" />
@@ -1527,8 +1524,8 @@
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32949308" />
-      <window_info anchor="bottom" id="File Transfer" order="13" sideWeight="0.5901288" weight="0.2908705" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.490701" visible="true" weight="0.3189189" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="13" sideWeight="0.5901288" visible="true" weight="0.29054055" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.490701" weight="0.3189189" />
       <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.3295583" />
       <window_info anchor="bottom" id="Database Changes" order="16" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="17" show_stripe_button="false" />
@@ -1600,8 +1597,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="square_Add_creator_2 description" />
-    <MESSAGE value="square_Add_creator_2 button" />
     <MESSAGE value="square_Add_creator_2 works" />
     <MESSAGE value="square_Add_creator_2 key" />
     <MESSAGE value="fix color picker bug" />
@@ -1625,7 +1620,9 @@
     <MESSAGE value="restriction test" />
     <MESSAGE value="resize feature" />
     <MESSAGE value="config update" />
-    <option name="LAST_COMMIT_MESSAGE" value="config update" />
+    <MESSAGE value="notice update" />
+    <MESSAGE value="window size bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="window size bug fix" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1830,13 +1827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1091">
-          <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/security.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1913,20 +1903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="188" column="38" selection-start-line="188" selection-start-column="38" selection-end-line="188" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="297" column="41" selection-start-line="297" selection-start-column="38" selection-end-line="297" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1963,8 +1939,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/square/controller/square.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
+        <state relative-caret-position="168">
           <caret line="243" column="147" selection-start-line="243" selection-start-column="147" selection-end-line="243" selection-end-column="147" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="186" column="22" lean-forward="true" selection-start-line="186" selection-start-column="11" selection-end-line="186" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_write.js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/square/controller/square_editor.js.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="209" column="35" lean-forward="true" selection-start-line="209" selection-start-column="35" selection-end-line="209" selection-end-column="35" />
         </state>
       </provider>
     </entry>
