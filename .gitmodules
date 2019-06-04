@@ -1,3 +1,6 @@
 [submodule "core"]
 	path = core
 	url = https://github.com/jeonghunn/Hello_Core.git
+[submodule "modules/page"]
+	path = modules/page
+	url = https://github.com/jeonghunn/Hello_Page.git
