@@ -1,18 +1,12 @@
 <?php require_once 'pages/header.php';
 
-<<<<
-<<< HEAD
 $creator_name = REQUEST();
 
 ?>
 
-=======
 $square_key = REQUEST('key');
 
-?>
 
-
->>>>>>> origin/develop
 <style>
 
 
@@ -151,4 +145,3 @@ $square_key = REQUEST('key');
     }
 
 </script>
->>>>>>> origin/develop
