@@ -57,16 +57,7 @@ $square_key = REQUEST('key');
     <!--      <h1 style="font-size: 36px; center;">HaruCore</h1>-->
     <br><br>
     <div class="jumbotron">
-<<<<<<< HEAD
-        <h1 class="display-4"></h1>
-        <p class="lead">어떤 형태의 카드를 만들 지 템플릿을 만들어주세요.</p>
-        <hr class="my-4">
-        <p>사용자마다 다른 값이 나올수 있는 부분은 변수 처리해야합니다. [[gender]] 와 같이 입력하면 추후에 [[gender]] 부분은 다른 값으로 대체하게 됩니다.</p>
-        <a class="btn btn-dark btn-lg" href="write?mode=template" role="button">카드 템플릿 만들기</a>
-    </div>
 
-</div>
-=======
         <h1 class="display-4">Step 3 : 생성기 메인 화면 만들기</h1>
         <p class="lead">사용자가 입력해야 하는 값이 있는 경우 필요한 항목을 만들 수 있습니다.</p>
     </div>
