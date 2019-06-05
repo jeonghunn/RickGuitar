@@ -1,10 +1,10 @@
 <?php require_once 'pages/header.php';
 
-$creator_name = REQUEST();
-
-?>
+//$creator_name = REQUEST();
 
 $square_key = REQUEST('key');
+
+?>
 
 
 <style>
