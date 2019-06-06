@@ -69,14 +69,14 @@ if($square_result['keep_square'] == 1) $SQUARE_CLASS -> KeepSquareStyle();
 
         <br>
         <button type="button" class="btn btn-outline-dark btn-lg" onclick="copyToClipboard(window.location.href)">
-            이 페이지 주소 복사
+            URL
         </button>
         <button type="button" class="btn btn-outline-dark btn-lg"
                 onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebook-share-dialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;">
-            페이스북으로 공유
+            f
         </button>
         <button type="button" class="btn btn-outline-dark btn-lg kakao" id="kakao-link-btn" onclick="sendLink()">
-            카카오톡으로 공유
+            카톡
         </button>
     <?php } ?>
 

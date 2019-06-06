@@ -58,8 +58,8 @@ $square_key = REQUEST('key');
     <br><br>
     <div class="jumbotron">
 
-        <h1 class="display-4">Step 3 : 생성기 메인 화면 만들기</h1>
-        <p class="lead">사용자가 입력해야 하는 값이 있는 경우 필요한 항목을 만들 수 있습니다.</p>
+        <h1 class="display-4">Step 3 : 변수에 값 설정</h1>
+        <p class="lead">변수로 지정한 항목에 어떤 내용이 들어가야 하는지 설정할 수 있습니다.</p>
     </div>
     <form action="add_creator_3" method="post" id="creatorform">
 

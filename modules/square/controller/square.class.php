@@ -348,7 +348,10 @@ class SquareClass
         echo json_encode($array);
     }
 
-
+//
+//
+//function getCardVariables($SQUARE_CARD_CLASS, $square_srl, null, "square"){
+//}
 }
       
 ?>
