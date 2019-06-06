@@ -68,7 +68,7 @@ importHeader(null);
     $("#signinform").keypress(function(event) {
         if (event.which == 13) {
             event.preventDefault();
-            validcheckandsubmit();
+            document.getElementById('signinform').submit();
         }
     });
 
