@@ -59,13 +59,22 @@ if ($mode == "template") {
     <h1 style="text-align: center;color: <?php getTitleColor() ?>;"
         class="animated fadeOut delay-2s"><?php echo $intro_title ?></h1>
 
-    <br></br>
-    <div class="outer">
-        <label for="exampleFormControlInput1">다음 채널에 작성</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="미입력시 비공개">
-    </div>
+
     <center>
 
+        <div class="outer">
+
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">작성할 채널</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input"
+                       aria-describedby="inputGroup-sizing-default" name="template_square_key" id="color_input"
+                       placeholder="미입력시 비공개">
+            </div>
+        </div>
+
+        <br></br>
             <div class="outer">
                 <div class="tablerow">
                     <div class="squarecard" id="contents_1" contentEditable="true" onclick="activeCard(1)"></div>
