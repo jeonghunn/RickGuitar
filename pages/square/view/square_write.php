@@ -60,6 +60,10 @@ if ($mode == "template") {
         class="animated fadeOut delay-2s"><?php echo $intro_title ?></h1>
 
     <br></br>
+    <div class="outer">
+        <label for="exampleFormControlInput1">다음 채널에 작성</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="미입력시 비공개">
+    </div>
     <center>
 
             <div class="outer">
