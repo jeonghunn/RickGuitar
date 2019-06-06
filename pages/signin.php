@@ -57,8 +57,11 @@ importHeader(null);
         <label>
             <input type="checkbox" value="remember-me"> <?php S('keep_signed_in'); ?>
         </label>
+        <label style="float:right;">
+           <a href="signup"><?php S('sign_up'); ?></a>
+        </label>
     </div>
-    <button class="btn btn-lg btn-primary btn-block" type="submit"
+    <button class="btn btn-lg btn-dark btn-block" type="submit"
     ><?php S('sign_in'); ?></button>
 </form>
 
