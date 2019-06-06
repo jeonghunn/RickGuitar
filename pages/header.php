@@ -76,7 +76,6 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="pages/js/popper.min.js"></script>
       <script src="pages/js/bootstrap.bundle.js"></script>
-      <link rel="stylesheet" href="pages/css/signin.css">
       <!--     Bootstrap ColorPicker -->
       <script src="pages/js/ColorPicker/bootstrap-colorpicker.js"></script>
       <link rel="stylesheet" href="pages/css/bootstrap-colorpicker.css">
