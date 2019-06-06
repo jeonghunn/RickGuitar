@@ -63,6 +63,7 @@ importHeader(null);
 </form>
 
 
+<script>
 
     $("#signinform").keypress(function(event) {
         if (event.which == 13) {
@@ -71,7 +72,7 @@ importHeader(null);
         }
     });
 
-//    signinform.addEventListener('iron-form-response', function(event) {
+    //    signinform.addEventListener('iron-form-response', function(event) {
 //        alert(event.detail.text);
 //    });
 
