@@ -47,7 +47,7 @@ importHeader(null);
 </style>
 
 <form class="form-signin" id="signinform" name="signinform"
-      action='<?php echo getClientUrl(true) . "index.php?a=loginact'"; ?>'>
+      action='<?php echo getClientUrl(true) . "index.php?a=signinact'"; ?>' method="post">
     <h1 class="h3 mb-3 font-weight-normal"><?php S('sign_in'); ?></h1>
     <label for="inputEmail" class="sr-only"><?php S('email'); ?></label>
     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
@@ -59,7 +59,7 @@ importHeader(null);
         </label>
     </div>
     <button class="btn btn-lg btn-primary btn-block" type="submit"
-            onclick="validcheckandsubmit();"><?php S('sign_in'); ?></button>
+    ><?php S('sign_in'); ?></button>
 </form>
 
 
@@ -76,27 +76,5 @@ importHeader(null);
 //        alert(event.detail.text);
 //    });
 
-    function validcheckandsubmit(){
-
-
-        document.getElementById('email').value = document.getElementById('email_form').value;
-
-        document.getElementById('password').value = document.getElementById('password_form').value;
-
-        document.getElementById('keep_signed_in').value = document.getElementById('keep_signed_in_form').checked;
-
-
-        document.getElementById('signinform').submit();
-
-
-        if(document.getElementById('email_form').value == '' || document.getElementById('password_form').value == ''){
-            document.querySelector('#sign_in_blank_error_toast').show();
-            return false;
-        }else{
-            document.getElementById('signinform').submit();
-
-            return false;
-        }
-    }
 
 </script>
