@@ -55,15 +55,17 @@ if(!CheckLogin()) {
 	//signup
 	if($act_parameter == "signupact"){
         $signupresult = PostAct(getAPISUrl(), array(array('a', 'account_sign_up'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('email', POST('email')), array('password', POST('password')),  array('name_2', explode("@", POST('email'))[0])));
+        alert_dialog($signupresult);
        $signupresult_array = json_decode($signupresult , true);
         if (strpos($signupresult, 'error') !== false) {
             alert_dialog(T('sign_up_'.$signupresult_array['message']));
             require_once 'pages/signup.php';
             setLoaded(true);
         }else{
-            $act_parameter = "loginact"; //login now
+            $act_parameter = "signinact"; //login now
 
 		}
+
 	}
 
 

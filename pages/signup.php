@@ -46,19 +46,19 @@ importHeader(null);
     }
 </style>
 
-<form class="form-signup" id="signupform" name="signupform"
+<form class="form-signin" id="signupform" name="signupform"
       action='<?php echo getClientUrl(true) . "index.php?a=signupact'"; ?>' method="post">
     <h1 class="h3 mb-3 font-weight-normal"><?php S('sign_up'); ?></h1>
     <label for="inputEmail" class="sr-only"><?php S('email'); ?></label>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
     <label for="inputPassword" class="sr-only"><?php S('password'); ?></label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <input type="password" id="inputPassword" name="password"  class="form-control" placeholder="Password" required>
     <div class="checkbox mb-3">
         <label>
             <input type="checkbox" value="remember-me"> <?php S('keep_signed_in'); ?>
         </label>
     </div>
-    <button class="btn btn-lg btn-primary btn-block" type="submit"
+    <button class="btn btn-lg btn-dark btn-block" type="submit"
     ><?php S('sign_up'); ?></button>
 </form>
 

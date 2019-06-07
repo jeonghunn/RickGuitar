@@ -139,7 +139,7 @@ class SquareClass
 
 //require attach_class.php
 
-    function Write($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $keep_square, $square_cards, $permission, $status, $privacy)
+    function Write($SQUARE_CARD_CLASS, $PAGE_CLASS, $ATTACH_CLASS, $PUSH_CLASS, $page_srl, $user_srl, $title, $content, $type, $data, $keep_square, $square_cards, $permission, $status, $privacy, $channel)
     {
 //Check Value security
 //        security_value_check($title);
@@ -201,7 +201,7 @@ class SquareClass
             $attach_result = $ATTACH_CLASS->attach_file("square", $page_srl, $last_number, $user_srl, $status);
 
 
-            $result = Model_Square_Write($square_key, $page_srl, $user_srl, $name, $title, $content, $type, $data, $keep_square, $permission, $status, $privacy, $attach_result);
+            $result = Model_Square_Write($square_key, $page_srl, $user_srl ,$channel,  $name, $title, $content, $type, $data, $keep_square, $permission, $status, $privacy, $attach_result);
 
             //  if (getIPAddr() != $page_info['ip_addr']) $PAGE_CLASS -> updatePopularity($user_srl, $page_srl, 1);
 //Set last update

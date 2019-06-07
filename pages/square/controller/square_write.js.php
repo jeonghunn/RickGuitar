@@ -122,7 +122,8 @@ function writeAct() {
             "status": status,
             "keep_square": document.getElementById("keep_square").checked ? 1 : 0,
             "type": "square",
-            "square_cards": square_cards
+            "square_cards": square_cards,
+            "channel": document.getElementById("channel_input").value
         },
         success: function (data) {
             setProcessing(false);

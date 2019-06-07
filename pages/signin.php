@@ -50,9 +50,9 @@ importHeader(null);
       action='<?php echo getClientUrl(true) . "index.php?a=signinact'"; ?>' method="post">
     <h1 class="h3 mb-3 font-weight-normal"><?php S('sign_in'); ?></h1>
     <label for="inputEmail" class="sr-only"><?php S('email'); ?></label>
-    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+    <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required autofocus>
     <label for="inputPassword" class="sr-only"><?php S('password'); ?></label>
-    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
     <div class="checkbox mb-3">
         <label>
             <input type="checkbox" value="remember-me"> <?php S('keep_signed_in'); ?>
