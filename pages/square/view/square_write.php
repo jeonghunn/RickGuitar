@@ -69,7 +69,7 @@ if ($mode == "template") {
                     <span class="input-group-text" id="inputGroup-sizing-default">작성할 채널</span>
                 </div>
                 <input type="text" class="form-control" aria-label="Sizing example input"
-                       aria-describedby="inputGroup-sizing-default" name="template_square_key" id="color_input"
+                       aria-describedby="inputGroup-sizing-default" name="template_square_key"
                        placeholder="미입력시 비공개" id="channel_input">
             </div>
         </div>
