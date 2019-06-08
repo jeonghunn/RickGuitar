@@ -9,7 +9,7 @@
 
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
-        define(['jquery', 'handlebars/runtime', 'medium-editor', 'blueimp-file-upload', 'jquery-sortable'], factory);
+        define(['pages/asset/js/jquery', 'handlebars/runtime', 'pages/js/medium-editor', 'blueimp-file-upload', 'jquery-sortable'], factory);
     } else if (typeof module === 'object' && module.exports) {
         module.exports = function (jQuery) {
             if (typeof window === 'undefined') {
@@ -17,12 +17,12 @@
             }
 
             if (jQuery === undefined) {
-                jQuery = require('jquery');
+                jQuery = require('pages/asset/js/jquery');
             }
             window.jQuery = jQuery;
 
             Handlebars = require('handlebars/runtime');
-            MediumEditor = require('medium-editor');
+            MediumEditor = require('pages/asset/js/medium-editor');
             require('jquery-sortable');
             require('blueimp-file-upload');
 

@@ -17,7 +17,7 @@
     if (typeof define === 'function' && define.amd) {
         // Register as an anonymous AMD module:
         define([
-            'jquery',
+            'pages/asset/js/jquery',
             'blueimp-tmpl',
             './jquery.fileupload-image',
             './jquery.fileupload-audio',
@@ -27,7 +27,7 @@
     } else if (typeof exports === 'object') {
         // Node/CommonJS:
         factory(
-            require('jquery'),
+            require('pages/asset/js/jquery'),
             require('blueimp-tmpl'),
             require('./jquery.fileupload-image'),
             require('./jquery.fileupload-audio'),

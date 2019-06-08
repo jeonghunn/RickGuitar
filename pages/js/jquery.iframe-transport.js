@@ -15,10 +15,10 @@
     'use strict';
     if (typeof define === 'function' && define.amd) {
         // Register as an anonymous AMD module:
-        define(['jquery'], factory);
+        define(['pages/asset/js/jquery'], factory);
     } else if (typeof exports === 'object') {
         // Node/CommonJS:
-        factory(require('jquery'));
+        factory(require('pages/asset/js/jquery'));
     } else {
         // Browser globals:
         factory(window.jQuery);

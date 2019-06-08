@@ -17,13 +17,13 @@
     if (typeof define === 'function' && define.amd) {
         // Register as an anonymous AMD module:
         define([
-            'jquery',
+            'pages/asset/js/jquery',
             'jquery-ui/ui/widget'
         ], factory);
     } else if (typeof exports === 'object') {
         // Node/CommonJS:
         factory(
-            require('jquery'),
+            require('pages/asset/js/jquery'),
             require('./vendor/jquery.ui.widget')
         );
     } else {

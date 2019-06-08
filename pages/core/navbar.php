@@ -13,15 +13,15 @@
 
 
 
-                <a class="nav-link" href="birthday"><?php S('birthday') ?></a>
+                <a class="nav-link" href="../modules/birthday"><?php S('birthday') ?></a>
             </li>
 
         </ul>
         <ul class="navbar-nav">
 
-        <?php if (isDevelopmentServer()) echo "<li class=\"nav-item\"><a  class=\"nav-link\" href=\"info\">Development Server</a></li>" ?>
+        <?php if (isDevelopmentServer()) echo ">Development Server</a></li>" ?>
 
-
+        <?php  if (CheckLogin()) echo ">" .$user_auth."</a></li>" ?>
 
         </ul>
 

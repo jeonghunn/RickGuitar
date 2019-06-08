@@ -1,17 +1,9 @@
 <?php
 define('642979',   TRUE);
 
-
-//HTTPS
-//if (!isset($_SERVER['HTTPS'])) {
-//    header('Location: https://'.$_SERVER["HTTP_HOST"].$_SERVER['REQUEST_URI']);
-//}
-
-
-//LOAD
-
  require_once 'pages/base.php';
 require_once 'pages/lib/lib.loader.php'; //Load library
+
 //Variable
 $page_srl = GET('p');
 $act_parameter = GET('a');
@@ -24,7 +16,6 @@ if(isset($_COOKIE['AT'])){
 }
 $user_auth = $_SESSION['user_auth'];
 if(strpos(REQUEST('keep_signed_in'), 'true') !== false)  setcookie('AT', $user_auth, time()+(60*60*24*100) );
-
 //Logout
 if($act_parameter == "logout") {
     session_destroy();
@@ -91,7 +82,7 @@ $user_auth = PostAct(getAPISUrl(), array(array('a', 'account_auth'), array('apiv
 setLoaded(true);
 	}
 	
-	if($act_parameter == "login") {
+	if($act_parameter == "signin") {
         require_once 'pages/signin.php';
 		setLoaded(true);
 }

@@ -17,7 +17,7 @@
     if (typeof define === 'function' && define.amd) {
         // Register as an anonymous AMD module:
         define([
-            'jquery',
+            'pages/asset/js/jquery',
             'load-image',
             'load-image-meta',
             'load-image-scale',
@@ -28,7 +28,7 @@
     } else if (typeof exports === 'object') {
         // Node/CommonJS:
         factory(
-            require('jquery'),
+            require('pages/asset/js/jquery'),
             require('blueimp-load-image/js/load-image'),
             require('blueimp-load-image/js/load-image-meta'),
             require('blueimp-load-image/js/load-image-scale'),

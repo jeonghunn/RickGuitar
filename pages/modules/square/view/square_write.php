@@ -56,9 +56,11 @@ if ($mode == "template") {
 <!-- html -->
 <div class="container">
 
-    <h1 style="text-align: center;color: <?php getTitleColor() ?>;"
-        class="animated fadeOut delay-2s"><?php echo $intro_title ?></h1>
+    <?php if ($mode == "template") { ?>
+    <h3 style="text-align: center;color: <?php getTitleColor() ?>;"
+        class="animated"><?php echo $intro_title ?></h3>
 
+<?php } ?>
 
     <center>
 
@@ -66,7 +68,7 @@ if ($mode == "template") {
 
             <div class="input-group mb-3">
                 <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroup-sizing-default">작성할 채널</span>
+                    <span class="input-group-text" id="inputGroup-sizing-default">채널</span>
                 </div>
                 <input type="text" class="form-control" aria-label="Sizing example input"
                        aria-describedby="inputGroup-sizing-default" name="template_square_key"
