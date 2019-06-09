@@ -125,7 +125,7 @@ if ($act_parameter != null && !$loaded) {
     $square_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_read'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('square_key', $square_key))), true);
 //if null
     if ($square_result['square_key'] != null) {
-        require_once 'pages//modules/square/view/square_view.php';
+        require_once 'pages/modules/square/view/square_view.php';
 
         setLoaded(true);
     }
@@ -142,7 +142,7 @@ if ($act_parameter != null && !$loaded) {
     // $square_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_read'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('square_key', $square_key))), true);
 //if null
     if (count($collection_result) > 0) {
-        require_once 'pages//modules/square/view/square_collection.php';
+        require_once 'pages/modules/square/view/square_collection.php';
 
         setLoaded(true);
     }

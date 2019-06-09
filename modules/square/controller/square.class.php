@@ -252,7 +252,7 @@ class SquareClass
     }
 
 
-    function getCollection($PAGE_CLASS, $ATTACH_CLASS,$channel, $user_srl, $name, $start, $number, $info, $attach_info)
+    function getCollection($PAGE_CLASS, $ATTACH_CLASS,$channel, $user_srl, $start, $number, $info, $attach_info)
     {
 
         // $other_srl = 0;
