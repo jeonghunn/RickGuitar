@@ -252,7 +252,7 @@ class SquareClass
     }
 
 
-    function getCollection($PAGE_CLASS, $ATTACH_CLASS, $user_srl, $name, $start, $number, $info, $attach_info)
+    function getCollection($PAGE_CLASS, $ATTACH_CLASS,$channel, $user_srl, $name, $start, $number, $info, $attach_info)
     {
 
         // $other_srl = 0;
@@ -264,10 +264,10 @@ class SquareClass
 
         if ($name == "new") {
 
-            $row = Model_Square_getLastUpdates($status, $user_srl, $start, $number);
+            $row = Model_Square_getLastUpdates_ByChannel($status, $user_srl, $start, $number, $channel);
 
 
-            if ($attach_info != null) {
+
                 $total = mysqli_num_rows($row);
 
                 for ($i = 0; $i < $total; $i++) {
@@ -281,7 +281,7 @@ class SquareClass
                 }
             }
 
-        }
+
 
 
         // if ($doc_page_srl_info['status'] > $status || $doc_page_srl_info == null) $array = false;
