@@ -70,28 +70,28 @@
 
       </script>
     <!-- Bootstrap core CSS -->
-    <link href="pages/css/bootstrap.css" rel="stylesheet">
+    <link href="pages/asset/css/bootstrap.css" rel="stylesheet">
 
 
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="pages/js/popper.min.js"></script>
       <script src="pages/js/bootstrap.bundle.js"></script>
-      <link rel="stylesheet" href="pages/css/signin.css">
+      <link rel="stylesheet" href="pages/asset/css/signin.css">
       <!--     Bootstrap ColorPicker -->
       <script src="pages/js/ColorPicker/bootstrap-colorpicker.js"></script>
-      <link rel="stylesheet" href="pages/css/bootstrap-colorpicker.css">
-      <link rel="stylesheet" href="pages/css/pickr.min.css"/>
+      <link rel="stylesheet" href="pages/asset/css/bootstrap-colorpicker.css">
+      <link rel="stylesheet" href="pages/asset/css/pickr.min.css"/>
       <!--     font -->
       <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
       <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
 
       <!--      Icons-->
-      <link rel="stylesheet" href="pages/css/iconic/open-iconic-bootstrap.css">
+      <link rel="stylesheet" href="pages/asset/css/iconic/open-iconic-bootstrap.css">
 
       <!--     Medium Editor -->
-      <link rel="stylesheet" href="pages/css/medium-editor.css">
-      <link rel="stylesheet" href="pages/css/beagle.css">
+      <link rel="stylesheet" href="pages/asset/css/medium-editor.css">
+      <link rel="stylesheet" href="pages/asset/css/beagle.css">
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
 
 
@@ -297,5 +297,5 @@
   <body>
 
 
-  <?php if(REQUEST('nav') != 'false') require_once 'pages/navbar.php'; ?>
+  <?php if(REQUEST('nav') != 'false') require_once 'pages/core/navbar.php'; ?>
 

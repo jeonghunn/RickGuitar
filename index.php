@@ -1,7 +1,7 @@
 <?php
 define('642979',   TRUE);
 
- require_once 'pages/base.php';
+ require_once 'pages/core/base.php';
 require_once 'pages/lib/lib.loader.php'; //Load library
 
 //Variable
@@ -101,19 +101,19 @@ setLoaded(true);
 
 //Guest, User all can
 if (getActParameter() == "") $act_parameter = "home";
-LoadPages("home", "square/view/square_main", false);
-LoadPages("error", "error", false);
-LoadPages("info", "info/view/info", false);
-LoadPages("license", "info/view/license", false);
+LoadPages("home", "modules/square/view/square_main", false);
+LoadPages("error", "core/error", false);
+LoadPages("info", "modules/info/view/info", false);
+LoadPages("license", "modules/info/view/license", false);
 LoadPages("infodetail", "infodetail", false);
-LoadPages("signup", "signup", false);
-LoadPages("new", "square/view/square_collection", false);
-LoadPages("write", "square/view/square_write", false);
-LoadPages("birthday", "birthday/view/birthday_write", false);
-LoadPages("add_creator", "square/view/square_add_creator", false);
-LoadPages("add_creator_1", "square/view/square_add_creator_1", false);
-LoadPages("add_creator_2", "square/view/square_add_creator_2", false);
-LoadPages("add_creator_3", "square/view/square_add_creator_3", false);
+LoadPages("signup", "account/view/signup", false);
+LoadPages("new", "modules/square/view/square_collection", false);
+LoadPages("write", "modules/square/view/square_write", false);
+LoadPages("birthday", "modules/birthday/view/birthday_write", false);
+LoadPages("add_creator", "modules/square/view/square_add_creator", false);
+LoadPages("add_creator_1", "modules/square/view/square_add_creator_1", false);
+LoadPages("add_creator_2", "modules/square/view/square_add_creator_2", false);
+LoadPages("add_creator_3", "modules/square/view/square_add_creator_3", false);
 //API
 	    LoadPages("api_main", "api/api_main", false);
 		LoadPages("api_add", "api/api_add", true);

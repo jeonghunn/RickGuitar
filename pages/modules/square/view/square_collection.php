@@ -60,7 +60,7 @@ importHeader(null);
 
 
 <!--style-->
-<link rel="stylesheet" href="pages/css/main.css">
+<link rel="stylesheet" href="pages/asset/css/main.css">
 
 
 <!-- html -->

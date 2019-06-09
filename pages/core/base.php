@@ -43,7 +43,7 @@ function getAPIKey(){
 
 function importHeader($html_title)
 {
-    require_once 'pages/header.php';
+    require_once 'pages/core/header.php';
 }
 
 function getCorePUrl(){

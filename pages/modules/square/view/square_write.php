@@ -12,7 +12,7 @@ if ($mode == "template") {
 ?>
 
 <!--ColorPicker Style-->
-<link rel="stylesheet" href="pages/css/jquery.fileupload.css">
+<link rel="stylesheet" href="pages/asset/css/jquery.fileupload.css">
 <style>
     .colorpicker-2x.colorpicker-with-alpha {
         width: 272px;
