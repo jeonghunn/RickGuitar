@@ -10,7 +10,7 @@ importHeader();
 <br><br>
       <center><h3 stlye="font-size: 21px;"><?php S('error_'.$error_code.'_error_des')?></h3>
 <div style="margin-top: 5%; margin-left: 30%; margin-right:30%;">
-<img src="pages/images/<?php echo $error_code; ?>_error.png" width="70%"></img>
+<img src="pages/asset/images/<?php echo $error_code; ?>_error.png" width="70%"></img>
   </div>
 </center>
     </div> <!-- /container -->
