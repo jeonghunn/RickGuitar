@@ -107,7 +107,6 @@ LoadPages("info", "modules/info/view/info", false);
 LoadPages("license", "modules/info/view/license", false);
 LoadPages("infodetail", "infodetail", false);
 LoadPages("signup", "account/view/signup", false);
-LoadPages("new", "modules/square/view/square_collection", false);
 LoadPages("write", "modules/square/view/square_write", false);
 LoadPages("birthday", "modules/birthday/view/birthday_write", false);
 LoadPages("add_creator", "modules/square/view/square_add_creator", false);
@@ -127,6 +126,23 @@ if ($act_parameter != null && !$loaded) {
 //if null
     if ($square_result['square_key'] != null) {
         require_once 'pages//modules/square/view/square_view.php';
+
+        setLoaded(true);
+    }
+
+
+}
+
+//Channel
+if ($act_parameter != null && !$loaded) {
+
+
+    $collection_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_collection'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('name', $act_parameter), array('start_num', 0), array('number', 24))), true);
+
+    // $square_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_read'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('square_key', $square_key))), true);
+//if null
+    if (count($collection_result) > 0) {
+        require_once 'pages//modules/square/view/square_collection.php';
 
         setLoaded(true);
     }
