@@ -1,5 +1,5 @@
 <?php
-require_once 'pages/square/square.loader.php';
+require_once 'pages/modules/square/square.loader.php';
 
 
 $square_data = json_decode($square_result['data'], true);

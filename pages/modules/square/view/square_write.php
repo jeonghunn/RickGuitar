@@ -1,5 +1,5 @@
 <?php
-require_once 'pages/square/square.loader.php';
+require_once 'pages/modules/square/square.loader.php';
 require_once 'pages/header.php';
 
 $mode = REQUEST('mode');
@@ -460,9 +460,9 @@ if ($mode == "template") {
 
 
 
-    <?php require_once 'pages/square/controller/square_write.js.php'; ?>
-    <?php require_once 'pages/square/controller/square_editor.js.php'; ?>
-    <?php require_once 'pages/square/controller/square_uploader.js.php'; ?>
+    <?php require_once 'pages/modules/square/controller/square_write.js.php'; ?>
+    <?php require_once 'pages/modules/square/controller/square_editor.js.php'; ?>
+    <?php require_once 'pages/modules/square/controller/square_uploader.js.php'; ?>
 
 
 </script>

@@ -8,7 +8,7 @@
 
 
 //load class
-require_once 'pages/square/controller/square.class.php';
+require_once 'pages/modules/square/controller/square.class.php';
 
 
 //load apis
