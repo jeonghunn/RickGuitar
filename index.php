@@ -139,7 +139,7 @@ if ($act_parameter != null && !$loaded) {
 function checkLoaded(){
 	global $loaded;
 	$error_code = 404;
-	if(!$loaded) require 'pages/error.php'; 
+	if(!$loaded) require 'pages/core/error.php';
 }
 
 

@@ -40,13 +40,13 @@ class SquareApiClass{
         $name = REQUEST('name');
         $start_num = REQUEST('start_num');
         $number = REQUEST('number');
-        $channel = REQUEST('channel');
+     //   $channel = REQUEST('channel');
 
         $square_info = array('square_key', 'page_srl', 'user_srl', 'name', 'title', 'content', 'type', 'data', 'date', 'status', 'attach', 'square_cards');
         $attach_info = array('category', 'filename', 'extension', 'filevalue', 'size', 'date');
 
 
-        $List = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $channel,$user_srl, $name, $start_num, $number, $square_info, $attach_info);
+        $List = $SQUARE_CLASS->getCollection($PAGE_CLASS, $ATTACH_CLASS, $name,$user_srl, $name, $start_num, $number, $square_info, $attach_info);
         print_array($List);
 
 
