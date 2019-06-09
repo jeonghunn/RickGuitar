@@ -1,6 +1,6 @@
 <?php
 require_once 'pages/modules/square/square.loader.php';
-require_once 'pages/header.php';
+importHeader(null);
 
 $mode = REQUEST('mode');
 $intro_title = T('write_intro');

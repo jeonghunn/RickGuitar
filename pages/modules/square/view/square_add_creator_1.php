@@ -1,4 +1,4 @@
-<?php require_once 'pages/header.php'; ?>
+<?php importHeader(null ?>
 
 <style>
 

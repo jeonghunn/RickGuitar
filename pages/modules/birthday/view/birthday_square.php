@@ -41,7 +41,7 @@ $lifehour = floor($lifetime / 60);
 $lifemin = $lifetime % 60;
 
 $html_title = $birthday_name . "님의 생일";
-require_once 'pages/header.php';
+importHeader(null);
 
 function remain($d)
 {

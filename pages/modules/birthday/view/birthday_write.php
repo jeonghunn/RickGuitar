@@ -1,7 +1,7 @@
 <?php
 require_once 'pages/birthday/birthday.loader.php';
 $html_title = T('birthday');
-require_once 'pages/header.php'; ?>
+importHeader(null); ?>
 <link rel="image_src" href="pages/images/birthday_image.jpg"/>
 
 
