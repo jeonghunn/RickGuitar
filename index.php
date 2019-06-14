@@ -50,7 +50,7 @@ if(!CheckLogin()) {
        $signupresult_array = json_decode($signupresult , true);
         if (strpos($signupresult, 'error') !== false) {
             alert_dialog(T('sign_up_'.$signupresult_array['message']));
-            require_once 'pages/signup.php';
+            require_once 'pages/modules/account/view/signup.php';
             setLoaded(true);
         }else{
             $act_parameter = "signinact"; //login now
@@ -81,23 +81,17 @@ $user_auth = PostAct(getAPISUrl(), array(array('a', 'account_auth'), array('apiv
 }
 setLoaded(true);
 	}
-	
-	if($act_parameter == "signin") {
-        require_once 'pages/signin.php';
-		setLoaded(true);
-}
+//
+//	if($act_parameter == "signin") {
+//        require_once 'pages/modules/account/view/signin.php';
+//		setLoaded(true);
+//}
 
 
 }
 
 
-//Profile
-		if($act_parameter == null && $page_srl != null){
-		$page_info = getPageInfo($page_srl);
-$page_name = SetUserName($page_info['lang'], $page_info['name_1'], $page_info['name_2']);
-            require_once 'pages/modules/account/view/signup.php';
-setLoaded(true);
-}
+
 
 //Guest, User all can
 if (getActParameter() == "") $act_parameter = "home";
@@ -106,7 +100,8 @@ LoadPages("error", "core/error", false);
 LoadPages("info", "modules/info/view/info", false);
 LoadPages("license", "modules/info/view/license", false);
 LoadPages("infodetail", "infodetail", false);
-LoadPages("signup", "account/view/signup", false);
+LoadPages("signin", "modules/account/view/signin", false);
+LoadPages("signup", "modules/account/view/signup", false);
 LoadPages("write", "modules/square/view/square_write", false);
 LoadPages("birthday", "modules/birthday/view/birthday_write", false);
 LoadPages("add_creator", "modules/square/view/square_add_creator", false);
