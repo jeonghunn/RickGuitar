@@ -169,7 +169,7 @@ setLoaded(true);
 }
 
 function SettoLogin(){
-	echo "<meta http-equiv='refresh' content='0;url=login'>";
+	echo "<meta http-equiv='refresh' content='0;url=signin'>";
 	setLoaded(true);
 }
 
