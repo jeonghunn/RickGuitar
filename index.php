@@ -69,7 +69,7 @@ session_start();
 $user_auth = PostAct(getAPISUrl(), array(array('a', 'account_auth'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('email', POST('email')), array('password', POST('password'))));
         if (strpos($user_auth, 'error') !== false) {
             alert_dialog(T('login_failed_des'));
-            require_once 'pages/signin.php';
+            require_once 'pages/modules/account/view/signin.php';
 }else{
             $_SESSION['user_auth'] = $user_auth;
 
@@ -95,7 +95,7 @@ setLoaded(true);
 		if($act_parameter == null && $page_srl != null){
 		$page_info = getPageInfo($page_srl);
 $page_name = SetUserName($page_info['lang'], $page_info['name_1'], $page_info['name_2']);
-require 'pages/profile.php'; 
+            require_once 'pages/modules/account/view/signup.php';
 setLoaded(true);
 }
 

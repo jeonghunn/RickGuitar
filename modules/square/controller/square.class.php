@@ -262,7 +262,7 @@ class SquareClass
         $row = null;
 
 
-        if ($name == "new") {
+
 
             $row = Model_Square_getLastUpdates_ByChannel($status, $user_srl, $start, $number, $channel);
 
@@ -279,7 +279,7 @@ class SquareClass
 
                     $array[] = array_info_match($result, $info);
                 }
-            }
+
 
 
 

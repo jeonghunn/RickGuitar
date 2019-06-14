@@ -29,7 +29,7 @@ function Model_Square_getLastUpdates($status, $user_srl, $start, $number)
 
 function Model_Square_getLastUpdates_ByChannel($status, $user_srl, $start, $number, $channel)
 {
-    return DBQuery("SELECT * FROM  `square` WHERE `status` LIKE '$channel' AND (`status` LIKE '0' OR (`user_srl` =$user_srl AND `status` < 5 AND `user_srl` != 0)) ORDER BY  `square`.`srl` DESC LIMIT $start , $number");
+    return DBQuery("SELECT * FROM  `square` WHERE `channel` LIKE '$channel' AND (`status` LIKE '0' OR (`user_srl` =$user_srl AND `status` < 5 AND `user_srl` != 0)) ORDER BY  `square`.`srl` DESC LIMIT $start , $number");
 }
 
 

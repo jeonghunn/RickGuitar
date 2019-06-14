@@ -19,9 +19,9 @@
         </ul>
         <ul class="navbar-nav">
 
-        <?php if (isDevelopmentServer()) echo ">Development Server</a></li>" ?>
+        <?php if (isDevelopmentServer()) echo "<a class=\"nav-link\" href=\"info\">Development Server</a></li>" ?>
 
-        <?php  if (CheckLogin()) echo ">" .$user_auth."</a></li>" ?>
+        <?php  if (CheckLogin()) echo "<a class=\"nav-link\" href=\"logout\"" .$user_auth."</a></li>" ?>
 
         </ul>
 

@@ -70,7 +70,7 @@ importHeader(null);
 
 
 
-        <h2>새로운 업데이트</h2>
+        <h2>#<?php echo $act_parameter ?></h2>
         <br>
 
 
