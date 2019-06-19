@@ -122,6 +122,7 @@
          body {
 
               display: block;
+             background-image: "pages/asset/images/rick.png";
           }
 
          .cardtextarea {
@@ -148,27 +149,7 @@
          }
 
 
-         .squarecard {
-             /* Add shadows to create the "card" effect */
-             box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-             font-family: 'Roboto', 'Noto', sans-serif;
-             background-color: #FFFFFF;
-             transition: 0.3s;
-             /*   border-radius: 16px; 5px rounded corners */
-             width: 440px;
-             height: 440px;
-             padding-left: 24px;
-             padding-right: 24px;
-             padding-bottom: 24px;
-             padding-top: 16px;
-             font-size: 24px;
 
-             word-break: break-all;
-             display: table-cell;
-
-             vertical-align: middle; /* fixed with a valid value*/
-
-         }
 
 
           /* On mouse-over, add a deeper shadow */
@@ -282,7 +263,9 @@
               line-height: 1.5;
               min-height: 100vh;
               /*background-color: #eeeeee;*/
-              background-image: linear-gradient(0deg, #FFFFFF, #f8f9fa);
+              background-image: url("pages/asset/images/rick.png");
+              background-position: right top;
+              background-repeat: no-repeat;
           }
 
 

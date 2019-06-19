@@ -18,6 +18,14 @@
           <option name="port" value="6273" />
         </fileTransfer>
       </webServer>
+      <webServer id="b4c00a48-4527-462d-b0f6-6e1b935fa413" name="RickDevelopServer" url="http://unopenedbox.com">
+        <fileTransfer host="unopenedbox.com" port="6273" privateKey="$PROJECT_DIR$/../tark/tarks.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true" username="ubuntu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="6273" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

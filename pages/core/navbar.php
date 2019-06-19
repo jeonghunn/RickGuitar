@@ -1,7 +1,7 @@
 <div id="blurryscroll" aria-hidden="true"></div>
 <!-- Static navbar -->
 <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="home" style=" font-weight: bold;"><?php S('app_full_name') ?></a>
+    <a class="navbar-brand" href="index.php?a=home" style=" font-weight: bold;"><?php S('app_full_name') ?></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -13,7 +13,6 @@
 
 
 
-                <a class="nav-link" href="birthday"><?php S('birthday') ?></a>
             </li>
 
 
@@ -21,13 +20,12 @@
         </ul>
         <ul class="navbar-nav">
 
-            <?php  if (!CheckLogin()){
-               if(getActParameter() != "signin") echo "<li class=\"nav-item\"><a class=\"nav-link\" href=\"signin\">" .T('sign_in')."</a></li>";
-            }else{
-                echo "<li class=\"nav-item\"><a class=\"nav-link\" href=\"logout\">" .$user_info['name_2']."</a></li>";
-            }  ?>
 
-        <?php if (isDevelopmentServer()) echo " <li class=\"nav-item\"><a class=\"nav-link\" href=\"info\">Development Server</a></li>" ?>
+
+        <?php
+        echo "<li class=\"nav-item\"><a class=\"nav-link\" href=\"#\" onclick='openUpdateModal(4)'>검색</a></li>";
+
+        if (isDevelopmentServer()) echo " <li class=\"nav-item\"><a class=\"nav-link\" href=\"info\">Development Server</a></li>" ?>
 
 
 

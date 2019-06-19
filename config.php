@@ -15,7 +15,7 @@ $DEVELOPMENT_MODE = false;
 require_once 'db_config.php';
 
 //Import Modules
-$IMPORT_MODULE = array('settings', 'main', 'account', 'board', 'page', 'notification', 'attach', 'square');
+$IMPORT_MODULE = array( 'rick', 'account', 'page');
 
 
 ?>

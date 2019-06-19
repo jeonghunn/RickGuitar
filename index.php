@@ -33,7 +33,7 @@ if($act_parameter == "logout") {
 require_once "pages/lang/".getLang().".php";
 
 
-$user_info = json_decode(PostAct(getAPIUrl(),  array(array('a', 'my_page_info'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', $user_auth), array('page_info', 'user_srl//tarks_account//admin//name_1//name_2//gender//birthday//country_code//phone_number//join_day//profile_pic//profile_update//lang//country//like_me//favorite//rel_you_status//rel_me_status'))), true);
+$user_info = json_decode(PostAct(getAPIUrl(),  array(array('a', 'my_page_info'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', $user_auth))), true);
 
 $user_srl = $user_info['srl'];
 $user_name = SetUserName($user_info['lang'], $user_info['name_1'], $user_info['name_2']);
@@ -95,19 +95,14 @@ setLoaded(true);
 
 //Guest, User all can
 if (getActParameter() == "") $act_parameter = "home";
-LoadPages("home", "modules/square/view/square_main", false);
+LoadPages("home", "modules/rick/view/rick_main", false);
 LoadPages("error", "core/error", false);
 LoadPages("info", "modules/info/view/info", false);
 LoadPages("license", "modules/info/view/license", false);
 LoadPages("infodetail", "infodetail", false);
 LoadPages("signin", "modules/account/view/signin", false);
 LoadPages("signup", "modules/account/view/signup", false);
-LoadPages("write", "modules/square/view/square_write", false);
-LoadPages("birthday", "modules/birthday/view/birthday_write", false);
-LoadPages("add_creator", "modules/square/view/square_add_creator", false);
-LoadPages("add_creator_1", "modules/square/view/square_add_creator_1", false);
-LoadPages("add_creator_2", "modules/square/view/square_add_creator_2", false);
-LoadPages("add_creator_3", "modules/square/view/square_add_creator_3", false);
+
 //API
 	    LoadPages("api_main", "api/api_main", false);
 		LoadPages("api_add", "api/api_add", true);
@@ -120,7 +115,7 @@ if ($act_parameter != null && !$loaded) {
     $square_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_read'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('square_key', $square_key))), true);
 //if null
     if ($square_result['square_key'] != null) {
-        require_once 'pages/modules/square/view/square_view.php';
+        require_once 'pages/modules/rick/view/square_view.php';
 
         setLoaded(true);
     }
@@ -137,7 +132,7 @@ if ($act_parameter != null && !$loaded) {
     // $square_result = json_decode(PostAct(getAPISUrl(), array(array('a', 'square_read'), array('apiv', getAPIVersion()), array('api_key', getAPIKey()), array('auth', getUserAuth()), array('square_key', $square_key))), true);
 //if null
     if (count($collection_result) > 0) {
-        require_once 'pages/modules/square/view/square_collection.php';
+        require_once 'pages/modules/rick/view/square_collection.php';
 
         setLoaded(true);
     }
